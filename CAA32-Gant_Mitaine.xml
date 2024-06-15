@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="CAA32_Gan_Mitaine">À l'un le gan et l'autre la mitaine</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Unique témoin connnu à ce jour.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change><date>14-09-2023</date>Encodage de type 1.</change>
+         <change><date>16-09-2023</date>Encodage de type 2. Correction et ajout des sauts
+            logiques.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris Bibliothèque nationale de France</settlement>
+                  <repository>Recueil Gueffier</repository>
+                  <idno>ms. 2964</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <pb n="114r"/>
+         <l>Je me rens <reg>à</reg> vous <roleName>cappitaine</roleName></l>
+         <l>Les dentz vous font il tousjours peine</l>
+         <!-- Saut#1 -->
+         <l>Incessamment jour <reg>et</reg> sepmaine</l>
+         <l n="4">Vous tenez tousjours la main haulte</l>
+         <note resp="editor" type="ling">Vous ne laissez que peu de liberté.</note>
+         <note resp="editor" type="ling"/>
+         <!-- Saut#2 -->
+         <l>Ilz chevaulchent en une hotte</l>
+         <l>Pource qu'ilz ont perdu leurs houzeaulx</l>
+         <note resp="editor" type="ling">"Laisser les houseaux" signifie "mourir" (Huguet).</note>
+         <!-- Saut#3 -->
+         <l>Les neiges acroistront les eaues</l>
+         <l n="8">Ceste année si le temps dure</l>
+         <!-- Saut#4 -->
+         <l>Si <expan>vostre</expan> matiere est trop dure</l>
+         <l><rs type="injonction" subtype="impératif">Faictes vous bailler</rs> ung clistere</l>
+         <!-- Saut#5 -->
+         <l>C'est ung merveilleux mistere</l>
+         <l n="12">De racompter <expan>nostre</expan> desduict</l>
+         <note resp="editor" type="crit">Ironie probable quant à la condition des soldats.</note>
+         <!-- Saut#6 -->
+         <l><persName>Maistre Pierre</persName> fait tousjours bruict</l>
+         <l>Allé <unclear>bene bave</unclear> chanté</l>
+         <l>Il a bien dancé que fleusté</l>
+         <l n="16">Troys cens chancons pour une nuyt</l>
+         <!-- Saut#7 -->
+         <l>En lieu de combatre il s'en fuyt</l>
+         <l>Ils sont bien loing si vont tousjours</l>
+         <!-- Saut#8 -->
+         <l>Il y aura mardi deux jours</l>
+         <l n="20">Que la poste fut despeschée</l>
+         <l><persName>Maistre Jehan</persName> je l'ay fort hastée</l>
+         <l>Pour envoyer votre paquet</l>
+         <!-- Saut#9 -->
+         <pb n="114v°"/>
+         <l>On dit qu'<orgName type="peuple">Espagnolz</orgName> font le guet</l>
+
+         <l n="24">Pour donner l'assault à <placeName><settlement type="city" key="Boulogne"
+                  >Boullongne</settlement></placeName></l>
+         <!-- Datation -->
+         <!-- Saut#10 -->
+         <l>Le doulx <persName><expan>Guillaume de </expan><placeName><settlement type="city"
+                     key="Colognes">Coullongne</settlement></placeName></persName></l>
+         <l>Est il pas <expan>vostre</expan> lieutenant</l>
+         <!-- Saut#11 -->
+         <l>Sera il tousjours si tenant</l>
+         <note resp="editor" type="ling">Ferme</note>
+         <l n="28">De casser les gens à la monstre</l>
+         <note resp="editor" type="ling">À la vue</note>
+         <note resp="editor" type="ling"/>
+         <!-- Saut#12 -->
+         <l>S'il advient que faciez rencontre</l>
+         <l>Pensez de retirer noz rentes</l>
+         <!-- Saut#13 -->
+         <l>On dit que <orgName type="peuple">Bretons</orgName> sont à <placeName><settlement
+                  type="city">Nantes</settlement></placeName></l>
+         <l n="32">Et <orgName type="peuple">Venissiens</orgName> sont à <placeName><settlement
+                  type="city">Bresse</settlement></placeName></l>
+         <!-- Saut#14 -->
+         <l><rs type="injonction" subtype="défense">Gardez vous</rs> de mectre en la presse</l>
+         <l><rs type="injonction" subtype="impératif">Tirez vous</rs> pres de la cuysine</l>
+         <!-- Saut#15 -->
+         <l>Je vous envoye une <rs type="animal" subtype="gallinacée">geline</rs></l>
+         <l n="36">Pour l'esbat de <expan>vostre</expan>
+            <rs type="animal">levrier</rs></l>
+         <!-- Saut#16 -->
+         <l><persName>Jaques Thonart</persName> perdit son bauldrier</l>
+         <l>L'autre jour aupres de croquaye</l>
+         <!-- Saut#17 -->
+         <note resp="editor" type="ling"/>
+         <l>L'argentier y fut despoille</l>
+         <l n="40">Et ilz laisserent leur monnoye</l>
+         <!-- Saut#18 -->
+         <l><expan>Vostre</expan> collet borde les <rs type="animal">martres</rs></l>
+         <note type="ling" resp="editor"/>
+         <l>Qu'on feist fourrer avec deux tartres</l>
+         <!-- Saut#19 -->
+         <l>Vous sera il tousjours si gros doz</l>
+         <note resp="editor" type="ling">On trouve chez Jehan Marot (Voyage de Venise) et Rabelais
+            l'expression "Gros bis" pour désigner un homme qui fait l'important.</note>
+         <l n="44">Nous aurons marche de sabotz</l>
+         <l>On dit que les <orgName type="peuple">Angloys</orgName> deffendent</l>
+         <!-- Saut#20 -->
+         <l>Ceulx qui nous doibvent <expan>nous</expan> demandent</l>
+         <pb n="115r"/>
+         <l>C'est tousjours à recommancer</l>
+         <!-- Saut#21 -->
+         <l n="48">Nous vouldriez vous point avancer</l>
+         <!-- Vers hypermétique -->
+         <l>Ung quartier sur l'année passée</l>
+         <l>Oncsque la guerre soit cessée</l>
+         <l>Dieux qu'il y en aura de cassez</l>
+         <!-- Saut#22 -->
+         <l n="52">Vos gens sont ils tous amassez</l>
+         <l>Quant ferez vous <expan>vostre</expan> reveue</l>
+         <!-- Saut#23 -->
+         <l>La fumée me gaste la veue</l>
+         <l>Pour dieu <rs type="injonction" subtype="impératif">fectes serrer</rs> la porte</l>
+         <l n="56">Et <rs type="injonction" subtype="impératif">gardez</rs> que nul ne l'emporte</l>
+         <!-- Saut#24 -->
+         <l>Il nous vient d'argent grosse somme</l>
+         <!-- Saut#25 -->
+         <!-- Séquence plus longue -->
+         <l>J'ay ouy chef de ville qui vous sonne</l>
+         <l>De par delà le <placeName>mont Senys</placeName></l>
+         <l n="60"><rs type="injonction" subtype="impératif">Envoyez luy</rs> donc <persName>sainct
+               Denis</persName></l>
+         <l>Au devant pour luy faire escorte</l>
+         <l>C'est l'<expan>assignation</expan> qu'il apporte</l>
+         <l>Pour payer <expan>vostre</expan> compaignye</l>
+         <l n="64">Celle n'estoit toute fournye</l>
+         <l><rs type="injonction" subtype="impératif">Retenez</rs> l'argent des absens</l>
+         <l>Cez <persName>Guillaumes</persName> sont de grant sens</l>
+         <l>Le <persName>dyable</persName> les feist bien si saiges</l>
+         <l n="68">Il leur fault donner creue de gaiges</l>
+         <l>La fiebvre les puisse espouser</l>
+         <pb n="115v"/>
+         <l>Je m'en veoys ung peu reposer</l>
+         <l><rs type="injonction" subtype="impératif">Atendez</rs> a demain au matin</l>
+         <!-- Saut#26 -->
+         <!-- Seconde séquence plus longue -->
+         <l n="72">On dit pardeça que <persName>Tatin</persName></l>
+         <l>Est <roleName>ambassadeur</roleName> d'<placeName><settlement type="country"
+                  >Albanye</settlement></placeName></l>
+         <note resp="editor" type="crit">Ce surnom désigne peut-être Antoine de Rincon,
+            l'ambassadeur de France.</note>
+         <l><persName>Jehan Carre</persName> dit qu'il luy desnye</l>
+         <l>Son drap et argent pleinement</l>
+         <l n="76">Non pas desnyer proprement</l>
+         <l>Car le <persName>Gaultier</persName> luy feist entendre</l>
+         <l>Affin de mieulx la duppe prendre</l>
+         <l>Qu'on l'avoit envoyé prier</l>
+         <l n="80">Ce dit on pour le marier</l>
+         <l>Ainsi dont <persName>Tatin</persName> par art gent</l>
+         <l>Feist tant qu'il eut drap <reg>et</reg> argent</l>
+         <l>Or <rs type="injonction" subtype="impératif">devinez</rs> s'il estoit beste</l>
+         <l n="84">Pourtant s'il a petite teste</l>
+         <l>Il est de grant entendement</l>
+         <l>Parquoy merite vrayement</l>
+         <l>Que le mectez en <expan>vostre</expan> bende</l>
+         <l n="88"><persName>Guyot Vincent</persName> aussi demande</l>
+         <l>Qu'on luy donne place d'archer</l>
+         <l>Il est ja tout prest <reg>à</reg> marcher</l>
+         <l>On bataille soubz <expan>vostre</expan> enseigne</l>
+         <pb n="116r"/>
+         <fw type="pageNum" place="top-right">116</fw>
+         <l n="92">Et tueroit <reg>à</reg> tous coups ung peigne</l>
+         <l>Si se courrouce pour ung mercier</l>
+         <l>Je viens de veoir <expan>vostre</expan> courrier</l>
+         <l>Qui fait dieu mercy bonne chere</l>
+         <l n="96">Si l'avoyne estoit trop chaire</l>
+         <l>Fectes luy donner force foing</l>
+         <l><persName>Maistre Pierre</persName> a merveilleux soing</l>
+         <l>De bien garder <expan>vostre</expan> maison</l>
+         <l n="100">N'est il pas homme de raison</l>
+         <l>De ne voulloir point de proces</l>
+         <!-- Saut#27 -->
+         <l>Nous avons tousjours bon acces</l>
+         <l>De chez Baptiste des voysins</l>
+         <!-- Saut#28 -->
+         <l n="104">Trochon donne huict ambroysins</l>
+         <l>De ce que les autres ont <expan>pour</expan> quatre</l>
+         <l>Il est assez bon gros follastre</l>
+         <l><rs type="injonction" subtype="impératif">Fectes</rs> luy quelque petit de bien</l>
+         <!-- Saut#29 -->
+         <l n="108">Je vous pry si ne fectes rien</l>
+         <l><rs type="injonction" subtype="impératif">Mandez nous</rs> de voz nouvelles</l>
+         <l>Et nous vous escriprons de celles</l>
+         <l>Qui surviendront pardeça</l>
+      </body>
+   </text>
+</TEI>

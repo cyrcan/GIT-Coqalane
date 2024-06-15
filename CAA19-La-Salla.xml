@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Epistre de Lasne au coq par Francoys la Salla, a son amy Pierre Bordet.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>CHICHEFACE qui mange tout||tes les bonnes femmes — Finis. S.l. n. d. [Lyon?, vers
+               1537], petit in-4 gothique de 4 feuillets de 29 lignes à la page pleine, mar. r.
+               jans., n. r. (Trautz-Bauzonnet/) Cote : Rothschild 528 [IV, 4, 88]</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <l>Tes <choice>
+               <orig>beau</orig>
+               <reg>beaux</reg>
+            </choice> escriptz &amp; bons devis</l>
+         <l>Me sont cy doux <reg>qu’il</reg>
+            <reg>m’est</reg> advis</l>
+         <l>Que <reg>je</reg> suis au <placeName>champ <reg>d’Elisée</reg></placeName></l>
+         <l n="4"><reg>Avec</reg>
+            <persName>Enoch</persName> &amp; <persName>Elisée</persName></l>
+         <l>Qui font le guet contre <persName>antechrist</persName></l>
+         <l>Mais tenons nous <reg>à</reg>
+            <persName>Jesuchrist</persName></l>
+         <l>Sans <reg>jamais</reg> estre variables</l>
+         <!-- Saut#1 -->
+         <l n="8">Je te demande si les dyables</l>
+         <l>Ont tant de cornes que <reg>l’on</reg> dit</l>
+         <pb n="np"/>
+         <l>Il <reg>m’est</reg>
+            <reg>advis</reg> que <reg>c’est</reg> mesdict</l>
+         <l><reg>Qu’ung</reg> esperit se laisse ainsi veoir</l>
+         <!-- Saut#2 -->
+         <l n="12">Voyla qui <reg>m’a</reg> fait esmouvoir</l>
+         <l>De chanter par tout <reg>ça</reg> et la</l>
+         <l>Secourez moy <reg>d’où</reg> vient cela</l>
+         <l>Que plus ne vous recommandes</l>
+         <!-- Saut#3 -->
+         <l n="16">Affin que si <reg>jouez</reg> aux dedz</l>
+         <l>Que tu te gardez des hazars</l>
+         <!-- Saut#4 -->
+         <l>Ce <reg>n’est</reg>
+            <reg>qu’à</reg> faulte de croysardz</l>
+         <l>Que le turcq nous occupe <placeName>Rhodes</placeName></l>
+         <l n="20"><choice>
+               <orig>Cōbien</orig>
+               <reg>Combien</reg>
+            </choice>
+            <reg>qu’on</reg> dit qu’aux <placeName>Antipodes</placeName></l>
+         <l>Le pays est fort altere,</l>
+         <l>Mais <reg>l’air</reg> y est si tempere</l>
+         <l>Que personne <reg>n’y</reg> peult mourir</l>
+         <!-- Saut#5 -->
+         <l n="24"><persName><reg>L’empereur</reg></persName>
+            <reg>s’en</reg> va secourir</l>
+         <l>Son frere <persName>le roy <choice>
+                  <orig>Dongrie</orig>
+                  <reg>de <placeName><settlement type="country"
+                     >Hongrie</settlement></placeName></reg>
+               </choice></persName></l>
+         <!-- Saut#6 -->
+         <l>Pource <reg>qu’on</reg> ne tient la crie</l>
+         <!-- Vers hypomètre -->
+         <l>Des escus et testons de poix</l>
+         <!-- erreur de copie esches pour escus -->
+         <l n="28">Garde toy de manger des poix</l>
+         <l>Que le lard ne soit bien <reg>haché</reg></l>
+         <!-- Saut#7 -->
+         <l>Les lymossins ont bon <reg>marché</reg></l>
+         <l>De ravez et petiz naveaulx</l>
+         <!-- Saut#8 -->
+         <l n="32">Noelz nouveaulx <choice>
+               <orig>Noel</orig>
+               <reg>Noelz</reg>
+            </choice> nouveaulx</l>
+         <l>Avec ung de <persName>Clement Maroth</persName></l>
+         <!-- Saut#9 -->
+         <l><persName>Sathan</persName>,<persName>beherith</persName>
+            <persName>astharoth</persName></l>
+         <l>Accompaignes des hennuyers</l>
+         <l n="36">Ont abbatu force noyers</l>
+         <l>Parmy ces roches de <placeName><reg>Quercy</reg></placeName></l>
+         <!-- Saut#10 -->
+         <l>Va <reg>t’en</reg> dela <reg>je</reg> suis icy</l>
+         <!-- Saut#12 -->
+         <pb n="np"/>
+         <l>Combatons nous hōme pour hōme</l>
+         <!-- Saut#13 -->
+         <l n="40">Les Cardinaulx qui sont <reg>à</reg>
+            <placeName>Rome</placeName></l>
+         <l><reg>N’en</reg> feront pource moindre chere</l>
+         <l>Car quant tu <choice>
+               <orig>sera</orig>
+               <reg>seras</reg>
+            </choice> sur la chaire</l>
+         <l>On <reg>t’escoutera</reg> de bien loing</l>
+         <!-- Saut#14 -->
+         <l n="44">Toutesfoys fault avoir du soing</l>
+         <!-- erreur de copie poing>soing-->
+         <l>De torcher le nez quant on souffle</l>
+         <!-- saut#15 -->
+         <l><reg>J’avoys</reg> cinquante et cinq de <rs type="jeu">roffle</rs><note>Suite de cartes
+               de la même couleur.(Huguet, qui cite précisément ce vers.)</note></l>
+         <l>En <reg>jouant</reg>
+            <rs type="jeu"><reg>à</reg> la picardie</rs>.</l>
+         <!-- Saut#16 -->
+         <l n="48">Bon <reg>jour</reg> bonne nuyct, bonne vie</l>
+         <l>Comment se porte la personne</l>
+         <!-- Saut#17 -->
+         <l> Il <reg>m’est</reg> advis alors <reg>qu’on</reg> sonne</l>
+         <l>Que tout le monde doit mourir<note type="editor" subtype="ling">Le terme "sonnerie",
+               nous apprend Richelet, se dit pour un enterrement.</note>,</l>
+         <!-- Saut#18 -->
+         <l n="52">Et dieu nous vueille secourir</l>
+         <l>Que le temps nous soit favorable</l>
+         <!-- Saut#18 -->
+         <l>Ne peut on pas chanter <reg>à</reg> table</l>
+         <l>Aussi bien que siffler au lict</l>
+         <!-- Saut#19 -->
+         <l n="56">Par mon serment <reg>c’est</reg> ung delict</l>
+         <l>De baiser la belle Picarde</l>
+         <!--Saut#20-->
+         <l>Car les bonnetz <reg>à</reg> la cocquarde<note type="editor" subtype="ling">A Spanish
+               cap, or fashion of bonnet used by the most substantial men of yore; (Tearmed so
+               (perhaps) because those that wore of them grew thereby the prouder, et presumed the
+               more of themselues) also, any bonnet, or cap, worne proudly, or peartly on th'one
+               side. (Cotgrave)</note>,</l>
+         <l>En nostre temps <reg>n’ont</reg> plus de mise</l>
+         <l n="60">Maintenant chacun se deguise</l>
+         <l>Jusques <choice>
+               <orig>au</orig>
+               <reg>aux</reg>
+            </choice> bonnetz <reg>à</reg> troys cornes</l>
+         <!--Saut#21-->
+         <l>Ayons de <reg>l’eaue</reg> de ses <rs type="animal" subtype="mythologie"
+            >lycornes</rs></l>
+         <l>Qui sert fort contre la poyson</l>
+         <!--Saut#22-->
+         <l n="64">Et sur ma foy <reg>c’est</reg> bien rayson</l>
+         <l>Que monsieur passe le premier</l>
+         <l>— On faict grand feste <reg>d’ung</reg>
+            <rs type="animal" subtype="oiseau">lanier</rs><note type="editor" subtype="ling">Sorte
+               d'oiseau de proie qui a le bec et les piez bleus, les plumes de l'estomac mêlées de
+               noir, et de blanc, qui est plus petit que le faucon et qui est la femelle du laneret.
+               (Richelet)</note></l>
+         <l>Qui est patron et mandataire</l>
+         <!--Saut#23-->
+         <pb n="np"/>
+         <l n="68">Vien sa monsieur le lapidaire</l>
+         <l>Avez vous des pierres indoyses</l>
+         <l>Combien le quintal des turquoyses</l>
+         <l>Et la livre des esmeraudes</l>
+         <!--Saut#24-->
+         <l n="72">Et mon dieu que de baguenaudes<note type="editor" subtype="ling">Vieux mot
+               François. C'étoit une ancienne sorte de Poësie toute masculine, dont la rime estoit
+               mauvaise et peu estimée; et souvent sans rime et en galimathias. Pasquier en fait
+               mention au livre 7. d'où on a fait le mot de Baguenauder.(Furetière)</note></l>
+         <l>Sont semees parmy le monde</l>
+         <!--Saut#25-->
+         <l>Puis <reg>qu’on</reg> dit que la terre ronde</l>
+         <l>Le ciel <reg>n’en</reg> est pas plus <reg>quarré</reg></l>
+         <!--Saut#26-->
+         <l n="76">Chantons Ut la mi fa sol <reg>ré</reg></l>
+         <l>Pour donner au phiffre l’aubade</l>
+         <!-- Saut#27 -->
+         <l>Voyla pour toy une gambade</l>
+         <l>Et donne moy ung petit sault</l>
+         <!-- Saut#28 -->
+         <l n="80">Pour me garder de <reg>quelqu’assault</reg></l>
+         <l><rs type="proverbe">Ne mettray plus la plume au vent</rs></l>
+         <!-- Saut#29 -->
+         <l>Disons <rs type="jeu">Cornichon va devant</rs><note type="editor" subtype="ling">Jeu qui
+               consistait à courir en ramassant des objets au passage. (Huguet)</note></l>
+         <l>Et suyvez moy mon compaignon</l>
+         <!-- Saut#30 -->
+         <l n="84">Ne manges point <reg>d’aulx</reg> ne <reg>d’oignon</reg></l>
+         <l>Si vous avez <reg>couppé</reg> le doy</l><!-- Saut#31 -->
+         <l>[Vers manquant]</l>
+         <l>La bonne fleuste de <persName key="Pierre Rafi">Raffy</persName>.</l><!-- Saut#32 -->
+         <l n="88">Attendons que <persName key="Le roi de Perse">le grand Sophy</persName></l>
+         <l>Ayt ces <reg>Turquoys</reg> tous desconfiz</l>
+         <l>Et metons fin <reg>à</reg> noz escripz.</l>
+
+         <l>Tout par esgard.</l>
+         <l>FINIS.</l>
+      </body>
+   </text>
+</TEI>

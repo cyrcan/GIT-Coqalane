@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Coq à l'ane d'un Parisien</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p><listPerson>
+               <person xml:id="Marcel">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Claude</forename><surname>
+                        Marcel</surname></persName>
+               </person>
+               <person xml:id="Nicolas_Bourgeois">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Nicolas</forename><surname>
+                        Bourgeois</surname><roleName> (échevin de Paris)</roleName></persName>
+               </person>
+               <person xml:id="De_Bray">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname> De
+                        Bray</surname><roleName> (échevin de Paris)</roleName></persName>
+               </person>
+               <person xml:id="François_de_Montmorency"
+                  corresp="https://data.bnf.fr/ark:/12148/cb10730880p">
+                  <idno type="ISNI">0000 0005 0409 3432</idno>
+                  <persName xml:lang="fr"><forename type="first">François de</forename><surname>
+                        Montmorency</surname></persName>
+               </person>
+               <person xml:id="Charles_IX" corresp="https://data.bnf.fr/12463140/charles_9/">
+                  <idno type="ISNI">0000 0001 2142 8995</idno>
+                  <persName xml:lang="fr"><forename type="first">Charles</forename><surname>
+                        IX</surname></persName>
+               </person>
+               <person xml:id="Simon_Vigor" corresp="https://data.bnf.fr/ark:/12148/cb107037152">
+                  <idno type="ISNI">0000 0000 7820 4266</idno>
+                  <persName xml:lang="fr"><forename type="first">Simon</forename><surname>
+                        Vigor</surname></persName>
+                  <birth><date>1515</date></birth>
+                  <death><date>11-01-1575</date></death>
+               </person>
+               <person xml:id="Le_Lièvre">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Claude</forename><surname> Le
+                        Lièvre</surname></persName>
+               </person>
+               <person xml:id="Anne_de_Montmorency"
+                  corresp="https://data.bnf.fr/ark:/12148/cb121165804">
+                  <idno type="ISNI">0000 0001 2118 2438</idno>
+                  <persName xml:lang="fr"><forename type="first">Anne de</forename><surname>
+                        Montmorency</surname></persName>
+                  <death><date>1567</date></death>
+               </person>
+               <person xml:id="Legendre" corresp="https://bibale.irht.cnrs.fr/54020">
+                  <idno>Collecta 1450</idno>
+                  <persName xml:lang="fr"><forename type="first">Nicolas</forename><surname> III
+                        Legendre de Neufville</surname></persName>
+                  <birth><date>1525</date></birth>
+                  <death><date>1598</date></death>
+               </person>
+               <person xml:id="Pie_V" corresp="https://data.bnf.fr/ark:/12148/cb11919954n">
+                  <idno>0000 0001 2096 6134</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                        >Antonio</forename><surname>Ghislieri</surname></persName>
+                  <!--Pape de 1566 à 1572-->
+               </person>
+               <person xml:id="Poltrot" corresp="https://data.bnf.fr/ark:/12148/cb15550683x">
+                  <idno type="ISNI">0000 0000 7911 3622</idno>
+                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname> Poltrot de
+                        Méré</surname></persName>
+               </person>
+            </listPerson></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change><date>2024-02-08</date>Encodage de niveau 2.</change>
+         <change><date>2024-02-10</date>Encodage de niveau 3 pour diffusion sur Omeka.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris, </settlement>
+                  <repository>Bibliothèque nationale de France, Richelieu, </repository>
+                  <idno>ms. 4897 (f°153r-154r)</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <p>
+            <pb n="154"/>
+            <cb n="1"/>
+            <l><roleName type="destinataire">Amy</roleName>
+               <choice>
+                  <orig>ie</orig>
+                  <reg>je</reg>
+               </choice> croy que tu t'endors,</l>
+            <l>Ou que n'a plus d'esprit au cors,</l>
+            <l>D'ainsy longuement retarder,</l>
+            <l n="4">De tes nouvelles me mander:</l>
+            <l>Mais puis que fére ne le veus,</l>
+            <l>Je t'en écriré pour nous deux.</l>
+            <l>Tu dois premierement savoer,</l>
+            <l n="8">Que la guerre i'allons avoer</l>
+            <l>Aus <orgName type="secte">huguenoz</orgName>, &amp; qu'à noz portes</l>
+            <l>On y mettra gardes bien fortes,</l>
+            <l>Pour les empescher de sortir:</l>
+            <l n="12">Puis apres les ferons rôtir,</l>
+            <l>Bruler, noyer, pendre &amp; défaire:</l>
+            <l>Ce qui ne sera sans affaire,</l>
+            <l>Car point ne le voudront souffrir</l>
+            <l n="16">Et ne <choice>
+                  <orig>veulet</orig>
+                  <reg>veulent</reg>
+               </choice> encor' mourir,</l>
+            <l>Tant ils ont l'ame de travers.</l>
+            <!-- Saut#1 -->
+            <l>Nous porterons des bonnets vers,</l>
+            <l>En l'honneur de <persName type="saint"> St. Mathurin</persName>,</l><note
+               resp="editor">Note en marge illisible.</note>
+            <l n="20">Et sonnerons le tabourin.</l>
+            <!-- Saut#2 -->
+            <l>Il y a seize Capiteines</l>
+            <l>Qui ont tant de belles enseignes,</l>
+            <l>Des harnois d'acier tous dorés,</l>
+            <l n="24">Des piques &amp; bâtons ferrés,</l>
+            <l>Pertuisanes, javeloz, épieus</l>
+            <l>Plus luisans que ne sont les cieus,</l>
+            <l>Plus éclérans que chandelle.</l>
+            <l n="28">Puis nous ferons la sentinelle,</l>
+            <l>Et des premiers <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>'iray en garde,</l>
+            <l>J'ay fét fourbir ma hallebarde</l>
+            <l>Ma cuirassine &amp; morrion,</l>
+            <l n="32">Point n'auray peur du horion</l><note resp="editor" type="ling">"Horion : le
+               horion est un grand coup qu'on décharge sur quelque personne" (Richelet).</note>
+            <l>Mais qu'ainsy <choice>
+                  <orig>ie</orig>
+                  <reg>je</reg>
+               </choice> me voye armé.</l>
+            <!-- Saut#3 -->
+            <l>Par le sang goy il ét charmé</l><note resp="editor" type="ling">Par le sang goy :
+               Forme altérée du juron "Par le sang-Dieu" (cf. Huguet).</note>
+            <l>Ce <roleName ref="#François_de_Montmorency">mareschal</roleName>, car il sét tout</l>
+            <l n="36">Ce que <reg>l'on</reg> fét depuis un bout</l>
+            <l>Jusque en l'autre dedans <placeName><settlement type="city"
+                  >Paris</settlement></placeName>.</l>
+            <cb n="2"/>
+            <!-- Saut#4 -->
+            <l>Ilz seront pourtant bien marriz</l>
+            <l>Ces <orgName type="secte">Huguenoz</orgName> de déloger,</l>
+            <l n="40">Il leur conviendra d'en changer,</l>
+            <l>Pour plutôt guérir de leur reume:</l>
+            <l>Sire <persName ref="#Marcel">Marcel</persName> ce feu allume,</l><note
+               resp="scriptor" type="glose" place="margin-left">Dans la marge: "C'est un des
+               bourgeois de Paris". Claude Marcel est une figure parisienne des catholiques zélés
+               déjà mentionnée dans "l'Asne au Coq" de 1567 au lendemain de la bataille de
+               Saint-Denis (CAA#55).</note>
+            <l>Avéque <persName ref="#Nicolas_Bourgeois">Bourgeois</persName>, &amp; de <persName
+                  ref="#De_Bray">Bray</persName>.</l><note resp="scriptor" type="glose"
+               place="margin-left"> Dans la marge pour Bourgeois : "est un pelletier, eschevin de
+               Paris" et pour De Bray : "est un changeur aussy eschevin de Paris".</note>
+            <l n="44">De ce dernier on dit de vray</l>
+            <l>Qu'un jour fut repris de justice</l>
+            <l>Pour billonner, ce n'ét pas un vice</l><note resp="editor" type="ling">Billonner:
+               "Trafiquer sur la monnaie" (Huguet).</note>
+            <l>Faire profit de son métier.</l>
+            <l n="48">On le vouluct bien chatier,</l>
+            <l>Més la chambre de la monnoye,</l>
+            <l>Aprez avoer plumé son oye,</l>
+            <l>Luy fit fére honorable amende:</l>
+            <l n="52">L'infamie ne fut pas grande,</l>
+            <l>Car la chambre étoet lors fermée</l>
+            <l>Quant tenoet sa torche allumée.</l>
+            <l>Més tout cela ét effacé,</l>
+            <l n="56">Puis qu'il a été avancé</l>
+            <l>A étre eschevin de <placeName><settlement type="city"
+               >Paris</settlement></placeName>.</l>
+            <!-- Saut#5 -->
+            <l>D'autre chose bien <choice>
+                  <orig>ie</orig>
+               </choice>
+               <reg>je</reg> me ris,</l>
+            <l>C'ét que <persName ref="#Legendre">Monsieur de Villeroy</persName>,</l><note
+               resp="editor" type="crit">Prévôt des marchands de Paris de 1566 à 1570, Nicolas III
+               de Neufville (dit Legendre) est raillé au vers 11 de la "Grenoille au crapaud"
+               (CAA#52).</note>
+            <l n="60">Mettra la ville en tel arroy,</l><note resp="editor" type="ling">Mettre en
+               arroy: ici, "préparer militairement". cf. aussi "L'Asne au coq" intransigeant de 1567
+               (CAA#53): "Montmartre seroit hors d'arroy / Sy Paris estoit tout perdu" (v.
+               384-385)</note>
+            <l>Que nul d'eus n'osera mot dire:</l><note place="margin-left" resp="scriptor"
+               type="glose">Dans la marge: "Des huguenoz, desquelz le Sieur de Villeroy est ennemy
+               capital, il a esté fét prevot des marchans ceste année <unclear/> Paris".</note>
+            <l>Car ilz auront toujours du pire,</l>
+            <l>Par serment il nous l'a promis.</l>
+            <l n="64">Ne sont ce pas les bons amis</l>
+            <l>Du <roleName ref="#Charles_IX">Roy</roleName>, que Messieurs de la ville?</l>
+            <!-- Saut#6 -->
+            <l>Ne parlons plus de l'Evangile</l>
+            <l>En <placeName><settlement type="country">France</settlement></placeName>, il s'en va
+               en ruine.</l>
+            <!-- Saut#7 -->
+            <l n="68">Point ne faut prendre medecine,</l>
+            <l>Quant sont les <choice>
+                  <orig>iours</orig>
+                  <reg>jours</reg>
+               </choice> caniculiers</l>
+            <!-- Saut#8 -->
+            <l>Qui souffre mal pour ses souliers,</l>
+            <l>Merite bien d'étre cocu.</l>
+            <!-- Saut#9 -->
+            <l n="72">Qui endure rebus, n'ét pas vaincu.</l>
+            <!-- Saut#10 -->
+            <l>En veincus, sont quarante fesses.</l>
+            <!-- Saut#11 -->
+            <l>Elles seront cheres les messes:</l>
+            <pb n="153v"/>
+            <cb n="1"/>
+            <l>Car nul ne veut plus étre prettre.</l>
+            <!-- Saut#12 -->
+            <l n="76">La bonne dame va au cloetre</l>
+            <l>Pour le bon <persName ref="#Simon_Vigor">Vigor</persName> visiter:</l><note
+               resp="editor" type="glose">Marginalium pour Vigor: "C'est un prescheur de Paris qui
+               loge dans un cloistre". Simon Vigor (?-1575) était curé de Saint-Paul depuis 1562,
+               théologien et ardent prédicateur. Jehan de la Fosse note pour le mois de juin 1568:
+               "Envyron ce temps le Roy print quatre predicateurs lesquelz preschoient de trois mois
+               en trois mois devant luy ; avoient chascun douze centz livres d’estatz. Ils se
+               nommoient monsr Hugonis, cordelier, Vigor, docteur seculier et chanoine de Paris, de
+               Sainctes, docteur en theologie relligieulx premonstré, et de Sainctefoy."</note>
+            <l>Mas cela fét bien caqueter</l>
+            <l>Les voisines qui en sont proches.</l>
+            <!-- Saut#13 -->
+            <l n="80">Les vermineus ont les mains croches,</l><note resp="scriptor" type="glose"
+               place="margin-left">Dans la marge: "au lieu de freres mineurs".</note>
+            <l>À force de prendre et gripper.</l>
+            <!-- Saut#14 -->
+            <l>On dit qu'il n'a peu eschapper</l>
+            <l>Le grand Signeur de la bataille:</l><note resp="editor" type="glose">Allusion
+               probable à la mort du Prince de Condé.</note>
+            <l n="84">Ses gens ont bien veu <expan>comment</expan> taille</l>
+            <l>La hache, &amp; épée Chretienne.</l>
+            <l>Vray ét qu'ilz ont gaigné la plaine,</l>
+            <l>Mais tous sont quasi déconfiz.</l>
+            <!-- Saut#15 -->
+            <l n="88">Qu'il étoet beau le crucefis</l>
+            <l>De Beaune, avec sa robe verte.</l>
+            <!-- Saut#16 -->
+            <l>Le <roleName ref="#Charles_IX">Roy</roleName> fera beaucoupe de perte,</l>
+            <l>En supprimant tant d'officiers.</l>
+            <!-- Saut#17 -->
+            <l n="92">Si on pend tous les Trésoriers,</l>
+            <l>Le cordage sera bien cher.</l>
+            <!-- Saut#18 -->
+            <l>Que <persName ref="#Marcel">Marcel</persName> se voise cacher,</l>
+            <l>Il a été deux fois tondu:</l>
+            <l n="96">S'il l'a gaigné, qu'il soet pendu,</l>
+            <l>&amp; eut il été Capiteine:</l>
+            <l>Sans luy, de <persName>Neuville</persName> à grand'peine</l><note resp="scriptor"
+               type="glose" place="margin-left">Dans la marge: "C'est le Sieur de
+               Villeroy".</note>
+            <l>Eut il été jamés Prevot,</l><note resp="scriptor" type="glose" place="margin-left"
+               >Dans la marge: "Il entend de l'estat de prevot des marchans de Paris".</note>
+            <l n="100">Je m'en rapporte à <persName>Rien ne vaut</persName>,</l><note resp="editor"
+               type="crit">Calembour.</note>
+            <l>Qui pour luy en a fét la brigue:</l>
+            <!-- Saut#19 -->
+            <l>Mais tout ét pour faire une ligue</l>
+            <l>Encontre ce beau <roleName ref="#François_de_Montmorency"
+               >Mareschal</roleName>,</l><note resp="scriptor" type="glose" place="margin-left">Dans
+               la marge: "De Montmorency"</note>
+            <l n="104">Qui à <placeName><settlement type="city">Paris</settlement></placeName> n'a
+               fét que mal,</l>
+            <l>Depuis qu'il en ét gouverneur:</l>
+            <l>&amp; toutefois il a l'honneur,</l>
+            <l>D'avoer mieus fét que tous les autres.</l>
+            <!-- Saut#20 -->
+            <l n="108">On connoitra aus Patenotres</l><note resp="scriptor" type="glose"
+               place="margin-left">Dans la marge: "En ce temps les Catholiques portaient des
+               patenotres à leur col pour se différencier des Huguenoz qui n'en tiennent
+               conte".</note>
+            <l>Ceus qui ne seront <orgName type="secte">Huguenoz</orgName>,</l>
+            <l>&amp; soudein deviendront penaus,</l>
+            <l>Si la Cour ses Arretz déclique.</l><note resp="scriptor" type="glose"
+               place="margin-left">Dans la marge: "Il entend le parlement de Paris". Décliquer:
+               "prononcer" (Huguet). </note>
+            <!-- Saut#21-->
+            <l n="112">C'ét une mauvaise pratique,</l>
+            <l>D'un <persName ref="#Le_Lièvre">Lievre</persName> avec un
+                  <persName>Pelletier</persName>:</l><note resp="scriptor" type="glose"
+               place="margin-left">Dans la marge: "Ce sont deux bourgeois de Paris".</note>
+            <l>L'un veut demeurer tout entier,</l>
+            <l>&amp; l'autre en veut avoer la peau.</l>
+            <l n="116">On verra bien un <choice>
+                  <orig>ieu</orig>
+                  <reg>jeu</reg>
+               </choice> plus beau,</l>
+            <l>Qui fera à beaucoup la nique.</l>
+            <!-- Saut#22 -->
+            <l><reg>Ô</reg> bel état de République,</l>
+            <l>Qui a été durant les troubles!</l>
+            <l n="120">Je n'eusse pas donné deus doubles</l>
+            <l>De tous les biens de ces gens là.</l><note resp="scriptor" type="glose"
+               place="margin-left">Dans la marge: "Il entend des huguenoz".</note>
+            <!-- Saut#23 -->
+            <l>Le <persName ref="#Anne_de_Montmorency">Connestable</persName> s'en alla</l><note
+               resp="scriptor" type="glose" place="margin-left">Dans la marge: "C'est l'opinion des
+               Parisiens".</note>
+            <l>Rendre le jour de la bataille</l><note resp="editor" type="glose">La bataille de
+               Saint-Denis <date when="1567-11-10">du 10 novembre 1567</date> où il fut mortellement
+               blessé d'un coup de pistolet dans les reins (cf. CAA#55). On se souvient que le
+               connétable est la principale cible de "L'Asne au coq" d'octobre 1567 (CAA#53).</note>
+            <l n="124">Entre leurs mains. <!-- Saut#24 -->Qui a clinquaille,</l><note resp="editor"
+               type="ling">Clicaille: "Monnaie sonnante, argent" (Huguet).</note>
+            <l>Des grans se peut bien mettre en rang:</l>
+            <cb n="2"/>
+            <l>Son ayeul vendoit du harenc,</l>
+            <l>Vela pourquoy marchant retourne:</l>
+            <l n="128">Sa roue ainsy sa Fortune tourne,</l>
+            <l><rs type="proverbe">&amp; les plus haus montés r'abbaisse.</rs></l>
+            <!-- Saut#25 -->
+            <l>Deux bons <rs type="animal" subtype="canidé">levriers</rs> en une lesse,</l>
+            <l>Le plus fort le foible il emmeine.</l>
+            <!-- Saut#26 -->
+            <l n="132">La vie de <persName>Sainte Tiphaine</persName>,</l>
+            <l>Sera quelque <choice>
+                  <orig>iour</orig>
+                  <reg>jour</reg>
+               </choice> bien décritte:</l>
+            <l>Je m'en r'apporte à l'ypocrite,</l>
+            <l>Ce nez aquilin Confesseur,</l>
+            <l n="136">Il ét atthée pour le seur,</l>
+            <l>De luy ne s'en faut plus enquerre.</l><!--Cible à identifier... L'Hospital?-->
+            <!-- Saut#27 -->
+            <l>Les <orgName type="peuple">Flamans</orgName> n'auront plus plus la guerre,</l>
+            <l>Le <roleName ref="#Charles_IX">Roy</roleName> leur a tout accordé,</l>
+            <l n="140">Ainsy comme ilz l'ont demandé</l>
+            <l>&amp; l'Altesse <reg>a</reg>
+               <choice>
+                  <orig>iuré</orig>
+                  <reg>juré</reg>
+               </choice> pour luy,</l><note resp="scriptor" type="glose" place="margin-left">Dans la
+               marge: "Il entend la duchesse de Parme lors gouvernante des Pays-bas".</note>
+            <l>Que libres vivront dès enhuy,</l>
+            <l>Sans danger d'inquisition.</l>
+            <l n="144">Voila belle Religion,</l>
+            <l>De donner la Loy à son Prince.</l>
+            <!--Saut#28-->
+            <l>Celuy ét Tiran qui trop prinse,</l>
+            <l>Je m'en croy aus beneficiers:</l>
+            <l n="148">Mais chacun pille volontiers,</l>
+            <l>Cela n'et qu'usance <expan>commune</expan>.</l>
+            <!-- Saut#29 -->
+            <l>Il nous faut armer la commune,</l>
+            <l>Dit <persName ref="#Marcel">Marcel</persName>, pour nous soutenir,</l>
+            <l n="152">&amp; ne la porrons retenir,</l>
+            <l>Quant sur eus viendra à se mettre</l>
+            <l>La Court le voudra bien permettre,</l><note resp="scriptor" type="glose"
+               place="margin-left">Dans la marge: "Le Parlement".</note>
+            <l>Car autrefois elle l'a fait.</l>
+            <l n="156"><persName>Garnier</persName> pour cela fut deffait,</l>
+            <l>Tenant planiers contre le <roleName>Prince</roleName>.</l>
+            <l><reg>Ô</reg> la malheureuse province!</l>
+            <l><reg>Où</reg> le sujet, le sujet tue.</l>
+            <!-- Saut#30 -->
+            <l n="160">Je creins que ne soet abatue</l>
+            <l>En fin la Sainte Papauté,</l>
+            <l>&amp; que nous voyons <roleName ref="#Pie_V">le Pape</roleName> ôté,</l>
+            <l>Pour les maus qu'on fait aujourdhuy.</l>
+            <!-- Saut#31 -->
+            <l n="164">Si nous n'avions pour notre appuy</l>
+            <l>L'honorable hôtel de la ville,</l><note resp="scriptor" type="glose"
+               place="margin-left">Dans la marge: "De Paris".</note>
+            <l>Lon tems a que cet Evangille</l>
+            <l>Par la <placeName><settlement type="country">France</settlement></placeName> eut été
+               preschée:</l>
+            <l n="168">Mais nous l'avons bien empeschée,</l>
+            <l>Avéque nos intelligences,</l>
+            <l>Nos factions &amp; diligences.</l>
+            <l>Point ne voulons qu'on vive ainsy,</l>
+            <l n="172">Seulement nous avons sousy</l>
+            <l>De vivre <expan>comme</expan> nos bons Peres,</l>
+            <l>Ores que bien ne facions gueres.</l>
+            <l>C'est assez d'aller à la messe.</l>
+            <!-- Saut#32 -->
+            <l n="176">Le <roleName>Prince</roleName> qui romt sa promesse,</l>
+            <l>N'ét pas digne que lon s'y fie.</l>
+            <!-- Saut#33 -->
+            <l>Les gens d'Eglise ont belle envie,</l>
+            <l>De retirer leurs biens vendus:</l>
+            <pb n="154r"/><fw type="pageNum" place="top-right">154</fw>
+            <cb n="1"/>
+            <l n="180">Au <roleName ref="#Charles_IX">Roy</roleName> ilz se sont attendus,</l>
+            <l>Pour prolonger leur Retinere.</l>
+            <!-- Saut#34 -->
+            <l>Quant il me souvient de <persName ref="#Poltrot">Mére</persName>,</l>
+            <l>Toujours mon cœur ét lamentant.</l><note>L'indignation devant l'assassinat du duc de
+               Guise par Poltrot de Méré est largement développée dans "l'Asne au coq" de 1567
+               (CAA#53), v. 320-332.</note>
+            <!-- Saut#35 -->
+            <l n="184">Tel <reg>a</reg> beaucoup d'argent contant,</l>
+            <l>Qu'il ne luy coute qu'à garder.</l>
+            <!-- Saut#36 -->
+            <l>Il nous faut pourtant hazarder,</l>
+            <l>À rompre l'Edit de la Paix,</l><note resp="editor" type="glose">L'édit de
+               Saint-Germain du 8 août 1570, dite "Paix boiteuse et malassise".</note>
+            <l n="188"><placeName><settlement type="city">Paris</settlement></placeName> ne cessera <choice>
+                  <orig>iamais</orig>
+                  <reg>jamais</reg>
+               </choice></l>
+            <l>Qu'il ne soit du tout aboly,</l>
+            <l>Puis regnera, Quando cœli,</l>
+            <l>Requiem &amp; Famulorum</l>
+            <l n="192">Avec le Beati quorum,</l>
+            <l>Le Salue &amp; Gaudeamus,</l>
+            <l>Inviclata, Oremus,</l>
+            <l>&amp; tout ce qu'à la Messe on chante,</l>
+            <l n="196">Qu'ilz <reg>disent</reg> étre tant meschante:</l>
+            <l>Mais <persName>Dieu</persName> y ét en verité,</l><note resp="editor" type="glose"
+               >Réaffirmation de la présence réelle lors de la messe.</note>
+            <l>Aussy bien qu'en la Trinité.</l>
+            <l>Quiconque en doute ét heretique.</l>
+            <l n="200">Les Prettres r'auront leur pratique,</l>
+            <l>Ilz ont assez lon tems perdu,</l>
+            <l>On payra ce qu'il <reg>leur</reg> ét deu:</l>
+            <l>Le <roleName ref="#Charles_IX">Roy</roleName> en a fét ordonnance.</l>
+            <!-- Saut#37 -->
+            <l n="204"><persName>Lorrette</persName> peut avoer souffrance,</l>
+            <cb n="2"/>
+            <l>Le <orgName type="peuple">Turc</orgName> ét prez de son terroir.</l>
+            <l>Emporter fera son manoir,</l>
+            <l>Comme elle a fét une autre fois.</l>
+            <!-- Saut#38 -->
+            <l n="208">Cil qui fit faire cette crois.</l>
+            <l>Il n'ét pas icy enterré,</l>
+            <l>&amp; se nommoit <persName>Martin Poré</persName>:</l>
+            <l>Pour luy priez si bous voulez,</l>
+            <!-- Saut#39 -->
+            <l n="212">Ilz s'en sont trestous envollés</l>
+            <l>Hors de nos cages nos <rs type="animal" subtype="oiseau">oysons</rs>,</l>
+            <l>&amp; faut combattre leurs raisons</l>
+            <l>Avec la mulle <reg>à</reg> Jacquelot.</l>
+            <!-- Saut#40 -->
+            <l n="216">Mais il n'étoit pas <orgName type="secte">Huguenot</orgName></l>
+            <l>Le bon Signeur, quoy qu'on en dye,</l>
+            <l>Bien avoet autre maladie,</l>
+            <l>Il avoet <choice>
+                  <orig>ia</orig>
+                  <reg>ja</reg>
+               </choice> passé les mons.</l>
+            <l n="220"><reg>À</reg> me répondre te semons,</l>
+            <l>Pour entendre de tes nouvelles</l>
+            <l>Bonn', mauvaises, laides &amp; belles.</l>
+            <l>Il y a <choice>
+                  <orig>ia</orig>
+                  <reg>ja</reg>
+               </choice> par trop lon tems,</l>
+            <l n="224">Qu'en trégrand desyr <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>'en attens.</l>
+            <l>Puis quant me mettray à écrire,</l>
+            <l>Davantage te feray rire.</l>
+            <l>Ecrit, si bien ie m'en remembre,</l>
+            <l n="228">Le siziéme jour de Settembre.</l>
+            <l>L'an Mil cinq cens soisante &amp; dis,</l>
+            <l>Par ton amy <persName type="autor">Jan de Bondys</persName>.</l>
+         </p>
+      </body>
+   </text>
+</TEI>

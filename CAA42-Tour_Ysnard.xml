@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../../../Users/c.ca/Downloads/tei2latex_final.xslt"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Ysnard, du Coq en l'Asne.</title>
+            <author ref="https://data.bnf.fr/ark:/12148/cb12168322x">Béranger de La Tour
+               d'Albenas</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Transcription à partir des versions numérisées disponible sur Gallica et Proquest.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p><listPerson>
+               <person xml:id="Charles-Quint" corresp="https://data.bnf.fr/ark:/12148/cb10411705z">
+                  <idno type="ISNI">0000 0001 2096 5852</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                        >Charles</forename><surname> Quint</surname></persName>
+               </person>
+               <person xml:id="Ysnard">
+                  <persName xml:lang="fr"><forename type="first"
+                     /><surname>Ysnard</surname></persName>
+               </person>
+               <person xml:id="Paul_III" corresp="https://data.bnf.fr/ark:/12148/cb12548904x">
+                  <idno type="ISNI">0000 0001 2132 8898</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                        >Alessandro</forename><surname> Farnese</surname></persName>
+               </person>
+
+            </listPerson></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change><date>12-11-2023</date>Encodage de niveau 3.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>RES-YE-1653</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <l>Amy Dieu gard, Dieu gard Amy,</l>
+         <note resp="editor" type="crit">La formule place un peu plus encore le texte sous
+            l'influence du maître Marot.</note>
+         <l><rs type="injonction" subtype="impératif">Resveille toy</rs> c’est trop dormy:</l>
+         <l>Sus prens la plume, &amp; fais response</l>
+         <l n="4">Aux nouvelles que je t’annonce,</l>
+         <l>Freschement, receues icy:</l>
+         <l>Non point d’amour, car le souci</l>
+         <l>Surmonte l’aise qu’on y prend.</l>
+         <!-- Saut#1 -->
+         <l n="8" rend="indent"><persName type="destinataire">Ysnard</persName>, <persName
+               type="destinataire">Ysnard</persName> le bruit est grand</l>
+         <l>Que <persName ref="#Charles-Quint">l’Empereur</persName> va à l’empire</l>
+         <note resp="editor" type="crit">Les différents ambassadeurs auprès de Charles-Quint
+            témoignent de ses crises de goutte qui se multiplient à partir de 1546.</note>
+         <l>Tant est malade : &amp; si l’Empire</l>
+         <l>Vaquoit, on y verroit grand trouble:</l>
+         <l n="12">J’en quitte ma part <rs type="jeu">pour un double</rs></l>
+         <l>Voire pour moins de la moitié:</l>
+         <!-- Saut#2 -->
+         <l>Car aussi froide est l’amitié</l>
+         <l>Si on n’ha beaucoup à despendre.</l>
+         <!-- Saut#3 -->
+         <l n="16" rend="indent">On crie aux moindres pendre, pendre,</l>
+         <l>Bien souvent pour un léger crime.</l>
+         <!-- Saut#4 -->
+         <l rend="indent">C’est un tresbeau jeu que la <rs type="jeu">prime</rs>,</l>
+         <l>J’entens estre premier en tout:</l>
+         <l n="20">Car on ne void jamais le bout</l>
+         <l>D’un qui ha argent, &amp; crédit.</l>
+         <!-- Saut#5 -->
+         <l>Combien de fois je t’avois dit</l>
+         <l>Que mescrisses de tes nouvelles</l>
+         <l n="24">Et n’en fais rien: mais scez tu quelles</l>
+         <l>Seulement, de toy je desire?</l>
+         <fw type="sig" place="bottom-right">C'est</fw>
+         <pb n="87"/>
+         <fw type="pageNum" place="top-right">87</fw>
+         <l>C’est pour entendre si la Cire</l>
+         <l>On y vend à prys raisonnable.</l>
+         <note resp="editor" type="crit">Motif récurrent. Cf. en particulier le CAA#34 "Je ne scay
+            par quel bout me prendre" (circa 1543): "Qui a faict si chere la cyre" (v. 117). Ou
+            encore "Le livre des Marchans" (édition de 1544) d'Antoine Marcourt : "Ilz sont certes
+            si fins et tant abiles, que de peu ou rien scavent faire leur cas. Entre autres choses,
+            quasi tous sont marchans de cire. Mais sur la terre, il n'y apoticaire, ne cirier, qui
+            en ceste maniere en sceust ouvrer." https://doi.org/10.3931/e-rara-33156</note>
+         <!-- Saut#6 -->
+         <l n="28" rend="indent">La chose n’est pas convenable</l>
+         <l>D’un bien se repentir ainsi</l>
+         <l>On dit bien vray (vray est aussi)</l>
+         <l>Qu’il n’est plaisir que d’estre riche.</l>
+         <l n="32" rend="indent">C’est parquoy mes désirs je fische</l>
+         <l><reg>À</reg> chercher liberté d’esprit:</l>
+         <l>Et si ay trouvé par escrit</l>
+         <l>Que maints ont laissé les arrois</l>
+         <note resp="editor" type="ling">La magnificence (Huguet).</note>
+         <l n="36">La court aussi des plus grans Roys,</l>
+         <l>Pour vivre seulz entre les Muses:</l>
+         <l>Estimant eviter les ruses</l>
+         <l>Que le plus expert va souffrant.</l>
+         <!--Saut#7-->
+         <l n="40" rend="indent">On la delivre au plus offrant</l>
+         <l>L’<rs type="animal">anesse</rs> de nostre paroisse.</l>
+         <note resp="editor" type="crit">"Mais comment se porte l’Asnesse Que tu sçays, de
+            Jerusalem?", Marot, deuxième coq-à-l'âne, v. 122-123.</note>
+         <l rend="indent">En sorte que toute la <placeName><settlement type="region"
+                  >Bresse</settlement></placeName></l>
+         <l>Ne pourroit fournir de naveaux</l>
+         <l n="44"><reg>À</reg> ceux que l’on repute veaux</l>
+         <l>Combien que ne soient filz de <rs type="animal">vache</rs>.</l>
+         <note resp="editor" type="crit">L'"Espitre de Lasne au beuf faict lan mil Vc quarante cinq"
+            (CAA#39) commence par le vers : "Et puys compere filz de vache".</note>
+         <!-- Saut#8 -->
+         <l rend="indent">Jamais <orgName type="peuple">bon François</orgName> ne fut lasche:</l>
+         <l>Jamais ne feit faulte à son Prince.</l>
+         <!-- Saut#9 -->
+         <l rend="indent" n="48">Si on querele une Province</l>
+         <l>Le droit l’adjuge, pour le seur,</l>
+         <l>Au plus moderne possesseur</l>
+         <l>S’il ha dequoy pour la defendre.</l>
+         <!-- Saut#10 -->
+         <fw type="sig" place="bottom-right">f4 Troye</fw>
+         <pb n="88"/>
+         <fw type="pageNum" place="top-left">88</fw>
+         <l rend="indent" n="52"><placeName><settlement type="city">Troye</settlement></placeName>
+            la grand fut mise en cendre</l>
+         <l>La raison nous est trop notoire,</l>
+         <l>Mais que sert alleguer l’histoire</l>
+         <l>Si ne me sert en quelque endroit?</l>
+         <l n="56">Car jamais juge ne feit droit</l>
+         <l>Un bossu, tortu, ny boiteux.</l>
+         <l rend="indent">Un borgne est tousjours despiteux,</l>
+         <l>Et en ses mœurs tresdifficile.</l>
+         <!-- Saut#11 -->
+         <l n="60" rend="indent">Les prestres veulent un concille,</l>
+         <l>Pour les dispenser de leurs vœux:</l>
+         <l>Mais tel ha fils, femme, &amp; neveux</l>
+         <l>Qu’il va contre la Loy Romaine.</l>
+         <!-- Saut#12 -->
+         <l n="64" rend="indent">Je vois je vien je me proumeine</l>
+         <l>Pour voir le monde &amp; les abuz.</l>
+         <!-- Saut#13 -->
+         <l>Dieu gard qui inventa le busqs</l>
+         <l>Car la <sic>fa</sic> façon nous sert beaucoup.</l>
+         <l n="68">Voudrois tu suivre encor un coup,</l>
+         <l>L’amoureuse Philosophie?</l>
+         <l><persName type="destinataire">Ysnard</persName> qui aux femmes se fie</l>
+         <l>Souvent chante je m’en repens.</l>
+         <note>L'auteur reprend les très communs propos misogynes propres au genre.</note>
+         <!-- Saut#14 -->
+         <l n="72" rend="indent">En proces se font grant despens,</l>
+         <l>Il n’y ha cherté que d’espices:</l>
+         <note resp="editor" type="ling">Espices: Honoraires des juges et salaires de leurs
+            auxiliaires (Huguet).</note>
+         <l>O que ces estats sont propices</l>
+         <l>Pour enrichir Apoticaires,</l>
+         <l n="76">Mais quoy amy en telz misteres</l>
+         <l>Un chacun scet par cœur son roolle:</l>
+         <fw type="sig" place="bottom-right">Car</fw>
+         <pb n="89"/>
+         <fw type="pageNum" place="top-right">89</fw>
+         <l>Car la moustarde, &amp; la verole</l>
+         <l>De <placeName><settlement type="city">Rouen</settlement></placeName> se prennent au
+            nez.</l>
+         <l n="80">C’est parquoy les passionnez</l>
+         <l>Ne cherchent sinon allegeance.</l>
+         <!-- Saut#15 -->
+         <l rend="indent">Il n’est pas vray que longue absence</l>
+         <l>Des amis oste la memoire,</l>
+         <!-- Saut#16 -->
+         <l n="84">Vostre amie n’est pas si noire</l>
+         <l>Ce me dit une : &amp; je respons</l>
+         <l>Que bien souvent de noirs charbons</l>
+         <l>Petit feu fait sortir grands flammes</l>
+         <l n="88">Pource qu’en <placeName><settlement type="region"
+               >Avignon</settlement></placeName> les femmes</l>
+         <l>(Au moins aucunes) ayment fort</l>
+         <l>Un instrument qui entre &amp; sort:</l>
+         <l>Seroit ce point le sacquebous?</l>
+         <l n="92">Bran, bran en la gorge de tous</l>
+         <l>Qui diront que je mesdits d’elles.</l>
+         <!-- Saut#17 -->
+         <l rend="indent">En <placeName><settlement type="country">France</settlement></placeName>
+            sont les grands nouvelles,</l>
+         <l>Et les grans miracles aussi.</l>
+         <l n="96">Or tandis que sommes icy</l>
+         <l>Aux despens des folz apprenons</l>
+         <l>Mais gardons bien que ne prenons</l>
+         <l>En amy aucun homme estrange.</l>
+         <!-- Saut#18 -->
+         <l n="100" rend="indent">Et <rs type="injonction" subtype="impératif">escrits</rs> moy si
+            dens <placeName><settlement type="city" key="Orange"
+            >Aurenge</settlement></placeName></l>
+         <l>On ha bon marché du velours</l>
+         <l>Ne vois tu pas que les plus lourds</l>
+         <l>Sont aujourd’hui reputez graves,</l>
+         <fw type="sig" place="bottom-right">f 5 Pourveu</fw>
+         <pb n="90"/>
+         <fw>90</fw>
+         <l n="104">Pourveu qu’ils soient pompeux &amp; braves?</l>
+         <l>Qu’ainsi soit <persName type="destinataire">Ysnard</persName> tu scez bien</l>
+         <l>Que monsieur porte tout son bien</l>
+         <l>Sus le col, pour en faire monstre,</l>
+         <l n="108">Mais c’est tout un : Sus <rs type="injoncton" subtype="impératif">passons</rs>
+            oultre</l>
+         <!-- Saut#19 -->
+         <l>As tu prins congé de <placeName><settlement type="region"
+               >Gascongne</settlement></placeName>?</l>
+         <l>Ce malheureux vent de <placeName><settlement type="region"
+               >Bourgongne</settlement></placeName>,</l>
+         <l>Nous ha fait de mal plus que douze.</l>
+         <!-- Saut#20 -->
+         <l n="112" rend="indent">Aussi une femme jalouse,</l>
+         <l>Semble une <rs type="animal" subtype="oiseau">pie</rs> à tout le bec:</l>
+         <l>Et plus de mal invente avec</l>
+         <l>Que les <orgName>furies infernales</orgName>.</l>
+         <!-- Saut#21 -->
+         <l n="116">Penses tu que toutes les males</l>
+         <l>On porte sus les champs, en croupe?</l>
+         <l>Non, non car trop grande est la troupe,</l>
+         <l>Sans celles qui sont dispersées.</l>
+         <!-- Saut#22 -->
+         <l n="120" rend="indent">Amitiez bien recompensées</l>
+         <l>De jour en jour se font plus grandes.</l>
+         <!-- Saut#23 -->
+         <l rend="indent">A les chatemites friandes,</l>
+         <l>Que je voy souz ces chaperons</l>
+         <l n="124">Garde toy du bec de <rs type="animal" subtype="oiseau">Herons</rs></l>
+         <note resp="editor" type="glose">Allusion aux envieux et médisants du Palais.</note>
+         <l>Si tu veux, &amp; je t’en advise.</l>
+         <!-- Saut#24 -->
+         <l><persName type="destinataire">Ysnard</persName> aymons <persName>Dieu</persName> &amp;
+            l’Eglise</l>
+         <l>Quoi qu’<orgName>heretiques</orgName> sachent dire:</l>
+         <l n="128"><rs type="injonction" subtype="impératif">Prens</rs> le meilleur laisse le
+            pire:</l>
+         <l><rs type="injonction" subtype="impératif">Suis</rs> le bon, &amp; <rs type="injonction"
+               subtype="impératif">fuis</rs> le pervers:</l>
+         <fw type="sig" place="bottom-right">Qu'au</fw>
+         <pb n="91"/>
+         <fw type="pageNum" place="top-right">91</fw>
+         <l>Qu’au monde y ha de gents divers</l>
+         <l>Vivants selon leur fantasie:</l>
+         <note resp="editor" type="crit">Dans ce contexte de polémique religieuse, le terme
+            "fantasie" revient souvent sous la plume de Pierre Viret dans son traité de 1542 "De la
+            difference qui est entre les superstitions et idolatries des anciens gentilz et payens,
+            et les erreurs et abus qui sont entre ceux qui s'appellent chrestiens: et de la vraye
+            maniere d'honnorer Dieu, la Vierge Marie, et les Sainctz": "Ce n'est donc pas assez, que
+            nous nous plaisions en nousmesmes, &amp; ne nous fault pas faire à croyre, que Dieu soit
+            suject à nostre fantasie, ou qu'il vueille estre servy à nostre guise, non pas à la
+            sienne: car ainsi faisant, il ne seroit pas maistre, ne nostre Dieu: mais nous le
+            serions." https://doi.org/10.3931/e-rara-4981</note>
+         <l n="132">Mais ne m’en chault car jalousie,</l>
+         <l>Ne provient que d’affection</l>
+         <l>Et estime que fiction,</l>
+         <l>D’un bon cœur ne prend origine.</l>
+         <!-- Saut#25 -->
+         <l n="136" rend="indent">Tousjours la vieillesse imagine</l>
+         <l>De nous, tout le mal qu’elle ha fait:</l>
+         <l>Mais on ne peult estre parfait </l>
+         <l>Tant qu’au monde ferons sejour</l>
+         <l n="140">Car apres la nuict vient le jour</l>
+         <l>Et devant l’esclair le tonnerre</l>
+         <l>Quand les vents, à fin que je n’erre,</l>
+         <l>L’un de l’autre sont ennemis.</l>
+         <!-- Saut#26 -->
+         <l n="144" rend="indent">Il n’y ha thresor que d’amis</l>
+         <l>J’en ay faite l’experience</l>
+         <!-- Saut#27 -->
+         <l>Et puis un bon coureur de lance,</l>
+         <l>Ne doit point coucher en la rue,</l>
+         <l n="148">Non sans cause si mainte <rs type="animal" subtype="oiseau">grue</rs></l>
+         <l>Reside aux villes bien souvent.</l>
+         <l rend="indent">Tousjours le quartier du levant</l>
+         <l>N’est pas devers <placeName><settlement type="country">Grece</settlement></placeName>
+            &amp; <placeName><settlement>Asie</settlement></placeName>:</l>
+         <l n="152">Car il est à ma fantasie,</l>
+         <l>Au ventre des Filles, &amp; Vesves.</l>
+         <l>Couillons au cul ne sont pas febves,</l>
+         <l>Pardonne si les mots sont salles:</l>
+         <fw type="sig" place="bottom-right">Mais</fw>
+         <pb n="92"/>
+         <fw type="pageNum" place="top-left">92</fw>
+         <l n="156">Mais les manteaux, &amp; verdugalles</l>
+         <l>Leur servent d’une grand couverte.</l>
+         <!-- Saut#28 -->
+         <l rend="indent">Qui tasche recouvrer sa perte,</l>
+         <l>En danger met une autre somme</l>
+         <l n="160">Et qu’ainsi soit un chacun homme,</l>
+         <l>Pretend aller en <placeName>Paradis</placeName>.</l>
+         <!-- Saut#29 -->
+         <l rend="indent">Qu’aymes tu plus ou Amadis,</l>
+         <l>Ou lire un texte d’Evangile?</l>
+         <l n="164">La question n’est point subtile</l>
+         <l>Car l’un nourrit &amp; l’autre affame.</l>
+         <!-- Saut#30 -->
+         <l rend="indent">Dieu gard le mari de ma femme,</l>
+         <l>Car c’est mon prochain allié</l>
+         <!-- Saut#31 -->
+         <l n="168">Que credit le Coq sus un pié?</l>
+         <l>Vent prochain, ou temps pluvieux.</l>
+         <!-- Saut#32 -->
+         <l rend="indent">Imitons le conseil des vieux,</l>
+         <l>Et tout bien nous en adviendra.</l>
+         <!-- Saut#33 -->
+         <l n="172"><persName type="destinataire">Ysnard</persName> quand
+               l’<persName>antechrist</persName> viendra</l>
+         <l>Il en fera bien d’esbahis:</l>
+         <!-- Saut#34 -->
+         <l>Mesmement car en ton païs</l>
+         <l>Les femmes on trouvé l’usage</l>
+         <l n="176">D’appliquer le fard au visage</l>
+         <l>Et au front le poil mouscheté.</l>
+         <!-- Saut#35 -->
+         <l rend="indent">Ce n’est pas tour de lascheté</l>
+         <l>Aux amis ayder au besoing.</l>
+         <!-- Saut#36 -->
+         <l n="180" rend="indent">Si ta vie quiers mener loing,</l>
+         <l><rs type="injonction" subtype="impératif">Acqueste</rs> l’amour de chacun:</l>
+         <fw type="sig" place="bottom-right">Et</fw>
+         <pb n="93"/>
+         <fw type="pageNum" place="top-right">93</fw>
+         <l>Et entre tous n’en ayes qu’un</l>
+         <l><reg>À</reg> qui reveles tes secrets.</l>
+         <!-- Saut#37 -->
+         <l n="184">Car en amours sont les regrets,</l>
+         <l>Et en prison les repentirs:</l>
+         <l>Estiment ceux estre martirs</l>
+         <l>D’amour, ou crime convainquus.</l>
+         <!-- Saut#38 -->
+         <l n="188" rend="indent">Qui assembleroit les coquus,</l>
+         <l>Les faudroit loger par estape.</l>
+         <!-- Saut#39 -->
+         <l>De nouveau on dit que le <persName ref="#Paul_III">Pape</persName></l>
+         <note resp="editor" type="glose">Vraisemblablement Alessandro Farnese, Paul III, pape
+            depuis 1534 et qui meurt le 10 novembre 1549, ce qui situerait la composition de cette
+            pièce en 1548 ou 1549.</note>
+         <l>Est mort : &amp; s’il estoit ainsi</l>
+         <l n="192"><placeName><settlement type="country">France</settlement></placeName>,
+                  <placeName><settlement type="country">Italie</settlement></placeName>,
+                  <placeName><settlement type="country">Espagne</settlement></placeName> aussi,</l>
+         <l>Se debatroient de sa despouille.</l>
+         <l rend="indent">Fumée en l’air au vent la feuille,</l>
+         <l>Et foy de femme c’est tout un.</l>
+         <!-- Saut#40 -->
+         <l n="196" rend="indent">Drap de <placeName><settlement type="city"
+               >Rouen</settlement></placeName>, linge d’<placeName><settlement type="city"
+                  >Autun</settlement></placeName>,</l>
+         <l>Gans de <placeName><settlement type="city" key="Milan">Millan</settlement></placeName>,
+            sabots d’<placeName><settlement type="region">Auvergne</settlement></placeName></l>
+         <!-- Saut#41 -->
+         <l>Croy moy que pour vivre à l’espargne,</l>
+         <l>J’en ay veu enrichir maint homme:</l>
+         <l n="200">Mais depuis que sans bride &amp; gromme,</l>
+         <note resp="editor" type="ling">Sans retenue?</note>
+         <l>Les femmes marchent tout se change:</l>
+         <l>Tout se consomme tout se mange</l>
+         <l>Car les maris n’en sont plus maistres.</l>
+         <!-- Saut#42 -->
+         <l n="204" rend="indent">On dit que les putains des prestres,</l>
+         <l>Sont ferrees apres leur mort</l>
+         <!-- Saut#43 -->
+         <l>Celle la qui ses levres mord,</l>
+         <l>Et ses yeux tourne inconstamment:</l>
+         <fw type="sig" place="bottom-right">Treuve</fw>
+         <pb n="94"/>
+         <fw type="pageNum" place="top-right">94</fw>
+         <l n="208"> Treuve lon meilleur fondement,</l>
+         <l>De putativi generis?</l>
+         <!-- Saut#44 -->
+         <l>Car une Dame de <placeName><settlement type="city">Paris</settlement></placeName>,</l>
+         <l>En caquet tient lieu de deux.</l>
+         <!-- Saut#45 -->
+         <l n="212" rend="indent">Il y ha trop plus de douteux</l>
+         <l>Que de Docteurs parmy la <placeName><settlement type="country"
+               >France</settlement></placeName>.</l>
+         <l>Mais qui bien seme ha esperance</l>
+         <l>Voir le fruit de son labourage.</l>
+         <!-- Saut#46 -->
+         <l n="216" rend="indent"><persName type="destinataire">Ysnard</persName>
+            <reg>Ysnard</reg>, ma plume enrage,</l>
+         <l>De dire plus qu’elle n’ha dit.</l>
+         <!-- Saut#47 -->
+         <l rend="indent">Qui fait maintenir le credit</l>
+         <l>Par tout, sinon les bons payeurs?</l>
+         <l n="220">Car les choux &amp; faux monnoyeurs</l>
+         <l>Ne sont bons fors bouillis en huile.</l>
+         <!-- Saut#48 -->
+         <l rend="indent">Ces petites sottes de ville,</l>
+         <l>Veulent trencher des gentilsfemmes:</l>
+         <l n="224">Et non sans cause si les dames</l>
+         <l>Ont tasché de les reformer.</l>
+         <!-- Saut#49 -->
+         <l>Je ne veux personne blasmer,</l>
+         <l>Entens tu, si lon ne me presse,</l>
+         <l n="228">Et que soit vray longue paresse</l>
+         <l>Est la mere des ignorans.</l>
+         <l rend="indent">Souventesfois les moins courans,</l>
+         <l>Reçoivent le prys de la course.</l>
+         <!-- Saut#50 -->
+         <l n="232" rend="indent">Amour ne fait rien sans la bourse,</l>
+         <l>C’est le commun au temps qui court,</l>
+         <!-- Saut#51 -->
+         <fw type="sig" place="bottom-right">Si</fw>
+         <pb n="95"/>
+         <fw type="pageNum" place="top-right">95</fw>
+         <l>Si le train est estimé lourd</l>
+         <l>Non sans cause tu t’en esmayes.</l>
+         <!-- Saut#52 -->
+         <l n="236" rend="indent">J’ay regret du temps que les brayes</l>
+         <l>S’estachoient à trois esguillettes.</l>
+         <!-- Saut#53 -->
+         <l rend="indent">Tousjours c’est veu que folles testes</l>
+         <l>Enrichissent les advocats</l>
+         <!-- Saut#54 -->
+         <l n="240">Vray est qu’il y ha mille cas</l>
+         <l>Reservez au vouloir du Prince.</l>
+         <!-- Saut#55 -->
+         <l rend="indent">Avant que la plume je prinse</l>
+         <l>Pour t’escrire <persName type="destinataire">Ysnard</persName> je cuidois,</l>
+         <l n="244">Travailler beaucoup plus mes doits</l>
+         <l>Si le sommeil pressé ne m’eut.</l>
+         <!-- Saut#56 -->
+         <l rend="indent"><reg>À</reg>
+            <placeName>la court</placeName> se grate qui veult,</l>
+         <l>Et si font bien en autre lieu:</l>
+         <l n="248">Pour la fin je te dis adieu.</l>
+      </body>
+   </text>
+</TEI>

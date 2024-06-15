@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Seconde truye au foing </title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+
+	<text>
+		<body>
+			<div>
+				<l>Seconde truye au foing, pour ne<lb break="no"/> m'<choice>
+						<orig>auoir</orig>
+						<reg>avoir</reg>
+					</choice> point respondu.</l>
+				<pb n="24v"/>
+				<l>Si ma truye au foing <choice>
+						<orig>auez</orig>
+						<reg>avez</reg>
+					</choice> leu</l>
+				<l><choice>
+						<orig>Ie</orig>
+						<reg>Je</reg>
+					</choice> croy que point ne vous a pleu,</l>
+				<l>Puis que ne me daignez respondre<note type="editor" subtype="crit">Jeu habituel
+						de la fausse épître, présente dès le second coq-à-l’âne de Marot : « Puis
+						que respondre ne me veulx,"</note></l>
+				<!--Saut#1-->
+				<l n="4">En tout temps, ne faut brebis tondre<note type="editor" subtype="ling"
+						>C'est-à-dire perdre son temps, répondre à des balivernes (Di
+						Stefano)</note>,</l>
+				<l>Se disent les bons laboureurs</l>
+				<!--Saut#2-->
+				<l>O qu’<choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice>
+					<placeName>Royaume</placeName> est mal’heureux.</l>
+				<l>Duquel bannie est la <choice>
+						<orig>Iustice</orig>
+						<reg>Justice</reg>
+					</choice></l>
+				<l n="8">Ce <placeName key="France">Royaume</placeName> est si plain de vice.</l>
+				<l>Que chassee en est la vertu</l>
+				<!--Saut#3-->
+				<l><choice>
+						<orig>Un</orig>
+						<reg>Un</reg>
+					</choice> corps qui est bossu, tortu,</l>
+				<l>Peut-il loger <choice>
+						<orig>vne</orig>
+						<reg>une</reg>
+					</choice> ame droicte</l>
+				<!--Saut#4-->
+				<l n="12">Mainte <choice>
+						<orig>auiourd’huy</orig>
+						<reg>aujourd'huy</reg>
+					</choice> font de l’estroicte<note type="editor" subtype="ling">Faire de
+						l’estroicte pour « affecter de la pruderie ».(Di Stefano)</note>,</l>
+				<l>Qui <choice>
+						<orig>sçauent</orig>
+						<reg>sçavent</reg>
+					</choice> bien quel goust, vis ont</l>
+				<!--Saut#5-->
+				<l>Or voila sur le gonviont,</l>
+				<l>Une <choice>
+						<orig>équiuocque</orig>
+						<reg>équivocque</reg>
+					</choice> assez gentille</l>
+				<!--Saut#6-->
+				<l n="16">Les grands sont mis en la <placeName>Bastille</placeName>,</l>
+				<l>Apres qu’ils ont mangé le lard<note type="editor" subtype="crit">Séries d'indices
+						qui inscrivent le présent poème dans l'héritage marotique.</note></l>
+				<!--Saut#7-->
+				<l>Quand à <rs type="périphrase" subtype="personne">ce radoté vieillard</rs>,</l>
+				<l><choice>
+						<orig>Auec</orig>
+						<reg>Avec</reg>
+					</choice> ces belles Patenostres</l>
+				<l n="20">S’il se fusse rangé de nostres,</l>
+				<l>Maintenant serions en repos.</l>
+				<!--Saut#8-->
+				<l>Sathan ne craint, ny ces susposts.</l>
+				<l><choice>
+						<orig>Pourueu</orig>
+						<reg>Pourveu</reg>
+					</choice> que paix nous soit donnee</l>
+				<!--Saut#9-->
+				<l n="24">Nostre <choice>
+						<orig>ieunesse</orig>
+						<reg>jeunesse</reg>
+					</choice> est adonnee,</l>
+				<l>A mille dissolutions</l>
+				<!--Saut#10-->
+				<l>Cercher faut des <choice>
+						<orig>inuentions</orig>
+						<reg>inventions</reg>
+					</choice>,</l>
+				<l>Tous les <choice>
+						<orig>iours</orig>
+						<reg>jours</reg>
+					</choice>, pour <choice>
+						<orig>auoir</orig>
+						<reg>avoir</reg>
+					</choice> pecune</l>
+				<!--Saut#11-->
+				<l n="28">Toutes <choice>
+						<orig>seruir</orig>
+						<reg>servir</reg>
+					</choice>, n’en aymer qu’<choice>
+						<orig>vne</orig>
+						<reg>une</reg>
+					</choice>.</l>
+				<l>C’est la <choice>
+						<orig>deuise</orig>
+						<reg>devise</reg>
+					</choice> que <choice>
+						<orig>ie</orig>
+						<reg>je</reg>
+					</choice> tien</l>
+				<!--Saut#12-->
+				<l>Le monde est assez gros Chrestien<note type="editor" subtype="ling">Chrétien peu
+						zélé ou tiède.</note>.</l>
+				<pb n="25"/>
+				<fw type="pageNum" place="top-right">25</fw>
+				<l>Chacun estudie à l’athee</l>
+				<l n="32">La tragedie de <persName>Panthee</persName><note type="editor"
+						subtype="crit">Jules de Guersens (1543-1583) a publié Panthee, tragédie
+						prise du Grec de Xenophon en 1571.</note>,</l>
+				<l>Dont <persName type="auteur">Xenophon</persName> en est l’auteur,</l>
+				<l><persName key="unknown">Montel</persName> qui en est traducteur.</l>
+				<l>La mettra bien tost en lumiere,</l>
+				<!--Saut#13-->
+				<l n="36">C’est <choice>
+						<orig>vne</orig>
+						<reg>une</reg>
+					</choice> reigle coustumiere.</l>
+				<l>Qu’on <choice>
+						<orig>deuient</orig>
+						<reg>devient</reg>
+					</choice> sage apres les plaids,</l>
+				<!--Saut#14-->
+				<l>Cent mil escus ne sont pas laids.</l>
+				<l>Qui ne coustent que la quittance,</l>
+				<!--Saut#15-->
+				<l n="40">Apres la mort la repentance</l>
+				<l>Nous voyons cela trop <choice>
+						<orig>souuent</orig>
+						<reg>souvent</reg>
+					</choice></l>
+				<!--Saut#16-->
+				<l>De recommander son <choice>
+						<orig>conuent</orig>
+						<reg>couvent</reg>
+					</choice>.</l>
+				<l><choice>
+						<orig>Vn</orig>
+						<reg>Un</reg>
+					</choice>
+					<orgName>Cordelier</orgName> point ne s’oublie,</l>
+				<!--Saut#17-->
+				<l n="44">La Prophetie est accomplie.</l>
+				<l>Nous <choice>
+						<orig>auuons</orig>
+						<reg>avons</reg>
+					</choice> des enfants pour Roys</l>
+				<l>Depuis vingt ans <choice>
+						<orig>i</orig>
+						<reg>j</reg>
+					</choice>’en ay veu trois<note type="editor" subtype="crit">François II, Charles
+						IX et Henri III.</note>,</l>
+				<l>Sans <choice>
+						<orig>auoir</orig>
+						<reg>avoir</reg>
+					</choice> rien gaigné au change<note type="editor" subtype="crit">« Tant y a
+						qu’il est bien aisé de reprendre et trouver en faute ceux qui ont le
+						maniement des affaires du monde, et messes si grands comme elle (la reine) a
+						eu, ayant sur ses bras le Roy et messieurs ses frères si jeunes, et estans
+						tous les princes bandez l’un contre l’autre, les uns advancez, puis reculez,
+						et après ce beau manteau de religion qui a servi aux uns et aux autres pour
+						exécuter leurs vengeances et nous faire entremanger. » (<persName>Blaise de Monluc</persName>,
+						Commentaires, « Jugement sur la St-Barthélemy », p. 835).</note></l>
+				<l n="48">Ne <choice>
+						<orig>trouuons</orig>
+						<reg>trouvons</reg>
+					</choice> point cela estrange.</l>
+				<l>C’est <persName>Dieu</persName> qui nous veut chastier</l>
+				<!--Saut#18-->
+				<l>Il faut <choice>
+						<orig>iurer</orig>
+						<reg>jurer</reg>
+					</choice> comme un chartier.</l>
+				<l><choice>
+						<orig>Auiourd’huy</orig>
+						<reg>Aujourd'huy</reg>
+					</choice> pour se faire croire</l>
+				<!--Saut#19-->
+				<l n="52">De quelque part soit la victoire.</l>
+				<l>Les <orgName>Prestres</orgName> n’auront pas du bon,</l>
+				<!--Saut#20-->
+				<l>Ne souflons point tant le charbon.</l>
+				<l>Que nostre teste en soit malade</l>
+				<!--Saut#21-->
+				<l n="56">En amour <choice>
+						<orig>vne</orig>
+						<reg>une</reg>
+					</choice> simple œillade,</l>
+				<l>A quelquefois grande vigueur,</l>
+				<!--Saut#22-->
+				<l>Faut-il traicter à la rigueur</l>
+				<l>Celuy qui les estats demande?</l>
+				<!--Saut#23-->
+				<l n="60"><choice>
+						<orig>Vn</orig>
+						<reg>Un</reg>
+					</choice> boiteux pour saluer marmande<note type="editor" subtype="ling"
+						>Marmoter?(Furetière)</note>.</l>
+				<l>D’<choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice>
+					<roleName>Roy</roleName> ce contrefaict amy,</l>
+				<!--Saut#24-->
+				<l>C’est <choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice> dangereux ennemy.</l>
+				<l>Qu’<choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice> dissimulé ypocrite,</l>
+				<!--Saut#25-->
+				<l n="64">Ceux qui font mieux la chatemite<note type="editor" subtype="crit">Le roi
+						manipulé par des courtisans italiens est une des accusations récurrentes des
+						pamphlets des années 1575 et un des arguments des « monarchomaques ». Si Du
+						Sable reprend l’argument calviniste contre les mauvais conseillers, il ne
+						s’en prend pas à la figure du monarque</note>.</l>
+				<pb n="25v"/>
+				<l><choice>
+						<orig>Auiourd’huy</orig>
+						<reg>Aujourd'huy</reg>
+					</choice> sont les mieux venus</l>
+				<l>En court sont si bien recognus,</l>
+				<l>Qu’employez sont aux grands affaires,</l>
+				<!--Saut#26-->
+				<l n="68"><choice>
+						<orig>Eueschez</orig>
+						<reg>Eveschez</reg>
+					</choice> sont hereditaires,</l>
+				<l>L’oncle le laisse à ses <choice>
+						<orig>nepueux</orig>
+						<reg>nepveux</reg>
+					</choice></l>
+				<!--Saut#27-->
+				<l><orgName>Prestres</orgName> &amp; <orgName>moines</orgName> ont faict veux,</l>
+				<l>D’abhorrer tous les mariages,</l>
+				<l n="72">Et pour <choice>
+						<orig>viure</orig>
+						<reg>vivre</reg>
+					</choice> en concubinages.</l>
+				<l>Ont estably le celibat,</l>
+				<!--Saut#28-->
+				<l>Plus hardy se <choice>
+						<orig>trouue</orig>
+						<reg>trouve</reg>
+					</choice> au combat.</l>
+				<l>Celuy qui sent sa cause bonne,</l>
+				<!--Saut#29-->
+				<l n="76">Les Huguenots font peu d’aumosne.</l>
+				<l>Ils ont perdu leur charité<note type="editor" subtype="crit">Syllepse avec le
+						toponyme. Le 1er mai 1577, l’armée royale commandée par le duc d’Anjou, à
+						présent réconcilié avec Henri III, a pris la ville.</note></l>
+				<!--Saut#30-->
+				<l><choice>
+						<orig>Ie</orig>
+						<reg>Je</reg>
+					</choice> parle <choice>
+						<orig>auecques</orig>
+						<reg>avecques</reg>
+					</choice> verité,</l>
+				<l><roleName key="Henri">Monsieur</roleName>
+					<choice>
+						<orig>à</orig>
+						<reg resp="editor">a</reg>
+					</choice> mal traicte <placeName><settlement type="city"
+						>Issoire</settlement></placeName><note type="editor" subtype="crit"
+						>L’association d’idées est manifeste ici à partir des deux place-fortes
+						huguenotes. Issoire se rend à son tour aux troupes du duc d’Anjou le 11 juin
+						1577. Monsieur donne ainsi à son frère le roi les preuves de sincérité de
+						son allégeance.</note>,</l>
+				<!--Saut#31-->
+				<l n="80">Prions <persName>Dieu</persName> qu’aucun accessoire<note type="editor"
+						subtype="ling">Accessoire, dans le sens de « danger » ici</note>.</l>
+				<l>Ne nous accule au fons du sac<note type="editor" subtype="crit">L’expression
+						apparaît dans le « Petit discours envoyé à mes compagnons de la trompe »
+						: « Se Monsieur de Frontenac/ Eust pris pour moy la défense,/ Je ne fusse au
+						fond du sac/ Acculé, comme je pense. »</note></l>
+				<!--Saut#32-->
+				<l>La paix se traite à <placeName><settlement type="city"
+						>Bergerac</settlement></placeName><note type="editor" subtype="crit">Elle
+						est signée le 3 septembre 1577.</note>.</l>
+				<l>Ce pendant on prenoit <placeName><settlement type="city"
+							><reg>Brouage</reg></settlement></placeName><note type="editor"
+						subtype="crit">C’est le duc de Mayenne qui a mené le siège de Brouage durant
+						l’été 1577.</note>.</l>
+				<l n="84">La prise apporte <choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice> tel dommage.</l>
+				<l>Que cause est d’<choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice> retranchement,</l>
+				<l>Nous aurons quelque changement.</l>
+				<l>Si ceste guerre continue</l>
+				<l n="88">La <placeName>porte du Pin</placeName> est rendue<note type="editor"
+						subtype="crit">La porte du Pin à Agen était tenue par le roi de
+						Navarre.</note>.</l>
+				<l><placeName><settlement type="city">Agen</settlement></placeName> pense estre en
+					liberté,</l>
+				<l>Mais ce corrompu affecté.</l>
+				<l>Luy a donné la cantonade</l>
+				<!--A clarifier-->
+				<!--Saut#33-->
+				<l n="92">L’homme en santé qui n’est malade,</l>
+				<l>N’a que faire du medecin,</l>
+				<!--Saut#34-->
+				<l>Si cracherez vous au <note type="editor" subtype="ling">Payer sa part. (Di
+						Stefano)</note>.</l>
+				<l><persName>Messieurs de Guienne &amp; Gascongne</persName></l>
+				<!--Saut#35-->
+				<l n="96">Les <roleName>Roynes</roleName> ont passez d’ordonne.</l>
+				<l>Elles sont fort pres de <placeName><settlement type="city"
+						>Bordeaux</settlement></placeName>,</l>
+				<l>Ou furent filez les cordeaux.</l>
+				<!--Saut#36-->
+				<pb n="26"/>
+				<fw type="pageNum" place="top-right">26</fw>
+				<l>Par qui fut prise <placeName><settlement type="city">la
+					reaule</settlement></placeName><note type="editor" subtype="crit"><persName>Monluc</persName>
+						était le 23 juin 1575 à La Réole pour en faire le siège. « Quelque temps
+						après, la cour de parlement de Bourgogne m’escrivit que les huguenots
+						remuoyent besongne sur la rivière de Dordogne et qu’il fallait y pourvoir,
+						me priant m’approcher d’eux pour y apporter quelque remède, et que le mal
+						n’allast plus avant. Je vins à La Reolle, … » (<persName>Blaise de Monluc</persName>,
+						Commentaires, p. 840).</note></l>
+				<l n="100">Fana en a pris <placeName><settlement type="city">la
+						reole</settlement></placeName>,</l>
+				<l>C’est la <choice>
+						<orig>fieure</orig>
+						<reg>fievre</reg>
+					</choice> en tresbon Gascon</l>
+				<!--Saut#37-->
+				<l>Entre <placeName><settlement type="city">Beaucaire</settlement></placeName> &amp;
+							<placeName><settlement type="city"
+					>Tarascon</settlement></placeName>.</l>
+				<l>On ne void <rs type="animal">bœuf</rs> ny <rs type="animal">mouton</rs>
+					paistre,</l>
+				<!--Saut#38-->
+				<l n="104"><placeName><settlement type="city" key="Montpellier"
+							>Montpelier</settlement></placeName> est demeuré maistre.</l>
+				<l>Le <orgName>Huguenot</orgName> n’en est marry,</l>
+				<!--Saut#39-->
+				<l><choice>
+						<orig>Ie</orig>
+						<reg>Je</reg>
+					</choice> tiens par trop simple <choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice> mary</l>
+				<l>Qui veut du tout sa femme croire,</l>
+				<!--Saut#40-->
+				<l n="108">Croyez qu’apres manger &amp; boire,</l>
+				<l>Luy donneras tes poix au <rs type="animal">veau</rs>,</l>
+				<!--Saut#41-->
+				<l><choice>
+						<orig>I</orig>
+						<reg>J</reg>
+					</choice>’ay veu par <choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice> Edict <choice>
+						<orig>nouueau</orig>
+						<reg>nouveau</reg>
+					</choice>.</l>
+				<l>Qu’à maint la ruine on pourchasse,</l>
+				<!--Saut#42-->
+				<l n="112">Le <persName key="Henri III">Roy</persName> ayme à present la chasse.</l>
+				<l>La sepmaine il y va deux fois,</l>
+				<!--Saut#43-->
+				<l><orgName>L’Eglise</orgName> vend tous ses hauts bois.</l>
+				<l>Les <orgName><choice>
+							<orig>pauures</orig>
+							<reg>pauvres</reg>
+						</choice></orgName> se chauffent de tramble</l>
+				<!--Saut#44-->
+				<l n="116"><choice>
+						<orig>Ie</orig>
+						<reg>Je</reg>
+					</choice> prise moins <rs type="animal">la beste d’amble</rs>.</l>
+				<l>Qu’<choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice> beau &amp; bon <rs type="animal" subtype="equide">cheval</rs> de
+					pas,</l>
+				<!--Saut#45-->
+				<l><choice>
+						<orig>Vne</orig>
+						<reg>Une</reg>
+					</choice> jeune à trois bons repas.</l>
+				<l>Ce me dict <choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice> jour <choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice> bon moine,</l>
+				<!--Saut#46-->
+				<l n="120"><choice>
+						<orig>Ie</orig>
+						<reg>Je</reg>
+					</choice> pense bien <persName><roleName>monsieur</roleName>
+					Antoine</persName>.</l>
+				<l>Que vous ne voudriez m’oublier</l>
+				<!--Saut#47-->
+				<l><rs type="proverbe">Plus tost que rompre il faut plier</rs>.</l>
+				<l>Comprenez ce que <choice>
+						<orig>ie</orig>
+						<reg>je</reg>
+					</choice> veux dire,</l>
+				<!--Saut#48-->
+				<l n="124"><choice>
+						<orig>Ie</orig>
+						<reg>Je</reg>
+					</choice> ne me puis tenir de rire.</l>
+				<l>Quand <choice>
+						<orig>ie</orig>
+						<reg>je</reg>
+					</choice> voy ses ambitieux,</l>
+				<l>Qui pensent escheler les <placeName>cieux</placeName>.</l>
+				<l>Avec leurs morgues tant superbes,</l>
+				<!--Saut#49-->
+				<l n="128">Il est au mois d’Aoust plus de gerbes.<note type="editor" subtype="ling"
+						>Jeu de mots probable entre la gerbe de blé et le garbe/guarbe/guerbe pour
+						désigner un "un air, une manière, une mine" ou encore "un charme, une grâce"
+						(Huguet)</note></l>
+				<l>Qu’en <choice>
+						<orig>januier</orig>
+						<reg>Janvier</reg>
+					</choice>, <choice>
+						<orig>Feburier</orig>
+						<reg>Febvrier</reg>
+					</choice>, ny en Mars</l>
+				<!--Saut#50-->
+				<l><persName key="Satan">Sathan</persName> avec maints gris caffars.</l>
+				<l>Le tour de la foy sape &amp; mine,</l>
+				<l n="132">En chaire ils ont si bonne mine.</l>
+				<pb n="26v"/>
+				<l>Qu’Appelles sont <sic>frere</sic> Mineurs</l>
+				<!--Saut#51-->
+				<l>On a recours aux <choice>
+						<orig>deuineurs</orig>
+						<reg>devineurs</reg>
+					</choice><note type="editor" subtype="crit">Pierre de L’Estoile note : « Le
+						jeudi 7e novembre, commença à paroistre une commette vers le midi, dont la
+						queue fort longue tirait vers l’Orient estival. Elle levoit avecques la
+						lune, peu après le soleil couché, et s’abaissoit sous l’orizon sur les neuf
+						ou dix heures du soir, et fut veue quarante jours. Ces fols d’astrologues
+						disaient qu’elle présageoit la mort de la Roine ou de quelque grande Dame,
+						avec quelque remarquable et insigne malheur. Ce que aiant entendu, la
+						Roine-Mère entre incontinent en fraieur et appréhension que ce fust elle :
+						de quoi se moqua un docte courtizan (…). »</note></l>
+				<l>Plus tost qu’à <persName>Dieu</persName> ou sa parole</l>
+				<!--Saut#52-->
+				<l n="136">De l’Atheisme on tient escole.</l>
+				<l>Les plus grands s’en sont faicts <roleName>Regens</roleName>,</l>
+				<!--Saut#53-->
+				<l>Le <placeName><settlement>Piedmont</settlement></placeName> quand aux <choice>
+						<orig>ieunes</orig>
+						<reg>jeunes</reg>
+					</choice> gens.</l>
+				<l>Pour la <placeName><settlement type="country">France</settlement></placeName>
+					estoit necessaire</l>
+				<!--Saut#54-->
+				<l n="140">D’estre perfide ou bien fauxcerre.</l>
+				<l>C’est la vertu de maintenant</l>
+				<!--Saut#55-->
+				<l>Sot est qui cerche un <roleName>Lieutenant</roleName>.</l>
+				<l>Pour la nuict contenter sa femme</l>
+				<!--Saut#56-->
+				<l n="144">Sans doute une liesse extreme,</l>
+				<l>Est <choice>
+						<orig>tousiours</orig>
+						<reg>tousjours</reg>
+					</choice> proche d’<choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice> malheur</l>
+				<!--Saut#57-->
+				<l>L’homme prudent &amp; de valeur.</l>
+				<l>N’est respecté de la <choice>
+						<orig>ieunesse</orig>
+						<reg>jeunesse</reg>
+					</choice></l>
+				<!--Saut#58-->
+				<l n="148">On ne parle plus de <rs type="animal">l’Asnesse</rs>.</l>
+				<l>Qui porta le pere &amp; le fils.</l>
+				<!--Saut#59-->
+				<l>Le <choice>
+						<orig>reuenu</orig>
+						<reg>revenu</reg>
+					</choice> du crucifix</l>
+				<l>A plusieurs a fermé la bouche,</l>
+				<l n="152">Ce point à nos <roleName>Huguenots</roleName> touche.</l>
+				<l>Qui contrefont des <orgName>Papelards</orgName>,</l>
+				<!--Saut#60-->
+				<l><orgName type="peuple">Picards</orgName> ont bien frottez leurs lards.</l>
+				<l>A ces petits friands de beure,</l>
+				<!--Saut#61-->
+				<l n="156">Chacun se souhaittoit à l’heure.</l>
+				<l>Breneux chez soy <choice>
+						<orig>iusqu’</orig>
+						<reg>jusqu'</reg>
+					</choice>au menton</l>
+				<!--Saut#62-->
+				<l><choice>
+						<orig>Vn</orig>
+						<reg>Un</reg>
+					</choice>
+					<roleName type="peuple">Gascon</roleName> avec un <roleName type="peuple"
+						>Breton</roleName>,</l>
+				<l>Ce sont deux bons tireurs de laine<note type="editor" subtype="ling">Tirer la
+						laine, c'est-à-dire "dépouiller" (Di Stefano)</note>,</l>
+				<!--Saut#63-->
+				<l n="160">Tel est qui a sa bourse plaine.</l>
+				<l>Qui n’est saoul encor qu’à demy</l>
+				<!--Saut#64-->
+				<l>Au besoin se cognoit l’amy.</l>
+				<l><choice>
+						<orig>Ie</orig>
+						<reg>Je</reg>
+					</choice> le sçay par experience,</l>
+				<!--Saut#65-->
+				<l n="164">A <placeName><settlement type="city">Nerac</settlement></placeName> on
+					tient conference.</l>
+				<l>Pour mettre ce <placeName>Royaume</placeName> en paix</l>
+				<!--Saut#66-->
+				<l>De belle promesse on nous paie.</l>
+				<pb n="27"/>
+				<fw type="pageNum" place="top-right">27</fw>
+				<l>Mais nous voyons tout le contraire</l>
+				<!--Saut#67-->
+				<l n="168">Toutesfois il se <choice>
+						<orig>conuient</orig>
+						<reg>convient</reg>
+					</choice> taire.</l>
+				<l>De peur que n’en soyons repris;</l>
+				<!--Saut#68-->
+				<l>Voulez-vous sçavoir qui est pris.</l>
+				<l>C’est le <placeName>Marquisat de Saluce</placeName></l>
+				<l n="172"><persName>Bellegarde</persName> par son astuce</l>
+				<l>S’en est emparé proprement<note type="editor" subtype="crit">Il n’en deviendra
+						gouverneur qu’en 1579; mais il avait épousé dès 1562 Marguerite de Saluces
+						Cardé, alors héritière du marquisat.</note>,</l>
+				<!--Saut#69-->
+				<l><choice>
+						<orig>Ie</orig>
+						<reg>Je</reg>
+					</choice> ne sçay par qui ny comment</l>
+				<l>S’appaiseront tant de querelles,</l>
+				<!--Saut#70-->
+				<l n="176">La <placeName>Court</placeName> a plus de macquerelles.</l>
+				<l>Qu’elle n’a des <reg>filles</reg> de bien</l>
+				<l>Soyons discrets, n’en disons rien.</l>
+				<l>De peur que n’offensions l’honneste,</l>
+				<!--Saut#71-->
+				<l n="180">L’honneur le <orgName>François</orgName> admoneste.</l>
+				<l>De mourir pour un desmenty</l>
+				<!--Saut#72-->
+				<l>A fringuer femme l’apprenty.</l>
+				<l>Est meilleur ouvrier que le maistre</l>
+				<!--Saut#73-->
+				<l n="184">En pourpoint <choice>
+						<orig>souuent</orig>
+						<reg>souvent</reg>
+					</choice> voyons mettre,</l>
+				<l>Tous ses petits friants du <choice>
+						<orig>ieu</orig>
+						<reg>jeu</reg>
+					</choice>,</l>
+				<!--Saut#74-->
+				<l>Rien d’animé ne vid au feu.</l>
+				<l>Sinon la froide <rs type="animal">Salamandre</rs>,</l>
+				<!--Saut#75-->
+				<l n="188"><persName>Monsieur de la Noue</persName> est en <placeName><settlement
+							type="region">Flandre</settlement></placeName>.</l>
+				<l>Qui fache <orgName type="peuple">l’Espagnol</orgName> assez,</l>
+				<!--Saut#76-->
+				<l><choice>
+						<orig>Ie</orig>
+						<reg>Je</reg>
+					</choice> sen mes sens presque lassez.</l>
+				<l>De vous faire <choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice> si long libelle,</l>
+				<!--Saut#77-->
+				<l n="192">C’est Athée <persName key="Machiavel">Machianelle</persName></l>
+				<l>A bien enfanté de tyrans,</l>
+				<l>Qui cerchent de se faire grands.</l>
+				<l>Aux despens de leurs <choice>
+						<orig>suiects</orig>
+						<reg>sujects</reg>
+					</choice> mesme</l>
+				<!--Saut#78-->
+				<l n="196">On ne craint plus tant le Caresme.</l>
+				<l>Comme on faisoit au temps <choice>
+						<orig>iadis</orig>
+						<reg>jadis</reg>
+					</choice>,</l>
+				<l>Or n’acheptons plus <placeName>paradis</placeName>.</l>
+				<l>Qui gratuitement se donne</l>
+				<!--Saut#79-->
+				<l n="200">Ce beau pourparler de <placeName><settlement type="city"
+							>Bayonne</settlement></placeName>.</l>
+				<pb n="27v"/>
+				<l>A cause des sanglants effects</l>
+				<l>Lesquels ne sont encor tous faicts,</l>
+				<l><rs type="proverbe">Le grand venin gist à la queue</rs></l>
+				<!--Saut#80-->
+				<l n="204">Pleust à <persName>Dieu</persName> que n’eussions onc eue.</l>
+				<l>De nous plaindre l’occasion</l>
+				<!--Saut#81-->
+				<l>Car la grande confusion,</l>
+				<l>N’atreine <choice>
+						<orig>auec</orig>
+						<reg>avec</reg>
+					</choice> soy que ruine,</l>
+				<!--Saut#82-->
+				<l n="208">De l’estocquade Florentine.</l>
+				<l>Plusieurs s’escriment proprement</l>
+				<!--Saut#83-->
+				<l>On dict aussi communement,</l>
+				<l><rs type="proverbe">Qu’il n’<choice>
+							<orig>aduient</orig>
+							<reg>advient</reg>
+						</choice> tout ce que fol pense</rs></l>
+				<!--Saut#84-->
+				<l n="212"><choice>
+						<orig>Vn</orig>
+						<reg>Un</reg>
+					</choice> sçay qui sa femme dispence.</l>
+				<l>Coucher dehors huict fois le mois,</l>
+				<l>Ce sont la sepmaine deux fois.</l>
+				<l>Pensez ou va la bonne beste</l>
+				<!--Saut#85-->
+				<l n="216">Communement poule caquette,</l>
+				<l>Apres qu’elle a ponnu son œuf,</l>
+				<!--Saut#86-->
+				<l>En du drap vieil mettre du neuf.</l>
+				<l>Ce seroit perte <choice>
+						<orig>auec</orig>
+						<reg>avec</reg>
+					</choice> dommage</l>
+				<!--Saut#87-->
+				<l n="220">Aussi vray que le mol fromage,</l>
+				<l>N’est pas trop bon pour <choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice> ribaut<note type="editor" subtype="ling">Débauché, ou amant, toujours
+						péjoratif.</note>,</l>
+				<!--Saut#88-->
+				<l>Peu après <roleName>maistre</roleName>
+					<choice>
+						<orig>Iean</orig>
+						<reg>Jean</reg>
+					</choice>
+					<choice>
+						<orig>Thibavt</orig>
+						<reg>Thibaut</reg>
+					</choice>.</l>
+				<l><persName>Nostradamus</persName> a eu ses vogues,</l>
+				<!--Saut#89-->
+				<l n="224">Molossos en Latin sont <rs type="animal">dogues</rs><note type="editor"
+						subtype="crit">Allusion à l’anecdote des Dogues offerts par Henri VIII à
+						François Ier.</note>.</l>
+				<l><unclear>Mas</unclear>
+					<rs type="animal">mulet</rs> pour un <roleName>Chancelier</roleName></l>
+				<!--Saut#90-->
+				<l>Quiconque endure son soulier,</l>
+				<l>Le blesser souffre plus grands choses,</l>
+				<!--Saut#91-->
+				<l n="228">Hola, car ce sont lettres closes.</l>
+				<l>Gardons nous bien de les <choice>
+						<orig>ouurir</orig>
+						<reg>ouvrir</reg>
+					</choice>,</l>
+				<!--Saut#92-->
+				<l><choice>
+						<orig>I</orig>
+						<reg>J</reg>
+					</choice>’espère <choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice>
+					<choice>
+						<orig>iour</orig>
+						<reg>jour</reg>
+					</choice> vous descouvrir</l>
+				<l>Des <choice>
+						<orig>nouuelles</orig>
+						<reg>nouvelles</reg>
+					</choice> plus d’<choice>
+						<orig>vne</orig>
+						<reg>une</reg>
+					</choice> grosse</l>
+				<!--Saut#93-->
+				<l n="232">S’il qui dagua sa femme grosse.</l>
+				<l>Se monstra mary trop cruel,</l>
+				<!--Saut#94-->
+				<l>On ne combat plus en duel.</l>
+				<pb n="28"/>
+				<l>Qu’on ne soit deux ou trois ensemble,</l>
+				<!--Saut#95-->
+				<l n="236">O sotte chose ce me semble.</l>
+				<l>De s’entretuer à credit</l>
+				<!--Saut#96-->
+				<l>Aux serruriers ainsi qu’on dict,</l>
+				<l>Assez se taille de besongne,</l>
+				<l n="240">Quoy que l’on die ou qu’on en hongne.</l>
+				<l>Il n’a pas <choice>
+						<orig>vne</orig>
+						<reg>une</reg>
+					</choice> clef qui veut</l>
+				<!--Saut#97-->
+				<l>Si la populace s’émeut,</l>
+				<l>Que la Noblesse pense à elle,</l>
+				<l n="244">Car il n’est beste plus cruelle.</l>
+				<l>Qu’<choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice> vilain la fourche à la main,</l>
+				<!--Saut#98-->
+				<l>Quand au <orgName>Catholique</orgName> Romain</l>
+				<l>De son epithete il faut rire,</l>
+				<l n="248">Bougre <choice>
+						<orig>uniuersel</orig>
+						<reg>universel</reg>
+					</choice> c’est à dire :</l>
+				<l>Ce nom n’est-il pas fort plaisant,</l>
+				<!--Saut#99-->
+				<l>Autant faut craindre <choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice> mal disant.</l>
+				<l>Que la contagieuse peste</l>
+				<!--Saut#100-->
+				<l n="252"><choice>
+						<orig>I</orig>
+						<reg>J</reg>
+					</choice>’ay <choice>
+						<orig>tousiours</orig>
+						<reg>tousjours</reg>
+					</choice> peur d’<choice>
+						<orig>vne</orig>
+						<reg>une</reg>
+					</choice> grande feste.</l>
+				<l>Volontiers c’est un <choice>
+						<orig>iour</orig>
+						<reg>jour</reg>
+					</choice> fatal,</l>
+				<!--Saut#101-->
+				<l>Attrappé est le corival.</l>
+				<l>A la fin si bien ne se <choice>
+						<orig>couure</orig>
+						<reg>couvre</reg>
+					</choice></l>
+				<!--Saut#102-->
+				<l n="256">Tesmoin celuy sortant du <placeName><choice>
+							<orig>Louure</orig>
+							<reg>Louvre</reg>
+						</choice></placeName>,</l>
+				<l>A qui on fist franchir le saut,</l>
+				<!--Saut#103-->
+				<l>Croire sans douter il nous faut.</l>
+				<l>Qu’<choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice> marry qui a droit, chevauche</l>
+				<l n="260">Et la femme le faict à gauche,</l>
+				<l>Ont beau picquer sans se trainer,</l>
+				<!--Saut#104-->
+				<l>Le printemps de pres suit l’hyver.</l>
+				<l>Le beautemps vient apres la pluie,</l>
+				<!--Saut#105-->
+				<l n="264">De peur que <choice>
+						<orig>ie</orig>
+						<reg>je</reg>
+					</choice> ne vous ennuie.</l>
+				<l>D’<choice>
+						<orig>vn</orig>
+						<reg>un</reg>
+					</choice> plus long discours n’est besoin</l>
+				<l>Prenez en gré ma <rs type="animal">truye</rs> au foing,</l>
+				<l>Qui de tout mon cœur vous supplie</l>
+				<l>Que le vostre poinct ne m’oublie.</l>
+				<pb n="28"/>
+				<!--Fin des octosyllabes-->
+				<l>Si ceste truye au foing n’est comme <choice>
+						<orig>ie</orig>
+						<reg>je</reg>
+					</choice> desire,</l>
+				<l><persName key="Joyeuse">Monsieur</persName> ne laissez pas d’en tirer le
+					meilleur</l>
+				<l>Faictes comme l’<rs type="animal">abeille</rs> esseant mainte fleur,</l>
+				<l>Qui des bonnes en faict son doux miel, &amp; sa cire.</l>
+				<l>L’homme qui a ce don de bien escrire &amp; dire,</l>
+				<l>Pour cela n’est exempt du Calumniateur</l>
+				<l>Voila pourquoy <choice>
+						<orig>ie</orig>
+						<reg>je</reg>
+					</choice> crain l’<choice>
+						<orig>enuieux</orig>
+						<reg>envieux</reg>
+					</choice> detracteur,</l>
+				<l>Qui aise n’est <choice>
+						<orig>iamais</orig>
+						<reg>jamais</reg>
+					</choice>, s’il n’a dequoy mesdire.</l>
+				<l>Toutesfois si de vous mon labeur est prise</l>
+				<l><choice>
+						<orig>Ie</orig>
+						<reg>Je</reg>
+					</choice> croy que de plusieurs sera auctorisé,</l>
+				<l>Puisqu’entre vertueux gloire <choice>
+						<orig>auez</orig>
+						<reg>avez</reg>
+					</choice> non petite.</l>
+				<l>Recevez donc <roleName key="Joyeuse">Monsieur</roleName> ce discours sans
+					esmoy</l>
+				<l>Car s’il y a du mal, <choice>
+						<orig>ie</orig>
+						<reg>je</reg>
+					</choice> le pren tout pour moy,</l>
+				<l>Mais s’il y a du bien prenez en le merite.</l>
+				<l>L’Anagramme dudit Seigneur.</l>
+				<l><persName>Antoine de Joyeuse</persName>.</l>
+				<l>A Dieu on est en <choice>
+						<orig>ioye</orig>
+						<reg>joye</reg>
+					</choice></l>
+				<l>Qui par grace m’octroye</l>
+				<l>Sa clemence en tout lieu.</l>
+				<l>A son amour m’inspire</l>
+				<l>Parquoy <choice>
+						<orig>ie</orig>
+						<reg>je</reg>
+					</choice> puis bien dire</l>
+				<l>A <choice>
+						<orig>ioye</orig>
+						<reg>joye</reg>
+					</choice> on est en <persName>Dieu</persName>.</l>
+			</div>
+		</body>
+	</text>
+	<text>
+		<body>
+			<listBibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>where is it</settlement>
+						<repository>repository name</repository>
+						<idno>identifier</idno>
+					</msIdentifier>
+				</msDesc>
+			</listBibl>
+		</body>
+	</text>
+</TEI>

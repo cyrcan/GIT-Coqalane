@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../Users/c.ca/Downloads/tei_Corpus_CAA.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../Users/c.ca/Downloads/tei_Corpus_CAA.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:id="NNocque">
+      <fileDesc>
+         <titleStmt>
+            <title>La Nicque A Nocque</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Texte établi à partir du ms. Rasse des Neux 22564.</p>
+            <p><listWit>
+                  <witness xml:id="fr25567"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris,</settlement>
+                           <repository>Bibliothèque nationale de France,</repository>
+                           <idno>ms. 25567</idno>
+                           <objectName/>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness xml:id="fr22564"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris,</settlement>
+                           <repository>Bibliothèque nationale de France,</repository>
+                           <idno>ms. 22564</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness xml:id="fr6678"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris,</settlement>
+                           <repository>Bibliothèque nationale de France,</repository>
+                           <idno>ms. 6678</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+               </listWit></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <variantEncoding method="parallel-segmentation" location="internal"/>
+         <p><listPerson>
+               <person>
+                  <persName xml:id="Gobert">
+                     <idno/>
+                     <persName xml:lang="fr"><forename type="first">Gobert</forename><surname>
+                           d'Aspremont</surname></persName></persName>
+                  <birth><date>1187</date></birth>
+                  <death><date>1263-08-20</date></death>
+               </person>
+               <person>
+                  <persName xml:id="Henri_III" corresp="https://data.bnf.fr/ark:/12148/cb12016877w">
+                     <idno type="ISNI">0000 0001 2319 7721</idno>
+                     <persName xml:lang="fr"><forename type="first">Henri</forename><surname>
+                           III</surname></persName></persName>
+               </person>
+               <person>
+                  <persName xml:id="Charles_de_Bourbon"
+                     corresp="https://data.bnf.fr/ark:/12148/cb13521503h">
+                     <idno type="ISNI">0000 0001 2130 0668</idno>
+                     <persName xml:lang="fr"><forename type="first">Charles</forename><surname> de
+                           Bourbon</surname></persName></persName>
+                  <birth><date>1523-12-22</date></birth>
+                  <death><date>1590-05-09</date></death>
+               </person>
+               <person xml:id="Henri_de_Navarre"
+                  corresp="https://data.bnf.fr/ark:/12148/cb120154019">
+                  <idno type="ISNI">0000 0001 2134 8311</idno>
+                  <persName xml:lang="fr"><forename type="first">Henri</forename><surname> de
+                        Navarre</surname> (futur Henri IV)<roleName/></persName>
+                  <birth><date>1553-12-14</date></birth>
+                  <death><date>1610-05-14</date></death>
+               </person>
+               <person xml:id="Philippe_II" corresp="https://data.bnf.fr/ark:/12148/cb12170664z">
+                  <idno type="ISNI">0000 0001 0837 7767</idno>
+                  <persName xml:lang="fr"><forename type="first">Philippe II</forename></persName>
+                  <birth><date>1527-05-21</date></birth>
+                  <death><date>1598-09-13</date></death>
+               </person>
+               <person xml:id="Catherine_de_Médicis"
+                  corresp="https://data.bnf.fr/ark:/12148/cb123351707">
+                  <idno>0000 0001 2095 7473</idno>
+                  <persName xml:lang="fr"><forename type="first">Catherine</forename><surname> de
+                        Médicis</surname></persName>
+               </person>
+               <person xml:id="Henri_de_Guise" corresp="https://data.bnf.fr/ark:/12148/cb12569222k">
+                  <idno type="ISNI">0000 0001 2369 2597</idno>
+                  <persName xml:lang="fr"><forename type="first">Henri Ier</forename><surname> de
+                        Lorraine,</surname><roleName> 3e duc de Guise et 2e prince de Joinville, dit
+                        "le Balafré"</roleName></persName>
+                  <birth><date>1550-12-31</date> Joinville</birth>
+                  <death><date>1588-12-23</date> Blois</death>
+               </person>
+               <person>
+                  <persName xml:id="Louise_de_Lorraine"
+                     corresp="https://data.bnf.fr/ark:/12148/cb12016877w">
+                     <idno type="ISNI">0000 0001 0894 1786</idno>
+                     <persName xml:lang="fr"><forename type="first">Louise</forename><surname> de
+                           Lorraine</surname><roleName>, reine de
+                     France</roleName></persName></persName>
+               </person>
+               <person>
+                  <persName xml:id="Henriette_de_Clèves"
+                     corresp="https://data.bnf.fr/ark:/12148/cb17136494n">
+                     <idno type="ISNI">0000 0004 6083 9561</idno>
+                     <persName xml:lang="fr"><forename type="first">Henriette</forename><surname> de
+                           Clèves</surname><roleName>, duchesse de
+                     Nevers</roleName></persName></persName>
+                  <birth><date>1542-10-31</date></birth>
+                  <death><date>1601-06-24</date></death>
+               </person>
+               <person>
+                  <persName xml:id="Grandpré">
+                     <idno/>
+                     <persName xml:lang="fr"><forename type="first">Claude</forename><surname> de
+                           Joyeuse</surname><roleName>, Grandpré</roleName></persName></persName>
+                  <birth><date>1569</date></birth>
+                  <death><date>1587</date> Coutras</death>
+               </person>
+               <person>
+                  <persName xml:id="Entraguet">
+                     <idno/>
+                     <persName xml:lang="fr"><forename type="first">Charles</forename><surname> de
+                           Balsac d'Entragues</surname><roleName/></persName></persName>
+                  <birth><date>1545</date></birth>
+                  <death><date>1599</date></death>
+               </person>
+               <person>
+                  <persName xml:id="Entragues">
+                     <idno/>
+                     <persName xml:lang="fr"><forename type="first">François</forename><surname> de
+                           Balsac d'Entragues</surname><roleName/></persName></persName>
+                  <birth><date>1541</date></birth>
+                  <death><date>1613</date></death>
+               </person>
+               <person>
+                  <persName xml:id="Marie_Touchet"
+                     corresp="https://data.bnf.fr/ark:/12148/cb14937811f">
+                     <idno/>
+                     <persName xml:lang="fr"><forename type="first">Marie</forename><surname>
+                           Touchet, dame de Balzac d'Entragues</surname></persName></persName>
+                  <birth><date>1549</date></birth>
+                  <death><date>1620</date></death>
+               </person>
+               <person xml:id="Sardini">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Scipion</forename><surname>
+                        Sardini</surname></persName>
+               </person>
+
+               <person xml:id="Combaut">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Robert</forename><surname> de
+                        Combaut</surname><roleName> (premier maître d'hôtel du
+                     roi)</roleName></persName>
+               </person>
+               <person xml:id="Villequier">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">René</forename><surname> de
+                        Villequier</surname><roleName/></persName>
+                  <birth><date>1535</date></birth>
+                  <death><date>1590</date></death>
+               </person>
+               <person>
+                  <persName xml:id="Cheverny" corresp="https://data.bnf.fr/ark:/12148/cb12516669k">
+                     <idno type="ISNI">0000 0000 8060 3020</idno>
+                     <persName xml:lang="fr"><forename type="first">Philippe</forename><surname>
+                           Hurault de Cheverny</surname><roleName>
+                     (magistrat)</roleName></persName></persName>
+                  <birth><date>1523</date></birth>
+                  <death><date>1599</date></death>
+               </person>
+               <person>
+                  <persName xml:id="Madeleine_de_LAubespine"
+                     corresp="https://data.bnf.fr/ark:/12148/cb12569114p">
+                     <idno type="ISNI">0000 0000 6649 5510</idno>
+                     <persName xml:lang="fr"><forename type="first">Madeleine</forename><surname> de
+                           L'aubespine</surname><roleName> (épouse de
+                        Villeroy)</roleName></persName></persName>
+                  <birth><date>1572</date>Paris</birth>
+                  <death><date>1596-05-17</date>Mennecy</death>
+               </person>
+               <person>
+                  <persName xml:id="Antoinette_Longueville">
+                     <idno/>
+                     <persName xml:lang="fr"><forename type="first">Antoinette</forename><surname>
+                           d'Orléans-Longueville</surname><roleName/></persName></persName>
+                  <birth><date>1572</date></birth>
+                  <death><date>1618-04-24</date></death>
+               </person>
+               <person>
+                  <persName xml:id="Charles_de_Gondi">
+                     <idno/>
+                     <persName xml:lang="fr"><forename type="first">Charles</forename><surname> de
+                           Gondi</surname><roleName/></persName></persName>
+                  <birth><date>1569</date></birth>
+                  <death><date>1596-05-22</date>Mont Saint-Michel</death>
+               </person>
+               <person xml:id="Gondi" corresp="http://viaf.org/viaf/89654338">
+                  <idno type="VIAF">89654338</idno>
+                  <persName xml:lang="fr"><forename type="first">Albert</forename><surname> de
+                        Gondi, comte de Retz</surname></persName>
+               </person>
+               <person>
+                  <persName xml:id="Chenailles">
+                     <idno/>
+                     <persName xml:lang="fr"><forename type="first">Robert</forename><surname>
+                           Miron</surname><roleName> (contrôleur général des Finances de 1578 à
+                           188)</roleName></persName></persName>
+
+                  <death><date>1594</date></death>
+               </person>
+            </listPerson></p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris, </settlement>
+                  <repository>BnF, </repository>
+                  <idno>ms. 22564.</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <p><pb n="123"/>
+            <cb n="L"/>
+            <lg n="1">
+               <l><hi rend="indent"><persName type="destinataire">Nocque</persName></hi> legitime
+                  est l'excuse</l>
+               <l>Mieux vault la garse que l'amy</l>
+               <l>Est ce une courtisane ruze</l>
+               <l n="4">De ne plus aymer qu'à demy.</l>
+            </lg>
+            <lg n="2">
+               <!-- Saut#1 -->
+               <anchor type="Saut#1"/>
+               <l><hi rend="indent">Par</hi>
+                  <persName ref="#Gobert">St Gobert</persName> j'aymeroys mieux<note resp="editor"
+                     type="crit">Gobert d'Aspremont (c. 1187-1263) était une chevalier croisé connu
+                     pour sa bravoure et son intelligence. Il révêtit l'habit cistercien en 1237. Il
+                     s'agit de sa seule mention dans tout le corpus des coq-à-l'âne.</note></l>
+               <l>Faire un voyage en <placeName><settlement type="country" key="Allemagne"
+                        >Allemagne</settlement></placeName></l>
+               <l>Que <app type="substantive">
+                     <lem>si lon nous fait venir</lem>
+                     <rdg wit="#fr6678">Que dire qu'on nous face</rdg>
+                  </app> vieux</l>
+               <l n="8">Sans rien gaigner <expan>en</expan> la campagne.</l>
+            </lg>
+            <lg n="3">
+               <!-- Saut#2 -->
+               <anchor type="Saut#2"/>
+               <l><hi rend="indent">Sus</hi> donc <rs type="injonction" subtype="impératif"
+                     >faisons</rs> faire des moufles</l>
+               <l>Au <rs type="animal">chat</rs> au chat il va tout droit</l>
+               <l>Il nous faut porter des Pantoufles</l>
+               <l n="12">Comme en hyver tant il fait froid.<note resp="editor" type="crit">Quatrain
+                     placé sous le signe de la nécessaire précaution. Cf. <title>Le coq à l'asne des
+                        huguenots</title> de 1572 : <quote>Sont happez les chats sans
+                        moufles</quote>, v. 21.</note></l>
+
+            </lg>
+            <lg n="4">
+               <!-- Saut#3 -->
+               <anchor type="Saut#3"/>
+               <l><rs type="locution"><hi rend="indent">Bonnes</hi> lunettes faut avoir</rs></l>
+               <l>Puis que nous <rs type="locution">avons la Berluë</rs></l>
+               <l>Je vien de m'en appercevoir</l>
+               <l n="16"><app type="substantive">
+                     <lem>On t'envoyra à la molue</lem>
+                     <rdg wit="#fr6678">On te donra de la Moulue</rdg>
+                  </app><note resp="editor" type="ling"><hi rend="italic">Molue</hi>: Morue ou plus
+                     rarement farine. Cf. infra vers 19.</note></l>
+            </lg>
+            <lg n="5">
+               <!-- Saut#4 -->
+               <anchor type="Saut#4"/>
+               <l><hi rend="indent"><rs type="injonction" subtype="impératif">Garde</rs></hi> la
+                  cour car <persName ref="#Charles_de_Bourbon">Rougemine</persName></l>
+               <l>Nous la voudroit bien enlever<note resp="editor" type="glose">Depuis la mort du
+                     duc d'Anjou, un an auparavant, les Guises et <persName ref="#Philippe_II"
+                        >Philippe II</persName> veulent faire de Charles de Bourbon l'héritier de la
+                     couronne de France à la place de son cousin <persName ref="#Henri_de_Navarre"
+                        >Henri de Navarre</persName>.</note></l>
+               <l>Mais il a fait douce farine</l>
+               <l n="20">Plus matin se debvoit lever.</l>
+            </lg>
+            <lg n="6">
+               <!-- Saut#5 -->
+               <anchor type="Saut#5"/>
+               <l><hi rend="indent">Mais</hi> si <roleName>la Dame que tu scays</roleName><note
+                     resp="editor" type="glose"><persName ref="#Catherine_de_Médicis">Catherine de
+                        Médicis</persName>.</note></l>
+               <l>Fait jouër ceste comedie</l>
+               <l>Elle ne nous ayma jamais</l>
+               <l n="24"><rs type="injonction" subtype="impératif">Gardons</rs> nous de la
+                  tragedie</l>
+            </lg>
+            <lg n="7">
+               <!-- Saut#6 -->
+               <anchor type="Saut#6"/>
+               <l><hi rend="indent">Dormez</hi> vous garde il <rs type="locution">rue en
+                  vache</rs></l>
+               <l>Et si <app type="substantive">
+                     <lem>est nay en un bon</lem>
+                     <rdg wit="#fr6678">il est nay en un</rdg>
+                  </app> bour</l>
+               <l>Le Pain brusle, foin je me fache</l>
+               <l n="28"><hi rend="indent">Boullenger</hi>
+                  <rs type="injonction" subtype="impératif">tire-le</rs> du four.</l>
+            </lg>
+            <lg n="8">
+               <!-- Saut#7 -->
+               <l><hi rend="indent">C'est</hi> à ce coup qu'on veut coupper</l>
+               <l>Ces deux fourchons quant <expan>et</expan> la teste<note resp="editor"
+                     type="glose">Les deux fourchons désignent les princes du sang, et la tête,
+                     Henri III.</note></l>
+               <l><persName ref="#Combaut">Combault</persName> le Roy <expan>s'en</expan> vient
+                     soupper<note resp="editor" type="glose">Robert de Combaut, premier maître
+                     d'hôtel du roi fait partie de son entourage depuis l'épisode
+                  polonais.</note></l>
+               <l n="32">Quand il <app type="substantive">
+                     <lem>vouldra</lem>
+                     <rdg wit="#fr6678">viendra</rdg>
+                  </app> sa <expan>viande</expan> est preste.</l>
+            </lg>
+            <cb n="R"/>
+            <lg n="9">
+               <!--Saut#8-->
+               <anchor type="Saut#8"/>
+               <l><hi rend="indent">Je</hi> croy qu'en <placeName>Court</placeName> regne <rs
+                     type="maladie">la goutte</rs></l>
+               <l>Je ne voy point de ces courriers.</l>
+               <l>Boire debout engendre goutte</l>
+               <l n="36"><rs type="injonction" subtype="impératif">Demandez-le</rs> à noz
+                  Fourriers.</l>
+            </lg>
+            <lg n="10">
+               <!-- Saut#9 -->
+               <anchor type="Saut#9"/>
+               <l><hi rend="indent">Au</hi> guet <orgName type="secte">Hugues</orgName> au mont
+                  Argus</l>
+               <l>Vous auriez besoin de sa veuë<note resp="editor" type="glose">Argos Panoptès, le
+                     géant aux cent yeux, "celui qui voit tout".</note></l>
+               <l>Par Dieu c'est fait car <persName ref="#Henri_de_Guise">Ferragus</persName><note
+                     resp="editor" type="glose">Henri de Guise.</note></l>
+               <l n="40">Vous veult tous <rs type="locution">mettre à la charruë</rs>.</l>
+            </lg>
+            <lg n="11">
+               <!-- Saut#10 -->
+               <anchor type="Saut#10"/>
+               <l><hi rend="indent">Ce</hi> pendant que dure la tresve</l>
+               <l>Il fait bon les <rs type="animal" subtype="équidé"><expan>juments</expan></rs>
+                  boucler</l>
+               <l>On dit <persName type="destinataire">Nocque</persName> si je ne resve</l>
+               <l n="44">Que tous les parcs on veult blocquer.</l>
+            </lg>
+            <lg n="12">
+               <!-- Saut#11 -->
+               <anchor type="Saut#11"/>
+               <l><hi rend="indent">Mais</hi> par ta foy irons nous point</l>
+               <l>Vendanger en l'<placeName><settlement type="region" key="Occitanie"
+                        >Occitanie</settlement></placeName></l>
+               <l>J'yroy plus tost tout en pourpoint<note resp="editor" type="ling"><hi
+                        rend="italic">En pourpoint</hi>: <quote>sans manteau, misérablement</quote>,
+                     Di Stefano.</note></l>
+               <l n="48">C'est le chef en la letanie.</l>
+
+            </lg>
+            <lg n="13">
+               <!-- Saut#12 -->
+               <anchor type="Saut#12"/>
+               <l><app type="substantive">
+                     <lem wit="fr22564"><hi rend="indent">Bonnes</hi> sont fraizes à</lem>
+                     <rdg wit="#fr6678">Aussi fait on bien de</rdg>
+                  </app> la Cresme<note resp="editor" type="multi">Sans doute un trait contre les
+                     fraises des courtisans, objet de risée des Parisiens à l'époque. Ce vers 49
+                     devient le 52 dans le manuscrit 6678.</note></l>
+               <l>Sus qu'on desgaine mon cousteau</l>
+               <l><reg>À</reg>
+                  <placeName><settlement type="city" key="Paris">Paris</settlement></placeName> fait
+                  bon en Caresme</l>
+               <l n="52">Tousjours on y trouve du <rs type="invective"><rs type="animal"
+                     >veau</rs></rs>.<note resp="editor" type="crit">L'association fraise/veau
+                  évoque le proverbe "À la fraise on connaît le veau" attesté par Leroux de Lincy,
+                  p. 881.</note></l>
+            </lg>
+            <lg n="14">
+               <!-- Saut#13 -->
+               <anchor type="Saut#13"/>
+               <l><hi rend="indent">Tu</hi> ne scays la femme à <persName>Ragot</persName><note
+                     resp="editor" type="glose"><persName ref="#Madeleine_de_LAubespine">Madeleine
+                        de L'Aubépine</persName>, épouse de Villeroy.</note></l>
+               <l>Desire tant L'OR de la <roleName ref="#Louise_de_Lorraine">RAINE</roleName></l>
+               <l>Elle ayme autant d'un <rs type="invective"><rs type="animal">Coq</rs></rs>
+                  l'Argot</l>
+               <l n="56">Que d'un bon gras <rs type="invective"><rs type="animal">chappon</rs></rs>
+                  du Meyne.</l>
+            </lg>
+            <lg n="15">
+               <!-- Saut#14 -->
+               <anchor type="Saut#14"/>
+               <l><hi rend="indent">Ne</hi> te souvient il pas d'<placeName><settlement type="city"
+                        key="Yssoire">Issoire</settlement></placeName></l>
+               <l>Onc ne feit en VILLE si CLAIR<note resp="editor" type="glose">Jeu de mots sur
+                        <persName ref="#Villequier">Villequier</persName>.</note></l>
+               <!-- Saut#15 -->
+               <anchor type="Saut#15"/>
+               <l>Il n'a pas oublié de boire</l>
+               <l n="60">Le <rs type="invective">gros <rs type="animal">pourceau</rs></rs>, fy DIEU
+                  QUEL AIR.<note resp="editor" type="glose">René de Villequier est surnommé le "gros
+                     Villequier" et poursuivi par une réputation de paillardise. Lucinge le présente
+                     comme un des débaucheurs du jeune roi : "Je diray seulement que le cabinet a
+                     esté un vray sarail de toute lubricité et paillardise, un' escole de Sodomie,
+                     où se sont achevez les salles esbats que tout le monde a peu sçavoir.", <hi
+                        rend="italic">op. cit.</hi>p. 105. Voir le portrait que lui consacre Nicolas
+                     Le Roux dans <title>La Faveur du roi</title>, p. 107-111. La violence de
+                     l'attaque rend, après coup, timide l'allusion du "Rat au Chat" un an plus tôt :
+                     "S'il est vray du bruit qui en court / Villequier n'est pas en credit," (v.
+                     32-33).</note></l>
+            </lg>
+            <lg n="16">
+               <l><hi rend="indent">Il</hi> nous en faut faire un pasté</l>
+               <l>Pour presenter au <roleName ref="#Philippe_II">Roy d'Hespagne</roleName></l>
+               <l><rs type="injonction" subtype="impératif">Prens</rs> ce morceau n'en a tasté</l>
+               <l n="64"><reg>Où</reg>
+                  <rs type="locution">Pierre perd Guillaume gaigne</rs>.</l>
+            </lg>
+            <lg n="17">
+               <!-- Saut#16 -->
+               <anchor type="Saut#16"/>
+               <l>Ô bien heureuse soit la guerre</l>
+               <l>La douce paix des <expan>Financiers</expan>.<note resp="editor" type="crit"
+                     >Accusation qui rappelle le libelle de 1574 et les reproches des
+                     Malcontents.</note></l>
+               <!-- Note à compléter -->
+               <pb n="124"/>
+               <cb n="L"/>
+               <l><rs type="injonction" subtype="impératif">Quitte</rs> le Ciel <rs
+                     type="injonction" subtype="impératif">garde</rs> la terre</l>
+               <l n="68">He! mon Dieu que de Bezaciers.</l>
+            </lg>
+            <lg n="18">
+               <!-- Saut#17 -->
+               <anchor type="Saut#17"/>
+               <l><hi rend="indent"><reg>Çà</reg></hi>
+                  <rs type="injonction" subtype="impératif">desjeunons</rs>
+                  <rs type="injonction" subtype="impératif">cour</rs> aux saulcisses</l>
+               <l><rs type="injonction" subtype="impératif">Despesche</rs>
+                  <rs type="injonction" subtype="impératif">va</rs> tirer du vin</l>
+               <l>N'attends je te pry' les <orgName type="mercenaires">Suysses</orgName><note
+                     resp="editor" type="glose">La levée des Suisses par le roi suscite l'inquiétude
+                     des ligueurs et la colère du duc de Guise en mai 1585 qui craint pour le
+                     gouvernement de Mayenne.</note></l>
+               <l n="72">Mignonne lon jouë au plus fin.</l>
+            </lg>
+            <lg n="19">
+               <!-- Saut#18 -->
+               <anchor type="Saut#18"/>
+               <l>En Cour lon CHIE du VERNYS.</l>
+               <note resp="editor" type="glose">Jeu de mot transparent aux dépends de <persName
+                     ref="#Cheverny">Philippe de Hurault de Cheverny</persName>.</note>
+               <l>La paix en est toute foireuse</l>
+               <l>Allons Frater à <placeName>St Denis</placeName></l>
+               <l n="76">Nous y verrons mon amoureuse</l>
+            </lg>
+            <lg n="20">
+               <!-- Saut#19 -->
+               <anchor type="Saut#19"/>
+               <l>Ne verra lon point ces bravaches</l>
+               <l>Qui prennent les poulds à tastons</l>
+               <l>Pourroient ilz bien estre si lasches</l>
+               <l n="80">Que de trahir les Hannetons.<note resp="editor" type="crit">Satire des
+                     lâches. Les hannetons sont proverbialement étourdis.</note></l>
+            </lg>
+            <lg n="21">
+               <!-- Saut#20 -->
+               <anchor type="Saut#20"/>
+               <l>Le <expan>gentilhomme</expan> financier<note resp="editor" type="glose">M.
+                     d'O.</note></l>
+               <l>Se rempare de paoure des mousches<note resp="éditor" type="ling">Les
+                     espions.</note></l>
+               <l>Il est fin comme bel assier</l>
+               <!-- Assier ? personnage déjà rencontré. -->
+               <l n="84">Mais de bas or il craint les touches</l>
+            </lg>
+            <lg n="22">
+               <!-- Saut#21 -->
+               <anchor type="Saut#21"/>
+               <l>Noz doz sont bons à porter hottes</l>
+               <l>Ilz sont goussauts <expan>et</expan> renforcez<note resp="editor" type="ling"><hi
+                        rend="italic">Goussauts</hi>: <quote>Terme de Manege. C'est une epithete
+                        qu'on donne à un cheval court de reins, qui a l'encolure espaisse et
+                        charnuë, et les espaules grosses. Les chevaux goussauts sont bons pour faire
+                        des limonniers.</quote>(Furetière).</note></l>
+               <l>Leur fera on quitter la motte</l>
+               <l n="88">Quelques foys on guerit d'exces.</l>
+            </lg>
+            <lg n="23">
+               <!-- Saut#22 -->
+               <anchor type="Saut#22"/>
+               <l><persName type="destinataire">Nocque</persName> j'ay un bon Espion</l>
+               <l>On les aura par Bieu les traistres</l>
+               <l>Par <persName type="saint">Saincte Anne</persName> sur ce Pion</l>
+               <l n="92">Je dameray maulgre les <orgName type="mercenaires">reistres</orgName></l>
+            </lg>
+            <lg n="24">
+               <!-- Saut#23 -->
+               <anchor type="Saut#32"/>
+               <l>Et quoy la Dame au Jay Pelé<note resp="editor" type="glose">Une note marginale du
+                     ms. 6678 indique le nom de "Pellegai". Mais le "Jay Pelé" des mss. 22564 et
+                     25567 pourrait être l'échevin Jean Le Jay déjà moqué dans un pasquil de 1576
+                     recueilli par Laurent Bouchel (Dupuy 844) et Rasse des Neux (recueil 22565):
+                        <quote>Le Coq, Le Jay foyreux, le bon seigneur de Seure, / Mais le cocquu
+                        Goulu à plus le chef cornu / Que n'a pas Du Hamel estant pour tel
+                        connu.</quote>, <title>Recueil poétique</title>, éd. G. Schrenck, Paris,
+                     Classiques Garnier, 2019, v. 42-43, p. 420.</note></l>
+               <l>En est et putain de la ligue</l>
+               <l>Enfans au jeu j'ay rappellé</l>
+               <l n="96">Si je gaigne pour eux <rs type="jeu">la figue</rs><note resp="editor"
+                     type="crit">La rime figue:ligue se trouve dès 1576 dans le premier livre des
+                        <title>Mimes</title> de Baïf : "La figue j'appelle la figue. / Pour entrer
+                     en la saincte ligue, / Faut vomir la poison d'enfer" (v. 454-457). Sur son
+                     interprétation, voir Jean Vignes, p. 85 de son édition, ainsi que <title>Des
+                        mots dorés pour un siècle de fer</title>, chapitre II, p. 318-322. Dans le
+                     cas présent, le contexte renvoie aussi au jeu de Gargantua.</note></l>
+            </lg>
+            <lg n="25">
+               <l>Elle a donné de la Pecune</l>
+               <l><reg>À</reg> son amy la <persName ref="#Madeleine_de_LAubespine"
+                     >Janneton</persName></l>
+               <l>Et puis il court autre fortune</l>
+               <l n="100">Certes c'est un tour de <persName>Breton</persName>.</l>
+               <note>Nouvelle référence à Madeleine de L'Aubespine et à sa relation avec Breton,
+                  chevalier de Malte.</note>
+            </lg>
+            <cb n="R"/>
+            <lg n="26">
+               <!-- Saut#24 -->
+               <anchor type="Saut#24"/>
+               <l>Et vräyement on a raison</l>
+               <l>Chacun à sa seurté regarde</l>
+               <l>Nous ne perdrons plus <expan>nostre</expan>
+                  <rs type="animal">Oyson</rs><note resp="editor" type="glose">À nouveau, le
+                     cardinal <persName ref="#Charles_de_Bourbon">Charles de Bourbon</persName>,
+                     comme le signale une note marginale du ms. 6678.</note></l>
+               <l n="104">Puis qu'il a <reg>trente</reg> archers de garde.</l>
+            </lg>
+            <lg n="27">
+               <!-- Saut#25 -->
+               <anchor type="Saut#25"/>
+               <l>Foin je ne veux plus estre infame</l>
+               <l>Femme c'est un brave Animal</l>
+               <l>De vray elle est trop grande Dame<note resp="editor" type="glose"><persName
+                        ref="#Antoinette_Longueville">Antoinette d'Orléans-Longueville</persName>
+                     est d'origine capétienne. Fille d'honneur de <persName
+                        ref="#Catherine_de_Médicis">Catherine de Médicis</persName>, elle est
+                     promise au jeune <persName ref="#Charles_de_Gondi">Charles de Gondi</persName>,
+                     fils du maréchal de Retz. Elle l'épousera le 6 septembre 1587. La cible reste
+                        <persName ref="#Gondi">Albert de Gondi</persName> lui-même.</note></l>
+               <l n="108">Pour le <app type="substantive">
+                     <lem wit="fr22564">varlet</lem>
+                     <rdg wit="#fr6678">garson</rdg>
+                  </app> d'un <roleName>Mareschal</roleName>.</l>
+            </lg>
+            <lg n="28">
+               <!-- Saut#26 -->
+               <anchor type="Saut#26"/>
+               <l><app type="substantive">
+                     <lem wit="fr22564">PONS a voix</lem>
+                     <rdg wit="#fr6678">Pour la voix</rdg>
+                  </app> à en CHANTEr LOUps<note resp="editor" type="glose">Faut-il y voir un lien
+                     entre Antoine de Pons et Jeanne de Chantelou?</note></l>
+               <l>Le Brechedent ne <reg>s'en</reg>
+                  <expan>contente</expan></l>
+               <l>Il <reg>sçaura</reg> bien river ses cloux</l>
+               <l n="112">Et c'est celà qui le <expan>tourmente</expan>.</l>
+            </lg>
+            <lg n="29">
+               <!-- Saut#27 -->
+               <anchor type="Saut#27"/>
+               <l>Ils les falloit à ce bon <roleName>Prince</roleName></l>
+               <l>Depuis vingt ans pour <expan>conserver</expan></l>
+               <l>Les Benefices de la pinse</l>
+               <l n="116">Jamais <app type="substantive">
+                     <lem wit="fr22564">ne puisse il</lem>
+                     <rdg wit="#fr6678">il ne puisse</rdg>
+                  </app> plus resver</l>
+            </lg>
+            <lg n="30">
+               <!-- Saut#28 -->
+               <anchor type="Saut#28"/>
+               <l>C'est un beau lieu que
+                        <placeName><settlement><expan>Chasteaudun</expan></settlement></placeName></l>
+               <l>Je les auray ceste canaille</l>
+               <l>Si je desgaine mon VERDUN<note resp="editor" type="ling"><hi rend="italic"
+                        >Verdun</hi>: sorte d'épée.</note></l>
+               <l n="120"><placeName><settlement type="city" key="Metz"
+                     >METS</settlement></placeName> pour la pais que l'on <app type="substantive">
+                     <lem wit="fr22564">me</lem>
+                     <rdg wit="#fr6678">le</rdg>
+                  </app> baille<note resp="editor" type="glose"><placeName><settlement type="city"
+                           key="Verdun">Verdun</settlement></placeName> est l'une des villes cédées
+                     par le roi.</note></l>
+            </lg>
+            <lg n="31">
+               <!-- Saut#29 -->
+               <anchor type="Saut#29"/>
+               <l>METS s'il <app type="substantive">
+                     <lem wit="fr22564">eust</lem>
+                     <rdg wit="#fr6678">est</rdg>
+                  </app> prins à la <app type="substantive">
+                     <lem wit="fr22564">malice</lem>
+                     <rdg wit="#fr25567">milice</rdg>
+                  </app><note resp="editor" type="glose">Nouveau jeu sur le nom de la ville de Metz
+                     qui joue le rôle d'adversatif.</note></l>
+               <l>Il feust plumé le Beccassin.<note resp="editor" type="glose">Oyson?</note></l>
+               <l><app type="substantive">
+                     <lem wit="fr22564">Le</lem>
+                     <rdg wit="#fr6678">Sur</rdg>
+                  </app> beau tappy de Haulte lisse</l>
+               <l n="124">C'est MON CAS je <app type="substantive">
+                     <lem wit="fr22564">le</lem>
+                     <rdg wit="#fr6678">IL</rdg>
+                  </app> veux ainSIN</l>
+            </lg>
+            <lg n="32">
+               <!-- Saut#30 -->
+               <anchor type="Saut#30"/>
+               <l>Je regrette ce vin d'ANJOU</l>
+               <l>Pour me <app type="substantive">
+                     <lem wit="fr22564"><expan>contourner</expan></lem>
+                     <rdg wit="#fr6678">resjouir</rdg>
+                  </app> la fressure</l>
+               <note resp="editor" type="ling"><hi rend="italic">Fressure</hi>: <quote>Parties
+                     interieures de certains animaux, comme le foye, le cœur, la rate, le poulmon,
+                     prises ensemble.</quote>(Furetière).</note>
+               <l>Je suy <app type="substantive">
+                     <lem wit="fr22564">chef</lem>
+                     <rdg wit="#fr6678">grand</rdg>
+                  </app> si la guerre dure</l>
+               <l n="128">Je jure bien un cap de diou</l>
+            </lg>
+            <lg n="33">
+               <!-- Saut#31 -->
+               <anchor type="Saut#31"/>
+               <l>Attaque attaque le <reg>Bourreau</reg></l>
+               <l>Il n'en veult point car elle cloque<note resp="editor" type="glose">La
+                     Montpensier.</note></l>
+               <l>Un corps il luy faut tout nouveau</l>
+               <l n="132">Pour son honneur que l'on <app type="substantive">
+                     <lem wit="fr22564">la</lem>
+                     <rdg wit="#fr6678">le</rdg>
+                  </app> blocque<note resp="editor" type="ling">Nous comprenons ici le verbe <hi
+                        rend="italic">bloquer</hi> dans le sens d'"échanger".</note></l>
+            </lg>
+            <lg n="34">
+               <!-- Saut#32 -->
+               <anchor type="Saut#32"/>
+               <l>Je suis venu grand personnage</l>
+               <l>Avecques <app type="substantive">
+                     <lem wit="fr22564">les</lem>
+                     <rdg wit="#fr6678">mes</rdg>
+                  </app> chevaux legers</l>
+               <l>Mais je veux devenir plus sage</l>
+               <l n="136">Et craindre un petit les dangers.</l>
+            </lg>
+            <pb n="125"/><fw type="pageNum" place="top-right">125</fw><cb n="L"/>
+            <lg n="35">
+               <!-- Saut#33 -->
+               <anchor type="Saut#33"/>
+               <l>Les eauës sont grandes à <placeName><settlement type="city" key="Nevers"
+                        >Nevers</settlement></placeName><note resp="editor" type="glose">Comme le
+                     suggère la note marginale du ms. 6678, c'est <persName
+                        ref="Henriette_de_Clèves">Henriette de Clèves</persName>, duchesse de Nevers
+                     et <persName ref="Claude_de_Joyeuse">Claude de Joyeuse</persName>, seigneur de
+                     Saint-Sauveur (Grandpré) qui sont visés par cette strophe.</note></l>
+               <l>On ne pourra les foins abbattre</l>
+               <l>Et noz <expan>GRANDZ</expan> PRES sont ja <app type="substantive">
+                     <lem wit="#fr22564">couvers</lem>
+                     <rdg wit="#fr6678">tous vers</rdg>
+                  </app></l>
+               <l n="140">S'il s'est perdu <reg>c'est</reg> par con battre</l>
+            </lg>
+            <lg n="36">
+               <!-- Saut#34 -->
+               <anchor type="Saut#34"/>
+               <l><reg>Ô</reg> que <reg>c'est</reg> une <persName>BELLE VILLE</persName>.<note
+                     resp="editor" type="glose"><persName ref="#Marie_Touchet">Marie Touchet de
+                        Belleville</persName>, ancienne maîtresse de Charles IX, est l'épouse depuis
+                     1578 de <persName ref="#Entragues">Charles de Balzac d'Entragues</persName>,
+                        <roleName>gouverneur d'Orléans</roleName>.</note></l>
+               <l>Le Blondelet il D'ORtLEANS</l>
+               <l>Avec des Ennuits plus de mille</l>
+               <l n="144"><rs type="jeu">Qu'il est dehors qu'il est dedans</rs>.<note resp="editor"
+                     type="glose">Référence au jeu et sans doute équivoque sexuelle.</note></l>
+            </lg>
+            <lg n="37">
+               <!-- Saut#35 -->
+               <anchor type="Saut#35"/>
+               <l>En la mer on prend les <rs type="animal">Daulphins</rs><note resp="editor"
+                     type="glose">En référence au prince héritier.</note></l>
+               <l>Aussi fait on aux boys du MEINE</l>
+               <l>Peult on malgre les Seraphins</l>
+               <l n="148">De <persName ref="#Sardini"><rs type="animal" subtype="poisson"
+                        >SARDAINE</rs></persName> faire <rs type="animal" subtype="cétacé"
+                     >baleine</rs><note resp="editor" type="ling">L'ascension de Scipion Sardini est
+                     l'objet de vives critiques à l'époque. <!--Note à compléter--></note></l>
+            </lg>
+            <lg n="38">
+               <!-- Saut#36 -->
+               <anchor type="Saut#36"/>
+               <l>Mais quand nous aurons noz <expan>comperes</expan><note resp="editor" type="glose"
+                     >Les Suisses selon la note marginale du ms. 6678, f°276v.</note></l>
+               <l>Nous ferons la paix à cheval</l>
+               <note resp="editor" type="glose">Imposer la paix par la
+                  guerre.<!-- "Dans son esprit, il fallait entendre la guerre moins comme une entreprise d'extermination que comme une forme d'action visant à imposer les conditions de la paix." Le Roux, Un régicide au nom de Dieu, p. 79 --></note>
+               <l>Et ce pendant les pauvres freres<note resp="éditor" type="glose">Les
+                     huguenots.</note></l>
+               <l n="152">Consulteront à <placeName><settlement key="Roncevaux"
+                        >Ronceval</settlement></placeName>.</l>
+               <!-- A expliciter -->
+            </lg>
+            <lg n="39">
+               <!-- Saut#37 -->
+               <anchor type="Saut#37"/>
+               <l>Or fay moy le Compte du Sault<note resp="editor" type="glose">François-Louis
+                     d'Agout?</note></l>
+               <l>De ce <rs type="invective">gentil mengeur de figues</rs></l>
+               <l>Quoy pensoit il <rs type="locution">monter plus hault</rs></l>
+               <l n="156">Il n'entend rien à faire brigues.</l>
+            </lg>
+            <lg n="40">
+               <!-- Saut#38 -->
+               <anchor type="Saut#38"/>
+               <l>Les <orgName type="peuple">Flamens</orgName> ont rompu les DUNES</l>
+               <l>Nostre party en est plus fort</l>
+               <l>Si les femmes sont si communes</l>
+               <l n="160">La bonne Dame n'a pas tort.</l>
+            </lg>
+            <lg n="41">
+               <!-- Saut#39 -->
+               <anchor type="Saut#39"/>
+               <l>Eussions nous Andouïlles de <placeName><settlement type="city" key="Troyes"
+                        >Troys</settlement></placeName></l>
+               <l>Nous avons <app type="subtstantive">
+                     <lem wit="#fr22564">de fine</lem>
+                     <rdg wit="#fr6678">à force</rdg>
+                  </app> moustarde</l>
+               <l>Et vin de <placeName><settlement type="city" key="Beaune"
+                     >Beaulne</settlement></placeName> pour noz <roleName>Roys</roleName></l>
+               <l n="164">Bonne est la paix mais elle tarde.</l>
+            </lg>
+            <lg n="42">
+               <!-- Saut#40 -->
+               <anchor type="Saut#40"/>
+               <l>On veut empietter sur ma terre</l>
+               <l>Et nouveaux TERMES y poser</l>
+               <l>Qu'il se garde qu'on ne l'enterre</l>
+               <l n="168">Il vauldroit mieux se reposer</l>
+            </lg>
+            <lg n="43">
+               <!-- Saut#41 -->
+               <anchor type="Saut#41"/>
+               <l>Par St Picquaut <rs type="injonction" subtype="impératif">menons</rs> les
+                  mains</l>
+               <l>Cousin mon espee est tresbonne</l>
+               <l>Ils ne sont assez forts de <placeName><settlement type="city" key="Reims"
+                        >Rheins</settlement></placeName></l>
+               <l n="172">Pour pouvoir porter la Couronne.</l>
+               <!-- Voir "Practiqueurs" -->
+            </lg>
+            <cb n="R"/>
+            <lg n="50">
+               <!-- Saut#42 -->
+               <anchor type="Saut#42"/>
+               <l><persName>Chicot</persName>
+                  <app type="substantive">
+                     <lem wit="#fr6678">en</lem>
+                     <rdg wit="#fr22564">on</rdg>
+                  </app> garde la Pantoufle</l>
+               <l>Si le fraizé revient en cour<note resp="editor" type="glose">Selon une nouvelle
+                     note marginale du ms. 6678, le "fraizé" désigne ici De Guise.</note></l>
+               <l><persName>Caboche</persName> s'arme d'une moufle</l>
+               <l n="176">Et du Bouffon de Liancourt.<note resp="editor" type="crit">Nous suivons le
+                     ms. 6678 plaçant ce quatrain ici. Le ms. 22564 suivi par le ms. 22567 la
+                     recopie arpès la mention fin du poème, f° 62.</note></l>
+               <!--Charles du Plessis-Liancourt-->
+            </lg>
+            <lg n="44">
+               <!-- Saut#43 -->
+               <anchor type="Saut#43"/>
+               <l><persName>DEVIsDEVILLE</persName> on n'ayme point</l>
+               <!--Milon-->
+               <l>Serrurier fay moy des TENAILLES</l>
+               <l>Si son terme revient à point</l>
+               <l n="180">On arrachera ces <persName ref="#Chenailles">CHENAILLES</persName>.</l>
+            </lg>
+            <lg n="45">
+               <!-- Saut#44 -->
+               <anchor type="Saut#44"/>
+               <l>La femme de L'EVANGELISTE<note resp="editor" type="glose">Il faut entendre
+                     ironiquement la femme de Saint-Luc.</note></l>
+               <l>Ne corne plus il est saulnier</l>
+               <l><persName>Le Boeuf</persName> est devenu moult triste</l>
+               <l n="184"><app type="substantive">
+                     <lem wit="#fr22564">Mais il craignoit d'estre</lem>
+                     <rdg wit="#fr6678">De crainte d'estre le</rdg>
+                  </app> dernier.</l>
+            </lg>
+            <lg n="46"><!-- Saut#45 --><anchor type="Saut#45"/>
+               <l><app type="substantive">
+                     <lem wit="#fr22564">Tout escossé l'avoit la mer</lem>
+                     <rdg wit="#fr6678">On nous promet bien de l'amer</rdg>
+                  </app></l>
+               <l><app>
+                     <lem wit="#fr22564">Soubz ces abriz cà qu'on le</lem>
+                     <rdg wit="#fr6678">Je ne sçai pas où l'on nous</rdg>
+                  </app> jette</l>
+               <l><rs type="injonction" subtype="impératif">Croy</rs> moy son maistre il faut
+                  aymer</l>
+               <l n="188">Car il n'y va que de la teste.</l>
+            </lg>
+            <lg n="47"><!-- Saut#46 --><anchor type="Saut#46"/>
+               <l><app type="substantive">
+                     <lem wit="#fr22564">Je crains l'Eaue je nay de MER-CURE</lem>
+                     <rdg wit="#fr6678">De l'eau jamais je n'en ai cure</rdg>
+                  </app></l>
+               <l>C'est un trop perfide Element</l>
+               <l>Jamais celluy longtemps ne dure</l>
+               <l n="192">Qui veult voller <expan>contre</expan> le vent.</l>
+            </lg>
+            <lg n="48"><!-- Saut#47 --><anchor type="Saut#47"/>
+               <l>Le bon <persName>Prelat du Vandosmoys</persName></l>
+               <l>Espouse la <persName>Royne Gillette</persName></l>
+               <l>Dans troys jours je le voy Chamoys</l>
+               <l n="196">C'est bien pour achever la feste.</l>
+            </lg>
+            <lg n="49"><!-- Saut#48 --><anchor type="Saut#48"/>
+               <l>A Dieu je dors <app type="substantive">
+                     <lem wit="#fr22564">ma Doulce</lem>
+                     <rdg wit="#fr6678">mon ami</rdg>
+                  </app> Nocque</l>
+               <l>Je te despesche de <placeName><settlement type="city" key="Louhans"
+                        >Louän</settlement></placeName></l>
+               <l>Pour <app type="substantive">
+                     <lem wit="#fr22564">tout</lem>
+                     <rdg wit="#fr6678">trop</rdg>
+                  </app> garder si lon se <expan>mocque</expan></l>
+               <l n="200">La Cinquantaine de <placeName><settlement type="city" key="Rouen"
+                        >Rouän.</settlement></placeName><note resp="editor" type="glose">Il s'agit
+                     d'une compagnie d'arbaletiers.</note></l>
+               <fw place="inline">Fin<note resp="editor" type="crit">Seul le ms. 6678 de L'Estoile
+                     appose les initiales de François Rasse Des Neux à la fin de cette
+                  pièce.</note></fw>
+            </lg>
+         </p>
+      </body>
+   </text>
+</TEI>

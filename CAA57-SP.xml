@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Coq à l'asne</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Transcription du coq-à-l'âne des folios 54v à 56r. Un seul témoin. Mentionne
+               Dandelot.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>NAF 1870</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encodage de niveau 2.</p>
+         <p><listPerson>
+               <person xml:id="Andelot" corresp="https://data.bnf.fr/ark:/12148/cb17054049g">
+                  <idno type="ISNI">0000 0004 5964 4927</idno>
+                  <persName xml:lang="fr"><forename type="first">François</forename><surname> de
+                        Coligny d'Andelot</surname></persName>
+                  <birth>1521</birth>
+                  <death>1567</death>
+               </person>
+            </listPerson>
+         </p>
+      </encodingDesc>
+      <revisionDesc>
+         <change><date>23-11-2023</date>Encodage</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>NAF 1870</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <l>Puis qu'on veoit en ce temps où nous sommes</l>
+         <note resp="editor" type="crit">Vers hypermétrique.</note>
+         <l>Ung grand amas de jeunes hommes</l>
+         <l>S'efforcer prendre plume en main</l>
+         <l n="4">Pour discourir de cueur humain</l>
+         <l>Leurs conceptions naturelles</l>
+         <pb n="55r"/>
+         <fw type="pageNum" place="top-right">f. lv</fw>
+         <l>Voullant ensuyvre aulcunes d'elles</l>
+         <l>Qui sont passées devant mes yeulx</l>
+         <l n="8">Mon cueur est rendu soulcieux</l>
+         <l>Et m'en fault passer mon amye</l>
+         <l>Par le sang bieu je hay ma vye</l>
+         <l>Pour ne veoir ce que je desire</l>
+         <note>Ce début détone au sein du genre en se concentrant non plus sur le contexte
+            politico-religieux mais sur l'intimité de l'auteur.</note>
+         <!-- Saut#1 -->
+         <l n="12">Qui mectra son amy en ire</l>
+         <l>Il n'aura de luy que couroux</l>
+         <!-- Saut#2 -->
+         <l>Garde toy d'un mary jaloux</l>
+         <l>Et ne te chaille de la guerre</l>
+         <l n="16">D'advis je suys qu'en rien tu n'erres</l>
+         <l>Sy l'on vient à t'interroger</l>
+         <!-- Saut#3 -->
+         <l>Dans la <placeName><settlement type="country">France</settlement></placeName> y a ung
+               <persName>Roger</persName></l>
+         <l>Qui a le temps bien à soubhait</l>
+         <note resp="editor" type="ling">Immédiatement, de manière prompte à moins qu'il ne s'agisse
+            d'un jeu avec l'expression "Roger Bontemps" qui désigne un bon vivant (Di
+            Stefano).</note>
+         <!-- Saut#4 -->
+         <l n="20">C'est ung bon menger que du laict</l>
+         <l>À jeun quant il vient d'une <rs type="animal" subtype="équidé">asnesse</rs></l>
+         <!-- Saut#5 -->
+         <l>Ces jours passés une presbtresse</l>
+         <l>Disputoit de religion</l>
+         <l n="24">Assemblant une légion</l>
+         <l>De cagots bien mal à propos</l>
+         <l>N'aurons nous jamays de repos</l>
+         <l>En la <placeName><settlement type="country">France</settlement></placeName> pour
+            l'évangille</l>
+         <!-- Saut#6 -->
+         <l n="28">Sy est ce ung homme assez agille</l>
+         <l>Que <persName ref="#Andelot">Dandelot</persName> quant il s'y mect</l>
+         <!-- cf. https://museeprotestant.org/notice/francois-dandelot-1521-1569/ -->
+         <l>Car sy une foys s'entremect</l>
+         <l>En quelque affaire qui le vaille</l>
+         <l n="32">Soict en camp clos ou en bataille</l>
+         <l>Il est tousjours des mieulx faisans</l>
+         <!-- Saut#7 -->
+         <l>Ne faisons poinct tant des plaisans</l>
+         <l>Et advisons à nostre affaire</l>
+         <l n="36">Il n'est pas bien seant de faire</l>
+         <l>D'un saige en compagnye de folz</l>
+         <!-- Saut#8 -->
+         <l>Ilz se rompront ung jour les colz</l>
+         <l>Ses prescheurs de carfarderyes</l>
+         <l n="40">Ilz ne disent que resveryes</l>
+         <l>Et decripvent les simples gens</l>
+         <!-- Saut#9 -->
+         <l>Mon dieu que l'on veoit de régens</l>
+         <l>Se bander pour chose trop vaine</l>
+         <l n="44">C'est une bonne herbe que vervayne</l>
+         <l>Et de bonne odeur pour le nez</l>
+         <!-- Saut#10 -->
+         <l>Celles qui portent cachenez</l>
+         <pb n="55v"/>
+         <l>Est de crainte d'estre apperceues</l>
+         <!-- Saut#11 -->
+         <l n="48">L'on veoit plus de becs et veues</l>
+         <l>Dedans <placeName><settlement type="city">Paris</settlement></placeName> qu'on ne
+            soulloit</l>
+         <l>Pource que ung chascun voulloit</l>
+         <l>Au temps passé se tenir serre</l>
+         <!-- Saut#12 -->
+         <l n="52">Une femme qui est en serre</l>
+         <l>N'est poinct à son gré se me semble</l>
+         <!-- Saut#13 -->
+         <l>Tel sera le fol qui assemble</l>
+         <l>En son cerveau de grands discours</l>
+         <!-- Saut#14 -->
+         <l n="56">Dans quel temps cessera le cours</l>
+         <l>Des mesdisans à sy grand tort</l>
+         <!-- Saut#15 -->
+         <l>Ung amant qui vient à bon port</l>
+         <l>Du lieu auquel longtemps aspire</l>
+         <l n="60">Peult avoir tout ce qu'il desire</l>
+         <l>Pouveu que la pécune y soict</l>
+         <!-- Saut#16 -->
+         <l>Tout homme que plaisir receoit</l>
+         <l>D'un aultre le doibt recongnoistre</l>
+         <!-- Saut#17 -->
+         <l n="64"><persName>Dieu</persName> nous fait la grace d'estre</l>
+         <l>À la fin en bon <placeName>paradis</placeName></l>
+         <l>Les <orgName>sorbonistes</orgName> du temps jadis</l>
+         <l>Ont esté causes de grands maulx</l>
+         <l n="68">L'on recouvrent des animaulx</l>
+         <l>Aussy advisez qu'ilz estoient</l>
+         <l>Je ne scay pas ce qu'ilz feroient</l>
+         <l>S'ilz estoient pressez de conscience</l>
+         <!-- Saut#18 -->
+         <l n="72">C'est ung grand tresor que science</l>
+         <l>Perdre ne se peult nullement</l>
+         <l>Je n'ay soulcy tant seullement</l>
+         <l>Que de mectre ung amy à l'amble</l>
+         <note resp="editor" type="ling">Mettre à l'amble: "Mettre à raison" (Di Stefano, p.
+            15).</note>
+         <l n="76">Quant icy pense sy fort je tremble</l>
+         <l>Que je demeure tout confuz</l>
+         <l>Tant j'ay peur qu'il face reffuz</l>
+         <l>De la priere que je luy faiz</l>
+         <!-- Saut#19 -->
+         <l n="80">Tout homme qui porte le faix</l>
+         <l>Pour aultruy est souvent en peyne</l>
+         <l>Et la recompense certaine</l>
+         <l>Qu'il en peult tirer est desdain</l>
+         <!-- Saut#20 -->
+         <l n="84">Aura il la main dans son sein</l>
+         <l>Se mignon en se mariant</l>
+         <pb n="56r"/>
+         <fw type="pageNum" place="top-right">f. lvi</fw>
+         <l>Non car le petit oeil riant</l>
+         <l>De s'amye l'en engardera</l>
+         <l n="88">Je ne scay pas ce qu'il fera</l>
+         <l>Mais besoing auroit d'aviser</l>
+         <l>Sans s'amuser à deviser</l>
+         <l>D'envoyer au devant les scelles</l>
+         <l n="92">Et les bancs car sans icelles</l>
+         <l>L'on ne faict expédition</l>
+         <!-- Saut#21 -->
+         <l>S'il y a contradiction</l>
+         <l>Le remedde y est tout propice</l>
+         <l n="96">Entrer il ne fault en justice</l>
+         <l>Qui peult aultre s'entre(r) tirer</l>
+         <!-- Saut#22 -->
+         <l>Se ung sergent te veult martirer</l>
+         <l>Tes amys l'en empescheront</l>
+         <l n="100">Et de bien bon cueur chercheront</l>
+         <l>Ung chemin le plus convenable</l>
+         <!-- Saut#23 -->
+         <l><rs type="injonction" subtype="impératif">Garde toy</rs> de te mectre à table</l>
+         <l>Pour menger sy n'as appetit</l>
+         <l n="104">Et que respondre ung petit</l>
+         <l>Ne puisse s'on te faict demande</l>
+         <!-- Saut#24 -->
+         <l>La compagnye sera bien grande</l>
+         <l>Sy le pere a tous ses enffans</l>
+         <!-- Saut#25 -->
+         <l n="108">Ne mengerons nous pas <add>de</add> ses <rs type="animal">fans</rs></l>
+         <note resp="editor" type="crit">vers hypermétique</note>
+         <l>Qu'on veoit dans la forest repaistre</l>
+         <!-- Saut#26 -->
+         <l>Sy tu ne te faiz apparoistre</l>
+         <l>Dilligent dedans ton ouvraige</l>
+         <l n="112">Dire on pourra que ton couraige</l>
+         <l>N'est tel comme l'on eust pensé</l>
+         <!-- Saut#27 -->
+         <l>Ung mariage ancommancé</l>
+         <l>A bien des heures premier qu'il vienne</l>
+         <l n="116">Afin ce que l'homme parvienne</l>
+         <l>Au but de son affection</l>
+         <!-- Saut#28 -->
+         <l>Car tousjours avec fiction</l>
+         <l>Quelqun baille d'une traverse</l>
+         <!-- Saut#29 -->
+         <l n="120">Sy la charette ne renverse</l>
+         <l>Monté seras comme ung <persName>St George</persName></l>
+         <!-- Saut#30 -->
+         <l>Je sans bien que mon mal de gorge</l>
+         <l>Se gravist donc je suys bien ayse</l>
+         <l n="124">S'il y a chose qui ne te plaise</l>
+         <l>Imputer ne le doibs à moy</l>
+         <l>Pource que j'estois en esmoy</l>
+         <l>Quant me suys mys à te rescripre</l>
+         <l n="128">Parquoy sy prens plaisir à rire</l>
+         <l>Une aultre foys plus à loysir</l>
+         <l>Mande au long tout le tien desir</l>
+         <l>FIN</l>
+      </body>
+   </text>
+</TEI>

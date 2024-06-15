@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Epistre du coq a lasne</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p><listPerson>
+               <person xml:id="NBdL"
+                  corresp="https://catalogue.bnf.fr/ark:/12148/cb16972646f.public">
+                  <persName xml:lang="fr"><forename type="first">Nicolas</forename><surname>Bossut
+                        de Longueval</surname></persName>
+               </person>
+            </listPerson></p>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="http://jonas.irht.cnrs.fr/manuscrit/57865"/>
+   </facsimile>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Soissons</settlement>
+                  <repository>ms.</repository>
+                  <idno>203</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <l>Ma seur coquette au bruict qui court</l>
+         <l><reg>L'on</reg> est bien aise <reg>à</reg> vostre court</l>
+         <l>Chacun y font <reg>à</reg> l'adventaige</l>
+         <l n="4">Sans regarder au parentaige</l>
+         <l>Comme en <placeName>la rue sainct Anthoine</placeName></l>
+         <l>Plus ne voy <reg>abbé</reg> qui soit moyne</l>
+         <l>Et peu <reg>d'evesques</reg> gens de bien</l>
+         <l n="8">Aussi le <persName>pape</persName> ne vault rien</l>
+         <l>Qui debvoit estre leur exemple</l>
+         <l>Pensez quel bien perdu au temple</l>
+         <l>Et <reg>à</reg> tous ses beaulx chevaliers</l>
+         <l n="12">Qui putains tiennent <reg>à</reg> milliers</l>
+         <l>Et autre bien ne vueillent faire</l>
+         <l><reg>N'ayder</reg>
+            <reg>d'un</reg> solz au pauvre frere</l>
+         <l>En eulx n'est point de <reg>charité</reg></l>
+         <l n="16">Les prescheurs de la <reg>verité</reg></l>
+         <l>Qui sont ilz ? L'un mesdict de l'autre</l>
+         <l>Scavoir quasi sa patenostre</l>
+         <l>Sans tant empescher sa cervelle</l>
+         <l n="20"><reg>C'est</reg> notre doctrine nouvelle</l>
+         <l>Jouer basler masquer bien boyre</l>
+         <l>Abbatre boys, en dieu ne croyre</l>
+         <pb n="116v"/>
+         <l>Prendre par tout rendre en nul lieu</l>
+         <l n="24">De pied en cap decoupper <persName>dieu</persName></l>
+         <l>Autant de putains que de platz</l>
+         <l><reg>C'est</reg> le vray train de noz prelatz</l>
+         <l>Qui tiennent le lieu de <persName>dieu</persName> en terre</l>
+         <l n="28">Ceste gente abbesse qui erre</l>
+         <l>Qui mene nonnains de livrée</l>
+         <l>Est elle pas bien delivrée</l>
+         <l>Elle est femme d'entendement</l>
+         <l n="32">De plaisir et de changement</l>
+         <l>Aussi dict <reg>l'université</reg></l>
+         <l>Nature ayme diversité</l>
+         <l><reg>Voilà</reg> pourquoy ces gros caffars</l>
+         <l n="36">Ces cordeliers freres frapars</l>
+         <l>Changent souvent de monastaire</l>
+         <l>Dessoubz cest habit de <persName>saincte Claire</persName></l>
+         <note resp="editor" type="crit">Le ms. M1016 comprend ici deux vers supplémentaires :
+            'Cupido a souvant sa voix / Autant soubz celluy sainct Françoys'(f°72v°).</note>
+         <l><persName type="saint" key="saint Dominique">Sainct Dominicque</persName> et sainct
+            Partout</l>
+         <l n="40">Au meilleu de tous on y fout</l>
+         <l>Et despesche <reg>l'on</reg> sur le champ</l>
+         <l>Tesmoing les <persName>dames de <placeName>Long champ</placeName></persName></l>
+         <l>On m'a dict que noz bons pasteurs</l>
+         <l n="44">De tant plus ilz sont bons fouteurs</l>
+         <l>Ou que plus ilz ont adorez</l>
+         <l>Et harnachez ces cons dorez</l>
+         <l>Tant plus ilz ont de benefices</l>
+         <l n="48">Les mittres deppendent des cuisses</l>
+         <l>Et leurs chappeaulx tiennent des fleurs</l>
+         <l>Vray dieu <reg>qu'on</reg> trouve de coulleurs</l>
+         <l>Pour donner le bon ou l'assault</l>
+         <l n="52">A celluy qui gaigne le hault</l>
+         <l>Soit qu'il ayt bien ou mal vescu</l>
+         <l>C'est grand cas qu'elle faict coquu</l>
+         <l>Le seigneur si subtillement</l>
+         <pb n="117r"/>
+         <l n="56">Qui ne l'apperçoit nullement</l>
+         <l>Esse pas tour de fine beste</l>
+         <l>Le dyable luy a faict la teste</l>
+         <l>Mener le temps <reg>à</reg> la raison</l>
+         <l n="60">Telle qu'elle veult la saison</l>
+         <l>Le hault en bas precipiter</l>
+         <l>Et le bas en hault susciter</l>
+         <l>Prendre en l'air en mer et en terre</l>
+         <l n="64">En paix en treves et en guerre</l>
+         <l>Commender aux dieux infernaulx</l>
+         <l>Pisser crosses mittres chappeaulx</l>
+         <l>Ordonner les chefs des batailles</l>
+         <l n="68">Prendre emprunctz decimes et tailles</l>
+         <l>Et soubz coulleur de <reg>loyaulté</reg></l>
+         <l>Faire telle <reg>desloyaulté</reg></l>
+         <l><reg>Qu'en</reg> dictz tu <persName>coquette</persName> ma seur</l>
+         <l n="72">Un chapperon est il bien seur</l>
+         <l>Sur une teste si mal saige</l>
+         <l>Je ne treuve point bon presaige</l>
+         <l>Quant ung prince chef de <placeName><settlement type="city"
+               >Lyons</settlement></placeName></l>
+         <l n="76">Ne faict son estat que de cons</l>
+         <l><persName>Dieu</persName> nous vueille garder de pis</l>
+         <l>Et qu'ainsy n'en advienne au filz</l>
+         <l>Au dyable soit la ribauldaille</l>
+         <l n="80">Croys tu point qu'une bataille</l>
+         <l>Ne reviendroyt <reg>à</reg> tant de fraiz</l>
+         <l>Que les ribauldes au tainct fraiz</l>
+         <l>Nous coustent en leurs paremens</l>
+         <l n="84">Ilz ont achepté des passementz</l>
+         <l>Au lieu de payer les souldars</l>
+         <l>Mais <reg>qu'est</reg> devenu <persName
+               key="Louis d'Ars, duc de Terme, chambellan du roi, gouverneur de Pavie, lieutenant-général du bailli de Rouen"
+               >Loys d'Ars</persName></l>
+         <l><persName>Bayard le tendre</persName>
+            <persName key="Jacques de Chabannes de la Palice">La Palisse</persName></l>
+         <l n="88">Nous courons bravement en lice</l>
+         <pb n="117v"/>
+         <l>Encores myeulx quant on nous chasse</l>
+         <l>Tout le monde va <reg>à</reg> la chasse</l>
+         <l><reg>C'est</reg> pour courir le cerf qui pert</l>
+         <l n="92">Le pere ne sçait pas qu'il pert</l>
+         <l>Que sa fille aussi accompaigne</l>
+         <l>Gardant aussi bien la <placeName><settlement type="region"
+               >Champaigne</settlement></placeName></l>
+         <l>Comme ilz ont gardé <placeName><settlement type="city" key="Perpignan"
+                  >Parpignan</settlement></placeName></l>
+         <l n="96">Le cardinal de Sainct Trignan</l>
+         <l>Vouldroit estre <reg>à</reg> la <reg>faculté</reg></l>
+         <l>Ce <reg>n'est</reg> pas sans <reg>difficulté</reg></l>
+         <l>De scavoir <reg>à</reg> combien il tint</l>
+         <l n="100">L'autre an que le seigneur ne vint</l>
+         <l>S'esbatre ung peu de pardeça</l>
+         <l>Qui l'<placeName><settlement type="country" key="Allemagne"
+               >Allemaigne</settlement></placeName>
+            <reg>courrouça</reg></l>
+         <l>Luy feit une moult belle planche<note resp="editor" type="crit">Faire la planche :
+               servir de moyen, montrer le chemin aux autres (Di Stefano).</note></l>
+         <l n="104"><reg>C'est</reg>
+            <reg>là</reg>
+            <reg>à</reg> coup <reg>à</reg> la revenche</l>
+         <l>Au boys qui aura bonne beste</l>
+         <l><reg>Qu'on</reg> laisse faire <reg>à</reg> ma requeste</l>
+         <l><persName>Monsieur de Vendosme</persName> et le siens</l>
+         <l n="108">Et <reg>qu'on</reg> ne leur espargne riens</l>
+         <l><reg>S'ils</reg> ne font beau feu <reg>marché</reg> nul</l>
+         <l>Fortune avoit <reg>tourné</reg> le cul</l>
+         <l><persName>Au preudhomme Longueval</persName></l>
+         <l n="112">Mais il a eu bien pour mal</l>
+         <l>Tel qui pinse <reg>s'en</reg> fut <reg>passé</reg></l>
+         <l>La trasmontanne y a <reg>passé</reg></l>
+         <l>Tout est bon qui est venu <reg>d'elle</reg></l>
+         <l n="116">N'y a il point une pucelle</l>
+         <l>En court qui ayt <reg>passé</reg> douze ans</l>
+         <l><reg>À</reg> grand peine ces mesdisans</l>
+         <l>Ne deussent ilz pas avoir honte</l>
+         <l n="120">Ilz veullent qu'on leur rende compte</l>
+         <fw type="sig" place="bottom-roght">De tant d'argent</fw>
+         <l>De tant <reg>d'argent</reg>
+            <reg>qu'on</reg> a <reg>pillé</reg></l>
+         <l>Et disent qu'on en a <reg>baillé</reg></l>
+         <l>Ung pauvre denier aux <reg>gens d'armes</reg></l>
+         <l n="124">N'esse pas assez que les dames</l>
+         <l>Les dyamans les pourphilhin/arees</l>
+         <l>Les macquereaulx masques dorees</l>
+         <l>Et ceulx qu'on veoit valloir le moins</l>
+         <l n="128">Mais <reg>qu'ilz</reg> le saichent mettre en leurs mains</l>
+         <l>Or <persName>Coquette</persName> je n'en dis plus</l>
+         <l>Jouons <reg>à</reg> la <rs type="jeu">paume</rs> et au <rs type="jeu">flux</rs></l>
+         <l>Laissons la ceste <reg>imperialité</reg></l>
+         <l n="132">Dys moy la <reg>cardinalité</reg></l>
+         <l>Entre toutes la myeulx en point </l>
+         <l>Croys tu que <reg>l'on</reg>
+            <reg>n'y</reg> fauldra point</l>
+         <l>Ouy <reg>à</reg> la nouvelle lune</l>
+         <l n="136"><persName>Jehan Paicte</persName> mengea la prune</l>
+         <l><persName>Le pauvre escossois</persName> feit le sault</l>
+         <l>Quoy <reg>qu'en</reg> dye <persName>maistre Jehan Thibault</persName></l>
+         <l>Or garde le bec si tu veulx<note resp="editor" type="ling">Garder le bec : savoir se
+               taire (Di Stefano).</note></l>
+         <l n="140">Scaiz tu <reg>qu'en</reg> disent ces resveus</l>
+         <l>Que si la court du tout ne change</l>
+         <l>Craindre debvons que Dieu ne vange</l>
+         <l>Tant <reg>d'oultraiges</reg> que on luy faict</l>
+         <l n="148">Et en danger que le forfaict</l>
+         <l>Du pere ne nuyse aux enffans</l>
+         <l>Dieu les fasse aussi tryumphans</l>
+         <l>De bonnes meurs et empire ample</l>
+         <l>Comme ilz ont en maulvais exemple</l>
+         <pb n="118"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>where is it</settlement>
+                  <repository>repository name</repository>
+                  <idno>identifier</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <l>Or ça <persName>Marot</persName> que diras-tu</l>
+         <l>De moy qui n’ay nulle vertu</l>
+         <l>Et entreprens de te respondre</l>
+         <l n="4">C’est tout ainsi que on se faict tondre</l>
+         <l>Pour myeux sentir l’homme de guerre</l>
+         <l>L’on veoit bien le roy d’Angleterre</l>
+         <l>Se estre remarié de nouveau</l>
+         <l n="8">Je t’en garde ung bel anneau</l>
+         <l>Qui guerira du mal Sainct Jehan</l>
+         <pb n="289r"/>
+         <l>Aussi bien ce pouvre Jehan</l>
+         <l>Tousjours aura son mal de teste</l>
+         <l n="12">Mays quoy s’il ne estoit point de feste</l>
+         <l>Les taverniers n’auroient plus rien</l>
+         <l>Et ne feroit l’on tant de bien</l>
+         <l>Au[x] reliquaires des eglises</l>
+         <l n="16">L’aigle a failly ses entreprises</l>
+         <l>Vive le coq pour ceste année</l>
+         <l>La zizanie est fort fennée</l>
+         <l>Ou temps qui court en plusieurs lieux</l>
+         <l n="20">Mays il est mort cest homme vieulx</l>
+         <l>Qui laissoit vivre en liberté</l>
+         <l>Maintz gens de bien y ont esté</l>
+         <l>Tresbien traictés et longuement</l>
+         <l n="24">C’est trop parlé veu l’instrument</l>
+         <l>Que on dict avoir le manifficque</l>
+         <l>C’est d’ung viel cordelier ethicque</l>
+         <l>Dont la teste sert de cornemuse</l>
+         <l n="28">Ung vert diable apres s’amuse</l>
+         <l>A luy souffler parmy l’aureille</l>
+         <l>Comme tu voys figue à Marseille</l>
+         <l>Et par trop chere à l’Empereur</l>
+         <l n="32">Holà holà venons à l’heur</l>
+         <l>De cest Angloys me Bolan</l>
+         <l>Ou au vin froit qui est à l’an</l>
+         <l>Voire en lannoyes en esté</l>
+         <l n="36">Ce n’est rien dict qui n’a esté</l>
+         <l>À Tours querir du taffetas</l>
+         <l>Tellement que Barbe d’Estas</l>
+         <l>Ainsi qu’on dict affin que n’erre</l>
+         <l n="40">Ne peult plus volter que par terre</l>
+         <l>Ou sur ung lict que je ne mente</l>
+         <pb n="289v"/>
+         <l>Las nous ne jouons plus que à trente</l>
+         <l>Ung est perdu dont c’est dommaige</l>
+         <l n="44">N’esse pas bien nostre adventaige</l>
+         <l>De nous veoir tous ainsi pelez</l>
+         <l>Il en est prou de rappelez</l>
+         <l>Tu en es l’un vien hardiment</l>
+         <l n="48">Puis l’on dira voilà <persName>Clement</persName></l>
+         <l>Qui s’enfuit comme hereticque</l>
+         <l>Ce t’est tout ung gens de praticque</l>
+         <l>Comme tu voys vont à la guerre</l>
+         <l n="52">Serre homme d’arme serre serre</l>
+         <l>Fy de coursiers voire de Naples</l>
+         <l>Chevaux legiers vive Canaples</l>
+         <l>Layme sur tous a le myeulx faict</l>
+         <l n="56">Et pour en estre satisfaict</l>
+         <l>Demande à ceulx de la Serbonne</l>
+         <l>Si ceulx qui estoient dedans <placeName><settlement type="city"
+               >Peronne</settlement></placeName></l>
+         <l>Ont faict la part aux ennemys</l>
+         <l n="60">Enquier t’en bien à tes amys</l>
+         <l>La memoire en est perpetuelle</l>
+         <l>Voicy le poinct son parle d’elle</l>
+         <l>M’entends tu bien <placeName><settlement type="city"
+            >Hierusalem</settlement></placeName></l>
+         <l n="64">Avant qu’il soit le bout de l’an</l>
+         <l>Elle aura du pied de derriere</l>
+         <l>Ceulx de Cambray ont eu carriere</l>
+         <l>Tesmoings Lion et <persName key="Melanchton">Melancthon</persName></l>
+         <l n="68">Si grand mal faict ung cocq breton</l>
+         <l>Qui abbat les gens sans lucter</l>
+         <l>C’est bien faict Sire il est <persName>Luther</persName></l>
+         <l>Bruslez, bruslez rien on n’espargne</l>
+         <l n="72">Et ne croyez que l’<placeName><settlement type="country"
+               >Alemaigne</settlement></placeName></l>
+         <l>En soit marrie comme l’on dict</l>
+         <pb n="290"/>
+         <fw type="pageNum" place="top-right">290</fw>
+         <l>Et qui ne veult estre interdict</l>
+         <l>Qu’il soit lisart à la morine</l>
+         <l n="76">Commant ce prandra la farine</l>
+         <l>Que portent <rs type="animal" subtype="équidé">asnes</rs> à <placeName><settlement
+                  type="city">Paris</settlement></placeName></l>
+         <l>Tout yra bien si les maris</l>
+         <l>Ont les pieds chaulds en cest yver</l>
+         <l n="80">L’Escossoys ne faict que arriver</l>
+         <l>Il apprendra s’il est scient</l>
+         <l>Je ne voy nul tant patient</l>
+         <l>Qui ne s’estonne où argent fault</l>
+         <l n="84">Et scez tu où est le default</l>
+         <l>Des vrays amys la quantité</l>
+         <l>Tenez monsieur accipite</l>
+         <l>Ce n’est pas tout jugez pour moy</l>
+         <l n="88">Ouy mon amy vien t’en à moy</l>
+         <l>Dixit le grand je te perdonne</l>
+         <l>Mays moyennant que tu me donne</l>
+         <l>Tu m’entends bien, La <rs type="animal">mousche</rs> en laict</l>
+         <l n="92">Se faict bien veoir et <persName>Triboullet</persName></l>
+         <l>Veult disputer à huys ouvert</l>
+         <l>J’en suis contant la saulce verd</l>
+         <l>Et pieds de porc sont en saison</l>
+         <l n="96">Car le marquis par traison</l>
+         <l>En empire laissons le là</l>
+         <l>Est il troussé ce moyne là</l>
+         <l>Qu’esse qu’il quiert ung beneffice</l>
+         <l n="100">Mays lire en <persName>Christ</persName> c’est ung grand vice</l>
+         <l>Ainsi que ont dict messieurs noz maistres</l>
+         <l>Pour troys escuz trente six presbtres</l>
+         <l>La grand Sainct Jehan faict demy l’an</l>
+         <l n="104">C’est ung beau vol que pour Milan</l>
+         <l>Mays qu’on ayt bon estoubisseur</l>
+         <l>Force d’argent c’est le plus seur</l>
+         <pb n="290v"/>
+         <l>Datum serva comme trompette</l>
+         <l n="108">Il pleut trop fort sonne retraite</l>
+         <l><persName>Clement</persName> amy je n’en puis plus</l>
+         <l>Une autre foys tout le surplus</l>
+         <l>Te sera dict voire et mandé</l>
+         <l n="112">Si <persName>Lion</persName> n’est contremendé</l>
+         <l>Ne sçay je rien je ne l’ay veu</l>
+         <l>Quant à loysir auras tout veu</l>
+         <l>Excuse moy et cest escript</l>
+         <l n="116">Car par la grace à <persName>Jhesus Christ</persName></l>
+         <l>L’ame est heureuse au bon daulphin</l>
+         <l>Adieu te dis voilà la fin</l>
+      </body>
+   </text>
+</TEI>

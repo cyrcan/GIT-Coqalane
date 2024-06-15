@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Le coq aux asnes et aux veaulx faict L'an mil Vc <del>XX</del> XLVII</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Transcription à partir des mss 199(187) de Soissons et NAF 1870 de BnF (fautif)</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><ref>https://bvmm.irht.cnrs.fr/mirador/index.php?manifest=https://bvmm.irht.cnrs.fr/iiif/25525/manifest</ref></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p><listPerson>
+               <person xml:id="Anne_de_Montmorency"
+                  corresp="https://data.bnf.fr/ark:/12148/cb121165804">
+                  <idno>0000 0001 2118 2438</idno>
+                  <persName xml:lang="fr"><forename type="first">Anne
+                        de</forename><surname>Montmorency</surname></persName>
+               </person>
+               <person xml:id="Diane_de_Poitiers"
+                  corresp="https://data.bnf.fr/ark:/12148/cb122465322">
+                  <idno type="ISNI">0000 0001 2320 4848</idno>
+                  <persName xml:lang="fr"><forename type="first">Anne
+                        de</forename><surname>Poitiers</surname></persName>
+               </person>
+               <person xml:id="Charles_Lorraine"
+                  corresp="https://data.bnf.fr/ark:/12148/cb133212787">
+                  <idno type="ISNI">0000 0001 2279 5260</idno>
+                  <persName xml:lang="fr"><forename type="first">Charles</forename><surname>Lorraine
+                        (de)</surname></persName>
+               </person>
+               <person xml:id="Charles-Quint" corresp="https://data.bnf.fr/ark:/12148/cb10411705z">
+                  <idno type="ISNI">0000 0001 2096 5852</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                        >Charles</forename><surname>Quint</surname></persName>
+               </person>
+               <person xml:id="Arétin" corresp="https://data.bnf.fr/ark:/12148/cb13197293p">
+                  <idno type="ISNI">0000 0001 2102 0148</idno>
+                  <persName xml:lang="fr"><forename type="first">Pierre
+                        </forename><surname>Arétin</surname></persName>
+               </person>
+               <person xml:id="François_Ier" corresp="https://data.bnf.fr/ark:/12148/cb120127827">
+                  <idno type="ISNI">0000 0001 2102 9337</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                        >François</forename><surname>Ier</surname></persName>
+               </person>
+            </listPerson></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change><date>14-10-2023</date>Encodage de premier niveau.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Soissons</settlement>
+                  <repository>Bibliothèque municipale</repository>
+                  <idno>ms. 199(187)</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <!-- Condamnation de la corruption sous François Ier -->
+         <l>Amys et freres je pensoys</l>
+         <l>Avec la mort du <persName ref="#François_Ier">roy Francois</persName></l>
+         <l>Avoir veu mourir tous les vices</l>
+         <l n="4">Finance ordure et delices</l>
+         <l>Dont les bougres de l'<placeName><settlement type="country" key="Italie"
+                  >Ytalye</settlement></placeName></l>
+         <l>Ont <expan>nostre</expan> court toute sallye</l>
+         <!-- Plainte quant aux taxes supportées par le peuple -->
+         <l>On promectoit au changement</l>
+         <l n="8">Du regne ung grant sollagement</l>
+         <l>D'empruntz de tailles et <unclear>tampestes</unclear></l>
+         <l>Sans que nous aultres povres bestes</l>
+         <l>Portissions sur <expan>nostre</expan> dotz</l>
+         <l n="12">Ce qui est pillé par les gros</l>
+         <l>Il fut bruit qu'on feroit ung train</l>
+         <l>Sans macquerelle et sans putain</l>
+         <l>Ung estat de telle prudence</l>
+         <l n="16">Qu'il seroit sans folle despence</l>
+         <l>Tant qu'on auroyt assez dequoy</l>
+         <l>Fournir aux guerres et au <roleName>Roy</roleName></l>
+         <l>Sans piller le peuple et l'eglise</l>
+         <l n="20">On le nous dit <reg>jusqu'à</reg>
+            <placeName><settlement type="city">Venise</settlement></placeName></l>
+         <l>Où j'estoys quant le <persName>roy</persName> mourut</l>
+         <note resp="editor" type="crit">Soit le 31 mars 1547.</note>
+         <!-- Déception renouvelée devant la perpétuation des vices -->
+         <l>Las mais ce bruyct bien peu courut</l>
+         <l>Et tout au contraire changea</l>
+         <l n="24">À peu que mon cueur n'enraiga</l>
+         <l>De veoir si peu tryompher <placeName><settlement type="country"
+               >France</settlement></placeName></l>
+         <!-- Nouvelle attente d'un revirement moral du règne sous l'impulsion du nouveau roi Henri II -->
+         <l>J'avois desja changer de chance</l>
+         <l>Et de la court voulois bien dire</l>
+         <l n="28">Pensant n'y veoir plus que redire</l>
+         <pb n="66v"/>
+         <l>J'avoys apresté le festain</l>
+         <l>Pour en rire avec <persName ref="#Arétin">l'Arestin</persName></l>
+         <note resp="editor" type="crit">Confirmation de l'inscription du coq-à-l'âne dans le genre
+            satirique.</note>
+         <l>Nous voulions dresser icy</l>
+         <l n="32">Un coq aultre que à <placeName><settlement type="city"
+               >Landrecy</settlement></placeName></l>
+         <note resp="editor" type="crit">Cf. "L'aigle qui a faict la poulle devant le coq à
+            Landrecy" de Claude Chappuys (1543).</note>
+         <l>Devant que l'aigle eust bessé l'aille</l>
+         <l>Mais quant nous seusmes la nouvelle</l>
+         <l>Et que congneusmes <expan>par</expan> le vent</l>
+         <l n="36">Que tout allait pys que devant</l>
+         <l>Nous ne changeasmes point de plume</l>
+         <l>Ains dismes comme de coustume</l>
+         <l>Et tousjours ainsi nous disons</l>
+         <l n="40">Jusques ad ce que nous verrons</l>
+         <l><expan>Vostre</expan> regne changer en myeulx</l>
+         <!--Saut#1-->
+         <!-- Du renouvellement des figures politiques -->
+         <l>On dict pardeçà que voz dieulx</l>
+         <note resp="editor" type="crit">Le pouvoir central est renforcé au début du règne de Henri
+            II : le conseil royal accorde un rôle accru aux quatre secrétaires du roi: Bochetel,
+            L'Aubespine, Clausse et du Thier, les futurs conseillers d'État.</note>
+         <l>N'ont tout force que de la lune</l>
+         <note resp="editor" type="crit">Allusion à <persName ref="#Diane_de_Poitiers">Diane de
+               Poitiers</persName>.</note>
+         <l n="44">Fors que <persName type="Mythologie">Vulcain</persName>
+            <persName type="Mythologie">Mars</persName> et <persName type="Mythologie"
+               >Neptune</persName></l>
+         <l>Qui ont trouvé son aer trop fraiz</l>
+         <note resp="editor" type="glose">Syllepse sur air.</note>
+         <l>Le soleil auroyt de beau raiz</l>
+         <l>S'il n'eclypsoit tous les jours</l>
+         <l n="48">Aussi reluist il a rebours</l>
+         <l>Puys que la lune le fait luyre</l>
+         <note resp="editor" type="crit">L'influence politique de Diane de Poitiers se confirme à la
+            mort de François Ier pour devenir finalement souveraine.</note>
+         <l>Savez vous point qui veult conduire</l>
+         <l>En hault son chariot ardant</l>
+         <l n="52">C'est <reg>un</reg>
+            <rs type="animal" subtype="équidé">asne</rs> rouge et mordant</l>
+         <l>Qui est deja si glorieulx</l>
+         <l>Qu'il cuyde surmonter les cyeulx</l>
+         <l>Mais je congnois à son marcher</l>
+         <note resp="editor" type="crit">Indice</note>
+         <l n="56">Qu'il est en train de tresbucher</l>
+         <l>Et souffrir ung second naufrage</l>
+         <note resp="editor" type="crit">Après une première disgrâce sous François Ier.</note>
+         <l>Ce <persName ref="#Charles_Lorraine">cardinal</persName> jeune et si saige</l>
+         <note resp="editor" type="crit">Joël Cornette (1999) cite Ricasoli qui écrit, le 11 août
+            1547,au duc de Florence : "Le cardinal de Guise est le plus grand personnage de cette
+            cour et il est en voie d'embrasser toutes les affaires."</note>
+         <l>Qui de la lune à son scavoir</l>
+         <l n="60">Son chapeau et tout son espoir</l>
+         <pb n="67r"/>
+         <l>Sera il point pour faire du bien</l>
+         <l>Ouy à soy aux aultres rien</l>
+         <l>Je congnoys l'honneur de la race</l>
+         <note resp="editor" type="glose">La lignée de la maison de Lorraine.</note>
+         <l n="64">Mais n'esse pas une grand grace</l>
+         <l>De ces poltrons de Levant</l>
+         <l>D'ainsi depouiller ung vivant</l>
+         <l>Sans qu'il se trouve avoir forfaict</l>
+         <note resp="editor" type="crit">Peut-être Nicolas Bossut, comte de Longueval, qui fut
+            inculpé de trahison et dut céder une propriété au cardinal de Lorraine.</note>
+         <l n="68">Si autant ou pys on leur faict</l>
+         <l>Se sera juste recompense</l>
+         <l>Et puys qu'esse de la vangance</l>
+         <l>Qui estoit si bien entreprise</l>
+         <l n="72">Vivant le pere elle est bien mise</l>
+         <note resp="editor" type="crit">Allusion possible au retour en grâce du Connétable de
+            Montmorency.</note>
+         <l>À louable <expan>execution</expan></l>
+         <l>Mais de donner ung million</l>
+         <l>Pour ung jour à une putain</l>
+         <note resp="editor" type="crit">Diane de Poitiers reçoit les biens et les bijoux de la
+            duchesse d'Étampes et se voit confirmée propriétaire de nombreux domaines, et du château
+            de Chenonceau. Cf. Knecht (1994), p. 555.</note>
+         <l n="76">On n'en faict que laver la main</l>
+         <l>C'est bien aller de mal en myeulx</l>
+         <l>Ce gros larron ambicieulx</l>
+         <note resp="editor" type="crit"><persName ref="#Anne_de_Montmorency"
+               >Montmorency?</persName></note>
+         <l>Qui les tresors d'aultruy despart</l>
+         <l n="80">Cent mil escuz print pour sa part</l>
+         <note resp="editor" type="crit">"En plus de son salaire normal de 25 000 écus par an, il
+            reçut l'intégralité de ses arrérages, qui s'élevaient à 100 000 écus." Knecht (1994), p.
+            556.</note>
+         <l>C'est ung presant de bien venue</l>
+         <l>Aussi <placeName><settlement type="country">France</settlement></placeName> luy est
+            tenue</l>
+         <l>Pour le passaige que scavez</l>
+         <note resp="editor" type="crit">Souvenir du passage de Provence accordé à
+            Charles-Quint.</note>
+         <l n="84">Et plus fera si vous avez</l>
+         <l>À faire avec cest abuseur</l>
+         <l>Du moings s'en trouve bien la seur</l>
+         <l>Je ne scay qui sera du frere</l>
+         <l n="88">J'amayrois myeulx ung tel douaire</l>
+         <l>Que le partaige d'ung daulphin</l>
+         <pb n="67v"/>
+         <l>Et si attendons la fin</l>
+         <l>Nous verrons quelque beau mystere</l>
+         <!-- Du concille sous influence étrangère -->
+         <l n="92">De ce concille ne me puys taire</l>
+         <note resp="editor" type="crit">cf. actualité et composition du concile de Trente.</note>
+         <l>Où commandent les estrangers</l>
+         <l>Car il y a trop de dangers</l>
+         <l>Que ce que nous tenons couvert</l>
+         <l n="96">Soit soubz cest umbre descouvert</l>
+         <!-- "Révolution du palais" -->
+         <l>Que dictes vous de la fanfare</l>
+         <l>Du <persName ref="#Anne_de_Montmorency"><rs type="animal" subtype="rongeur">rat
+                  pelé</rs></persName> de gare gare</l>
+         <note resp="editor" type="crit">Équivoque rat pelé / rappelé, c'est-à-dire Montmorency dont
+            il faut se "garer".</note>
+         <l>Qui chasse chacun de sa voye</l>
+         <l n="100">Ha ce <placeName><settlement type="region">Piedmont</settlement></placeName>
+            gare <placeName><settlement type="region">Savoye</settlement></placeName></l>
+         <l>Gare la <placeName><settlement type="region">Champaigne</settlement></placeName> et la
+                  <placeName><settlement type="region">Bresse</settlement></placeName></l>
+         <l>Gare <placeName><settlement type="region">la Manche</settlement></placeName> où l'on
+            s'adresse</l>
+         <l>Gare que l'<rs type="animal" subtype="oiseau">aigle</rs> ne m'atache</l>
+         <note resp="editor" type="crit">L'empereur Charles-Quint.</note>
+         <l n="104">Le harnoys portera la <rs type="animal">vache</rs></l>
+         <l>Et nous porterons le <rs type="animal">veau</rs></l>
+         <l>Ceste espee qui au fourreau</l>
+         <l>A dormy cinq ans et six moys</l>
+         <l n="108">Fera raige pour les <orgName type="peuple">Francois</orgName></l>
+         <l>De jouer à grippe mynault</l>
+         <l>Pourveu qu'il n'y ait point d'assaut</l>
+         <l>De coups donnez ny d'alarmes</l>
+         <l n="112">Nous trouverons de bons gens d'armes</l>
+         <l>Harnachés de toutes coulleurs</l>
+         <l>Bons dameretz et bons volleurs</l>
+         <l>Et bons pilleurs de garnison</l>
+         <l n="116">Or vu qui a plume l'oison</l>
+         <l>Ne sont ce pas voz <rs type="animal" subtype="oiseau">estourneaulx</rs></l>
+         <l>Voz <rs type="animal" subtype="équidé">asnes</rs> voz clerons nouveaulx</l>
+         <pb n="68"/>
+         <l>Qui pillent tout par baverye</l>
+         <note resp="editor" type="ling">Hapax.</note>
+         <l n="120">Qu'esse que de ceste espycerie</l>
+         <l>De la justice si friande</l>
+         <l>Le <persName>roy</persName> par empruntz nous demande</l>
+         <l>Le gendarme emporte d'audace</l>
+         <l n="124">Justice y va d'une aultre grace</l>
+         <l>Et pille plus que tous les deulx</l>
+         <l>Or nous sont bien <reg>ouverts</reg> les cyeulx</l>
+         <l>Car ce grant dieu qui est sur terre</l>
+         <l n="128">S'il n'est empesché pour la guerre</l>
+         <l>Qu'on luy corne d'<placeName><settlement type="country"
+               >Allemaigne</settlement></placeName></l>
+         <l>Nous saulvera <expan>par</expan> despit d'<placeName><settlement type="country"
+                  >Espaigne</settlement></placeName></l>
+         <l>Et si nous avons des pardons</l>
+         <l n="132">Des carbonnades et lardons</l>
+         <l>De ceulx qu'on rotit par la ville</l>
+         <l>Si fault y venir au concille</l>
+         <l>Pour veoir qui sera le plus fort</l>
+         <l n="136">Car le grant menton s'est fait fort</l>
+         <l>D'y faire trouver tout le monde</l>
+         <l>Mais que <orgName>Sorbonne</orgName> les confonde</l>
+         <l>Aussi bien de près que de loing</l>
+         <l n="140">Ce sera coup fait au besoing</l>
+         <l>Et monstrer <expan>par</expan> experience</l>
+         <l>Qu'il scavait plus que l'on ne pense</l>
+         <l>Et ung grand merite en ce temps</l>
+         <l n="144">Dieu gard de mal les mal contens</l>
+         <note/>
+         <l>Dont il y a plus que de bien aises</l>
+         <l>Je donne au dyable les <rs type="animal" subtype="insecte">punaises</rs></l>
+         <l>Qui ont enchanté le cerveau</l>
+         <l n="148">Le nez et les yeulx de ce <rs type="animal">veau</rs></l>
+         <pb n="68v"/>
+         <l>Qui tette à trente ans sa nourice</l>
+         <note resp="editor" type="crit">Allusion probable à l'inclination du roi pour Diane de
+            Poitiers, plus âgée.</note>
+         <l>Dieu gard de mal le temps <expan>propice</expan></l>
+         <l>Qui par ruyne et par malheur</l>
+         <l n="152">Apreste ung ciecle de bon heur</l>
+         <l>Je donne au dyable ce pendant</l>
+         <l>Quiconques yra demandant</l>
+         <l>Et qui après au demande</l>
+         <l n="156">Ce que le peuple eust amande</l>
+         <l>Dieu gard la bouche qui dira</l>
+         <l>Et la plume qui escryra</l>
+         <l>Ce qui est au roy necessaire</l>
+         <note resp="editor" type="crit">Topos du bon conseiller, voire de la parrhêsia.</note>
+         <l n="160">Et qui soit aux larrons contraire</l>
+         <l>Et moy qui suys vray <rs type="animal" subtype="oiseau">coq</rs> je chante</l>
+         <l>Que vostre court est si meschante</l>
+         <l>Son cueur si loing du bien du roy</l>
+         <l n="164">Et si s'aproche luy de soy</l>
+         <l>En vengance et avarice</l>
+         <l>Que si n'abandonne se vice</l>
+         <l>Et n'entendent à leur devoir</l>
+         <l n="168">Leur aveuglement fera veoir</l>
+         <l>Plustost beaucoup qu'on ne vouldra</l>
+         <l>Un change qui tost confondra</l>
+         <l>FIN</l>
+      </body>
+   </text>
+</TEI>

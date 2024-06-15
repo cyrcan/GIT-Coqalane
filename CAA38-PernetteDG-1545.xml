@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>COQ A L’ASNE.</title>
+            <respStmt xml:id="CCA">
+               <persName>Cyril Cano Arnedo</persName>
+               <resp>éditeur scientifique et encodeur</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Projet d'élaboration d'un corpus des coq-à-l'âne de 1530 à 1649</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Pernette du Guillet</author>
+                  <title>RYMES de Gentile, et vertueuse dame D. Pernette du Guillet
+                     Lyonnoise.</title>
+                  <imprint>
+                     <pubPlace>Lyon</pubPlace>
+                     <respStmt>
+                        <resp>Imprimeur</resp>
+                        <persName>Jean de Tournes</persName>
+                     </respStmt>
+                     <date when="1545">1545</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <listBibl>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Paris</settlement>
+                     <repository>Bibliothèque Nationale de France</repository>
+                     <idno>Rés. Y4446. B.</idno>
+                  </msIdentifier>
+               </msDesc>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projet d'édition universitaire. Transcription à partir de la première édition.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Encodage semi-diplomatique</p>
+            <correction>
+               <p>Dissimilation i/j, u/v, ajout de l'apostrophe.</p>
+            </correction>
+            <normalization>
+               <p/>
+            </normalization>
+            <hyphenation>
+               <p>Respect des sauts de lignes, des mots coupés, des majuscules et des
+                  esperluettes</p>
+            </hyphenation>
+            <punctuation>
+               <p>Ponctuation originale conservée.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="frm">Français de la Renaissance</language>
+            <language ident="fre">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#CCA" when="2022">Création du fichier en xml-tei</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart>COQ A LASNE.</titlePart>
+            </docTitle>
+            <docDate when="1545">M. DC. XLV.</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <head>COQ A L’ASNE.</head>
+
+         <l>Amy <reg>je</reg> n’ay Lacquais, ny Page,</l>
+         <l>Qui bien sceust faire son message,</l>
+         <l>Ne telle chose raconter,</l>
+         <l n="4">Que me sens au cerveau monter</l>
+         <l>En ceste plaine, &amp; bel espace.<note type="editor" subtype="crit">Spécificité du
+               discours familier livré au destinataire</note></l>
+         <!--Saut#1-->
+         <l rend="indent">Mon Dieu, comme le monde passe</l>
+         <l>En oysiveté par simplesse!</l>
+         <l n="8">Ne voit on point tant de sagesse,</l>
+         <l>Que le plus fol demeure maistre <!--Première mention à retrouver chez Marot--></l>
+         <!--saut#2-->
+         <l>Il n’y <reg>a</reg> rien si beau, que d’estre</l>
+         <fw type="sig">Aupres</fw>
+         <pb n="60"/>
+         <fw type="pageNum" place="top-left"/>
+         <l>Aupres de quelque beau donneur.</l>
+         <!--Saut#3-->
+         <l n="12" rend="indent">Seroit ce pas grand deshonneur</l>
+         <l>De la laisser ainsi pucelle ?</l>
+         <l><reg>Je</reg> ne dy pas, ce fust celle,</l>
+         <l>Qui m’<reg>a</reg> donné l’occasion.</l>
+         <!--Saut#4-->
+         <l n="16" rend="indent">Cherchons autre occupation</l>
+         <l>Pour parvenir à la legere: </l>
+         <l>Car voulentiers une estrangere</l>
+         <l>Sera tousjours la mieulx venue,</l>
+         <l n="20">Pour autant, que, quand elle est nue,</l>
+         <l>Elle change d’accoustrement:</l>
+         <!--Saut#5-->
+         <l>Comme celluy, qui point ne ment,</l>
+         <l>Quand il s’excuse sur un compte.</l>
+         <!--Saut#6-->
+         <l n="24" rend="indent">Nul n’est tenu de rendre compte</l>
+         <l>(Apres la paye) du receu.</l>
+         <!--Saut#7-->
+         <l>O qu’il est bien pris, &amp; deceu</l>
+         <l>Le doulx <rs type="animal" subtype="oiseau">Pigeon</rs> aux <rs type="animal"
+               subtype="oiseau">Tourterelles</rs>,<note type="editor" subtype="crit">Allusion pour
+               le moins obscure : le Pigeon et les tourterelles sont réputées pour leur chasteté. Le
+               ton général du passage invite à le rapprocher de la remarque 44 du Livre III d'Elien
+               où les palombes comme les tourterelles punissent de mort le mâle infidèle.</note></l>
+         <!--Saut#8-->
+         <l n="28" rend="indent">Laissons celà : ce sont querelles,</l>
+         <l>Que les Grecz eurent aux Troyens.</l>
+         <l>On ne veit onc tant de moyens</l>
+         <l>Despuis que le tabourin sonne.</l>
+         <!--Saut#9-->
+         <l n="32" rend="indent">Qui sçauroit comme l’eau de Saone</l>
+         <l>Faict le beau tainct <reg>aux</reg> Damoiselles,</l>
+         <l>Tant de peine ne prendroient celles</l>
+         <l>A distiller pour se noircir,</l>
+         <fw type="sig">Je</fw>
+         <pb n="61"/>
+         <fw type="pageNum" place="top-left">61</fw>
+         <l n="36">(<reg>Je</reg> voulois dire <reg>à</reg> s’esclarcir)</l>
+         <l>Leur blanche, &amp; delicate peau.<note>Critique des fards</note></l>
+         <!--Saut#10-->
+         <l rend="indent">A mal juger ne fault appeau:<note type="editor" subtype="ling">Signal,
+               annonce(Huguet).</note></l>
+         <l>Puis qu’on n’en paye, que l’amande:</l>
+         <!--Saut#11-->
+         <l n="40">Celuy, qui me doibt, me demande.</l>
+         <l rend="indent">Mais c’est chose par trop notoire,</l>
+         <l>Que <reg>l’on</reg> nous peult bien faire croire,</l>
+         <l>Qu’une robe faicte <reg>à</reg> l’antique</l>
+         <l n="44">Ne monstre le corps si ethique,</l>
+         <l>Bien qu’il soit un petit trop <reg>juste</reg></l>
+         <l>Pour courtisaner <reg>à</reg> la buste.<note type="editor" subtype="crit">Critique des
+               corsets.</note></l>
+         <l rend="indent">Mais <reg>j’en</reg> croirois plus tost la preuve</l>
+         <l n="48">De son amy, quand il la treuve</l>
+         <l>Sur le faict de la pipperie.</l>
+         <l rend="indent">C’est ce, qui perd la confrerie</l>
+         <l>De sainct Amour, qui nous surprent,</l>
+         <l n="52">Puis qu’en lieu de donner on prent.</l>
+         <!--Saut#12-->
+         <l rend="indent">Or <reg>à</reg> Dieu donc, lasche<note>Pour ennnuyeuse?</note>
+            <reg>journée</reg>,</l>
+         <l>Puis qu’elle est <reg>jà</reg> tant <reg>sejournée<note type="editor" subtype="ling">Au
+                  sens de "durer", "tarder".</note></reg>,</l>
+         <l>Que <reg>l’on</reg> n’en corne plus la prise: <note type="editor" subtype="ling">Si
+               "corner prise" indique la fin de la chasse ou la fin d'un problème, l'expression
+               pourrait renvoyer ici à l'idée d'une journée qui s'éternise.</note></l>
+         <!--Saut#13-->
+         <l n="56">Tant y va le pot, qu’il se brise,</l>
+         <l>Qui nous faict apres bon mestier.</l>
+         <!--Saut#14-->
+         <l rend="indent">S’elle sçavoit bien le mestier,</l>
+         <l>On ne craindroit point le danger</l>
+         <l n="60">De ce plaidoyeur estrangier:</l>
+         <fw type="sig" place="bottom-left">Mais</fw>
+         <l>Mais qu’on le plume sans mentir</l>
+         <l>Avant qu’il le puisse sentir.</l>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>where is it</settlement>
+                  <repository>repository name</repository>
+                  <idno>identifier</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

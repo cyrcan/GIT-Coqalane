@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+     <revisionDesc><change><date>2023</date>Encodage de niveau 0.</change></revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listBibl>
+	           <msDesc>
+	              <msIdentifier>
+                  <settlement>Lausanne</settlement>
+	                 <repository>Bibliothèque Cantonale et Universitaire</repository>
+	                 <idno>M. 1016</idno>
+               </msIdentifier>
+	           </msDesc>
+         </listBibl>
+         <l>Tu m’as tant bien au long escript</l>
+         <l>Que m’esbays de ton esprit</l>
+         <l>Et <reg>où</reg> il prant tant de merveilhes</l>
+         <l n="4">De fait beaucop tu me revelhes</l>
+         <l>De me mander ces nouveaultés</l><!--Saut#1-->
+         <pb n="54v"/>
+         <l><reg>À</reg> ton advis les pryvaultés</l>
+         <l>Du grand seigneur est ce heritage</l><!-- Saut#2 -->
+         <l n="8"><placeName><settlement type="region">Bretagne</settlement></placeName> est fort bon apenage<note type="editor" subtype="crit" place="bottom">C'est en février 1540 que le duché de Bretagne est crée pour le dauphin, futur Henri II. Ou bien est-ce une allusion aux manœuvres d'Anne de Montmorency. Cf. Droz.</note></l>
+         <l><choice><orig>Par</orig><reg>Pour</reg></choice> ung puisné et verras-tu</l>
+         <l>Ung jour tirer au court festu</l><!-- Saut#3 -->
+         <l>Et quoy que nostre polle cluche</l>
+         <l n="12">La huppe avec la coqueluche</l>
+         <l>Cest yver-cy a eu le cours</l><!-- Saut#4-->
+         <l>Il ne fait bon estre en ses cours</l>
+         <l>Où les poules <choice><orig>chantoit</orig><reg>chantent</reg></choice> cy hault</l><!-- Saut#5 -->
+         <l n="16">Car l’amytié de <persName>Gallehault</persName></l>
+         <l>Estoit parfaicte à <persName>Lancelot</persName></l><!-- Saut#6 -->
+         <l>Demande <choice><orig>au Breton</orig><reg>aux Bretons</reg></choice> <persName>Gallot</persName></l>
+         <l>S’ilz ayment mieulx ung duc qu’un Roy</l><!-- Saut#7 -->
+         <l n="20">Il y a eu du dessarroy</l>
+         <l>Que nous n’avons eu <placeName><settlement type="city" key="Perpignan">Parpignan</settlement><note type="editor" subtype="crit" place="bottom">Le siège de Perpignan est levé à la fin du mois de septembre 1542.</note></placeName></l>
+         <l>Despuys le jour de <placeName><settlement>Marignan</settlement></placeName></l>
+         <l>Nous n'avons fait chose qui vaille</l><!-- Saut#8 -->
+         <l n="24">Et puys par force de cliqualhe<note type="editor" subtype="ling">Clicaille : "monnaie sonnante, ou argent" (Huguet)</note></l>
+         <l>De jours ouvriers on en fait festes</l><!-- Saut#9 -->
+         <l><reg>À</reg> dire vray ce sont grant bestes</l>
+         <l>Despuys l’on mostre en <placeName><settlement type="region">Piemont</settlement></placeName></l><!-- Saut#10 -->
+         <l n="28">Maintenant tel est contremont</l>
+         <l><reg>À</reg> qui bien prant d’estre allé droit</l><!-- Saut#11 -->
+         <l>Oy bien cella mais qui vouldroit</l>
+         <l>Oster les abutz des cagotz</l><!-- Saut#12 -->
+         <l n="32">Mangerois-tu des <rs type="animal">escargotz</rs></l>
+         <l>Le kresme à la chardonnette</l><!-- Saut#13 -->
+         <l>S’il a conquesté <placeName><settlement type="port">La Goulette</settlement></placeName><note type="editor" subtype="crit">Victoire de Charles-Quint le 14 juillet 1535 à Tunis</note></l>
+         <l>Aussi ne fit rien en <placeName><settlement type="region" key="Provence">Prouvance</settlement><note type="editor" subtype="crit">En septembre 1536, Charles-Quint se retire face au connétable de Montmorency.</note></placeName></l><!-- Saut#13 -->
+         <pb n="55r"/><fw type="pageNum" place="top-right">55</fw>
+         <l n="36">Dieu donne <reg>à</reg> maintz passiance</l>
+         <l>Les goutes la tormentent fort</l><!-- Saut#14 -->
+         <l>Si nous avons quelque renfort</l>
+         <l>Des Affricains adieu Arthois</l><!-- Saut#15 -->
+         <l n="40">Tout s’en va fort à contrepois</l>
+         <l>Apres la mort de ce Roy cy</l><!-- Saut#16 -->
+         <l>Jamais de toy Dieu n’aye mercy</l>
+         <l>Cy celle guerre luy proffite</l>
+         Ou bien s’il fault qu’il se despite,
+         Qu’il chasse au dyable ce bagage !
+         Puys maintenant, nostre language
+         Est fors enquis par tout le monde.
+         Non, non, voicy où je me fonde : 
+         Que ses putains l’ont enchanté.
+         Puys, tu desires ung pasté
+         De quatre testes courtizannes ;
+         Mais j’en dis sept, puysque bazannes
+         Sont mieulx prisés que marroquins.
+         Il n’est coussin que de tétins
+         De grands badaulx que de Paris,
+         Les grenetiers sont tous peris,
+         Ainsi que disoit Mere-Sotte.
+         Or çà, on dit que la bigotte
+         Est ensaincte de l’Antécrist.
+         Jamais homme de bon esprit
+         Ne fit la court à ces bagasses,
+         Toutesfoys, Monsieur des Besaces
+         Marche devant crosse et mictre.
+         Il n’est mestier que de belistre,
+         Il n’est Helli que de faulcon.
+         A tous les dyables soit le con,
+         Il destruira tout le royaulme !
+         Qu’en distes-vous, maistre Guillaume,
+         Fait-il melheur icy qu’à Bourges ?
+         Il n’est potage que de courges,
+         Quand frictes sont à la dodyne.
+         Qu’y feront, où Venus domyne
+         Par dessus deesses et dieulx ?
+         Nostre Sainct Pere, semy dieulx,
+         Metra nos pechés dans sa manche.
+         De tous poissons, fors de la tanche,
+         Prends le ventre d’une nonnain.
+         Somme, du jour au lendemain,
+         Nous avons veu changer le temps :
+         On en voit tant de mal contens ! 
+         Mais, quoyque ce soit cas fortuit,
+         Tant d’empruntz et de dons gratuitz
+         Et sy hardi de repousser.
+         Par ainsi, fault chasser, chasser
+         Tous ceulx qui ne font bonne myne
+         Et n’adourent ceste mastine,
+         Ainsi que font les plus prochains,
+         Et ne me chault d’oyseaulx ne chiens
+         Ny des amours de nos prelatz ;
+         Mais nous dansons le Grant hellas,
+         Et moynes cy font l’inventoire
+         Des cabaretz du purgatoire,
+         Comme sy diables avoit esté.
+         Voylà pourquoy au temps d’esté
+         Journées ne sont en usage,
+         Car l’Empereur ny son passage
+         Ne l’ont point mys hors de credit.
+         Brief, amours ont fait ung esdit.
+         Que mauldicte soit jalouzie
+         Et toute sa genealogie !
+         Longtemps après, le goust demeure.
+         Or bien, ce n’est pas de ceste heure
+         Que l’on fait injure à bon droit,
+         Et cy metray que l’on vouldroit
+         N’avoir commencé ceste guerre.
+         De fait, pour guerir ung cathare,
+         Il ne fault user de collis.
+         Elle triumphe, nostre Haelis,
+         Elle a le bec fort amyable.
+         Sire, laissez ce connetable,
+         Ne scariez-vous faire sans luy ?
+         Or, de cela, n’en diray huy,
+         Toucher n’y fault, c’est pour la bouche.
+         Si nostre dame estoit en couche,
+         Ce karesme, on mangeroit chair,
+         Et ne fauldroit non plus prescher
+         Qu’au samedi après Noël.
+         Beau Sire, j’ay Pantagruel
+         Quant je parle de theologie.
+         On n’y voit goutte sans bougie,
+         C’est la maison de Dedallus.
+         Toutesfoys, Sardanapalus
+         S’est maintenant resuscité
+         Et avec luy a suscité
+         La trognette, la bonne bague.
+         A cette cour, elle se brague,
+         Mais c’est, Dieu mercy, son devant !
+         Nous parlons ung peu trop avant,
+         Il en survient maintz grants dangiers
+         De se fier aux estrangiers,
+         Je crains beaucoup qu’on ne nous vande.
+         Et puys, nostre petite bande
+         Fait-elle pas bien parler d’elle ?
+         Mais ceste royalle pucelle
+         Est bien pourveuë et gourmande.
+         Que fussiés à la fosse, à Nantes
+         Pour y pêcher des lampryons !
+         Dont vrais crestiens, bien nous croyons
+         Que ne trespassent point les ames. (ms. meurent)
+         Ce n’est petit cas que de femmes, 
+         On en jouyt de pere en filz ;
+         Mais nos mengeurs de crucifix
+         Alleguent la loy ancienne.
+         Qu’il soit vray, la belle Dyanne
+         Est revenue en son printemps.
+         Ce sont les merveilles du temps :
+         Elle bastit, l’aultre destruit,
+         L’une instruit, l’aultre perit.
+         C’est une chose toute claire
+         Qu’il nous fault garder de desplaire
+         Aux Angloix et aux Allemans
+         Car nous et tous ces caymans
+         Y serions par trop empechés.
+         Les Rocellois se sont fâchés,
+         Mais la chose est bien entendue,
+         La crestienté est tout esmeue
+         Par le malheur des deux tyrans.
+         La pluspart de nos courtisans
+         Estyment vice pour vertu.
+         Par le sang bieu ! c’est bien fostu,
+         Puis que l’on gouverne la France !
+         Mais il est dit, par l’ordonnance
+         De la court des épicuriens,
+         Que l’on brusle tous Lutheriens
+         Qui ne font que trobler l’Eglize,
+         Car le Pape fait marchandise
+         De blé, de scel, aussi de bulles
+         Autant que de vielhes cedulles
+         Qui ne vallent pas ung ognon.
+         L’Apostat dit qu’en Avignon
+         Sera legat ou antipape.
+         Mais, si la mort tost ne le happe,
+         Ne luy fauldra que des cliquettes
+         Adieu amours, adieu fillettes,
+         Adieu vous di bande joyeuse.
+         Ascavoir mon sy Teste creuse
+         Fera tousjours le papelart.
+         Celluy qui a mangé le lart
+         S’est eschappé, sans faulte nulle.
+         La Royne Juno dissymulle,
+         Laschant la bride à Juppiter.
+         Mais ce seroit pour le gaster
+         De se metre à la quintessence,
+         Car l’archevesque de Valence
+         Paye ranson comme ung souldart
+         Et ne puys entendre que fard
+         N’aide beaucoup à belle face,
+         Par le plesir d’une putasse
+         L’ung enrichir, l’aultre gaster.
+         A tous les dyables le mestier !
+         L’ancre à jamais sera rouillée
+         Et demourra tousjours souillée
+         Au fons de la mer d’infamye.
+         Or ça, nostre parfaicte amye,
+         Son amy mort, que deviendra ?
+         Au fort, mettre la convyendra
+         A Heleu, ou au Ganyvet.
+         Il a beau vis ce Bonyvet,
+         Et est jeune homme et bien dispotz,
+         Si bien que tailles et impotz
+         Le peuple n’encheriront point.
+         Mais ce n’est là où gist le point : 
+         Elle met son esprit entier
+         Sur ung monsieur son heritier,
+         Qu’elle a eu pour [sa] sauvegarde.
+         « Fuyés, fuyés l’ariere garde »,
+         Ainsi que disoit Tribollet.
+         Pour faire regner ce follet,
+         Monsieur, gardez-vous du morceau.
+         J’ay des nouvelles un boisseau,
+         Mais je m’en tais espressement,
+         Car on cognoist evidemment
+         Maintenant qu’on nous contrerolle.
+         Adieu baudet, adieu ma polle.</body>
+  </text>
+</TEI>

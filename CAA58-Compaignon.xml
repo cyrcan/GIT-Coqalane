@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Coq a lasne</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encodage de niveau 2.</p>
+         <p><listPerson>
+               <person xml:id="Charles_IX" corresp="https://data.bnf.fr/12463140/charles_9/">
+                  <idno>0000 0001 2142 8995</idno>
+                  <persName xml:lang="fr"><forename type="first">Charles</forename><surname>
+                        IX</surname></persName>
+               </person>
+               <person xml:id="Meru" corresp="https://data.bnf.fr/ark:">
+                  <idno>0000 </idno>
+                  <persName xml:lang="fr"><forename type="first">Meru</forename><surname
+                     > </surname></persName>
+               </person>
+            </listPerson></p>
+      </encodingDesc>
+      <revisionDesc><change><date>06.12.2023</date>Transcription, sauts et débuts de balisage.</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>NAF 1870 (f°80-83)</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <fw type="pageNum" place="top-right">f°iiiiXX</fw>
+         <l><persName type="destinataire">Compaignon</persName> dy moy des nouvelles</l>
+         <l>Escoutte ung peu elles sont telles</l>
+         <l>Et fort estrange trouveras</l>
+         <l n="4">Qaunt en ce camp venu seras</l>
+         <l>Que tout trouveras de travers</l>
+         <l><reg>L'on</reg> menace desja <placeName><settlement type="city"
+               >Anvers</settlement></placeName></l>
+         <l><placeName><settlement type="city">Paris</settlement></placeName> aura donq belle
+            peur</l>
+         <l n="8">Pres <reg>à</reg>
+            <placeName><settlement type="city">Venise</settlement></placeName> Il y faict seur</l>
+         <l>Car icy sommes mal traictez</l>
+         <l>Nous serons trestous adjournez</l>
+         <l>Pour signer la paix qu'on veult faire</l>
+         <!-- En temps de guerre donc -->
+         <l n="12"><persName>Nicodemus</persName> nen faict que braire</l>
+         <l><persName>Dieu</persName> nous gard donc de sa furye</l>
+         <!-- Saut#1 -->
+         <l>Las que nous verrons grand folye</l>
+         <l>Et de cruelles trahisons</l>
+         <l n="16">Soubz coulleur de religions</l>
+         <l>Dont <reg>l'on</reg>
+            <reg>s'ayde</reg>
+            <expan>pour</expan> le jourdhuy</l>
+         <!-- Saut#2 -->
+         <l>Assavoir mon se <persName>Vignory</persName></l>
+         <l><expan>Congnoist</expan> bien les cornes <reg>qu'il</reg> porte</l>
+         <!-- Saut#3 -->
+         <l n="20"><reg>L'on</reg> dict <reg>qu'ilz</reg> sont <reg>à</reg>
+            <expan>nostre</expan> porte</l>
+         <l>Ses noirs diables d'enfer venuz</l>
+         <l>Bientost nous pourrons courir suz</l>
+         <l>S'ilz se joignent <reg>à</reg> ses fins anges</l>
+         <!-- Saut#4 -->
+         <l n="24">Ne trouvons nous pas fort estrange</l>
+         <l><reg>S'ilz</reg> deviennent <unclear>chassans</unclear> sy tost</l>
+         <l>Car mal voulloir est en <expan>nostre</expan> ost</l>
+         <note resp="editor" type="ling">Ost: armée.</note>
+         <l>Avecques symulation</l>
+         <l n="28">Dont s'ensuyvra ung million</l>
+         <l>De maulx pour avoir trop tardé</l>
+         <!-- Saut#5 -->
+         <l>Et dict on <expan>que</expan> messerre dardé</l>
+         <l>A engrossé sa chambriere</l>
+         <l n="32">Ceste grand cuysse heronniere</l>
+         <l>Cauze maintenant plus <expan>que</expan> quatre</l>
+         <l>Au cloque sonner et <reg>à</reg> chien battre</l>
+         <l>Il ne feit onq bien en sa vye</l>
+         <!-- Saut#6 -->
+         <l n="36">Il faict bon avoir malladye</l>
+         <l>En la saison de maintenant</l>
+         <l>Car pour bien dire en vray serment</l>
+         <l>Je crains mutation <reg>d'empire</reg></l>
+         <!-- Saut#7 -->
+         <l n="40">Tout veult retourner <reg>à</reg>
+            <reg>l'empire</reg></l>
+         <fw type="sig" place="bottom-right">V iiii</fw>
+         <pb n="80v"/>
+         <l>Par le conseil de <reg>l'estranger</reg></l>
+         <l>Qui ne faict que moyens chercher</l>
+         <l>Pour ruyner la pauvre Gaule</l>
+         <l n="44"><reg>L'on</reg> nous meyne bien <reg>à</reg> la gaulle</l>
+         <note type="ling" resp="editor">À la gaule: "semble signifier sans égards" (D Stefano, p.
+            281).</note>
+         <l>Par l'Itallienne semence</l>
+         <l>Elle a gasté toute la <placeName><settlement type="city"
+            >France</settlement></placeName></l>
+         <l>Tant plaine elle est de fixions</l>
+         <!-- Saut#8 -->
+         <l n="48">Tout beau je vous prys <rs type="défense" subtype="impératif">ne
+            bougeons</rs></l>
+         <l>Le <roleName ref="#Charles_IX">roy</roleName> joue souvent <reg>à</reg>
+            <rs type="jeux">la balle</rs></l>
+         <!-- Saut#9 -->
+         <l>Soubz petit pont et en la halle</l>
+         <l>Macquereaulx sont <reg>à</reg> bon marché</l>
+         <!-- Saut#10 -->
+         <l n="52">Tout <reg>aujourd'huy</reg> je <reg>l'ay</reg> cherché</l>
+         <l>Ce fascheux <persName>de la Maulvissiere</persName></l>
+         <l>Tous ces noms trouveras en yere</l>
+         <l>Sont souvent cause de courir</l>
+         <l n="56">Et bien fort leuz au revenir</l>
+         <l>Ny estant point exercitez</l>
+         <!-- Saut#11 -->
+         <l>Ho ho comme il joue aux <rs type="jeux">dez</rs></l>
+         <l>Par <persName type="saint">sainct Copin</persName> il aura l'ordre</l>
+         <l n="60">Ou bien maistre en ma garderobbe</l>
+         <l>Et appellé mon grand amy</l>
+         <!-- Saut#12 -->
+         <l><reg>L'on</reg> ne le faict pas <reg>à</reg> demy</l>
+         <l>Ce dict la vielle au frein doré</l>
+         <l n="64">Et qui petit gibet feust réparé</l>
+         <l>De ce gras larron <reg>à</reg> potence</l>
+         <!-- Saut#13 -->
+         <l>Ung jour nous ferons penitence</l>
+         <l>De ce que souffrons maintenant</l>
+         <l n="68">Aussy despouillez ung vivant</l>
+         <l><reg>À</reg> tort est ce pas tresmal faict</l>
+         <!-- Saut#14 -->
+         <l>Il a le doz tout contrefaict</l>
+         <l>Tesmoing le nez de courtalin</l>
+         <!-- Saut#15 -->
+         <l n="72">Je vouldrois <reg>qu'il</reg> ny eust <persName>Lorrain</persName></l>
+         <l>Qui <reg>n'eust</reg> ung chasteau dans le ventre</l>
+         <!-- Saut#16 -->
+         <l>Les <rs type="animal" subtype="canidé">chiens</rs> il nous fauldroit reprendre</l>
+         <l>Et tout plaisir <expan>comme</expan> devant</l>
+         <!-- Saut#17 -->
+         <l n="76">Par le redouble curedent</l>
+         <l>Par <reg>l'espee</reg> qui onq ne feit mal</l>
+         <l>Par la messe de <reg>L'Hospital</reg></l>
+         <l>Par le cauteleux chappeau rouge</l>
+         <fw type="sig" place="bottom-right">Par</fw>
+         <pb n="81r"/>
+         <fw type="pageNum" place="top-right">f°iiiiXXi</fw>
+         <l n="80">Par <reg>l'escarcelle</reg> et par le voulge</l>
+         <l>De celle qui bien se gouverne</l>
+         <l>Je crains que faulte de lanterne</l>
+         <l>Ne nous vienne quelque malheur</l>
+         <!-- Saut#18 -->
+         <l n="84">Sy avons nous le serviteur</l>
+         <l>Qui blesmist / Luy parlant de guerre</l>
+         <!-- Saut#19 -->
+         <l>Il ne nous fault pas trop enquerre</l>
+         <l>Que devient <reg>l'argent</reg> ce <reg>jourd'huy</reg></l>
+         <!-- Saut#20 -->
+         <l n="88">Il est bien retiré chez luy</l>
+         <l>Dont la <placeName><settlement type="country">France</settlement></placeName> luy est
+            tenue</l>
+         <!-- Saut#21 -->
+         <l>La vertu en est bien <expan>congneue</expan></l>
+         <l>Car qui scayt bien <rs type="animal" subtype="équidé">chevaulx</rs> picquer</l>
+         <l n="92">Soubdain on le faict chevalier</l>
+         <!-- Saut#22 -->
+         <l>Sy eust il une platissade</l>
+         <l>Et troys grands coups de bastonnade</l>
+         <l>De ce <roleName>prince</roleName> chassé de <placeName><settlement type="city"
+                  >Naples</settlement></placeName></l>
+         <!-- Saut#23 -->
+         <l n="96">Je ne le trouve pas cappable</l>
+         <l><reg>D'estre</reg> mareschal cest aveugle</l>
+         <l>C'est pityé de veoir <expan>comme</expan> il beugle</l>
+         <l>Pour empescher traicté de paix</l>
+         <l n="100">Certes il ne trouve maulvais</l>
+         <l>Que le <roleName>pape</roleName> n'ayt riens en <placeName><settlement type="country"
+                  >France</settlement></placeName></l>
+         <l>Ce mauldict il faict grand deffence</l>
+         <l>Estant mys <expan>comme</expan> le <expan>premier</expan></l>
+         <l n="104">Pour garder ce pourry pillier</l>
+         <l>Il est né de parens estrange</l>
+         <l>Pourquoy est ce <reg>qu'on</reg> ne le change</l>
+         <l>Certes je croy <expan>que</expan>
+            <persName>Lucifer</persName></l>
+         <l n="108">Seroit chassé de son enfer</l>
+         <l>Tant il brassseroit de menées</l>
+         <!-- Saut#24 -->
+         <l>Qui / ceste vielle haquenée</l>
+         <l><reg>C'est</reg> maintenant bien desguysée</l>
+         <l n="112">Soixante ans a quelle est fardée</l>
+         <l>Pour le faire mieulx <expan>que</expan> devant</l>
+         <!-- Saut#25 -->
+         <l>Et dict on <expan>que</expan>
+            <roleName>pape</roleName>
+            <persName>Clement</persName></l>
+         <l>Estoit parent proche à la <roleName>Royne</roleName></l>
+         <!-- Saut#26 -->
+         <l n="116">Pourquoy est ce que pendre on ne meyne</l>
+         <l>Ce gros villain larron gouteux</l>
+         <l><persName key="Jésus">Jhesus</persName>
+            <expan>que</expan> je le trouve heureux</l>
+         <fw type="sig" place="bottom-right">x i</fw>
+         <pb n="81v"/>
+         <l><reg>D'avoir</reg> des rentes trente mille</l>
+         <l n="120">Sans cela il <reg>n'y</reg> auroit fille</l>
+         <l>Qui luy presta mille faveur</l>
+         <!-- Saut#27 -->
+         <l>Sy <reg>n'y</reg> a il pas grand honneur</l>
+         <l>Au sainct lyen de mariage</l>
+         <l n="124">Je craindray bien fort le cocuaige</l>
+         <l><reg>S'il</reg> laisse sa femme <reg>à</reg> la <placeName>court</placeName></l>
+         <l>Ou <reg>s'il</reg> ne la tient bien de court</l>
+         <l>Tost <persName>Fessepinte</persName> en mesdira</l>
+         <l n="128">Je ne scay <reg>s'il</reg> en mentira</l>
+         <l>Aux gens je <reg>m'en</reg> rapporteray</l>
+         <l>Car de cela je me tairay</l>
+         <l>Je jure monsieur asseurément</l>
+         <l n="132">Et en fay ung bien grand serment</l>
+         <l>Que vous la pensez estre vierge</l>
+         <!-- Saut#28 -->
+         <l>Il faict bon veoir porter ung cierge</l>
+         <l><reg>À</reg> ce chauve <persName>Nicodémus</persName></l>
+         <l n="136">Foutez le au nombre des cornuz</l>
+         <l>Ce dict le bon <persName>Clément Marot</persName></l>
+         <l>Sy sy ostez moy ce gros sot</l>
+         <l>Hors de <expan>vostre</expan>
+            <expan>conseil</expan> cher sire</l>
+         <l n="140">Je vous promects <reg>qu'il</reg> ne scayt lire</l>
+         <l>Ny escripre pareillement</l>
+         <!-- Saut#29 -->
+         <l><reg>L'on</reg> a pour vray faict sottement</l>
+         <l><reg>D'avoir</reg> baillé le grand collier</l>
+         <l n="144"><reg>À</reg> ce <expan>commissere</expan> pallier</l>
+         <!-- Saut#30 -->
+         <l>L'église est bien administrée</l>
+         <l>Vertu elle est souvent preschée</l>
+         <l>Pour réduyre les <orgName>heretiques</orgName></l>
+         <!-- Saut#31 -->
+         <l n="148">Vous faictes fort les magniffiques</l>
+         <l><reg>D'avoir</reg> ce guilbedoyn caffart</l>
+         <note resp="editor" type="ling">Sur l'invective "Guilbedouin", voir Louise Turrel, "Un
+            sobriquet des guerres de Religion : les guilbedouins, déserteurs saintongeais de la
+            cause protestante." https://hal.science/hal-00444317.</note>
+         <l>Qui n'est que du lambeau bestard</l>
+         <note resp="editor" type="ling">Bestardise: bêtise, sottise (Huguet).</note>
+         <l>Et qui pour avoir une femme</l>
+         <l n="152"><reg>À</reg>
+            <persName key="Satan">Sathan</persName> livre corps <expan>et</expan> ame</l>
+         <l>Vous mesdites par trop <expan>comment</expan></l>
+         <l>Il fault le dire plainement</l>
+         <l>De qu'ilz ne soient mescongneuz</l>
+         <!-- Saut#32 -->
+         <l n="156">O que bon temps ont les coquz</l>
+         <l>Qui des princes sont grands amys</l>
+         <!-- Saut#33 -->
+         <l>Mon dieu <expan>qu'elle</expan> a ung beau soubris</l>
+         <fw type="sig" place="bottom-right">La dame</fw>
+         <pb n="82r"/>
+         <fw place="top-right" type="pageNum">f°iiiiXXii</fw>
+         <l>La dame d'honneur au nez court</l>
+         <l n="160">Elle a bien passé par la <placeName>court</placeName></l>
+         <l>De monsieur de la Hacherye</l>
+         <!-- Saut#34 -->
+         <l>Poinct ne sert <reg>l'art</reg> de chirurgye</l>
+         <l>Reserrer ce <reg>qu'on</reg> eslargit</l>
+         <!-- Saut#35 -->
+         <l n="164">Hola tout beau il est escript</l>
+         <l>Que l'on ne tiendra nul accord</l>
+         <!-- Saut#36 -->
+         <l>Laissons cela / Qui rit <expan>et</expan> mord</l>
+         <l>Qui est aux œuvres de <persName>Clément</persName></l>
+         <!-- Saut#37 -->
+         <l n="168"><persName>Lignerolles</persName> par mon serment</l>
+         <l>a la conference tant ferme</l>
+         <l>Que la paille tient aussi ferme</l>
+         <l>En grand chemyn <expan>pour</expan> une oraige</l>
+         <!-- Saut#38 -->
+         <l n="172">Je crains bien assez le cocuaige</l>
+         <l>Pource ne me veulx marier</l>
+         <!-- Saut#39 -->
+         <l>Aussy les dames du <placeName>moustier</placeName></l>
+         <l>Ont despucellé nostre <roleName>prince</roleName></l>
+         <!-- Saut#40 -->
+         <l n="176">Et <reg>n'y</reg> a deut que je ne grince</l>
+         <l>Quant je congnoy qui a donner</l>
+         <l>Et asseuré du grand collier</l>
+         <!-- Saut#41 -->
+         <l>Puis me resveillant <expan>quelques</expan> foys</l>
+         <l n="180">Je voy donner tant de loix</l>
+         <l>Que <reg>l'on</reg> réduict à nullité</l>
+         <!--  -->
+         <l>Tout bien / Le temps est vérité</l>
+         <l>Que les maquereaulx regneront</l>
+         <l n="184">Et <reg>qu'en</reg> grand honneur monteront</l>
+         <l>Ceulx qui scavent jouer leur jeu</l>
+         <!-- Saut#42 -->
+         <l>En gallere cryent au heu</l>
+         <l>Quant on lieve chose de poix</l>
+         <!-- Saut#43 -->
+         <l n="188"><reg>L'on</reg> faict des enffans <expan>quelques</expan> foys</l>
+         <l>Aux grands courts aussy bien <reg>qu'ailleurs</reg></l>
+         <l>Et sy ne scayt on de plusieurs</l>
+         <l>Cognoistre qui en sont les peres</l>
+         <!-- Saut#44 -->
+         <l n="192"><persName>D'Essé</persName> n'a pas la myne fiere</l>
+         <l>Des francs/ Montal / le scavent bien</l>
+         <note resp="editor" type="glose">La branche d'Essé est issue des Montalembert.</note>
+         <l>S'estimans <reg>qu'ilz</reg> sont fort bien</l>
+         <l>Des plus habilles <expan>que</expan>
+            <reg>l'on</reg> trouve</l>
+         <!-- Saut#45 -->
+         <l n="196">Le <roleName ref="#Charles_IX">Roy</roleName> aura quoy <reg>qu'on</reg>
+            destourne</l>
+         <fw type="sig" place="bottom-right">x/ii</fw>
+         <pb n="82v"/>
+         <l>Le jeune tendron aux beaulx yeulx</l>
+         <l>De son bien j'en suys envyeulx</l>
+         <l>Car elle est par trop gracieuse</l>
+         <!-- Saut#46 -->
+         <l n="200">Ceste mauldicte et malheureuse</l>
+         <l>Anne / Vous a ce mal causé</l>
+         <!-- Saut#47 -->
+         <l>Quel diable est ce qui a causé</l>
+         <l>Que <reg>j'avoys</reg> mesdict de mon maistre</l>
+         <!-- Saut#48 -->
+         <l n="204">Mal aysé <reg>n'est</reg> faire apparoistre</l>
+         <l>Aux gens que <persName>Monteval</persName>
+            <reg>n'est</reg> beau</l>
+         <l><persName>La Trimoulle</persName> pour ung lourdau</l>
+         <l>Nye bien pour estre pucelle</l>
+         <l n="208">La <persName>dame du Peron</persName> macquerelle</l>
+         <l>Ny <persName ref="#Meru">Meru</persName> pour estre bossu</l>
+         <!-- Saut#49 -->
+         <l><persName>D'Escars</persName> a esté corrompu</l>
+         <l>Par l'Espaignol remply de raige</l>
+         <l n="212">Mais quoy n'a non plus de couraige</l>
+         <l>Que la vierge esleu de Lansac</l>
+         <l>Il fouillera dans le bissac</l>
+         <l>Car il a les mains fort crochues</l>
+         <!-- Saut#50 -->
+         <l n="216">En ce temps cy viennent les <rs type="animal" subtype="oiseau">grues</rs></l>
+         <l>Pour signiffier les semailles</l>
+         <!-- Saut#51 -->
+         <!-- Indication de saison hivernale -->
+         <l>Jesus que je voy de canailles</l>
+         <l>Qui se font orres bien valloir</l>
+         <l n="220">Bien le peult on appercevoir</l>
+         <l>Par ce messaiger d'<placeName><settlement type="country"
+               >Angleterre</settlement></placeName></l>
+         <!-- Saut#52 -->
+         <l>L'on faict pour vray par tout la guerre</l>
+         <l>À ce mandian <placeName><settlement type="country">Portugal</settlement></placeName></l>
+         <!-- Saut#53 -->
+         <l n="224">Ce <reg>qu'il</reg> dict luy syet bien fort mal</l>
+         <l>Et ce <reg>qu'il</reg> faict encores plus</l>
+         <!-- Saut#54 -->
+         <l>Tous <orgName type="secte">huguenots</orgName> seront perduz</l>
+         <l>Dict on s'ilz ont belles maisons</l>
+         <l n="228"><reg>J'en</reg> scay qui sans comparaisons</l>
+         <l>Meriteroient mieulx le gibet</l>
+         <l>Cela me fault tenir secret</l>
+         <l>Car se sont des grands de ce regne</l>
+         <l n="232">Voilà pourquoy où force regne</l>
+         <l>La justice <reg>n'a</reg> poinct de lieu</l>
+         <!-- Saut#55 -->
+         <l>Il est nuict / Or donques a dieu</l>
+         <l>Vous aultres imparfaicts <expan>nommez</expan></l>
+         <fw type="sig" place="bottom-right">Et</fw>
+         <pb n="83r"/>
+         <fw type="pageNum" place="top-right">f° iiiiXXiii</fw>
+         <l n="236">Et par ces verts eternisez</l>
+         <l>Car ma plume est toute crevée</l>
+         <l>A dieu vous dy de bonne année</l>
+         <l>FIN</l>
+      </body>
+   </text>
+</TEI>

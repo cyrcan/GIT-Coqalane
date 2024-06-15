@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>L'asne au Coq</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p><listPerson>
+               <person xml:id="Charles_IX" corresp="https://data.bnf.fr/12463140/charles_9/">
+                  <idno>0000 0001 2142 8995</idno>
+                  <persName xml:lang="fr"><forename type="first">Charles</forename><surname>
+                        IX</surname></persName>
+               </person>
+               <person xml:id="Henri_III" corresp="https://data.bnf.fr/ark:/12148/cb12016877w">
+                  <idno>0000 0001 2319 7721</idno>
+                  <persName xml:lang="fr"><forename type="first">Henri</forename><surname> de
+                        Valois</surname></persName>
+               </person>
+               <person xml:id="Anne_de_Montmorency"
+                  corresp="https://data.bnf.fr/ark:/12148/cb121165804">
+                  <idno>0000 0001 2118 2438</idno>
+                  <persName xml:lang="fr"><forename type="first">Anne de</forename><surname>
+                        Montmorency</surname></persName>
+               </person>
+               <person xml:id="Antoine_de_Bourbon"
+                  corresp="https://data.bnf.fr/ark:/12148/cb144627211">
+                  <idno>0000 0001 0906 2484</idno>
+                  <persName xml:lang="fr"><forename type="first">Antoine de</forename><surname>
+                        Bourbon</surname></persName>
+               </person>
+               <person xml:id="François_II" corresp="https://data.bnf.fr/ark:/12148/cb12351125v">
+                  <idno>0000 0001 2142 8987</idno>
+                  <persName xml:lang="fr"><forename type="first">François de</forename><surname>
+                        Valois</surname></persName>
+               </person>
+               <person xml:id="Saint_André" corresp="https://data.bnf.fr/ark:/12148/cb10715817q">
+                  <idno>0000 0000 8070 0736</idno>
+                  <persName xml:lang="fr"><forename type="first">Jacques d'</forename><surname>Albon
+                        de Saint-André</surname></persName>
+               </person>
+               <person xml:id="Condé" corresp="https://data.bnf.fr/ark:/12148/cb12564181m">
+                  <idno>0000 0004 5875 3670</idno>
+                  <persName xml:lang="fr"><forename type="first">Louis Ier</forename><surname> de
+                        Bourbon</surname></persName>
+               </person>
+               <person xml:id="Porcien">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Antoine III de</forename><surname>
+                        Croÿ prince de Porcien</surname></persName>
+               </person>
+               <person xml:id="Charles_de_Bourbon_Montpensier">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Charles de</forename><surname>
+                        Bourbon-Montpensier, prince de la roche-sur-Yon</surname></persName>
+               </person>
+               <person xml:id="François_de_Guise"
+                  corresp="https://data.bnf.fr/ark:/12148/cb12459930r">
+                  <idno>0000 0000 8151 3262</idno>
+                  <persName xml:lang="fr"><forename type="first">François</forename><surname> de
+                        Guise</surname></persName>
+               </person>
+               <person xml:id="Elbeuf">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">René II</forename><surname> d'
+                        Elbeuf</surname></persName>
+               </person>
+               <person xml:id="Brissac">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Timoléon de</forename><surname> d'
+                        Cossé comte de Brissac</surname></persName>
+                  <!-- Mort le 28 avril 1569 -->
+               </person>
+            <person xml:id="Bourdillon" corresp="http://viaf.org/viaf/279862870">
+               <idno type="VIAF">279862870></idno>
+                  <persName xml:lang="fr"><forename type="first">Imbert</forename><surname> de la
+                        Plâtière</surname></persName>
+               </person>
+               <person xml:id="Cossé" corresp="https://data.bnf.fr/ark:/12148/cb13743706b">
+                  <idno>0000 0000 1296 1459</idno>
+                  <persName xml:lang="fr"><forename type="first">Charles</forename><surname> de
+                        Cossé</surname></persName>
+               </person>
+               <person xml:id="Nevers" corresp="https://data.bnf.fr/ark:/12148/cb100397733">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">François II</forename><surname> de
+                        Clèves</surname></persName>
+               </person>
+               <person xml:id="Cypierre">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">René</forename><surname> de
+                        Cypierre</surname></persName>
+               </person>
+               <person xml:id="Rhingrave">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Jean-Philippe</forename><surname>
+                        Rhingrave, comte de Salm</surname></persName>
+               </person>
+               <person xml:id="Andelot" corresp="https://data.bnf.fr/ark:/12148/cb17054049g">
+                  <idno type="ISNI">0000 0004 5964 4927</idno>
+                  <persName xml:lang="fr"><forename type="first">François</forename><surname> de
+                        Coligny d'Andelot</surname></persName>
+                  <birth>1521</birth>
+                  <death>1567</death>
+               </person>
+               <person xml:id="Vendôme">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">François</forename><surname> de
+                        Vendôme, vidâme de Chartres</surname></persName>
+               </person>
+               <person xml:id="Chastelier">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Honorat</forename><surname> Prévost
+                        du Chastelier-Portault</surname></persName>
+               </person>
+               <person xml:id="Charri">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first"/><surname>
+                     Charri</surname></persName>
+               </person>
+            </listPerson></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change><date>11-12-2023</date>Transcription de niveau 3.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France </repository>
+                  <idno>NAF 1870 (f°87v-</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <l>Amy il y a ja long temps</l>
+         <l>Que <reg>n'as</reg> eu aulcun passetemps</l>
+         <l>De ce dont <reg>t'ay</reg> souvent escript</l>
+         <l n="4"><reg>N'est</reg> il pas vray que <reg>l'<persName>Antecrist</persName></reg></l>
+         <l>A faict son voyaige <reg>à</reg> la <placeName><settlement type="country"
+                  >France</settlement></placeName></l>
+         <l>Vray dieu ! Ilz ont eu grand souffrance</l>
+         <l>Tandys <reg>qu'il</reg> y a chemyné</l>
+         <!-- Saut#1 -->
+         <l n="8">Ung chapperon examyné</l>
+         <l>Est tout tel <reg>q'une</reg> gibecyere</l>
+         <!-- Saut#2 -->
+         <l>Tourner le cul devant derriere</l>
+         <l>Est ung tour faict subtillement</l>
+         <l n="12">Car pour faire ung bon argument</l>
+         <l>Il ne fault point estre sophiste</l>
+         <l>Il <reg>n'est</reg> que <reg>d'estre</reg> bon papiste</l>
+         <l>Et de subtenir <reg>l'évangille</reg></l>
+         <!-- Saut#3 -->
+         <l n="16">Les jours <reg>qu'on</reg> dict estre vigille</l>
+         <l><reg>L'on</reg> contrainct <reg>à</reg> jeuner les gens</l>
+         <l>Que ferons ces pauvres sergents</l>
+         <l>Qui courent nuit et jour les rues</l>
+         <!-- Saut#4 -->
+         <l n="20">La chanson des coquecigrues</l>
+         <l>Est trop rudde pour ces pucelles</l>
+         <l>Soit laydes soict plaisantes ou belles</l>
+         <l>Car trop est vielle la leçon</l>
+         <l n="24">Il n'est que d'estre bon garçon</l>
+         <l>Et avoir toujours force argent</l>
+         <!-- Saut#5 -->
+         <l>La dame qui a le corps gent</l>
+         <l>Commence <reg>à</reg> se faire valloir</l>
+         <l n="28">Tant que maintz filz pour myeulx <reg>l'avoir</reg></l>
+         <l>Se declarent amoureux <reg>d'elle</reg></l>
+         <!-- Saut#6 -->
+         <l>Il ne fault plus estre rebelle</l>
+         <pb n="88r"/>
+         <fw type="pageNum" place="top-right">f° iiiiXXviii</fw>
+         <l><reg>À</reg>
+            <reg>l'opposite</reg> de la <placeName>cave</placeName></l>
+         <!-- Saut#7 -->
+         <l n="32">Aux femmes qui ont tant de bave</l>
+         <l>Son secret ne fault declairer</l>
+         <l><reg>C'est</reg> son esprit trop égarer</l>
+         <l><reg>À</reg> homme d'honneur et metable</l>
+         <note resp="editor" type="ling">Metable : apte (Huguet).</note>
+         <!-- Saut#8 -->
+         <l n="36">Elle a esté dedans <reg>l'<placeName>estable</placeName></reg></l>
+         <l>Fy la villaine qu'on <reg>l'escorche</reg></l>
+         <l>Mort bieu son cas prend sans amorche</l>
+         <l>Ce <reg>qu'on</reg> veoit peu <reg>d'une</reg> harquebouze</l>
+         <!-- Saut#9 -->
+         <l n="40">Mais <reg>s'on</reg> le trouve dans la blouze</l>
+         <l>Le pot au vin <reg>qu'on</reg> a caché</l>
+         <l>Dictz moy qui <reg>n'en</reg> seroit faché</l>
+         <l><reg>D'avoir</reg> faict si craintifve perte</l>
+         <l n="44">Quant on laisse la porte ouverte</l>
+         <l><reg>N'est</reg> il pas permys <reg>d'y</reg> entrer</l>
+         <!-- Saut#10 -->
+         <l>Si je le pouvoys rencontrer</l>
+         <l>Bien <reg>l'envoyeroys</reg> chier ailleurs</l>
+         <!-- Saut#11 -->
+         <l n="48">Est il vray que les oublieurs</l>
+         <l>Commencent tous <reg>d'une</reg> journée</l>
+         <!-- Saut#12 -->
+         <l>Quand la chandelle est consommée</l>
+         <l>Il <reg>n'est</reg> pas temps de <reg>l'allumer</reg></l>
+         <!-- Saut#13 -->
+         <l n="52">De boyre de <reg>l'eau</reg> de la mer</l>
+         <l>Elle vous gasteroit le ventre</l>
+         <l>Car si chose salee y entre</l>
+         <l>Elle cause beaucoup de rongne</l>
+         <!-- Saut#14 -->
+         <l n="56">Las amy dys moy quelle trongne</l>
+         <l>Tenoit la folle escervellée</l>
+         <l>Quant ceste carte elle a trouvée</l>
+         <l>De bon vin quasi toute plainne</l>
+         <!-- Saut#15 -->
+         <l n="60">Sa sanglante fiebvre quartaine</l>
+         <l>Qui luy serre les deux oreilles</l>
+         <!-- Saut#16 -->
+         <l>Elle a conté de grandz merveilles</l>
+         <pb n="88v"/>
+         <l><reg>L'escropionnee</reg>
+            <persName>Alizon</persName></l>
+         <note resp="editor" type="ling">Escropionnée : "Qui a le croupion décharné"
+            (Huguet).</note>
+         <!-- Saut#7 -->
+         <l n="64"><rs type="injonction" subtype="impératif">Baillez</rs> la clef de la maison</l>
+         <l><reg>À</reg>
+            <reg>l'amy</reg> affin que tost entre</l>
+         <l>Pour se faire frotter le ventre</l>
+         <l>La chose <reg>n'est</reg> pas trop honneste</l>
+         <!-- Saut#8 -->
+         <l n="68">Vous estes une finne beste</l>
+         <l>Disoit elle <reg>à</reg> ung compaignon</l>
+         <!-- Saut#9 -->
+         <l>Assavoir mon si ung oignon</l>
+         <l>Est trouvé bon pour faire saulces</l>
+         <!-- Saut#10 -->
+         <l n="72">Fault il pour essayer des chausses</l>
+         <l>Une heure ou deux y demeurer</l>
+         <!-- Saut#11 -->
+         <l>Corps bieu je me veux <expan>preparer</expan></l>
+         <l>Maintenant <reg>à</reg> servir les dames</l>
+         <l n="76"><reg>J'en</reg> ay apris les haultes games</l>
+         <l>Il y a ja troys ans passez</l>
+         <!-- Saut#12 -->
+         <l>La priere des trespassez</l>
+         <l>Ne sera jamays abolye</l>
+         <l n="80">Qu'on leur donne de la boulye</l>
+         <l><reg>À</reg> ces pauvres enfarinez</l>
+         <l>Ils seront tous examinez</l>
+         <l><reg>À</reg> la fin la chose en est seure</l>
+         <!-- Saut#13 -->
+         <l n="84">La pluspart a failly <reg>à</reg>
+            <placeName><unclear>Lyeure</unclear></placeName></l>
+         <l>Car les <orgName type="peuple">Allemanz</orgName> ont passez</l>
+         <l>Je croy qu'ilz en sont fort cassez</l>
+         <l><reg>À</reg>
+            <placeName><settlement type="city">La Charité</settlement></placeName> vrayement</l>
+         <l n="88">Car ilz n'eurent soulaigement</l>
+         <l>De nul des servyteurs du roy</l>
+         <l><choice>
+               <orig>Il</orig>
+               <reg>Ils</reg>
+            </choice> furent pris en desarroy</l>
+         <!-- Saut#14 -->
+         <l><reg>C'est</reg> pourquoy tous noz bons gendarmes</l>
+         <fw type="pageNum" place="top-right">f°iiiiXXix</fw>
+         <pb n="89r"/>
+         <l n="92">Soldatz gens de pied <expan>hommes</expan>
+            <reg>d'armes</reg></l>
+         <l>S'ennuyent tant <reg>à</reg> la campaigne</l>
+         <l>Sans riens faire car on <reg>s'espargne</reg></l>
+         <l>Pour rendre <expan>nostre</expan> camp bien maigre</l>
+         <l n="96">Ceulx de <placeName><settlement type="city" key="Poitiers"
+               >Poictiers</settlement></placeName> on mange maigre</l>
+         <l><reg>À</reg> faulte de friandz morceaulx</l>
+         <l>Mais noz gros villains <rs type="animal">pourceaulx</rs></l>
+         <l>Se sont retirez de leur siege</l>
+         <l n="100"><roleName ref="#Henri_III"><expan>Monsieur</expan></roleName> les vouloit
+            prendre au piege</l>
+         <l><reg>C'est</reg> ung <roleName ref="#Henri_III">prince</roleName> bien revestu</l>
+         <l>De grand honneur et grand vertu</l>
+         <l>Si on <reg>l'eust</reg> voulu laissé faire</l>
+         <l n="104">Il eust mys fin <reg>à</reg>
+            <expan>nostre</expan> affaire</l>
+         <!-- Saut#16 -->
+         <l>Mais je croy que en grand souffrance</l>
+         <l>On veult laisser languir la <placeName><settlement type="country"
+               >France</settlement></placeName></l>
+         <l>Ainsi que le monde en cauze</l>
+         <l n="108">Ou bien noz pechez en sont cause</l>
+         <l>Car pour une poignée de gens</l>
+         <l>Qui ne sont <expan>que</expan> trop dilligens</l>
+         <l>Montant au plus quelque vingt mille</l>
+         <l n="112">Ne nous laisse croix ni pille</l>
+         <l>Tant sont par les champs espenduz</l>
+         <l>Fendans villageoys esparduz</l>
+         <!-- Saut#17 -->
+         <l>Helas on a veu que <orgName type="peuple">Françoys</orgName></l>
+         <l n="116">Qui sont aux armes tant adroictz</l>
+         <l>Ont faict trembler cent mil hués</l>
+         <l>Emportant sur eulx les couronnées</l>
+         <l>De victoires et grandz faictz <reg>d'armes</reg></l>
+         <l n="120">Comme preuz et vaillans gens <reg>d'armes</reg></l>
+         <l>Rendans noz ennemys deffaictz</l>
+         <l>Tant leurs grandz cueurs estoient parfaictz</l>
+         <l>Mais maintenant que sommes en trouble</l>
+         <l n="124">Nous peschons tretous en eau trouble</l>
+         <l>Les riches voullant estre plus grandz</l>
+         <l>Les petis larrons gros brigandz</l>
+         <pb n="89v"/>
+         <l>Et soubz fainte religion</l>
+         <l n="128">On veoit tout <reg>une</reg> legion</l>
+         <l>De monde courir <reg>l'un</reg> sur <reg>l'aultre</reg></l>
+         <l><reg>L'un</reg> veult dire sa patenostre</l>
+         <l><reg>L'aultre</reg> veult aller veoir la presche</l>
+         <!-- Saut#18 -->
+         <l n="132"><reg>C'est</reg> tout ung il fault que <reg>l'on</reg> pesche</l>
+         <l>Dans la bource des gens de bien</l>
+         <l>Vrayement je <reg>n'y</reg> veois rien de bien</l>
+         <l>Mais tout <reg>s'en</reg> va de mal en pis</l>
+         <!-- Saut#19 -->
+         <l n="136">Chascun tiend bien ung tel devys</l>
+         <l><reg>C'est</reg> grand pitié <reg>c'est</reg> grande peine</l>
+         <!-- Saut#20 -->
+         <l>Gens de villaige leur allaine</l>
+         <l><reg>N'ont</reg> pas le loisir de reprendre</l>
+         <l n="140">Si peu <reg>qu'ilz</reg> ont on leur vient prendre</l>
+         <l>Et emporter <reg>à</reg> tous propos</l>
+         <l>Jamais ne seront en repos</l>
+         <l>Tant <reg>qu'ilz</reg> seront hors de ce monde</l>
+         <!-- Saut#21 -->
+         <l n="144">Las tant avons perdu de monde</l>
+         <l>Depuis les troubles <expan>commencez</expan></l>
+         <l>Les vaillantz gens y sont passez</l>
+         <l>De la <placeName><settlement type="city">France</settlement></placeName>
+            <reg>l'honneur</reg> et choix</l>
+         <l n="148">Ung roy <persName ref="#Antoine_de_Bourbon">Anthoine</persName> un roy <persName
+               ref="#François_II">Françoys</persName></l>
+         <l>Le prince <persName ref="#Porcien">Portian</persName> le prince de <persName
+               ref="#Condé">Condé</persName></l>
+         <l><persName>Le prince de Salerne</persName> qui ne <reg>l'a</reg> secondé</l>
+         <l><persName ref="#Charles_de_Bourbon_Montpensier">La Roche sur Yon</persName> noble prince
+            et son filz</l>
+         <note resp="editor" type="glose">Le prince du sang de la Roche-sur-Yon, Charles de
+            Bourbon-Montpensier meurt sans héritier mâle dans sa maison de Beaupréau le 10 octobre
+            1565.</note>
+         <l n="152"><persName ref="#Anne_de_Montmorency"><expan>Monsieur</expan> le
+               connestable</persName> et le <persName>Montbrun</persName> son filz</l>
+         <l>Aussi <expan>monsieur</expan> de <persName ref="#François_de_Guise">Guyse</persName> se
+            vaillant belicqueux</l>
+         <l><roleName><expan>Monsieur</expan> le grand prieur</roleName> et le marquis d'<persName
+               ref="#Elbeuf">Elbeuf</persName></l>
+         <l>Qui estoient vaillans hommes on l'a bien apperceu</l>
+         <l n="156">Et remarqué leurs cueurs ou je suys bien deceu</l>
+         <l>Mareschaulx <persName ref="#Saint_André">St André</persName>, <persName ref="#Cossé"
+               >Breissac</persName> et <persName ref="#Bourdillon">Bourdillon</persName></l>
+         <l>Et le conte <persName ref="#Brissac">Brissac</persName> genz dessus ung million</l>
+         <l>Bien emportans le pris de bataille et victoire</l>
+         <l n="160">Cela est bien certain <reg>j'en</reg> ay bonne memoire</l>
+         <l>Les bons ducz de <persName ref="#Nevers">Nevers</persName> le pere et ses <choice>
+               <orig>ii</orig>
+               <reg>deux</reg>
+            </choice> filz</l>
+         <l>Proches parentz du <roleName ref="#Charles_IX">roy</roleName> et de ses grandz amys</l>
+         <l>Le seigneur <persName ref="#Cypierre">Cypierre</persName> le comte <persName
+               ref="#Rhingrave">Renegrave</persName></l>
+         <l n="164">Bien portant le harnoys et <reg>d'une</reg> façon grave</l>
+         <l>Le <roleName ref="#Vendôme">vidasme de Chartres</roleName> et <persName ref="#Andelot"
+               >D'Andellot</persName> aussi</l>
+         <l><persName ref="#Chastelier">Le Chastellier Portault</persName> dont je suys en
+            soulcv</l>
+         <l>Car le pauvre <persName ref="#Charri">Charry</persName> n'en a esté vengé</l>
+         <note type="glose" resp="editor">le colonel des gardes à pied Charri a été assassiné par
+            Chastelier-Portault le 30 décembre 1565 sur le Pont Saint-Michel à Paris.</note>
+         <l n="168">Le cappitaine <persName>Loup</persName> ne fut point repesché</l>
+         <note resp="editor" type="glose">Personnage restant à identifier.</note>
+         <l>Et plusieurs grandz seigneurs que nomment nos desirs</l>
+         <l>Pour la douleur qu'on a et dont le cueur me soupire</l>
+         <l>Ilz ont laissé la France en douleur et en peine</l>
+         <l n="172">Et ilz sont en repos la chose en est certaine</l>
+         <l>Ne <rs type="defense" subtype="impératif">prendz</rs> garde à mes vers amy ilz sont trop
+            courtz</l>
+         <l>Car les aultres sont longs <expan>chascun</expan> s'en va son courtz</l>
+         <l>Il suffict seulement que tu les puisses entendre</l>
+         <l n="176">Et la fin de leur but <reg>où</reg> ils veullent <expan>pretendre</expan></l>
+      </body>
+   </text>
+</TEI>

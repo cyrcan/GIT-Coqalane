@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Epistre du Coq a L'asne A. G. D'AUrigny dict le Pamphile</title>
+            <author ref="https://data.bnf.fr/ark:/12148/cb122535018">Claude Colet de
+               Rumilly</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Transcription de la seule épître du coq-à-l'âne connue de Claude Colet parue dans la
+               seconde édition de L'Oraison de Mars aux Dames de la Court (1548).</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Texte imprimé et numérisé par la Bibliothèque nationale de France</p>
+            <p>https://data.bnf.fr/ark:/12148/cb122535018</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p><listPerson>
+               <person xml:id="Anne_de_Montmorency"
+                  corresp="https://data.bnf.fr/ark:/12148/cb121165804">
+                  <idno>0000 0001 2118 2438</idno>
+                  <persName xml:lang="fr"><forename type="first">Anne
+                        de</forename><surname>Montmorency</surname></persName>
+               </person>
+               <person xml:id="Diane_de_Poitiers"
+                  corresp="https://data.bnf.fr/ark:/12148/cb122465322">
+                  <idno type="ISNI">0000 0001 2320 4848</idno>
+                  <persName xml:lang="fr"><forename type="first">Anne
+                        de</forename><surname>Poitiers</surname></persName>
+               </person>
+               <person xml:id="Charles_Lorraine"
+                  corresp="https://data.bnf.fr/ark:/12148/cb133212787">
+                  <idno type="ISNI">0000 0001 2279 5260</idno>
+                  <persName xml:lang="fr"><forename type="first">Charles</forename><surname>Lorraine
+                        (de)</surname></persName>
+               </person>
+               <person xml:id="Charles-Quint" corresp="https://data.bnf.fr/ark:/12148/cb10411705z">
+                  <idno type="ISNI">0000 0001 2096 5852</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                        >Charles</forename><surname>Quint</surname></persName>
+               </person>
+               <person xml:id="Arétin" corresp="https://data.bnf.fr/ark:/12148/cb13197293p">
+                  <idno type="ISNI">0000 0001 2102 0148</idno>
+                  <persName xml:lang="fr"><forename type="first">Pierre
+                        </forename><surname>Arétin</surname></persName>
+               </person>
+               <person xml:id="François_Ier" corresp="https://data.bnf.fr/ark:/12148/cb120127827">
+                  <idno type="ISNI">0000 0001 2102 9337</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                        >François</forename><surname>Ier</surname></persName>
+               </person>
+               <person xml:id="Annebault" corresp="https://data.bnf.fr/ark:/12148/cb162967744">
+                  <idno type="ISNI">0000 0004 5019 6988</idno>
+                  <persName xml:lang="fr"><forename type="first">Anne
+                        d'</forename><surname>Annebault</surname></persName>
+               </person>
+               <person xml:id="Marguerite_de_F-Savoie"
+                  corresp="https://data.bnf.fr/ark:/12148/cb149126118">
+                  <idno type="ISNI">0000 0001 2247 1936</idno>
+                  <persName xml:lang="fr"><forename type="first">Marguerite</forename><surname>de
+                        France</surname></persName>
+               </person>
+               <person xml:id="G_Aurigny" corresp="https://data.bnf.fr/ark:/12148/cb12927013f">
+                  <idno>0000 0001 2141 4710</idno>
+                  <persName xml:lang="fr"><forename type="first">Gilles
+                        d'</forename><surname>Aurigny</surname></persName>
+               </person>
+            </listPerson></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change><date>09-11-2023</date>Encodage de niveau 4. <date>10-11-2023</date></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque de l'Arsenal</repository>
+                  <idno>8-BL-15492</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <div>
+            <l><persName type="destinataire">Pamphile</persName>, je ne sçay pour<lb break="no"
+               />quoy</l>
+            <l>Tu es si long temps a requoy</l>
+            <l>Sans me mander de tes nou<lb break="no"/>velles,</l>
+            <l n="4">Si t’en veulx je escripre de belles,</l>
+            <l>Puis que je suis hors des montaignes.</l>
+            <l>Or ça, messieurs des <placeName><settlement type="country" key="Allemagne"
+                     >Alemaignes</settlement></placeName></l>
+            <l>Sont maintenant bien refroidis:</l>
+            <l n="8">J’ay ouy dire <reg>à</reg> plus de dix</l>
+            <l>Qu’ilz ne sont pas touts <reg>à</reg> leur aise.</l>
+            <note resp="editor" type="crit">Allusion à la situation des Princes allemands inquiets
+               devant les avancées du catholicisme en particulier après la victoire de Mülhberg et
+               du renforcement du pouvoir de Charles-Quint après l'Interim d'Augsbourg du 30 mai
+               1548.</note>
+            <fw type="sig" place="bottom-right">Et</fw>
+            <pb n="111"/>
+            <fw type="pageNum" place="top-right">111</fw>
+            <l>Et puis la nation françoyse</l>
+            <l>Ne veult pas danser avec eulx:</l>
+            <l n="12">Si est ce qu’ilz ne sont pas seulz,</l>
+            <l>Ilz ont des freres un grand tas,</l>
+            <l>Desquelz on ne se doubte pas,</l>
+            <l>Voyla ce qui gaste la feste.</l>
+            <!-- Saut#1 -->
+            <l n="16"><hi>L</hi>es <orgName type="peuple">Anglois</orgName> ont bien faict la <lb
+                  break="no"/>reste</l>
+            <note resp="editor" type="ling">"Faire la reste a qqn": le malmener (Di Stefano, p.
+               518)</note>
+            <l>Aux <orgName type="peuple">Escossais</orgName>, comme <reg>l'on</reg> dict,</l>
+            <note>Allusion au Rough Wooing, guerre entre l'Angleterre et l'Écosse (1544-1551) pour
+               imposer le mariage du futur Édouard VI avec Marie Stuart.</note>
+            <l>Et si quelqu’un me contredict,</l>
+            <l>Je sçay qui m’en a faict le compte.</l>
+            <!-- Qui? -->
+            <!-- Saut#2 -->
+            <l n="20">Mais il fault que je te racompte</l>
+            <l>Des nouvelles de mon voyage:</l>
+            <l><persName ref="#Annebault">Neptune</persName> n’a plus de couraige</l>
+            <note resp="editor" type="crit">Sur la disgrâce de l'amiral Claude d'Annebault, cf. Fr.
+               Nawrocki et D. Potter.</note>
+            <!-- Note à compléter-->
+            <l>Puis que les ventz luy sont contraires.</l>
+            <!-- Saut#3 -->
+            <l n="24">On met bien ordre <reg>à</reg> noz affaires</l>
+            <l>Aultrement que le temps passé.</l>
+            <l>Dieu pardoyent au bon trespassé,</l>
+            <note resp="editor" type="crit">Le roi défunt François Ier.</note>
+            <!-- Datation : post 31 mars 1547 -->
+            <fw type="sig" place="bottom-right">Dieu</fw>
+            <pb n="112"/>
+            <fw type="pageNum" place="top-left">112</fw>
+            <l><persName>Dieu</persName> doyent bonne vie <reg>à</reg> son filz,</l>
+            <note resp="editor" type="crit">Henri II</note>
+            <l n="28">Noz haineurs seront desconfiz</l>
+            <l>Si nous voulons entendre <reg>à</reg> nous.</l>
+            <l>Compaignon garde toy des <rs type="animal">loups</rs>.</l>
+            <l>Qui marchent soubz peaulx de <rs type="animal"><reg>brebis</reg></rs>.</l>
+            <note resp="editor" type="crit">Lieu commun</note>
+            <l n="32">Escutz dyamans &amp; Rubis</l>
+            <l>Font faire beaucoup de bezongne.</l>
+            <l>A Dieu <placeName><settlement type="city">Calais</settlement></placeName> a Dieu
+                     <placeName><settlement type="city" key="Boulogne"
+                  >Bouloingne</settlement></placeName></l>
+            <l>Quand retournerez vous en <placeName><settlement type="country"
+                  >France</settlement></placeName> ?</l>
+            <l n="36">Ma foy je n’ay pas esperance</l>
+            <l>De vous y revoir de longtemps:</l>
+            <l>Toutesfoys <reg>à</reg> ce que j’entendz</l>
+            <l>Noz commissaires sont faschez,</l>
+            <l n="40">Mais quand seront ilz despechez,</l>
+            <l>N’en as tu point ouy parler?</l>
+            <l>Si je voulois tout reveler</l>
+            <l>Je diroys de bons petitz cas:</l>
+            <!-- Saut#4 -->
+            <l n="44">Laissons <reg>là</reg> touts ces altercas,</l>
+            <note resp="editor" type="ling">Altercas: Altercation, querelle, débat, lutte, rivalité.
+               (Huguet)</note>
+            <l>Noz Romipetes sont passez.</l>
+            <note type="ling" resp="editor">Ceux qui vont à Rome.</note>
+            <!-- Saut#5 -->
+            <l>Ce fut le soir des trespassez</l>
+            <fw type="sig" place="bottom-right">Amy</fw>
+            <pb n="113"/>
+            <fw type="pageNum" place="top-right">113</fw>
+            <l>Amy, que je fuz desrobé.</l>
+            <!-- Saut#6 -->
+            <l n="48">Comment se porte ton Abbé,</l>
+            <l>Faict il pas tousjours bonne chere?</l>
+            <!-- Saut#7 -->
+            <l><reg>Ô</reg> fortune cruelle &amp; fiere</l>
+            <l>Tu monstres bien ton inconstance,</l>
+            <l n="52">Maintenant ay je congnoissance</l>
+            <l>Qu’il ne se fault fier en toy.</l>
+            <!-- Saut#8 -->
+            <l>Et puis le bouclier de la foy</l>
+            <l>Confondra touts ces <rs type="animal" subtype="canidé">chiens mastins</rs>.</l>
+            <!-- Saut#9 -->
+            <l n="56">Ilz n’ont pas en touts les butins</l>
+            <l>Ces bons Capitaines cassez.</l>
+            <l>Tay toy nous en aurons assez</l>
+            <l>Puis que la paix est accordée:</l>
+            <l n="60">Si leur raison est bien fondee</l>
+            <l>Que ne vont ilz doncq disputer ?</l>
+            <l>Voyla qui les faict reputer</l>
+            <l>Touts telz qu’ilz sont, tu m’entends <expan>bien</expan>:</l>
+            <l n="64">Quant <reg>à</reg> moy je <reg>n'y</reg> pretendz rien,</l>
+            <l>Je laisse parler nostre maistre.</l>
+            <!-- Saut#10 -->
+            <l>Les bergers ne mainent pas paistre</l>
+            <fw place="bottom">H</fw>
+            <fw type="sig" place="bottom-right">Les</fw>
+            <pb n="114"/>
+            <fw type="pageNum" place="top-left">114</fw>
+            <l>Les bestes qui parlent latin.</l>
+            <l n="68">La donation Constantin</l>
+            <l>N’est pas de si grand prejudice.</l>
+            <l>Je sçay qu’il fault estre novice</l>
+            <l>Avant que profez, c’est raison.</l>
+            <note resp="editor" type="crit">cf. "Le Livre des Marchans d'Antoine Marcourt" :
+               "Malheur, sur vous hypocrites que avironnez la mer et la terre, pour faire un novice,
+               et quand il sera faict, il sera au double, pire que vous." (p. 172)</note>
+            <!-- Saut#11 -->
+            <note resp="editor" type="ling">"Profez": déclaré (Huguet).</note>
+            <l n="72">Et puis, tu as veu l’oraison</l>
+            <l>De Mars aux Dames de la Court,</l>
+            <note resp="editor" type="crit">Auto-référence.</note>
+            <l>Pour ce qu’en maintz lieux le bruit court</l>
+            <l>Qu’il en y a de fort dolentes:</l>
+            <l n="76">Quant a moy j’ay perdu les rentes</l>
+            <l>Que j’y avois au temps jadis</l>
+            <!-- Saut#12 -->
+            <l>Le Roy a faict de beaulx edictz</l>
+            <l>Touchant les legions françoyses:</l>
+            <l n="80">Noz gents d’armes seront bien ayses</l>
+            <l>Desormais en leurs garnisons.</l>
+            <!-- Saut#13 -->
+            <l>Ilz proposerent leurs raisons</l>
+            <l><reg>À</reg> la premiere cession:</l>
+            <note resp="editor" type="crit">Peut-être du Concile de Trente</note>
+            <l n="84">Là fera <reg>l'on</reg> correction</l>
+            <l>Des abuz &amp; des abusans.</l>
+            <!-- Saut#14 -->
+            <l>Si nous vivons encor dix ans,</l>
+            <fw type="sig" place="bottom-right">No</fw>
+            <pb n="115"/>
+            <fw type="pageNum" place="top-right">115</fw>
+            <l>Nous verrons de grandes merveilles.</l>
+            <note resp="editor" type="crit">Expression caractéristique du genre.</note>
+            <!-- Saut#15 -->
+            <l n="88">Il fault bien, amy, que tu veilles</l>
+            <l>Apres ces pauvres prisonniers.</l>
+            <!-- Saut#16 -->
+            <l>Mais que disent noz mariniers</l>
+            <l>La tempeste est elle cessée?</l>
+            <!-- Saut#17 -->
+            <l n="92">Ceste grosse beste chaussée</l>
+            <l>N’a plus le credit qu’elle avoit.</l>
+            <note resp="editor" type="crit">La duchesse d'Étampes?</note>
+            <l>Le bon Seigneur qui tout prevoit</l>
+            <l>Ne laisse point ses serviteurs.</l>
+            <!-- Saut#18 -->
+            <l n="96"><reg>Ô</reg> que je hay ces detracteurs,</l>
+            <l>Ilz m’ont faict beaucoup de dommaige:</l>
+            <l>Si est ce que j’ay bon couraige</l>
+            <l>Quelque chose qu’il me survienne.</l>
+            <l n="100">Je te prie qu’il te souvienne</l>
+            <l>De l’espée que m’as promise:</l>
+            <l>Tu scez qu’on use de main mise</l>
+            <l>Bien souvent ou le droit deffault.</l>
+            <l n="104">Ilz gaingnent tout par crier hault</l>
+            <l>Quand leur raison n’est suffisante.</l>
+            <note resp="editor" type="crit">Un exemple où le poète règle ses comptes avec ses
+               ennemis comme le souligne l'abbé Goujet dans la Bibliothèque françoise dans la notice
+               qu'il lui consacre.</note>
+            <!-- Saut#19 -->
+            <l>L’apocalypse est fort plaisante,</l>
+            <fw place="bottom">H ij</fw>
+            <fw type="sig" place="bottom-right">J'entend</fw>
+            <pb n="116"/>
+            <fw type="pageNum" place="top-left">116</fw>
+            <l>J’entend celle <reg>là</reg> de Pasquil:</l>
+            <note resp="editor" type="crit">En référence à l'Apocalypse de Pasquil</note>
+            <l n="108">Il est discret, sage &amp; subtil,</l>
+            <l>Aussi est il maistre passé.</l>
+            <!-- Saut#20 -->
+            <l>Je regrette le pot cassé</l>
+            <note resp="editor" type="crit">L'enseigne de Geoffroy Tory?</note>
+            <l>Qui a bien servy en maintz lieux.</l>
+            <!-- Saut#21 -->
+            <l n="112">Fortune a bien joué ses jeux</l>
+            <l>Entre messieurs les courtisans:</l>
+            <l>Aulcuns les trouvent fort plaisans</l>
+            <l>Aultres les trouvent sans raison,</l>
+            <l n="116">Car telz sont ores en prison</l>
+            <note resp="editor" type="crit">Le roue de Fortune a tourné pour ceux du parti de la
+               duchesse d'Étampes en faveur jusqu'à la mort de François Ier.</note>
+            <l>Qui avoyent la faveur es mains.</l>
+            <note resp="editor" type="crit">La révolution du Palais engagée par Henri II.</note>
+            <!-- Saut#22 -->
+            <l>Et puis que disent noz <orgName type="peuple">Romains</orgName> ?</l>
+            <l>Comment se porte le <persName>Sainct Pere</persName> ?</l>
+            <l n="120">Il fault parler <reg>à</reg> mon compere,</l>
+            <l>Pour ce qu’il entend les affaires.</l>
+            <!-- Saut#23 -->
+            <l><hi>A</hi>mour &amp; mort sont bien contraires</l>
+            <l>Nous en voyons l’experience.</l>
+            <!-- Saut#24 -->
+            <l n="124">Je suis au bout de ma science</l>
+            <l>Quand je considere &amp; advise</l>
+            <l>L’estat de plusieurs gens d’eglise</l>
+            <fw type="sig" place="bottom-right">Qui</fw>
+            <pb n="117"/>
+            <fw type="pageNum" place="top-right">117</fw>
+            <l>Qui vont mendians d’huys en huys.</l>
+            <!-- Saut#25 -->
+            <l n="128">Celle <reg>là</reg> qui trompe les nuictz</l>
+            <l>Si longtemps, est fort vertueuse.</l>
+            <note resp="editor" type="crit"><persName ref="#Marguerite_de_F-Savoie">Marguerite de
+                  France</persName>: "J'ay veu une estoille excellante / Entre les aultres
+               tryumphantes / Mais son cueur est chargé d'ennuys / De tromper tant de longues
+               nuictz" (Apocalypse de Pasquille, v. 25-28, 1548, in. ms 199).</note>
+            <l>La prime sera bien heureuse</l>
+            <l>S’elle espouse ce brave <persName>Mars</persName>,</l>
+            <note resp="editor" type="glose"/>
+            <!-- Saut#26 -->
+            <l n="132">L’<persName>antechrist</persName> est un mauvais gars,</l>
+            <l>Il nous le fault aller combatre.</l>
+            <!-- Saut#27 -->
+            <l>C’est faict il n’en fault plus debatre</l>
+            <l>Tu n’auras plus qu’un venefice,</l>
+            <l n="136">Je voulois dire benefice,</l>
+            <l>Pardonne moy si j’ay failly.</l>
+            <!-- Saut#28 -->
+            <l>Quand <placeName><settlement type="city" key="Saint-Dizier">Sainct
+                     Dizier</settlement></placeName> fut assailly,</l>
+            <l>Tout le monde ne rioyt pas.</l>
+            <!-- Saut#29 -->
+            <l n="140">Il nous fault parler d’aultre cas</l>
+            <l>Si nous voulons avoir franchise.</l>
+            <l>On le tua dedans l’église</l>
+            <l>Ce pauvre amoureux insensé.</l>
+            <l n="144">Il fut tresmal recompensé,</l>
+            <l>Quelque chose qu’on die ou face.</l>
+            <!-- Saut#30 -->
+            <l>Ma maistresse a fort bonne grace,</l>
+            <fw place="bottom">H iij</fw>
+            <fw type="sig" place="bottom-right">Mais</fw>
+            <pb n="118"/>
+            <fw type="pageNum" place="top-left">118</fw>
+            <l>Mais de beauté elle n’a pas,</l>
+            <l n="148">Au moins pour en faire grand cas.</l>
+            <l>C’est la chanson qu’on dict souvent,</l>
+            <!-- Saut#31 -->
+            <l>J’ayme le cloistre &amp; le convent,</l>
+            <l>J’ayme encores plus la cuysine:</l>
+            <l n="152">Le moyne tenoit bonne mine</l>
+            <l>Quand il me disoit ces parolles.</l>
+            <!-- Saut#32 -->
+            <l>Ne parlons plus en parabolles,</l>
+            <l>Parlons un peu plus clairement.</l>
+            <!-- Saut#33 -->
+            <l n="156">L’on dict par tout communement,</l>
+            <l>Qu’un homme ne pourra plus estre</l>
+            <l>Desormais diacre ne prestre</l>
+            <l>S’il n’a trente cinq ou trente ans.</l>
+            <l n="160">Si le <persName>pape</persName> &amp; <orgName>les protestants</orgName></l>
+            <l>En sont d’advis, j’en suis d’accord.</l>
+            <l>Je ne veulx guerre ne discord,</l>
+            <l>La paix est beaucoup mieulx duysante.</l>
+            <l n="164">Et puis du Concile de Trante,</l>
+            <l>N’en sçaurons nous jamais l’issue?</l>
+            <!-- Saut#34 -->
+            <l>Si je manioys la massüe</l>
+            <fw type="sig" place="bottom-right">Du</fw>
+            <l>Du grand <persName>Hercules</persName> furieux,</l>
+            <l n="168">Touts moïnes &amp; religieux</l>
+            <l>Seroyent vestuz de mesme sorte.</l>
+            <!-- Saut#35 -->
+            <l>Toutesfoys avant que je sorte</l>
+            <l>Du propos <reg>où</reg> je me suis mis,</l>
+            <l n="172">Je veulx advertir mes amis</l>
+            <l>De parler tousjours sobrement.</l>
+            <l><rs type="injonction">Laisse</rs> la glose &amp; le comment</l>
+            <l>Puis que tu entendz bien le texte:</l>
+            <!-- Saut#36 -->
+            <l n="176">Quant <reg>à</reg> moy, ma foy je proteste</l>
+            <l>De m’en aller le grand chemin.</l>
+            <note resp="editor" type="crit">Peut-être un souvenir du "grand chemin" qui mène à la
+               Cour royale dans "Discours de la Court" de Claude Chappuys.</note>
+            <!--<note resp="editor" type="ling">S'en aller le grand chemin : prendre la grand-route (Di
+            Stefano).</note> A corriger à l'aide du paragraphe sur le chemin de la Court dans le DC.-->
+            <l>Icy, <persName type="destinataire">Pamphile</persName>, feray fin,</l>
+            <l>Car il m’est advis que ma plume</l>
+            <l n="180">Est plus pesante qu’une enclume:</l>
+            <l>Puis j’espere, de bref, te dire</l>
+            <l>Ce, que je ne te veulx rescripre.</l>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="CAA34_Bout_prendre">Epistre du coq a l'asne</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change><date>2023</date>Encodage de niveau 3.</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Soissons</settlement>
+                  <repository>Bibliothèque Municipale</repository>
+                  <idno>ms.201(189A)</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <l>Je ne scay par quel bout me prendre</l><note resp="editor" type="crit">cf. CAA28 "La truye qui fille" : 'Je ne scay plus que je doys faire' (v. 4)</note>
+         <l>Compaignon pour te faire entendre</l>
+         <l>Des nouvelles du temps qui court</l>
+         <note resp="editor" type="crit">Expression récurrente dans trois des coq-à-l'âne de Jamet
+            et dans le 'Jeuneux aux ivrognes'</note>
+         <!-- Saut#1 -->
+         <l n="4">Parce <reg>qu'au jourdhuy</reg> le plus lourd</l>
+         <l>Se contrefaict le plus habille</l>
+         <!-- Saut#2 -->
+         <l>Et puis une guerre civille</l>
+         <l>Ne <reg>s'appaise</reg> que <expan>par</expan> deniers</l>
+         <!-- Saut#3 -->
+         <l n="8">Le diable y ayt part aux saulniers</l>
+         <l>Tant ilz ont faict mauvays <expan>partaige</expan></l>
+         <!-- Saut#4 -->
+         <l>Si tu <reg>n'entendz</reg> le tripotaige</l>
+         <note resp="editor" type="ling">Tripotter : jouer à la paume. (Huguet)</note>
+         <l>Garde le bec pour la bricolle</l>
+         <note>Garder le bec : parler avec prudence. (Di Stefano) Quant à la 'bricolle' c'est, dans
+            le cadre du même jeu, un coup indirect, dans lequel la balle rebondit sur le mur.
+            (Huguet)</note>
+         <!-- Saut#5 -->
+         <l n="12">La court est une belle escole</l>
+         <l>Les plus scavans y gaingnent <reg>l'huys</reg></l>
+         <l>Tout le monde joue <reg>à</reg> j'en suys</l>
+         <l>On ne peult faire une <expan>partie</expan></l>
+         <!-- Saut#6 -->
+         <l n="16">Elle est <reg>à</reg> peu pres subvertye</l>
+         <cb n="2"/>
+         <l>La foy <reg>qu'on</reg> preschoit si souvent</l>
+         <l>Raison il court ung mauvays vent</l>
+         <l>Pour les plus haultes gyrouettes</l>
+         <!-- Saut#7 -->
+         <l n="20"><reg>N'apporte</reg> plus de <rs type="jeu" subtype="toupies">pirouettes</rs></l>
+         <l>Le <rs type="jeu">billard</rs> est le jeu des filles</l>
+         <l>Et les plus grandz jouent aux <rs type="jeu">quilles</rs></l>
+         <l><reg>C'est</reg> ung beau jeu que le <rs type="jeu">rappeau</rs></l>
+         <note resp="editor" type="ling">Sorte de jeu de quilles, l'un des jeux de Gargantua. Mais
+            le terme désigne également le rappel d'un exilé, d'un banni.(Huguet)</note>
+         <!-- Saut#8 -->
+         <l n="24">Ravy eussions ung beau chappeau</l>
+         <l>Et <reg>payé</reg>
+            <reg>à</reg>
+            <persName key="Pape"><expan>monsieur</expan> du pape</persName></l>
+         <!-- Saut#9 -->
+         <l>Mays le faiseur de chausses trappes</l>
+         <l>Est le premier <reg>tombé</reg> dedans</l>
+         <!-- Saut#9 -->
+         <l n="28">Jamays ne seront accordans</l>
+         <l>Les <orgName type="peuple">Allemans</orgName> et le <persName><expan>sainct</expan>
+               pere</persName></l>
+         <l>Car il ne fault <reg>qu'une</reg> collere</l>
+         <l>Pour estonner les plus huppez</l>
+         <!-- Saut#10 -->
+         <l n="32">Si sommes nous bien eschappez</l>
+         <pb n="33v"/>
+         <l>Que <reg>n'est</reg> ce perilleuse <placeName><settlement type="region"
+                  >Beaulse</settlement></placeName></l>
+         <!--Elément possible de datation-->
+         <!-- Saut#11 -->
+         <l>Nous <reg>n'eusmes</reg> pas faulte de saulce</l>
+         <l>Tant y eut de verines et pouldre</l>
+         <!-- Saut#12 -->
+         <l n="36">Nous <reg>n'avons</reg>
+            <reg>à</reg> faire que couldre</l>
+         <l>On nous laisse assez de besongne</l>
+         <!-- Saut#13 -->
+         <l>Le maranne <reg>n'est</reg> pas yvrongne</l>
+         <l>Il ne joue qu'<reg>à</reg>
+            <reg>l'esbahy</reg></l>
+         <!-- Saut#14 -->
+         <l n="40">Pense s'on ne nous eust trahy</l>
+         <l>Que eussions faict de belles prises</l>
+         <!-- Saut#15 -->
+         <l>Ne soyons plus frians de frizes</l>
+         <l>Tenons nous au drap de <placeName><settlement type="city"
+            >Paris</settlement></placeName></l>
+         <!-- Saut#16 -->
+         <l n="44">Toutesfoys que les bons mariz</l>
+         <l>Ronflent souvent les yeulx ouvers</l>
+         <!-- Saut#17 -->
+         <l>Tout fut nostre jusques <placeName><settlement type="city"
+               >Anvers</settlement></placeName></l>
+         <l>Tesmoing le nouveau <reg>maryé</reg></l>
+         <l n="48">Mays le basteau a <reg>varyé</reg></l>
+         <l>Il a le ventre tout remply</l>
+         <!-- Saut#18 -->
+         <l>Or est le voyage accomply</l>
+         <l>Des grands isles de <placeName><settlement type="country" key="Canada"
+                  >Canamda</settlement></placeName></l>
+         <!-- Dès 1537 -->
+         <l n="52">Si est ce qu'on en aborda</l>
+         <l>Qui <reg>s'en</reg> fussent tresbien passez</l>
+         <!-- Saut#19 -->
+         <l>Laissons crier verres cassez</l>
+         <l>Ceulx qui sont <reg>à</reg>
+            <placeName><reg>l'asne</reg> rayé</placeName><note type="crit" resp="editor">Nom d'une
+               auberge située près des Halles qui a donné pour un temps son nom à une
+            ruelle.</note></l>
+         <!-- Saut#20 -->
+         <l n="56">Le bastier eust esté <reg>payé</reg></l>
+         <l><reg>S'il</reg> eust ourdy toille pour batz</l>
+         <!-- Saut#21 -->
+         <l>Car il <reg>n'y</reg> a si gros desbatz</l>
+         <l><reg>Qu'un</reg> petit œil <reg>fardé</reg>
+            <reg>n'appaise</reg></l>
+         <!-- Saut#22 -->
+         <l n="60">Ha compaignon ne vous desplaise</l>
+         <l>Le blanc est trop bas <reg>à</reg> la butte</l>
+         <!-- Saut#23 -->
+         <l>Retirez votre hacquebutte</l>
+         <l>Les faulconneaulx sont viz <reg>à</reg> viz</l>
+         <!-- Saut#24 -->
+         <l n="64">Tout le monde joue aux amiz</l>
+         <l>Aux <rs type="jeu">flux</rs> il <reg>n'y</reg> a plus de passe</l>
+         <!-- Saut#25 -->
+         <l>Toutesfoys que chascun se lasse</l>
+         <l>D'une dixiesme qui tant dure</l>
+         <!-- Saut#26 -->
+         <l n="68">Si ce n'eust esté la froydure</l>
+         <l><reg>J'eusse</reg> encore faict mes saultz en rue</l>
+         <!-- Saut#27 -->
+         <l>Le <rs type="animal" subtype="l">boeuf</rs> qui tiroit la charrue</l>
+         <l>Se tient long temps en son estable</l>
+         <l n="72">Il a eu interest notable</l>
+         <l><reg>D'enharnacher</reg> ung <rs type="animal" subtype="équidé">asne</rs> rouge</l>
+         <note>Quel prélat est visé ici?</note>
+         <!-- Saut#28 -->
+         <l>Tout beau tout beau qu'<expan>homme</expan> ne bouge</l>
+         <note resp="editor" type="crit">Cf. le vers 178 de la Grue dans ce même manuscrit
+            201 : 'Tout beau tout beau allons le pas'.</note>
+         <l>Voyon revenir mon varlet</l>
+         <!-- Saut#29 -->
+         <l n="76">Ung grant turc le print au collet</l>
+         <l>Et l'a guery du <rs type="maladie">mal d'<placeName><settlement type="country"
+                     key="Espagne">Espaigne</settlement></placeName></rs></l>
+         <!-- Saut#30 -->
+         <l>Si ne vois je pas en <placeName><settlement type="region" key="Bretagne"
+                  >Bretaine</settlement></placeName></l>
+         <l>Le beurre y est ung peu <reg>sallé</reg></l>
+         <!-- Saut#31 -->
+         <l n="80">Le pauvre diable est affollé</l>
+         <l><expan>Nostre</expan> grant cousin nous vient voir</l>
+         <!-- Saut#32 -->
+         <l>On dict <reg>qu'ilz</reg> ont faict leur debvoir</l>
+         <l>Les beuveurs de laictz et godalles</l>
+         <l n="84">Si leurs forces estoient esgalles</l>
+         <l>Chacun d'eux auroit du meilleur</l>
+         <!-- Saut#33 -->
+         <l>Mays il y a bien eu de <reg>l'heur</reg></l>
+         <l><reg>D'avoir</reg> tant de gens mis <expan>par</expan> terre</l>
+         <l n="88">Or fault il <expan>commancer</expan> la guerre</l>
+         <l> De peur qu'autre ne la commance</l>
+         <!-- Saut#34 -->
+         <l>Ο que <reg>c'est</reg> une doulce lance</l>
+         <l>Que <persName key="Andrea Doria">ce grand disneur de la mer</persName></l>
+         <!-- Identification à confirmer-->
+         <!-- Saut#35 -->
+         <l n="92">Mays il ne se fault plus qu'armer</l>
+         <l><reg>D'un</reg> escusson <reg>d'entre</reg> deux cuisses</l>
+         <!-- Saut#36 -->
+         <l>Françoys sont devenuz souysses</l>
+         <l>Ilz sont tous <reg>à</reg> qui plus leur donne</l>
+         <!-- saut#37 -->
+         <l n="96">Ne <expan>parlons</expan> point de la couronne</l>
+         <l>Il y a trop beau jeu ailleurs</l>
+         <!-- Saut#38 -->
+         <l>Noz peres ont esté meilleurs</l>
+         <l>Que nous, que seront noz enffans</l>
+         <!--Saut#39-->
+         <l n="100">Laissons tous habitz triumphans</l>
+         <l>Puisque chacun porte des masques</l>
+         <!-- Saut#40 -->
+         <l>Ils sont friz tous ces pouvres Basques</l>
+         <l>Si <reg>l'hyver</reg> et <reg>l'esté</reg> se semblent</l>
+         <!-- Saut#41 -->
+         <l n="104">Tous les marchans <reg>s'entreressemblent</reg></l>
+         <l>Comme larrons <expan>parmy</expan> les foyres</l>
+         <!-- Saut#42 -->
+         <l>Car on dresse de beaulx memoyres</l>
+         <l>Quant on se veoit la corde au col</l>
+         <!-- Saut#43 -->
+         <l n="108">Parquoy feust besoing que <persName type="biblique" subtype="apôtre"
+               key="Saint Paul">sainct Pol</persName></l>
+         <l>Ne nous eust poinct escript <reg>d'espistres</reg></l>
+         <!-- Saut#44 -->
+         <l>Et les plus grandz seroient belistres</l>
+         <l>Qui croiroit ces <orgName>evangelicques</orgName></l>
+         <!-- Saut#45 -->
+         <l n="112">Veulx tu de plus belles relicques</l>
+         <l>Que les croix, tout le monde y court</l>
+         <note resp="editor" type="crit">Calvin publie à Genève en 1543 son 'Traité des reliques, ou
+            avertissement très utile du grand profit qui reviendroit à la chrestienté s'il se
+            faisoit inventaire de tous les corps saints et reliques qui sont tant en Italie qu'en
+            France, Allemagne, Espagne et autres royaumes et pays'.</note>
+         <!-- Saut#46 -->
+         <l>La poultronnerye de court</l>
+         <l>Aprend a devyser par mymes</l>
+         <!-- Saut#47 -->
+         <l n="116">Mays <reg>à</reg> propos des guyllemymes</l>
+         <l>Qui a faict si chere la cyre</l>
+         <!-- Saut#47 -->
+         <l>Pardonne moy je le voys dire</l>
+         <l>Mays que les <orgName type="peuple">Normans</orgName> soient chastrez</l>
+         <l n="120">Et les lacquaiz bien acoustrez</l>
+         <l>Du <persName>capitaine de la Tour</persName></l>
+         <!-- Saut#48 -->
+         <l>Il <reg>n'est</reg> que grant gueulle de four</l>
+         <l>Elle <unclear>renoit</unclear> toute la paste</l>
+         <!-- Saut#49 -->
+         <l n="124">Et <reg>n'est</reg> ja besoing qu'on se haste</l>
+         <l>Encores <reg>n'est</reg> fermé le sceau</l>
+         <!-- Saut#50 -->
+         <l>Le frere au jardinier nouveau</l>
+         <l>Estoit <expan>homme</expan> fort liberal</l>
+         <!-- Saut#51 -->
+         <l n="128">Chacun ne <reg>s'en</reg> trouve pas mal</l>
+         <l> Mays il en est de bien bernez</l>
+         <!-- Saut#52 -->
+         <l>Admenez les moy admenez</l>
+         <l>Ces faulx saulniers leur cas est faict</l>
+         <!-- Saut#53 -->
+         <l n="132">Ha <persName>Semblançay</persName>
+            <reg>n'est</reg> pas deffaict</l>
+         <l>Il vit le <roleName key="François Ier">roy</roleName> luy a faict grace</l>
+         <!-- Saut#54 -->
+         <l>Doit on mectre ung autre en ma place</l>
+         <l>Avant que <reg>j'en</reg> soys sorty</l>
+         <!-- Saut#55 -->
+         <l n="136">Courez sergens il est <expan>party</expan></l>
+         <l>Le prevost on dict <reg>qu'il</reg>
+            <reg>s'en</reg> va</l>
+         <!-- Saut#56 -->
+         <l>Il receut plus qu'on <reg>n'en</reg> trouva</l>
+         <l>Le bon <persName>Poncher</persName> se faict bien d'aultres</l>
+         <!-- Saut#57 -->
+         <l n="140">Las ces diseurs de patenostres</l>
+         <l>Desrobent bien en priant <persName>Dieu</persName></l>
+         <!-- Saut#58 -->
+         <l>Adieu les notaires adieu</l>
+         <cb n="2"/>
+         <l><reg>L'on</reg> crée des tabellions</l>
+         <!-- Saut#59 -->
+         <l n="144">Ce seront quelques millions</l>
+         <l>Pour estrener les damoyselles</l>
+         <!-- Saut#60 -->
+         <l>Les haultz touretz de ces pucelles</l>
+         <l>Sont de mignonne invention</l>
+         <!-- Saut#61 -->
+         <l n="148">Mays la pronoustication</l>
+         <l>Dict <reg>qu'il</reg> sera grand abondance</l>
+         <l>De gens tous nudz en une dance</l>
+         <l>La chemyse au neudf sur <reg>l'espaulle</reg></l>
+         <!-- Saut#62 -->
+         <l n="152"><persName>Dieu</persName>
+            <expan>pardoint</expan> au seigneur <persName>Jehan Paulle</persName></l>
+         <note>Déjà mentionné dans la 'Responce du coq au chappon'.</note>
+         <l>La verolle <reg>l'a</reg>
+            <reg>despesché</reg></l>
+         <!-- Saut#63 -->
+         <l>Et puys dictes que <reg>c'est</reg>
+            <reg>pesché</reg></l>
+         <l>Que l'usure <reg>l'esglise</reg> en use</l>
+         <!-- Saut#64 -->
+         <l n="156">Gardons nous <reg>qu'il</reg> ne nous abuse</l>
+         <l>Il vivra soubz umbres de treves</l>
+         <!-- Saut#65 -->
+         <l>Les playdoyries seront breves</l>
+         <l>Si <persName>le grant canoniste</persName> vit</l>
+         <l n="160">Tesmoing celluy qui luy ravyt</l>
+         <l>Le fryant morceau de la bouche</l>
+         <!-- Saut#66 -->
+         <l><reg>J'aymeroys</reg> autant une souche</l>
+         <l>En ung siege qui se coiffe</l>
+         <!-- Saut#67 -->
+         <l n="164'">On ne fut oncq si eschauffe</l>
+         <l>Qu'auprès ceste meschante <rs type="animal">grue</rs></l>
+         <!-- Saut#68 -->
+         <l>Mais ce gros bouvyer tousjours rue</l>
+         <l>Il faict du cheval eschappé</l>
+         <!-- Saut#69 -->
+         <l n="168">Jamays tu ne seras trompé</l>
+         <l>Si tu te fies en ton seul</l>
+         <!-- Saut#70 -->
+         <l><reg>J’en</reg> ay cuydé mourir de dueil</l>
+         <l>Toutesfoys suys sain et entier</l>
+         <!-- Saut#71 -->
+         <l n="172">Quant chacun faict bien son mestier</l>
+         <l><reg>C'est</reg> entendu le jobelin</l>
+         <note resp="editor" type="ling">jargon (Huguet)</note>
+         <l>Car <expan>maistre</expan>
+            <persName>Pierre Pathelin</persName></l>
+         <l>Vouloit avoir drap et argent</l>
+         <!-- Saut#72 -->
+         <l n="176">Noz enffans craignent leur <expan>regent</expan></l>
+         <l>Plus qu'<reg>ils</reg> ne font le principal</l>
+         <l>Menasses ne font point de mal</l>
+         <l>Mays quant on fesse il fault cryer</l>
+         <!-- Saut#73 -->
+         <l n="180">Et puys aprendz <reg>à</reg> prier</l>
+         <l>Ung nouveau dimitte nobis</l>
+         <l>Car abbatuz sont tous habitz</l>
+         <l>Autant des femmes que des <reg>hommes</reg></l>
+         <!-- Saut#74 -->
+         <l n="184">[vers manquant]</l>
+         <l>Servons le roy en non servans</l>
+         <!-- Saut#75 -->
+         <l>La faulte vient des plus scavans</l>
+         <l>Qui font faulx accords en musique</l>
+         <!-- Saut#76 -->
+         <l n="188">Qui diable a trouvé la practicque</l>
+         <l>De disputer ad quatuor</l>
+         <!-- Saut#77 -->
+         <l>Fy de plomb il <reg>n'est</reg> que de <reg>l'or</reg></l>
+         <l>C'est medecine pour les yeulx</l>
+         <!-- Saut#78 -->
+         <l n="192">Et nonobstant que les plus vieulx</l>
+         <l>Dient <reg>qu'il</reg> se faict si bon taire</l>
+         <!-- Saut#79 -->
+         <l>Je te prye soys ton secretaire</l>
+         <l>Et mectz par escript le surplus</l>
+         <l n="196">Car quant a moy je <reg>n'en</reg> scay plus</l>
+         <l>Sinon <reg>qu'on</reg> a tousjours regret</l>
+         <l>De ne <reg>s’estre</reg> tenu secret</l>
+         <l>Tesmoing le marault qu'on chassa</l>
+         <!-- Saut#80 -->
+         <l n="200">Autre chose de <expan>pardeca</expan></l>
+         <l>Sinon <reg>qu'il</reg> faict froit en mainct lieu</l>
+         <l>Adieu mon compagnon adieu</l>
+      </body>
+   </text>
+</TEI>

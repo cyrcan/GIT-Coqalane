@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../Users/c.ca/Downloads/tei_Corpus_CAA.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../Users/c.ca/Downloads/tei_Corpus_CAA.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:id="Rat_84">
+      <fileDesc>
+         <titleStmt>
+            <title>Le Rat au Chat</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Texte établi à partir du ms. 22564</p>
+            <p><listWit>
+                  <witness xml:id="fr25567"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris,</settlement>
+                           <repository>Bibliothèque nationale de France,</repository>
+                           <idno>ms. 25567</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness xml:id="fr22564"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris,</settlement>
+                           <repository>Bibliothèque nationale de France,</repository>
+                           <idno>ms. 22564</idno>
+                           <objectName> (référence pour cette transcription)</objectName>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness xml:id="NAF14845"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris,</settlement>
+                           <repository>Bibliothèque nationale de France,</repository>
+                           <idno>ms. NAF 14845</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+               </listWit></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p><listEvent>
+               <event xml:id="massacre-0" when="1572-08-24" where="Paris">
+                  <head>Saint-Barthélemy</head>
+                  <label>Massacre</label>
+                  <desc>Massacre des capitaines huguenots au Louvre et à Paris par les troupes et la
+                     population.</desc>
+               </event>
+            </listEvent></p>
+         <p><listPerson>
+               <person>
+                  <persName xml:id="Henri_III" corresp="https://data.bnf.fr/ark:/12148/cb12016877w">
+                     <idno type="ISNI">0000 0001 2319 7721</idno>
+                     <persName xml:lang="fr"><forename type="first">Henri</forename><surname>
+                           III</surname></persName></persName>
+               </person>
+               <person>
+                  <persName xml:id="Louise_de_Lorraine"
+                     corresp="https://data.bnf.fr/ark:/12148/cb12016877w">
+                     <idno type="ISNI">0000 0001 0894 1786</idno>
+                     <persName xml:lang="fr"><forename type="first">Louise</forename><surname> de
+                           Lorraine</surname><roleName>, reine de
+                     France</roleName></persName></persName>
+               </person>
+               <person xml:id="Henri_de_Navarre"
+                  corresp="https://data.bnf.fr/ark:/12148/cb120154019">
+                  <idno type="ISNI">0000 0001 2134 8311</idno>
+                  <persName xml:lang="fr"><forename type="first">Henri</forename><surname> de
+                        Navarre</surname> (futur Henri IV)<roleName/></persName>
+                  <birth><date>1553-12-14</date></birth>
+                  <death><date>1610-05-14</date></death>
+               </person>
+               <person xml:id="Philippe_II" corresp="https://data.bnf.fr/ark:/12148/cb12170664z">
+                  <idno type="ISNI">0000 0001 0837 7767</idno>
+                  <persName xml:lang="fr"><forename type="first">Philippe II</forename></persName>
+                  <birth><date>1527-05-21</date></birth>
+                  <death><date>1598-09-13</date></death>
+               </person>
+               <person xml:id="Villequier">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">René</forename><surname> de
+                        Villequier</surname><roleName/></persName>
+                  <birth><date>1535</date></birth>
+                  <death><date>1590</date></death>
+                  <!--  premier gentilhomme de la Chambre du roi de France Henri III (16 août 1574-1589), gouverneur de Paris et de l'Isle de France, baron de Clervaux (ou Clairvaux) et chevalier des ordres du roi. -->
+               </person>
+               <person xml:id="Strozzi" corresp="https://data.bnf.fr/ark:/12148/cb17703537s">
+                  <idno type="ISNI">0000 0003 9412 6300</idno>
+                  <persName xml:lang="fr"><forename type="first">Filippo</forename><surname>
+                        Strozzi</surname><roleName/></persName>
+                  <birth><date>1541</date> Florence (Italie)</birth>
+                  <death><date>1582-07-27</date> île de Terceira (Protugal)</death>
+               </person>
+               <person xml:id="Lamothe_Fénelon" corresp="https://data.bnf.fr/ark:/12148/cb12149643j">
+                  <idno type="ISNI">0000 0001 2098 7883</idno>
+                  <persName xml:lang="fr"><forename type="first">Bertrand</forename><surname> de
+                        Salignac de Lamothe Fénelon</surname><roleName> (ambassadeur et diplomate de
+                        France en Angleterre)</roleName></persName>
+               </person>
+               <person xml:id="Harlay" corresp="https://data.bnf.fr/ark:/12148/cb14476939t">
+                  <idno type="ISNI">0000 0000 6138 1688</idno>
+                  <persName xml:lang="fr"><forename type="first">Achille</forename><surname> de
+                        Harlay</surname><roleName> (magistrat, premier président du
+                        Parlement)</roleName></persName>
+                  <birth><date>1536-03-07</date> Paris (France)</birth>
+                  <death><date>1616-10-23</date></death>
+               </person>
+               <person xml:id="La_Guesle1">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first"
+                           >Jean</forename><surname><nameLink>de</nameLink> La
+                     Guesle</surname><roleName/></persName>
+               </person>
+               <person xml:id="La_Guesle2" corresp="https://data.bnf.fr/ark:/12148/cb13010934k">
+                  <idno type="ISNI">0000 0000 8151 517X</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                           >Jacques</forename><surname><nameLink>de</nameLink> La
+                        Guesle</surname><roleName> (magistrat et procureur)</roleName></persName>
+                  <birth><date>1557</date></birth>
+                  <death><date>1612</date></death>
+               </person>
+               <person xml:id="Salcède">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Nicolas</forename><surname>
+                        Salcedo</surname><roleName> (magistrat et procureur)</roleName></persName>
+                  <birth/>
+                  <death><date>1582-10-26</date></death>
+               </person>
+               <person xml:id="Montafié">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Jeanne</forename><surname> de
+                        Coesme</surname><roleName/></persName>
+                  <birth/>
+                  <death><date>1601-12-27</date>Chartres</death>
+               </person>
+               <person xml:id="Gontaut_Biron" corresp="https://data.bnf.fr/ark:/12148/cb11852468x">
+                  <idno type="ISNI">0000 0000 2128 3039</idno>
+                  <persName xml:lang="fr"><forename type="first">Armand</forename><surname> de
+                        Gontaut</surname><roleName/></persName>
+                  <birth><date>1524</date></birth>
+                  <death><date>1592-07-26</date></death>
+               </person>
+               <person>
+                  <persName xml:id="François_Alençon"
+                     corresp="https://data.bnf.fr/ark:/12148/cb12544106f">
+                     <idno type="ISNI">0000 0001 0774 6073</idno>
+                     <persName xml:lang="fr"><forename type="first">François</forename><surname>
+                           d'Alençon</surname></persName></persName>
+                  <birth><date>1554-03-15</date></birth>
+                  <death><date>1584-06-10</date></death>
+               </person>
+               <person>
+                  <persName xml:id="Bellièvre" corresp="https://data.bnf.fr/ark:/12148/cb134962124">
+                     <idno type="ISNI">0000 0000 5319 0689</idno>
+                     <persName xml:lang="fr"><forename type="first">Pomponne</forename><surname> de
+                           Bellièvre</surname></persName><roleName> (surintendant des
+                        finances)</roleName></persName>
+                  <birth><date>1529</date></birth>
+                  <death><date>1607</date></death>
+               </person>
+               <person>
+                  <persName xml:id="Bussy" corresp="https://data.bnf.fr/ark:/12148/cb10721681h">
+                     <idno type="ISNI">0000 0001 0654 0954</idno>
+                     <persName xml:lang="fr"><forename type="first">Louis</forename><surname> de
+                           Clermont, sieur de Bussy d'Amboise</surname></persName></persName>
+                  <birth><date>1549</date></birth>
+                  <death><date>1579-08-19</date></death>
+               </person>
+               <person>
+                  <persName xml:id="Montsoreau">
+                     <idno/>
+                     <persName xml:lang="fr"><forename type="first">Charles</forename><surname> de
+                           Chambes, comte de Montsoreau</surname></persName></persName>
+                  <birth><date>1549-11-28</date></birth>
+                  <death><date>1621</date></death>
+               </person>
+               <person xml:id="Gondi" corresp="http://viaf.org/viaf/89654338">
+                  <idno type="VIAF">89654338</idno>
+                  <persName xml:lang="fr"><forename type="first">Albert</forename><surname> de
+                        Gondi, comte de Retz</surname></persName>
+               </person>
+               <person xml:id="Assier" corresp="https://data.bnf.fr/ark:/12148/cb177346984">
+                  <idno type="ISNI">0000 0004 3375 0908</idno>
+                  <persName xml:lang="fr"><forename type="first">Jacques II</forename><surname> de
+                        Crussol, duc d'Uzes</surname><roleName/></persName>
+                  <birth><date>1540-06-20</date></birth>
+                  <death><date>1586-09-07</date></death>
+               </person>
+               <person xml:id="Maurevert">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Charles</forename><surname> de
+                        Louviers</surname></persName>
+                  <birth><date>1507</date></birth>
+                  <death><date>1583-04-14</date></death>
+               </person>
+               <person xml:id="Bourdin" corresp="https://data.bnf.fr/ark:/12148/cb135924079">
+                  <idno>0000 0001 1652 5299</idno>
+                  <persName xml:lang="fr"><forename type="first">Gilles</forename><surname>
+                        Bourdin</surname><roleName> Avocat général au Parlement (à partir de 1554)
+                        puis procureur général (à partir de 1557)</roleName></persName>
+                  <birth><date>1517</date></birth>
+                  <death><date>1570-01-23</date></death>
+               </person>
+               <person xml:id="Desportes" corresp="https://data.bnf.fr/ark:/12148/cb11990546d">
+                  <idno type="ISNI">0000 0001 2275 8873</idno>
+                  <persName xml:lang="fr"><forename type="first">Philippe </forename><surname>
+                        Desportes</surname></persName>
+                  <birth><date>1546</date></birth>
+                  <death><date>1606-10-04</date></death>
+               </person>
+               <person xml:id="Ronsard" corresp="https://data.bnf.fr/ark:/12148/cb11922538t">
+                  <idno type="ISNI">0000 0001 2101 7491</idno>
+                  <persName xml:lang="fr"><forename type="first">Pierre
+                        <nameLink>de</nameLink></forename><surname> Ronsard</surname></persName>
+               </person>
+               <person xml:id="Charlemagne" corresp="https://data.bnf.fr/ark:/12148/cb11940325v">
+                  <idno type="ISNI">0000 0001 2143 0569</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                        >Charlemagne</forename><surname> </surname></persName>
+                  <birth><date>0742-04-02</date></birth>
+                  <death><date>0814-01-28</date></death>
+               </person>
+               <person xml:id="Grégoire_XIII" corresp="https://data.bnf.fr/ark:/12148/cb13489338m">
+                  <idno type="ISNI">0000 0001 2131 7582</idno>
+                  <persName xml:lang="fr"><forename type="first">Grégoire
+                        XIII</forename><surname> </surname></persName>
+                  <birth><date>1502-01-01</date></birth>
+                  <death><date>1585-04-10</date></death>
+               </person>
+               <person xml:id="Auger" corresp="https://data.bnf.fr/ark:/12148/cb14326996f">
+                  <idno type="ISNI">0000 0001 2132 722X</idno>
+                  <persName xml:lang="fr"><forename type="first">Émond </forename><surname>
+                        Auger</surname><roleName> (prédicateur et professeur de philosophie en
+                        Italie, confesseur du roi à partir de 1583)</roleName></persName>
+                  <birth><date>1530</date></birth>
+                  <death><date>1591-01-31</date></death>
+               </person>
+               <person xml:id="Joyeuse" corresp="https://data.bnf.fr/ark:/12148/cb12569397r">
+                  <idno type="ISNI">0000 0000 6131 3642</idno>
+                  <persName xml:lang="fr"><forename type="first">Anne
+                           </forename><surname><nameLink>de </nameLink>
+                     Joyeuse</surname><roleName/></persName>
+                  <birth><date>1560</date></birth>
+                  <death><date>1587-10-20</date></death>
+               </person>
+               <person xml:id="Épernon" corresp="https://data.bnf.fr/ark:/12148/cb129927039">
+                  <idno type="ISNI">0000 0001 2134 3043</idno>
+                  <persName xml:lang="fr"><forename type="first">Jean-Louis
+                           </forename><surname><nameLink>de </nameLink> Nogaret de La Valette
+                        Épernon</surname><roleName/></persName>
+                  <birth><date>1554-05</date></birth>
+                  <death><date>1562-01-13</date></death>
+               </person>
+            </listPerson></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change><date>2024-03-30</date>Encodage de niveau 4+. Ajout de notes.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+            <pb n="67(135)v"/>
+            <cb n="L"/>
+            <l><persName type="destinataire">Chat</persName> mon amy je te supply</l>
+            <l>Mettons noz ennuyts en oubly</l>
+            <l>Sans employer des advocats</l>
+            <l n="4"><reg>À</reg> mettre fin à noz debats</l>
+            <l>Et quittons noz vieilles querelles</l>
+            <l>Puis je te diray des nouvelles</l>
+            <l>Car nous sommes je te le diz</l>
+            <l n="8"><rs type="locution">En l’<reg>année</reg> des troys jeudys</rs></l><note
+               resp="editor" type="ling">Altération de l'expression <hi rend="italic">la semaine des
+                  trois jeudis et peut-être une allusion à la réforme du calendrier
+               grégorien.</hi></note>
+            <anchor type="Saut#1"/>
+            <!-- Saut#1 -->
+            <l>Que verrons si tu y prens garde</l>
+            <l><rs type="animal">Bestes</rs> porter la hallebarde</l>
+            <l>D’entre les premiers Conseillers</l>
+            <l n="12">Du <roleName ref="#Henri_III">roy</roleName> ses <roleName type="conseiller"
+                  >mignons</roleName> familliers</l><anchor type="Saut#2"/>
+            <!-- Saut#2 -->
+            <l>Ceste grand’ revolution</l>
+            <l>Promet quelque mutation</l><note resp="editor" type="ling">Seule occurrence du terme
+               dans notre corpus. On le trouve deux ans plus tard dans <title>Le Miroir des
+                  Princes</title> attribué à l'ambassadeur de Savoie, <persName>René de
+                  Lucinge</persName>: «Il [Le duc de Guise] se fie qu’avenant la grande révolution
+               qu’on attend à la mort du Roy, que les princes catholiques estrangiers seconderont ou
+               par veux amiables, ou de leurs moiens, ses entreprises; qu’ainsi feront les bons
+               catholiques de France, les bonnes villes surtout, desquelles il attend son principal
+               appuy.» Voir <persName>Alain Dufour</persName>, <title>Annuaire-Bulletin de la
+                  Société de l'histoire de France</title>, 1954-1955, p. 118.</note>
+            <l>Premierement qu’elle survienne</l>
+            <l n="16">Changement de <roleName ref="#Henri_III">roy</roleName> nous advienne</l>
+            <l>Celluy qui regnoit fut tondu</l>
+            <l>Et à <placeName><settlement type="city" key="Soissons"
+                  >Soissons</settlement></placeName> moyne rendu.</l>
+            <l>Et en son lieu mis <persName ref="#Charlemagne">Charlemaigne</persName></l><note
+               resp="editor" type="glose">Ces vers rapprocheraient-ils au prix d'un raccourci la «
+               mutation » annoncée du changement de dynastie survenue entre Mérovingiens et
+               Carolingiens? Childéric III fut déposé par Pépin le Bref en novembre 751, tonsuré et
+               confiné. Pépin put alors se faire sacrer roi à Soissons.</note><anchor type="Saut#3"/>
+            <!-- Saut#3 -->
+            <l n="20">Avec Le <roleName ref="#Grégoire_XIII">Pape</roleName> &amp; <roleName
+                  key="Philippe II">Roy</roleName> d’<placeName><settlement type="country"
+                     key="Espagne">Espagne</settlement></placeName></l>
+            <l>Nous avons entreprises belles</l><anchor type="Saut#4"/>
+            <!-- Saut#4 -->
+            <l>Durant la feste des chandelles</l>
+            <l>On verra si sommes <orgName type="peuple">Flaments</orgName></l><note resp="editor"
+               type="glose">Jeu de mots sur la flamme que reconduira en 1642 l'<q>Entretien du Rat
+                  au Chat</q> (ms. Fr. 12491), CAA#100.</note><anchor type="Saut#5"/>
+            <!-- Saut#5 -->
+            <l n="24"><rs type="locution">Si tu vis encores dix ans</rs></l>
+            <l>Tu verras estrange mesnage</l>
+            <l><roleName>L’empereur</roleName> veult le mariage</l>
+            <l>Du <roleName>Prince Archevesque</roleName> empescher</l><note resp="editor"
+               type="glose">Allusion aux tensions qui précèdent la guerre de Cologne (1583-1588)
+               entre l'empereur Rodolphe II et le prince-archevêque Gerhard de Truchsess de
+               Waldbourg qui pour se marier se convertit au protestantisme en 1582 sans rendre son
+               électorat, violant ainsi la règle de la « réserve ecclésiastique » établie depuis la
+               paix d'Augsbourg.</note>
+            <l n="28">Ceste cause pourra fascher</l>
+            <l>Contre luy tous les Electeurs</l><anchor type="Saut#6"/>
+            <!-- Saut#6 -->
+            <l>Verra lon point ces massacreurs</l>
+            <note resp="editor" type="glose">Ceux qui ont participé à la Saint-Barthélemy.</note>
+            <l><reg>À</reg> jamais banniz de la Court</l><anchor type="Saut#7"/>
+            <!-- Saut#7 -->
+            <l n="32">S’il est vray du bruit qui en court</l>
+            <l><persName ref="#Villequier">Villequier</persName> n’est pas en credit,</l><note
+               resp="editor" type="glose">René de Villequier est alors premier gentilhomme de la
+               Chambre du roi. En 1574, il l'avait aidé à s'enfuir de Cracovie. Il fut l'un des
+               premiers titulaires de l'Ordre du Saint-Esprit et recevait souvent Henri III dans ses
+               domaines de Clairvaux. Mais le début des années 1580 voit l'ascension des favoris
+                  <persName>Joyeuse</persName> et d'<persName>Épernon</persName>.</note>
+            <anchor type="Saut#8"/>
+            <!-- Saut#8 -->
+            <l>As tu ouÿ publier l’Edit</l>
+            <l>Des XXXVm. sergents</l><note resp="editor" type="glose">Référence probable aux édits
+               qui établissaient de nouveaux impôts mais que le Parlement avait refusés. En mars
+               1583, pour les faire publier, le roi se présente lui-même devant la Cour : « Le lundy
+               VIIe [A, mars], le Roy alla au Palais, accompagné de ses deux mignons et peu d’autres
+               seingneurs et gentilshommes, afin de faire en sa presence publier au Parlement de
+               Paris plusieurs Edits estans despieça en la Cour, et qu’elle avoit refusé de publier,
+               pource que c’estoient edits boursaux, tendans manifestement à la charge et oppression
+               du pauvre peuple. », L'Estoile, <hi rend="italic">op. cit.</hi>, p. 74-75.</note>
+            <l n="36">On trouve cinq mille brigands</l>
+            <l>Pour le pauvre peuple ronger</l>
+            <cb n="R"/>
+            <l>Nous n’en sommes hors de danger</l>
+            <l>De voir <rs type="proverbe">perdre au <rs type="animal">Chat</rs> la
+               Sonnette</rs>,</l>
+            <note resp="editor" type="glose">Les deux témoins donnent "perdre la sonnette".
+               L'expression attestée, en référence à la fable d'<persName>Ésope</persName>, est <hi
+                  rend="italic">pendre la sonnette (au col ou à l'oreille) du chat</hi> pour
+               désigner "une action dangereuse que personne ne veut être le premier à faire", Di
+               Stefano, p. 546. Nous croyons lire ici un retour d'un danger qui était pour un temps
+               écarté.</note><anchor type="Saut#9"/>
+            <!-- Saut#9 -->
+            <l n="40">As tu pas veu ceste Comette</l>
+            <l>Elle ne prédit que misere</l>
+            <note resp="editor" type="glose">La dernière grande comète aperçue date de
+               1577.</note><anchor type="Saut#10"/>
+            <!-- Saut#10 -->
+            <l>Au voyage de la <placeName><settlement type="island"
+               >Tercere</settlement></placeName></l>
+            <l>Est mort le bon <expan>seigneur</expan> de <persName ref="#Strozzi"
+                  >Strozze</persName></l>
+            <note resp="editor" type="glose">Filippo Strozzi, cousin de Catherine de Médicis meurt
+               en combattant le 27 juillet 1582. "Grand deuil en fut fait en la Court, comme aussi
+               fut la perte grande d’un tel seingneur et brave capitaine, proche parent de la Royne
+               mere, qui fut regretté de tous, fors des bastards françois Hespagnolizés de la Ligue,
+               qui des ruines de la France commençoient à bastir peu à peu leur grandeur et leur
+               estat futur, fondé sur leurs pretentions imaginaires de leurs droits à ceste
+               Couronne." L'Estoile, <hi rend="italic">op. cit.</hi>, tome IV, p. 31. Suivent aux
+               pages 31 et 34 plusieurs "épitaphes et tumbeaux" sur la mort du
+               capitaine.</note><anchor type="Saut#11"/>
+            <!-- Saut#11 -->
+            <l n="44"><persName ref="#Lamothe_Fénelon">Fenelon</persName> n’a pas en
+                     <placeName><settlement type="country" key="Ecosse"
+                  >Escosse</settlement></placeName></l>
+            <l>Executé ce qu’on pensait</l><anchor type="Saut#12"/>
+            <!-- Saut#12 -->
+            <l><persName ref="#Harlay">Harlay</persName> a ce qu’il attendoit</l>
+            <l>Et <persName ref="#La_Guesle">La Guesle</persName> a deux Estats beaux</l>
+            <note resp="editor" type="glose">Cf. L'Estoile, <hi rend="italic">op. cit.</hi>, p. 65 :
+                  <quote>Le VIIe [A, jour de janvier][de 1583], messire Acchilles de Harlay entra en
+                  la possession et exercice de son estat de Premier President, Me Jean de la Guesle
+                  en celle de l’estat de President de la Grand-Chambre, que tenoit auparavant ledit
+                  de Harlay, et maistre Charles de la Guesle, son fils aisné, en l’exercice de
+                  l’estat de procureur-general du Roy, que son pere tenoit auparavant et auquel il
+                  avoit esté en ladite Cour reçeu à survivance.</quote></note>
+            <l n="48">Mais il aymerait mieux des s[c]eaux</l>
+            <l>La garde, que de la <placeName>Bastille</placeName></l>
+            <l>Ils ont beau jouër à la bille</l><note resp="editor" type="ling">Jouer à la bille :
+               "perdre son temps", Di Stefano, p. 63. Nous ne pouvons lire ici une allusion au jeu
+               du bilboquet dont L'Estoile atteste l'introduction à la cour seulement en août 1585.
+                  <hi rend="italic">op.cit</hi>, tome V, p. 39.</note>
+            <l>Le jeu leur vient tout <reg>à</reg> souhait</l><anchor type="Saut#13"/>
+            <!-- Saut#13 -->
+            <l n="52"><persName>Monsoreau</persName> a passé le traict</l>
+            <l><reg>À</reg>
+               <persName ref="#Bussy">Bussy</persName> faut franchir le sault</l><note resp="editor"
+               type="glose">Charles de Chambes, comte de Montsoreau et mari de Françoise de Maridor
+               tend un guet-apens mortel à Bussy d'Amboise qui succombe le 19 août 1579.</note>
+            <anchor type="Saut#14"/>
+            <!-- Saut#14 -->
+            <l><persName>Salcede</persName> a dessus l’Eschaffaut</l>
+            <l>Signé sa deposition.</l>
+            <note resp="editor" type="glose">Nicolas Salcède, sieur d'Auvillars, est exécuté en
+               place de Grève le 26 octobre 1582 pour avoir tenté d'empoisonner aux Pays-Bas le duc
+               d'Alençon. Cette déposition est une rétractation censée disculper la maison de
+               Lorraine : "Et quand Tanchou, lieutenant de robbe courte, present à l’execution avec
+               ses archers, vinst dire au Roy que sur le bas eschaffaut, sur lequel estoit son corps
+               quand il fust tiré, il s’estoit fait deslier les deux mains pour signer sa derniere
+               confession, qui estoit qu’il n’estoit rien de toutes les charges qu’il avoit mises
+               sus aux plus grands hommes de ce roiaume, le Roy s’escria : O le meschant homme !
+               voire le plus meschant dont j’aye onques ouï parler ! Ce disoit le Roy, pource qu’à
+               la derniere question qui luy avoit esté baillée (où le Roy avoit assisté caché
+               derriere une tapisserie), il lui avoit ouï jurer et affermer, au milieu des tortures,
+               que tout ce qu’il avoit dit contre eux estoit vrai (comme beaucoup l’ont creu et le
+               croient encores aujourd’hui, veu les tragoedies qui se sont jouées en France par les
+               accusés)." (L'Estoile, <hi rend="italic">op. cit.</hi>, p. 29).</note>
+            <anchor type="Saut#15"/>
+            <!-- Saut#15 -->
+            <l n="56"><persName ref="#Louise_de_Lorraine">Elle</persName> a bien grand’ devotion</l>
+            <l>Aux <expan>Saints</expan> morts pour avoir lignée</l>
+            <l>Mais il est bruit que ceste année</l>
+            <l>Ilz sont sourds et <expan>n'entendent</expan> rien</l>
+            <note resp="editor" type="glose">L'absence d'héritier inquiète et le couple royal
+               multiplie les actes de dévotion. La participation de la reine aux pèlerinages est
+               attestée par L'Estoile : "Le vendredi 26e [A, janvier] [1582], le Roy et la Roine sa
+               femme, chacun à part soi, et chacun accompagné de bonne trouppe, lui de princes et
+               seingneurs, elle de princesses et dames allerent à pied de Paris à Chartres, en
+               voiage vers N. Dame de dessous terre, estant en la basse Eglise de N. Dame de
+               Chartres : où fut faite une neufvaine, à la derniere messe de laquelle le Roy et la
+               Roine assisterent et offrirent une N. Dame d’argent doré, qui pesoit cent marcs, avec
+               grand devotion et aveq humble et cordiale affection, qu’il pleust à Dieu et à la
+               bonne Dame interceder vers Jesus-Christ, son fils, de leur donner lignée qui peust
+               succeder à la couronne de France [...]" (<hi rend="italic">op.cit.</hi>, p.
+               12).</note>
+            <anchor type="Saut#16"/>
+            <!-- Saut#16 -->
+            <l n="60">Qu’ilz sont camus les voys tu bien</l>
+            <l>Perdre les Estats par faveur</l>
+            <anchor type="Saut#17"/>
+            <!-- Saut#17 -->
+            <l>Penses tu voir en tel honneur</l>
+            <l>La <persName ref="#Montafié">Comtesse de Montaffier</persName></l>
+            <note resp="editor" type="glose">Son premier mari, Louis de Montafié, meurt assassiné en
+               1577. Elle se remarie avec François de Bourbon, prince de Conti en 1582.</note>
+            <anchor type="Saut#18"/>
+            <!-- Saut#18-->
+            <l n="64">Qui se vouldra jamais fier</l>
+            <l>Aux <orgName type="peuple">François</orgName>
+               <expan>renommez</expan> si mal</l>
+            <anchor type="Saut#19"/>
+            <!-- Saut#19 -->
+            <l>On dit qu’<reg>à</reg>
+               <placeName><settlement type="city" key="Reims">Reims</settlement></placeName> le
+                  <roleName>Cardinal</roleName></l>
+            <l><persName>De Guyse</persName> va dire sa messe</l>
+            <l n="68">Vous y verrez quelque finesse</l>
+            <l>Dessoubz ce pretexte &amp; pratique</l><note resp="editor" type="ling"><hi
+                  rend="italic">Pratique</hi>: au sens ici d'entreprise ou d'intrigue. Cf. <hi
+                  rend="italic">infra</hi> les vers 81 et 86.</note>
+            <anchor type="Saut20"/>
+            <!-- Saut#20 -->
+            <l>N’as tu point veu ceste Chronique</l>
+            <l>Qu’ilz naguere’ ont fait imprimer</l>
+            <l n="72">Taschants tousjours à supprimer</l>
+            <l>Le sang d’<persName>Hugues Cappet</persName> yssu.</l>
+            <note resp="editor" type="glose">Il s'agit de la généalogie publiée en 1580 par François
+               de Rosières, <title>Stemmatum Lotharingiae ac Barri ducum tomi septem. Ab Antenore,
+                  Trojanarum reliquiarum ad paludes Maeotidas rege, ad haec usque illustrissimi,
+                  potentissimi, et serenissimi Caroli tertii, ducis Lotharingiae tempora</title>, et
+               dont le catalogue USTC (No. 170542) dénombre encore aujourd'hui pas moins de 48
+               copies. Elle visait à démontrer la filiation de la maison de Lorraine avec
+               Charlemagne et dénoncer l'usurpation de la couronne par les descendants de Capet.
+               Simon Goulart ouvre ses <title>Mémoires de la Ligue</title> sur cette prétention
+               dénoncée par les réformés. Cf. <title>Mémoires de la Ligue, Contenant les événements
+                  les plus remarquables depuis 1576 jusqu’à la paix accordée entre le Roi de France
+                  et le Roi d’Espagne, en 1598</title>, Amsterdam, 1758, t. I, p. 2-7 [en ligne sur
+               Gallica]. "La harangue de Monsieur d'Aubray" dans la <title>Satyre Ménippée</title> y
+               fera encore référence : "[...] l'Archidiacre de Thoul a escrit que ceux de la maison
+               de Lorraine estoient descenduz de Charlemagne par les masles, sçavoir de Charles, duc
+               de Lorraine, à qui le royaume appartenoit aprés la mort de Loys Ve, Roy de France, et
+               que, l'ayant Hues Capet pris à Laon et mené prisonnier avec sa femme à Orleans, il
+               eut un fils masle, duquel il affermoit les ducs de Lorraine estre descenduz. Cela
+               s'est soubs main jetté parmy le peuple [...]", <title>La Satyre ménippée ou la vertu
+                  du Catholicon, selon l'édition princeps de 1594</title>, éd. Charles Read, Paris,
+               Flammarion, 1892, p. 195.</note>
+            <l>Ha! quel ouvrage ilz ont tissu</l>
+            <l>Au conseil de la saincte Ligue</l>
+            <l n="76">C’est ce qu’en court le Lorrain brigue</l>
+            <l>Que les troubles renouveller</l>
+            <pb n="68(137)r"/>
+            <cb n="L"/>
+            <l>Aussi l’on n’entend plus parler</l>
+            <l>Que vienne en <placeName>Court</placeName>
+               <persName ref="#Henri_de_Navarre">le Navarrois</persName></l>
+            <l n="80">Jamais tu ne te doubterois</l>
+            <l>De si miserable entreprise</l>
+            <anchor type="Saut#21"/>
+            <!-- Saut#21 -->
+            <l>Aux Cantons la foy est promise</l>
+            <l>Pour l’Edit de paix observer</l>
+            <l n="84">On n’est pas tenu de garder</l>
+            <l>Sinon la Foy aux <orgName type="secte">Catholiques</orgName></l>
+            <l>Souvent les meschantes praticques</l>
+            <l>Se descouvrent dont mal advient</l>
+            <anchor type="Saut#22"/>
+            <!-- Saut#22 -->
+            <l n="88"><persName type="destinataire">Chat</persName> j’ay ouy dire il m’en
+               souvient</l>
+            <l>Si troublez ne sont mes esprits</l>
+            <l>Qu’au Psaultier sont ces mots escrits</l>
+            <l>Aux fillets qu’ils m’ont ausé <expan>tendre</expan></l>
+            <l n="92">Leur pied mesme s’est venu prendre</l><note resp="editor" type="glose">Cf. le
+               psaume IX (verset 15, v. 56-60) traduit en français par Marot : "Incontinent les
+               malheureux / Sont cheus au piege fait par eux : / Leur pied mesme s'est venu prendre
+               / Au filé qu'ils ont osé tendre", <title>Les Pseaumes mis en rime françoise</title>,
+               Droz, 2019, p. 35. C'est ce même verset que Marot cite dès 1537 dans son <hi
+                  rend="italic">épistre de Frippelippes contre Sagon</hi> aux vers 31-34. Voir
+                  <title>Œuvres poétiques</title>, tome II, éd. G. Defaux, Paris, Classiques
+               Garnier, 1993, p. 141.</note>
+            <l>Ce n’est fable mais chose vraye</l>
+            <anchor type="Saut#23"/>
+            <!-- Saut#23 -->
+            <l>On dit qu’une armée on renvoye</l>
+            <l>En ceste <placeName><settlement type="island">Isle de la
+                  Tercere</settlement></placeName></l>
+            <anchor type="Saut#24"/>
+            <!-- Saut#24 -->
+            <l n="96">Il fait plus beau en <placeName><settlement type="country" key="Angleterre"
+                     >Angleterre</settlement></placeName></l>
+            <l>Mais nos desseings sont descouverts</l>
+            <l>Ilz ont eu les yeux bien ouverts</l>
+            <l><reg>À</reg> prendre garde à la vaiselle</l>
+            <note resp="editor" type="ling"><hi rend="italic">Prendre garde à la vaisselle</hi>:
+               "avoir soin de ses affaires", Di Stefano, p. 584.</note>
+            <anchor type="Saut#25"/>
+            <!-- Saut#25 -->
+            <l n="100">Helas! trop fascheuse nouvelle</l>
+            <l>Qu’en court bien tost on <expan>entendra</expan></l>
+            <l>Bien heureux qui en reviendra</l>
+            <l>Sain &amp; sauf de ce beau voyage</l>
+            <anchor type="Saut#26"/>
+            <!-- Saut#26 -->
+            <l n="104"><persName>Lairat</persName> si s’est <rs type="locution">mis trop en
+                  gaige</rs></l><note resp="editor" type="glose">Personnage non identifié.</note>
+            <l>Et n’entendoit pas la menée</l>
+            <anchor type="Saut#27"/>
+            <!-- Saut#27 -->
+            <l>Qui sera bien pour ceste année</l>
+            <l>En sa maison si ne se bouge</l>
+            <anchor type="Saut#28"/>
+            <!-- Saut#28 -->
+            <l n="108">Ne te souvient il pas de <placeName><settlement type="city" key="Bourges"
+                     >Bourge</settlement></placeName></l>
+            <l>Qu’on faillit à luy attraper</l>
+            <anchor type="Saut#29"/>
+            <!-- Saut#29 -->
+            <l><persName ref="#Gontaut_Biron">Biron</persName> est trop fin pour drapper</l><note
+               resp="editor" type="glose">L'allusion nous reste vague mais conduit à celle du vers
+               112 car on sait que le maréchal de France combat en 1583 aux Pays-Bas où il est
+               blessé.</note>
+            <l>Mais <rs type="locution">à un fin fin &amp; demy</rs></l>
+            <l n="112">On croit <persName ref="#François_Alençon">Monsieur</persName> estre
+               ennemy</l>
+            <l>De l’<persName ref="#Philippe_II">Espagnol</persName> on le verra</l><note
+               resp="editor" type="crit">Référence au présent qui constitue un <hi rend="italic"
+                  >terminus ad quem</hi>: la pièce est antérieure à la mort du duc survenue le 10
+               juin 1584.</note>
+            <cb n="R"/>
+            <l><persName ref="#Bellièvre">Bellievre</persName> cependant yra</l>
+            <l>De toutes parts negotier</l><note resp="editor" type="glose">Pomponne de Bellièvre
+               est alors encore surintendant des finances.</note>
+            <anchor type="Saut#30"/>
+            <!-- Saut# 30-->
+            <l n="116"><rs type="injonction" subtype="impératif">Di</rs> moi si on se peult fier</l>
+            <l><reg>À</reg> ce <expan>Seigneur</expan>
+               <roleName ref="#Gondi">Duc Mareschal</roleName></l><note>On pense à <persName
+                  ref="#Gondi">Albert de Gondi</persName>, premier duc de Retz dont le comté est
+               érigé par le roi en duché-pairie en novembre 1581. Son enregistrement par le
+               parlement a lieu le 20 avril 1582.</note>
+            <anchor type="Saut#31"/>
+            <!-- Saut#31 -->
+            <l>On ne verra jamais que mal</l>
+            <l>Arriver pour les trahisons</l>
+            <anchor type="Saut#32"/>
+            <!-- Saut#32 -->
+            <l n="120">Autre chose nous ne faisons</l>
+            <l>Que voir des Edits qu’on <expan>invente</expan></l>
+            <anchor type="Saut#33"/>
+            <!-- Saut#33 -->
+            <l><orgName>Le Clergé</orgName> bien fort se <expan>tourmente</expan></l>
+            <l>Craignant <reg>qu’on</reg> jouste <reg>à</reg> sa marmite</l><note resp="editor"
+               type="glose">Motif récurrent de la polémique religieuse.</note><!-- A compléter par des renvois -->
+            <anchor type="Saut#34"/>
+            <!-- Saut#34 -->
+            <l n="124">Jamais l’estat de Jesuitte</l>
+            <l>N’eust en <placeName><settlement type="country" key="Espagne"
+                  >Espagne</settlement></placeName> tant d’audace</l><note resp="editor"
+               type="glose">En 1583, <persName ref="#Henri_III">Henri III</persName> se sépare de
+               son confesseur <persName>Claude Mathieu</persName>, qu'il juge trop près des intérêts
+               espagnols. Il choisit un autre père jésuite pour le remplacer, <persName ref="#Auger"
+                  >Émond Auger</persName>.</note>
+            <anchor type="Saut#35"/>
+            <!-- Saut#35 -->
+            <l>Si on fault <reg>à</reg> rendre la place</l>
+            <l>La guerre en tous endroits on sonne</l>
+            <anchor type="Saut#36"/>
+            <!-- Saut#36 -->
+            <l n="128">De mettre entre les mains <placeName><settlement type="city" key="Péronne"
+                     >Peronne</settlement></placeName></l>
+            <l>On ne veult de <roleName ref="#François_Alençon"><expan>Monsieur</expan> le
+                  Prince</roleName></l>
+            <l><reg>À</reg> ces fins devers la Province</l>
+            <l>Seigneurs ont esté deputez</l>
+            <l n="132">Et leurs desseings executez</l>
+            <l>Selon leurs memoires divers</l>
+            <l><rs type="injonction" subtype="impératif">Pren garde</rs>
+               <reg>à</reg> toy ville d’<geogName type="ville">Anvers</geogName></l>
+            <l>Que ton bien en malheur ne change</l>
+            <l n="136">Ha! vertueux <persName>Prince d’Orange</persName></l><!-- Second terminus ad quem? -->
+            <l><persName>Dieu</persName> te preserve du danger</l>
+            <l>L’armée s’en va droit renger</l>
+            <l>Près d’<placeName><settlement type="city" key="Anvers"
+                  >Anvers</settlement></placeName> pour faire la <expan>monstre</expan></l><note
+               resp="editor" type="glose">Le siège de la ville commencera en juillet 1584.</note>
+            <anchor type="Saut#37"/>
+            <!-- Saut#37 -->
+            <l n="140">Ha! la malheureuse rencontre</l>
+            <l><rs type="locution">Jamais un boyteux ne va droit</rs></l>
+            <anchor type="Saut#38"/>
+            <!-- Saut#38 -->
+            <l><reg>À</reg> la <placeName><settlement type="country" key="France"
+                     >France</settlement></placeName> trop mieux vauldroit</l>
+            <l>Ne l’avoir mis onc' en besongne</l><note resp="editor" type="glose">Ce sont les
+               entreprises du duc d'Alençon, nouveau prince des Pays-Bas, qui semblent critiquées
+               ici.</note>
+            <l n="144">Il faut que la pauvre <geogName type="région">Gascongne</geogName></l>
+            <l>Endure encor' un peu le choc</l>
+            <l>Les habitans du <placeName><settlement ref="region"
+                  >Languedoc</settlement></placeName></l>
+            <l>Ont esté toujours bien rusés</l>
+            <anchor type="Saut#39"/>
+            <!--Saut# 39-->
+            <l n="148">Que penses tu du <persName ref="#Assier">Duc d’Uzès</persName></l><note
+               resp="editor" type="glose">Le glissement d'une séquence à l'autre se fait par
+               l'intermédiaire de l'évocation du Languedoc dont Jacques II de Crussol, duc d'Uzès,
+               est le lieutenant-général.</note>
+            <l>Il est fort subjet <reg>à</reg> revolte</l>
+            <pb n="137v"/>
+            <cb n="L"/>
+            <anchor type="Saut#40"/>
+            <!-- Saut# 40-->
+            <l>On verra devant la recolte</l>
+            <l>Venir la <expan>Sainct</expan>
+               <eventName ref="#massacre-0">Barthelemy</eventName></l><note resp="editor"
+               type="glose">Le souvenir du massacre tout comme celui de l'assassinat de l'amiral
+               hante l'ensemble de ce coq-à-l'âne.</note>
+            <anchor type="Saut#41"/>
+            <!-- Saut#41 -->
+            <l n="152">Il n’est pas Chrestien à Demy</l>
+            <l>Qui n’a l’ordre du <expan>Sainct</expan> Esprit,</l><note resp="editor" type="glose"
+               >Écho de "L'Asne au coq" de 1580 : "Si ce que l'on en dict est vray / Il y en aura de
+               surpris / Et seront traittez à tel prix / Que le Jour St Barthelemy / Il n'est pas
+               Chrestien à demy / Qui ne porte un beau chapelet" (CAA#69, v. 12-17).</note>
+            <l>Mais s’asseurer sur <persName>Jesus Christ</persName></l>
+            <l>En ce temps c’est estre heretique</l>
+            <anchor type="Saut#42"/>
+            <!-- Saut#42 -->
+            <l n="156">Auprès du <roleName ref="#Henri_III">Roy</roleName> chacun s’applique</l>
+            <l>Souller de biens son cueur avare</l>
+            <anchor type="Saut#43"/>
+            <!-- Saut#43 -->> <l>Ha! trionfant <roleName ref="#Henri_de_Navarre">roy de
+                  Navarre</roleName></l>
+            <l>Ta vertu te fait redoubter</l>
+            <l n="160">Et d’auprès de ceux reboutter</l>
+            <l>Qui n’ont jamais droit en la main</l>
+            <anchor type="Saut#44"/>
+            <!-- Saut#44 -->
+            <l><rs type="injonction" subtype="défense">Ne louëz jamais</rs>
+               <expan>Sainct</expan> Germain</l>
+            <l><placeName><settlement key="Fresnes">Fresne'</settlement></placeName> est bien autre
+                  <expan>bastiment</expan></l><note resp="editor" type="glose">On trouve à Fresnes
+               le château du chancelier Nicolas Brûlart de Sillery, avant les grands travaux de
+               rénovation qu'il connaîtra au siècle suivant.</note>
+            <anchor type="Saut#45"/>
+            <!-- Saut#45 -->
+            <l n="164">Il fait bon manier l’argent</l>
+            <l>Du <roleName ref="#Henri_III">Roy</roleName> mes qu’on ne rende compte</l>
+            <l>Celluy souvent qui trop haut <expan>monte</expan></l>
+            <l>On void descendre &amp; appauvrir</l><note type="editor" subtype="crit">Actualisation
+               d'un proverbe récurrent dans le genre.</note>
+            <anchor type="Saut#46"/>
+            <!-- Saut#46 -->
+            <l n="168">Pensés tu ne voir amoindrir</l>
+            <l>Ces deux superbes Potirons</l><note resp="editor" type="glose">Nouvel écho de "l'Asne
+               au coq" de 1580 : "Voilà une estrange Saison / De voir les celebres maisons / Moins
+               prisées que les potirons, / Le monde s'en va à l'empire," (CAA#69, v. 92-95). Les <hi
+                  rend="italic">potirons</hi> désignent des champignons qui au sens figuré
+               représentent "ce qui se développe vite, ce qui a une fortune rapide et peu durable"
+               précise Huguet. Ce sont donc probablement les <hi rend="italic">archimignons</hi>
+               <persName ref="#Joyeuse">Joyeuse</persName> et d'<persName ref="#Épernon"
+                  >Épernon</persName> qui sont visés ici.</note>
+            <l>Un jour viendra que les verrons</l>
+            <l>Comme <persName type="mythologie">Icare</persName> en la mer tomber</l><note
+               resp="editor" type="crit">Les motifs de l'orgueil et de la Fortune innervent tout
+               particulièrement ce coq-à-l'âne.</note>
+            <anchor type="Saut#47"/>
+            <!-- Saut#47 -->
+            <l n="172">Jamais on ne voit succomber</l>
+            <l>Celluy qui droitement chemine</l>
+            <l>Mais tousjours <expan>iront</expan> en ruyne</l>
+            <l>Ceux qui ayment iniquité</l><note resp="editor" type="glose"
+               ><title>Proverbes</title>, 28:10 : "Celui égare les hommes droits dans un mauvais
+               chemin / tombera dans la fosse qu'il a creusée / mais les hommes intègres recevront
+               en héritage le bonheur." éd. Ed. Dhorme, Gallimard, 1959.</note>
+            <anchor type="Saut#48"/>
+            <!-- Saut#48 -->
+            <l n="176"><persName type="destinataire">Chat</persName>
+               <rs type="injonction" subtype="impératif">tiens</rs> pour un point arresté</l>
+            <l>Que toutes choses ont leur temps</l>
+            <l><roleName>Monarque'</roleName> et <roleName>Roys</roleName> ne sont
+                  <expan>exempts</expan></l>
+            <l>De prendre fin tu le verras</l>
+            <l n="180"><persName ref="#Maurevert">Maurevert</persName> plus tu ne tueras</l><note
+               resp="editor" type="glose">Les circonstances de la mort du « tueur du roy » survenue
+               le 14 avril 1583 sont relatées par L'Estoile qui conclut: « Maurevert mourust, [...]
+               regretté de nul, hay de tous; mesmes les princes, qui vivans, l’avoient favorisé et
+               soustenu de moiens, furent bien aises qu’un tel assassin fust hors du monde, pource
+               que sa mort les delivra de crainte et de charge. », <hi rend="italic">op.,cit.</hi>,
+               p. 89.</note>
+            <l>En trahison un vaillant <expan>homme</expan></l><note resp="editor" type="glose"
+               >Coligny.</note>
+            <anchor type="Saut#49"/>
+            <!-- Saut#49 -->
+            <l>Tu scais si les pardons de <placeName><settlement type="city" key="Rome"
+                     >Rome</settlement></placeName></l>
+            <l>D’Enfer t’auront pu <expan>garentir</expan></l><note resp="editor" type="glose"
+               >Rapprochement tout huguenot des deux lieux.</note>
+            <l n="184">La <placeName>Court</placeName> ne vouloit <expan>consentir</expan></l>
+            <l>Cest abus par trop evident</l>
+            <l>Que le Pere feust <roleName ref="#La_Guesle1"><expan>President</expan></roleName></l>
+            <cb n="R"/>
+            <l>Le fils <roleName ref="#La_Guesle2">Procureur general</roleName>,</l><note
+               resp="editor" type="glose">Respectivement Jean et Jacques de la Guesle. Cf. <hi
+                  rend="italic">supra</hi> v. 47 et la note 7.</note>
+            <!-- Saut#50 -->
+            <l n="188">Le grand triomphe general</l>
+            <l>Fait au feu Premïer President</l>
+            <l>Monstre qu’il avait de l’argent</l>
+            <l>Autrement l’on n’eust tant sonné</l>
+            <l n="192"><persName ref="#Bourdin">Bourdin</persName> seroit bien étonné</l><note
+               resp="editor" type="glose">Gilles Bourdin, avocat général au Parlement à partir de
+               1554, puis procureur général à partir de 1557, est convoqué ici en tant que modèle de
+               probité. Voir son éloge dans le placard « Pourtraictz de plusieurs hommes illustres
+               qui ont flory en France depuis l’an 1500 jusques à présent », pièce CXXXIX des
+                  <title>Belles figures et drolleries de la Ligue</title>, éd. G. Schrenck, Genève,
+               Droz, 2016, p. 348\,: «[...] Il estoit fort sçavant ès langues hebraïque, arabesque,
+               grecque, latine et autres plus usitées en Europe, et, en l’aage de 28 ans, il fit un
+               commentaire grec sur une comedie d’Aristophane, intitulée <title>Cereris sacra
+                  celebrantes</title>, qu’il dedia au roy François dès l’an 1545. Il avoit parfaicte
+               cognoissance de toutes sciences, outre la jurisprudence et la routine du Palais. Il a
+               commenté en latin l’Ordonnance de l’an 1539, et a vescu sous le regne de quatre roys,
+               remply d’un grand zele envers Dieu, d’une singuliere integrité pour le faict de la
+               justice et d’une ardente affection en ce qui concernoit le public, qui rendront sa
+               memoire à jamais recommandable à la posterité ».</note>
+            <l>Voir un enfans en son Estat,</l>
+            <!-- Saut#51 -->
+            <l>On veut donner Eschec &amp; Mat</l><note resp="editor" type="ling"><hi rend="italic"
+                  >Donner eschec et mat</hi>: <quote>Ruiner l'entreprise</quote>, Di Stefano, p.
+               203.</note>
+            <l><reg>À</reg> quelqu’un s’il ne s’en prend garde,</l>
+            <!-- Saut#52 -->
+            <l n="196">Depuis qu’une femme se farde</l>
+            <l>Et met <reg>à</reg> sa porte un bouchon,</l><note resp="editor" type="ling"><hi
+                  rend="italic">Bouchon</hi>:"Touffe de verdure, de feuillage servant d'enseigne à
+               un cabaret.", Huguet.</note>
+            <!-- Saut#53 -->
+            <l>Hola! je te prie <rs type="injonction" subtype="défense">ne touchon</rs></l>
+            <l><reg>À</reg> rien qui les puisse fascher;</l>
+            <!-- Saut#54 -->
+            <l n="200"><persName ref="#Desportes">Des Portes</persName> scait bien arracher</l><note
+               resp="editor" type="crit">Première allusion au poète parmi toutes les pièces
+               retrouvées. C'est en 1582 que Philippe Desportes obtient les bénéfices des abbayes de
+               Tiron et de Josaphat, dans le diocèse de Chartres.</note>
+            <l>Abbayes comme <persName ref="#Ronsard">Ronsard</persName></l><note resp="editor"
+               type="glose">Ronsard n'a pas obtenu de bénéfices, contrairement à Desportes.
+               L'accusation inscrit notre coq-à-l'âne un peu plus encore dans la polémique
+               protestante. On se souvient de <title>La defence aux injures et calomnies contenues
+                  en la Response de M. Pierre Ronsard, contre les Ministres (qu'il appelle
+                  Predicans) de l'Eglise de Geneve</title>, 1563: "Je ne suis point, Ronsard,
+               grandement etonné / De te voir sur les biens de l'Église addoné: / Ce n'est pas du
+               jourd'huy que ta grand Muse abaye / Apres le revenu de quelque riche Abbaye. (v.
+               231-234). Voir <title>La polémique protestante contre Ronsard</title>, tome II, éd.
+               de Jacques Pineaux, Paris, Librairie Marcel Didier, 1973, p. 419.</note>
+            <!-- Saut#55 -->
+            <l>Si je n’avais mangé le lard<note type="editor" subtype="crit"><quote>Prenez le, il a
+                     mangé le lard!</quote>, vers 91 du premier coq-à-l'âne.</note></l>
+            <l>Je pourrois quelque chose avoir,</l>
+            <!-- Saut#56 -->
+            <l n="204"><persName type="destinataire">Chat</persName> il ne nous doibt tant
+               challoïr</l>
+            <l>Des biens nous avons nostre vie</l>
+            <l>Nous porte qui voudra envie</l>
+            <l>Est il pas vray ce que je dis</l>
+            <l n="208">Adieu plus avant ne <reg>t'en</reg> dis.</l>
+         </p>
+      </body>
+   </text>
+</TEI>

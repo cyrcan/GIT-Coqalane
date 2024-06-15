@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../../../Users/c.ca/Downloads/tei2latex_final.xslt"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title xml:id="CAA28_Truye_qui_file">La Truye qui file</title>
+                        <author>Anonyme</author>
+                        <editor>Cyril Cano Arnedo</editor>
+                  </titleStmt>
+                  <publicationStmt>
+                        <p>Transcription semi-diplomatique</p>
+
+                  </publicationStmt>
+                  <sourceDesc>
+                        <p>cf. Base Jonas <ref>http://jonas.irht.cnrs.fr/oeuvre/26129</ref></p>
+                  </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                  <p><listPerson>
+                              <person xml:id="Henri_VIII"
+                                    corresp="https://data.bnf.fr/ark:/12148/cb11988809r">
+                                    <idno type="ISNI">0000 0001 2258 6127</idno>
+                                    <persName xml:lang="fr"><forename type="first"
+                                                >Henri</forename><surname>VIII</surname></persName>
+                              </person>
+                              <person xml:id="Charles-Quint"
+                                    corresp="https://data.bnf.fr/ark:/12148/cb10411705z">
+                                    <idno type="ISNI">0000 0001 2096 5852</idno>
+                                    <persName xml:lang="fr"><forename type="first"
+                                                >Charles</forename><surname>Quint</surname></persName>
+                              </person>
+                              <person xml:id="Anne_de_Pisseleu"
+                                    corresp="https://data.bnf.fr/ark:/12148/cb14978045m">
+                                    <idno type="ISNI">0000 0001 2208 7539</idno>
+                                    <persName xml:lang="fr"><forename type="first">Anne
+                                                de</forename><surname>Pisseleu</surname></persName>
+                              </person>
+                              <person xml:id="G_Poyet"
+                                    corresp="https://data.bnf.fr/ark:/12148/cb10411705z">
+                                    <idno type="ISNI">0000 0001 1677 8982</idno>
+                                    <persName xml:lang="fr"><forename type="first"
+                                                >Guillaume</forename><surname>Poyet</surname></persName>
+                              </person>
+                              <person xml:id="Boniface_VIII"
+                                    corresp="https://data.bnf.fr/ark:/12148/cb12128117z">
+                                    <idno type="ISNI">0000 0001 2124 2007</idno>
+                                    <persName xml:lang="fr"><forename type="first"
+                                                >Benedetto</forename><surname>Caetani</surname></persName>
+                              </person>
+                        </listPerson></p>
+            </encodingDesc>
+            <revisionDesc>
+                  <change><date>2023</date>Encodage de niveau 3.</change>
+                  <change><date>02-09-2023</date>Ajout des balises 'injonction'</change>
+                  <change><date>29-09-2023</date>Annotations complémentaires (-> vers 148) et
+                        xml:id.</change>
+            </revisionDesc>
+      </teiHeader>
+      <text>
+            <body>
+                  <listBibl>
+                        <msDesc>
+                              <msIdentifier>
+                                    <settlement>Soissons</settlement>
+                                    <repository>Bibliothèque municipale</repository>
+                                    <idno>ms. 203</idno>
+                              </msIdentifier>
+                        </msDesc>
+                  </listBibl>
+                  <pb n="125r(46)"/>
+                  <fw type="pageNum" place="top-right">125</fw>
+                  <l>Gron gron du chant de la <rs type="animal">grue</rs></l>
+                  <note resp="editor" type="crit">Vers hypométrique qui se présente immédiatement
+                        comme une réponse à "la Grue" (CAA#28) (mss. 201 et 203). L'onomatopée est
+                        associée au groin et évoque la colère. cf. le verbe "gronder" du vers
+                        16.</note>
+                  <l>Gron gron <reg>à</reg> chacun bout de rue</l>
+                  <note resp="editor" type="crit">"À la ville et aux champs", chantait l'incipit de
+                        "La Grue".</note>
+                  <l>Gron gron du pauvre populaire</l>
+                  <note resp="editor" type="crit">Lamentation sur la rudesse des temps de guerre
+                        (cf. vers suivants) mais aussi lieu commun du discours évangélique et
+                        réformé qui fait du peuple la victime de l'église romaine.</note>
+                  <!--Saut#1-->
+                  <l n="4">Je ne scay plus que je doys faire</l>
+                  <l>Je veois manger tous mes enffans</l>
+                  <l>Tant que je puys je les deffens</l>
+                  <l>Mais la guerre emporte la paix</l>
+                  <note resp="editor" type="crit">La neuvième guerre d'Italie commencée en
+                        1542.</note>
+                  <!--Saut#2-->
+                  <l n="8">Gron gron d'un tas de marabais</l>
+                  <note type="editor" subtype="ling">"Juifs convertis ou Espagnols descendus des
+                        Maures. (Huguet)</note>
+                  <l>Escervelez comme beaulx dains</l>
+                  <note type="edition" subtype="ling">"Bouc(?)" ou "sot" selon Huguet. La rime dain
+                        : mondain est convenue.</note>
+                  <!--Saut#3-->
+                  <l>Gron gron des cardinaulx mondains</l>
+                  <note resp="editor" type="crit">Sur la curie romaine perçut comme une court, voir
+                        Antoine Marcourt, Le livre des marchans (1544): "Je laisse le baiser de la
+                        pantoufle du grand marchand, car jamais le baiser de la Thays ne fut si
+                        cherement vendu comme iceluy, ou le baise doigt de ces mignons." (A
+                        7r/v)</note>
+                  <l>Gron gron d'evesques faictz au lict</l>
+                  <note resp="editor" type="crit">On pense à "La Grue" : "Mays voy tu ce dyable de
+                        con/ Il a bien faict de cardinaulx/ Forces evesques abbés nouveaulx" (v.
+                        74-76)</note>
+                  <l n="12">Gron gron qu'au bransler du challit</l>
+                  <l>L'on donne mittre aux gros asniers</l>
+                  <note resp="editor" type="crit">cf. Marot#3 (CAA#7): "De mon coq à l’asne
+                        dernier,/ Lyon, ce malheureux asnier,/ Fol, foliant, imprudent, indiscret,/
+                        Et moings sçavant q’ung docteur en decrect," (v. 1-4)</note>
+                  <!--Saut#4-->
+                  <l>Gron gron qu'on n'a plus de deniers</l>
+                  <note>Écho du motif central de "La Grue".</note>
+                  <l>Gron gron des abus de ce monde</l>
+                  <note resp="editor" type="crit">Thématique similaire à celle de "la Grue"</note>
+                  <!-- Saut#5 -->
+                  <l n="16">Il n'y a lieu où l'on ne gronde</l>
+                  <l>Mesmes femmes <reg>à</reg> leurs marys</l>
+                  <!-- Saut#6 -->
+                  <l>T'esbahys tu si je me ris</l>
+                  <l>En escripvant <reg>à</reg> mon amy</l>
+                  <l n="20">Car s'il estoit mort <reg>à</reg> demy</l>
+                  <l>Encor aurait il fin de rire</l>
+                  <note>Ironie mordante quant aux persécutions, renforcée par la réponse de la
+                        rime.</note>
+                  <!--Saut#7-->
+                  <l>Et vous voyez qu'il n'est martire</l>
+                  <l>Que d'un jaloux par trop scavoir</l>
+                  <!-- Saut#8 -->
+                  <l n="24">Combien qu'il ne soyt bon d'avoir</l>
+                  <l>Une langue qui trop confesse</l>
+                  <l>Mais la raison <reg>est</reg> pour quoy est ce</l>
+                  <l>Que chacun paye ses escotz</l>
+                  <note resp="editor" type="ling">Sa part.</note>
+                  <!-- Saut#9 -->
+                  <l n="28">Quoi que aujourd'huy beaucoup de <rs type="animal">coqs</rs></l>
+                  <pb n="125v"/>
+                  <l>Vont <reg>à</reg>
+                        <rs type="animal" subtype="équidé">cheval</rs> dessus ung <rs type="animal"
+                              subtype="équidé">asne</rs></l>
+                  <note>Peut-être une allusion à la mode des coq-à-l'âne qui fleurissent en cette
+                        période.</note>
+                  <l>Si leur peau vault myeulx que bazane<note type="editor" subtype="ling">"Sheepes
+                              leather dressed like Spanish leather, and coloured red, greene, or
+                              yellow, etc, for shoes, or the couerings of
+                        bookes."(Cotgrave)</note></l>
+                  <l>Elle vault donc celle d'un <rs type="animal">veau</rs></l>
+                  <l n="32">Voyla ung argument nouveau</l>
+                  <l><rs type="injonction" subtype="défense">Ne prenez ja penne</rs> de
+                        l'apprendre</l>
+                  <!-- Saut#10 -->
+                  <l>Gron gron d'anprunter sans rien rendre</l>
+                  <note resp="editor" type="crit">Cf. Espitre de Pasquille de Rome au Jeuneux de
+                        Paris (CAA#33): "Car c'est tirer au chevrotin/ Emprunter pour jamays ne
+                        rendre" (v. 32-33), "Ha se le grand le voulloit rendre / J'en serois enchéry
+                        du tiers" (v. 34-35) ou bien Jamet#4 (CAA#22): "Voluntiers monsieur se
+                        courrousse/ S'on luy demande ce qu'il doibt" (v. 177-178).</note>
+                  <!-- Saut#11 -->
+                  <l>Gron gron de ceulx de <placeName><settlement type="city">La
+                                    Rochelle</settlement></placeName></l>
+                  <l n="36">Gron gron pour le sel et gabelle<note type="editor" subtype="crit">Le 26
+                              août 1542 La Rochelle se révolte contre l'extension de la gabelle:
+                              Charles Chabot, sieur de Jarnac, et les troupes du roi sont contraints
+                              de quitter la ville. Celle-ci se rendra en décembre.</note></l>
+                  <l>Gron gron par toute la <placeName><settlement type="region" key="Bretagne"
+                                    >Bretaigne</settlement></placeName></l>
+                  <!-- Saut#12 -->
+                  <l>Ma <rs type="animal">truye</rs> a bien espais la taigne<note>"Quelques-uns
+                              écrivent et prononcent teigne, mais la plupart disent et écrivent
+                              tigne qui veut dire une sorte de gale qui vient à la tête. On dit.
+                              [Tigne séche, humide, mauvaise, maligne. Avoir la tigne.]"
+                              (Richelet)</note></l>
+                  <l>Son mal sera examiné</l>
+                  <!-- Saut#13 -->
+                  <l n="40">Qui libera nos dominés</l>
+                  <note resp="editor" type="crit">En référence aux moines-prêtres assignés à
+                        l'exécution des messes pour la pénitence du donateur. "Puis voicy venir le
+                        beau dominé, qui vous despeche tout cela. Mes beaux seigneurs s'en vont
+                        contentz, le marchant est bien payé et repayé, chacun s'en va riant, tant le
+                        vendeur que l'achepteur.", Le livre des marchans, édition de 1544.</note>
+                  <l>L'on t'acquictera en baillant</l>
+                  <!-- Saut#14 -->
+                  <l>Ung homme n'est il pas vaillant</l>
+                  <l>Quant il est tout <reg>armé</reg> de peur</l>
+                  <!-- Saut#15 -->
+                  <l n="44">Nous <reg>parlerons</reg>
+                        <reg>à</reg>
+                        <persName ref="#Charles-Quint">l'empereur</persName></l>
+                  <l>S'il nous faict avoir fain aux dens<note>Locution signalée par Di Stefano, p.
+                              234.</note></l>
+                  <l>Ou ilz seront mis au dedans</l>
+                  <l>Le <placeName key="Châtelet">chastellet</placeName> de loyaulté et cruaulté</l>
+                  <l n="48">Car rien ne vault la loyaulté</l>
+                  <l><reg>Où</reg> fut l'<rs type="animal">oyseau</rs> trouvé sans aesle</l>
+                  <!-- Saut#16 -->
+                  <l>Mais diz moy comme se porte elle</l>
+                  <l>Ceste fille au visaige pasle</l>
+                  <note resp="editor" type="crit">Peut-être une allusion ironique compte tenu de son
+                        âge à Diane de Poitiers, maîtresse de Henri II, connue pour sa
+                        pâleur.</note>
+                  <l n="52">Encor n'est il qu'un jeune masle</l>
+                  <l>Pour travailler en marchandise</l>
+                  <note resp="editor" type="ling">Allusion sexuelle.</note>
+                  <!-- Saut#17 -->
+                  <l>Et quelque chose que l'on dise</l>
+                  <l>Vous fault il poinct de saulse vert</l>
+                  <note resp="editor" type="crit">La sauce du diable, celle de la tromperie. Le vers
+                        correspond littéralement au sixième cri du Sot (v. 79) dans la sottie Les
+                        Cris de Paris (Lyon, 1548).</note>
+                  <l n="56">Et fut il dyable de Vauvert</l>
+                  <note type="editor" subtype="ling">"comme quand on dit le Diable de Vauvert. On
+                        appeloit anciennement Vauverd; en Latin vallis viridis; le lieu où sont à
+                        present les Chartreux de Paris, comme il paroît par plusieurs Titres
+                        anciens, et par ces vers qui se lisent encore aujourd'huy sur le portaïl de
+                        la Court de ces Chartreux." (Huguet)</note>
+                  <!-- Saut#18 -->
+                  <l>Qui eust par tout acquis diffame</l>
+                  <note resp="editor" type="crit">Équivoque qui fait entendre "dix femmes".</note>
+                  <!-- Saut#19 -->
+                  <l>Il ne fault qu'une bonne femme</l>
+                  <fw type="sig" place="bottom-right">Qui saulvera le bon</fw>
+                  <pb n="126r/77"/>
+                  <fw type="pageNum" place="top-right">126(77)</fw>
+                  <l>Qui saulvera le bon larron</l>
+                  <note resp="editor" type="crit">Luc, XXIII, 40 et s.</note>
+                  <l n="60">Mais je trouve le maistre fort bon</l>
+                  <note resp="editor" type="crit">Vers hypermétrique.</note>
+                  <!--Vers hypermétrique-->
+                  <l>Quant il reunist boys et potence</l>
+                  <note resp="editor" type="crit">Ironie au sujet des persécutions contre les
+                        réformés.</note>
+                  <l>Sen dessus desoubz la sentence</l>
+                  <l>Sen dessus desoubz <reg>à</reg> tous coups</l>
+                  <!-- Saut#20 -->
+                  <l n="64"><rs type="injonction" subtype="conseil">Garde toy</rs> bien d'estre
+                              <unclear>secoue</unclear></l>
+                  <l>De ces cagotz <reg>à</reg> rouge myne</l>
+                  <note resp="editor" type="crit">Rouge car rusés et trompeurs..</note>
+                  <!-- Saut#21 -->
+                  <l>Si fault il que l'on destermine</l>
+                  <l>Scavoir si coquuz sont saulvez</l>
+                  <note resp="editor" type="crit">Ironie à propos de la doctrine du salut.</note>
+                  <l n="68">Car la <rs type="animal" ref="#Anne_de_Pisseleu">poulle</rs> nous a
+                        couvez</l>
+                  <l>Une montjoye de prelats</l>
+                  <note>Allusion à la duchesse d'Étampes, visée pour son népotisme. cf. C. Michon,
+                        Les Conseillers de François Ier.</note>
+                  <!--Saut#22-->
+                  <l><rs type="injonction" subtype="conseil">Donnez vous garde</rs> des estats</l>
+                  <l><rs type="injonction" subtype="impératif">Voiez</rs> comment l'on rompt la
+                        lance</l>
+                  <note resp="editor" type="crit">Propos misogynes récurrents contre le pouvoir des
+                        favorites du roi.</note>
+                  <l n="72">Habillement tost qu'on se lanse</l>
+                  <l>Au combat pour fendre tetines</l>
+                  <!-- Saut#23 -->
+                  <l>Ces gros macquereaulx de crotines</l>
+                  <note resp="editor" type="crit">À rapprocher du "Decrotatorium scholarium" dans le
+                        répertoire de la librairie Saint Victor (Huchon, 1994, p. 237).</note>
+                  <l>Je croy moy qu'ilz sont tous benis</l>
+                  <l n="76"><reg>À</reg> deux lieues <reg>près</reg>
+                        <placeName><settlement type="city">sainct Denis</settlement></placeName></l>
+                  <!--Saut#24-->
+                  <l>Il faict mauvais parler françoys</l>
+                  <note resp="editor" type="crit">Allusion aux traductions en langue vernaculaire
+                        condamnées par l'Église.</note>
+                  <l>Seches bourees coctretz gros boys</l>
+                  <note resp="editor" type="crit">Assemblages de bois dont la juxtaposition rappelle
+                        la sottie des Cris de Paris (1548): c'est par le cri "Coteretz secz,
+                        coteretz [secz]" (v. 56), c'est-à-dire fagots de bois, que le Sot interrompt
+                        une première fois la conversation des deux premiers personnages; la sixième
+                        interruption est : 'Bourree seiche, bourree!' (v. 85), comme ensemble de
+                        menues branches. On se souvient aussi du vers 61 de "La Grue" : "Ta chair ne
+                        sent que la bourrée".</note>
+                  <l>C'est ung feu de chair et de sang</l>
+                  <l n="80">De veoir ainsi fagotz par rang</l>
+                  <l>Il vouldroit mieulx laisser son poulce</l>
+                  <!-- Saut#25 -->
+                  <l>Sur le tetin madame pousse</l>
+                  <l>Il endureroit bien l'endosse</l>
+                  <l n="84">ha <rs type="injonction" subtype="défense">garde toy</rs> d'estre en sa
+                        fosse</l>
+                  <l>Je croy qu'on n'y a poinct de bien</l>
+                  <!-- Saut#26 -->
+                  <l>Mais de benefices combien</l>
+                  <l>Ils sont venduz comme du plomb</l>
+                  <note resp="editor" type="crit">Motif récurrent, dans le sillage de "la Grue", du
+                        commerce auquel se livre Rome.</note>
+                  <!-- Saut#27 -->
+                  <l n="88">Il a mangé trop de sablon</l>
+                  <note resp="editor" type="crit">Le pronom pourrait renvoyer au roi lui-même ou à
+                        l'une des victimes de la duchesse d'Étampes systématiquement associée au
+                        sablon depuis le jeu de mots que la rumeur attribua à Marot.</note>
+                  <pb n="126v"/>
+                  <l>Son ventre en est fendu <reg>par</reg> le bas</l>
+                  <!-- Saut#28 -->
+                  <l>Villain venez du hault en bas</l>
+                  <l>Voullez vous faire j'ay du maistre</l>
+                  <l n="92">Tost vistement par la fenestre</l>
+                  <l><rs type="injonction" subtype="impératif">Ouvrez</rs> le cul gaignez les
+                        boys</l>
+                  <!-- Saut#29 -->
+                  <l>Fortune a de mauvays abboys<note type="editor" subtype="ling">"Tenir quelqu'un
+                              en abboy" pour dire "l'amuser de vaines esperances et promesses."
+                              (Furetière)</note></l>
+                  <l>Car d'un chacun joue à la paulme</l>
+                  <!-- Saut#30 -->
+                  <l n="96">Estes vous sain et <unclear>don</unclear>
+                        <persName ref="#G_Poyet">Guillaume</persName></l>
+                  <l>Avez vous faict diette à <placeName><settlement type="city"
+                                    >Bourges</settlement></placeName></l>
+                  <note resp="editor" type="crit">Nouveau clin d'œil à l'affaire de Guillaume Poyet
+                        qui fut d'abord emprisonné à Bourges. cf. Berthon, 2020.</note>
+                  <l>Debout archers <rs type="injonction" subtype="impératif">happez</rs> voz
+                        vouges</l>
+                  <note type="editor" subtype="ling">Vouge: Sorte d'épieu (Huguet)</note>
+                  <l>Pour prendre d'assault <placeName>la Bastille</placeName></l>
+                  <!-- Saut#31 -->
+                  <l n="100">A cul rongneux ung coup d'estrille</l>
+                  <l>C'est <reg>parlé</reg> en nouvelle mode</l>
+                  <!-- Saut#32 -->
+                  <l>À tous les dyables la grand gode<note resp="editor" type="ling">"Mot du vieux
+                              langage, qui signifie une Brebis qui ne vaut plus rien à cause de sa
+                              vieillesse." (Corneille, 1694)</note></l>
+                  <l>Qui scait si bien faire souplesses</l>
+                  <l n="104">Je croy qu'elle a pardons aux fesses</l>
+                  <l>Quant tout l'argent s'en va au tronc</l>
+                  <note type="crit" resp="editor">Attaque contre Rome, ou encore contre Anne de
+                        Pisseleu?</note>
+                  <!-- Saut#33 -->
+                  <l>Si tu veulx veoir marcher de fronc</l>
+                  <l><rs type="injonction" subtype="impératif">Regarde</rs> ung peu
+                                    <unclear>las<reg> grue</reg></unclear></l>
+                  <!--Saut#34-->
+                  <l n="108">Fy du derriere <unclear><rs type="animal" subtype="équidé">moreau</rs>
+                              rue</unclear></l>
+                  <l>Et ma <rs type="animal">truye</rs> tant sonnant gronde</l>
+                  <l>Que de cent lieues long à la ronde</l>
+                  <l>J'ouys parler de la pantoufle</l>
+                  <note resp="editor" type="crit">cf. CAA24(Marot#5): Baisez la pantoufle du pappe /
+                        En disant vostre patenostre / Vous serez sainct comme ung apostre / Si du
+                        chapeau avez saisine (v.96-99)</note>
+                  <!-- Saut#34 -->
+                  <l n="112">Et puys <rs type="injonction" subtype="impératif">prenez</rs> le chat
+                        sans mouffle</l>
+                  <note resp="editor" type="ling">Sans précaution.</note>
+                  <l>Pour descouvrir le poct au laict<note type="editor" subtype="ling">Probable jeu
+                              sur la collusion de deux expressions "Descouvrir le pot aux roses" et
+                              "le poct au laict" qui peut aussi désigner les testicules (cf. Di
+                              Stefano, p. 488).</note></l>
+                  <!--à modifier-->
+                  <!-- Saut#35 -->
+                  <l>Non <del>je</del> n'ay je dis caput dolet</l>
+                  <l>Du martyre de <persName>sainct Estienne</persName><note resp="editor"
+                              type="crit" place="bottom">Le protomartyr fut lapidé pour avoir
+                              provoqué la colère du Sanhédrin, l'assemblée législative des Juifs à
+                              Jérusalem, par son discours (Actes, VII, 2-56). "Ils crièrent à grande
+                              voix en bouchant les oreilles et, à l'unanimité, s'élancèrent sur lui,
+                              / Le chassèrent de la ville et le lapidèrent. Les témoins jetaient
+                              leurs vêtements aux pieds d'un jeune homme appelé Saul." (Actes, VII,
+                              57-58). Mais il s'agit surtout ici d'un jeu transparent sur le nom
+                              d'Estienne Dolet arrêté en août 1542.</note></l>
+                  <l n="116">Affin que tous saiges l'on tienne</l>
+                  <l>Noz bons docteurs de <placeName><settlement type="city" key="Sorbonne"
+                                    >Babilone</settlement></placeName></l>
+                  <note resp="editor" type="crit">C'est le tout récent inquisiteur Mathieu Ory qui
+                        se chargera des procès d'Étienne Dolet.</note>
+                  <l>Qui te mesureront à l'aulne</l>
+                  <note resp="editor" type="ling">"Mesurer qqn a son aulne": le juger d'après ses
+                        propres critères, selon ses préjugés. (Di Stefano)</note>
+                  <pb n="127r(78)"/>
+                  <fw>127</fw>
+                  <l>Si tu ne dis la verité</l>
+                  <!-- Saut#36 -->
+                  <l n="120">Car tu seroys desherité</l>
+                  <l>Si du pere n'avoys dispence</l>
+                  <!-- Saut#37-->
+                  <l>Ferons tousjours bonne despence</l>
+                  <l><add resp="autor" place="margin-right">Je ne dis pas ce que je pense</add></l>
+                  <!-- Saut#38 -->
+                  <l n="124">Quen <reg>à</reg> noz vignes labourées</l>
+                  <l>Augrat augrat chasse marees</l>
+                  <l>Qui vandent les rayes puantes</l>
+                  <!-- Saut#39 -->
+                  <l>Si je n'avoys les mains suyantes</l>
+                  <note resp="editor" type="ling">Peut-être un détournement plaisant de l'expression
+                        "Avoir les moins ointes": graisser la patte (Di Stefano).</note>
+                  <l n="128">Je te paigneroys <reg>à</reg> plaisir</l>
+                  <!-- Saut#40 -->
+                  <l>Il peult bien estre à desloysir</l>
+                  <l>Cil qui jamays ne sceut rien faire</l>
+                  <!-- Saut#41 -->
+                  <l>Mais te pourroys tu jamays taire</l>
+                  <l n="132">Que <persName>Margot</persName> la grande nonnain<note type="editor"
+                              subtype="crit">Cf. "Margot la Normande" au vers 221 de "La grue" dans
+                              le même manuscrit 203.</note></l>
+                  <!-- Saut#42 -->
+                  <l>C'est pitié quant vouloir humain</l>
+                  <l>Deffault <reg>à</reg> cul de volonté</l>
+                  <!-- Saut#43 -->
+                  <l>Vray dieu qu'ils sont plains de bonté</l>
+                  <l n="136">Ces bons prelatz <reg>à</reg> rouge creste</l>
+                  <!-- Saut#44 -->
+                  <l>Sus tabourin tost qu'on s'apreste</l>
+                  <l>Pour dancer quelque hannebanne</l>
+                  <note resp="editor" type="ling">Les Apothicaires l'appellent jusquiame. Cette
+                        herbe cause une alienation d'esprit pareille à celle des gens yvres, et fait
+                        que les malades se destordent leurs membres avec des grands tremblements, et
+                        brayent comme des asnes, ou hennissent comme des chevaux. Avicenne escrit
+                        qu'un des symptomes qu'elle cause, c'est que le malade croit qu'on le
+                        foüette par tout le corps, begayant, brayant et hennissant comme un asne et
+                        un cheval. [...] (Furetière, 1690). La Bibliothèque Saint-Victor contient le
+                        titre : "Les hanebanes des evesques" (Huchon, 1994, p. 236)</note>
+                  <l>Car la guerre tient la pavanne</l>
+                  <note resp="editor" type="ling">Danse que Furetière décrit ainsi : "Danse grave
+                        venuë d'Espagne, où les danseurs font la rouë l'un devant l'autre, comme les
+                        paons font avec leur queuë, d'où luy est venu ce nom. C'étoit autrefois une
+                        danse serieuse que les Gentilshommes dansoient avec la cape et l'épée; les
+                        gens de Justice avec leurs longues robbes; les Princes avec leurs grands
+                        manteaux; et les Dames avec les queuës de leurs robbes abaissées et
+                        traînantes. On l'appelloit le grand bal, parce que c'étoit une danse
+                        majestueuse et modeste. Il s'y fait plusieurs assietes de pieds, passades et
+                        fleurets, et des decouppements de pieds, pour en moderer la gravité, dont la
+                        tablature est décrite dans Thoinot Arbeau en son Orchesographie. Elle est
+                        suivie ordinairement de la gaillarde. Ce mot est commun aux Langues
+                        Italienne, Espagnole et Françoise."</note>
+                  <l n="140">Tousjours revient dessus ses pas</l>
+                  <l>Mais ma <rs type="animal">truye</rs>
+                        <rs type="injonction" subtype="défense">n'en parle pas</rs></l>
+                  <l>Tu aurais le museau cassé</l>
+                  <note type="crit" resp="editor">Appel à la prudence renouvelé.</note>
+                  <!-- Saut#45 -->
+                  <l>Et bien bon temps est trespassé</l>
+                  <l n="144">Laisser fault la vie <reg>commune</reg></l>
+                  <l>Et vivre comme de coustume</l>
+                  <l>En delaissant mechanceté</l>
+                  <!-- Saut#46 -->
+                  <l>Ha villain tu as crocheté</l>
+                  <l n="148">Les pardons comme desloyal</l>
+                  <note type="crit" resp="editor">cf. Antoine Marcourt, Le livre des marchans, "Ilz
+                        marchandent, ilz trafficquent, ilz vendent, ilz revendent, ilz changent,
+                        permutent et rechangent par ensemble à la grand sorte, grandz courratiers,
+                        fins crocheteurs de benefices. Et à ainsi faire, apprennent les unz les
+                        autres : c'est leur vocation et mestier." (Édition de 1544). Puis en 1545
+                        "L'epistre de l'asne au beuf" (CAA#39): "Ha qu'ilz font tous bonne myne /
+                        Ces crocheteurs de benefices / Ils les acheptent comme offices" (v.
+                        81-83).</note>
+                  <l>Mais le bon dieu il est loyal</l>
+                  <pb/>
+                  <l>Le marchand a la barbe grise</l>
+                  <l>Car tout homme qui se desprise</l>
+                  <l n="152">Se verra dedans <placeName key="L'enfer">la chauldiere</placeName></l>
+                  <!-- Saut#47 -->
+                  <l>Aujourd'huy une caignardiere<note type="editor" subtype="ling">Celui, celle qui
+                              vit au cagnard, gueux, gueuse.(Huguet)</note></l>
+                  <l>Qui chauffait sa cuysse au soleil</l>
+                  <l>Sera mise en tel apareil</l>
+                  <l n="156">Qu'on la prendra pour un gros grain<note type="editor" subtype="ling"
+                              >"Un(e) richard(e), un grand personnage." (Di Stefano)</note></l>
+                  <!-- Saut#48 -->
+                  <l>Voyla un terrible refrain</l>
+                  <l>Et tout pour mettre au trou ma mye</l>
+                  <l>Si je le fais que la manye</l>
+                  <l n="160">Affin qu'on ne trompe personne</l>
+                  <!-- Saut#49-->
+                  <l><reg>À</reg> l'ayde que la cloche on sonne</l>
+                  <l>Le feu la tient au bas du ventre</l>
+                  <!-- Saut#50 -->
+                  <l>Mais je vous pry <reg>Monsieur</reg> le chantre</l>
+                  <l n="164">Chantez pour ces corps à la buste</l>
+                  <note resp="editor" type="crit">Glissement qui s'opère par la syllepse sur feu, du
+                        désir vers le bûcher.</note>
+                  <!-- Saut#51 -->
+                  <l>Des <reg>flajolleurs</reg> joueurs de fluste</l>
+                  <l>Sont en court posez bien souvent</l>
+                  <!-- Saut#52 -->
+                  <l>La <reg>courtisane</reg> a beau devant</l>
+                  <l n="168">D'avoir un corps <reg>à</reg> trente costes</l>
+                  <l>Pour lui tenir les gestes haultes</l>
+                  <l>L'on luy baille bon portemors</l>
+                  <!-- Saut#53 -->
+                  <l>Sortez dedans entrez dehors</l>
+                  <note resp="editor" type="crit">cf. vers 100-101 de "la Grue": 'Es tu dedans
+                        Bucque à la porte/ Je suis chassé qui est en ton lieu.'</note>
+                  <l n="172">Ung pied chaussé et l'autre nud</l>
+                  <note resp="editor" type="ling">Locution mentionnée par Di Stefano, p. 467. On
+                        trouve également dans la sottie des Cris des Paris : "Et s'ilz ont de petis
+                        enfans, / Ung plein foyer, gros et menus, / Les ungs deschaussez, les
+                        aultres nudz?" (v. 101-103), p. 181</note>
+                  <!-- Saut#54 -->
+                  <l>Mort bieu tu seras bien venu</l>
+                  <l>Si tu scays deschanter <unclear>saline</unclear></l>
+                  <l>Devant l'huys de <placeName>sainct Estienne</placeName><note type="editor"
+                              subtype="crit" place="bottom">L'église parisienne
+                              Saint-Etienne-du-Mont?</note></l>
+                  <l n="176">Comme nos clercs <placeName type="cimetière">sainct
+                              Innocent</placeName></l>
+                  <note resp="editor" type="crit">"[Pantagruel] disoit que c'estoit une bonne ville
+                        [Paris] pour vivre, mais non pour mourir car les guenaulx de sainct Innocent
+                        se chauffoyent le cul des ossemens des mors." (Huchon, 1994, p. 236)</note>
+                  <!-- Saut#55 -->
+                  <l>Tant que de moynes plus d'un cent</l>
+                  <l>Sont solliciteurs au palais</l>
+                  <!-- Saut#56 -->
+                  <fw type="sig" place="bottom-right">Mais q dit on</fw>
+                  <pb n="128(79)"/>
+                  <fw type="pageNum" place="top-right">128</fw>
+                  <l>Mais que dict on de <persName ref="#Henri_VIII">cest anglois</persName></l>
+                  <l n="180">Veult il chevaucher les <rs type="animal">poissons</rs></l>
+                  <note resp="editor" type="crit">C'est-à-dire traverser la Manche.</note>
+                  <l>S'il est ainsi adieu moyssons</l>
+                  <l>Adieu panniers apres vandanges</l>
+                  <l>Le peuple fera la vidange<note resp="editor" type="ling">Syllepse</note></l>
+                  <l n="184">S'il fault quelques pieces perduire</l>
+                  <!--Saut#57-->
+                  <l><rs type="injonction" subtype="impératif">Pensez</rs> qu'un droict scavent
+                        desduyre</l>
+                  <l>Ces conseilliers de vingt-cinq ans</l>
+                  <l>Ils ne sont que trop suffisans</l>
+                  <l n="188">J'ay ung proces plus viel du tiers</l>
+                  <note>cf. "La Grue": Si est ce que je m’esbahiz/ Veu le credit là où nous sommes/
+                        Comment sont tant osez ces hommes /De renverser nostre proces/ C'est tout
+                        ung j'ay argent assez/ Il convient proposer erreur (v. 226-231).</note>
+                  <!-- Saut#58 -->
+                  <l>Vous aurez estat voluntiers</l>
+                  <l>Si vous avez argent et bourse</l>
+                  <!-- Saut#59 -->
+                  <l>Car plus fault ne prendre la course</l>
+                  <l n="192">Si vous n'estes aymé des dames</l>
+                  <!-- Saut#60 -->
+                  <l>Et vous voiez tant de bigames</l>
+                  <l>Danser soulz la harpe de <persName>David</persName></l>
+                  <note resp="editor" type="crit">Référence déjà présente au vers 110 de "la Grue":
+                        'David qui jouoit de la herpe'.</note>
+                  <l>Que <persName key="Bethsabée">Bersabée</persName> oncques ne veid</l>
+                  <l n="196">Qu'on l'aymast d'un si gros credit</l>
+                  <!-- Saut#61 -->
+                  <l>Je ne scay qu'il en sera dit</l>
+                  <l>Mais je croy bien sans debat nul</l>
+                  <l>Qu'un pesche faict <reg>auprès</reg> du cul</l>
+                  <l n="200">Il ne fault qu'un pet pour absouldre</l>
+                  <!-- Saut#62 -->
+                  <l>La question est pret <reg>à</reg> souldre</l>
+                  <l>Ce qui est <label>vostre</label> est il pas myen</l>
+                  <l>Encores n'y gaignons nous rien</l>
+                  <l n="204">Si nous n'avons que bien nous face</l>
+                  <!-- Saut#63 -->
+                  <l>Ne debvoit il pas <persName ref="#Boniface_VIII">Bonifasse</persName></l>
+                  <l>Chasser tous les dyables d'enfer</l>
+                  <note resp="editor" type="crit">Sans doute Boniface VIII à l'origine de la bulle
+                        Unam Sanctam du 18 novembre 1302 qui justifiait l'utilisation par la papauté des armes
+                        temporelles en réaffirmant la théorie des deux épées (Luc 22, 38).
+                        Pantagruel (chap. XXX): "Comment Epistemon qui avoit la coupe testée, feut
+                        guery habillement par Panurge. Et des nouvelles des diables, et des damnez":
+                        Boniface pape huytiesme estoit escumeur de marmites." (Huchon, 1994, p.
+                        324)</note>
+                  <l>Mais ce coquin de <persName>Lucifer</persName></l>
+                  <pb n="128v"/>
+                  <l n="208">Est son amy de par sa femme</l>
+                  <!-- Saut#64 -->
+                  <l>C'est pour cela que maincte dame</l>
+                  <l>Veult demousrer ung peu maniere</l>
+                  <!-- Saut#65 -->
+                  <l>Car une bonne mesnaigiere</l>
+                  <l n="212">A souvent les pieds contremont</l>
+                  <!-- Saut#66 -->
+                  <l>Ainsi aurons nous le <placeName><settlement type="region"
+                              >Piedmont</settlement></placeName></l>
+                  <l>Par ung appoinctement de vuivre</l>
+                  <!-- Saut#67 -->
+                  <l>Tant qu'il fauldra que le <unclear>tourc</unclear> vive</l>
+                  <l n="216">Fonldroye gens d'armes cassez</l>
+                  <!-- Saut#68 -->
+                  <l>Si blancz scelles en sont passez</l>
+                  <l>Nous ferons feu de courte joye</l>
+                  <!-- Saut#69 -->
+                  <l>Sonnant force escuz et monnoye</l>
+                  <l n="220">Vous entrez en religion</l>
+                  <!-- Saut#70 -->
+                  <l>Il n'y a point de cession</l>
+                  <l>Au crucifix il fault qu'il baille</l>
+                  <l>Car l'on ne peult faire bataille</l>
+                  <l n="224">Sinon <reg>à</reg> l'ayde saincte croix</l>
+                  <!-- Saut#71 -->
+                  <l><rs type="injonction" subtype="impératif">Dis</rs> au curé si tu me croys</l>
+                  <l>Qu'il fault en soict bonne mensonge</l>
+                  <l>Car piperie en rien ne soigne</l>
+                  <l n="228">Sinon <unclear>livrer</unclear> de faulce chance</l>
+                  <!-- Saut#72 -->
+                  <l>J'ay bien aprins ma basse dance</l>
+                  <l>Pour honnorer ces bons seigneurs</l>
+                  <l>Et fussent ilz freres myneurs</l>
+                  <l n="232">Ilz auront ung coup de jarret</l>
+                  <!-- Saut#73 -->
+                  <l>Si est ce qu'en ung <placeName>cabaret</placeName></l>
+                  <l>Il fault boire à la verité</l>
+                  <l>Mais qu'est ce que la <unclear>verité</unclear></l>
+                  <l n="236">De cour <unclear>ainsi</unclear> à ton aise</l>
+                  <pb n="129r(80)"/>
+                  <fw type="pageNum" place="top-right">129</fw>
+                  <l>Si tu n'estoys prescheur en chaize</l>
+                  <l>Je te prendroys pour ung picart</l>
+                  <!-- Saut#74 -->
+                  <l>Veult tu confesser le placart</l>
+                  <l n="240">Pour gaigner les escutz du prince</l>
+                  <l>Si tu es <reg>subject</reg>
+                        <reg>à</reg> la pinse</l>
+                  <l>Prendz ces escuz dorés <reg>à</reg> mort</l>
+                  <note type="editor" subtype="crit">Allusion probable aux délations qui suivirent
+                        les affaires des Placards en 1534-1535. cf. D. Crouzet</note>
+                  <!-- Saut#75 -->
+                  <l>Plusieurs y a qui auront tort</l>
+                  <l n="244">Si <reg>l'on</reg> veult escouter noz <reg>maistres</reg></l>
+                  <!-- Saut#76 -->
+                  <l>Encor si <reg>l'on</reg> eut fait ce <reg>presbtre</reg></l>
+                  <l>Bailleur de benediction</l>
+                  <l><reg>Il</reg> eut prins absolution</l>
+                  <l n="248">Que tous ces biens faictz par escript</l>
+                  <!-- Saut#77 -->
+                  <l>Mon dieu qu'il avoit bel esprit</l>
+                  <l>S'il eust sceu chanter en plain chant</l>
+                  <!-- Saut#78 -->
+                  <l>Car <reg>c'est</reg> injure <reg>à</reg> ung meschant</l>
+                  <l n="252">De l'appeler homme de bien</l>
+                  <l><rs type="injonction" subtype="impératif">N'en parlons plus</rs> le tout va
+                        bien</l>
+                  <l><reg>À</reg> cueur gentil tout <reg>se</reg> pardonne</l>
+                  <note resp="editor" type="crit">Le contexte immédiat nous invite à lire la
+                        locution comme un clin d'œil au président René Gentil.</note>
+                  <l>Helas qu'il fut bonne personne</l>
+                  <l n="256">De son mesfaict est repentans</l>
+                  <!-- Saut#79 -->
+                  <l>C'est dommage qu'ils vivent tant</l>
+                  <l>Peres et meres en ce monde</l>
+                  <l>Car c'est le cas <reg>où</reg> je me fonde</l>
+                  <l n="260">Qu'enffans en richesses soient mis</l>
+                  <!-- Saut#80 -->
+                  <l>Vertu acquis tant d'ennemys</l>
+                  <l>Qu'il fault faire au plaisir des <reg>femmes</reg></l>
+                  <l>Ou autrement serez <unclear>infames</unclear></l>
+                  <l n="264">Si vous parlez ne si ce quoy</l>
+                  <!-- Saut#81 -->
+                  <l>Je ne crains que <persName>Dieu</persName> et le <persName>Roy</persName></l>
+                  <pb n="129"/>
+                  <l>Et en oultre ung peu davantage</l>
+                  <l>Car de mourir avant son aage</l>
+                  <l n="268">Ce n'est pas pour devenir vieulx</l>
+                  <!-- Saut#82 -->
+                  <l>Puis il n'est contraire aux yeulx</l>
+                  <l>Pour les blanchir que la fumée</l>
+                  <note resp="editor" type="crit">Nouvelle allusion au bûcher.</note>
+                  <!-- Saut#83 -->
+                  <l>Bon jour bon soir ma bien aymée</l>
+                  <l n="272">Je pense <reg>à</reg> vous sans fin ne cesse</l>
+                  <l>Jamais dessus vous ne me blesse</l>
+                  <l><reg>Vostre</reg> bas est assez ouvert</l>
+                  <l>À tous venans est descouvert</l>
+                  <l n="276">Vous estes humble comme ung moyne</l>
+                  <!-- Saut#84 -->
+                  <l>Comment amy tu te desmoyne<note type="editor" subtype="ling">Cesser d'être
+                              moine (Huguet)</note></l>
+                  <l>Et te dispense de bien faire</l>
+                  <!-- Saut#85 -->
+                  <l>Sainct Capucin de sainct affaire</l>
+                  <l n="280">A enchevestré l'<placeName><settlement type="country" key="Italie"
+                                    >Ytalie</settlement></placeName></l>
+                  <l>Avec ung frere il vous les lye</l>
+                  <l>D'un pochon de drap en leur teste</l>
+                  <note/>
+                  <!-- Saut#86 -->
+                  <l>Veulx tu pas venir <reg>à</reg> la feste</l>
+                  <l n="284">Quant ma truye se maryra</l>
+                  <l>Quelqu'ung de derriere criera</l>
+                  <!-- Saut#87 -->
+                  <l><rs type="injonction" subtype="impératif">N'oubliez pas</rs> ses beaulx
+                        pardons</l>
+                  <l>Car il fault avoir des bedons</l>
+                  <l n="288">Pour les nonnains de <placeName key="Fontevraud"
+                        >Fontevaulx</placeName></l>
+                  <!-- Saut#88 -->
+                  <l>Et au descendre des <rs type="animal" subtype="équidé">chevaulx</rs></l>
+                  <l>Nous chevaucherons tous sans celles</l>
+                  <l>Tant grassement vivent pucelles</l>
+                  <l n="292">Qui sont soubz madame du trou</l>
+                  <l>Qu'il convient <reg>qu'à</reg> sainct Balletrou</l>
+                  <note>Saint imaginaire invoqué par Panurge à la fin du chapitre XXV de Pantagruel:
+                        "Ma seulle braguette espoussetera tous les hommes, et sainct Balletrou qui
+                        dedans y repose, decrottera toutes les femmes." (Huchon, 1994, p.
+                        308).</note>
+                  <l>L'on offre sa chandelle royde</l>
+                  <!-- Saut#89 -->
+                  <l>Ung sang ouvert chandelle froide</l>
+                  <l n="296">Cela sent son hault aliment</l>
+                  <!--Saut#90-->
+                  <pb n="130"/>
+                  <fw type="pageNum" place="top-right">130</fw>
+                  <l>Il n'y a homme si clement</l>
+                  <l>Qu'il n'y couvrist au reculler</l>
+                  <!-- Saut#91 -->
+                  <l>Puys ung tel feu pourroit brusler</l>
+                  <l n="300">Cil qui trop pres aprencheroit</l>
+                  <!-- Saut#92 -->
+                  <l>Ordonner fut qu'il prescheroit</l>
+                  <l>Et cum fustibus et armis<note>Littéralement: "et avec des massues et des
+                              armes".</note></l>
+                  <l>Seroit au temps en chaize mis</l>
+                  <l n="304">Pour avoir <reg>parlé</reg> des secretz</l>
+                  <l>Qu'abusez tiennent pour descretz</l>
+                  <l>Ainsi <reg>j'instruictz</reg> des sinagogues</l>
+                  <!-- Saut#93 -->
+                  <l>Ou veulx tu veoir les bonnes morgues</l>
+                  <l n="308">Sinon aux <reg>asseurés</reg> menteurs</l>
+                  <!-- Saut#94 -->
+                  <l>La bonne myne est aux docteurs</l>
+                  <l>Et à <placeName><settlement type="city">Paris</settlement></placeName> les
+                        fines crottes<note type="editor" subtype="crit">cf. dans le même ms. 203 la
+                              pièce intitulée "les crottes de Paris"</note></l>
+                  <!-- Saut#95 -->
+                  <l>Mais il n'y a plus de bigottes</l>
+                  <l n="312">Chacun le faict en bonne foy</l>
+                  <!-- Saut#96 -->
+                  <l>Ha tu as prins en vain la loy</l>
+                  <l>Tu sens de loing ton heresie</l>
+                  <!-- Saut#97 -->
+                  <l>Or laissons nostre fantaisie</l>
+                  <l n="316">Et me mande des joues meurtries</l>
+                  <l>Qui semblent des pommes pourries</l>
+                  <l>Tant les ont de belles coulleurs</l>
+                  <!-- Saut#98 -->
+                  <l>Au fort jamais ung bastelleur</l>
+                  <l n="320">Ne va sans boette et sans triacle</l>
+                  <l>Mais veulx tu pas veoir le miracle</l>
+                  <note resp="editor" type="crit">Cf. Calvin, Epistre au Roy, IRC (1541) à propos
+                        des adversaires catholiques : "Mais plutost ilz alleguent miracles qui
+                        pourroient esbranler et faire doubter un esprit lequel autrement seroit bien
+                        en repos, tant sont ou frivoles ou mensongiers." (p. 154)</note>
+                  <l>Qui se fera par grandes merveilles</l>
+                  <l><persName type="prophet">Mahommet</persName> a les escrouelles</l>
+                  <l n="324">Par deçà vient querir sante</l>
+                  <!-- Saut#99 -->
+                  <l>Vous dictes vray pater sante</l>
+                  <pb n="130v"/>
+                  <l>Je vous croy bien quant vous mentez</l>
+                  <!-- Saut#100 -->
+                  <l>Noz tresoriers sont desmontez<note type="editor" subtype="ling"
+                              >Descendus.</note></l>
+                  <l n="328">Par trop avoir cuisses fourbies</l>
+                  <l><reg>À</reg> la dame des troys maries</l>
+                  <l>Tesmoing l'escolle sainct Germain</l>
+                  <l><reg>Où</reg> advocatz faictz <reg>à</reg> la main</l>
+                  <l n="332">Lisent Pantagruel aux dames</l>
+                  <note resp="editor" type="crit">François Juste fait paraître une nouvelle édition
+                        à Lyon en 1542.</note>
+                  <l><reg>Voylà</reg> pourquoy je voys sans blasmes</l>
+                  <l>Corner mes chiens bien fort rigault<note type="editor" subtype="oiseau">Sorte
+                              d'oiseau.</note></l>
+                  <!-- Saut#101 -->
+                  <l>Mais est il vray qu'un chien clabault</l>
+                  <l n="336"><unclear>Sine</unclear> aux despends de l'evesque</l>
+                  <!-- Saut#102 -->
+                  <l>Il n'y avoit <unclear>daignes</unclear> maisques</l>
+                  <l>Il me parlast Regnault<note type="editor" subtype="ling">Parler du nez.</note>
+                        devant eulx</l>
+                  <!-- Saut#103 -->
+                  <l>Il y a il point de plus beaulx jeulx</l>
+                  <l n="340">Que se cacher en la ruelle</l>
+                  <!-- Saut#104 -->
+                  <l>On me la dit dague <reg>à</reg> ruelle<note type="editor" subtype="ling">Garde
+                              d'une épée ou d'une dague (Huguet).</note></l>
+                  <l>Que beaucoup de mal me voullez</l>
+                  <l>Le cul que si bien vous croulez</l>
+                  <l n="344">Est il faict <reg>à</reg> chault et <reg>à</reg> sable</l>
+                  <l><reg>À</reg>
+                        <reg>l'apetit</reg> de votre rable</l>
+                  <l>Se dresse la fleur de l'oignon</l>
+                  <!-- Saut#105 -->
+                  <l>Si ung jour j'estois champignon</l>
+                  <l n="348">Du grand vicaire aux courtes chausses</l>
+                  <l>Il ne fauldroit que prescher saulses</l>
+                  <l>En une nuit serois ronget<note type="editor" subtype="ling">Os où il reste à
+                              ronger. (Huguet)</note></l>
+                  <!-- Saut#106 -->
+                  <l>Escript <reg>à</reg> troys lieues du <placeName><settlement type="city"
+                                    >Bourget</settlement></placeName></l>
+                  <l n="352">Courant <reg>à</reg> pied sur une mulle</l>
+                  <l><reg>Où</reg> jamais femme ne reculle</l>
+                  <fw type="sig" place="bottom-right">Quant l'on mect la lame</fw>
+                  <pb n="131(82)"/>
+                  <fw type="pageNum" place="top-right">131</fw>
+                  <l>Quant l'on mect la lame en l'arrest</l>
+                  <!-- Saut#107 -->
+                  <l>Et ton amy est tousjours prest</l>
+                  <l n="356"><reg>À</reg> boire ung coup de longue traicte</l>
+                  <!-- Saut#108 -->
+                  <l><rs type="injonction" subtype="impératif">Mande moy</rs> si plus l'on te
+                        traicte</l>
+                  <l>À ton <reg>mangé</reg> de poys au <rs type="animal">veau</rs></l>
+                  <!-- Saut#109 -->
+                  <l>Car ce pendant <reg>à</reg> mon <rs type="animal">chevreau</rs></l>
+                  <l n="360">Je m'en voys luy coupper la teste</l>
+                  <l>Et plus n'en dicts je suis de feste</l>
+            </body>
+      </text>
+</TEI>

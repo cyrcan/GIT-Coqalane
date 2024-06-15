@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Coq a l'asne</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p><listPerson>
+               <person xml:id="Coligny" corresp="https://data.bnf.fr/ark:/12148/cb125977672">
+                  <idno type="ISNI">0000 0001 1683 2336</idno>
+                  <persName xml:lang="fr"><forename type="first">Gaspard</forename><surname> de
+                        Coligny</surname></persName>
+               </person>
+               <person xml:id="Charles_IX" corresp="https://data.bnf.fr/12463140/charles_9/">
+                  <idno type="ISNI">0000 0001 2142 8995</idno>
+                  <persName xml:lang="fr"><forename type="first">Charles</forename><surname>
+                        IX</surname></persName>
+               </person>
+               <person xml:id="Catherine_de_Médicis"
+                  corresp="https://data.bnf.fr/ark:/12148/cb123351707">
+                  <idno>0000 0001 2095 7473</idno>
+                  <persName xml:lang="fr"><forename type="first">Catherine</forename><surname> de
+                        Médicis</surname></persName>
+               </person>
+               <person xml:id="François_de_Montmorency"
+                  corresp="https://data.bnf.fr/ark:/12148/cb10730880p">
+                  <idno type="ISNI">0000 0005 0409 3432</idno>
+                  <persName xml:lang="fr"><forename type="first">François de</forename><surname>
+                        Montmorency</surname></persName>
+               </person>
+               <person xml:id="Gonnord" corresp="http://viaf.org/viaf/308202155">
+                  <idno type="VIAF">308202155</idno>
+                  <persName xml:lang="fr"><forename type="first">Artus</forename><surname> de
+                        Cossé-Brissac, dit Gonnord</surname></persName>
+               </person>
+               <person xml:id="Philippe_II" corresp="https://data.bnf.fr/ark:/12148/cb12170664z">
+                  <idno type="ISNI">0000 0001 0837 7767</idno>
+                  <persName xml:lang="fr"><forename type="first">Philippe</forename><surname> II
+                        </surname><roleName> (roi d'Espagne)</roleName></persName>
+               </person>
+               <person xml:id="Rochefoucauld" corresp="http://viaf.org/viaf/57771494">
+                  <idno type="VIAF">57771494</idno>
+                  <persName xml:lang="fr"><forename type="first">François</forename><surname> III de
+                        La Rochefoucauld</surname></persName>
+               </person>
+               <person xml:id="L_Hospital" corresp="https://data.bnf.fr/ark:/12148/cb119971716">
+                  <idno type="ISNI">0000 0001 2145 1466</idno>
+                  <persName xml:lang="fr"><forename type="first">Michel</forename><surname> de
+                        L'Hospital</surname><roleName> (Chancelier)</roleName></persName>
+               </person>
+            </listPerson></p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris, </settlement>
+                  <repository>Bibliothèque nationale de France, </repository>
+                  <idno>NAF 1870.</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <pb n="39r"/>
+         <fw type="sig" place="top-right">f°xxxix</fw>
+         <p><l><persName type="destinataire">Compaignon</persName> pour te faire rire</l>
+            <l>Je te veulx nouvelles escripre</l>
+            <l>Qui t'apprendront le temps qui court</l>
+            <l n="4">On parle bien fort <reg>à</reg> la court</l>
+            <l>Que nostre <roleName ref="#Charles_IX">roy</roleName>
+               <reg>s'en</reg> va en aage</l>
+            <!-- Saut#1 -->
+            <l>Vertu bieu le bel advantaige</l>
+            <l><reg>Qu'on</reg> a faict aux freres myneurs</l>
+            <l n="8">Il y a de nouveaulx prescheurs</l>
+            <l>Qui gasteroict tout le mistere</l>
+            <!-- Saut#2 -->
+            <l><reg>C'est</reg> ung bel estat <reg>d'estre</reg>
+               <roleName ref="#Catherine_de_Médicis">mere</roleName></l>
+            <l>Quant l'enfant est obeissant</l>
+            <note resp="editor" type="glose">Allusion au pouvoir de la Régente.</note>
+            <!-- Saut#3 -->
+            <l n="12">Nous avons perdu le Croissant</l>
+            <l>Il nous fault avoir d'aultres armes</l>
+            <!-- Saut#4 -->
+            <l>C'estoient des furieux alarmes</l>
+            <l>Que ceulx qu'on donna à <placeName><settlement type="city"
+                  >Paris</settlement></placeName></l>
+            <l n="16">Les <orgName type="habitants">Parisiens</orgName> furent marris</l>
+            <l>De ce qu'on feit <reg>à</reg> leur Achille</l>
+            <l>Le <roleName ref="#François_de_Montmorency">mareschal</roleName> fut trop habille</l>
+            <l>Sans luy tout eust esté bien faict</l>
+            <!-- Saut#5 -->
+            <l n="20"><reg>N'est</reg> ce pas ung conseil parfaict</l>
+            <l>Que de vingt cinq ou de trente</l>
+            <!-- Cf. Elargissement par L'hospital-->
+            <!-- Saut#6 -->
+            <l>Les <expan>concilles</expan> arrestez à <placeName><settlement type="city"
+                     >Trente</settlement></placeName></l>
+            <l>D'eussent estre ja publiez</l>
+            <l n="24">On ne les a pas oubliez</l>
+            <l>Au pays de <placeName><settlement type="city" key="Reims"
+                  >Reins</settlement></placeName>
+               <expan>et</expan>
+               <placeName><settlement type="region" key="Lorraine"
+               >Loraine</settlement></placeName></l>
+            <!-- Saut#7 -->
+            <l>La cyre est plus chere <expan>que</expan> layne</l>
+            <l><reg>C'est</reg> pourquoy l'on faict tant d'edictz</l>
+            <!-- Saut#8 -->
+            <l n="28">Mon dieu que de nouveaulx marquis</l>
+            <l>De nouveaulx dieu de nouveaulx contes</l>
+            <l><expan>Chascun</expan> en tient partout ses comptes</l>
+            <l>Je les verray bien tost cassez</l>
+            <!-- Saut#9 -->
+            <l n="32"><persName>Dieu</persName> pardoinct aux <roleName>roys</roleName>
+               trespassez</l>
+            <l>Ilz ne songeoient <reg>à</reg> la malice</l>
+            <!-- Saut#10 -->
+            <l>Sy est ce que <reg>c'est</reg> ung grand vice</l>
+            <l>Que <reg>l'adultère</reg> devant <persName>dieu</persName></l>
+            <!-- Saut#11 -->
+            <l n="36">On parle fort d'un voysin lieu</l>
+            <l>Mais il est tousjours par la ville</l>
+            <!-- Saut#12 -->
+            <l><reg>C'est</reg> ung grand cas que cheville</l>
+            <l>Ne scauroit ung trou estoupper</l>
+            <!-- Saut#13 -->
+            <l n="40">Il ne fault craindre ne doubter</l>
+            <l>Que les <orgName>huguenots</orgName> facent la guerre</l>
+            <!-- Saut#14 -->
+            <l><reg>C'estoit</reg> une fort belle terre</l>
+            <fw type="sig" place="bottom-right">Lz iii</fw>
+            <pb n="39v"/>
+            <l>Que la conté de <placeName><settlement type="district" key="Dammartin"
+                     >Dampmartin</settlement></placeName></l>
+            <l n="44">On travailloit soir <expan>et</expan> matin</l>
+            <l>Pour ung gros proces ramasser</l>
+            <l>Qui veult en bref bien <reg>s'advancer</reg></l>
+            <l>Fault ung bourdon ou <reg>l'escriptoire</reg></l>
+            <l n="48">On a oublié la mémoire</l>
+            <l>Du deffunct sans y faire droict</l>
+            <l>Il me semble que <reg>l'on</reg> debveroit</l>
+            <l>Rendre aux eglises les reliques</l>
+            <l n="52">Ce sont beaux bastons <expan>que</expan> des piques</l>
+            <l><unclear>Jacquier</unclear> quinze cens mille francs</l>
+            <l>Pour sa part en quatre ou cinq ans</l>
+            <l>C'est estre serviteur fidelle</l>
+            <l n="56"><reg>L'entreprise</reg> est grande <expan>et</expan> nouvelle</l>
+            <l>Des parcs jardins <expan>et</expan> bastimens</l>
+            <l>Au diable soient telz passetemps</l>
+            <l>Et celle qui en a la cure</l>
+            <l n="60">Je ne scay que tant on murmure</l>
+            <l>De <roleName ref="#Philippe_II"><reg>l'empereur</reg></roleName> et
+                     <orgName><reg>l'Allemant</reg></orgName></l>
+            <l>Ce sont de tresbons courtizans</l>
+            <l><reg>D'assister</reg> au divin service</l>
+            <l n="64">Il fault refformer la justice</l>
+            <l>Comme on faict les aultres estats</l>
+            <l>Ce n'est pas ung trop villain cas</l>
+            <l>Ne deffendre que cocuaige</l>
+            <l n="68">Mais <reg>c'est</reg> bien ung tresgrand mesnaige</l>
+            <l>De devenir riche en troys ans</l>
+            <l>Et bel aquest que de presens</l>
+            <l>Les gens de bien ne les reffuzent</l>
+            <l n="72">Ceulx de <reg>l'église</reg> ne <reg>s'amusent</reg></l>
+            <l>Au temps <expan>present</expan>
+               <reg>qu'à</reg> gouverner</l>
+            <l>Et les financiers qu'<reg>à</reg> piller</l>
+            <l>Ilz ont eu grand peur <reg>à</reg>
+               <placeName><settlement type="ville" key="Genève">Genesve</settlement></placeName></l>
+            <l n="76"><reg>D'estre</reg> surpris non non je resve</l>
+            <l>On en voulloict aux <orgName type="secte">huguenots</orgName></l>
+            <l>Le <roleName ref="#Charles_IX">Roy</roleName> veid bien des mathelos</l>
+            <l>En son bas pays de <placeName><settlement type="region" key="Saintonge"
+                     >Sainctonge</settlement></placeName></l>
+            <l n="80">Ô que <reg>c'est</reg> une belle esponge</l>
+            <l>Que ce beau monsieur de <persName ref="#Gonnord">Gonnor</persName></l>
+            <l>Pour trouver ung riche tresor</l>
+            <l>Et le donner au <roleName ref="#François_de_Montmorency">connestable</roleName></l>
+            <l n="84">Il est temps de mectre <reg>à</reg>
+               <reg>l'estable</reg></l>
+            <l>Les vielz <rs type="animal" subtype="équidé">chevaulx</rs> harassez</l>
+            <fw type="sig" place="bottom-right">Aussy</fw>
+            <pb n="40r"/>
+            <fw type="pageNum" place="top-right">fol°xl</fw>
+            <l>Aussy se seroit bien assez</l>
+            <l><reg>D'avoir</reg> femme et une maistresse</l>
+            <l n="88">Depuis q'une femme est pbrestresse</l>
+            <l>Il n'en peult venir <expan>que</expan> malheur</l>
+            <l>Sy noz princes avoient du cueur</l>
+            <l>On feroit aux villains esclandre</l>
+            <l n="92">Il nous fault tous aller en <placeName><settlement type="region"
+                     >Flandre</settlement></placeName></l>
+            <l>Ayder au <roleName ref="#Philippe_II">beaufrere</roleName> du <roleName
+                  ref="#Charles_IX">roy</roleName></l>
+            <l>Sy nous avions ung viceroy</l>
+            <l>Tout en yroit bien mieulx en <placeName><settlement type="country"
+                     >France</settlement></placeName></l>
+            <l n="96">Nostre <roleName ref="#Charles_IX">roy</roleName> ayme bien la dance</l>
+            <l>Et sy scayt desja bien jurer</l>
+            <l>Sy tu veulx longuement durer</l>
+            <l>Soys tousjours avec quelques filles</l>
+            <l n="100">On veoit beaucoup de bonnes villes</l>
+            <l>Qui ont bien faulte de faulxbourgs</l>
+            <l>On verra deux <persName>ducs de Nemours</persName></l>
+            <l>Et qui <reg>n'est</reg> aymé qu'il se garde</l>
+            <l n="104">D'estre taille <reg>à</reg> la guysarde</l>
+            <l>De <unclear>lymeul</unclear> n'est pas bien parée</l>
+            <!-- Lisieux? -->
+            <l>Puis <roleName>le seigneur de la Curée</roleName></l>
+            <l>N'a pas esté fort regretté</l>
+            <l n="108">On n'a pas encore getté</l>
+            <l>Du cabinet ce rouge <expan>pbrestre</expan></l>
+            <l>Il pensoit bien faire du maistre</l>
+            <l>Ce beau huguenot d'<roleName ref="#Coligny">admiral</roleName></l>
+            <l n="112">Mais on se sert d'un cardinal</l>
+            <l>Plus que son frere doulx <expan>et</expan> saige</l>
+            <l>Le <roleName ref="#Charles_IX">Roy</roleName> a faict ung beau voyage</l>
+            <l>Pour tout son royaulme affamer</l>
+            <l n="116">Sy <reg>n'est</reg> ce pas pour diffamer</l>
+            <l><reg>L'honneur</reg> d'une lignée telle</l>
+            <l>Quant la tante en est maquerelle</l>
+            <l>Le temps est d'avoir le cul chault</l>
+            <l n="120">Le sieur de <persName ref="#Rochefoucauld">La Roche Foucault</persName></l>
+            <l><reg>N'est</reg> en court <expan>comme</expan> il soulloit estre</l>
+            <l>Sire il vous fault estre maistre</l>
+            <l>Sur ses <orgName type="secte">huguenotz</orgName> refformez</l>
+            <l n="124">Ou vous perdez voz mieulx aymez</l>
+            <l>Ce <roleName ref="#L_Hospital">chancelier</roleName> tant pollitique</l>
+            <l>Fera quelque ecdict fantastique</l>
+            <l>Pour encor quelques ungs chasser</l>
+            <l n="128">Il ne faict que rompre et casser</l>
+            <l><reg>D'où</reg> vient que sy souvent <reg>l'on</reg> change</l>
+            <fw type="sig" place="bottom-right">Lz iiii</fw>
+            <pb n="40v"/>
+            <l>De chevaucheurs <reg>c'est</reg> chose estrange</l>
+            <l>Qu'en ce temps les villains sont tout</l>
+            <l n="132">Nous peusmes bien venir <reg>à</reg> bout</l>
+            <l><reg>À</reg>
+               <placeName><settlement type="city">Moulins</settlement></placeName> de nostre
+               entreprise</l><!--Datation-->
+            <l>Chascun sert son dieu <reg>à</reg> sa guise</l>
+            <l>Il nous en debvera de retour</l>
+            <l n="136">Ce fut ung laid <expan>et</expan> villain tour</l>
+            <l>Que Dozances <expan>et</expan> de Salcede</l>
+            <l>Encores qu'elle soict bien layde</l>
+            <l>Elle <reg>n'a</reg> pas perdu le caquet</l>
+            <l n="140"><persName>Rostain</persName> a bien faict son pacquet</l>
+            <l>Le seigneur de <persName>Cursol</persName> commande</l>
+            <l>Mon dieu la merveilleuse bande</l>
+            <l>Qui fut <reg>à</reg> la procession</l>
+            <l n="144">Mais faulte de devotion</l>
+            <l>A faict perdre la renommee</l>
+            <l><reg>À</reg> la chasse tant estimee</l>
+            <l>On en tient <reg>partout</reg> grands propos</l>
+            <l n="148">En court y a divers supposts</l>
+            <l>La facon de vivre y est bonne</l>
+            <l><expan>Chascun</expan> y jure <reg>à</reg> la bretonne</l>
+            <l>On prise fort les maquereaulx</l>
+            <l n="152">D'angoumois plus que les <rs type="animal">pourceaulx</rs></l>
+            <l>De Périgort ne furent onques</l>
+            <l>Au temps jadis Or a dieu donques</l>
+            <l>Je me lasse de tant parler</l>
+            <l n="156">Plus q'un laquais ne faict d'aller</l>
+            <l>Il me fauldroict <reg>à</reg> la fin boire</l>
+            <l>Je ne quicteray jamais <geogName type="fleuve">Loyre</geogName></l>
+            <l>Pour venir la <geogName type="fleuve">Seyne</geogName> hanter</l>
+            <l n="160">Il est deffendu de chanter</l>
+            <l><reg>À</reg> ceulx qui <reg>n'ont</reg> le cueur en joye</l>
+            <l>Ma plume ne peult estre coye</l>
+            <l>Elle vouldroit parler tousjours</l>
+            <l n="164">A Dieu jusqu'aux prochains grands jours</l>
+            <l>Dont <reg>l'on</reg>
+               <reg>m'a</reg> faict sy grande feste</l>
+            <l>Allors je diray ce qui reste</l></p>
+      </body>
+   </text>
+</TEI>

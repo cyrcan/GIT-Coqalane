@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="CAA25-LongSejour">EPISTRE de l'asne au Coq M.D. XLIIII.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Transcription à partir du ms 1718. Il existe un second témoin à Vienne.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p><listPerson>
+               <person xml:id="Duns_Scot" corresp="https://data.bnf.fr/ark:/12148/cb11886212b">
+                  <idno type="ISNI">0000 0004 5888 1250</idno>
+                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname>Duns Scot
+                     </surname></persName>
+               </person>
+               <person xml:id="Jehan_Thibault" corresp="https://data.bnf.fr/ark:/12148/cb122394507">
+                  <idno type="ISNI">0000 0000 4913 2857</idno>
+                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname>Thibault
+                     </surname></persName>
+               </person>
+               <person xml:id="G_Poyet" corresp="https://data.bnf.fr/ark:/12148/cb10411705z">
+                  <idno type="ISNI">0000 0001 1677 8982</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                        >Guillaume</forename><surname>Poyet</surname></persName>
+               </person>
+               <person xml:id="Charles-Quint" corresp="https://data.bnf.fr/ark:/12148/cb10411705z">
+                  <idno type="ISNI">0000 0001 2096 5852</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                        >Charles</forename><surname>Quint</surname></persName>
+               </person>
+            </listPerson></p>
+      </encodingDesc>
+      <revisionDesc><change><date>15-08-2023</date>Encodage de niveau 5.</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque Nationale de France</repository>
+                  <idno>fr. 1718</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <div n="1">
+            <pb n="123r"/>
+            <fw type="pageNum" place="top-right">123</fw>
+            <l>Coq mon Amy le long sejour</l>
+            <l>Que je faictz cy de jour en jour</l>
+            <l>Ne <reg>faict</reg> qu’accroistre mon desir</l>
+            <l n="4">De te <reg>revoir</reg> à mon plaisir</l>
+            <l>Mais cependant m’est prins envie</l>
+            <l>De te rescripre de nostre vie</l>
+            <l>Des nouvelles de par deça</l>
+            <l n="8">Les <rs type="animal" subtype="équidé">asnes</rs> ont beguins pieça</l>
+            <note resp="editor" type="ling">Beguin: Sorte de bonnet. (Huguet)</note>
+            <l>Qui cachent leurs grandes oreilles</l>
+            <note type="crit" resp="editor">cf. Jamet#4(CAA22) : 'Tous asnes ne sont pas bastez / Et
+               n’ont trestous grandes aureilles'(v. 145-146).</note>
+            <l>Mais les belles <rs type="animal" subtype="équidé">housses</rs> vermeilles</l>
+            <l>Sont enharnachez de nouveau</l>
+            <!-- Saut#1 -->
+            <l n="12">As tu ouy parler du <rs type="animal">veau</rs></l>
+            <l>Nagueres nay avec deux testes</l>
+            <note type="crit" resp="editor">L'apparition merveilleuse d'un veau à deux têtes a fait
+               grand bruit en mai 1542. Cf. Marot#5 (CAA24):'Il est fol qui le col se casse / S'il
+               n'en a deux comme le veau' (v. 6-7).</note>
+            <l>C’est signes que les grosses bestes</l>
+            <l>Porteront pour deux cornes quatre</l>
+            <note resp="editor" type="crit">L'auteur ne manque pas de cibler dès le début de son
+               épître les théologiens de la Sorbonne.</note>
+            <l n="16">De faict <persName type="astrologue"
+                  ref="https://data.bnf.fr/12239450/jean_thibault/">Jehan Thibault</persName> le
+               folastre</l>
+            <note type="crit" resp="editor">Le médecin royal et astrologue est raillé pour ses
+               pronostications à la fin de l'année 1542 dans l'"Epistre du Coq à la Coquette"
+               (CAA30) : 'Quoy qu'en dye maistre Jehan Thibault' (v. 138).</note>
+            <l>L’a tout ainsy pronostiqué</l>
+            <!-- Saut#2 -->
+            <l>Ung <rs type="animal" subtype="équidé">cheval</rs> qui est fort picqué</l>
+            <l>Est souvent estimé retif</l>
+            <!-- Saut#3 -->
+            <l n="20">Il n’est bon arc que de bois d’if</l>
+            <l>Je m’en rapporte aux maquignons</l>
+            <!-- Saut#4 -->
+            <l>Car de porter escaffignons</l>
+            <l>Et houseaux fourrez en esté</l>
+            <l n="24">C'est tout clairement protesté</l>
+            <l>Qu'on a passé par la fournaise</l>
+            <!-- Saut#5 -->
+            <l>À <placeName><settlement type="city">Paris</settlement></placeName> faict chaud comme
+               braise</l>
+            <pb n="123v"/>
+            <l>Pour ceulx qui parlent librement</l>
+            <l n="28">Des loix du nouveau testament</l>
+            <l>Chacun crie haro sur eux</l>
+            <note resp="editor" type="crit">Allusion explicite aux persécutions de la
+               période.</note>
+            <l>Parler de <persName>Dieu</persName> est dangereux</l>
+            <l>Mais de deviser d’amourettes</l>
+            <l n="32">De compter plaisantes sornettes</l>
+            <l><add>Pour faire aux dames passer temps</add></l>
+            <note resp="editor" type="crit">Ce vers est absent du manuscrit 1718 mais présent en
+               10203.</note>
+            <l>On n’est reprins comme j’entens</l>
+            <note type="crit" resp="editor">À la vérité évangélique l'auteur oppose ici ce qu'il
+               considère comme le mensonge et l'inconsistance des propos légers de la poésie
+               amoureuse.</note>
+            <l>C’est pour cela que <persName type="auteur" ref="#Saint-Gelais">sainct
+                  Gelaiz</persName></l>
+            <l n="36">Escript rondeaux et vireletz</l>
+            <l>Du train d’amour <reg>où</reg> on s’applique</l>
+            <l>Pour eviter nom d’heretique</l>
+            <l>Car de sa part <add>il</add> vouldroit bien</l>
+            <l n="40">Estre <add>estimé</add> meilleur chrestien</l>
+            <l>Que celuy qui sans flaterie</l>
+            <l>Le passe au faict de poesie</l>
+            <note type="crit" resp="editor">Jugement favorable à Marot que l'on trouve également
+               dans "le Coq a l'Asne nouveau" (CAA23) : 'Marot a de plus doulce vayne / Que Maison
+               neusve ou Sainct Gelais' (v. 68-69)</note>
+            <!-- Saut#6 -->
+            <l>Il n’est plaisir que de soulas</l>
+            <note resp="editor" type="crit">Reprise du vers 170 du cinquième coq-à-l'âne de Marot
+               (CAA24) qui présente la même rime.</note>
+            <l n="44">Laquelle chose noz prelatz</l>
+            <l>Ne s’osent plus mettre à prescher</l>
+            <l>Craignant le bon zele empescher</l>
+            <l>Des beaux prescheurs tant bien preschants</l>
+            <!-- Saut#7 -->
+            <l n="48">On a mis gendarmez aux champs</l>
+            <l>Pour emprunter <reg>à</reg> meilleur tiltre</l>
+            <!-- Saut#8 -->
+            <l>Car il faict bon estre belistre</l>
+            <l>Au moins demander hardiment</l>
+            <!-- Saut#9 -->
+            <pb n="124"/>
+            <fw type="pageNum" place="top-right">124</fw>
+            <l n="52">On dict que vieillard hardi ment</l>
+            <l>Sans avoir d’estre reprins soing</l>
+            <!-- Saut#10 -->
+            <l>Ceux aussy qui viennent de loing</l>
+            <l><reg>Et</reg>
+               <reg>grands</reg> seigneurs au cas pareil</l>
+            <!-- Saut#11 -->
+            <l n="56">C’est dommaige de l’appareil</l>
+            <l>Qu’on faict soubz espoir de la paix</l>
+            <l>Pour recepvoir ces marrabetz</l>
+            <note type="crit" resp="editor">Cf. "La Truie qui fille" (CAA28) : Gron gron d'un tas de
+               marabais / Escervelez comme beaulx dains' (v. 28-29)</note>
+            <l>L’argent eust servi à les batre</l>
+            <l n="60">Mais quoy il n’en fault plus debattre</l>
+            <l>Tel s’en grate où il en cuit</l>
+            <!-- Saut#12 -->
+            <l>La verolle n’est plus en bruict</l>
+            <l>Puis que la pellade est en cours</l>
+            <!-- Saut#13 -->
+            <l n="64">Souliers de <rs type="animal">vache</rs> sont trop lourds</l>
+            <l>Pour ceux qui ont des gouttes crampes</l>
+            <!-- Saut#14 -->
+            <l>Mais il n’est sablon que d’<placeName><settlement type="city"
+                  >Estampes</settlement></placeName></l>
+            <l>Pour faire reluire un vieil pot</l>
+            <!-- Saut#15 -->
+            <l n="68">Le feu bonhomme <persName ref="#Duns_Scot">Jehan Lescot</persName></l>
+            <l>N’avoit jamais leu le grimoyre</l>
+            <l>Tant y a que bonne ancre noyre</l>
+            <l>Sur blanc papier se monstrera</l>
+            <!-- Saut#16 -->
+            <l n="72">Je ne scay pas que ce sera</l>
+            <l>De toy coq qui lieve la creste</l>
+            <l>Si te prens tu a fiere beste</l>
+            <l>Pour te fier à ces cagotz</l>
+            <!-- Saut#17 -->
+            <l n="76">Il n’est baiser que de cagotz</l>
+            <l>Ne sermon que de Damoiselles</l>
+            <l>Car <placeName>l’enseigne des trois pucelles</placeName></l>
+            <note resp="editor" type="crit">Il existe en 1542 au moins trois enseignes de ce nom à
+               Paris.</note>
+            <l>C’est par les grandz vents abbattue</l>
+            <!-- saut#18 -->
+            <l n="80">Mais à quoy tient il qu’on ne tue</l>
+            <l>De plein sault sans tant menasser</l>
+            <l>Regarde que c’est d’amasser</l>
+            <l>Tout retourne là dont il vient</l>
+            <!-- Saut#19 -->
+            <!-- Début du conte -->
+            <l n="84">Ha voirement Il me souvient</l>
+            <l>D’ung compte que je <reg>te</reg> veux faire</l>
+            <l>Le curé de Pere <placeName><settlement>Buffere</settlement></placeName></l>
+            <note resp="editor" type="crit">cf. Bonaventure des Périers. Pierre Buffière est un
+               bourg à 20 km de Limoges. Le curé de Pierre Buffere est un type populaire de curé
+               facétieux. cf. le début du conte 33.</note>
+            <note resp="editor" type="crit"/>
+            <l>Ung jour de la saincte sepmaine</l>
+            <l n="88">Confessoit une limosine</l>
+            <l><reg>Laquelle aussi à luy s’informe</reg></l>
+            <note resp="editor" type="crit">Vers du codex 10203, absent de fr. 1718</note>
+            <l>De son peché le plus enorme</l>
+            <l>Luy dict Monsieur j’ay eu affaire</l>
+            <l n="92">Neuf ou dix fois à ung beau pere</l>
+            <l>À ung moyne dict le curé</l>
+            <l>C’est ung pesché demesuré</l>
+            <l>M’amie vous estes damnée</l>
+            <l n="96">Vous estes bien desordonnée</l>
+            <l>De consentir à telz accordz</l>
+            <l>Il vous a mis le Diable au corps</l>
+            <l>Le moyne qui vous accola</l>
+            <l n="100">La pauvrete se desola</l>
+            <l>De plein sault oyant ses menasses</l>
+            <pb n="125r"/>
+            <fw place="top-right" type="numPage">124</fw>
+            <l>Redoutant fort leur efficaces</l>
+            <l>Mais en songeant à soy revint</l>
+            <l n="104">Et bien tost apres luy souvient</l>
+            <l>Du Cordelier c’est que son diable</l>
+            <l>Estoit bien doulx et amiable</l>
+            <l>Sa confession achevée</l>
+            <l n="108">Elle ne fust plustost levée</l>
+            <l>De genoulx qu'elle vous assemble</l>
+            <l>Toutes ses voisines ensemble</l>
+            <l>Et leur feist le compte comment</l>
+            <l n="112">Elles le peuvent faire hardiment</l>
+            <l>Sans avoir peur d’estre damnées</l>
+            <l>Car aux <placeName>infernalles contrées</placeName></l>
+            <l>N’y a esprit maling plus fier</l>
+            <l n="116">Que l’instrument d’ung cordelier</l>
+            <l>Et que son Curé luy a dict</l>
+            <l>Et de publier cest esdict</l>
+            <l>Tellement ainsy que le bruict court</l>
+            <l n="120">Il est venu <reg>jusqu'à</reg> la <placeName>court</placeName></l>
+            <l>Dont Damoyselles asseurées</l>
+            <l>Ont esté souvent deshousées</l>
+            <l>Derriere les tapisseries</l>
+            <!-- Dénouement du conte -->
+            <l n="124">Coq ce ne sont pas menteries</l>
+            <l>Or de la court comme tu scays</l>
+            <l>Soit d’honnesteté ou d’exces</l>
+            <l>Le premier bruit va à <placeName><settlement type="city"
+                  >Paris</settlement></placeName></l>
+            <pb n="125v"/>
+            <l n="128">Dieu scait si les pauvres maris</l>
+            <l>Ont esté joyeux des nouvelles</l>
+            <l>Dames bourgeoises Damoyselles</l>
+            <l>Filles chambrieres maistresses</l>
+            <l n="132">Se sont tant faict fourbir leurs fesses</l>
+            <l>Depuis qu’on a ce bruit ouy</l>
+            <l>Que tu en serois esbahy</l>
+            <l>Et aussi tost aux <orgName>cordeliers</orgName></l>
+            <l n="136">Comme aux honestes <orgName>chevalliers</orgName></l>
+            <l>Or voilà les maulx qu’on voist naistre</l>
+            <l>Par l'ignorance d’ung sot prestre</l>
+            <!-- Conclusion -->
+            <l>C’est la faulte des <orgName>marguilliers</orgName></l>
+            <!-- Saut#20 -->
+            <l n="140">Au demourant les <orgName>artilliers</orgName></l>
+            <l>Gaignent plus en cuivre qu’en fer</l>
+            <!-- Saut#21 -->
+            <l>Sçais tu des nouvelles d’<placeName key="Rome">enfer</placeName></l>
+            <l><persName>Le pape Leon</persName> a rescript</l>
+            <l n="144">Que tout l’argent qu’onques il prit</l>
+            <l>Pour vendre bulles et pardons</l>
+            <l>Sert à achepter des charbons</l>
+            <l>Pour chauffer la grande chaudiere</l>
+            <!-- Saut#22 -->
+            <l n="148">Mande moy quelle est la maniere</l>
+            <l>À <placeName><settlement type="city">Paris</settlement></placeName> de payer
+               decime</l>
+            <!-- Saut#23 -->
+            <l>Et comment se porte la rime</l>
+            <l>Des beaux jeux du vieil testament</l>
+            <!-- Saut#24 -->
+            <l n="152">Aussy que faict la grand jument</l>
+            <l>Qui doucement porta en crouppe</l>
+            <pb n="126r"/>
+            <fw type="pageNum" place="top-right">126</fw>
+            <!-- Saut#25 -->
+            <l>L'on ne despend pas tant en souppe</l>
+            <l>En nostre <placeName>court</placeName> qu’on faict en chair</l>
+            <!-- Saut#26 -->
+            <l n="156">Et le veloux ni est si cher</l>
+            <l>Qu’est le bureau de ton villaige</l>
+            <!-- Saut#27 -->
+            <l>Il y a un sainct qui faict raige</l>
+            <l>Tous les jours miracles nouveaux</l>
+            <l n="160">Il a mis l’espée au fourreau</l>
+            <l>Que nul sans luy n'en peut tirer</l>
+            <l>Il a faict l’ancre retirer</l>
+            <l>Du fin fond de la mer salée</l>
+            <l n="164">Où sans espoir fut devallée</l>
+            <l>Bien plus il a faict ung grand prestre</l>
+            <l>Qui souloit à tous apparoistre</l>
+            <l>Riche puissant grand et terrible</l>
+            <l n="168">Tout en ung moment Invisible</l>
+            <l>Pauvre impotent petit et doulx</l>
+            <!-- Saut#28 -->
+            <l>Croy que c’est dangereux courroux</l>
+            <l>Quand tous les dieux sont irritez</l>
+            <!-- Saut#29 -->
+            <l n="172"><orgName type="peuple">Flamans</orgName> sont si près visitez</l>
+            <l>Qu’ilz ne scavent où ilz en sont</l>
+            <!-- Saut#30 -->
+            <l>L'effort que les gendarmes font</l>
+            <note/>
+            <l>À <placeName>Luxembourg</placeName> faict peur aux poulles</l>
+            <!-- Saut#31 -->
+            <l n="176">De là les monts on joue aux boulles</l>
+            <note type="crit" resp="editor">Allusion au Piédmont.</note>
+            <l>Tout est à nous jusques à <placeName><settlement type="city" key="Turin"
+                     >Thurin</settlement></placeName></l>
+            <!-- Saut#32 -->
+            <l>Le voiage <persName type="saint" key="Saint Mathurin">sainct Mathurin</persName></l>
+            <l>Est plus requis que ne fut oncques</l>
+            <note>Cf. Marot</note>
+            <pb n="126v"/>
+            <l n="180">Pour les insensez. <!-- Saut#33 --><reg>Et</reg> puis doncques</l>
+            <l>Quel bruit ? On ne parle que d’armes</l>
+            <l>D’assaulx de belliqueuses allarmes</l>
+            <l>De canons de lances de voulges</l>
+            <note type="crit" resp="editor">Les vouges sont des sortes d'épieu (Huguet), portés
+               notamment par les soldats anglais (Mémoires de Martin Du Bellay, I, 10).</note>
+            <!-- Saut#34 -->
+            <l n="184">Et de la grosse tour de <placeName><settlement type="city"
+                     >Bourges</settlement></placeName></l>
+            <l>C’est ung logis qui convient mal</l>
+            <l>Pour recepvoir ung Cardinal</l>
+            <l>J’ay grand doubte du chappeau rouge</l>
+            <l n="188">Hola enfans que l’on ne bouge</l>
+            <l>Laissez le passer il est nostre</l>
+            <l>Le beau mot de la patenostre</l>
+            <l>Qui est que dimitte nobis</l>
+            <!-- Saut#35 -->
+            <l n="192">C’estoit trop tranché du grobis</l>
+            <l>D’exploicter sans commandement</l>
+            <l>S’il n’y a aultre mandement</l>
+            <l>Tout ira par dessus l’espaulle</l>
+            <l n="196">Des trois parties de la
+               <placeName><settlement>Gaule</settlement></placeName></l>
+            <l>L’une s’en va mangée en bulles</l>
+            <!-- Saut#36 -->
+            <l><reg>Et</reg> puis les torche cul de mules</l>
+            <l>Sont faictz curez sans porter chappe</l>
+            <!-- Saut#37 -->
+            <l n="200">A Dieu la pantoufle du <persName>Pape</persName></l>
+            <l>S’on ne reforme noz prelatz</l>
+            <!-- Saut#38 -->
+            <l>Malle croist en noz prez bas</l>
+            <note/>
+            <l>C’est pitié si <persName>Dieu</persName> n’y pourvoit</l>
+            <l n="204">S’esbayt on pourquoy on voit</l>
+            <l>Tant de soudaines mutations</l>
+            <!-- Saut#39 -->
+            <l>Il y a trop plus de passions</l>
+            <l>Aux cueurs humains qu’en l’Evangile</l>
+            <!-- Saut#40 -->
+            <pb n="127r"/>
+            <fw type="pageNum" place="top-right">127</fw>
+            <l n="208">On dict qu’il estoit homme habille</l>
+            <l>Et entendu <persName ref="#G_Poyet">ce bon Guillaume</persName></l>
+            <l>Qui pour le proffit du Royaulme</l>
+            <l>A trouvé tant de pillerie</l>
+            <l n="212">Soubz umbre de chevallerie</l>
+            <l>Quant on luy en parle il rougist</l>
+            <!-- Saut#41 -->
+            <l><rs type="proverbe">Tant grate <rs type="animal">chievre</rs> que mal gist</rs></l>
+            <l>Les vieilles en font ung proverbe</l>
+            <!-- Saut#42 -->
+            <l n="216">Encor feras n’est plus adverbe</l>
+            <l>On l’a faict interjection</l>
+            <l>Car il monstre l’affection</l>
+            <l>De la pensée sans mot dire</l>
+            <!-- Saut#43 -->
+            <l n="220">L'accointance n’en est pas pire</l>
+            <l>De <persName>ce grand Empereur d’Asie</persName></l>
+            <l>Pour cognoistre la fantasie</l>
+            <l>De <persName>Monseigneur Charles qui triche</persName></l>
+            <l n="224">Mais on craint qu’il ne mette en friche</l>
+            <l>La vigne que <persName>Dieu</persName> laboura</l>
+            <!-- Saut#44 -->
+            <l>Il est a qui l’aura l’aura</l>
+            <l>C’est la chanson du temps qui court</l>
+            <!-- Saut#45 -->
+            <l n="228">Et coq pour te le faire court</l>
+            <l>Entre nous <rs type="animal" subtype="équidé">asnes</rs> beguinez</l>
+            <l>Sommes bien souppez bien disnez</l>
+            <l>Et ne nous couchons sans froter</l>
+            <l n="232">Et le bas on le faict porter</l>
+            <l>Aux bestes qui n’ont point de tiltre</l>
+            <l>D’affinité pour porter mytre</l>
+            <!-- Saut#46 -->
+            <l>Mande moy si tu as loisir</l>
+            <l n="236">Si les <rs type="animal" subtype="oiseau">coqs</rs> vivent à plaisir</l>
+            <pb n="127v"/>
+            <l>Et comment se porte la creste</l>
+            <!-- Saut#47 -->
+            <l>Escript une veille de feste</l>
+            <l>Au soir d’une plume de <rs type="animal">cane</rs></l>
+            <l n="240">De par le tien compere l’<rs type="animal">asne</rs></l>
+         </div>
+      </body>
+   </text>
+</TEI>

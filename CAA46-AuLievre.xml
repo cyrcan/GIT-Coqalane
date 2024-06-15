@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Le coq au lievre</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Copie qui est le seul témoin manuscrit de ce coq-à-l'âne publié par Henri Meylan en
+               1956 d'après la version imprimée "Le coq aux lievres" (sic) qui présente des
+               coquilles et des oublis. Le ms NAF 1870 vient la compléter et élucider certains
+               passages. Le pluriel ne se justifie pas au regard des références internes du
+               poème.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p><listPerson>
+               <person xml:id="François_II" corresp="https://data.bnf.fr/ark:/12148/cb12351125v">
+                  <idno type="ISNI">0000 0001 2142 8987</idno>
+                  <persName xml:lang="fr"><forename type="first">François</forename><surname> II
+                     </surname></persName>
+               </person>
+               <person xml:id="Anne_de_Montmorency"
+                  corresp="https://data.bnf.fr/ark:/12148/cb121165804">
+                  <idno type="ISNI">0000 0001 2118 2438</idno>
+                  <persName xml:lang="fr"><forename type="first">Anne</forename><surname> de
+                        Montmorency</surname></persName>
+               </person>
+               <person xml:id="Jarnac" corresp="https://data.bnf.fr/ark:/12148/cb120141586">
+                  <idno type="ISNI">0000 0004 4572 1864</idno>
+                  <persName xml:lang="fr"><forename type="first">Guy</forename><surname> Chabot de
+                        Jarnac</surname><roleName>(Baron)</roleName></persName>
+                  <birth><date>1509</date></birth>
+                  <death><date>1584</date></death>
+               </person>
+               <person xml:id="Paul_IV" corresp="https://data.bnf.fr/ark:/12148/cb123280218">
+                  <idno type="ISNI">0000 0004 4572 1864</idno>
+                  <persName xml:lang="fr"><forename type="first">Jean-Pierre</forename><surname>
+                        Carafa </surname><roleName>(Pape)</roleName></persName>
+                  <birth><date>1476</date></birth>
+                  <death><date>1559</date></death>
+               </person>
+               <person xml:id="Charles_de_Lorraine"
+                  corresp="https://data.bnf.fr/ark:/12148/cb133212787">
+                  <idno type="ISNI">0000 0001 2279 5260</idno>
+                  <persName xml:lang="fr"><forename type="first">Charles</forename><surname> de
+                        Guise</surname><roleName> (Cardinal de Lorraine)</roleName></persName>
+                  <birth><date>1524</date></birth>
+                  <death><date>1574</date></death>
+               </person>
+               <person xml:id="Termes" corresp="http://viaf.org/viaf/206152545">
+                  <idno type="VIAF">206152545</idno>
+                  <persName xml:lang="fr"><forename type="first">Paul</forename><surname> de La
+                        Barthe de Thermes</surname><roleName>(Maréchal)</roleName></persName>
+                  <birth><date>1482</date></birth>
+                  <death><date>1562</date></death>
+               </person>
+            </listPerson></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>NAF 1870 (f°18r-</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <l>Ces jours passez mon amy <persName type="destinataire"><rs type="animal"
+               >Lievre</rs></persName></l>
+         <l>Estant malade d'une fiebvre</l>
+         <fw type="sig" place="bottom-right">Eii</fw>
+         <pb n="18v"/>
+         <l>Qu'ay receu des bazochiens</l>
+         <l n="4">M'ont dict <rs type="injonction" subtype="impératif">garde toy</rs> des gros <rs
+               type="animal" subtype="canidé">chiens</rs></l>
+         <l>Qui font le guet de toutes parts</l>
+         <l>Hardis sont <expan>comme</expan>
+            <rs type="animal" subtype="félin">leopards</rs></l>
+         <l>Pour allumer une bourree</l>
+         <l n="8">Ilz ont une croix embourree</l>
+         <l>Pour la porter mieulx à leur ayse</l>
+         <l>Je vys icy en grand malaise</l>
+         <l>J'en deusse estre dehors pieça</l>
+         <l n="12">Des nouvelles de pardeça</l>
+         <l>Les <orgName type="peuple">Anglois</orgName> font trembler la <placeName><settlement
+                  type="country">France</settlement></placeName></l>
+         <l><placeName><settlement type="region">Guyenne</settlement></placeName> crainct
+               <reg>d'avoir</reg> souffrance</l>
+         <l>Sy on ne luy donne secours</l>
+         <l n="16">Pour maintenant les jours sont courts</l>
+         <l>Que vous en semble mon compere</l>
+         <l>Il fault que je vous obtempere</l>
+         <l>Car vous scavez tous les moyens</l>
+         <l n="20">Ilz sont vaillans comme <orgName type="peuple">Troyens</orgName></l>
+         <l><reg>C'est</reg> belle chose de les veoir</l>
+         <l>Sy feirent ilz bien leur debvoir</l>
+         <l><reg>À</reg> la journée de <date when="1557-08-10">Sainct Quentin</date></l>
+         <l n="24">Veois tu pas se peuple mutin</l>
+         <l>Qui combat contre son dieu mesme</l>
+         <l>Et cestuy <reg>là</reg> qui mieulx blaspheme</l>
+         <l>Pour <roleName>cappitaine</roleName> est retenu</l>
+         <l n="28">Le temps passé est revenu</l>
+         <l>Chascun s'habille <reg>à</reg> l'alemande</l>
+         <l>On dict que <persName ref="#Jarnac">Jarnac</persName> et sa bande</l>
+         <l>Triompherent <reg>à</reg> ce jour <reg>là</reg></l>
+         <l n="32">Le <roleName ref="#Anne_de_Montmorency">connestable</roleName>
+            <reg>s'en</reg> alla</l>
+         <l>Doulcement comme une espouzee</l>
+         <l>Rien rien cela <reg>n'est</reg> que rouzee</l>
+         <l>Nous aurons bien d'aultres butins</l>
+         <l n="36">Car il fault q'un de ses matins</l>
+         <l>De son nid le <roleName ref="#Paul_IV">pape</roleName> on desniche</l>
+         <note>Variante</note>
+         <l>Nous avons cy la quoqueluche</l>
+         <l>Depuis deux ou troys moys en <reg>ça</reg></l>
+         <l n="40">Quant espee et lance laissa</l>
+         <l>Au besoing sans voulloir combatre</l>
+         <l>Combien qu'il veit le peuple abbatre</l>
+         <l><reg>C'estoit</reg> ung signe de se rendre</l>
+         <l n="44">Dict on poinct qu'on fera descendre</l>
+         <l>Le Turc pour venger la fortune</l>
+         <note>Variante</note>
+         <l>De deux croissans <reg>à</reg> une Lune</l>
+         <l>Il n'y a pas grand difference</l>
+         <fw type="sig" place="bottom-right">On le</fw>
+         <pb n="19r"/>
+         <fw type="pageNum" place="top-right">fol xix</fw>
+         <l n="48">On le veoit par expérience</l>
+         <l>En ceulx <reg>là</reg> qui crestiens se disent</l>
+         <l>Qui touteffoys au but ne visent</l>
+         <l>Mais par le fruict on congnoist <reg>l'arbre</reg></l>
+         <l n="52">Ventre sainct gris teste d'albastre</l>
+         <l>Ce fut une grande surprise</l>
+         <l>Ilz estoient tous nuds en chemise</l>
+         <l>Par le conseil <reg>à</reg> eulx donné</l>
+         <l n="56">Ne t'es tu jamays estonné</l>
+         <l><reg>À</reg> contempler les gros caphars</l>
+         <l>Ja <reg>n'est</reg> besoing <reg>d'avoir</reg> des fars</l>
+         <l>Pour paindre leur rouge museau</l>
+         <l n="60"><reg>À</reg>
+            <placeName><settlement type="city">Bordeaulx</settlement></placeName> tiennent le
+            bureau</l>
+         <l>Pour mectre <reg>à</reg> mort ung de noz freres</l>
+         <l>Chascun scayt bien que ces <rs type="animal">vipere</rs>s</l>
+         <l>Sont tousjours apres la marmite</l>
+         <l n="64">Commes elles font la chatemitte</l>
+         <l>Je m'en ris quant un peu je y pense</l>
+         <l>Chault vin vault mieulx <expan>que</expan> despence</l>
+         <l>Tu <expan>congnois</expan> bien <expan>que</expan> je veulx dire</l>
+         <l n="68">Prescher la loy puis <reg>s'en</reg> desdire</l>
+         <l><reg>C'est</reg> un acte par trop infame</l>
+         <l>Je <reg>n'ay</reg> poinct veu <expan>homme</expan> ne femme</l>
+         <l>Qui disent <reg>l'avoir</reg> trouvé beau</l>
+         <l n="72">Lisez le testament nouveau</l>
+         <l>Vous y trouverés en escript</l>
+         <l>Qu'il fault ung jour <expan>que</expan> l'<persName key="Antéchrist"
+               >anthecrist</persName></l>
+         <l>Soict abismé et confondu</l>
+         <l n="76">Mais <persName>Dieu</persName> a tousjours attendu</l>
+         <l><reg>Qu'il</reg> soict monte jusqu'au plus hault</l>
+         <l>Pour luy donner ung plus grand sault</l>
+         <l>Lievre lievre donne toy garde</l>
+         <l n="80">Ilz sont plus fins que la moustarde</l>
+         <l>Qui surprend les gens par le nez</l>
+         <l>Ces gros asnes embeguynez</l>
+         <l>Craignent de perdre leurs pratiques</l>
+         <l n="84">Disans que ceulx sont heretiques</l>
+         <l>Qui preschent soubz la cheminée</l>
+         <l>Et que la loy nous est donnée</l>
+         <l>Pour la prescher publiquement</l>
+         <l n="88">Aussy veoit on assez comment</l>
+         <l>Ilz en font fort bien leur debvoir</l>
+         <l><reg>C'est</reg> ung plaisir que de les veoir</l>
+         <l>Quant ce vient au jour des grands festes</l>
+         <fw type="sig" place="bottom-right">E iii</fw>
+         <l n="92">Puis les orgues fluttes et trompettes</l>
+         <l>Font sonner pour Dieu resjouyr</l>
+         <l>Mieulx vault telz passetemps ouyr</l>
+         <l>Que ses sermons fascheux et tristes</l>
+         <l n="96"><reg>C'est</reg> affaire aux <orgName type="secte">evangelistes</orgName></l>
+         <l>La croix de <persName key="Jésus-Christ">Jésuchrist</persName> porter</l>
+         <l>Je te supplye me supporter</l>
+         <l>Je pensoys parler de la guerre</l>
+         <l n="100">Et tous furent ruez par terre</l>
+         <l>Faisans leurs renvitaillemens</l>
+         <l>Puis tant de beaulx habillemens</l>
+         <l>Chasubles tunicques et chappes</l>
+         <l n="104">Ung grand messel et ses satrappes</l>
+         <l>Je <reg>t'en</reg> ay bien voulu escripre</l>
+         <l>Veu <reg>qu'il</reg> y a trop de quoy rire</l>
+         <l>Voyant telles chasses adorer</l>
+         <l n="108">Quoy rire mais plustost plorer</l>
+         <l>Nous debvrions en oyant telz comptes</l>
+         <l>Car princes seigneurs ducs et contes</l>
+         <l>Les premiers de la fleur de lys</l>
+         <l n="112">Furent tous <reg>là</reg> ensévelys</l>
+         <l>Par les chemyns et par les champs</l>
+         <l>Ilz sont bien faschez ses marchans</l>
+         <l><reg>Qu'on</reg>
+            <reg>n'achepte</reg> plus leurs chansons</l>
+         <l n="116">On ne peult trouver des maçons</l>
+         <l>Pour accoustrer leur purgatoire</l>
+         <l>Qui leur servoit <reg>d'un</reg> oratoire</l>
+         <l>Que l'<persName key="Antéchrist">anthecrist</persName> avoict mys sus</l>
+         <l n="120">Contraire <reg>à</reg> la mort de <persName key="Jésus">Jesus</persName></l>
+         <l>Parquoy il est force <reg>qu'il</reg> tombe</l>
+         <l>Il fault escripre sur sa tumbe</l>
+         <note>Vers manquant dans la version imprimée</note>
+         <l>Las o vos amici mei</l>
+         <l n="124"><rs type="injonction" subtype="impératif">Arrestez vous</rs> mater dei</l>
+         <l>Ung requiescant in pace</l>
+         <l>Mieulx vauldroit <reg>qu'il</reg> feust trespassé</l>
+         <l>Vingt ans y a le malheureux</l>
+         <l n="128">Ce sont actes fort rigoureux</l>
+         <l>Meurdrir ceulx qui confessent <persName>Dieu</persName></l>
+         <l>Et aux blasphemes donner lieu</l>
+         <l>Cela ne se veoit en <placeName><settlement type="country" key="Turquie"
+                  >Turquye</settlement></placeName></l>
+         <l n="132">Puis <reg>qu'on</reg> ne veult que dieu <reg>l'on</reg> prye</l>
+         <l>Nous <reg>n'en</reg> pouvons <expan>que</expan> mal attendre</l>
+         <l>Il en feit ja bien mettre en cendre</l>
+         <l>Tesmoing [les] quatorze de <placeName><settlement type="city"
+               >Meaulx</settlement></placeName></l>
+         <l n="136"><placeName><settlement type="city">Paris</settlement></placeName> a deux places
+            aux <rs type="animal">veaulx</rs></l>
+         <l>Dont la plus grande est la <placeName>Sorbonne</placeName></l>
+         <l>La saincte evangille est tresbonne</l>
+         <fw type="sig" place="bottom-right">Il nous</fw>
+         <pb n="20r"/>
+         <fw type="pageNum" place="top-right">folio xx</fw>
+         <l>Il nous convient croire en icelle</l>
+         <l n="140">Trop mieulx en vault une estincelle</l>
+         <l>Que toutes les loix romanicques</l>
+         <l>Et les sermons pharisaiques</l>
+         <l>Qui preschent mais non pas souvent</l>
+         <l n="144">Excepté que dans leur couvent</l>
+         <l>Ilz font choses tant execrables</l>
+         <l><reg>Qu'il</reg> semble à veoir <expan>que</expan> tous les diables</l>
+         <l>Ayent pris ce lieu pour leur enfer</l>
+         <l n="148">Plusieurs marchans gaignent en fer</l>
+         <l>Et le <roleName ref="#Paul_IV">pape</roleName> à vendre chappeaulx</l>
+         <l>Puis on trouve des maquereaulx</l>
+         <l>Maintenant en plusieurs maisons</l>
+         <l n="152">Je veulx dire en toutes saisons</l>
+         <l>Comme <reg>l'on</reg> faict au moys <reg>d'avril</reg></l>
+         <l>Je seray roty sur le gril</l>
+         <l><reg>S'ilz</reg> me peulvent ung jour <expan>congnoistre</expan></l>
+         <l n="156"><reg>D'avoir</reg> parlé contre leur maistre</l>
+         <l>Des questions théologalles</l>
+         <l>On trouve force vertugalles</l>
+         <l>Dans les couvens de ses nonnettes</l>
+         <l n="160">Plusieurs <reg>d'icelles</reg> sont non nettes</l>
+         <l>Donnent par tout de la vérolle</l>
+         <l>Sy tu parle (sic) de la parolle</l>
+         <l>Soys prudent sans rien desguiser</l>
+         <l n="164">La pluspart pour en deviser</l>
+         <l>Ont du scavoir jusques au bout</l>
+         <l>S'on leur parle de quicter tout</l>
+         <l>Et porter leur croix apres <persName>Dieu</persName></l>
+         <l n="168"><expan>Vostre</expan> parolle n'aura lieu</l>
+         <l>Ces freres ne le peulvent faire</l>
+         <l>Scays tu pas que <reg>l'on</reg> faict refaire</l>
+         <l>Les boullevers devant <placeName><settlement type="city"
+               >Bordeaulx</settlement></placeName></l>
+         <l n="172">On verra jouer des cousteaulx</l>
+         <l>Avant que le proces se fyne</l>
+         <l><persName ref="#Charles_de_Lorraine">Le Cardinal de la Ruyne</persName></l>
+         <l>Mettra le feu de tous costez</l>
+         <l n="176">Sur ceulx lesquelz seront nottez</l>
+         <l>De pouldre <reg>à</reg> canon et fagots</l>
+         <l><reg>D'où</reg> vient que nul de ses cagots</l>
+         <l>Pour leur loy ne souffrent martire</l>
+         <l n="180">Jamays <reg>à</reg> nul je <reg>n'oys</reg> dire</l>
+         <l><reg>Qu'on</reg> en soict mort par feu ou <expan>flamme</expan></l>
+         <fw type="sig" place="bottom-right">E iiii</fw>
+         <pb n="20v"/>
+         <l>Exepté pour <reg>l'amour</reg> des femmes</l>
+         <l>Souvent sont tant amoureux d'elles</l>
+         <l n="184"><reg>Qu'ilz</reg> bruslent vifs comme chandelles</l>
+         <l>Plusieurs en sont borgnes <expan>et</expan> boitteux</l>
+         <l>Vérollée chancreux et goutteux</l>
+         <l>Voilà la persécution</l>
+         <l n="188">De ceste génération</l>
+         <l>Que mauldite soict la vermyne</l>
+         <l>Elle est tousjours aussy maligne</l>
+         <l><reg>Qu'elle</reg> fut onq la vielle mulle</l>
+         <l n="192">Je ne scay sy par la bulle</l>
+         <l>Du <roleName ref="#Paul_IV">pere sainct</roleName> il la dispence</l>
+         <l>Plusieurs pour remplir leur pence</l>
+         <l>Ont renoncé Dieu et la foy</l>
+         <l n="196">Et sont tombez en desarroy</l>
+         <l>Comme on dict ilz craignent la touche</l>
+         <l>De jurer <persName>Dieu</persName>
+            <reg>à</reg> plaine bouche</l>
+         <l>On <reg>n'en</reg> est nullement repris</l>
+         <l n="200">Le <persName key="Jésus">filz de Dieu</persName> ont mys à pris</l>
+         <l>Et le vendent comme <persName>Judas</persName></l>
+         <l>Ilz sont serviteurs de <persName type="mythologie">Mydas</persName></l>
+         <l>Tous sont lyez <reg>à</reg> sa cordelle</l>
+         <l n="204">Bon faict avoir prince fidelle</l>
+         <l><reg>C'est</reg> ung grand heur pour le pays</l>
+         <l>Plusieurs en sont moult esbahys</l>
+         <l>De la promesse <reg>qu'il</reg> luy feit</l>
+         <l n="208">Il en parloict <reg>à</reg> son proffict</l>
+         <l>Quant au <roleName ref="#François_II">Roy</roleName> demanda du moings</l>
+         <l>Cinquante mil hommes tesmoings</l>
+         <l>Pour prendre la possession</l>
+         <l n="212">De l'evesché du <placeName><settlement>mont Syon</settlement></placeName></l>
+         <l>Ilz sont fort belle compagnye</l>
+         <l>Je prye <persName>Dieu</persName>
+            <reg>qu'il</reg> les benye</l>
+         <l>Et les maintienne en la foy <reg>ferme</reg></l>
+         <l n="216">On dict que le <persName ref="#Termes">seigneur de Termes</persName></l>
+         <l>A triomphé <reg>à</reg> son retour</l>
+         <l>Aux ennemys feit un bon tour</l>
+         <l>Il leur rendit bien la pareille</l>
+         <l n="220"><reg>Ô</reg> Dieu de vertu nonpareille</l>
+         <l>Est il aussy grand animal</l>
+         <l><reg>Qu'estoit</reg> pour lors ce cardinal</l>
+         <l>Qui vouloit aller à <placeName><settlement type="city" key="Genève"
+               >Genesve</settlement></placeName></l>
+         <l n="224">Il est certain que la senéve</l>
+         <l>Est plus petite qu'aultre graine</l>
+         <l>Mais quant on la pille et esgraine</l>
+         <l>Elle a une grande vertu</l>
+         <fw type="sig" place="bottom-right">C'est</fw>
+         <pb n="21r"/>
+         <fw type="pageNum" place="top-right">folio xxi</fw>
+         
+      </body>
+   </text>
+</TEI>

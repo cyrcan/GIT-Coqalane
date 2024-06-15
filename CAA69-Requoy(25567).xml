@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../Users/c.ca/Downloads/tei_Corpus_CAA.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../Users/c.ca/Downloads/tei_Corpus_CAA.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc xml:id="Requoy_1580">
+         <titleStmt>
+            <title>L'Asne au coq</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Texte établi à partir du ms. fr. 25567.</p>
+            <p><listWit>
+                  <witness xml:id="fr25567"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris,</settlement>
+                           <repository>Bibliothèque nationale de France,</repository>
+                           <idno>ms. 25567</idno>
+                           <objectName> (référence pour cette transcription)</objectName>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness xml:id="COL500"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris,</settlement>
+                           <repository>Bibliothèque nationale de France,</repository>
+                           <idno>ms. Colbert(500)</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness xml:id="TOUL613"><msDesc>
+                        <msIdentifier>
+                           <settlement>Toulouse,</settlement>
+                           <repository>Bibliothèque du Patrimoine,</repository>
+                           <idno>ms. 613</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+               </listWit></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p><listEvent>
+               <event xml:id="massacre-0" when="1572-08-24" where="Paris">
+                  <head>Saint-Barthélemy</head>
+                  <label>Massacre</label>
+                  <desc>Massacre des capitaines huguenots au Louvre et à Paris par les troupes et la
+                     population.</desc>
+               </event>
+               <event xml:id="ind-1" when="1581" where="Paris">
+                  <head>Emprisonnement de St-Léger</head>
+                  <label>Indice</label>
+                  <desc>Emprisonnement à la suite d'un différend personnel</desc>
+               </event>
+               <event xml:id="militaire-1" when="1579-11-29" where="La Fère">
+                  <head>Surprise de La Fère</head>
+                  <label>Indice</label>
+                  <desc>Prise de la ville par le prince de Condé le 29 novembre 1579.</desc>
+               </event>
+               <event xml:id="ind-2" when="1578" where="Paris">
+                  <head>Duel des Mignons</head>
+                  <label>Indice</label>
+                  <desc>Affrontement entre les favoris de Henri III et les gens de Monsieur.</desc>
+               </event>
+               <event xml:id="ind-3" when="1580-05">
+                  <head>Querelle entre Montpensier et Nevers</head>
+                  <label>Indice</label>
+                  <desc>Poursuite d'une rivalité ancienne entre les deux ducs.</desc>
+               </event>
+            </listEvent></p>
+         <p><listPerson>
+               <person xml:id="Henri_de_Navarre"
+                  corresp="https://data.bnf.fr/ark:/12148/cb120154019">
+                  <idno type="ISNI">0000 0001 2134 8311</idno>
+                  <persName xml:lang="fr"><forename type="first">Henri</forename><surname> de
+                        Navarre</surname> (futur Henri IV)<roleName/></persName>
+                  <birth><date>1553-12-14</date></birth>
+                  <death><date>1610-05-14</date></death>
+               </person>
+               <person xml:id="Henri_de_Bourbon-Condé"
+                  corresp="https://data.bnf.fr/ark:/12148/cb13496661f">
+                  <idno type="ISNI">0000 0000 7991 7364</idno>
+                  <persName xml:lang="fr"><forename type="first">Henri Ier</forename><surname> de
+                        Bourbon-Condé</surname><roleName>, prince de Condé</roleName></persName>
+                  <birth><date>1552-12-29</date></birth>
+                  <death><date>1588-03-05</date></death>
+               </person>
+               <person xml:id="Turenne1" corresp="https://data.bnf.fr/ark:/12148/cb13497122d">
+                  <idno type="ISNI">0000 0000 8342 3551</idno>
+                  <persName xml:lang="fr"><forename type="first">Henri</forename><surname> de La
+                        Tour d'Auvergne, vicomte de Turenne, duc de
+                     Bouillon</surname><roleName/></persName>
+                  <birth><date>1555-09-28</date></birth>
+                  <death><date>1623-03-25</date></death>
+               </person>
+               <person xml:id="Saint_Léger">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first"/><surname>
+                     Saint-Léger</surname></persName>
+               </person>
+               <person xml:id="Birague" corresp="https://data.bnf.fr/ark:/12148/cb14875274v">
+                  <idno type="ISNI">0000 0001 1623 060X</idno>
+                  <persName xml:lang="fr"><forename type="first">René</forename><surname> de
+                        Birague</surname><roleName/></persName>
+                  <birth><date>1506-02-05</date></birth>
+                  <death>1583-11-24</death>
+               </person>
+               <person xml:id="Cheverny" corresp="https://data.bnf.fr/ark:/12148/cb12516669k">
+                  <idno type="ISNI">0000 0000 8060 3020</idno>
+                  <persName xml:lang="fr"><forename type="first">Philippe</forename><surname>
+                        Hurault de Cheverny</surname></persName>
+                  <birth><date>1523</date></birth>
+                  <death>1599</death>
+               </person>
+               <person>
+                  <persName xml:id="Lignerolles">
+                     <idno/>
+                     <persName xml:lang="fr"><surname>Le Voyer, seigneur de Bellefille et de
+                           Lignerolles</surname><forename type="first">
+                        Philibert</forename></persName></persName>
+                  <death><date>1571</date></death>
+               </person>
+               <person>
+                  <persName xml:id="Henri_III" corresp="https://data.bnf.fr/ark:/12148/cb12016877w">
+                     <idno type="ISNI">0000 0001 2319 7721</idno>
+                     <persName xml:lang="fr"><forename type="first">Henri</forename><surname>
+                           III</surname></persName></persName>
+               </person>
+               <person>
+                  <persName xml:id="François_d_O"
+                     corresp="https://data.bnf.fr/ark:/12148/cb18061618g">
+                     <idno type="ISNI">0000 0005 0985 0754</idno>
+                     <persName xml:lang="fr"><surname> Ô<forename type="first">, François
+                              d'</forename></surname></persName></persName>
+                  <death><date>1585</date></death>
+               </person>
+               <person xml:id="Catherine_de_Médicis"
+                  corresp="https://data.bnf.fr/ark:/12148/cb123351707">
+                  <idno>0000 0001 2095 7473</idno>
+                  <persName xml:lang="fr"><forename type="first">Catherine</forename><surname> de
+                        Médicis</surname></persName>
+               </person>
+               <person xml:id="François_Du_Plessis"
+                  corresp="https://data.bnf.fr/ark:/12148/cb12136124z">
+                  <idno type="ISNI">0000 0003 5699 0341</idno>
+                  <persName xml:lang="fr"><forename type="first">François</forename><surname> du
+                        Plessis, sieur de Richelieu</surname></persName>
+                  <birth><date>1548</date></birth>
+                  <death><date>1590-06-10</date></death>
+               </person>
+               <person xml:id="Maurevert">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Charles</forename><surname> de
+                        Louviers</surname></persName>
+                  <birth><date>1507</date></birth>
+                  <death><date>1583-04-14</date></death>
+               </person>
+               <person xml:id="Souvré">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Gilles</forename><surname> de
+                        Courtenvaux, de Souvré</surname></persName>
+               </person>
+               <person xml:id="Simiers">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname>
+                        Simiers</surname><roleName> (Maître de la garde-robe du duc
+                        d'Alençon)</roleName></persName>
+               </person>
+               <person xml:id="Françoise_de_Bourbon">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Françoise</forename><surname> de
+                        Bourbon, <roleName>duchesse de Bouillon</roleName></surname></persName>
+                  <birth><date>1539</date></birth>
+                  <death>1587</death>
+               </person>
+               <person xml:id="Maugiron">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Louis</forename><surname> de
+                        Maugiron</surname> (favori de Henri III)<roleName/></persName>
+                  <birth><date>1560</date></birth>
+                  <death>1578-04-27</death>
+               </person>
+               <person xml:id="Caylus">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Jacques</forename><surname> de
+                        Lévis</surname>, comte de Caylus ou Quélus<roleName/></persName>
+                  <birth><date>1554</date></birth>
+                  <death>1578-05-29</death>
+               </person>
+               <person xml:id="Aumont">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Jean VI</forename><surname> d'
+                        Aumont</surname><roleName>, maréchal en 1579</roleName></persName>
+                  <birth><date>1522</date></birth>
+                  <death>1595</death>
+               </person>
+               <person xml:id="Beaupré">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Christian</forename><surname> de
+                        Choiseul, baron de Beaupré</surname><roleName/></persName>
+                  <birth/>
+                  <death/>
+               </person>
+               <person xml:id="Montpensier2">
+                  <idno type="ISNI">0000 0000 3753 7662</idno>
+                  <persName xml:lang="fr" corresp="https://data.bnf.fr/ark:/12148/cb14978923s"
+                        ><forename type="first">Louis II</forename><surname> de
+                        Bourbon-Montpensier</surname><roleName/></persName>
+                  <birth><date>1513-06-10</date></birth>
+                  <death><date>1582-09-23</date></death>
+               </person>
+               <person xml:id="Nevers">
+                  <idno type="ISNI">0000 0000 6130 8720</idno>
+                  <persName xml:lang="fr" corresp="https://data.bnf.fr/ark:/12148/cb126281123"
+                        ><forename type="first">Louis</forename><surname> de Gonzague, duc de
+                        Nevers</surname><roleName/></persName>
+                  <birth><date>1539-09-18</date></birth>
+                  <death><date>1595-10-23</date></death>
+                  <!-- Écrivait aussi en italien et en latin
+Homme de guerre. - Prince de Mantoue, fils de Frédéric II, duc de Mantoue. - Duc de Nevers par son union avec Henriette de Clèves (1565). - Naturalisé français en 1560 -->
+               </person>
+               <person xml:id="Villeroy" corresp="http://catalogue.bnf.fr/ark:/12148/cb12512069z"
+                  sameAs="http://viaf.org/viaf/24708426" sex="1" source="OPP">
+                  <persName xml:lang="fr"><surname>Villeroy</surname><nameLink>de
+                        Neufville</nameLink><forename>Nicolas</forename></persName>
+                  <birth>1542, Paris</birth>
+                  <death>1617, Rouen</death>
+               </person>
+               <person xml:id="Reine_Margot" corresp="https://data.bnf.fr/ark:/12148/cb120277296">
+                  <idno type="ISNI">0000 0001 2140 7748</idno>
+                  <persName xml:lang="fr" corresp="https://data.bnf.fr/ark:/12148/cb126281123"
+                        ><forename type="first">Marguerite</forename><surname> de
+                     Navarre</surname><roleName/></persName>
+                  <birth><date>1553-05-14</date></birth>
+                  <death><date>1615-03-27</date></death>
+               </person>
+               <person xml:id="Jean-Casimir">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname> Casimir de
+                        Bavière, électeur du Palatinat</surname><roleName/></persName>
+                  <birth/>
+                  <death/>
+               </person>
+            </listPerson></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change><date>2024-03-01</date>Encodage à partie de la confrontation de trois témoins, le
+            volume 500 des Cinq Cents de Colbert, le ms. 613 de la BM de Toulouse et le recueil des
+            pièces fugitives de la BnF. ms. 25567, notre référence.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <timeline xml:id="TL01" unit="d">
+            <when xml:id="TL-w0" absolute="1572-08-24"/>
+            <when xml:id="TL-w1" interval="unknown" since="#TL-w0"/>
+            <when xml:id="TL-w2" interval="10" since="#TL-w1"/>
+            <when xml:id="TL-w3" interval="20" since="#TL-w2"/>
+
+         </timeline>
+         <p>
+            <l>Coq mon amy dy moy pourquoy</l>
+            <l>Tu te retiens si <reg>à</reg> requoy</l>
+            <note resp="editor" type="ling"><hi rend="italic">À requoy</hi> : "En retrait, en
+               cachette".</note>
+            <l>Sans <reg>à</reg> moy ton asne et amy</l>
+            <l n="4">En mander si <reg>n'es</reg> endormy</l><note resp="editor" type="variante">Le
+               ms. des Cinq cents de Colbert est le seul à proposer la variante "ennemy" à la place
+               de "endormy".</note>
+            <l>De tes nouvelles pour en rire,</l>
+            <l>Ou bien si tu n'oses m'escrire</l>
+            <l>Puis que je n'ay de tes nouvelles</l>
+            <l n="8">Je t'en veux compter des plus belles</l>
+            <l><hi rend="indent"/>On a faict marcher une armée</l>
+            <l>Qui fera comme <reg>l'autre</reg> année</l>
+            <l>Et va pour secourir <placeName key="Cambray"><settlement type="ville"
+                     >Cambray</settlement></placeName></l>
+            <l n="12">Si ce que l'on en dict est vray</l>
+            <l>Il y en aura de surpris</l>
+            <l>Et seront traittez <reg>à</reg> tel prix</l>
+            <l>Que <date key="St-Barthélemy" ref="#w0">le Jour St Barthelemy</date></l>
+            <!-- Saut #1 -->
+            <l n="16">Il n'est pas <orgName type="secte">Chrestien</orgName>
+               <reg>à</reg> demy</l>
+            <l>Qui ne porte un beau chapelet</l>
+            <!-- Saut#2 -->
+            <l>Les Prisonniers du <placeName>Chastelet</placeName></l>
+            <l>N'en sortent point sans fascherie,</l>
+            <!-- Saut#3 -->
+            <l n="20">Scavoir si la <placeName>Conciergerie</placeName></l>
+            <l>Est agreable <reg>à</reg>
+               <persName ref="#Saint_Léger">St Leger</persName></l><note resp="editor" type="glose"
+               >L'Estoile signale l'emprisonnement du sieur de St-Léger à la date du 9 mars 1581
+               pour trois ou quatre mois. <title>Registre-Journal</title>, tome III, p. 137.</note>
+            <pb n="40v"/>
+            <!-- Saut#4 -->
+            <l>D'<reg>où</reg> vient cela que l'estranger</l>
+            <l>A si grand credit <reg>à</reg> la Cour</l>
+            <!-- Saut#5 -->
+            <l n="24"><rs type="proverbe">Tel compte qui se trouve court</rs></l>
+            <l>Pour n'entendre l'Arithmetique</l>
+            <l>Et faulte de mettre en pratique</l>
+            <l>Le chiffre qu'on nomme Zero</l>
+            <!-- Saut#6 -->
+            <l n="28">Il ne s'en fault plus rien qu'un <persName ref="#François_d_O"
+               >O</persName></l><note resp="editor" type="glose">François d’O. Seigneur de Fresnes
+               et de Maillebois, fils de Jean d’O et d’Hélène d’Illiers (mort en 1594). Maître de la
+               garde-robe d’Henri III, surintendant des finances, gouverneur de Caen, de Paris et de
+               l’Ile-de-France. Il fit partie des « quatre » favoris d'Henri III avec d’Inteville,
+               Saint-Sulpice et Caylus.</note>
+            <l>Que je n'entende l'Alphabet</l>
+            <!-- Saut#7 -->
+            <l>Que ne mene l'on au gibet</l>
+            <l>Tous ces <rs type="invective">Inventeurs de subsides</rs></l>
+            <!-- Saut#8 -->
+            <l n="32">Mais quoy les bourses sont si vuides</l>
+            <l>Que chacun estat est destruict</l>
+            <!-- Saut#9 -->
+            <l><persName>Chiverny</persName> a acquis le bruit</l><note resp="editor" type="crit"
+               >L'Estoile note dans son <title>Registre-Journal</title> en septembre 1578 : "Le
+               lundi 29e septembre, jour et feste S. Michel, le Cardinal de Birague, Chancelier de
+               France, remist entre les mains du Roy les seaux de France, lesquels furent baillés à
+               Messire Philippes Huraud, Seingneur de Cheverni pour en avoir le tiltre de Garde tant
+               seulement. Car le tiltre, gages et pension de Chancelier en demeurerent audit
+               Birague, avec promesse du Roy qu’il le retiendra pour chef de son conseil, et lui
+               donnera dedans un an pour trente ou quarante mil livres de benefices". Il livre par
+               la même occasion un pasquil satirique de seize octosyllabes qu'il attribue "à un
+               chirurgien [François Rasse des neux?] qui se connoissoit bien aux maux, mais n’avoit
+               gueres accoustumé de les flatter." Cf. tome II, p. 214.</note>
+            <l>D'avoir meschante conscience,</l>
+            <!-- Saut#10 -->
+            <l n="36">De present c'est grande science</l>
+            <l>De ne craindre ny croire en <persName>Dieu</persName>,</l>
+            <!-- Saut#11 -->
+            <l>Regarde comment <persName ref="#François_Du_Plessis">Richelieu</persName></l>
+            <l>En est en faveur et credit</l><note resp="editor" type="glose">Soucieux de renforcer
+               la police de la cour, Henri III a confié à François du Plessis, le père du futur
+               Cardinal, la charge de grand prévôt de France. Sa juridiction s'étendait non
+               seulement à la cour mais à l'ensemble du royaume.</note>
+            <!-- Saut#12 -->
+            <l n="40">Penseriés vous bien que l'Edit</l>
+            <l>Dernier fait au <roleName ref="#Henri_de_Navarre">Roy de Navarre</roleName></l>
+            <l>Soit tenu, non, mais gare gare</l>
+            <l>On scait bien comment s'en deffaire</l>
+            <!-- Saut#13 -->
+            <l n="44">Les pauvres gens dedans <placeName key="La Fère"><settlement type="city">La
+                     Fere</settlement></placeName></l><note resp="editor" type="glose">Allusion à
+                  <date ref="#militaire-1">la prise de La Fère</date> par le prince de Condé le 29
+               novembre 1579 d'où il appelle les Malcontents.</note>
+            <l>Furent secourus de bien loing</l>
+            <l>Ils ont apperçeu au besoing</l>
+            <l>Qu'on ne leur a tenu promesse,</l>
+            <pb n="41"/>
+            <fw type="pageNum" place="top-right">41</fw>
+            <!-- Saut#14 -->
+            <l n="48">Ô la vertueuse Princesse</l>
+            <l>Que la <persName ref="#Françoise_de_Bourbon">Duchesse de Bouillon</persName></l><note
+               resp="editor" type="glose">Françoise de Bourbon.</note>
+            <!-- Saut#15 -->
+            <l>On verra un grand tourbillon</l>
+            <l>Devant qu'il soit l'aage d'un veau,</l>
+            <!-- Saut#16 -->
+            <l n="52"><persName ref="#Birague">Birague</persName> avec son gros chappeau</l>
+            <note>René de Birague (1506-1583) cède la charge de chancelier à Cheverny en 1578, mais
+               reste un membre influent du conseil du roi. Le grand chapeau est celui du cardinalat
+               dont il est titulaire depuis 1578.</note>
+            <!-- « Sur Olivier, L’Hospital, Birague. Récemment on avait rappelé de l’exil à la cour celui qui, dans l’enfance du roi, rendait la justice aux Français. Son successeur, né de cet exilé, à son tour, par jalousie, a été chassé de la cour vers l’exil. Vu la force du destin, c’est un nouvel exilé qui renaît de soi-même pour présider aux malheureuses lois et à la toge. Tourne le présage, mon Dieu, du bon côté ; si tu n’y prends garde, voici ce qui menace : pour les lois l’exil, pour les rois la perte.» – François Olivier (1497-1560), magistrat intègre, proche des milieux humanistes, reçut les Sceaux le 28 avril 1545. Le 2 janvier 1551, il fut démis de ses fonctions pour raison de santé. Il retrouva les sceaux en juillet 1559 et se montra hostile aux protestants (Buchanan lui avait consacré une élégie à l’époque où il était attaché au service de Marguerite de Navarre à Nérac, «Ad Franciscum Olivarium Franciae Cancellarium», Ph. Ford, George Buchanan prince of poets, p. 63-64 et 142). L’Hospital, ancien auditeur à la Rote, lui succèda le 1er avril 1560. Quant au Milanais exilé en France, René de Birague (1507-1587), ambassadeur pour le roi au concile de Trente et auprès de Philippe II, lieutenant général du Lyonnais en 1565 et membre influent du conseil privé du roi, il succéda au chancelier Morvilliers après la disgrâce de L’Hospital. Il reçut la charge en 1573 et la conserva jusqu’en 1578, où elle passa à Cheverny. Il était également évêque de Lavaur et cardinal, proche de la reine mère et hostile aux Réformés, voir L. Crété, Coligny, Fayard, 1985, p. 391. Voir également d’autres épigrammes contre ce personnage, supra Introduction, p. 88. La Place relate la nomination de L’Hospital en remplaçement des chanceliers Olivier et Bertrand, cardinal de Sens, qui se trouvait à Rome pour l’élection de Paul IV. L’Hospital, résidait alors à Nice en qualité de chancelier de la duchesse de Savoie, Commentaires de l’Estat de la religion, f. 52-53. -->
+            <l>Est tousjours du Conseil secret</l>
+            <!-- Saut#17 -->
+            <l><persName ref="#Simiers">Symiers</persName> ne s'est monstré discret</l><note
+               resp="editor" type="glose">Jean Simiers, maître de la garde-robe du duc d’Alençon, a
+               fui le Louvre avec son maître le <date when="1578-02-14">14 février
+               1578</date>.</note>
+            <l>Et n'a pas bien joüé son Rosle</l>
+            <l n="56">Il a fait comme <persName ref="#Lignerolles" key="Lignerolles"
+                  >Lignerolle</persName></l>
+            <l>Quand il descouvrit le secret</l><note resp="editor" type="crit">Philibert le Voyer,
+               seigneur de Bellefille et de Ligneroles, gouverneur du Bourbonnais et d’Auvergne,
+               gentilhomme de la Chambre du roi et grand favori du duc d’Anjou, fut assassiné par
+               Villequier le 1er septembre 1571.<title> Le pasquil Des Chevalliers faits 1567 après
+                  la bataille de Saint Denis</title> que nous a transmis Rasse des Neux (ms. 22565)
+               lui consacre un quatrain : "Ayant au Roy faulsement rapporté / Que seullement
+               venoyent quinze cents rheistres / Aux Huguenots mal armés et belistres, / J'en ay au
+               col cest ordre remporté." L'ordre en question est celui de Saint-Michel qu'il avait
+               reçu en 1568. Agrippa d'Aubigné précise les circonstances de sa mort : "Le Roi
+               s'avance à Blois et de là à Bourgueil, où Ligneroles, mignon de Monsieur, fut tué par
+               Villequier, son ennemi, accompagné du grand Prieur et de S. Jean : execution qu'on
+               tient avoir esté commandee pource qu'en faisant le bon compagnon avec le Roi, il lui
+               avoit fait sentir qu'il sçavoit le secret des nopces de Paris : soupçon de tant plus
+               facile, que Monsieur, qui en estoit participant, ne lui celoit rien." (<title
+                  ref="#Aubigne_HU_1">Histoire universelle</title>, tome III, p. 298). De Thou fait
+               lui aussi du secret éventé le motif de l'assassinat mais se montre plus prudent quant
+               au rôle de Charles IX dans la préméditation éventuelle de la Saint-Barthélemy. Cf. De
+               Thou, tome IV, p. 492. </note>
+            <!-- Cf. Schrenck , voir Aubigné, Histoire universelle, t. III, p. 298. Il avait la réputation d’un courtisan fourbe et cruel, prêt à toutes les ruses pour satisfaire son ambition. Il fut reçu chevalier de l’ordre de Saint-Michel en 1568, d’Hozier, t. II, p. 161-164. -->
+            <!-- Saut#18 -->
+            <l>Si tu desjeunes au <placeName>Cabaret</placeName></l>
+            <l>Il te faut payer ton escot,</l>
+            <!-- Saut#19 -->
+            <l n="60">La Negromance de <geogName key="L'Escaut">L'Escot</geogName></l>
+            <l>Est bien receue par la <placeName key="France"><settlement type="country"
+                     >France</settlement></placeName></l><note resp="editor" type="glose">Nous
+               croyons lire ici une crainte de propagation des conflits des Flandres sur le
+               territoire français, à partir des recherches d'alliance conduites par le <persName
+                  ref="#Henri_de_Bourbon-Condé">prince de Condé</persName>.</note>
+            <!-- Saut#20 -->
+            <l>Si un <roleName>Prince</roleName> des son enfance</l><note resp="editor" type="glose"
+               >L'effet de contexte doit-il nous inciter à identifier ce prince à Henri Ier de
+               Bourbon-Condé?</note>
+            <l>N'est bien instruit c'est grand malheur,</l>
+            <!-- Saut#21 -->
+            <l n="64">N'es tu point fasché de l'honneur</l>
+            <l>Qu'on porte <reg>à</reg> ceux qui n'en sont dignes,</l>
+            <!-- Saut#22 -->
+            <l><rs type="injonction" subtype="Conseil">Garde toy</rs> que tu ne chemines</l>
+            <l>Ou que tu n'apprennes la dance</l>
+            <l n="68">De l'<placeName key="Italye"><settlement type="country"
+                  >Italie</settlement></placeName> ou de <placeName key="Florence"><settlement
+                     type="city">Florence</settlement></placeName></l>
+            <l>[Tous noz maulx sont de la yssus]</l>
+            <note resp="editor" type="variante">Vers manquant dans le ms. 25567, nous rétablissons à
+               partir du ms. 813. Le volume 500 des Cinq Cents de Colbert propose: "Tous maulx nous
+               sont de là venuz".</note>
+            <!-- Saut#23 -->
+            <l>Deffuncts <persName>Maugeron</persName> et <persName>Quelus</persName></l>
+            <l>Resignerent avant leur mort</l><note resp="editor" type="crit">Le <date
+                  key="Duel des Mignons">duel des Mignons</date> eut lieu en <date when="1578-04-27"
+                  >1578</date>.</note>
+            <l n="72">Je crains d'estre trouvé trop ord</l>
+            <l>Si je nomme leurs exercices</l><note resp="editor" type="glose">Cf. accusations
+               contre les favoris</note>
+            <!-- Saut#24 -->
+            <pb n="41v"/>
+            <l>Mon dieu que nous voyons de vices</l>
+            <note resp="editor" type="crit">Formule commune mais comme pour l'ensemble des sauts
+               logiques de ce coq-à-l'âne constitue une association d'idée.</note>
+            <l>Infames regner <reg>à</reg> la Cour</l>
+            <!-- Saut#25 -->
+            <l n="76"><reg>À</reg> un faux bruit chascun y court</l>
+            <l>Plustost qu'à ouir l'Evangile</l>
+            <!-- Saut#26 -->
+            <l>N'est ce pas une chose vile</l>
+            <l>D'estre si poltron et couart</l>
+            <l n="80">De mettre une armée au hazard</l>
+            <l>Pour faire une maison abbatre</l>
+            <!-- Saut#27 -->
+            <l>Si d'<persName ref="#Aumont">Aumont</persName> eust voulu combattre</l>
+            <l><persName ref="#Beaupré">Beaupré</persName> ne l'eust pas refusé,</l>
+            <note resp="editor" type="variante">Le ms. Colbert(500) substitue le nom de Beaufort à
+               celui de Beaupré, mais la querelle entre les deux voisins est attesté par une lettre
+               du ms. 3416 de la BnF (fol. 61-63) et par L'Estoile au mois de Mai 1579 : "« Le
+               Seingneur Daumont leur fist faire leur proces par le Prevost de l’Hostel et furent en
+               juillet ensuivant decapités en figure, au bout du pont Saint-Michel à Paris, et entre
+               autres Beaupré, comme chef et conducteur de l’assassinat." Tome III, p. 31.</note>
+            <!-- Saut#28 -->
+            <l n="84">Ah mon dieu qu'il est abusé</l>
+            <l>Le bon <roleName>vicomte</roleName> de <persName ref="#Turenne1"
+               >Turenne</persName></l><note resp="editor" type="glose">Peut-être une allusion aux
+               rumeurs qui circulent à la cour sur une prétendue relation entre Henri Ier de La Tour
+               d'Auvergne et Marguerite de Navarre.</note>
+            <l>S'il n'apperçoit comme on le meine</l>
+            <note resp="editor" type="variante">Var. dans ms. Colbert(500): "S'il marchoit ainsi
+               qu'on le meine".</note>
+            <l>Il se trouvera de St Pris,</l>
+            <!-- Saut#29 -->
+            <l n="88">Ha les hommes de bon Esprit</l>
+            <l>N'osent dire la verité</l>
+            <l>Un meschant est bien escoutté</l>
+            <l>Et un plain Conseil tient son rang,</l>
+            <!-- Saut#30 -->
+            <l n="92"><roleName>Un <roleName ref="#Henri_de_Navarre">Prince</roleName> des premiers
+                  du sang</roleName></l>
+            <note resp="editor" type="glose"><persName ref="#Henri_de_Navarre">Henri de
+                  Navarre.</persName></note>
+            <l>N'est souffert mesme en sa maison,</l>
+            <l><reg>Voilà</reg> une estrange Saison</l>
+            <l>De voir les celebres maisons</l>
+            <l n="96">Moins prisées que les potirons,</l>
+            <l>Le monde s'en va <reg>à</reg> l'empire,</l><note resp="editor" type="crit">Cf. le
+               "Veau au coq" de 1568 (CAA#56) : "Tout veut retourner à l'empire."</note>
+            <!-- Saut#31 -->
+            <l>Il a bien appresté <reg>à</reg> rire</l>
+            <pb n="42"/>
+            <fw type="pageNum" place="top-right">42</fw>
+            <l>Le doux seigneur d'Orsonvilliers</l><note resp="editor" type="glose">Jacques
+               d'Orsonvilliers, seigneur de Courcy?</note>
+            <l n="100">Estant si mauvais escuyer</l>
+            <l>Il ne devoit monter sans selle,</l>
+            <!-- Saut#32 -->
+            <l>Ô mon Dieu qu'il a failly belle</l>
+            <l>Ce meschant traistre <persName ref="#Maurevert">Maurevert</persName></l>
+            <l>Si on le trouve <reg>à</reg> descouvert</l>
+            <l n="104">J'ose sa perte parier,</l>
+            <!-- Saut#33 -->
+            <l>Mais le bon <roleName>duc</roleName> de <persName ref="#Montpensier2"
+                  >Montpensier</persName></l>
+            <l>Est il <reg>à</reg> bout de sa <date when="1580-05">querelle</date></l><note
+               resp="editor" type="glose">La querelle en question est celle qui oppose en mai 1580
+                  <persName ref="#Montpensier2">Louis II de Bourbon</persName> au <persName
+                  ref="#Nevers">duc de Nevers</persName> à propos de leur rôle respectif lors de la
+               fuite du duc d'Anjou en 1575. L'Estoile en rapporte le détail : "En ce mois, une
+               grande querelle et de consequence s’esmeut entre les seingneurs ducs de Montpensier
+               et de Nevers, à cause d’un rapport fait audit duc de Nevers, que M. de Montpensier
+               avoit dit à Monsieur, frere du Roy, qu’en l’an 1575, lorsque Son Excellence se retira
+               secrettement de Paris et alla à Dreux, le duc de Nevers s’estoit vanté que, suivant
+               l’expres commandement qu’il en avoit du Roy, il l’eust ramené vif ou mort si le duc
+               de Montpensier l’eust voulu seconder et joindre les forces qu’il avoit avec celles du
+               duc de Nevers ; desquelles paroles, qui maintenoit fausses de la façon qu’elles
+               avoient esté dites, ledit seingneur de Nevers se sentant injurié et offensé, lui
+               envoia ung dementi par un Gentilhomme de sa suitte nommé Launay." Tome III, p.
+               101.</note>
+            <l>Jamais on ne vit chose telle</l>
+            <l n="108">De permettre qu'un estranger</l><note resp="editor" type="glose"><persName
+                  ref="#Nevers">Louis de Gonzague</persName>, duc de Nevers, a été naturalisé en
+               1560.</note>
+            <l>Ose bien un <roleName>prince</roleName> outrager</l><note resp="editor"
+               type="variable">Les ms. 613 et Colbert(500) proposent une version "Mon prince, ose
+               bien outrager".</note>
+            <l>Qui est des plus proches du sang</l>
+            <l>Ce mal vient que l'on met au Rang</l>
+            <l n="112">Des <roleName>Princes</roleName> ceux qui ne le sont</l>
+            <!-- Saut#34 -->
+            <l>Il fait bon monter sur le pont</l>
+            <l>Devant qu'arriver <reg>à</reg> l'estable,</l>
+            <!-- Saut#35 -->
+            <l>L'on bruict qu'on fait un <roleName>Connestable</roleName></l>
+            <l n="116">Qui sera superbe de Cœur</l><note resp="editor" type="variable">Le ms.
+               Colbert(500) propose "subtile de cœur".</note>
+            <l>Si cela se fait <reg>j'ay</reg> grand peur</l>
+            <l>Qu'ayons la paix <reg>à</reg> l'estranger</l><note resp="editor" type="variable">Le
+               ms. 613 substitue "guerre" à "paix".</note>
+            <l>Et que verrons entreronger</l>
+            <l n="120">La Pauvre <placeName key="France"><settlement type="country"
+                     >France</settlement></placeName> désolée</l>
+            <l>Retirons nous de la meslée</l>
+            <l>Et de bonne heure prenons terre,</l>
+            <!-- Saut#36 -->
+            <l>Mais que vont faire en <placeName><settlement type="country"
+                  >Angleterre</settlement></placeName></l>
+            <pb n="42v"/>
+            <l n="124">Ce <roleName>prince</roleName> et vieil <roleName>Mareschal</roleName></l>
+            <l>Il en adviendra quelque mal</l>
+            <l>Aux <orgName type="peuple">Anglois</orgName> et <rs type="injonction">garde</rs>
+               l'entorse</l>
+            <l>Que longtemps la <roleName>Royne d'Escosse</roleName></l>
+            <l n="128">Traine avecques ses partisans,</l>
+            <!-- Saut#37 -->
+            <l>Si tu vis encore dix ans</l>
+            <l>Tu verras estrange mesnage</l>
+            <l>Esclore de ce beau voyage</l>
+            <l n="132">De <placeName key="Flandres"><settlement type="country"
+                  >Flandres</settlement></placeName> et de l'<placeName key="Angleterre"><settlement
+                     type="country">Angleterre</settlement></placeName></l>
+            <l>On en verra aller par terre</l>
+            <l>Et renverser de haut en bas</l>
+            <l>Que les pauvres gens des Estats</l>
+            <l n="136">Sont abusez de s'y fier</l>
+            <!-- Saut#38 -->
+            <l><persName ref="#Souvré">Souvray</persName> n'est plus en quartier</l>
+            <l>Il n'estoit plus propre au service</l><note resp="editor" type="glose">Gilles de
+               Souvré, marquis de Courtenvaux, baron de Lezines, chevalier des ordres du Roi, et
+               gouverneur de Touraine (1542-1626).Il avait accompagné le duc d’Anjou en Pologne et à
+               son retour devint capitaine du château de Vincennes. Nicolas Le Roux dans <title>La
+                  Faveur du roi</title> (p. 428-429) consacre une section à la "disgrâce passagère"
+               dont il semble être ici question et dont la cause serait la rivalité avec le futur
+               duc d'Épernon. La lettre II d'Etienne Pasquier à Henri Tambonneau qui revient sur la
+               personnalité d'Henri III place Souvray parmi les favoris malheureux mentionnés dans
+               ce coq-à-l'âne : "Il n’est pas qu’en ses principaux favoris on n’y ait veu du
+               malheur : car les uns furent tuez de morts violentes, qui par assassin, comme
+               Lignerolles, du Gast, S. Maigrin : qui par duel, comme Cailus &amp; Maugiron, &amp;
+               le dernier, en bataille rangée, comme le Duc de Joyeuse ; &amp; les autres disgraciez
+               par leur Maistre, comme Souvray, Sainct Luc, d’O, Puybrac, Roissi, Vic-de-ville Il
+               aimoit sans mesure, ceux qu’il favorisoit, sans sçavoir pourquoi ; &amp; pendant
+               ceste opinion, il les gratifioit aussi d’une infinité de liberalitez sans mesure. Et
+               à la fin les licentioit aussi, sans sçavoir pourquoi, sinon qu’il en estoit las."
+                  <title>Lettres historiques pour les années 1556-1594</title>, Genève, Droz, 1966,
+               p. 448.</note><!-- Saut#39 -->
+            <l>N'est ce pas honneste exercice</l>
+            <l n="140">Que jouer au <rs type="jeu"><rs type="animal">cheval</rs> fondu</rs></l><note
+               resp="editor" type="ling">Nom d'un jeu. L'expression qui en découle signifie "se
+               courber" (Di Stefano).</note>
+            <!-- Saut#40 -->
+            <l><persName ref="#Villeroy">Villeroy</persName> est fort entendu</l>
+            <l><reg>À</reg> bien donner une cassade</l><note resp="editor" type="ling">Cassade :
+               "Bourde, mensonge, tromperie" (Huguet).</note>
+            <!-- Saut#41 -->
+            <l>Que dit on de cette ambassade</l>
+            <l n="144">De nouveau arrivée d'<placeName><settlement type="country" key="Espagne"
+                     >Espagne</settlement></placeName></l>
+            <!-- Saut#42 -->
+            <l>Le grand <roleName>gouverneur de <placeName key="La Champagne"><settlement
+                        type="region">Champagne</settlement></placeName></roleName></l>
+            <l>Poursuis tousjours son entreprise</l>
+            <l>Souvent il a la poste prise</l>
+            <l n="148">Depuis un mois pour l'avancer</l>
+            <pb n="43r"/><fw type="pageNum" place="top-right">43</fw>
+            <!-- Saut#43 -->
+            <l>On verra bientost commancer</l>
+            <l>Puisque sommes au temps nouveau,</l>
+            <!-- Saut#44 -->
+            <l>Ce long sejour de <placeName><settlement type="city"
+                  >Chenonceau</settlement></placeName></l>
+            <l n="152">Et de <placeName><settlement type="city">Blois</settlement></placeName> n'est
+               pas inutile</l>
+            <!-- Saut#45 -->
+            <l>Que c'est une <roleName>Princesse</roleName> habile</l>
+            <l>Que cette <persName ref="#Reine_Margot">Royne de Navarre</persName></l>
+            <l>Il n'est si fin qu'elle ne rembarre</l>
+            <l n="156">Et si tient le <roleName ref="#Henri_de_Navarre">Roy</roleName> son mary</l>
+            <l>Si bien charmé et endormy</l>
+            <l>Qu'<reg>à</reg> elle il est du tout reduit</l>
+            <l>Si <persName>Dieu</persName> qui tout voit et conduit</l>
+            <l n="160">Ne le retire du naufrage</l>
+            <l>On verra bientost quelque orage</l>
+            <l>Dessus sa maison advenir</l>
+            <!-- Saut#46 -->
+            <l>Mais ce <roleName>Prince</roleName>
+               <persName ref="#Jean-Casimir">Jehan Casimir</persName></l><note resp="editor"
+               type="glose">Jean-Casimir de Bavière qui a rallié la cause des Malcontents.</note>
+            <l n="164">Vouldroit il bien mordre <reg>à</reg> l'appast</l>
+            <l>Et pour deux cent milles ducats</l>
+            <l>Quitter <persName>Dieu</persName> et son alliance</l>
+            <!-- Saut#47 -->
+            <l>Coq attends avec patience</l><note resp="editor" type="variante">"Ayons patience"
+               dans les témoins 613 et Colbert(500).</note>
+            <l n="168">Laissons <persName>Dieu</persName> conduire le tout</l>
+            <l>Leurs desseins ne viendront <reg>à</reg> bout</l>
+            <l>Attendons jusqu'<reg>à</reg> l'autre année</l>
+            <l>Leurs desseins iront en fumée.<note resp="editor" type="variante">Ms. 613: "On verra
+                  des grandz en fumée et ms. Colbert(500): "Dieu les rendra tous en fumée". Une
+                  seconde main a ajouté quatre vers supplémentaires dans le ms. Colbert(500)qui
+                  correspondent aux vers 180-184 du <title ref="Pasquil_Courtizan">Pasquil
+                     Courtizan</title> relevé par L'Estoile en 1579 (cf. CAA#68): <xi:include
+                     href="CAA68-Pasquil_Courtizan-1579.xml" parse="xml" xpointer="emprunt7980"
+                  />Mais c'est une plus grand vaillance / De deffandre le sang royal / Aussy grate
+                  il en la teste / Quand il luy fait ainsy la feste".</note></l>
+         </p>
+
+         <div>
+            <head>Éléments de bibliographie</head>
+            <list>
+               <item xml:id="Aubigne_HU_1">Aubigné, Agrippa d', <title>Histoire universelle</title>,
+                  tome III (Livres V et VI), Genève, Droz, 1985.</item>
+               <item>L'Estoile, Pierre de, <title>Registre-Journal du règne de Henri III</title>,
+                  tome III (1579-1581), Genève, Droz, 1997.</item>
+               <item>Le Roux, Nicolas, <title>La Faveur du roi</title>, Seyssel, Champ Vallon,
+                  2024.</item>
+               <item>Pasquier, Étienne, <title>Lettres historiques</title>, Genève, Droz,
+                  1966.</item>
+               <item>Rasse des Neux, François, <title>Recueil poétique (Bnf, Manuscrit français
+                     22565)</title>, éd. G. Schrenck, Paris, Classiques-Garnier, 2019.</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

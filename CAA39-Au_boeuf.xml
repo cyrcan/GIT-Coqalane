@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Espitre de Lasne au beuf faict lan mil Vc quarante cinq</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc><change><date>2023</date>Encodage de niveau 2.</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface xml:id="ms0203_0196" n="1v"/>
+        <graphic
+            url="https://bvmm.irht.cnrs.fr/mirador/index.php?manifest=https://bvmm.irht.cnrs.fr/iiif/24946/manifest"
+        />
+    </facsimile>
+    <text>
+        <body>
+            <listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Soissons</settlement>
+                        <repository>Bibliothèque Municipale de Soissons</repository>
+                        <idno>ms. 203(189)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </listBibl>
+
+            <l>Espitre de l’asne au beuf</l>
+            <l>Faict l’an mil Vc quarante cinq</l>
+
+
+            <l>Et puys compere filz de vache</l><note resp="editor" type="crit">Désignation initiée par Marot dans son cinquième coq-à-l'âne daté de 1542 : "Pour estre dit bon filz de vache"(v. 121)</note>
+            <l>Commant se porte ta grand hache</l>
+            <l>En as tu tué force Anglois<note type="editor" subtype="crit">Première mention du
+                    conflit franco-britannique présent tout au long du poème.</note>
+            </l>
+            <!--saut#1-->
+            <l n="4">C’est ung plaisir que d’estre <reg>à</reg>
+                <placeName><settlement type="city">Bloys</settlement></placeName></l>
+            <l>A <placeName><settlement type="city">Chambourg</settlement></placeName> ou bien
+                    <reg>à</reg>
+                <placeName><settlement type="city">Amboyse</settlement></placeName></l>
+            <!--Saut#2-->
+            <l>Mais quelque part qu'ung homme voise</l>
+            <l><reg>S’il</reg> est vaillant on le congnoist</l>
+            <!--Saut#3-->
+            <l n="8">Tel est de l’ordre Sainct <persName type="saint" key="Benoît"
+                    >Benoyst</persName></l>
+            <l>Qui merite myeulx les coquilles</l>
+            <l>Qu'ung tas de pescheurs tant habilles</l>
+            <l>A humer honneurs et prouffis</l>
+            <l n="12">Tesmoing le grant viel crucifix</l>
+            <l>Qui est en <reg>l’</reg><placeName>abbaye royalle</placeName></l>
+            <!--Saut#4-->
+            <l>Or sus acoup <reg>qu’on</reg> me les galle<note type="editor" subtype="ling">battre,
+                    frapper, maltraiter (Huguet)</note></l>
+            <l>Ces con <add place="above">qui</add> boyvent noz vins</l>
+            <!--Saut#5-->
+            <l n="16">Il est grand annee de devins</l>
+            <l>Chacun en ce temps prophetize</l>
+            <!--Saut#6-->
+            <l>N’esse pas une grant bestize</l>
+            <l>De faire un si grand apareil</l>
+            <l n="20">On <reg>n’en</reg> vit oncques ung pareil</l>
+            <l>Mais quoy <del>nous</del>
+                <reg>notre</reg> ancre <reg>n’y</reg> peult mordre</l>
+            <!--Saut#7-->
+            <l>Beuf mon amy il <reg>n’y</reg> a ordre</l>
+            <l>Quant chacun joue à rembourser</l>
+            <l n="24">Les regardans ont beau tousser</l>
+            <pb n="185r"/>
+            <fw type="pageNum" place="top-right">185</fw>
+            <l>Il fault que ailleurs voisent repaistre</l>
+            <l><reg>Ilz</reg> devroient avec toy paistre</l>
+            <!--Saut#8-->
+            <l>Ces <add place="above">beaulx</add> gouverneurs d'esluz</l>
+            <l n="28">Car <del>Mais</del> puys qu’ilz sont ainsi gouluz</l>
+            <l>Ilz mangeront du foing leur soul</l>
+            <l>Le meilleur <reg>n’en</reg> vault pas ung soltz</l>
+            <l>Et n’est pas de noz chardons digne</l>
+            <!--Saut#9-->
+            <l n="32">Par le sang bieu si je m'engaigne</l>
+            <l>Je te raconteray merveilles</l>
+            <!--Saut#10-->
+            <l>Mais <del>quoy</del><add place="above">quoy</add> je crains mes grands oreilles</l>
+            <l>Or dis moy beuf gentil compere</l>
+            <l n="36">Depuys la mort de ton grand pere</l>
+            <l><reg>As</reg> tu jamais veu tant <reg>d’abus</reg></l>
+            <!--Saut#11-->
+            <l>Oncques Picartz en leur rebus</l>
+            <l>Ne inventerent tant d'enigmes</l>
+            <l n="40">Que <reg>l'on</reg> voit aujourd'huy de <unclear>mymes</unclear></l>
+            <l>Dont la doubleure <reg>n'en</reg> vault rien</l>
+            <!--Saut#12-->
+            <l>O <reg>c'est</reg> un grand homme de bien</l>
+            <l>Dire <reg>à</reg> quelque vielle edentée</l>
+            <l n="44">Va pauvre cervelle esventée</l>
+            <l>Tu ne fais <reg>qu’abuser</reg> les gens</l>
+            <!--Saut#13-->
+            <l>Graces <reg>à</reg> dieu les bons sergens</l>
+            <l>Ne pillent plus ou rien ne treuvent</l>
+            <!--Saut#14-->
+            <l n="48">Aussi noz galleres s’espreuvent</l>
+            <l>Pour aller pescher <reg>l'</reg><rs type="animal" subtype="poisson"
+                >esturgeon</rs></l>
+            <l>Hola il suffist ung gougeon<note type="editor" subtype="ling">fer ou
+                chaîne</note></l>
+            <l>Noz reitz ne tiennent si grans bestes</l>
+            <!--Saut#15-->
+            <l n="52">Mais mon dieu que de folles testes</l>
+            <pb n="185v"/>
+            <l>Sont couvertes de viel drapeau</l>
+            <!--Saut#16-->
+            <l>Le peuple <reg>n'a</reg> rien que la peau</l>
+            <l><reg>N'est</reg> on quant la chair reviendra</l>
+            <l n="56">Si ce <reg>n'est</reg> quant foy on tiendra</l>
+            <l>Et <reg>qu'on</reg> verra les bons gensdarmes</l>
+            <l>Porter <reg>l'evangille</reg> au lieu d'armes</l>
+            <l>O bien heureulx qui lors vivra</l>
+            <!--Saut#17-->
+            <l n="60">Mais à propoz qui ennyvra</l>
+            <l>Ceulx qui firent le sacrifice</l>
+            <l>Par <persName type="mythologie">Vulcain</persName> que son artifice</l>
+            <l>Ce carracquon<note type="editor" subtype="ling">Grande caraque. Cf. Monluc
+                    (Commentaires I,179):'Dès lors que je vis, à notre départ, embrazer le grand
+                    Carracon, qui estoit, ce crois-je, le plus beau vaisseau qu'il estoit possible,
+                    j'eus mauvaise opinion de nostre entreprinse. Et parce que, pour mon pariculier,
+                    je fis rien qui ne fut digne d'estre escript et que le general est assez
+                    discouru par d'autres, je m'en teray pour descrire la conqueste de la terre
+                    d'Oye. Aussi nostre fait est plus propre sur la terre que sur l'eau, où je ne
+                    scay pas que nostre nation ait jamais gangé de grandes batailles.'</note>
+                <reg>à</reg> la grand hune</l>
+            <l n="64">Au grand dieu de la mer <persName type="mythologie">Neptune</persName></l>
+            <l>Les <rs type="animal" subtype="poisson">poissons</rs> pensoient estre mors</l>
+            <l>Et me souvient que <del type="scriptor">desja lors</del> dis des lors</l>
+            <l>Cest augure point ne me plaist</l>
+            <l n="68">Avons nous tousjours tant deplaict</l>
+            <l>Sans faire chose de memoire</l>
+            <l>*** où est la gloire</l>
+            <l>Que acquis en la <placeName>Grand Bretaigne</placeName></l>
+            <l n="72">Ce quatre doz espés de taigne</l>
+            <l>Soient coeffez ceulx <reg>à</reg> qui il tient</l>
+            <l>C'est <persName>Michel</persName> qui le entretient</l>
+            <l>Et quelque fourmage <reg>qu'on</reg> crye</l>
+            <l n="76">Il <reg>n'est</reg> angelotz que de <placeName key="Brie"
+                        ><region>Brye</region></placeName><note type="editor" subtype="ling">Les
+                    angelots de Brie sont des petits fromages.</note></l><!--Saut#18-->
+            <l>Qu'ils eussent les boyaulx farcis</l>
+            <l>Tous ceulx qui veullent estre assis</l>
+            <l>Au grand siege <reg>d'ambition</reg></l><!--Saut#19-->
+            <l n="80">Je <del>parc</del> parle par affection</l>
+            <pb n="186"/>
+            <fw type="pageNum" subtype="top-right">186</fw>
+            <l>Car la collere me domyne</l>
+            <l>Ha qu'ilz font tous bonne myne</l>
+            <l>Ces crocheteurs de benefices</l>
+            <l n="84">Ils les acheptent comme offices</l>
+            <l>C'est bien faict puys qu'on se <reg>permet</reg></l>
+            <l>Mais si dieu <unclear>remede</unclear>
+                <reg>n'y</reg> met</l>
+            <l>Je irai par <rs type="'animal" subtype="équidés">baudet</rs> mon pere</l>
+            <l>Qui verras quelque <rs type="animal" subtype="équidés">asne</rs> mon frère</l>
+            <l n="88">Bien sist au siege appostolicque</l>
+            <l><reg>À</reg> quoy diable sert leur tunicque</l>
+            <l>Leur <del>Lyarre</del> Liayre leur double croix</l>
+            <l>Ilz <del>meis</del> miseront de leurs grands chefs</l>
+            <l n="92">On faict alegence desrechef</l>
+            <l>Comme <reg>à</reg> l'aigle de l'<persName key="Charles-Quint">empereur</persName></l>
+            <l>Te souvient il de la ferveur</l>
+            <l>Qui fut <reg>l'an</reg> passé alesgresse</l>
+            <l n="96">Mais Beuf <reg>par</reg> ta foy <reg>par</reg> qui esse</l>
+            <l>Que tout est ainsi gouverné</l>
+            <l>Quant <reg>à moy</reg> je suis estonné</l>
+            <l>Qu'on ne faict plus de cardinaulx</l>
+            <l n="100">Il n'est que trop de carpinaulx</l>
+            <l>Mais ce n'est pas de chapeau rouge</l>
+            <l>Serre les crocs (?) ne te bouge</l>
+            <l>Car si <unclear>t ais</unclear> ceste grand louve</l>
+            <l n="104">Noz beaulx capitaines ne couve</l>
+            <l><reg>Ilz</reg> ne feront jamais beau fant</l>
+            <l>Ha le gros fol qu'il est Infant</l>
+            <l>Les enffans en font leurs proverbes</l>
+            <pb n="186v"/>
+            <l n="108">Chantans en parolles et verbes</l>
+            <l>Ung beau verset In exitu</l>
+            <l>Touteffoys ce <rs type="animal" subtype="oiseau">corbeau</rs> testu</l>
+            <l>A empoigne noz fortes places</l>
+            <l n="112">Soulz coulleur d'<unclear>arande</unclear> les frappes</l>
+            <l>Du millan dessoubz les lambeaulx</l>
+            <l>Il nous en a baillé de beaulx</l>
+            <l>Voy tu pas chacun en est riche</l>
+            <l n="116">Et puys <reg>nostre</reg> plante est en frische<note type="editor"
+                    subtype="ling">Au sens de "stérile"</note></l>
+            <l>Ou bien morte que je ne mente</l>
+            <l>C'est cela dont tant me <reg>tourmente</reg></l>
+            <l>Car payez sommes de tout poinct</l>
+            <l n="120">Beuf mon amy entends le poinct</l>
+            <l><unclear>Chuc</unclear>
+                <del>veuve</del> vieu cherche sa ruyne</l>
+            <l>Mais tant sceut faire bonne myne</l>
+            <l>Faisant du bon joueur de <rs type="jeu">flux</rs></l>
+            <l n="124">Que de peu fist quarte le plus</l>
+            <l>Qui fait une grande cassade<note type="editor" subtype="ling">Tromperie</note></l>
+            <l>J'en suys encores tout mallade</l>
+            <l>Aussy gens scavans s'en meslerent</l>
+            <l n="128">Et vaillamment y besongnerent</l>
+            <l>Ce pendant en seur bagage</l>
+            <l>On s'ayme en Loyre et leur linaige</l>
+            <l>Ou je cuyday mourir dahan</l>
+            <l n="132">Qu'en tuer puissent ils en malan</l>
+            <l>C'est assez dict changeons <del>prop-</del><reg>propos</reg></l>
+            <l>Apres <reg>qu'on</reg> a <unclear>unye les ports</unclear></l>
+            <l>On les assomme par milliers</l>
+            <l n="136">Et puys nos grands beaulx oreilliers</l>
+            <l>De quatre ou cinq piedz de longueur</l>
+            <pb/>
+            <fw type="PageNum" place="top-right">187</fw>
+            <l>Sont si doulx que par trop long heur</l>
+            <l>Ilz en font souffrir tout le monde</l>
+            <l n="140">Trop avant en raison me fonde</l>
+            <l>Il vault myeulx quicter la besongne</l>
+            <l><unclear>Aumoings</unclear> si nous avons <unclear>bonbongne</unclear></l>
+            <l>Ce seroit pour nous resjouyr</l>
+            <l n="144">L'yver vient il s'en fault fouyr<note type="editor" subtype="crit">Notation
+                    temporelle</note></l>
+            <l>Et puys nous voylà <reg>à</reg> refaire</l>
+            <l>Mais dis moy Beuf que peult on faire</l>
+            <l>De tout <reg>l'argent</reg>
+                <reg>qu'on</reg> a levé</l>
+            <l n="148">Quelqu'un vient <reg>à</reg>
+                <reg>notre</reg> lever</l>
+            <l>Qui le demande et on luy donne</l>
+            <l>S'il le vault bien je luy <reg>pardonne</reg></l>
+            <l>Mais quoy <persName>milly</persName> n'ose mot dire</l>
+            <!--Who?-->
+            <l n="152"><reg>L'un</reg> crainct <unclear>a le</unclear> de contredire</l>
+            <l>L'autre de <persName>Juppiter</persName> la foudre</l>
+            <l>Car ainsi tout s'en va en pouldre</l>
+            <l>Il fauct que te fasse le conte</l>
+            <l n="156"><reg>D'ung</reg>
+                <unclear>nomme</unclear>
+                <reg>gentilhomme</reg> le conte</l>
+            <l>Que tant se pourmaine à Paris</l>
+            <l>Ses escriz sont ung peu taris</l>
+            <l>Il en a desbourser grand somme</l>
+            <l n="160">Pour sa renson mais <reg>à</reg> ung homme</l>
+            <l>Qui se valloit comme chalit</l>
+            <l>Mais quoy cela vient en son lit</l>
+            <l>Combien <reg>qu'il</reg> eust trop myeulx servy</l>
+            <l n="164">A payer ceulx qui ont bien servy</l>
+            <l>Ce pendant la vielle bastille</l>
+            <l>Estoit remplye de gens <reg>habilles</reg></l>
+            <pb n="187v"/>
+            <l>Assez pour faire grand effort</l>
+            <l n="168">Entre autres je vinaigre fort</l>
+            <l>Aux vielles peaulx bien retirées</l>
+            <l>D'un tonneau plein de desirées</l>
+            <l>Et d'autre de plusieurs estatz</l>
+            <l n="172">Pensant <unclear>tarer</unclear> escuz à tas</l>
+            <l>Pour fournir <reg>l'argent</reg> de l'octroy</l>
+            <l>Qu'on avait accorde le <persName key="François Ier">roy</persName></l>
+            <l>Mais en fin tout vient en sa bride</l>
+            <l n="176">Imposions dusches et aydes</l>
+            <l><unclear>Cele</unclear> dont fault <reg>que</reg> me plaigne</l>
+            <l>Que ne debvois riens à l'<placeName type="country">Espaigne</placeName></l>
+            <l><unclear>Quirres</unclear> promys <reg>à</reg> l'<placeName type="country"
+                    >Ittalye</placeName></l>
+            <l n="180"><del>A</del>Car tant de jong sur quoy on lye</l>
+            <l><reg>Qu'ung</reg> jour tomberons soulz le faictz</l>
+            <l>Je entendu qu'on a deffaictz</l>
+            <l>Quelques ungs de ses <reg>grands</reg> archers</l>
+            <l n="184">Il <reg>n'y</reg> en a pas pour noz vachers</l>
+            <l>Dire quelque mignon de tables</l>
+            <l>Tire mon cheval de l'estable</l>
+            <l>Car je m'en vois à l'escarmouche</l>
+            <l n="188">Ils sont tous nostres <unclear>oy</unclear> de la bousche</l>
+            <l>Qui eust mis <placeName><settlement type="city">Madriz</settlement></placeName> à
+                        <placeName><settlement type="city">Boulongne</settlement></placeName></l>
+            <l><sic>Sceust</sic> esté une grand besongne</l>
+            <l>Et ce beau chasteau d'<placeName><settlement type="city"
+                    >Angreville</settlement></placeName></l>
+            <l n="192">A <placeName><settlement type="city">Montreuil</settlement></placeName> ou
+                        <placeName><settlement type="city">Abeville</settlement></placeName></l>
+            <l><placeName><settlement type="city">Fontainebleau</settlement></placeName> et
+                        <placeName><settlement type="city">Sainct
+                Germain</settlement></placeName></l>
+            <l>Aux lieux on a force de main</l>
+            <l>Il fault respondre aux ennemys</l>
+            <pb n="188"/>
+            <fw type="pageNum" place="top-right">188</fw>
+            <l n="196"><reg>L'argent</reg> eust esté trop myeulx mis</l>
+            <l>Qu'il n'est pas en ces beaulx palais</l>
+            <l>Mais ne voullons point de <placeName><settlement type="city"
+                    >Callais</settlement></placeName></l>
+            <l>Il est pour nous trop fort <reg>à</reg> prendre</l>
+            <l n="200">Mon gentilhomme il vous fault rendre</l>
+            <l>Autrement vous feriez tuer</l>
+            <l>Ha ventre bieu mon escuyer</l>
+            <l>Ou mon haumet baille ma lame</l>
+            <l n="204">Il faict trop milleur <reg>à</reg> Laudame</l>
+            <l>Quant chacun maine sa chascune</l>
+            <l>C'est assez ma dame en a d'une</l>
+            <l>Mais si de travers me regarde</l>
+            <l n="208">Plus mol me fera que moustarde</l>
+            <l>Et puys la lune est sur bourbon</l>
+            <l>Par quoy se retirer est bon</l>
+            <l>Premier que plus ne m'oze faire</l>
+            <l n="212">Ce pendant ung chevalier faire</l>
+            <l>Pour succeder à mes chardons</l>
+            <l>Car ce sont mes plus riches dons</l>
+            <l>Ha voerement compere beuf</l>
+            <l n="216">On <reg>m'a</reg> compte qu'au haureneuf</l>
+            <l>Ce sont parduz de noz carracques</l>
+            <l>Ces poictrons vestus de casacques</l>
+            <l>Nous en feront tres bons payeurs</l>
+            <l n="220">Quelques aprentiz ou essayeurs</l>
+            <l>Nous ont faict ce beau vasselage</l>
+            <l>Ou quelquefoys je seray saige</l>
+            <l>O soit ung jour monsieur mon filz</l>
+            <l n="224">Ma foy quant c'est esprit feiz</l>
+            <l>J'estoys trop fasché de ma vye</l>
+            <l>Et avois par trop grant envye</l>
+            <l>De dormir que d'estre macher</l>
+            <l n="228">Nulle ne s'en veuille fascher</l>
+            <l>Car plus ne je veuil y rien metre</l>
+            <l>Sinon quelque gracieulx mectre</l>
+            <l>Pour fournir de conclusions</l>
+            <l n="232">Qui fut sans nulle abusion</l>
+            <l>Escript troys jours devant hyer</l>
+            <l><unclear><reg>L’hiver</reg></unclear> des bonnetz de papiers</l>
+        </body>
+    </text>
+</TEI>

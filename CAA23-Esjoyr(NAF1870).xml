@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="CAA23_Esjoyr">Coq a l’asne nouveau</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <p><listPerson>
+           <person xml:id="Charles-Quint" corresp="https://data.bnf.fr/ark:/12148/cb10411705z">
+              <idno type="ISNI">0000 0001 2096 5852</idno>
+              <persName xml:lang="fr"><forename type="first"
+                 >Charles</forename><surname>Quint</surname></persName>
+           </person></listPerson></p></encodingDesc>
+     <revisionDesc><change><date>2023</date>Encodage de niveau 0</change></revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listBibl>
+	           <msDesc>
+	              <msIdentifier>
+                  <settlement>Paris</settlement>
+	                 <repository>Bibliothèque nationale de France</repository>
+	                 <idno>NAF 1870</idno>
+               </msIdentifier>
+	           </msDesc>
+         </listBibl>
+         <l>Amy pour ung peu t’esjouyr</l>
+         <l>Et l’ennuy de ce temps fuyr</l>
+         <l>Je prens la plume pour t’escripre</l>
+         <l n="4">Car il n’est temps tousjours de dire</l>
+         <l>La verité de ce qu’on sçayt</l><!-- Saut#1 -->
+         <l>Ung homme qui de haut lieu chet</l>
+         <l>À grand peyne de mort eschappe</l><!-- Saut#2 -->
+         <l n="8">Las que nous avons un sainct <persName>pappe</persName></l>
+         <l>Il est bon comme le bon jour</l>
+         <l>Fera il tousjours son sejour</l>
+         <l>À <placeName><settlement type="city">Rome</settlement></placeName> avec ses delices</l>
+         <l n="12">Et pour entretenir ses vices</l>
+         <l>Fault il qu’on souffre tant de maulx</l>
+         <l>Il assemble les cardinaulx</l>
+         <l>Pour semer quelque zizanie</l>
+         <l n="16">Qu'il soict pour toy je le te nye</l>
+         <l>Car il ne vault pas ung oignon</l>
+         <l>C’est ung tresbeau lieu qu’<placeName><settlement type="city">Avignon</settlement></placeName></l>
+         <l>Là on trouveroit la praticque</l>
+         <l n="20">Pour faire ung siege appostolicque</l>
+         <l>D’arrester les deniers de <placeName><settlement type="country">France</settlement></placeName></l>
+         <l><persName ref="#Charles-Quint">L’empereur</persName> est en grand souffrance</l>
+         <l>Pour la perte de son armée</l>
+         <l n="24">Sy <persName>Dieu</persName> eust voullu ceste année</l>
+         <l>Il eust eu sur les <orgName>Turcqs</orgName> victoire</l>
+         <l>C’est une chose qu’il fault croire</l>
+         <l>Las nous sommes subgectz aux roys</l>
+         <l n="28">Estudier ne fault en ces loix</l>
+         <l><rs type="injonction" subtype="impératif">Contente toy</rs> de l’ordonnance</l>
+         <l>Veulx tu bien tost que l’on t’advance</l>
+         <l><rs type="injonction" subtype="impératif">Oublie</rs> d’estre homme de bien</l>
+         <l n="32">En court on ne faict rien pour rien</l>
+         <l>Et pour faire vacquer offices</l>
+         <l>Il fault gecter entre les cuysses</l>
+         <l>D’une mulle mal asseurée</l>
+         <l n="36">Ou d’un mullet une fuzée</l>
+         <l>Et voylà mon conseiller mort</l>
+         <l>Il me semble qu’on faict grant tort</l>
+         <l>À <persName>Jehan Gentil</persName> qu’on ne le pend</l>
+         <l n="40">Je croy q'un seul point l'en deffend</l>
+         <l>C’est qu’il veult enrichir le roy</l>
+         <l>Le bon seigneur de <persName>Villeroy</persName></l>
+         <l>Est magnifficque et liberal</l>
+         <l n="44">On dit que monsieur l’<persName>Amiral</persName></l>
+         <l>Saulte fort bien de bas en hault</l>
+         <l>Tousjours fault fournir ung assault</l>
+         <l>Car c’est ung dangereulx affaire</l>
+         <l n="48">Messieurs appreignent à pourtraire</l>
+         <l>Ils sçavent desjà bien noircir</l>
+         <l>On veoit trop souvent amortir</l><note resp="editor" type="crit">Vers manquant dans NAF 1870.</note>
+         <l>Par fard le tain des damoiselles</l>
+         <l n="52">Aussi l'on voit peu de pucelles</l>
+         <l>Qui puissent long temps vivre en court</l>
+         <l>Comme l'on trouve procès court</l>
+         <l>Aux grans jours pour avoir l’admende</l>
+         <l n="56">Pensez vous que c’est peyne grande</l>
+         <l>De servir ung maistre enraigé (variante)</l>
+         <l>J’estois d'aage assez chargé</l>
+         <l>Quant on le m’aprint à l’escolle</l>
+         <l n="60">Le <persName>chancelier</persName> a la verolle</l>
+         <l>Et à <placeName><settlement type="city">Paris</settlement></placeName> forces coquuz</l>
+         <l>D'où vient que n’y a plus d’escuz</l>
+         <l>En la bourse du populaire</l>
+         <l n="64">Ung controlleur ou commissaire</l>
+         <l>Faisant quelque grand payement</l>
+         <l>Devient riche bien aysément</l>
+         <l>J’entens avec le cappitaine</l>
+         <l><persName>Marot</persName> a de plus doulce vayne</l>
+         <l>Que <persName>Maison neusve</persName> ou <persName>Sainct Gelais</persName></l>
+         <l>C’est plaisir que d'estre au pallais</l>
+         <l>Pour veoir les masques triumphant</l>
+         <l>Des folz d’yvrougnes et enffans</l>
+         <l><rs type="injonction" subtype="impératif">Gardez vous</rs> le proverbe est tel</l>
+         <l>Que ne veiz tu <persName>Charles Martel</persName></l>
+         <l>Pour deffendre ses advocats</l>
+         <l>Vous me faschez à bas à bas</l>
+         <l>Ce dict <persName>Madame la Regente</persName></l>
+         <l>C’est une chose bien plaisante</l>
+         <l>Que d’enrichir par ses niepces</l>
+         <l>À Noel on oyt trop de messes</l> 
+         On faict de terribles discours
+         Les femmes changeront leurs tours
+         Quant femmes ne seront plus vollaiges
+         Lors quant gouverneront les saiges
+         En tel temps il fera bon vivre
+         Je ne veiz jamays en bon livre
+         Que femme deust tout gouverner
+         C’est ung grant mal de tant donner
+         À ceulx qui ne l’ont merité
+         De là vient la necessité
+         Pour emprunctz faire et croistre taille
+         Par ma foy ceste gensdarmaille
+         Ne vault rien que à piller les champs
+         Il sera beaucoup de meschans
+         Puis que justice est mesprisée
+         Tousjours une putain ruzée
+         En main a plusieurs amys
+         Car cy quelq’un est dehors mys
+         Ung aultre vient tenir son lieu
+         Tout le monde croit bien en Dieu
+         On le jure souventesfois
+         L’invencion de saincte croix
+         C’est une feste fort requise
+         Celuy qui la scayt je l’advise
+         Qu'il est partout le bienvenu
+         Qu’est il de nouveau survenu
+         Le roy nagueres un cerf prit
+         Tost quelque maulvais esperit
+         En l’aureille du prince souffle
+         À tous les dyables le marouffle
+         Qui faict tant de nouveaulx edicts
+         Il est chaste en faicts et en dicts
+         Le Cardinal dont je me tais
+         Mais quoy Qu’esse Sera il paix
+         Ou sy on s'appreste la guerre
+         C’est folye d'engaiger sa terre
+         Pour en acquerir de nouvelles
+         N’est ce pas estre sans cervelle
+         Prendre l’incertain pour le seur
+         Je le veiz mol je le vis dur
+         Puis je le veys bien raide estandre
+         Puis je ne scay quel honneur rendre
+         C’est ung beau jeu sans villanye
+         Or Fortune quoy qu’on en dye
+         C’est une beste redoubtable
+         On ne parle du Connestable
+         Non plus que s’il fust trespassé
+         Il a de l’or bien amassé
+         Monsieur le sot que l'on croit le saige
+         C’est ung merveilleux advantaige
+         Quant ung asne oultraige ung sçavant
+         On veoit advenir bien souvent
+         Que faveur a le triumphe du droict 
+         Par le conseil qu’on nomme estroict
+         C’est pour le present recepvoir large
+         Pleust à Dieu que j’eusse la charge
+         De refformer tout ce  discorde
+         Sçavez vous que je vouldrois mordre
+         Dessus Guillaume Langevin
+         Il nous a donné de son vin
+         Qui semble bon et ne vault rien
+         Ne seroit ce pas ung grand bien
+         Qu’on ne rongnast plus la monnoye
+         Car c’est la plus facille voye
+         Pour d’ung lourd forfaict se excuser
+         Q'un sien compaignon accuser
+         Qui a son secret reveller
+         Il est bruict qu’on a rappellé
+         Le conte Guillaume allemant
+         Qui a par Bigot son serment
+         Dit que plus ne desrobera
+         Or nous verrons qu’il en sera
+         Car prendre argent ce n’est pas mal
+         Ce dit Monsieur de Longueval
+         Si quelque cas nouveau survient
+         Tu le sçauras s’il m’en souvient (CAA23-Esjoyr(NAF1870), Pos. 1-156)</body>
+  </text>
+</TEI>

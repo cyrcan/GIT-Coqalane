@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris, </settlement>
+                  <repository>Bibliothèque nationale de France, </repository>
+                  <idno>ms. 22564</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <p>
+            <l>J'ay fort <expan>contenté</expan> mon esprit</l>
+            <l><persName type="destinataire">Arnault</persName> en lysant ton escrit</l>
+            <l><reg>Où</reg> j'ay apprins maintes nouvelles</l>
+            <l n="4">Mais je t'en diray de plus belles</l>
+            <l>Nous avons à ce coup la paix</l>
+            <l>Pour faire la guerre à jamais</l>
+            <l>Du moins pour toute nostre vie</l>
+            <l n="8">Par mon ame il a grand' envye</l>
+            <l>De porter le lys au chappeau</l>
+            <l>On prend aujourd'huy le manteau</l>
+            <l>Puis le pourpoint puis la chemise</l>
+            <l n="12">Quant à <placeName><settlement type="city" key="La Rochelle">la
+                     Rochelle</settlement></placeName> elle est prise</l>
+            <l>Car les <orgName type="secte">Huguenots</orgName> sont dedans</l>
+            <l>Voycy venir les <orgName type="peuple">Allemans</orgName></l>
+            <l>Pour ayder à faire vendange</l>
+            <l n="16">Nous n'avons pas perdu au <expan>change</expan></l>
+            <l>Pour un <roleName>Roy</roleName> nous en avons huict</l>
+            <l>Il fut sacré en une nuict</l>
+            <l>Le Roy de la sanglante ligue</l>
+            <l n="20">L'on se plaint d'un qui est prodigue</l>
+            <l>Mais il donne ce qu'il n'a pas</l>
+            <l>Elle estoit fort pres du trespas</l>
+            <l>Sans de <persName>Myron</persName> la medecine</l>
+            <l n="24">Ne vous fiez pas à la mine</l>
+            <l>On veult Bourbon <expan>dementeller</expan></l>
+            <pb n="143v"/>
+            <cb n="L"/>
+            <l>Il faut sur la frontiere aller</l>
+            <l>Pour coupper le passage au[x] <orgName type="soldats">Reistres</orgName></l>
+            <l n="28">Mon Dieu que nous <expan>mengerons</expan> d'huystres</l>
+            <l><rs type="locution">Si nous vivons encor' un an</rs></l>
+            <l>La belle Venus &amp; Vulcain</l>
+            <l>Seront pour la ligue en <placeName><settlement type="region" key="Guyenne">Guienne</settlement></placeName></l>
+            <l n="32">La paix estoit trop ancienne</l>
+            <l>Le serment estoit suranné</l>
+            <l>Par la mort bieu tu es damné</l>
+            <l><rs type="injonction" subtype="impératif">Va</rs> de par le Diable à la Messe</l>
+            <l n="36">Il faut ruyner la Noblesse</l>
+            <l>Pour mettre l'Estat à l'Envers</l>
+            <l>Tesmoin le bon <persName>Duc de Nevers</persName></l>
+            <l>Qui en a dit sa rattellée</l>
+            <l n="40">Puis que la Carte est si meslée</l>
+            <l><seg type="jeu">Le jeu ne sera sans hazard</seg></l>
+            <l>Je tiendroy le party guysard</l>
+            <l>Si j'avoy l'Ame Castillane</l>
+            <l n="44">Qui n'a voyagé en <placeName><settlement type="region" key="Toscane">Toscagne</settlement></placeName></l>
+            <l>Ne peult trahir accortement</l>
+            <l>N'est ce pas un grand changement</l>
+            <l>De voir les <roleName>Presidents</roleName> <roleName>Gendarmes</roleName></l>
+            <l n="48">Il est fort à dextre aux armes</l>
+            <l><expan>Monsieur</expan> le <roleName>President</roleName> <persName>Charlet</persName></l>
+            <l>Quand il est dessus son <rs type="animal" subtype="équidé">mulet</rs></l>
+            <l>Il me souvient du grand <persName>Pompée</persName></l>
+            <l n="52">Ô mon amy la bonne espée</l>
+            <l>Que le <roleName>president</roleName> de <persName>Nulli</persName></l>
+            <l>Mais où est le pauvre <persName>Avrilly</persName></l>
+            <l>Qui ? Jarnaques &amp; <placeName><settlement type="city">La Chastre</settlement></placeName></l>
+            <l n="56">Le bon homme a fait le follastre</l>
+            <l>C'est un saint sanglant enligué</l>
+            <l>On luy a fait sonder le gué</l>
+            <l>Pour puis apres joindre le Reste</l>
+            <l n="60">Les <orgName type="peuple">Picards</orgName> presentent requeste</l>
+            <l>Tendants à ravoir leurs faulcheurs</l>
+            <l>Qui sont au camp de ces ligueurs</l>
+            <l>A la suytte du Roy d'<persName>Aumalle</persName></l>
+            <l n="64">Pour prendre le Ciel par eschalle</l>
+            <l>À force de renier <persName>Dieu</persName></l>
+            <l>Leur saincteté a fait un veu</l>
+            <cb n="R"/>
+            
+            
+         </p>
+      </body>
+   </text>
+</TEI>

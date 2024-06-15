@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="CAA37_Thenot">Espitre de Thenot à Robin</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Transcription d'un corpus de coq-à-l'âne de 1530 à 1649.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change><date>2023</date>Encodage de niveau 3.</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque Nationale de France</repository>
+                  <idno>NAF 1870</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <l><persName type="destinataire">Robin</persName> mon amy pour aultant</l>
+         <l>Qu’en ceste ville on va saultant</l>
+         <l>Pour la paix faicte à l’espaignol</l>
+         <note resp="editor" type="crit">Le 18 septembre 1544, François Ier et Charles Quint signent
+            la trêve de Crépy-en-Laonnois.</note>
+         <fw type="sig" place="bottom-right">Je</fw>
+         <pb n="73r"/>
+         <fw type="pageNum" place="top-right">f°lxxiii</fw>
+         <l n="4">Je ressemble le <rs type="animal" subtype="oiseau">rossignol</rs></l>
+         <l>Qui chante quant l’esté <expan>commance</expan></l>
+         <!-- Saut#1 -->
+         <l>Parce que tu scays bien qu’en <placeName><settlement type="country"
+               >France</settlement></placeName></l>
+         <l>On faict tousjours ecdicts nouveaulx</l>
+         <l n="8">Je donne au grand Diable les <rs type="animal">veaulx</rs></l>
+         <l>Qui <reg>s’en</reg> sont fuys sans leurs femmes</l>
+         <l>Mais ce pendant les bonnes dames</l>
+         <l><reg>N’ont</reg> poinct tousjours dormy depuis</l>
+         <!-- Saut#2 -->
+         <l n="12">On dict pourtant que <reg>l’eaue</reg> de puys</l>
+         <note resp="editor" type="ling">Prendre l'eau en son puys : ne dépendre de personne (Di
+            Stefano).</note>
+         <l><reg>N’est</reg> pas bonne <expan>pour</expan> les estiques</l>
+         <!-- Saut#3 -->
+         <l>Ha vielle tu pers tes pratiques</l>
+         <l>Un aultre veult tenir ta place</l>
+         <l n="16">Mais que voulez vous que j'ey face</l>
+         <l>On ne peult pas tousjours durer</l>
+         <!-- Saut#4 -->
+         <l>Sy esse <reg>qu’il</reg> fault endurer</l>
+         <l>Ung soufflet quant monsieur le donne</l>
+         <l n="20">Car d’abuser de la couronne</l>
+         <l><reg>C’est</reg> trop monsieur ne le veult pas</l>
+         <!-- Saut#5 -->
+         <l>Combien fault il marcher de pas</l>
+         <l>Pour dancer une basse dance</l>
+         <!-- Saut#6 -->
+         <l n="24">Sy vous scaviez la grand despence</l>
+         <l><reg>Qu’on</reg> faict les dames de Paris</l>
+         <l>Pour la peur qu’ont eu leurs marys</l>
+         <l>Vous ne le scauriez estimer</l>
+         <!-- Saut#7 -->
+         <l n="28">Car on dict qu’aller sur la mer</l>
+         <l>Quant il faict vent c’est grand pityé</l>
+         <!-- Saut#8 -->
+         <l>Bien nous partirons par moityé</l>
+         <l><reg>L’argent</reg> qui viendra des fossez</l>
+         <l n="32">Car nous aurons des gens assez</l>
+         <l>Pour achever le boulevard</l>
+         <!-- Saut#9 -->
+         <l>Mon Dieu <expan>que</expan>
+            <reg>c’est</reg> ung grand bavard</l>
+         <l>Que ce <persName>cardinal de Rénette</persName></l>
+         <!-- saut#10 -->
+         <l n="36">Sus sus jouez de l'espinette</l>
+         <l>Tandis que monsieur dormira</l>
+         <l>Ce pendant frerot <reg>s’en</reg> ira</l>
+         <l>Faire <reg>l’office</reg> de son maistre</l>
+         <!-- Saut#11 -->
+         <l n="40"><reg>N’as</reg> tu pas veu qu’il debvoit naistre</l>
+         <l>Une grand beste en l’escripture</l>
+         <!-- Saut#12 -->
+         <l>Las ils ont <reg>couché</reg> sur la dure</l>
+         <fw type="sig" place="bottom-right">Ti</fw>
+         <pb n="73v"/>
+         <l>Pour la guerre mes damoiselles</l>
+         <l n="44">Et les filles estant pucelles</l>
+         <l>En <placeName><settlement type="city">Paris</settlement></placeName> craignent la
+            fureur</l>
+         <l>Des <orgName>gendarrmes</orgName> de <persName key="Charles-Quint"
+            >l’empereur</persName></l>
+         <l>Qu’ilz ne prinsent leurs pucellaiges</l>
+         <l n="48">Ont laissé monter aux formaiges</l>
+         <l>Le chat de peur des <orgName>Bourguignons</orgName></l>
+         <!-- Saut#13 -->
+         <l><reg>D’où</reg> vient cela que les oignons</l>
+         <l>Viennent au contraire de la <geogName>lune</geogName></l>
+         <!-- Saut#14 -->
+         <l n="52">C’est ung dur morceau <reg>qu’une</reg> enclume</l>
+         <l>S’elle <reg>n’a</reg> pas boullu longuement</l>
+         <!-- Saut#15 -->
+         <l>Fault il que ceste grand <rs type="animal" subtype="équidé">jument</rs></l>
+         <l>Menge le revenu du royaulme</l>
+         <l n="56">Les cartes et le jeu de paulme</l>
+         <l>Font despendre beaucoup d’argent</l>
+         <!-- Saut#16-->
+         <l>Mon Dieu qu’il estoit dilligent</l>
+         <l>Ce chancelier <reg>à</reg> prendre dons</l>
+         <!-- Saut#17 -->
+         <l n="60">On dict pourtant <expan>que</expan> les pardons</l>
+         <l>Du pape <reg>n’entreront</reg>
+            <reg>à</reg>
+            <placeName><settlement type="city" key="Genève">Genesve</settlement></placeName></l>
+         <l>Est il raison q’un <expan>presbtre</expan> doibve</l>
+         <l>Prendre <reg>l’argent</reg> d’une ville</l>
+         <l n="64"><reg>N’est</reg> ce pas une chose vile</l>
+         <l>D’ainsy piller les pauvres gens</l>
+         <!-- Saut#18 -->
+         <l>Et puys on dict <expan>que</expan> les sergens</l>
+         <l>Sont larrons faisans leurs offices</l>
+         <!-- Saut#19 -->
+         <l n="68">Puisque messieurs de la justice</l>
+         <l>Font grand proffict <expan>chascun</expan> y court</l>
+         <!-- Saut#20 -->
+         <l>Et sy maintenant <reg>à</reg> la <expan>court</expan></l>
+         <l>On ne joue plus qu’<reg>à</reg> la pille</l>
+         <l n="72">Adieu donques le jeu de bille</l>
+         <l>Puisque chascun court au pillaige</l>
+         <!-- Saut#21 -->
+         <l>Par la mort bieu <persName type="destinataire">Robin</persName>,
+            <reg>j’enraige</reg></l>
+         <l>Que le Roy <reg>n’a</reg> laissé frapper</l>
+         <l n="76">Dernierement pour attrapper</l>
+         <l><reg>L’empereur</reg> et toute sa garde</l>
+         <!-- Saut#22 -->
+         <l>Mon amy Marion leng arde</l>
+         <l>Les femmes gouvernent la guerre</l>
+         <!-- Saut#23 -->
+         <l n="80">Sy est ce que ce pot de terre</l>
+         <l>Par top fourbir se mynera</l>
+         <!-- Saut#24 -->
+         <fw type="sig" place="bottom-right">Et puis</fw>
+         <pb n="74r"/>
+         <l>Et puis <reg>à</reg> madame on dira</l>
+         <l>Le sablon a cassé le pot</l>
+         <l n="84"><reg>C’est</reg> icy comme ung tripot</l>
+         <l><expan>Chascun</expan> veult un trou mectre</l>
+         <!-- Saut#25 -->
+         <l>On a soubhaitté <persName>le grand maistre</persName></l>
+         <l>Pour gouverner <placeName key="Paris">nostre cité</placeName></l>
+         <l n="88">Il est ung peu plus arresté</l>
+         <l>Que ce <persName key="Jean Du Bellay">cardinal sans cervelle</persName></l>
+         <!--Saut#26-->
+         <l>Elle a largeur elle est belle</l>
+         <l>Elle est trop belle la <reg>moityé</reg></l>
+         <l n="92">Mon Dieu que <reg>c’estoit</reg> grand <reg>pityé</reg></l>
+         <l>Quant madame pleuroit ainsy</l>
+         <!-- Saut#27 -->
+         <l>Une amoureux est au soulcy</l>
+         <l>Quant il <reg>n’y</reg> a plus <reg>d’huille</reg> aux lampes</l>
+         <!-- Saut#28 -->
+         <l n="96">Oultre plus <persName key="Anne de Pisseleu">ce sablon d'Estempes</persName></l>
+         <l>Est trop vieulx pour ung pot frotter</l>
+         <l><persName key="Anne de Pisseleu">La vielle</persName> ne peult plus trotter</l>
+         <l><reg>J’en</reg> croy <persName key="François Ier">ce gentil fourbisseur</persName></l>
+         <l n="100">Sy <reg>j’avoys</reg> une belle sœur</l>
+         <l>Je seroys des demain evesque</l>
+         <l>Car je suys aussy bon <rs type="animal" subtype="équidé">asne</rs> presque</l>
+         <l>Que ceulx qui le sont maintenant</l>
+         <!--Saut#28-->
+         <l n="104">Sang bieu <persName>monsieur le lieutenant</persName></l>
+         <l><reg>C’est</reg> trop comment vous le prenez</l>
+         <l>Il vous tire les vers du nez</l>
+         <l>De ses pauvres coureurs de rues</l>
+         <!-- Saut#29 -->
+         <l n="108"><expan>Chascun</expan> veult ressembler aux grues</l>
+         <l>Chascun faict grup en grosses lettres</l>
+         <!-- Saut#30 -->
+         <l><reg>Voilà</reg>
+            <reg>qu’ilz</reg> ont gaigné <reg>à</reg> mectre</l>
+         <l>Leurs filles <reg>à</reg> la moynerie</l>
+         <!-- Saut#31-->
+         <l n="112">Il ne fault pas q’un moyne rye</l>
+         <l>Quant il presche par le treillis</l>
+         <!-- Saut#32 -->
+         <l>Mais quant ilz montent sur les licts</l>
+         <l>Ilz triomphent de babiller</l>
+         <!-- Saut#33 -->
+         <l n="116">Je me veulx ung jour habiller</l>
+         <l>En moyne pour les aller veoir</l>
+         <!-- Saut#34 -->
+         <l>Sy le coq faisoit son debvoir</l>
+         <l>La poulle ne seroit maistresse</l>
+         <!-- Saut#35 -->
+         <l n="120">Qu’il est sainct il y a grand presse</l>
+         <l><expan>Chascun</expan> y porte sa chandelle</l>
+         <!-- Saut#36 -->
+         <fw type="sig" place="bottom-right">Tii</fw>
+         <pb n="74v"/>
+         <l><reg>À</reg> cent diables la maquerelle</l>
+         <l>Elle <reg>m’a</reg> faict mourir de chault</l>
+         <!-- Saut#37 -->
+         <l n="124">De <persName key="Henri II">monsieur</persName> poinct ne
+            <reg>m’enchault</reg></l>
+         <l><reg>J’ay</reg> bon crédict au<persName key="Charles d'Orléans"> filz
+            puisné</persName></l>
+         <!-- Saut#38 -->
+         <l>On dict pourtant que le <persName key="François II">duc nouveau né</persName></l>
+         <l>Sera recouvreur des pertes</l>
+         <!-- Saut#39 -->
+         <l n="128">Les frauldes seront descouvertes</l>
+         <l><persName key="Anne de Pisseleu">De la beste</persName> qui tout dévore</l>
+         <!-- Saut#40 -->
+         <l>Sang bieu sy on refforme encore</l>
+         <l>Ses <orgName>chartreux</orgName> et ses <orgName>célestins</orgName></l>
+         <l n="132">Vous verrez tous ses <rs type="animal" subtype="canidés">mastins</rs></l>
+         <l>Qui mectront le froc aux orties</l>
+         <!-- Saut#41 -->
+         <l>Pource qu’<rs type="animal" subtype="oiseau">allouettes</rs> rosties</l>
+         <l>Mieulx vallent que <rs type="animal">huittres</rs>
+            <reg>à</reg> l’escaille</l>
+         <!-- Saut#42 -->
+         <l n="136">Je vous diray <expan>qu'il</expan> couste <expan>et</expan> vaille</l>
+         <l>Il ne fault qu’envoyer au <persName>pape</persName></l>
+         <!-- Saut#43 -->
+         <l>Faictes cesser ce <rs type="animal" subtype="canidé">chien</rs> qui jappe</l>
+         <l>Disoient nos maistres <reg>l’aultre</reg> jour</l>
+         <l n="140">Car il tasche de jour en jour</l>
+         <l><reg>À</reg> descouvrir nos vielz abus</l>
+         <!-- Saut#44 -->
+         <l>Tu ne scay pas patepeluz</l>
+         <l>Mourut <reg>l’aultre</reg> hier de la verolle</l>
+         <!-- Saut#45 -->
+         <l n="144">Sy <reg>j’estois</reg> en ma chaulde colle</l>
+         <l>Je donnerois bien trente au brave</l>
+         <!-- Il manque un vers pour rimer avec brave-->
+         <l>Pource <expan>qu’il</expan> est docteur régent</l>
+         <l><reg>D’un</reg> bon moyne et <reg>d’un</reg> bon sergent</l>
+         <!-- Saut#46 -->
+         <l n="148">Ce sont morceaulx fors <reg>à</reg> trouver</l>
+         <l>Mais pourtant fault il réprouver</l>
+         <l>Les loix qu’a faictes <persName key="Jésus">Jhésucrist</persName></l>
+         <!-- Saut#47 -->
+         <l>Car ainsy <expan>que</expan>
+            <reg>l’on</reg>
+            <reg>m’a</reg> rescript</l>
+         <l n="152">Les <orgName>chartreux</orgName> vont avoir dispence</l>
+         <l>De menger ainsy <expan>que</expan> je pense</l>
+         <l>Des saulcisses <reg>à</reg> la moustarde</l>
+         <!-- Saut#48 -->
+         <l>Sans ceste vaillante paillarde</l>
+         <l n="156">Le monde seroit trop heureux</l>
+         <!-- Saut#49 -->
+         <l>C’est pityé <expan>que</expan>
+            <reg>d’estre</reg> amoureux</l>
+         <l>Et ne jouyr poinct de sa dame</l>
+         <!-- Saut#50-->
+         <fw type="sig" place="bottom-right">Sy j'eusse</fw>
+         <pb n="75r"/>
+         <fw type="pageNum" place="top-right">f°lxxv</fw>
+         <l>Sy j’eusse sceu toute ma gamme</l>
+         <l n="160">Je feusse <expan>presbtre</expan> ou bien curé</l>
+         <!-- Saut#51 -->
+         <l><reg>C’est</reg> ung péché desmesuré</l>
+         <l>Que <reg>d’avoir</reg> affaire <reg>à</reg> ung moyne</l>
+         <!-- Saut#52 -->
+         <l>Je ne dicts pas q’un bon chanoyne</l>
+         <l n="164">N’envoye aux champs paistre sa beste</l>
+         <l>Cinq ou six jours devant la feste</l>
+         <l>Pour la reprendre vingt jours <reg>après</reg></l>
+         <!-- Saut#53 -->
+         <l>Je prouveray par texte <reg>exprès</reg></l>
+         <l n="168"><reg>Qu’il</reg> ne fault poinct estre adultere</l>
+         <!-- Saut#54 -->
+         <l>Tesmoïng la grand peyne et misere</l>
+         <l>Que ont souffert noz anciens</l>
+         <!-- Saut#55-->
+         <l>Ilz estoient bons praticiens</l>
+         <l n="172">Ses troys gouverneurs reprouvés</l>
+         <!-- Saut#56 -->
+         <l>Mais je scay bien <expan>que</expan>
+            <expan>vous</expan> scavez</l>
+         <l>Le tout mieulx que moy pourtant</l>
+         <l>Rescrivez le tout aultant</l>
+         <l n="176">De <expan>vostre</expan> pays de <placeName><settlement type="region"
+                  >Provence</settlement></placeName></l>
+         <l>Adieu donq de <placeName><settlement type="city">Paris</settlement></placeName> en
+                  <placeName><settlement type="country">France</settlement></placeName></l>
+         <l>Fin</l>
+      </body>
+   </text>
+</TEI>

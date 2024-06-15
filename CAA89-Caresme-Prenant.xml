@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caresme-Prenant</title>
+            <author>Benoet du Lac</author>
+            <editor>Cyril Cano Arnedo</editor>
+            <respStmt>
+               <name>Cyril Cano Arnedo</name>
+               <resp>encodage</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Texte établi d'après l'édition originale de 1595.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>Transcription d'un corpus de coq-à-l'âne de 1530 à 1650.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Scène 1 de l'acte V aux pages 84 à 86.</p>
+            <p><bibl><author>Benoet du Lac</author><title>Le desespere TRAGICOMEDIE pour exemplaire
+                     d'obeissance. Poëme tres-remarquable aux peres, &amp; enfans de famille : A
+                     laquelle est adjousté un petit meslange de Poësie, avec Caresme-prenant.
+                     Tragicomedie facetieuse en laquelle y a un Coq à l'Asne à quatre langues,
+                     touchant plusieurs abus de ce
+                     temps.</title><pubPlace>A Aix en Provence</pubPlace><publisher>Par Jean Courraud. Imprimeur de la ville.</publisher><date when="1595">1595</date></bibl></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Aix-en-Provence</settlement>
+                  <repository>Bibliothèque Méjanes Patrimoine</repository>
+                  <idno>Rés. D.105</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+            <fw type="pageNum" place="top-left">84</fw><fw type="header" place="center">Caresme-prenant</fw>
+            <cb n="2"/>
+            <div n="5" type="acte"><head>Acte V.</head></div><div n="1" type="scene"><head>Scene I.</head></div>
+               <div><stage>Le mignon de Caresme-prenant</stage>              
+               <l><emph>Or</emph> sus il faut que <reg>je</reg> m'appreste,</l>
+         <l>De ne manquer à ceste feste,</l>
+         <l>Moy, qui de <persName>Caresme-prenant</persName></l>
+         <l n="4">Suis le Mignon bien <reg>advenant</reg>,</l>
+         <l>Qui n'aime que fols, &amp; folies,</l>
+         <l>Farces, farceurs, &amp; farceries.</l>
+         <l rend="indent">Enfarinez, <reg>escervelez</reg>,</l>
+         <l n="8">Legers, estourdis, &amp; sifflez,</l>
+         <l>Moquez, ridicules, folastres,</l>
+         <l>Fanfreluches, acariastres,</l>
+         <l>Oreillez, sots, &amp; sottelets,</l>
+         <l n="12">Et tous semblables tribouillets,</l>
+         <l>Qui ont la trongne folle, &amp; sotte,</l>
+         <l><reg>Sont</reg> tous subjects de ma Marotte.</l>
+         <l rend="indent">J'ay freres, cousins, &amp; parens,</l>
+         <l n="16"><reg>Jeunes</reg>, &amp; vieux, petits, &amp; grands,</l>
+         <l>Par tout s'en <reg>trouve</reg>
+            <choice>
+               <orig>eu</orig>
+               <reg>en</reg>
+            </choice>
+            <reg>abondance</reg>,</l>
+         <l>En Cour de <placeName><settlement type="city">Rome</settlement></placeName>, en cour de
+                  <placeName><settlement type="country">France</settlement></placeName>,</l>
+         <l>Et en <placeName><settlement type="country">Espagne</settlement></placeName> les gros
+               <rs type="animal">veaux</rs>,</l>
+         <l n="20">Dans les palais, <reg>dans</reg> les barreaux,</l>
+         <l>On voit de fols, &amp; de folie,</l>
+         <l>Par tout se voit de folastrie:</l>
+         <l>Mais <reg>je</reg> parle trop sagement,</l>
+         <l n="24"><reg>Un</reg> fol doit parler follement:</l>
+         <l>Dont faut pour <reg>amender</reg> ma faute,</l>
+         <l>Que du Coq à l'asne je saute:</l>
+         <!-- Justification du discontinu comme parole folle -->
+         <l>Car il ne faut du premier coup</l>
+         <l n="28">Mourir de peur sans voir le <rs type="animal">loup</rs>,</l>
+         <l>Ny marchander la trippe grasse.</l>
+         <!-- Saut#1 -->
+         <l rend="indent">Il n'y a pas non plus d'espace,</l>
+         <l>Despuis le rond, <reg>jusque</reg> au fendu,</l>
+         <pb n="85"/><fw type="pageNum" place="top-right">85</fw><fw type="header" place="center">Tragicomedie</fw>
+         <cb n="1"/>
+         <l n="32">(Ou <reg>je</reg> suis fort mal entendu)</l>
+         <l>Que la largeur de vostre langue.</l>
+         <!-- Saut#2 -->
+         <l rend="indent">La male tigne<note type="editor" subtype="ling">Le malheur</note>, &amp;
+               caquesangue<note type="editor" subtype="ling">Dysenterie.</note>,</l>
+         <l>Vienne à ces picorieres gens,</l>
+         <l n="36">Qui du travail des paysans,</l>
+         <l>Mènent tant de piaferie.</l>
+         <!-- Saut#3 -->
+         <l rend="indent">Quand <persName>Jane</persName> à la poissonnerie</l>
+         <l>Choisit, elle prend plustost lors</l>
+         <l n="40"><reg>Un</reg> gros vif, que deux petits mors</l>
+         <l>Mais, <reg>j'</reg>enten de <rs type="animal">poissons</rs> la belle.</l>
+         <!-- Saut#4 -->
+         <l rend="indent"> Sçavoir mon s'<reg>une</reg> Damoiselle</l>
+         <l>Pisse tout de mesme façon,</l>
+         <l n="44">Que faict la fille d'un masson,</l>
+         <l>Ou quelque lourde paysane:</l>
+         <!-- Saut#5 -->
+         <l>Puis l'ignare Docteur, &amp; l'<rs type="animal" subtype="équidé">asne</rs></l>
+         <l>Ne sont differens nullement</l>
+         <l n="48">Que des oreilles seulement.</l>
+         <!-- Saut#6 -->
+         <l rend="indent">Las! (ainsi chantent les Nonnettes)</l>
+         <l>On ne voit <reg>que</reg> trop sans lunettes.</l>
+         <!-- Saut#7 -->
+         <l rend="indent">Aussi mon ventre maintenant</l>
+         <l n="52">Ce temps de Caresme-prenant</l>
+         <l>Est trop petit, ou <reg>je</reg> m'abuse.</l>
+         <l>Enfler le faut en cornemuse,</l>
+         <l>Ou comme on enfle les boudins.</l>
+         <!-- Saut#8 -->
+         <l n="56" rend="indent">Qui vit onc de fols, &amp; badins,</l>
+         <l>Saison plus fertile, &amp; plus belle?</l>
+         <l>Fol moy, fol toy, fol luy, folle elle:</l>
+         <!-- Saut#9 -->
+         <l>Non, car volontiers le coucu,</l>
+         <l n="60">A <reg>tousjours</reg> le cou pres du cu:</l>
+         <!-- Saut#10 -->
+         <l>Parquoy <reg>vive</reg> les mascarades,</l>
+         <l>Puis que les nuitales aubades,</l>
+         <l>Ne se font plus à bon marché.</l>
+         <!-- Saut#11 -->
+         <l n="64" rend="indent">Le bastard est fort bien caché</l>
+         <l>Sous robe <reg>enverdugalinée</reg>.</l>
+         <!-- Saut#12 -->
+         <cb n="2"/>
+         <l>Tousjours dessous la cheminée,</l>
+         <l>Vous <reg>trouveriez</reg>, les vieilles gens,</l>
+         <l n="68">A la <reg>taverne</reg> les Sergens,</l>
+         <l>Et le Curé chez sa commere.</l>
+         <!-- Saut#13 -->
+         <l><reg>Chacun</reg> cognoit fort bien sa mere:</l>
+         <l>Mais du pere on doute <reg>bien</reg>
+            <reg>souvent</reg></l>
+         <!-- Saut#14 -->
+         <l n="72">Ils se tournent comme le vent,</l>
+         <l>Dont <reg>je</reg> plains qu'ils soyent de <reg><placeName><settlement type="region"
+                     >Provence</settlement></placeName></reg>.</l>
+         <!-- Saut#15 -->
+         <l rend="indent">Or faut tomber sur la cadence,</l>
+         <l>Du traquenard de l'entrepas,</l>
+         <l n="76"><reg>Un</reg> pas, deux pas, trois, quatre pas,</l>
+         <l>En voyla cinq, me voyla maistre.</l>
+         <!-- Saut#16 -->
+         <l rend="indent">On dit qu'<reg>un</reg> fol ne doit paroistre</l>
+         <l>Parmy les gens de qualité.</l>
+         <l n="80" rend="indent">Il ne faut que d'habilité,</l>
+         <l><reg>Jouant</reg> à la harpe, &amp; la pille.</l>
+         <!-- Saut#17 -->
+         <l rend="indent">Elle seroit honneste fille,</l>
+         <l>Sans les <reg>talons</reg> qui luy sont cours<note type="editor" subtype="ling">Dit
+               d'une femme qui laisse facilement "cheoir à l'envers". (Di Stefano).</note>.</l>
+         <!-- Saut#18 -->
+         <l n="84" rend="indent">Les rables <reg>montent</reg> sur les fours</l>
+         <l>Et <persName>Guillemin</persName> sur <persName>Guillemette</persName>:</l>
+         <!-- Saut#19 -->
+         <l>Si tant de peine faut qu'on mette</l>
+         <l>Pour entretenir ce beau teinct</l>
+         <l n="88">On sera bien en fin contraint</l>
+         <l>De vendre jusque à la chemise,</l>
+         <!-- Saut#20 -->
+         <l>Voyla pourquoy la gourmandise,</l>
+         <l>Est maintenant tant en saison</l>
+         <!-- Saut#21 -->
+         <l n="92" rend="indent">Deslogez moy de garnison</l>
+         <l>Ces soldats, ceste picoraille.</l>
+         <l>Vous les verrez dessus la paille,</l>
+         <l>Prendre de poux <reg>un</reg>
+            <reg>un</reg> million,</l>
+         <l n="96">Ou de soldat maistre larron.</l>
+         <!-- Saut#22 -->
+         <l>C'est <reg>une</reg> regle de Grammaire,</l>
+         <l>Aux <reg>Advocats</reg> fort ordinaire,</l>
+         <l>Rectum persæpe tacemus.</l>
+         <!-- Saut#23 -->
+         <fw type="sig" place="bot-right">On en</fw>
+         <pb n="86"/>
+         <fw type="PageNum" place="top-left">86</fw>
+         <cb n="1"/>
+         <l n="100" rend="indent">On en verra bien de camus,</l>
+         <l>Quand viendra la paix generale:</l>
+         <!-- Saut#24 -->
+         <l>Aussi despuis la verdugale,<note type="editor" subtype="ling">Gros et large bourrelet
+               que les Dames avoient accoustumé de porter au dessous de leur corps de robe.
+               Vertugadin est son diminutif.</note></l>
+         <l>Engendra le verdugalin.</l>
+         <!-- Saut#25 -->
+         <l n="104" rend="indent">Les <reg>bons</reg> coups se font au
+            <placeName>molin</placeName></l>
+         <l><reg>Je</reg> n'ose parler de Madame.</l>
+         <!-- Saut#26 -->
+         <l>Le droit, non le courbe la femme</l>
+         <l>Choisit, suivant de <persName>Pelisson</persName></l>
+         <l n="108">La regle [Ante caput rectum]</l>
+         <!-- Saut#27 -->
+         <l>A la personne <reg>convenable</reg>.</l>
+         <l rend="indent">Ha! qu'on a faict maint coup notable,</l>
+         <l>Despuis le port de haussecus,</l>
+         <!-- Saut#28 -->
+         <l n="112">Car si les cornes des cocus,</l>
+         <l>N'estoyent <reg>à</reg> nos yeux <reg>invisibles</reg>,</l>
+         <l>Nous verrions de monstres terribles,</l>
+         <l>A cent centaines, &amp; miliers,</l>
+         <!-- Saut#29 -->
+         <l n="116">Quoy? faut-il chercher les paliers<note type="editor" subtype="ling">Renvoi de
+               Pailliers : Greniers à paille, à fourrage. (Huguet)</note></l>
+         <l> Pour <reg>jouer</reg> à la <reg><rs type="animal">chevre</rs></reg> morte,<note
+               type="editor" subtype="ling">Être sur le dos.</note></l>
+         <!-- Saut#30 -->
+         <l>S'il se faict bien derrier la porte,</l>
+         <l>Vous entendez le Tu autem<note type="editor" subtype="ling">L'essentiel, le principal,
+               voire le tout.</note></l>
+         <l n="120">Bien, qui ne m'enten, <reg>je</reg> m'enten,</l>
+         <!-- Saut#31 -->
+         <l>Car d'<reg>un</reg> village le premier,</l>
+         <l>C'est le vi le vi le <roleName>Viguier</roleName><note>Territoire soumis à la
+               juridiction d'un viguier (titre de certains juges dans le midi de la France.)
+               (Huguet)</note></l>
+         <l>Et le con le con le <roleName>Consul</roleName>,</l>
+         <!-- Saut#32 -->
+         <l n="124">Aussi despuis qu'il se voit seul,</l>
+         <l> Reduit aux abais il ne bouge,</l>
+         <l>Ains de douleur il <reg>devient</reg> rouge</l>
+         <!-- Saut#33 -->
+         <l>Les dens, la <reg>langue</reg>, les machoires,</l>
+         <l n="128">Ont maintenant beaucoup d'affaires,</l>
+         <l>Pour festoyer Monsieur le ventre.</l>
+         <!-- Saut#34 -->
+         <l>Qui va, qui vient, qui sort, qui entre,</l>
+         <cb n="2"/>
+         <l>Qui le faict mal, qui le faict bien.</l>
+         <l n="132">Qui dort, qui mord, qui ne dit <reg>rien</reg></l>
+         <l> Qui rit, qui <reg>chante</reg>, &amp; apres pleure.</l>
+         <!-- Saut#35 -->
+         <l rend="indent">Certes ce fut à la malheure,</l>
+         <l>Au Gas, achevez, Au Gas(con)</l>
+         <l n="136">Quand on luy apprint sa leçon.</l>
+         <!-- Saut#36 -->
+         <l rend="indent">L'Italien docte en Grammaire,</l>
+         <l>Sçait comme la regle il faut faire,</l>
+         <l>Qui dict Suorum post casum.<note type="editor" subtype="ling">Littéralement, "de son
+               propre chef après la chute".</note></l>
+         <!-- Saut#37 -->
+         <l n="140" rend="indent">Il y aura demangeaison,</l>
+         <l>Si bien tost on ne la marie:</l>
+         <!-- Saut#38 -->
+         <l>Mesme que si on apparie,</l>
+         <l>La fleur de lis à <reg>un</reg> masson,</l>
+         <l n="l44">Il en naistra <reg>un</reg>
+            <rs type="animal">limaçon</rs>.</l>
+         <!-- Saut#39 -->
+         <l rend="indent">Son tendre cœur ne veut qu'on compte,</l>
+         <l>Qu'on vit le <reg>convi</reg> du Viconte</l>
+         <l>Ny mesme qu'on ait <reg>jamais</reg></l>
+         <!-- Saut#40 -->
+         <l n="148">Vescu pres de la mer de <placeName><settlement type="city" key="Metz"
+                  >Mets</settlement></placeName>,</l>
+         <!-- Saut#41 -->
+         <l>La Delifriandicocate.</l>
+         <!-- Saut#42 -->
+         <l>De tant parler <reg>je</reg> m'esgargate,</l>
+         <l>Et fachimarre les cocus,</l>
+         <l n="152">La medecine de <persName type="mythologie">Bacchus</persName>.</l>
+         <l>Avec l'onguent de Gloutonnie,</l>
+         <l>Me gueriront ma maladie.</l>
+         </div>
+      </body>
+   </text>
+</TEI>

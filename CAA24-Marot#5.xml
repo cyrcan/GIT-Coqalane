@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="CAA24">Epistre du coq à l'asne à Lyon</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Le ms 203 de Soissons d'une importance capitale dans la transmission des coq-à-l'âne
+               des années 1540 est le seul témoin à présenter cette pièce.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change><date>10-08-2023</date>Encodage de niveau 4.</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Soissons</settlement>
+                  <repository>Bibliothèque municipale</repository>
+                  <idno>ms. 203(189)</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <pb n="150r"/>
+         <fw type="pageNum" place="top-right">150</fw>
+         <l>Tu scez bien mon amy <persName type="destinataire" key="Lyon Jamet">Lyon</persName></l>
+         <l>Que long temps a que de <placeName><settlement type="city"
+            >Lyon</settlement></placeName></l>
+         <l>Je n'euz de toy nulles nouvelles</l>
+         <l n="4">Ce ne sont pas les <rs>Cent Nouvelles</rs></l>
+         <l>Que je demande de <persName key="Boccace">Boccasse</persName></l>
+         <note resp="editor" type="crit">Voici une première référence commune avec la "Grue" : As tu
+            jamays veu la complaincte / Que faict Flammette à son amy / Il ne l’aymoit pas à demy /
+            Veu le grief mal qu’il enduroit (v. 256-259).</note>
+         <!-- Saut#1 -->
+         <l>Il est fol qui le col se casse</l>
+         <l>S'il n'en a deux comme le <rs type="animal">veau</rs></l>
+         <l n="8">Et d'alleguer ung cas nouveau</l>
+         <l>La question n'en est plus bonne</l>
+         <l>Pourquoy? <expan>nostre</expan> mere <orgName>Sorbonne</orgName></l>
+         <l>Faict à tous <rs type="animal">veaulx</rs> avoir deux testes</l>
+         <l n="12">Et s'ilz sont sottes comme bestes</l>
+         <l>Il fault aprendre les passaiges</l>
+         <l>Ung trois foys fol vault ung vray saige</l>
+         <!-- A élucider -->
+         <l>Or je te demande comment</l>
+         <!-- Saut#2 -->
+         <l n="16">Si tu bois plus en allemant</l>
+         <note resp="editor" type="ling">Boire en quantité</note>
+         <l>Tu n'en seras que plus prisé</l>
+         <!-- Saut#3 -->
+         <l>Ung homme n'est pas desprisé</l>
+         <l>Laisser la ville pour les champs</l>
+         <note resp="editor" type="crit">Opposition géographique l'on retrouve dans l'incipit de la
+            Grue.</note>
+         <!-- Saut#4 -->
+         <l n="20">Par tout ont affaire marchans</l>
+         <note resp="editor" type="crit">La rime champs:marchans précisera sa cible dans la
+            Grue.</note>
+         <l>Pour subvenir à ceste vye</l>
+         <!-- Saut#5 -->
+         <l>Quant d'aller je n'ay nulle envye</l>
+         <l><rs type="injonction" subtype="impératif">Attendz moy</rs> le pas je n'y voys</l>
+         <note resp="editor" type="crit">On croit entendre dans l'équivoque la réticence à quitter
+            Lyon pour Genève.</note>
+         <!-- Saut#6-->
+         <l n="24"><rs type="injonction" subtype="defense">Ne parles point</rs> en genesvoys</l>
+         <note resp="editor" type="crit">Le Parlement de Paris condamne le 1er juillet 1542 au
+            bûcher "L'institution de la religion chrétienne" de Calvin, publiée en français l'année
+            précédente.</note>
+         <l>Que la fumée ne t'aveugle</l>
+         <!-- Saut#7 -->
+         <l>Pas ne s'en plainct le pouvre aveugle</l>
+         <l>De la blancque est tout revestu</l>
+         <note resp="editor" type="crit">Une référence à la loterie d'origine italienne instituée
+            dans chaque ville par François Ie en mai 1539 afin de renflouer les caisses du
+            royaume.</note>
+         <!-- saut#8 -->
+         <pb n="150v"/>
+         <l n="28">Il faict mauvais estre testu</l>
+         <l>Et avoir la teste trop aigre</l>
+         <note place="bottom">L'opiniâtreté risque de conduire au bûcher.</note>
+         <!-- Saut#9 -->
+         <l>L'on faict chandelle de vinaigre</l>
+         <l>Fine moustarde de cotton</l>
+         <!-- Saut#10 -->
+         <l n="32">Car de porter ung hocqueton</l>
+         <note resp="editor" type="ling">Sorte de casaque (Huguet).</note>
+         <l>C'est l'estat de monsieur l'archer</l>
+         <!-- Saut#11 -->
+         <l>L'on faict la pauvre gent marcher </l>
+         <l>A grandz coups renforcez de taille</l>
+         <!-- Saut#12 -->
+         <l n="36">Tant que pour faire la bataille</l>
+         <l>Il ne fault espargner sa vye</l>
+         <!-- Saut#13 -->
+         <l>Voisins ont l'un sur l'autre envye</l>
+         <l>Tesmoingz l'<placeName><settlement type="country" key="Écosse"
+               >Escosse</settlement></placeName> et l'<placeName><settlement type="country"
+                  >Angleterre</settlement></placeName></l>
+         <note resp="editor" type="crit">À la mort de sa sœur, la reine d'Écosse, Henri VIII
+            projette d'annexer le royaume de son neveu Jacques V.</note>
+         <!-- Note à compléter -->
+         <!-- Saut#14 -->
+         <l n="40">Las il n'eust pas mis pied à terre</l>
+         <l><persName key="Andrea Doria">Neptunus</persName> qui vogua sur mer</l>
+         <!-- Saut#15 -->
+         <l>Le morceau estoit bien amer</l>
+         <note>La campagne d'Alger de Charles-Quint et de son allié génois Andrea Doria, ici comparé
+            à Neptune, pour sa maîtrise sur mer, se solde par un échec à l'automne automne 1541,
+            désastre prévu par l'amiral. </note>
+         <l>Mais de cueur <choice>
+               <orig>c'est</orig>
+               <reg>s'est</reg>
+            </choice> clamé bany</l>
+         <!-- Saut#16 -->
+         <l n="44">Devant Lamazabthany</l>
+         <note resp="editor" type="crit">Les paroles du Christ "Lamma sabacthani" (Matthieu, 27, 46)
+            sont censées traduire le désespoir de l'Empereur devant la défaite.</note>
+         <l><rs type="injonction" subtype="défense">Ne parlez point</rs> de l'Evangille</l>
+         <l>Si vous n'avez la langue agille</l>
+         <l>Pour Sorbonner la bonne myne</l>
+         <l n="48">Car l'on dict qu'on scent sa farine</l>
+         <l>Si l'on ne scet son <persName>Pathelin</persName></l>
+         <!--Saut#17-->
+         <l>Le voyaige <persName type="saint" key="saint Mathurin">sainct Mathelin</persName></l>
+         <l>Gaignera beaucoup de chandelle</l>
+         <l n="52">S'il a les folz et leur sequelle</l>
+         <!-- Saut#18 -->
+         <l>À <placeName><settlement type="city" key="Orléans">Orleans</settlement></placeName> le
+            secretain</l>
+         <l>A prins or argent et estain</l>
+         <l>Pour amener la secretaine</l>
+         <l n="56"><persName key="Louise de Bourbon">L'abbesse de la Magdelaine</persName></l>
+         <fw type="sig" place="bottom-right">Deviendra grosse</fw>
+         <pb n="151r"/>
+         <fw type="pageNum" place="top-right">151</fw>
+         <l>Deviendra grosse par despit</l>
+         <!-- Saut#19 -->
+         <l>Celuy a ung gentil respit</l>
+         <l>Qui de la mort peult eschapper</l>
+         <!-- Saut#20 -->
+         <l n="60">Il n'est que ribaulx pour frapper</l>
+         <l>Quant la bataille est en ung coing</l>
+         <note>Métaphore sexuelle</note>
+         <!-- Saut#21 -->
+         <!-- Début du récit inséré avec défense de rire -->
+         <l>Si tu m'escoutes de grand soing</l>
+         <l>Je te veulx bien ung compte dire</l>
+         <l n="64">À la charge de point ne rire</l>
+         <l>C'est <persName key="Non Identifié">la grand cotte au petit foye</persName></l>
+         <l>Qui sur <placeName>Nostre Dame de joye</placeName></l>
+         <l>A dict par advisation</l>
+         <l n="68">Que c'estoit abusation</l>
+         <l>Des miracles qu'elles faisoit</l>
+         <!-- Fin du récit inséré -->
+         <note>Les deux néologismes semblent traduire le grotesque de la déclaration.</note>
+         <!-- Saut#22 -->
+         <l>Je croy si chacun se taisoit</l>
+         <l>Qu'on n'orroit pas gueres de bruict</l>
+         <!-- Saut#23 -->
+         <l n="72">En moynes y a tout deduict</l>
+         <l>En dames consolation</l>
+         <l><add resp="scribe" place="margin-left"><expan>Religion</expan></add>Car de parler
+            d'affliction</l>
+         <l>C'est à gens qui n'ont point d'argent</l>
+         <!-- Saut#24 -->
+         <l n="76">Quant il y a quelque corps gent</l>
+         <l>Qui vefve soit pour la sepmaine</l>
+         <l>Messieurs y feront leur neufvaine</l>
+         <l>Tant que le mary est absent</l>
+         <!-- Saut#25 -->
+         <l n="80">Ma dame a bien joué au <rs type="jeux">cent</rs></l>
+         <l>Elle est toute lasse du <rs type="jeux">flux</rs></l>
+         <l>Quant les picques n'en peuvent plus</l>
+         <l>Il fault cartes d'un cueur massif</l>
+         <!-- Saut#26 -->
+         <l n="84">Ung vieil <rs type="animal" subtype="équidé">roussin</rs> devient poussif</l>
+         <pb n="151v"/>
+         <l>Qui n'a souvent litiere fresche</l>
+         <!-- Saut#27 -->
+         <l>L'on a mis <persName key="Guillaume Poyet"><expan>Guillaume</expan></persName> en la
+               <placeName type="prison">craische</placeName></l>
+         <note>Allusion à peine voilée à l'emprisonnement le 2 août 1542 du conseiller déchu qui
+            avait manœuvré contre l'amiral Chabot.</note>
+         <l>Pour veoir son vif entendement</l>
+         <l n="88">De mal est aussi innocent</l>
+         <l>Que <persName>Judas</persName> de la mort <persName>Jhesus</persName></l>
+         <!-- Saut#28 -->
+         <l>Pour aller au trosne lassus</l>
+         <note resp="editor" type="ling">Lassus : au-dessus.</note>
+         <l>Que fera l'ame pecheresse</l>
+         <l n="92">Je croy <reg>qu'elle</reg> est en grand destresse</l>
+         <l>Que son miroir est deffendu</l>
+         <!-- Saut#29 -->
+         <l><persName>L'anthecrist</persName> n'est plus attendu</l>
+         <note resp="editor" type="crit">Écho et prolongement des vers 84-85 du premier coq-à-l'âne
+            : "Or est arrivé l'Antéchrist / Nous l'avons tant attendu"</note>
+         <l>Nous l'avons gardons qu'il eschappe</l>
+         <!-- Note sur la figure de l'antéchrist-->
+         <l n="96"><rs type="injonction" subtype="impératif">Baisez</rs> la pantoufle du <persName>pappe</persName></l>
+         <note>cf. Luther, "Prélude sur la captivité de babylonienne de l'Église" de 1520 puis
+            Calvin, IRC, fin du chapitre IV.</note>
+         <!-- Note à compléter -->
+         <l>En disant vostre patenostre</l>
+         <l>Vous serez sainct <expan>comme</expan> ung apostre</l>
+         <note>Calvin, ibid.</note>
+         <l>Si du chapeau avez saisine</l>
+         <!-- Saut#30 -->
+         <l n="100">Car au dedans de la cuysine</l>
+         <l>Qui bon le trouve bon le boyt</l>
+         <!-- Saut#31 -->
+         <l>Et qui plus monte qu'il ne doibt</l>
+         <l>Il veoit ung clocher de plus loing</l>
+         <!-- Saut#32 -->
+         <l n="104">À <placeName><settlement type="city">Paris</settlement></placeName> a levé son
+            groing</l>
+         <l>La <rs type="animal">loupve</rs> aussi et ses <rs type="animal">louvetons</rs></l>
+         <l>De peur qu'on ne vienne aux sermons</l>
+         <!-- Saut#33 -->
+         <l>Par le <placeName>passaige sainct Landry</placeName></l>
+         <l n="108">Ung cueur est bien panant meurdry</l>
+         <note resp="editor" type="ling">Panant : mortifié.</note>
+         <l>S'il est attainct de damoiselles</l>
+         <l>Car d'estre si long temps pucelles</l>
+         <l>C'est ung mal pis que d'enfanter</l>
+         <!-- Saut#34 -->
+         <l n="112">Quant tu vouldras ouyr chanter</l>
+         <l>Ung duo à quatre parties</l>
+         <l>Voy comment les voix sont loties</l>
+         <fw type="sig" place="bottom-right">Pour l'ung et l'autre supporter</fw>
+         <pb n="152r"/>
+         <fw type="pageNum" place="top-right">152</fw>
+         <l>Pour l'ung et l'autre supporter</l>
+         <!-- Saut#35 -->
+         <l n="116">Il est deffendu de porter</l>
+         <l>Livres de la saincte escripture</l>
+         <note resp="editor" type="crit">Cf. Index des livres interdits par la Sorbonne.</note>
+         <l>Cela fera que la friture</l>
+         <l>Sera fort chere ce karesme</l>
+         <!-- Saut#36 -->
+         <l n="120">Tu payeras tes beurre et cresme</l>
+         <l>Pour estre dict bon filz de <rs type="animal">vache</rs></l>
+         <note>Un tel "bon veau" deviendra destinataire du coq-à-l'âne de l'asne au beuf de 1545,
+            dont la copie unique se trouve dans ce même manuscrit 203.</note>
+         <l>Ne souffre jamais qu'on attache</l>
+         <l>Ta langue pour avoir bien dict</l>
+         <l n="124">Car l'inquisiteur a credit</l>
+         <l>De nous chanter de profundis</l>
+         <!-- Saut#37 -->
+         <l><persName type="destinataire" key="Lyon Jamet">Lyon</persName> entendz ce que je
+            dictz</l>
+         <l>Tu apprendras beaucoup soubz moy</l>
+         <note resp="editor" type="crit">Écho des vers 44-45 du premier coq-à-l'âne : "Lyon Lyon
+            c'est le secret / Aprends tant que tu es vieulx".</note>
+         <l n="128">Par bieu tu serois en esmoy</l>
+         <l>Qu'<reg>ils</reg> vouldront chauffer ta nature</l>
+         <l>Car quant à moy je n'ay froidure</l>
+         <l>Qui ait besoing d'une bourrée</l>
+         <note resp="editor" type="crit">Le bûcher est assez menaçant.</note>
+         <l n="132">J'ay nature assez alterée</l>
+         <l>Sans me chauffer par ce poinct là</l>
+         <l>Je ne boy que trop sans cela</l>
+         <l>Aussi ce n'est pas de merveilles</l>
+         <l n="136">Si je prens bonnet à oreilles</l>
+         <l>Je crains trop le froit aux tallons</l>
+         <note resp="editor" type="crit">Sous le plaisant propos d'apparence absurde, nous lisons
+            une mesure de prudence du poète qui consisterait ('prendre bonnet à oreilles') pour
+            éviter les poursuites ('le froit aux talons').</note>
+         <!-- Saut#38 -->
+         <l>L'on faict filer à recullons</l>
+         <l>La verité par les cordiers</l>
+         <note resp="editor" type="crit">Pantagrueline Prognostication, II : 'Dont pour ceste années
+            les chancres iront de cousté, et les cordiers à réculons, les escabelles monteront sur
+            les bancs, les broches sur les landiers et les bonnetz sus les chapeaulx.'</note>
+         <!-- Saut#39 -->
+         <l n="140">En faisant pour les cordeliers</l>
+         <l>Leur saincture de penitance</l>
+         <l>Elle faict avoir abstinence</l>
+         <l>De faire la beste à deux dos</l>
+         <note>Cf. Gargantua</note>
+         <!-- Saut#40 -->
+         <l n="144">Or ung beau gros membre sans os</l>
+         <pb n="152v"/>
+         <l>Faict pecher femmes par envye</l>
+         <!-- Saut#41 -->
+         <l><placeName><settlement type="city">Perpignan</settlement></placeName> eust peur de sa
+            vye</l>
+         <l>De veoir en champ dames marcher</l>
+         <note resp="editor" type="crit">Ces vers peuvent-ils alimenter la légende de Louise Labé
+            prenant part aux festivités lyonnaises de 1542 lors du passage du Dauphin?</note>
+         <note/>
+         <!-- Saut#42 -->
+         <note/>
+         <l n="148">C'est ung plaisir que chevaucher</l>
+         <l>À ung qui a belle monture</l>
+         <!-- Saut#43 -->
+         <l>N'est ce pas belle nourriture</l>
+         <l>Que d'advocatz et procureurs</l>
+         <!-- Saut#44 -->
+         <l n="152">Les sergens sont hardiz preneurs</l>
+         <l>Sans desrober sur le <expan>commun</expan></l>
+         <!-- Saut#45 -->
+         <l>Battre femme et panier tout ung</l>
+         <l>L'on n'en rapporte que le manche</l>
+         <!-- Saut#46 -->
+         <l n="156">Si l'on regarde la grand manche</l>
+         <l><reg>S'elle</reg> est de veloux ou satin</l>
+         <!-- Saut#47 -->
+         <l>Tu voirras bien quelque matin</l>
+         <l>Ouvrir la bouche pour bailler</l>
+         <note resp="editor" type="crit">Matin/mastin; Bailler/aboyer.</note>
+         <!-- Saut#48 -->
+         <l n="160">Il nous fault beaucoup travailler</l>
+         <l>Quand il jure le gentilhomme</l>
+         <!-- Saut#49 -->
+         <l>Les meusniers ne vont plus à <placeName><settlement type="city" key="Rome"
+                  >Romme</settlement></placeName></l>
+         <l>Querir pardons à pochettées</l>
+         <!-- Saut#50 -->
+         <l n="164">Parolles sont bien acheptées</l>
+         <l>Qui les dict sans y prendre garde</l>
+         <!-- Saut#51 -->
+         <l>J'ay obtins une saulvegarde</l>
+         <l>De ne porter escuz de poidz</l>
+         <!-- Saut#52 -->
+         <l n="168">Car pour jouer de ses haulxboys</l>
+         <note>cf. Berthon-Montferrand (2021)</note>
+         <l>Il fault parler à noz prelatz</l>
+         <!-- Saut#53 -->
+         <l>Il n'est plaisir que de soulas</l>
+         <l>Ne courroux que d'homme colere</l>
+         <l>[Probables vers manquants]</l>
+         <!-- Saut#54 -->
+         <l n="172">Aux biens y a tousjours querelle</l>
+         <l>Les uns ont tout les autres rien</l>
+         <l>Mais si tu veulx avoir du bien</l>
+         <fw type="sig" place="bottom-right">L'on veoid assez</fw>
+         <pb n="153r"/>
+         <fw type="pageNum" place="top-right">153</fw>
+         <l>L'on veoid assez de benefices</l>
+         <l n="176">En cloistre n'y a si novice</l>
+         <l>Qui ne voulsist estre prieur</l>
+         <!-- Saut#55 -->
+         <l>C'est pour cela que le crieur</l>
+         <l>Veult tousjours boire du bon vin</l>
+         <l n="180">Et s'il perd la fleur du raisin</l>
+         <l>Il pert la teste sens et loy</l>
+         <!-- Saut#56 -->
+         <l>Que dict on du nouvel alloy</l>
+         <l>Ceste belle monnoye du <placeName><settlement type="region"
+               >Perche</settlement></placeName></l>
+         <!-- Saut#57 -->
+         <l n="184">Celuy qui noise par tout cerche</l>
+         <l>A tout le nez esgratigné</l>
+         <!-- Saut#58 -->
+         <l>L'on ne prent plus du resigné</l>
+         <l>Sinon à beau jeu bel argent</l>
+         <!-- Saut#59 -->
+         <l n="188"><placeName><settlement type="city" key="Rome">Romme</settlement></placeName> ne
+            vient plus à l'argent</l>
+         <l>Pour emporter tous noz pechez</l>
+         <l>Ilz estoient par trop empeschez</l>
+         <l>De convertir le plomb en or</l>
+         <l n="192">Religion c'est ung tresor</l>
+         <l>Mais il y fault souvent jeusner</l>
+         <!-- Saut#60 -->
+         <l>Le cas est estrange à mener</l>
+         <l>Pour ces freres qui sont si palles</l>
+         <!-- Saut#61 -->
+         <l n="196">Les livres qui viennent de <placeName><settlement type="city" key="Bâle"
+                  >Basle</settlement></placeName></l>
+         <l>Ne sont pas au droict poinct marchez</l>
+         <l>Tant que noz peres sont faschez</l>
+         <l>Qu'on ne faict leur commendement</l>
+         <l n="200">D'aller deux à deux sainctement</l>
+         <l>C'est l'ordonnance <persName>sainct Françoys</persName></l>
+         <!-- Saut#62 -->
+         <l>Mais decymes vont troys à troys</l>
+         <l>C'est marcher royallement</l>
+         <!-- Saut#63 -->
+         <pb n="153v"/>
+         <l n="204">La guerre veit bien povrement</l>
+         <l>Et est tous les jours à nostre huys</l>
+         <!-- Saut#64 -->
+         <l>Les emprunctz serviront au pis</l>
+         <l>Pour la mykaresme à <rs type="animal" subtype="équidé">cheval</rs></l>
+         <!-- Saut#65 -->
+         <l n="208">Quant les gens sont par mont et val</l>
+         <l>Ung champ est planté seurement</l>
+         <!-- Saut#66 -->
+         <l>C'est ung tres bon amendement</l>
+         <l>Par maladye estre refaict</l>
+         <!-- Saut#67 -->
+         <l n="212">Car ung homme qui n'a rien faict</l>
+         <l>N'a que faire d'estre en prison</l>
+         <!-- Saut#68 -->
+         <l>Il vit long temps ce vieil <rs type="animal" subtype="équidé">grison</rs></l>
+         <l>La moictié plus qu'on ne pensoit</l>
+         <!-- Saut#69 -->
+         <l n="216">Mais il se taist quoy qu'il en soit</l>
+         <l>Ce grand <rs type="animal" subtype="oiseau">aigle</rs> qui faict le sour</l>
+         <!-- Deux personnages à identifier-->
+         <l>Je ne sçay s'il fera son tour</l>
+         <l>Contre gens engrossez de froid</l>
+         <!-- Saut#70 -->
+         <l n="220">Car celuy qui dict faict et croit</l>
+         <l>C'est pour aller en paradis</l>
+         <!-- Saut#71 -->
+         <l>Il n'est crotte que de <placeName><settlement type="city"
+            >Paris</settlement></placeName></l>
+         <note resp="editor" type="crit">Cf. 'Les crottes Paris' dans le même manuscrit 203.</note>
+         <l>Ne verolle que de <placeName><settlement type="city">Rouen</settlement></placeName></l>
+         <!-- Saut#72 -->
+         <l n="224">Aussi vient de tel cordouen</l>
+         <l>Le pourpoinct fermant à boutons</l>
+         <!-- Saut#73 -->
+         <l>Là n'y a de si fors bastons</l>
+         <l>Que poinctes n'en soient rebouchées</l>
+         <!-- Saut#74 -->
+         <l n="228">Mes fenestres sont bien bouchées</l>
+         <l>Pour me garder du froit qui vient</l>
+         <!-- Saut#75 -->
+         <note>Probablement l'hiver 1542.</note>
+         <l>Si de nouveau cas te survient</l>
+         <l>Il te plaira me le mander</l>
+         <l n="232">À toy me veulx recommander</l>
+         <l>Pour tousjours estre en ta memoire</l>
+         <l>Adieu te diz je m'en voys boyre</l>
+      </body>
+   </text>
+</TEI>

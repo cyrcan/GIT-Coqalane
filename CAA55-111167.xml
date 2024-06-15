@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>L'Asne au Coq 1567</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Seul témoin de cette pièce, numérisé par la Bibliothèque nationale de France et
+               disponible sur Gallica : https://gallica.bnf.fr/ark:/12148/btv1b10511040b</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p><listPerson>
+               <person xml:id="Anne_de_Montmorency"
+                  corresp="https://data.bnf.fr/ark:/12148/cb121165804">
+                  <idno type="ISNI">0000 0001 2118 2438</idno>
+                  <persName xml:lang="fr"><forename type="first">Anne de</forename><surname>
+                        Montmorency</surname></persName>
+               </person>
+               <person xml:id="François_de_Montmorency"
+                  corresp="https://data.bnf.fr/ark:/12148/cb10730880p">
+                  <idno type="ISNI">0000 0005 0409 3432</idno>
+                  <persName xml:lang="fr"><forename type="first">François de</forename><surname>
+                        Montmorency</surname></persName>
+               </person>
+               <person xml:id="Chastillon" corresp="https://data.bnf.fr/ark:">
+                  <idno>0000 </idno>
+                  <persName xml:lang="fr"><forename type="first"/><surname>
+                     Chastillon</surname></persName>
+               </person>
+               <person xml:id="Meru" corresp="https://data.bnf.fr/ark:">
+                  <idno>0000 </idno>
+                  <persName xml:lang="fr"><forename type="first">Meru</forename><surname
+                     > </surname></persName>
+               </person>
+               <person xml:id="Pie_V" corresp="https://data.bnf.fr/ark:/12148/cb11919954n">
+                  <idno>0000 0001 2096 6134</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                        >Antonio</forename><surname>Ghislieri</surname></persName>
+                  <!--Pape de 1566 à 1572-->
+               </person>
+               <person xml:id="Genlis">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">François d'</forename><surname>
+                        Hangest</surname></persName>
+               </person>
+               <person xml:id="Chavigny">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">François</forename><surname> Le
+                        Roy</surname></persName>
+                  <!--  capitaine de 50 hommes d'armes des ordonnances du Roi et lieutenant-général ès pays de Touraine, d'Anjou et du Maine -->
+               </person>
+               <person xml:id="Sansac"
+                  corresp="https://fr.wikipedia.org/wiki/Louis_Pr%C3%A9vost_de_Sansac">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Louis</forename><surname> Prevost
+                        de Sansac</surname></persName>
+               </person>
+               <person xml:id="Lansac" corresp="https://data.bnf.fr/ark:/12148/cb14444230p">
+                  <idno>0000 0000 6152 4634</idno>
+                  <persName xml:lang="fr"><forename type="first">Louis de</forename><surname>
+                        Saint-Gelais Lansac</surname></persName>
+                  <!-- 1512-1589 -->
+               </person>
+               <person xml:id="Louis_de_Montpensier"
+                  corresp="https://fr.wikipedia.org/wiki/Louis_III_de_Montpensier">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Louis de</forename><surname>
+                        Bourbon</surname></persName>
+               </person>
+               <person xml:id="Hervy">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Claude</forename><surname>
+                        Hervy</surname></persName>
+               </person>
+               <person xml:id="Sanguin">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Jacques</forename><surname> Sanguin
+                        (seigneur de Livry)</surname></persName>
+               </person>
+               <person xml:id="Nicolas_Bourgeois">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Nicolas</forename><surname>
+                        Bourgeois</surname></persName>
+               </person>
+               <person xml:id="Aubery">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname>
+                        Aubery</surname></persName>
+               </person>
+               <person xml:id="Le_Lièvre">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Claude</forename><surname> Le
+                        Lièvre</surname></persName>
+               </person>
+               <person xml:id="Le_Clerc">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Guillaume</forename><surname> Le
+                        Clerc</surname></persName>
+               </person>
+               <person xml:id="Marcel">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Claude</forename><surname>
+                        Marcel</surname></persName>
+               </person>
+            </listPerson></p>
+
+      </encodingDesc>
+      <revisionDesc>
+         <change><date>12-11-2023</date>Début d'encodage (3 folios).</change>
+         <change><date>16-11-2023</date>Finalisation de la transcription et relecture #1 et révision
+            de la numérotation.</change>
+         <change><date>18-11-2023</date>Correction des noms et recherches des personnes.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France </repository>
+                  <idno>Cinq cents de Colbert - Volume 488 (f°488-)</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <div>
+            <l><persName type="destinataire">Cocq</persName> mon bon Ami, dieu te gard,</l>
+            <l>J'ay esté en tres grand hazard,</l>
+            <l>Depuis tes dernieres nouvelles</l>
+            <l n="4">Car <reg>à</reg> cause de <rs type="ennemis" subtype="protestants">ces
+                  rebelles</rs></l>
+            <l>Tout <reg>à</reg> rebours va <expan>nostre</expan> Estat,</l>
+            <l>Et n'avois plus aucun esbat</l>
+            <note resp="editor" type="ling">Loisir.</note>
+            <l>Qu'à faire <reg>là</reg> icy la <expan>sentinelle</expan></l>
+            <!-- "On avoit dressé un Regiment de Parisiens, composé tant de marchans, artisans, qu'autres volontaires, qui lors se trouverent en ville." in Vraye & entiere histoire...(p. 59)  -->
+            <!-- Bourgeois? -->
+            <pb n="488v"/>
+            <l n="8">Jour et nuict estant en cervelle</l>
+            <l><reg>À</reg> cause d'eux qui ont surpris</l>
+            <l>La bonne ville <placeName><settlement type="city" key="Saint-Denis">St
+                     Denis</settlement></placeName></l>
+            <note resp="editor" type="crit">C'est le 2 octobre 1567 que Condé et Coligny marchent
+               vers Paris et s'installent à Saint-Denis afin de préparer le siège de la capitale.
+               (Cornette, 1999, p. 399).</note>
+            <l>Et qui gastoient toute la prée</l>
+            <note resp="editor" type="ling">La terre.</note>
+            <l n="12">De ceste fertile contrée,</l>
+            <note resp="editor" type="crit">"Toute ceste plaine est cultivee, &amp; de sa pluspart
+               emblavee pour la nourriture du plus prochain cartier : mipartie &amp; divisee comme
+               en deux, par un long &amp; large pavé, qui de Paris mene droit à S. Denys. Du costé
+               d'Aubervilliers, le bled estoit ia monté si hault, que sa verdeur courvoit aiseement
+               la couleur cendree de la terre qui le soustenoit : l'autre part avoit toutes ses
+               façons, &amp; n'attendoit plus que la semence, pour la rendre au double au meilleur
+               mesnager." (La Popelinière, 1576, p. 60).</note>
+            <l>Mangeant nos doux ails et poireaux,</l>
+            <l>Oseille, persil, et naveaux,</l>
+            <l>Qui nous sera tres grand dommage.</l>
+            <l n="16">Mais nous perdrons bien dadvantage,</l>
+            <l>Si long temps dure ce mestier</l>
+            <l>Pour ce je t'avertis que hier</l>
+            <l>Grand nombre de cavalerie</l>
+            <l n="20">Avec beaucoup <reg>d'</reg>infanterie</l>
+            <l>Sortie hors <placeName><settlement type="city">Paris</settlement></placeName> pour
+               aller</l>
+            <l>Vers <persName ref="#Genlis">Genlis</persName> et <placeName><settlement type="city"
+                     key="Aubervilliers">Haubervillier</settlement></placeName>,</l>
+            <note resp="editor" type="crit">Genlis gardait Aubervilliers avec l'aile gauche, Condé
+               occupait le centre et Coligny l'aile droite à Saint-Ouen. cf. F. Charbonnier,
+               1920.</note>
+            <l>Le voulant au logis surprendre,</l>
+            <l n="24">Mais il se sceut si bien deffendre,</l>
+            <l>Estant du prince soustenu,</l>
+            <note resp="editor" type="crit">Le Prince de Condé.</note>
+            <l>Que <orgName type="Royaux">les nostres</orgName> ont bien couru,</l>
+            <l>Et la plus part sur grand erre.</l>
+            <l n="28">Que maudit de <persName>dieu</persName> soit la guerre</l>
+            <pb n="489r"/>
+            <fw type="pageNum" place="top-right">489</fw>
+            <l>Je croy qu'elle nous destruira</l>
+            <l>Mais ce pendant que reignera</l>
+            <l><reg>À</reg>
+               <placeName><settlement type="city">Paris</settlement></placeName> une loy
+                  <unclear>diverse</unclear></l>
+            <l n="32">Tout s'en ira <reg>à</reg> la renverse</l>
+            <!-- Question de l'unité -->
+            <l>Car il ne nous fault q'une loy</l>
+            <l>Un dieu, une foy et un roy,</l>
+            <l>Ainsi <persName ref="#Marcel">Marcel</persName> nous le fait croire,</l>
+            <note resp="editor" type="crit">Claude Marcel était marchant-orfèvre sur le
+               Pont-au-Change à Paris, échevin en 1557 et 1562, il est élu prévôt des marchands le
+               21 août 1564 mais n'exercera sa charge qu'en 1570, pendant deux ans. Cf. aussi "Le coq à
+               l'âne d'un Parisien" de Jean de Bondys (CAA#61).</note>
+            <l n="36">Et ses consuls de <placeName
+                  corresp="https://data.bnf.fr/ark:/12148/cb120104311">St Magloire,</placeName></l>
+            <l><persName ref="#Le_Clerc">Le Clerc</persName>, <persName>La Briere <persName
+                     ref="#Aubery">Auberi</persName></persName></l>
+            <note resp="editor" type="crit">À rapprocher du cinquième couplet de "La chanson de
+               Marcel, prévost des marchands" dans le recueil Maurepas qui la date de 1566: "Debray,
+               Hotman, Lechassier,/ Avec leurs cuirasses d'acier,/ Iront premier/ Les essayer,/
+               Après iront Dehaire,/ Rousselet, Ladvocat, Aubry/ Bourgeois et Labrière/ Et Des Prés
+               avec lui/ Vous irez à la messe..."</note>
+            <l><persName ref="#Nicolas_Bourgeois">Bourgois</persName>,
+                  <persName>Rousselet</persName>, et <persName ref="#Hervy">Hervi</persName>,</l>
+            <l><persName ref="#Le_Lièvre">Le Lievbre</persName>, <persName>Grignant</persName> et
+                  <persName ref="#Sanguin">Sanguin</persName></l>
+            <note resp="editor" type="crit">Liste de Parisiens catholiques ayant occupé la charge
+               d'échevin.</note>
+            <l n="40">Mais en fin ne auroit nul <unclear>grain</unclear>,</l>
+            <l>Tout retumbera sur leurs testes.</l>
+            <l>Mais <expan>sommes</expan> nous pas de grands bestes</l>
+            <l>D'avoir ainsi rompu la paix</l>
+            <l n="44">Que peult estre n'aurons jamais,</l>
+            <l>Que meurent ceux qui en sont cause</l>
+            <l>Ho! Je t'escriray mais je n'ause</l>
+            <l>Ce que pour vray l'on dit ici,</l>
+            <l n="48">Que traistre estoit <persName ref="#Anne_de_Montmorency"
+               >Monmoranci</persName>,</l>
+            <pb n="489v"/>
+            <l>Et qu'il vouloit vendre la ville</l>
+            <l><reg>À</reg>
+               <rs type="ennemis" subtype="protestants">ces beaux prescheurs d'evangille</rs></l>
+            <note resp="editor" type="crit">Le connétable était soupçonné d'être conciliant envers
+               ses neveux réformés.</note>
+            <l><reg>À</reg> l'autre fois, il fut frappé</l>
+            <l n="52">Mais ce coup par mort attrapé</l>
+            <l>Qui sera la plus grande gloire</l>
+            <l>Qu'on puisse avoir de sa memoire.</l>
+            <l><persName ref="#François_de_Montmorency">Son filz aisné le Mareschal</persName></l>
+            <note resp="editor" type="crit">François de Montmorency (1530-1579), époux de Diane de
+               France.</note>
+            <l n="56">En ce combat ne feit pas mal,</l>
+            <l>Contre toute <expan>nostre</expan> esperance</l>
+            <l>Car de luy avions desfiance</l>
+            <l>Qu'il eust fait <expan>quelque</expan> faction</l>
+            <l n="60">Avec ceux de <persName>Chastillon</persName></l>
+            <note resp="editor" type="crit">Cousins de François de Montmorency.</note>
+            <l><persName>Meru</persName> son frere fut habille</l>
+            <note resp="editor" type="glose">Charles de Montmorency (1537-1612).</note>
+            <l>De se scauver dedans la ville,</l>
+            <l><persName ref="#Chavigny">Chavigni</persName> avecques <persName ref="#Sansac"
+                  >Sanssac,</persName></l>
+            <note resp="editor" type="crit">François le Roy seigneur de Chavigny était chevalier de
+               l'ordre du roi et capitaine de cinquante hommes d'armes des ordonnances du Roi. Louis
+               Prévost de Sansac, fidèle de François Ier, fut blessé pendant la bataille du 10
+               novembre.</note>
+            <l n="64">La vierge <unclear>espée</unclear> de <persName ref="#Lansac"
+                  >Lanssac</persName>,</l>
+            <l><persName ref="#Louis_de_Montpensier">Montpensier</persName>, aussi <persName>du
+                  Peron</persName>,</l>
+            <l>Le gaignerent <reg>à</reg> l'esperon,</l>
+            <l>Et se scauverent de tristesse,</l>
+            <pb n="490r"/>
+            <l n="68"><rs type="ennemis" subtype="catholiques">Ces bons protecteurs de la
+               messe</rs></l>
+            <l><rs type="injonction" subtype="impératif">Croy</rs>
+               <persName type="destinataire">mon Ami Coq</persName> pour certain,</l>
+            <l>Que si tost dieu n'y met sa main,</l>
+            <l>La <placeName><settlement type="country">France</settlement></placeName> s'en va en
+               ruine.</l>
+            <l n="72">Tel fait en son jeu bonne mine</l>
+            <l>Qui va par trente <unclear>un</unclear> de flus</l>
+            <l>Ce gourmant <persName>mareschal Perelux</persName>,</l>
+            <note resp="editor" type="crit">Artus de Cossé-Brissac?</note>
+            <l>En bon <reg>à</reg> mesner l'avangarde,</l>
+            <l n="76">Car de reculer il n'a garde</l>
+            <l>Ayant avec luy <persName>Montpensier</persName></l>
+            <l>Qui entent fort bien ce mestier;</l>
+            <l>Et est de suffisante taille,</l>
+            <l n="80">Pour bien combattre <reg>à</reg> la bataille.</l>
+            <l>Mais je crain que <rs type="ennemis" subtype="protestants">ses huguenots</rs>,</l>
+            <l>Ne leur donnent tresbien <reg>à</reg> dos,</l>
+            <note resp="editor" type="ling">"Donner à dos": mettre en déroute (Di Stefano).</note>
+            <l>Car ilz frappent <reg>à</reg> tout outrance.</l>
+            <l n="84">De coustelas, pistolle, et lance,</l>
+            <l>Comme <unclear>sens</unclear> tous desesperés.</l>
+            <note resp="editor" type="philo">gens?</note>
+            <l>Ô les beaux corselets dorés</l>
+            <l>Que l'on void sur la campagne,</l>
+            <l n="88">Avec pistoletz d'<placeName><settlement type="country"
+                  >Alemagne</settlement></placeName></l>
+            <pb n="490v"/>
+            <l>Jamais ne fut un tel landi,</l>
+            <note resp="editor" type="glose">"Le Corps de garde Catholique estoit à la Chappelle,
+               (petit Temple ainsi appelé, distant un quart de lieuë de Paris, sur le chemin tendant
+               à S. Denys) lequel estoit composé de deux Cornettes, &amp; à l'esgual de Fantassins,
+               celuy des Protestans estoit pres du Landit.[...] Pres de S. Denys, à costé du pavé,
+               comme tirant vers S. Ouyn, y a un grand cartier, destiné pour la Foire qu'on appelle
+               Landit, où plusieurs marchands, que François qu'estrangers, viennent trafiquer avec
+               les Parisiens, &amp; autres qui se veulent accomoder de ce qu'ils y apportent. (La
+               Popelinière, 1576, p. 59 et 60-61).</note>
+            <l>Ne se un malheureux lundy.</l>
+            <l>Le Me du Pan mon compere,</l>
+            <l n="92">Onq ne vid tel vitupere,</l>
+            <l><expan>Grandement</expan> fasché s'y trouva.</l>
+            <l>Heureux celuy qui se sauva,</l>
+            <l><reg>À</reg> ce beau jour de la bataille.</l>
+            <l n="96">On y frappoit d'estoq et taille,</l>
+            <l>C'estoit piteuse St Martin.</l>
+            <l><reg>Où</reg> estoit le vaillant Dartin!</l>
+            <l>Il eust esté tuer le prince</l>
+            <l n="100">Le grippeminaut tousjours pinse,</l>
+            <l>Et <reg>à</reg> la consfication</l>
+            <l>De ceux de la Religion;</l>
+            <l>Qui contre nous portent les armes.</l>
+            <l n="104">Armantiers a des gendarmes</l>
+            <l>A bien fuir d'eux monstrera</l>
+            <l>Car onques ne combattra,</l>
+            <l><placeName><settlement type="city">Dreux</settlement></placeName> et
+                     <placeName><settlement type="city" key="Saint-Denis">St
+                  Denis</settlement></placeName> en sont preuve.</l>
+            <l n="108">Ami, fort estonné me treuve</l>
+            <l>Quand je ramasse tout cecy,</l>
+            <!-- CITABLE -->
+            <pb n="491r"/>
+            <fw type="pageNum" place="top-right">491</fw>
+            <l>Et suis en merveilleux souci,</l>
+            <l>D'ainsi voir aller leur affaire;</l>
+            <l n="112"><reg>À</reg> souhait dont ne me puis taire.</l>
+            <l>Il est vray que dedans ceste ville,</l>
+            <l>On y presche point l'evangile</l>
+            <l>Ny aussi dans la viconté,</l>
+            <l n="116"><persName>Marcel</persName>
+               <reg>a</reg> tant solicité</l>
+            <l>Qu'il la fait dans l'edit mettre.</l>
+            <l>Jamais ne voudrions promettre</l>
+            <l>Quand il en seroit fait edit.</l>
+            <l n="120">Le <persName ref="#Pie_V">pape</persName> sera en credit</l>
+            <l>En despid de ceste canaille</l>
+            <l>Pour nous ce fut pauvre bataille</l>
+            <l>C'estoit une grande pitié</l>
+            <l n="124">Voir des corps courir par moitié,</l>
+            <l>Bras et jambe deça, dela,</l>
+            <l>Je voy mon compere <unclear><persName>Cola</persName></unclear></l>
+            <l>Estendu mort parmi les champs</l>
+            <l n="128"><persName>Le diable</persName> emporte <rs type="ennemis">ses
+               meschans</rs></l>
+            <l>Bien nous firent de la besongne.</l>
+            <l><choice>
+                  <orig>Jusse</orig>
+                  <reg>J'eusse</reg>
+               </choice> esté blessé <reg>à</reg> la trongne</l>
+            <pb n="491v"/>
+            <l>N'eust esté mon beau morion.</l>
+            <l n="132">Vray est que j'eu un horion</l>
+            <note resp="editor" type="ling">Un coup de poing (Cotgrave).</note>
+            <l>Qui me cuida tomber par terre.</l>
+            <l>Onq je ne fus en telle guarre,</l>
+            <l>Et si bien fort me repenti</l>
+            <l n="136">D'avoir de <reg>là</reg>
+               <unclear>viste</unclear> sorti</l>
+            <l>J'y eu ung piteux passetems</l>
+            <l>Bien est vray, ainsi que j'entens,</l>
+            <l>Dont au coeur j'ay une grande gloire,</l>
+            <l n="140">Qu'avoir emporté la victoire</l>
+            <l>Le champ nous estant demeuré.</l>
+            <l>J'y fus <expan>grandement</expan> alteré,</l>
+            <l>Mais encor eu je plus de peur,</l>
+            <l n="144">Et me cuida faillir le cœur,</l>
+            <l>Voyant ainsi fuir les nostres</l>
+            <l>Portant au col des pastenostres</l>
+            <l>Et des croix blanches au chappeau.</l>
+            <note resp="editor" type="crit">Signe de reconnaissance des catholiques.</note>
+            <l n="148">Je discourois en mon cerveau.</l>
+            <l>Voiant une telle desfaite,</l>
+            <l><reg>Où</reg> pouroit estre ma <unclear>retrette</unclear></l>
+            <pb n="492r"/>
+            <fw type="numPage" place="top-right">492</fw>
+            <l>Car si <placeName><settlement type="city">Paris</settlement></placeName> eust esté
+               loing</l>
+            <l n="152">Je fusse mort en quelque coing</l>
+            <l><unclear>Parmi</unclear>[?] les champs. <reg>Ma</reg> cuirassine</l>
+            <note resp="editor" type="glose">"Les Archers montez d'un bon cheval, armez d'un
+               corcelet ou anime, de braçats ou manche de maille, &amp; d'un morion: &amp; au lieu
+               de Lance un fort &amp; roide Espieu, avec le pistolet à l'arçon de la selle, au lieu
+               d''arcs &amp; flesches, qu'ils portoyent anciennement : &amp; en combatoyent à
+               cheval, &amp; quelquesfois à pied." (La Popelenière, 1576, p. 62).</note>
+            <l>Me blessoit si fort la poictrine,</l>
+            <l>Et mon morion trop pesant</l>
+            <l n="156">Me faisoit pencher en devant,</l>
+            <note resp="editor" type="glose">"Je vous peindray [...] l'honorable depart que plus de
+               cinq cens ames guerrieres y firent de leur pesant fardeau, &amp; la sanglante
+               retraitte de s plus heureux." (La Popelinière, 1576, p. 60).</note>
+            <l>Tant que j'en perdois mon haleine.</l>
+            <l>Mais qui plus me donnoit de peine,</l>
+            <l>Estoit de ce monde passer,</l>
+            <l n="160">Et ma pauvre femme laisser.</l>
+            <l>Encores craignois que <placeName><settlement type="city"
+                  >Paris</settlement></placeName></l>
+            <l>De nos ennemis fut prise</l>
+            <l>Par <unclear>quent</unclear> fait nostre bonne saincte,</l>
+            <l n="164">Qui est tant <unclear>reveree</unclear> et crainte</l>
+            <l>Avec son frere <persName>St Marceau</persName>,</l>
+            <l>Qui font quand il pleut le temps beau,</l>
+            <l>Et quand il fait trop seq la pluie,</l>
+            <l n="168">Qui de fievre et d'epidemie</l>
+            <l>Guairissent <placeName><settlement type="city">Paris</settlement></placeName> de tous
+               maux,</l>
+            <pb n="492v"/>
+            <l>Des hommes, bestes, et <rs type="animal" subtype="équidé">chevaux</rs></l>
+            <l>Quand de bon cœur on les reclame.</l>
+            <l n="172">Ilz estoient perdus sur mon Ame,</l>
+            <l>Et c'estoit fait d'eux pour certain,</l>
+            <l>Si sur eux <unclear>eussent</unclear> la main</l>
+            <l>Ces meschans voleurs de calices,</l>
+            <l n="176">Et mangeurs de benefices.</l>
+            <l><reg>À</reg> la fin la nuit nous pressa</l>
+            <l>Et dans la ville nous chassa</l>
+            <l>Pas n'y eust pour trestous à rire</l>
+            <l n="180"><reg>Voilà</reg> tout ce que t'en puis dire.</l>
+            <l>Escript ce mardy au matin,</l>
+            <l>Le propre jour de <persName>St Martin</persName>,</l>
+            <l>À <placeName><settlement type="city">Paris</settlement></placeName> si bien qu'en
+               remembre</l>
+            <l n="184">Le jour <date when="1567-11-11">XIe de Novembre</date>.</l>
+            <l>1567</l>
+
+         </div>
+      </body>
+   </text>
+</TEI>

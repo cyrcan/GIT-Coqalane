@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rescript de l'asne au Coq</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Le Joyeux devis récréatif de l'esprit troublé <date>1539</date></p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Nb d'éditions au XVIe siècle</p>
+         </sourceDesc>
+      </fileDesc>
+     <revisionDesc><change><date>30-09-2023</date>Encodage de niveau 0.</change></revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listBibl>
+	           <msDesc>
+	              <msIdentifier>
+                  <settlement>where is it</settlement>
+	                 <repository>repository name</repository>
+	                 <idno>identifier</idno>
+               </msIdentifier>
+	           </msDesc>
+         </listBibl>
+         <l>Amy pour respondre <reg>à</reg> ta lettre</l>
+         <l>Pardeça nous fault tresmal estre</l>
+         <l>Pour le gain qui est tant petit</l><!-- Saut#1 -->
+         <l n="4">En belle femme est apetit</l>
+         <l>Pource je faulte en trescripvant</l>
+         <l>De Lasne au Coq doresnavant</l><!-- Saut#2 -->
+         <l>De <placeName><settlement type="region">Provence</settlement></placeName> on aura nouvelle</l>
+         <l n="8">Au bout de l'an la vache velle</l>
+         <l>S'elle est malade elle n'est point saine</l><!-- Saut#3 -->
+         <l>Quant on mengue de la laine</l>
+         <l>C'est grant remede au flux de ventre</l><!-- Saut#4 -->
+         <l n="12">Dont vient cela que quant je rentre</l>
+         <l>C'est assez pour gaigner le jeu</l>
+         <l>Ung jour passe au marche jeu</l>
+         <l>Quatre cuillers pour ung tournois</l>
+         <l n="16">Mais qui a eu bruict au tournois</l>
+         <l>Qui a este faict à <placeName><settlement type="city">Paris</settlement></placeName></l>
+         <l>Les tresoriers sont tous peris</l>
+         <l>Et n'y en a plus nulz en <placeName><settlement type="country">France</settlement></placeName></l>
+         <l n="20">Par mon serment c'est grant oultrance</l>
+         <l>Faire tant de maulx soustenir</l>
+         <l>(Car aultrement ne peult venir)</l>
+         <l><reg>À</reg> ceulx qui suent la verolle</l>
+         <l n="24">Il te convient scavoir ton rolle</l>
+         <l>Pour bien jouer ton personnage</l>
+         <l>C'est tresmal faict perdre son aage</l>
+         <l>Soubz ung asnier maistre d'escolle</l>
+         <l n="28">Ho deffende ceste bricolle</l>
+         <l>Je ne puis la chasse tenir</l>
+         <l>Qui veult sa femme entretenir</l>
+         <l>Il la fault mener à l'esbat</l>
+         <l n="32">Car c'est bien faict fuir debat</l>
+         <l>Et puis qu'ilz sont d'or &amp; de poix</l>
+         <l>Je t'envoiray du lart a poix</l>
+         <l>Pour passer ce temps de quaresme</l>
+         <l n="36">C'est ung doulx menger que de cresme</l>
+         <l>Pour les dames parisiennes</l>
+         <l>Si tu veulx avoir les miennes</l>
+         <l>Tu les auras mes pantouflettes</l>
+         <l n="40">On porte maintenant moufflettes</l>
+         <l>Aussi bien yver qu'esté</l>
+         <l>Et pour cela n'y ay esté</l>
+         <l>Affin d'eviter les reproches.</l>
+         <l n="44">Il fault au soir porter des torches</l>
+         <l>De paour de rencontrer le guet</l>
+         <l>Tu ne scay point que dit <persName key="Margot">Marguet</persName></l>
+         <l>Par mon ame elle est desja grosse</l>
+         <l n="48">Regarde la comment il gosse</l>
+         <l>Attache moy une sonnette</l>
+         <l>A chascun poil de la barbette</l>
+         <l>D'ung boutecul ou d'un cagot</l>
+         <l n="52">Et vous verrez <persName>maistre Ragot</persName></l>
+         <l>Qui vous joura une morisque</l>
+         <l>Sois moy tousjours joly &amp; frisque</l>
+         <l>Et retiens bien ce qu'on t'enseigne</l>
+         <l n="56">Si fault que du bras on te seigne</l>
+         <l>Bons medecins y a à <placeName><settlement type="city">Laon</settlement></placeName></l>
+         <l>Janvier le moys commence l'an</l>
+         <l>Et fuyt le froit moys de Decembre</l>
+         <l n="60">On y vend des chapeletz D'ambre</l>
+         <l>A ceulx qui vont en garouage</l>
+         <l>Que la malle mort &amp; la rage</l>
+         <l>Puist endormir le mailloteur</l>
+         <l>Mais qui est ce fol barboteur</l>
+         Qui ne nous faict que barboter
+         Il ne convient ta barbe oster
+         Si tu veulx aller en la guerre
+         Pour cela je n'y pense guere
+         Et ne respondz à tous tes dictz
+         Car adventuriers plus de dix
+         A le prevost des mareschaulx
+         Apres pasques les pastez chaulx
+         Seront fort bons pour desjeuner
+         Faulte d'argent nous faict jeusner
+         A grande peine pardeça
+         Depuis deux ou trois mois en ça
+         Trois furent menez au gibet
+         À l'eschiquier bon vin on boit
+         c'est assez pres de sainct Martin
+         Je me levay hier au matin
+         Encore lors luisoit la lune
+         Trouvay quelqung de Pampelune
+         Qui me mist en tresgrant erreur
+         En me parlant de L'empereur
+         Et de sa glorieuse fuite
+         On faict icy grosse poursuitte
+         Aux hannuiers que dieu mauldie
+         Il regne cy gran maladie
+         Chascun n'a point monnoye à point
+         Ce qui me vient tresmal a point
+         Soit à midy soit au matin
+         Dieu pardoint au povre Martin
+         Il conduisoit bien son pourceau
+         Je ne scay plus rien de nouveau
+         Sinon que j'ay ung chapeau rouge
+         Hola mon amy ne te bouge
+         Les allemans ont prins querelle
+         Pour ravoir une maquerelle
+         Comme feroit ung bon preudhomme
+         Dieu doint grace au pape de Rome
+         Que chascun vive en bonne amour
+         Bona dies bon iour bon iour
+         Mon dieu que les sotz seront braves
+         Dimenche au jeu jourdain de Blaves
+         On en fera raportz divers
+         De ces moines vestus de vers
+         Qui ont dames belles rebelles
+         Monsieur en scaura les nouvelles
+         Et notera en quatre livres
+         Amours m'ont bien cousté cent livres
+         Et si m'ont faict coucher dehors
+         Toutesfois ce ne fust alors
+         Que ce pougault vient à jube
+         Le moyne parle à son abbé
+         Quant il veult avoir sa jacquette
+         Dont vient cela que la bucquette
+         Eschet tousjours au malheureux
+         Tais toy Normand qui es d'Evreux
+         Et si porte honneur à ton maistre
+         Car je ne vueil cy plus rien mettre.
+         
+         
+         Fin de lescript de Lasne au Coq (CAA13-Rescript (JDET), Pos. 1-121)</body>
+  </text>
+</TEI>

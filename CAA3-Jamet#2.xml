@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Response à l'epistre du coq a lasne de Clément Marot</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Manuscrit fr. 4967 de la Bibliothèque nationale de France</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="225"/>
+         <fw type="pageNum" place="top-right">225</fw>
+         <l>Tes doulx salutz amy <persName type="auteur"><reg>Marot</reg></persName></l>
+         <l>Plus toust que n’est chassé garrot</l>
+         <l>Tu <reg>m’as</reg> transmys jusques <reg>à</reg>
+            <placeName><settlement type="city" key="Lyon">Lion</settlement></placeName></l><!-- Saut#1 -->
+         <l n="4">Mays noz curez fidelium</l>
+         <l>Ne chanteront poinct sans argent</l><!-- Saut#2 -->
+         <l>Car leurs filletes par art gent</l>
+         <l>Le coq à <reg>l’asne</reg> font sauter</l><!-- Saut#3 -->
+         <l n="8"><reg>Voilà</reg> pourquoy <reg>l’on</reg> va luter</l>
+         <l>En la tour close [aux] financiers</l><!-- Saut#4 -->
+         <l>Gens <reg>d’armes</reg> ont arnays d’aciers</l>
+         <l>Mays ne sont fors pour se deffendre</l>
+         <l n="12">Contre advocatz qui sçavent prendre</l>
+         <l>Tout fors esguille par le bout</l><!-- Saut#5 -->
+         <l>Femme de plat et boys debout</l>
+         <l>Comme <reg>l’on</reg> dict dure sans fin</l><!-- Saut#6 -->
+         <l n="16">Les <unclear>forsaires</unclear> seuffrent grand fain</l>
+         <l>Soif chault et froict en ses gallaires</l>
+         <l>Si postes courent sur leurs haires</l>
+         <l>Legiers <reg>d’argent</reg> or ou alloy</l>
+         <l n="20">Ce n’est que leur coustume et loy</l>
+         <l>Aussi <reg>l’on</reg> voit trop à <placeName><settlement type="city"
+               >Paris</settlement></placeName></l>
+         <l>Femmes maistriser leurs marys</l>
+         <l>Et <reg>n’estoit</reg>
+            <reg>qu’on</reg> restranche les gaiges</l>
+         <l n="24">Aux officiers princes et paiges</l>
+         <l>N’y vois de peur prendre la goute</l>
+         <l>Sans chandelle <reg>où</reg>
+            <reg>l’on</reg> ne voit goute</l>
+         <l><reg>J’entends</reg> apres que ses gras moynes</l>
+         <l n="28"><reg>Presbtres</reg> abbez jeunes chanoynes</l>
+         <pb/>
+         <l>Contre ton dit besongnent bien</l>
+         <l>En troys beaux motz mectent leur bien</l>
+         <l>Fructus ventris et sans abbus</l>
+         <l n="32">Le reste in mulieribus</l>
+         <l>Les troys dames des blans manteaux</l>
+         <l>Disent que tous marys loyaulx</l>
+         <l><reg>N'yront</reg>
+            <reg>jamays</reg> en paradis</l>
+         <l n="36">Quant les sergens sont dix à dix</l>
+         <l>Pour prendre ung enffant au collet</l>
+         <l>Ilz sont hardys si le <rs type="animal" subtype="volaille">poullet</rs></l>
+         <l>Ne veult <reg>joucher</reg> sur ses argotz</l>
+         <l n="40"><reg>L’on</reg> ne menge plus <reg>qu’<rs type="animal">escargotz</rs></reg></l>
+         <l><reg>C’est</reg> ce qui faict tant embrocher</l>
+         <l>Gelynes qui vendent leur chair</l>
+         <l>Ung cas nouvel <reg>c’est</reg> que lingeres</l>
+         <l n="44">Sont de leur cul trop plus ligieres</l>
+         <l>Que <add type="editor">sont</add> leurs langues à caquet</l>
+         <l>Le pape a faict ung gros banquet</l>
+         <l>De coups de canon à <placeName><settlement type="city"
+            >Florence</settlement></placeName></l>
+         <l n="48"><reg>C’est</reg> bien entendre la puissance</l>
+         <l>De sa clef <reg>qu’il</reg> tient <reg>à</reg> senestre</l>
+         <l>Mays de la clef <reg>qu’il</reg> tient <reg>à</reg> destre</l>
+         <l>Les assomera de pardons</l>
+         <l n="52">Or <reg>ça</reg> doncques toust regardons</l>
+         <l>Que la nuit va quant le jour vient</l>
+         <l>Quant j’ay grand soif il me souvient</l>
+         <l>Du vin <choice>
+               <orig>sainct</orig>
+               <supplied>clairet</supplied>
+            </choice> qui dict tout torne</l>
+         <l n="56">Celluy qui court qui chasse et corne</l>
+         <l>Le long du jour et rien ne prend</l>
+         <l>Est comme ung escollier qui <reg>n’aprend</reg></l>
+         <l>Ce dict <reg><persName>Songecreux</persName></reg> en proverbe</l>
+         <l n="60">Lequel sans art magicque ou herbe</l>
+         <pb/>
+         <fw type="sig" place="bottom-right">A faict</fw>
+         <fw type="pageNum" place="top-right">226</fw>
+         <l>A faict rencontrer deux montaignes</l>
+         <l><persName>Beda</persName> et luy <choice>
+               <orig>semble</orig>
+               <supplied>semblent</supplied>
+            </choice> deux quynes</l>
+         <l>Quant se <choice>
+               <orig>rencontre</orig>
+               <supplied>rencontrent</supplied>
+            </choice> doz à doz</l>
+         <l n="64">La femme qui <reg>n’a</reg> que les os</l>
+         <l>Ne doit souffrir <reg>qu’un</reg> homme eticque</l>
+         <l>La broche de sa dague ou picque</l>
+         <l>Veu que cliquete de molin</l>
+         <l n="68">Qui font clic clac au tabourin</l>
+         <l>Ne faict si grand bruit es assaulx</l>
+         <l>Femme qui faict les soubressaulx</l>
+         <l>Comme ung basteleur de <placeName>Chaulny</placeName></l>
+         <l n="72">Souffre ung <reg>chascun</reg> pondre <reg>à</reg> son nid</l>
+         <l>Pour avoir la pleume de <reg>l’oye</reg></l>
+         <l>De vieulx escuz une mont joye</l>
+         <l><reg>J’aymeroys</reg> myeulx que les salutz</l>
+         <l n="76">Si tu savoys jouer du lucz</l>
+         <l>Devant le Roy comme <persName>Martyne</persName></l>
+         <l>Contrainct seroys porter <reg>l’hermyne</reg></l>
+         <l>En chapperon de conseiller</l>
+         <l n="80">Faudroit il point alors sceller</l>
+         <l>La mulle avant la chevaucher</l>
+         <l>Femme qui vent <reg>à</reg> tous sa chair</l>
+         <l>Deust avoir le cul bien puant</l>
+         <l n="84">Large au cultis moete et suant</l>
+         <l>Et comme ung couvreux esventé</l>
+         <l>Le juge <reg>d’enfer</reg> a <reg>bouté</reg></l>
+         <l>Et son palludz acheronicque</l>
+         <l n="88">Maigret <reg>nomme</reg> la manificque</l>
+         <l>Se sont nouvelles de Paradis</l>
+         <l>Dont plusieurs en sont bien marrys</l>
+         <l>Aultres qui <reg>n’ont</reg> devant les yeulx</l>
+         <l n="92">Le dieu puissant en sont joyeulx</l>
+         <l>Tu prandras en <reg>gré</reg> ma responce</l>
+         <l>Qui ne vault riens puis <reg>d’une</reg> ponce</l>
+         <l>Effaceras tout cest escript</l>
+         <l n="96"><reg>C’est</reg> ton amy qui te rescript</l>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>where is it</settlement>
+                  <repository>repository name</repository>
+                  <idno>identifier</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="CAA22">Epistre du coq a l'asne faict par Lyon Jamet en l'an mil Vc quarante et
+               ung</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Pièce également présente dans le codex 10203 (f°6-10) de la Bibliothèque Nationale de Vienne
+               en Autriche. Retranscrite par G. Guiffrey puis. G. Defaux dans leurs éditions des
+               œeuvres de Clément Marot</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Manuscrit 203 de la Bibliothèque Municipale de Soissons</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change><date>20-04-2023</date> Encodage de niveau 3</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Soissons</settlement>
+                  <repository>Bibliothèque municipale</repository>
+                  <idno>ms. 203</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <pb n="57(89)"/>
+         <fw type="pageNum" place="top-right">57/89</fw>
+         <l>Je te veulx escripre <reg>à</reg> ce coup</l>
+         <l><reg>Qu’en</reg>
+            <placeName><settlement type="region">Piedmont</settlement></placeName> il y a
+            beaucoup</l>
+         <l>D’asnesses de <placeName><settlement type="city">Hierusalem</settlement></placeName></l>
+         <l n="4">Que Dieu leur envoye mal an<note resp="editor" type="ling">Malheur. cf. Cinquiesme
+               Livre : "Puis [Panurge] s'escria à haute voix disant, en mal-an soit la beste, il
+               semble une duppe."</note></l>
+         <l>L’argent<reg> du <persName key="François Ier">Roy</persName> leur vient sans
+            peine</reg></l>
+         <!-- Saut#1 -->
+         <l>Et puis on faict ung cappitaine</l>
+         <l>Maintenant en sortant de paige</l>
+         <l n="8">Il faict bon estre du lignaige</l>
+         <l>De <persName>Lancellot</persName> ou de <persName>Gauvain</persName></l>
+         <!--Saut#2-->
+         <l>Si maintient on pour tout certain</l>
+         <l><reg>Qu’il</reg> n’est bon beurre que de <placeName>Vanvres</placeName></l>
+         <l n="12"><reg>À</reg>
+            <placeName><settlement type="city" key="Savigliano">Savyllan</settlement></placeName>
+            nous avons <persName>Ambres</persName><note resp="editor" type="crit">François de
+               Voisins-d'Ambres, troisième fils de Jean de Voisins et d'Hélène de Lévis, chevalier
+               de Malte, conseiller d'État, chambellan, sénéchal de Rouergue (1531), capitaine des
+               légions de Languedoc (1535), gouverneur de Savigliano, sur la Maira, à 15 km à l'Est
+               de Saluces.</note></l>
+         <l>Qui tire autre chose que paille<note>cf. Pline.</note></l>
+         <!-- Saut#3 -->
+         <l>Ung cousteau qui des deux pars taille</l>
+         <l>Est convenable pour la trippe</l>
+         <!--Double sens probable : langues de bœuf + ?-->
+         <!-- Saut#4 -->
+         <l n="16">Mais <reg>qu’est</reg> devenu <persName key="Frippelippes"
+            >Frippelippe</persName></l>
+         <l>Les <orgName key="Sagotins">sagoints</orgName> sont ilz tous mors</l>
+         <!-- Saut#5 -->
+         <l>Il est besoing de roides mors</l>
+         <l>Aux bestes qui ont forte bouche</l>
+         <!-- Saut#6 -->
+         <l n="20">Oncques on ne veit male mouche</l>
+         <l>Qui fut loyalle asses mouchez</l>
+         <!-- Saut#7 -->
+         <l>Les corps bossus sont fort marchez</l>
+         <pb n="57v(89v)"/>
+         <l>C’est affin <reg>qu’on</reg> les recongnoisse</l>
+         <!-- Saut#8 -->
+         <l n="24">La consolacion de <persName type="auteur">Boece</persName></l>
+         <l>Est bonne <reg>à</reg> qui a tout perdu</l>
+         <!-- Saut#9 -->
+         <l>Nous avons beaucoup attendu</l>
+         <l>De faire general concille</l>
+         <l n="28">De peur de perdre la cocquille</l>
+         <l>Que <persName>Constantin</persName> donna au <persName>pape</persName></l>
+         <!-- Saut#10 -->
+         <l><rs type="injonction" subtype="impératif">Garde</rs> ton bien qu’on ne l’atrappe</l>
+         <l>De peur du feu de ses fagotz</l>
+         <l n="32">Car comme disent les cagotz</l>
+         <l><rs type="injonction" subtype="impératif">Donnez</rs> il vous sera <reg>donné</reg><note resp="editor" type="crit">cf. Luc(VI,38):
+               "donnez et on vous donnera; on vous donnera plein vos poches, une bonne bonne mesure
+               tassée, secouée, débordante; car on vous fera mesure avec la mesure dont vous
+               mesurez."</note></l>
+         <l>Mais tout le monde est <reg>estonné</reg></l>
+         <l><reg>Qu’ils</reg> prennent et ne donnent rien</l>
+         <!-- Saut#11 -->
+         <l n="36">Celuy qui a le plus de bien</l>
+         <l><reg>C’est</reg> celuy <reg>à</reg> qui moins il couste</l>
+         <!-- Saut#12 -->
+         <l>Jamais la <rs type="animal">taupe</rs> ne veoit goute</l>
+         <l>Ses yeulx sont trop couverts de terre</l>
+         <!-- Saut#13 -->
+         <l n="40">Rien ne se dict de l’<placeName><settlement type="country"
+                  >Angleterre</settlement></placeName></l>
+         <l>Et si a faict le pet <reg>à</reg>
+            <placeName><settlement type="city" key="Rome">Romme</settlement></placeName></l>
+         <l>Mais si <reg>c’estoit</reg> quelque pauvre homme</l>
+         <l>Il seroit tout vif <reg>escorché</reg></l>
+         <l n="44"><rs type="proverbe">Nez <reg>d’argent</reg>
+               <reg>n’est</reg> jamais mouché</rs></l>
+         <l>Voyla pourquoy chascun se tayse</l>
+         <!-- Saut#14 -->
+         <l>Puis la femme de la hardayse</l>
+         <l>Preste son bas à tout venant</l>
+         <l n="48">Toutesfois on dict maintenant</l>
+         <fw type="sig" place="bottom-right">Quelle en a</fw>
+         <pb n="58/90"/>
+         <fw type="pageNum" place="top-right">58</fw>
+         <l><reg>Qu’elle</reg> en a si souvent <reg>usé</reg></l>
+         <l><reg>Qu’il</reg> est si viel et si usé</l>
+         <l><reg>Qu’on</reg> ne la veult plus chevaucher</l>
+         <!-- Saut#15 -->
+         <l n="52">Le plomb commence <reg>à</reg> estre cher</l>
+         <l>En ce pais et par toute <placeName><settlement type="country"
+               >France</settlement></placeName></l>
+         <!-- Saut#16 -->
+         <l>Je croy que <reg>à</reg>
+            <placeName><settlement type="city" key="Rome">Romme</settlement></placeName> on a
+            souffrance</l>
+         <l>Il <reg>n’en</reg> vient pas comme il soulloit</l>
+         <l n="56">Au temps <reg>passé</reg> ce qui soulloit</l>
+         <l>En ce temps cy ne soule plus</l>
+         <l><persName>Sainct <reg>Pere</reg></persName> est devenu <reg>perclus</reg></l>
+         <l>Comme <reg>l’on</reg> dict d’ung de ses bras</l>
+         <!-- Saut#17 -->
+         <l n="60">Tel faict souvent le fierabras</l>
+         <l>Qui ne vault pas une <rs type="animal">grenoille</rs></l>
+         <!-- Saut#18 -->
+         <l>De porter au <reg>costé</reg> quenoille</l>
+         <l>La loy des femmes le deffend</l>
+         <!-- Saut#19 -->
+         <l n="64">Robbe cotte et chemise <reg>l'on</reg> fend</l>
+         <l>Mais la fente en est <reg>boutonnée</reg></l>
+         <l>Ceste loy ne fut <reg>ordonnée</reg></l>
+         <l>Sinon pour les fumelles jeunes</l>
+         <!-- Saut#20 -->
+         <l n="68">Sy ne fault il <unclear>ouster</unclear> les jeusnes</l>
+         <l>Car les prescheurs mourroient de fain</l>
+         <!-- Saut#21 -->
+         <l><reg>Liberalité</reg> a prins fin</l>
+         <l>Les dons de maintenant sont cours</l>
+         <!-- Saut#22 -->
+         <l n="72">Il se trouve plus de secours</l>
+         <l><reg>À</reg> son amy que <reg>à</reg> son parent</l>
+         <l>Faveur et richesse ont leur cours</l>
+         <l>Le cas est clair et apparent</l>
+         <!--Inversion de vers avec un vers manquant-->
+         <pb n="58v/90v"/>
+         <l n="76">Il <reg>n’est</reg> maintenant que faveur</l>
+         <l>Le riche est crainct et a honneur</l>
+         <l>Le pauvre est tousjours en diffame</l>
+         <l>Combien peult une belle femme</l>
+         <l n="80"><reg>L’experience</reg> en faict la preuve</l>
+         <!-- Saut#24 -->
+         <l>Le bon ouvrier faict la bonne œuvre</l>
+         <l>Chacun portera son fardeau</l>
+         <!-- Saut#25 -->
+         <l>Qui veult faire le bon fart <reg>d’eau</reg></l>
+         <l n="84"><reg>Qu’il</reg> preigne naffles et lavande</l>
+         <!-- Saut#26 -->
+         <l>Il <reg>n’est</reg> besoing que <reg>l’on</reg> demande</l>
+         <l>La <reg>verité</reg> aux gens <reg>d’eglise</reg></l>
+         <l>Vray est que chascun la desguyse</l>
+         <l n="88">Selon <reg>qu’il</reg> en pense prouffict</l>
+         <!-- Saut#27 -->
+         <l><persName key="Marot">Clement</persName> trop grandement meffict</l>
+         <l>Quand il souffleta la bourgeoyse</l>
+         <l>Le soufflet ne valut la noise</l>
+         <l n="92">Car le guichet en fut <reg>passé</reg></l>
+         <!-- Saut#28 -->
+         <l><rs type="animal" subtype="équidé">Roussin</rs> qui est trop <reg>harassé</reg></l>
+         <l>Ne peult longtemps servir son <reg>maistre</reg></l>
+         <l>Si faict il bon soy recognoistre</l>
+         <l n="96">Sans <reg>presumer</reg> de sa personne</l>
+         <!-- Saut#29 -->
+         <l>Assez de promesse <choice>
+               <orig>se donne</orig>
+               <reg type="scriptor">s'ordonne</reg>
+            </choice></l>
+         <l>De tenir <reg>l’usaige</reg> ne court</l>
+         <!-- Saut#30 -->
+         <l>Et puis qui mesdict <reg>d’une court</reg></l>
+         <l n="100">De <reg>parlement</reg> par trop blaspheme</l>
+         <!-- Saut#31 -->
+         <l>Mars ne sera plus en karesme</l>
+         <fw type="sig" place="bottom-right">Si les Allemans</fw>
+         <pb n="59/91"/>
+         <fw type="pageNum" place="top-right">59</fw>
+         <l>Si les <orgName type="peuple">Allemans</orgName>
+            <choice>
+               <orig>ont</orig>
+               <reg type="editor">on</reg>
+            </choice> veult croyre</l>
+         <l>Car <reg>c’est</reg> ung cas assez notoire</l>
+         <l n="104">Que les trespassez sont tous mors</l>
+         <l>Toutesfois <reg>qu'en</reg> sommes records</l>
+         <l>Pour le prouffict <reg>qu’il</reg> nous en vient</l>
+         <!-- Saut#32 -->
+         <l>Jamais <reg>l’ingrat</reg> ne se souvient</l>
+         <l n="108">De celuy la qui bien luy faict</l>
+         <!-- Saut#33 -->
+         <l>Que dictes vous est ce bien faict</l>
+         <l>De ne voulloir se confesser</l>
+         <l>C’est trop frapper sans se blesser</l>
+         <l n="112">Il <reg>n’est</reg> que la vielle doctrine</l>
+         <l><reg>S’elle</reg> faict fumer la cuysine</l>
+         <l>Et la nouvelle estainct le feu</l>
+         <!-- Saut#34 -->
+         <l>Dieu veille <reg>pardonner</reg>
+            <reg>à</reg> feu</l>
+         <l n="116"><persName key="cordelier">Frere André</persName> qui si bien preschoit</l>
+         <l>Car tousjours presque il taschoit</l>
+         <l>De <reg>parvenir</reg> à ce butin</l>
+         <!-- Saut#35-->
+         <l>On ne faict compte de latin</l>
+         <l n="120">Le grec et hebreu sont en bruyt</l>
+         <!-- Saut#36 -->
+         <l>Le feu <reg>à</reg> qui va de nuict nuict</l>
+         <l>Chemise de maille vault mieulx</l>
+         <!-- Saut#37 -->
+         <l>Et puis on voit les Clunyeulx</l>
+         <l n="124">Courrir <reg>comme</reg> gens desconfictz</l>
+         <!-- Saut#38 -->
+         <l>Ilz ont <reg>mangé</reg> le crucifix</l>
+         <l>Et le mangeassent jusques aux os</l>
+         <!-- Vers hypermétrique -->
+         <l>Et si <reg>quelqu’un</reg> en tient propos</l>
+         <l n="128">Il est pille <reg>comme</reg> verjust<note resp="editor" type="ling">Mettre
+               quelqu'un en la pile au verjus : l'opprimer (Di Stefano)</note></l>
+         <!-- Saut#39 -->
+         <l>Trop mieulx vault de <unclear>se</unclear> tenir just</l>
+         <l>Que de monter en si hault lieu</l>
+         <l>Laquelle chose de <reg>par</reg> Dieu</l>
+         <l n="132"><reg>L’on</reg> descend plus tost <reg>qu’on</reg> ne veult</l>
+         <!-- Saut#40 -->
+         <l>De faire plus qu'on ne peult</l>
+         <!--Vers hypométrique-->
+         <l><persName>Jesus christ</persName> nous <reg>l’a</reg> deffendu</l>
+         <!-- Saut#41 -->
+         <l>Et <reg>d’estre</reg> apres moyne rendu</l>
+         <l n="136">Que sert cela <reg>à</reg>
+            <reg>nostre</reg> foy</l>
+         <!-- Saut#42 -->
+         <l>Nous serons saulves toy et moy</l>
+         <l>Si de la foy ferons les euvres</l>
+         <l>Veult tu que je les mette en preuve</l>
+         <l n="140">Monseigneur je te preuve ainsi</l>
+         <l>Igitur dont veult tout cecy</l>
+         <l>C’est ung abbus trop manifeste</l>
+         <l>Que d’alleguer glose sans texte</l>
+         <l n="144">Comme font les moynes crottez</l>
+         <!-- Saut#43 -->
+         <l>Tous asnes ne sont pas bastez</l>
+         <l>Et <reg>n’ont</reg> trestous grandes aureilles</l>
+         <!-- Saut#44 -->
+         <l>Nous sommes au temps des merveilles</l>
+         <l n="148"><reg>D’<persName>antechrist</persName></reg> est ung million</l>
+         <l>Et toutesfoys nous ne voyon</l>
+         <l><persName>Aaronh</persName> ne <persName>Helye</persName> prescher</l>
+         <!-- Saut#45 -->
+         <l>Ung chacun veult garder sa cher</l>
+         <l n="152">Dieu pardoint aux chrestiens mors</l>
+         <l>Souffrir ne peuvent plus les corps</l>
+         <l>Quant <reg>l’ame</reg> en est dehors <reg>partie</reg></l>
+         <!-- Saut#46 -->
+         <l>Je <reg>m’en</reg> rapporte <reg>à</reg>
+            <reg>l’<placeName><settlement type="country">Italye</settlement></placeName></reg></l>
+         <fw type="sig" place="bottom-right">Qui faict ung St</fw>
+         <pb n="60/92"/>
+         <fw>60 (92)</fw>
+         <l n="156">Qui faict ung sainct de <persName>Billouart</persName><note>Cf. Le sermon de
+               Saint Billouart. Ms Rothschild 471 [I, 1, 21].</note></l>
+         <!-- Saut#47 -->
+         <l><reg>C’est</reg>
+            <reg>à</reg> grant peine <reg>qu’ung</reg> couart</l>
+         <l>Puisse estre jamais vaillant homme</l>
+         <l>Tel jure foy de gentilhomme</l>
+         <l n="160">Qui <reg>n’en</reg> eut oncques la creance</l>
+         <l>Qui peseroit <reg>à</reg> la balance</l>
+         <l>Chascun iceulx <add place="below">la</add> qui sont en hault</l>
+         <l>Feroient souldain en bas le sault</l>
+         <l n="164">Et ceulx d’en bas yroient amont</l>
+         <!-- Saut#48 -->
+         <l>Nous avons gaigné le <placeName><settlement type="region"
+               >Piedmont</settlement></placeName></l>
+         <l>Une <reg>partie</reg>
+            <reg>à</reg> tout le moings<note resp="editor" type="crit">Lors de la campagne de
+               1537</note></l>
+         <l>Si est ce <reg>qu’il</reg> couste du moins</l>
+         <l n="168">Trop plus beaucoup <reg>qu’on</reg> en <reg>reçoit</reg></l>
+         <!-- Saut#49 -->
+         <l>Et comme chacun <reg>apperçoit</reg></l>
+         <l>Le droict vault mieulx que le bossu</l>
+         <!-- Saut#50 -->
+         <l>Sire je <reg>m’en</reg> suis <reg>apperçeu</reg></l>
+         <l n="172">Il est ainsi que vous le dictes</l>
+         <l>Ceulx <reg>là</reg> qui font les chatemites</l>
+         <l>Sont dangereulx <reg>n’en</reg> doubtez pas</l>
+         <!-- Saut#51 -->
+         <l>Il faict bon sarcher son repas</l>
+         <l n="176"><reg>À</reg> qui <reg>n’a</reg> pas <reg>d’argent</reg> en bource</l>
+         <!-- Saut#52 -->
+         <l>Voluntiers monsieur se courrousse</l>
+         <l><reg>S’on</reg> luy demande ce <reg>qu’il</reg> doict</l>
+         <!-- Saut#53 -->
+         <l>Tel a beaulx yeulx qui rien ne veoit</l>
+         <l n="180">Il s’emprunte assez mais <reg>à</reg> rendre</l>
+         <!-- Saut#54 -->
+         <l><reg>À</reg> peine <reg>l’on</reg> y veult entendre</l>
+         <pb n="60r/92r"/>
+         <l>Non plus <reg>qu’à</reg> lire <reg>l’evangille</reg></l>
+         <!-- Saut#55 -->
+         <l>Plus vault maintenant une fille</l>
+         <l n="184"><reg>Qu’au</reg> temps passé mille garsons</l>
+         <!-- Saut#56 -->
+         <l>L’on chevauche assez sans arçons</l>
+         <l>Toute beste qui est <reg>coiffée</reg></l>
+         <!-- Saut#57 -->
+         <l>Du temps de <persName>Cybille la fee</persName></l>
+         <l n="188">Ou de celluy de <persName>Perceval</persName></l>
+         <l>Sergens <reg>à</reg> pied ou <reg>à</reg> cheval</l>
+         <l><reg>N’estoient</reg> larrons comme ils sont ores</l>
+         <!-- Saut#58 -->
+         <l>Et toutesfois ces gros pecores</l>
+         <l n="192">D’advocats ou de lieutenantz</l>
+         <l>Leurs grans larcins sont soustenans</l>
+         <l>Tous chantres tiennent leur <reg>partie</reg></l>
+         <l>Si la court en est advertie</l>
+         <l n="196">Reformer doibt ce grand abus</l>
+         <!-- Saut#59 -->
+         <l>Mais <reg>qu’en</reg> a dict de <persName>Cornibus</persName></l>
+         <l>Sermons ce ne sont que parolles<add type="second-hand" place="inline"
+            >parabolles</add></l>
+         <!-- Saut#60 -->
+         <l>Il se veoit plus de testes folles</l>
+         <l n="200"><reg>Qu’il</reg> ne faict pas de saiges bestes</l>
+         <!-- Saut#61 -->
+         <l>De quoy proufitent tant de festes</l>
+         <l><reg>Où</reg>
+            <reg>l’on</reg> ne faict que offenser dieu</l>
+         <l>Maintenant ne se trouve lieu</l>
+         <l n="204"><reg>Où</reg> la foy ne soit bien petite</l>
+         <!-- Saut#62 -->
+         <l>Et puis tout le monde <unclear>merite</unclear></l>
+         <l>De soy ainsi comme <reg>l’on</reg> dict</l>
+         <!-- Saut#63 -->
+         <l><placeName>Paradis</placeName> nous fust interdict</l>
+         <l n="208">Si le filz de dieu n’eust prins cher</l>
+         <!-- Saut#64 -->
+         <fw type="sig" place="bottom-right">cest grand abbuz</fw>
+         <pb n="61/93"/>
+         <fw type="PageNum" place="top-right">61</fw>
+         <l><reg>C’est</reg> grand abus souffrir prescher</l>
+         <l>Ces <rs type="animal" subtype="équidé">asnes</rs> qui ne font que braire</l>
+         <!-- Saut#65 -->
+         <l>Souventesfoys se faict bon taire</l>
+         <l n="212">Mais au besoing parler moult vault</l>
+         <!-- Saut#66 -->
+         <l>Pour mieulx saillir reculer fault</l>
+         <!-- Saut#67 -->
+         <l>Fureur de <persName>Prince</persName> est fort <reg>à</reg> craindre</l>
+         <l>Car ses ongles peuvent attaindre</l>
+         <l n="216">De <placeName>mydi</placeName>
+            <reg>à</reg> la <placeName>transmontanne</placeName></l>
+         <!-- Saut#68 -->
+         <l>Souventesfoys la court <reg><unclear>s’estonne</unclear></reg></l>
+         <l>De voyager <choice>
+               <orig>en tant</orig>
+               <corr>en temps</corr>
+               <reg>en tant</reg>
+            </choice> de lieux</l>
+         <!-- Saut#69 -->
+         <l><reg>Partout</reg> y a chemin aux cyeulx</l>
+         <l n="220">Mais tout le monde <reg>n’y</reg> va pas</l>
+         <!-- Saut#70 -->
+         <l>Si <reg>par</reg> vertu <reg>n’eust</reg> prins le pas</l>
+         <l>Quel vice empesche <reg>qu’il</reg> ne regne</l>
+         <!-- Saut#71  -->
+         <l>Faveur a maintenant son regne</l>
+         <l n="224">En la façon de temps qui court</l>
+         <!-- Saut#72 -->
+         <l>Il faict mauvais suyvre la court</l>
+         <l>Qui <reg>n’a</reg> argent en gybeciere</l>
+         <!-- Saut#73 -->
+         <l>Cecy fut <reg>faict à la</reg> Buffiere</l>
+         <l n="228">Du temps <reg>qu’il</reg> feit ses fausses bulles</l>
+         <!-- Saut#74 -->
+         <l>Les <rs type="animal" subtype="équidé">asnes</rs> chevaucherent les <rs type="animal"
+               subtype="équidé">mulles</rs></l>
+         <l><reg>C’est</reg> de quoy vient tant de <reg>proces</reg></l>
+         <!-- Saut#75 -->
+         <l><rs type="injonction" subtype="impératif">Garde toy</rs> bien <reg>d’avoir</reg> proces</l>
+         <l n="232">Tant soit ta cause juste et bonne</l>
+         <l>Car Justice veult <reg>qu’on</reg> luy donne</l>
+         <l>Aultrement ignore le droict</l>
+         <!-- Saut#76 -->
+         <pb n="61v/93v"/>
+         <l>Je feray fin en cest endroict</l>
+         <l n="236">Te suppliant mon cappitaine</l>
+         <l>Que tu veilles prendre la peine</l>
+         <l><reg>À</reg> ces vers mesmes me rescripre</l>
+         <l>Tout ce que <reg>j’ay</reg>
+            <reg>laissé</reg>
+            <reg>à</reg> dire</l>
+      </body>
+   </text>
+</TEI>

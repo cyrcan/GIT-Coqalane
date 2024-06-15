@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="CAA35_Coquet">La coquette au coquet faict lan mil cinq cens quarente quatre</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Transcription en tei-xml d'un corpus de coq-à-l'âne.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change><date>2023</date>Encodage de niveau 1.</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Soissons</settlement>
+                  <repository>Bilbiothèque municipale</repository>
+                  <idno>ms 199 (187)</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <pb n="50v"/>
+         <l>Le coq mon amy et mon frere</l>
+         <l>Sans le grand et urgent affaire</l>
+         <l>Que <reg>j’ay</reg> eu pour avitailler</l>
+         <l n="4"><placeName><settlement type="country">Luxembourg</settlement></placeName> et ordre
+            bailler</l>
+         <l><reg>À</reg> fortiffier Commercy</l>
+         <l>Long tant a que ne feusse icy</l>
+         <l>Moy mesme te feusse aller dire</l>
+         <l n="8">Ce que <reg>m'a</reg> gardé de rescripre</l>
+         <l>Mais affin que mon excuse entende</l>
+         <l>Je suys de la petite bande</l>
+         <l>Qui <reg>n’est</reg> pas peu <reg>d’empeschement</reg></l>
+         <l n="12">Car nous avons le manyment</l>
+         <l>De toute chose <reg>d’importance</reg></l>
+         <l>Qui sont au royaulme de <placeName><settlement type="country"
+               >France</settlement></placeName></l>
+         <l>Nous traictons charges pensions</l>
+         <l n="16">Guerres tresves munytions</l>
+         <l>Pacquetz acquetz emprunctz finances</l>
+         <l>Espions et intelligence</l>
+         <l>Riches mariages offices</l>
+         <l n="20"><reg>Eveschés</reg> et gros benefices</l>
+         <l>Tout cela par nous se conduict</l>
+         <l>Mais par dessus gist le deduict</l>
+         <l>De <reg>l’amour</reg> qui est <reg>l’esperance</reg></l>
+         <l n="24">Et <reg>l’apuy</reg> de nostre puissance</l>
+         <l>Noz biens faictz presens et estreines</l>
+         <l>Sont pensions trop plus certaines</l>
+         <l>Que ne sont celles d’<placeName><settlement type="country"
+               >Angleterre</settlement></placeName></l>
+         <l n="28">Jamais ne cessent pour la guerre</l>
+         <l>On nous paye <reg>à</reg> notre voulloir</l>
+         <!-- Saut#1 -->
+         <l>Les soldats ont beau se doulloir</l>
+         <l>Si leur argent <reg>s’en</reg> va aux dames</l>
+         <l n="32">Car <reg>l'on</reg> saict bien que les gens <reg>d’armes</reg></l>
+         <fw type="sig" place="bottom-right">au temps qui court</fw>
+         <pb n="51r"/>
+         <fw type="pageNum" place="top-right">51</fw>
+         <l>Au temps qui court <reg>n’ont</reg>
+            <reg>l’adventaige</reg></l>
+         <l>Au temps <reg>passé</reg> tout ung lignaige</l>
+         <l><reg>S’enrichissoyt</reg> par une lance</l>
+         <l n="36"><reg>Aujourd’huy</reg> ce n’est que despence</l>
+         <l>Tous les grands biens viennent du bas</l>
+         <l>Ce seroient de gentilz esbas</l>
+         <l><reg>S’on</reg> ne <reg>l’estymoit</reg> deshonneur</l>
+         <l n="40">Mais nous qui en faisons honneur</l>
+         <l><reg>N’avons</reg> paour du boutte hors</l>
+         <!-- Saut#2 -->
+         <l><placeName><settlement type="city">Paris</settlement></placeName> sera il des plus
+            fors</l>
+         <l>Je croy <reg>qu’ilz</reg> sont bien fort lassez</l>
+         <l n="44">Plus des empruntz que des fossez</l>
+         <l>Et quelque peu de ces pillaiges</l>
+         <l>Que <reg>l’on</reg> a faict sur les louaiges</l>
+         <l>De leurs maisons ceulx de la ville</l>
+         <l n="48">Ont pillé des escuz cent mille</l>
+         <l>Plus que <reg>l'on</reg> ne leur demandoyt</l>
+         <l>Si <persName key="François Ier">le Roy</persName>
+            <reg>l’abbus</reg> entendoit</l>
+         <l>Sans les pauvres gens martirer</l>
+         <l n="52">Il pourroit beaucoup plus tirer</l>
+         <l>De ses larrons en une amande</l>
+         <l>Que ne monte ce <reg>qu’il</reg> demande</l>
+         <l>Quelque jour nous en parlerons</l>
+         <!-- Saut#3 -->
+         <l n="56">Que ferons nous des bonnetz ronds</l>
+         <l>Chascun se plainct de leur justice</l>
+         <l>Elle s’en va après <reg>l’office</reg></l>
+         <l><reg>À</reg> semblable ou au moindre pris</l>
+         <!-- Saut#4 -->
+         <l n="60">Touttesfoys <reg>j’ay</reg> ces jours apris</l>
+         <l><reg>Qu’ung</reg> seigneur et dame de court</l>
+         <l><reg>N’y</reg> ont pas trouvé leur plus court</l>
+         <l>Je ne scay qui est plus marry</l>
+         <l n="64">Ou bien la dame ou le mary</l>
+         <!-- Saut#5 -->
+         <pb n="51v"/>
+         <l>Ne verray je poinct ces meschantz</l>
+         <l>Doubler cousteaulx à deux tranchans</l>
+         <l>Avec leurs faulx et oustilz</l>
+         <l n="68">Suivre <persName key="René Gentils">le président Gentilz</persName></l>
+         <note resp="editor" type="crit">Il fut pendu au gibet de Montfaucon en septembre
+            1544.</note>
+         <l>Il me desplaist de telle peste</l>
+         <l>On joue au camp <reg>à</reg> toute reste</l>
+         <l>Et <reg>n’y</reg> couche <reg>l’on</reg> que des testes</l>
+         <l n="72">Et est il vray que les grandes bestes</l>
+         <l>Sont ceulx qui meurent <reg>à</reg> credit</l>
+         <l>Celluy qui bien nous deffendit</l>
+         <l><reg>À</reg>
+            <reg>l’autre</reg> assault en la Provence</l>
+         <l n="76">Pourquoy ne vient il <reg>à</reg> la dance</l>
+         <l>Seroit il pas des biens venus</l>
+         <l>Helas il a <reg>fasché</reg>
+            <persName type="divinité" key="Anne de Pisseleu">Vénus</persName></l>
+         <l>Comment <reg>l’aymeroit</reg>
+            <persName type="divinité" key="François Ier">Juppiter</persName></l>
+         <l n="80"><persName>La Lune</persName> cuyde susciter</l>
+         <l>Ung bien grand trouble entre les dieux</l>
+         <l><persName>Longueval</persName> ne feist jamays myeulx</l>
+         <l><reg>S’il</reg> y peult estre longuement</l>
+         <l n="84">Je luy pains bien subtillement</l>
+         <l>Et ses larrecins et ses faultes</l>
+         <l>Couvers de vertus si treshaultes</l>
+         <l><reg>Qu’à</reg> ma parolle il aura <reg>l’ordre</reg></l>
+         <l n="88">En recompense du desordre</l>
+         <l><reg>Qu’il</reg> a sy bien faict en <placeName><settlement type="region"
+                  >Champaigne</settlement></placeName></l>
+         <l>Il fault <reg>qu’il</reg> ayt celluy d’<placeName><settlement type="country"
+                  >Espaigne</settlement></placeName></l>
+         <l>Il <reg>l’a</reg> mieulx <reg>mérité</reg> que <reg>l’autre</reg></l>
+         <l n="92">Car sans luy <placeName><settlement type="country"
+               >Luxembourg</settlement></placeName> fut <expan>nostre</expan></l>
+         <l>Et la <placeName><settlement type="region">Champaigne</settlement></placeName> en son
+            entier</l>
+         <l>Il cogneut bien à <placeName><settlement type="country" key="Saint-Dizier">sainct
+                  Disier</settlement></placeName></l>
+         <l><reg>Qu’il</reg> y seroit mal <reg>à</reg> propos</l>
+         <fw type="sig" place="bottom-right">Le bon chevalier</fw>
+         <pb n="52r"/>
+         <l n="96">Le bon chevalier de repos</l>
+         <l>Endureroit myeulx le baston</l>
+         <l>Encore ung coup que le canon</l>
+         <l>Au reste hardy et dilligent</l>
+         <l n="100">Quant il est nouvelle <reg>d’argent</reg></l>
+         <l><reg>C’est</reg> ung ouvraige de sa main</l>
+         <l><persName>Massy</persName> tient bon <reg>a</reg>
+            <placeName><settlement type="city">sainct Germain</settlement></placeName></l>
+         <l>Elle y est <reg>avitaillée</reg></l>
+         <l n="104">Au cueur <reg>qu’elle</reg> a elle est <reg>taillée</reg></l>
+         <l>De soustenir le tiers assault</l>
+         <l>Pour les deux premiers moins ne vault</l>
+         <l>Elle a mis bon ordre <reg>à</reg> la bresche</l>
+         <l n="108">Je ne crains que les coups de flesche</l>
+         <l>Car nous avons de bons pavoys</l>
+         <note>Bouclier</note>
+         <l>Qui pourroit avoir le barroys</l>
+         <l>Des premiers et le <expan>remparer</expan></l>
+         <l n="112">Cela me feroit espérer</l>
+         <l>Quelque foys le recouvrement</l>
+         <l>De <persName>Ligny</persName> mais il a serment</l>
+         <l>Cest empereur de ne rien rendre</l>
+         <l n="116">Mais bien <reg>s’il</reg> peult de plus <add>en</add> prendre</l>
+         <l>Qui de <placeName><settlement type="city">Chambourg</settlement></placeName> eust faict
+            rempart</l>
+         <l>En <placeName><settlement type="region">Champaigne</settlement></placeName> et
+               <reg>d'une</reg> aultre part</l>
+         <l>On eust assis la nompareille</l>
+         <l n="120">Si Madric eust faict la pareille</l>
+         <l>Ailleurs en ung aultre frontiere</l>
+         <l>La <placeName><settlement type="country">France</settlement></placeName> feust peut
+            estre entiere</l>
+         <l><placeName><settlement type="city">Paris</settlement></placeName> ne doibt point
+            craindre mal</l>
+         <l n="124">Il a pour chef ung cardinal</l>
+         <l>Qui sera hardy quelque jour</l>
+         <l>Pour myeulx se guerroyer en sejour</l>
+         <l>Il apprend à cottire la lance</l>
+         <l n="128">Il a faict sa lisse à <placeName><settlement type="city"
+               >Courrance</settlement></placeName></l>
+         <l><reg>Où</reg> il <reg>s’essoye</reg> maintes foys</l>
+         <l>Vous le cognoistrez quelques foys</l>
+         <l>Vaillant prelat et sans reproche</l>
+         <l n="132">Pourveu que <reg>l’ennemy</reg>
+            <reg>n’aproche</reg></l>
+         <l><reg>N’ayez</reg> point peur <reg>qu’il</reg>
+            <expan>parlemente</expan></l>
+         <l>Le danger est <reg>qu’il</reg> se tourmente</l>
+         <l><reg>À</reg> trouver des empruntz nouveaulx</l>
+         <l n="136">Au reste croyez que les <rs type="animal">veaulx</rs></l>
+         <l>Qui avoient Ligny à garder</l>
+         <l><reg>N’ont</reg> point moins voulu hazarder</l>
+         <l>Leurs pauvres gens <reg>qu’il</reg> vouldroit faire</l>
+         <l n="140">Le bon cueur se monstre à <reg>l’affaire</reg></l>
+         <l>Le Coq que te semble du temps</l>
+         <l>Nous blasmons fort les <orgName>protestans</orgName></l>
+         <l>Et desirons leur alliance</l>
+         <l n="144">Pour en dire ce que <reg>j’en</reg> pense</l>
+         <l><orgName>Papistes</orgName> et <orgName>Lhuteriens</orgName></l>
+         <l>Parlent bien et ne vaillent riens</l>
+         <l>Ce <reg>qu’on</reg> en faict <reg>n’est</reg> point pour le
+            <persName>Christ</persName></l>
+         <l n="148">Ne dis mot et faiz ton proffict</l>
+         <l>Tu seras pour saige tenu</l>
+         <l>Le pauvre peuple est ja si nud</l>
+         <l>Comme quelcung <reg>m’a</reg>
+            <reg>rapporté</reg></l>
+         <l n="152">Il <reg>n’a</reg> pas encores <reg>porté</reg></l>
+         <l>La <reg>livrée</reg>
+            <reg>qu’on</reg> luy devise</l>
+         <l>Quant à<reg/> la mere sainct Eglise</l>
+         <l><reg>On luy a <reg>rongé</reg> ses morceaulx</reg></l>
+         <l n="156">Leurs putains leurs chiens et oyseaulx</l>
+         <l>Ne sont pourtant point retranchez</l>
+         <l>Les bons cousteaulx mal emmanchez</l>
+         <l>Ne font poinct <reg>d’honneur</reg>
+            <reg>à</reg> leur maistre</l>
+         <l n="160">Je commence <reg>à</reg> me bien congnoistre</l>
+         <l>En grand praticque et moyens</l>
+         <l>Sans en rien couvrir les moyens</l>
+         <l><reg>J’ay</reg> des <rs type="animal" subtype="insecte" key="espion">mouches</rs>
+            jusques à <placeName><settlement type="city" key="Bruxelles"
+               >Brucelles</settlement></placeName></l>
+         <l n="164">Aussy je scay toutes nouvelles</l>
+         <l>Depuis <placeName><settlement>Jargeau</settlement></placeName> jusques à
+               <geogName>Loyre</geogName></l>
+         <l>Ung teston une foys <reg>à</reg> boere</l>
+         <l>Ung grand mercy <reg>à</reg> la promesse</l>
+         <l n="168">Dont je <reg>m’acoustre</reg> et me caresse</l>
+         <l>Et <reg>l’espion</reg> qui me vient veoir</l>
+         <l>Me faict toutes choses scavoir</l>
+         <l>Toutesfoys je ne cognois point</l>
+         <l n="172">Comme <persName key="Charles-Quint">l’empereur</persName> est empoint</l>
+         <l>Ne quelque part il veult marcher</l>
+         <l><reg>À</reg> la fin il pourrait fascher</l>
+         <l>Beaucoup de gens qui <reg>n’ont</reg> que faire</l>
+         <l n="176">Du discord de luy de son frere</l>
+         <l><reg>S’il</reg> se paissait de damoyselles</l>
+         <l>Je luy en fournirois de belles</l>
+         <l>Dont <reg>j’ay</reg>
+            <reg>d’aultre</reg> presque empereurs</l>
+         <l n="180">Retiré de grandes fureurs</l>
+         <l>Et faict recueillir <reg>à</reg> grand feste</l>
+         <l>Maintz qui devoient perdre la teste</l>
+         <l>Mais ce grand mastin <reg>à</reg> la buste</l>
+         <l n="184"><persName>Marcial</persName> et sa teste aduste</l>
+         <l>Ne se repait de tel gibier</l>
+         <l>Le <persName>dyable</persName> ayt part au grand gosier</l>
+         <l>Sans luy je croy certainement</l>
+         <l n="188"><reg>Qu’eusses</reg> quelque beau <expan>partement</expan></l>
+         <l>À la turcque mais l’<placeName><settlement type="country" key="Allemagne"
+                  >Allemaine</settlement></placeName></l>
+         <l>A faict entendre à <expan>notre</expan>
+            <placeName><settlement type="country" key="Espagne"
+            >Espaigne</settlement></placeName></l>
+         <pb n="53v"/>
+         <l>Que la fasson ne leur plaist mye</l>
+         <l n="192">Est elle tant <expan>nostre</expan> ennemye</l>
+         <l>Comme <reg>l'on</reg> dict je <reg>n’y</reg> congnoys rien</l>
+         <l>Mes espions me disent bien</l>
+         <l><reg>Qu’ilz</reg> ne sont pas tous d’une voix</l>
+         <l n="196">Des estatz de <placeName><settlement type="country"
+               >France</settlement></placeName> les troys</l>
+         <l><reg>À</reg> ce <reg>qu’on</reg> dict se <choice>
+               <orig>plaine</orig>
+               <reg>plaignent</reg>
+            </choice> fort</l>
+         <l>Si <reg>l’ung</reg>
+            <reg>d’eulx</reg> estoit le plus fort</l>
+         <l>Et asseuré de quelques villes</l>
+         <l n="200">Je craindrois les guerres civilles</l>
+         <l>Je suys <reg>d’advis</reg> sur ce passaige</l>
+         <l>Que desormais on les soulage</l>
+         <l><reg>J'ay</reg> eu tousjours opinion</l>
+         <l n="204">Que <reg>l’espoir</reg> de division</l>
+         <l>Quelques traistres <expan>par</expan> le <reg>marché</reg></l>
+         <l>Ont l’empereur faict aprocher</l>
+         <l>Gardant ceulx cy surportant <reg>l’autre</reg></l>
+         <l n="208">La force sera bien tost <expan>nostre</expan></l>
+         <l>Donnons aux <orgName>Françoys</orgName> payement</l>
+         <l>Comme aux <orgName>Souysses</orgName> et <orgName>Allemans</orgName></l>
+         <l>En discipline militaire</l>
+         <l n="212">Traictons les avec le populaire</l>
+         <l>Ne meslons plus avec les armes</l>
+         <l>Le conseil et faveur des dames</l>
+         <l>Employons <reg>à</reg> nostre deffence</l>
+         <l n="216">Ce qui va en folle despence</l>
+         <l>Rendons aux princes leurs honneurs</l>
+         <l>Nous aurons les corps et les cueurs</l>
+         <l>Telz que noz subjectz et amys</l>
+         <l n="220">Rompront la teste aux ennemys</l>
+         <l>Et <reg>n’y</reg> aura prince sur terre</l>
+         <l>Qui les Françoys ne craignent en guerre</l>
+      </body>
+   </text>
+</TEI>

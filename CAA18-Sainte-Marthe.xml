@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <l>Ô Qu’il y a, <persName>Ferron</persName>, longtemps,</l>
+         <l>Que de tes nouvelles <reg>j</reg>’attends,</l>
+         <l>Tu m’en dirois bien quelque chose.</l><!--Saut#1-->
+         <l n="4">A ton <reg>advis</reg>, si <reg>l’</reg>on propose</l>
+         <l>De renger un peu ses habits,</l>
+         <l>Car <reg>je</reg> scay bien que les <rs type="animal" subtype="innocence">Brebis</rs>,</l>
+         <l>Sont en denger de la grand <rs type="animal">Loue</rs>.<note>"Gardez-vous des faux
+               prophètes. Ils veinnent à vous en vêtements de brebis, mais au dedans ce sont des
+               loups ravisseurs." Mt. 7:14</note></l><!--Saut#2-->
+         <l n="8">Mais en mon cueur JESUS je loue,<note type="editor" subtype="crit">"Nor did French
+               evangelicals produce many new devotional works. Rather, evangelical writing took a
+               literary turn. In poems, play, satires, and novellas the popular writers Marguerite
+               of Navarre, François Rabelais, Clément Marot, Victor Brodeau, Nicolas Bourbon,
+               Étienne Dolet, and Charles de Sainte-Marthe expressed their profound faith. While
+               heaping abuse on ‘Sorbonagres,’ corrupt clerics and monks, and, sometimes, the
+               intransigence of Genevan reformers, they gave sophisticated cultural expression to
+               the call for ‘living faith,’ but offered no clear program for renewal." Jonathan A.
+               Reid (2009)</note></l>
+         <l>Que maintenant le chassieux</l>
+         <l>Est <reg>devenu</reg> plus gracieux <note type="editor" subtype="ling">Empli en grâce</note></l>
+         <l>Que n’est le maintien de <reg>Jeannette</reg>.</l><!--Saut#3-->
+         <l n="12">Quoy que ma Bezicle soit nette,</l>
+         <l>Pour regarder tant de doubteurs,</l><!--Saut#4-->
+         <l>A ton <reg>advis</reg> sont ilx menteurs</l>
+         <l>Ceulx qui ont dit, qu’on ne se frotte</l>
+         <l n="16">Au chapperons bordés de crotte?</l><!--Saut#5-->
+         <l rend="indent">Mais <reg>je</reg> dy plus, qu’on cognoistra,</l>
+         <l>Quand la petite ante<note type="editor" subtype="ling">Lire Ente, au sens de "greffe, rejeton, arbre nouvellement greffé, branche" (Godefroy)</note> croistra,</l>
+         <l>On bruslera alors ces <rs type="animal">Limaces</rs>,</l>
+         <l n="20">Qui luy ont fait telles grimaces.</l><!--Saut#6-->
+         <l>Et puis messieurs les grands Charmeurs.</l>
+         <l>Facent <reg>hardyment</reg> leurs clameurs.</l><!-- Saut#7 -->
+         <l>Le feu est <reg>jà</reg> dans la lanterne.</l><!-- Saut#8 -->
+         <l n="24">Mais le broillon tousjours lanterne.</l>
+         <pb n="142"/><fw type="pageNum" place="top-left">142</fw>
+         <l>Fait il donc ? <reg>je</reg> le disois bien,</l>
+         <l>Qu’il <reg>jaseroit</reg> &amp; ne scait rien.</l><!-- Saut#9  -->
+         <l rend="indent"> Ha ha, faictes <reg>vous</reg> la nique<note type="editor" subtype="ling">Braver, narguer, mépriser
+               (Di Stefano)</note>,</l>
+         <l n="28">Contre le frere Demonique,</l>
+         <l>Si grand clerc selon son <reg>advis</reg>?</l><!-- Saut#10 -->
+         <l>La Synaguogue<note type="editor" subtype="ling">Assemblée.</note> est en <reg>divis</reg>,</l>
+         <l>Comment, seroit il bien possible?</l><!-- Saut#11 -->
+         <l n="32">Mais qui est celuy qui nous sible?</l><note type="editor" subtype="crit">Hypothèse 1: Sagon dans la querelle contre Marot. Hypothèse 2: l'adversaire des réformés.</note>
+         <l>Est ce un Evesque potatif<note>De Buveur. cf. Rabelais.</note>?</l><!-- Saut#12 -->
+         <l>Ô que si <reg>j’</reg>estois portatif<note type="editor" subtype="ling">Adj. Apte à se mouvoir
+               vivement, agile, actif. Évêque portatif, c'est-à-dire sans diocèse, évêque in
+               partibus ou n'ayant que le titre sans les revenus.(Huguet)</note></l>
+         <l>Pour leur aler donner un tiers <note>Tiers de sou? ancienne monnaie.</note>,</l>
+         <l n="36"><reg>Je</reg> leur requerrois voluntiers,</l>
+         <l>Pourquoy le vent est si muable.</l>
+         <l>Car la Foy est donnée au <persName>Diable</persName>,</l><!-- Saut#13 -->
+         <l>Sus <reg>vrays</reg> Enfants, sur ce Bastard.</l>
+         <l n="40"><reg>Je</reg> croy pourtant que le bast ard,</l>
+         <l>Car lourdement <reg>vostre</reg> <rs type="animal" subtype="équidé">asne</rs> mousche,</l><!-- Saut#14 -->
+         <l rend="indent">Tout beau tout beau, pour une <rs type="animal" subtype="insecte">Mouche</rs>,</l>
+         <l>Fault il sonner le gros Beoffroy?<note type="editor" subtype="ling">Donner l'alarme. cf
+               Villon</note></l>
+         <l n="44">Que pourra dire <persName>Godeffroy</persName>,</l>
+         <l>S’il veoit ses bestes tant esmeues?</l><!-- Saut#15 -->
+         <l><persName>Ferron</persName>, sois quoy, ne te remues,</l>
+         <l><reg>Je</reg> veoy venir le Chauldronnier,</l>
+         <l n="48">Combien que nostre Cordonnier,</l>
+         <l>N’a pas bien cousu la pantouffle.</l>
+         <l>Retirons nous, las comme il souffle,</l>
+         <l>Ce gentil Marrabes<note type="editor" subtype="ling">juif converti, et mal converti.
+               C'était une insulte qui s'adressait particulièrement aux gens soupçonnés d'avoir eu
+               des ancêtres juifs ou musulmans, et un sobriquet que les Français et les Italiens, au
+               XVIe et au XVIIe s., donnaient souvent aux Espagnols. (Godefroy)</note> sans
+            pain,</l>
+         <fw type="sig" place="bottom-right">L'asne</fw>
+         <pb n="143"/><fw type="pageNum" place="top-right">143</fw>
+         <l n="52">L’<rs type="animal" subtype="équidé">asne</rs> de loing <rs type="proverbe">ronge son frain</rs>,</l><!-- Saut#16 -->
+         <l>Guarde donc bien la Canonniere.</l>
+         <l>Voicy venir la Chambriere,</l>
+         <l>La <reg>jeune</reg> fille à soixante ans.</l>
+         <l n="56"><reg>Je</reg> croy <persName>Ferron</persName>, que tu m’entends,</l><!-- Saut#17 -->
+         <l>Le <rs type="animal">Vedel</rs><note>Veau et donc sot au sens figuré. Intertexte
+               probable : "Il avoit bien tes yeux de rane, Et si estoit filz d'un marrane, Comme tu
+               es, au demeurant; Ainsi vedel et ignorant". MAROT, Epistre LXI, Le valet de Marot
+               contre Sagon. Cum Commento. </note> a la chiche face,</l>
+         <l>Est enrollé dedans la farce,</l>
+         <l>Or pren garde à ce rys de <rs type="animal" subtype="canidé">chien</rs>.</l><!-- Saut#18 -->
+         <l n="60" rend="indent">Mais le <reg>Chevalier</reg> ancien</l>
+         <l>Veult il au besoing faire faulte?</l><!-- Saut#19 -->
+         <l>Tien bien tousjours <rs type="proverbe">la teste haulte</rs>.</l>
+         <l>C’est pour t’engarder de resver.</l><!-- Saut#20 -->
+         <l n="64">Aussi bien il te fault trouver,</l>
+         <l>En la maison de l’importune,</l><!-- Saut#21 -->
+         <l>Ha meschante &amp; faulse Fortune,</l>
+         <l>(Disoit un Galand l’aultre <reg>jour</reg>.)</l>
+         <l n="68">M’as tu <reg>joué</reg> ce maulvais tour?</l>
+         <l>Il en prendra un jour <reg>vengeance</reg>,</l><!-- Saut#22 -->
+         <l rend="indent">Mais <reg>j’</reg>ay heu grand’ <reg>resjouissance</reg></l>
+         <l>Que tu sois enchapperonné.</l><!-- Saut#23 -->
+         <l n="72">Il dit que <reg>je</reg> luy ay donné,</l>
+         <l>Je dy que non, le doibs je rendre?</l><!-- Saut#24 -->
+         <l>Sus sus <persName>Ferron</persName>, il le faut prendre,</l>
+         <l>On le cognoist bien à sa robbe.</l><!-- Saut#25 -->
+         <l n="76" rend="indent">DIEU pardonne au paouvre <persName type="auteur">Macrobe</persName>,</l>
+         <l>Il <reg>avoit</reg> trop terrible nom.<note>Herminjard, Histoire ecclésiastique, t. IV,</note></l>
+         <l>Le cognois tu? <reg>je</reg> croy que non,</l>
+         <pb n="144"/><fw type="pageNum" place="top-left">144</fw>
+         <l>Ce <reg>resveur</reg> qui <reg>a</reg> ses sens <reg>yvres</reg>.</l>
+         <l n="80">Il a brusle tant de beaulx Livres,</l><!-- Saut#26 -->
+         <l rend="indent">Encor disent ilz, que par DIEU,</l>
+         <l>Ilz en scauront de ceste Hebreu,</l>
+         <l>He pour DIEU, tost, du tiriacle,</l>
+         <l n="84">Ceste Gent est demoniacle.</l>
+         <l>(Demoniaque n’est bien dit)</l><!-- Saut#27 -->
+         <l>Car tous les fols ont le credit</l>
+         <l>D’entrer &amp; sortir en la <reg>cave</reg>,</l><!-- Saut#28 -->
+         <l n="88">Veoy tu ce Limier qui tant <reg>bave</reg>?</l> 
+         <l>Il a mengé de ce Saulmon.</l><!-- Saut#29 -->
+         <l>C’est bien celà, Ferron,c’est mon.</l>
+         <l>Il fait bon estre botteleur,</l><!-- Saut#30 -->
+         <l n="92">Il à credit, le Batteleur</l>
+         <l>Qui donnoit de pouldre si fine?</l>
+         <l>Il n’est si cault que <reg>l’</reg>on n’affine.</l>
+            <l rend="indent">Fy, qu’on le gette en la <placeName>riviere</placeName>,</l><!-- Saut#31 -->
+         <l n="96"><reg>Scavoit</reg> il pas bien son <reg>Breviaire</reg></l>
+         <l>Le Galand, qui papelardoit?</l>
+         <l>Mais les oiseaulx qu’on luy gardoit</l>
+         <l>S’en sont <reg>volés</reg> hors de la caige.</l><!-- Saut#32 -->
+         <l n="100">Et puis on y a fait raige<note type="editor" subtype="ling">Faire des efforts extraordinaires.</note>,</l>
+         <l>A l’apetit de ce briffault<note type="editor" subtype="ling">Glouton.</note>.</l><!-- Saut#33 -->
+         <l>On a rompu tout le chaffault,</l>
+         <l>Les farces sont <reg>desjà</reg> <reg>jouées</reg>.</l><!-- Saut#34 -->
+         <l n="104" rend="indent"><reg>Je</reg> crains fort, que maintes brouées<note type="editor" subtype="ling">Brouillard.</note></l>
+         <l>Pourront gaster tous nos bons fruicts.</l><!-- Saut#35 --> 
+         <fw type="sig" place="bottom-right">Pource</fw>
+         <pb n="145"/><fw type="pageNum" place="top-right">145</fw>
+         <l>Pource tiens toy tousjours aux huicts.</l>
+         <l>Tu en auras de moy licence.</l><!-- Saut#36 -->
+         <l n="108">Ô la glorieuse Licence,</l>
+         <l>Nous y perdons un grand honneur.</l><!-- Saut#37 -->
+         <l>Il passera, <reg>j’</reg>en suis bien seur,</l>
+         <l>Il en scait trop pour nostre beste.</l><!-- Saut#38 --> 
+         <l n="112" rend="indent">Et puis, quand se sera la feste,</l>
+         <l>Des Moustardiers dedans la halle?</l><!-- Saut#39 -->
+         <l>Mon DIEU, <persName>Ferron</persName>, quel grand scandale,</l>
+         <l>On a laissé la robbe longue,</l><!-- Saut#40 -->
+         <l n="116">Mais si <reg>l'on</reg> prend Femme <reg>à</reg> la longue,</l>
+         <l>C’est bien pour faire caquetter.</l><!-- Saut#41 -->
+         <l>Hola, temps n’est de disputer,</l>
+         <l>Qu’on n’<rs type="proverbe">esveillast le Chat qui dort</rs>.</l><!-- Saut#42 -->
+         <l n="120"><reg>J’</reg>en suis content, <persName>Ferron</persName>, au fort,</l>
+         <l>Que les Amys des temps passés,</l>
+         <l>Ne soient ainsi oultrepassés.</l>
+         <l>Or fays y donc bien ton <reg>debvoir</reg>,</l>
+         <l>A DIEU te dy <reg>jusqu’</reg>au reveoir.</l>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>where is it</settlement>
+                  <repository>repository name</repository>
+                  <idno>identifier</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

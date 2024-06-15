@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<?xml-model href="../../../../Users/c.ca/Downloads/tei_Corpus_CAA.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../Users/c.ca/Downloads/tei_Corpus_CAA.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:id="DLPCathos">
+      <fileDesc>
+         <titleStmt>
+            <title>L'asne au coq</title>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Transcription du seul témoin de ce coq-à-l'âne qui présente de nombreuses irrégularités
+            et se distingue en premier lieu par ses propos violents contre les huguenots souvent
+            désignés par le termes "hurgnes". </p>
+         <p><listPerson>
+               <person xml:id="Anne_de_Montmorency"
+                  corresp="https://data.bnf.fr/ark:/12148/cb121165804">
+                  <idno type="ISNI">0000 0001 2118 2438</idno>
+                  <persName xml:lang="fr"><forename type="first">Anne</forename><surname> de
+                        Montmorency</surname></persName>
+               </person>
+               <person xml:id="Charles_IX" corresp="https://data.bnf.fr/12463140/charles_9/">
+                  <idno type="ISNI">0000 0001 2142 8995</idno>
+                  <persName xml:lang="fr"><forename type="first">Charles</forename><surname>
+                        IX</surname></persName>
+               </person>
+               <person xml:id="Pie_V" corresp="https://data.bnf.fr/ark:/12148/cb11919954n">
+                  <idno type="ISNI">0000 0001 2096 6134</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                        >Antonio</forename><surname>Ghislieri</surname></persName>
+                  <!--Pape de 1566 à 1572-->
+               </person>
+               <person xml:id="Coligny" corresp="https://data.bnf.fr/ark:/12148/cb125977672">
+                  <idno type="ISNI">0000 0001 1683 2336</idno>
+                  <persName xml:lang="fr"><forename type="first">Gaspard</forename><surname> de
+                        Coligny</surname></persName>
+               </person>
+               <person xml:id="François_de_Guise"
+                  corresp="https://data.bnf.fr/ark:/12148/cb12459930r">
+                  <idno type="ISNI">0000 0000 8151 3262</idno>
+                  <persName xml:lang="fr"><forename type="first">François</forename><surname> de
+                        Guise</surname></persName>
+               </person>
+               <person xml:id="Cèze">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">César</forename><surname> Brancho
+                        de Cèse</surname><addName> ou Cilas de Branche</addName></persName>
+               </person>
+
+               <person xml:id="Gabaston">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first"/><surname>
+                     Gabaston</surname></persName>
+               </person>
+               <person xml:id="Jean_de_Monluc" corresp="https://data.bnf.fr/ark:/12148/cb12005546b">
+                  <idno type="ISNI">0000 0000 6138 1469</idno>
+                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname> de
+                        Monluc</surname></persName>
+                  <birth><date>1508</date></birth>
+                  <death><date>1579</date></death>
+               </person>
+               <person xml:id="Farel" corresp="https://data.bnf.fr/ark:/12148/cb12510808g">
+                  <idno type="ISNI">0000 0001 0654 6643</idno>
+                  <persName xml:lang="fr"><forename type="first">Guillaume</forename><surname>
+                        Farel</surname></persName>
+               </person>
+               <person xml:id="Catherine_de_Médicis"
+                  corresp="https://data.bnf.fr/ark:/12148/cb123351707">
+                  <idno type="ISNI">0000 0001 2095 7473</idno>
+                  <persName xml:lang="fr"><forename type="first">Catherine</forename><surname> de
+                        Médicis</surname></persName>
+               </person>
+               <person xml:id="Du_Perron">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Marie-Catherine
+                        de</forename><surname> Pierrevive Du Perron</surname></persName>
+               </person>
+               <person xml:id="Bobigny">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname> Perdriel
+                        de Bobigny</surname></persName>
+               </person>
+               <person xml:id="Saint_André" corresp="https://data.bnf.fr/ark:/12148/cb10715817q">
+                  <idno type="ISNI">0000 0000 8070 0736</idno>
+                  <persName xml:lang="fr"><forename type="first">Jacques d'</forename><surname>Albon
+                        de Saint-André</surname></persName>
+               </person>
+               <person xml:id="Judas" corresp="https://data.bnf.fr/ark:/12148/cb16604390m">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Judas</forename><surname>
+                        l'Iscariote</surname></persName>
+               </person>
+               <person xml:id="Condé" corresp="https://data.bnf.fr/ark:/12148/cb12564181m">
+                  <idno type="ISNI">0000 0004 5875 3670</idno>
+                  <persName xml:lang="fr"><forename type="first">Louis Ier</forename><surname> de
+                        Bourbon</surname></persName>
+               </person>
+               <person xml:id="Rochefoucauld" corresp="http://viaf.org/viaf/57771494">
+                  <idno type="VIAF">57771494</idno>
+                  <persName xml:lang="fr"><forename type="first">François</forename><surname> III de
+                        La Rochefoucauld</surname></persName>
+               </person>
+               <person xml:id="Porcien">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Antoine III de</forename><surname>
+                        Croÿ prince de Porcien</surname></persName>
+               </person>
+               <person xml:id="Canaye">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname>
+                        Canaye</surname></persName>
+               </person>
+               <person xml:id="De_Bèze" corresp="https://data.bnf.fr/ark:/12148/cb11891892g">
+                  <idno type="ISNI">0000 0001 2137 1511</idno>
+                  <persName xml:lang="fr"><forename type="first">Théodore</forename><surname> de
+                        Bèze</surname></persName>
+               </person>
+               <person xml:id="François_Ier" corresp="https://data.bnf.fr/ark:/12148/cb120127827">
+                  <idno type="ISNI">0000 0001 2102 9337</idno>
+                  <persName xml:lang="fr"><forename type="first">François</forename><surname>
+                        Ier</surname></persName>
+               </person>
+               <person xml:id="Poltrot" corresp="https://data.bnf.fr/ark:/12148/cb15550683x">
+                  <idno type="ISNI">0000 0000 7911 3622</idno>
+                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname> Poltrot de
+                        Méré</surname></persName>
+               </person>
+               <person xml:id="Philippe_II" corresp="https://data.bnf.fr/ark:/12148/cb12170664z">
+                  <idno type="ISNI">0000 0001 0837 7767</idno>
+                  <persName xml:lang="fr"><forename type="first">Philippe</forename><surname> II
+                        d'Espagne</surname></persName>
+               </person>
+               <person xml:id="Henri_de_Lorraine"
+                  corresp="https://data.bnf.fr/ark:/12148/cb12569222k">
+                  <idno type="ISNI">0000 0001 2369 2597</idno>
+                  <persName xml:lang="fr"><forename type="first">Henri</forename><surname> de
+                        Lorraine</surname></persName>
+               </person>
+               <person xml:id="Anne_du_Bourg" corresp="https://data.bnf.fr/ark:/12148/cb155506294">
+                  <idno type="ISNI">0000 0000 5522 7254</idno>
+                  <persName xml:lang="fr"><forename type="first">Anne</forename><surname> du
+                        Bourg</surname></persName>
+                  <death><date>1559-12-23</date><settlement>Paris</settlement></death>
+               </person>
+               <person xml:id="Tanchou">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname>
+                        Tanchou</surname></persName>
+               </person>
+               <person xml:id="L_Hospital" corresp="https://data.bnf.fr/ark:/12148/cb119971716">
+                  <idno type="ISNI">0000 0001 2145 1466</idno>
+                  <persName xml:lang="fr"><forename type="first">Michel</forename><surname> de
+                        L'Hospital</surname><roleName> (chancelier)</roleName></persName>
+               </person>
+               <person xml:id="Henri_II" corresp="https://data.bnf.fr/ark:/12148/cb12066759q">
+                  <idno type="ISNI">0000 0003 9500 1884</idno>
+                  <persName><forename type="first">Henri</forename><surname> II</surname><roleName>
+                        (Roi de France)</roleName></persName>
+                  <birth><date>1519-03-31</date></birth>
+                  <death><date>1559-07-10</date></death>
+               </person>
+               <person xml:id="François_II" corresp="https://data.bnf.fr/ark:/12148/cb12066759q">
+                  <idno type="ISNI">0000 0001 2142 8987</idno>
+                  <persName><forename type="first">François</forename><surname>
+                     II</surname></persName>
+                  <birth><date>1544-01-15</date><settlement>Fontainebleau</settlement></birth>
+                  <death><date>1560-12-05</date><settlement>Orléans</settlement></death>
+               </person>
+               <person xml:id="Millouet">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Henry</forename><surname>
+                        Millouet</surname></persName>
+               </person>
+               <person xml:id="Bourdillon" corresp="http://viaf.org/viaf/279862870">
+                  <idno type="VIAF">279862870</idno>
+                  <persName xml:lang="fr"><forename type="first">Imbert</forename><surname> de la
+                        Plâtière</surname></persName>
+               </person>
+               <person xml:id="Martigues" corresp="https://data.bnf.fr/ark:/12148/cb17850243c">
+                  <idno type="ISNI">0000 0004 7973 5682</idno>
+                  <persName xml:lang="fr"><forename type="first">Sébastien</forename><surname> de
+                        Luxembourg-Martigues</surname></persName>
+                  <death><date>1569-11-19</date><settlement>Saint-Jean d'Angely</settlement></death>
+               </person>
+               <person xml:id="Nez_d_argent">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Pierre
+                        Créon</forename><surname> </surname></persName>
+                  <death><date>1562-05-02</date><settlement>Paris</settlement></death>
+               </person>
+               <person xml:id="Montgommery" corresp="https://data.bnf.fr/ark:/12148/cb12102654p">
+                  <idno type="ISNI">0000 0000 2971 6089</idno>
+                  <persName xml:lang="fr"><forename type="first">Gabriel</forename><surname> de
+                        Montgommery</surname></persName>
+                  <death><date>1574-06-26</date><settlement>Paris</settlement></death>
+               </person>
+               <person xml:id="Broullat">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Jacques</forename><surname> du
+                        Broullat</surname><roleName> (archevêque d'Arles et abbé de
+                        Lagny)</roleName></persName>
+                  <death><date>1575</date><settlement>Allemagne</settlement></death>
+               </person>
+               <person xml:id="La_Treille">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">François de La
+                        Treille</forename><surname> seigneur de Barouil</surname><roleName>
+                        (commissaire de l'artillerie)</roleName>
+                  </persName>
+               </person>
+               <person xml:id="Pienne" corresp="https://data.bnf.fr/ark:/12148/cb170435618">
+                  <idno type="ISNI">0000 0005 0410 0882</idno>
+                  <persName xml:lang="fr"><forename type="first">Jeanne</forename><surname> de
+                        Piennes Alluye</surname><roleName> (baronne d')</roleName></persName>
+                  <birth><date>1530</date></birth>
+               </person>
+               <person xml:id="Philippe_de_Hesse"
+                  corresp="https://data.bnf.fr/ark:/12148/cb121186383">
+                  <idno type="ISNI">0000 0001 1034 9538</idno>
+                  <persName xml:lang="fr"><forename type="first">Philippe</forename><surname> de
+                        Hesse</surname><roleName> (landgrave de Hesse)</roleName></persName>
+                  <birth><date>1504-11-13</date></birth>
+                  <death><date>1567-03-31</date></death>
+               </person>
+            </listPerson></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change><date>2023-11-25</date>Encodage de niveau 4.</change>
+         <change><date>2024-02-01</date>Correction du vers 67 à partir des clichés du manuscrit
+            original consulté le 27 janvier 2024 à la BnF Richelieu.</change>
+         <change><date>2024-02-11</date>Correction et mise en italique des titres en notes.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris, </settlement>
+                  <repository>Bibliothèque nationale de France, </repository>
+                  <idno>NAF 1870 (f. 33v°-38v°)</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <p>
+            <l>Salut <reg>à</reg> toy mon grand amy</l>
+            <note resp="scriptor">Dans la marge gauche, d'une seconde main : <quote>De la part des
+               Catholicques</quote>.</note>
+            <l>Que je ne voys pas <reg>à</reg> demy</l>
+            <l>Dont mon cueur treffort <choice>
+                  <orig>ce</orig>
+                  <reg>se</reg>
+               </choice> travaille</l>
+            <l n="4"><reg>Reçois</reg> ce petit intervalle</l>
+            <l>Et supporte les faultes nostres</l>
+            <!-- Saut#1 -->
+            <l>Car ce <rs type="invective">diseur de patenostres</rs></l>
+            <l>En ses vieulx ans nous faict grands maulx</l>
+            <note resp="editor" type="crit">Première attaque contre le connétable <persName
+                  ref="#Anne_de_Montmorency">Anne de Montmorency</persName>, cible principale de ce
+               coq-à-l'âne.</note>
+            <!-- Saut#2 -->
+            <l n="8">Les <expan>prebstres</expan> ne sont hors des maulx</l>
+            <l>On les menace tous les jours</l>
+            <note resp="editor" type="altLem">À partir de 1562, les prêtres vont cristalliser la
+               rancune des huguenots. Aux violences verbales succèdent les violences physiques. Voir
+               pour l'année 1567, le témoignage du prieur Dom Lépaulart pour la ville de Soissons
+               (éd. 1862): <quote>Brief, on n'oyoit quasi personne qui ne dict que c'estoit par les
+               prestres tous les maux et calamités qu'ils avoient, et de telz propos les avoient
+               abreuvéz lesdictz Huguenotz pour rendre les prestres odieux.</quote> et aussi la synthèse de
+               D. Crouzet (1990), <quote>la guerre aux <hi rend="italic">Razés</hi></quote>, II, 8.5.</note>
+            <l>Ils sont <expan>commancés</expan> les grands jours</l><note resp="editor" type="altLem"
+               >Tatiana Debbagi Baranova indique que les Grands Jours de Poitiers ont commencé le 30
+               août 1567. Voir <title>À coups de libelles</title>, Genève, Droz, 2012, p. 227.</note>
+            <l>Force <rs type="invective">vermine</rs> cy en va</l>
+            <l n="12">Je te supplie ne reviens va</l>
+            <l>Devers le <roleName ref="#Charles_IX">Roy</roleName> pour <reg>l’advertir</reg></l>
+            <l><reg>Qu’il</reg>
+               <reg>s’en</reg> pourra bien repentir</l>
+            <l><reg>S’il</reg> ne chasse tous ses <rs type="invective"><rs type="animal"
+                     subtype="canidé">mastins</rs></rs></l>
+            <l n="16"><rs type="injonction" subtype="impératif">Revien</rs> et <rs type="injonction"
+                  subtype="impératif">chausse</rs> tes patins</l><!-- Note sur "patins" -->
+            <l>Car trop mieulx les vauldroict brusler</l>
+            <note resp="editor" type="crit">Un premier appel au meurtre des protestants qui marque
+               une rupture dans le genre du coq-à-l'âne.</note>
+            <l>Je ne laisse poinct de heurler</l>
+            <l>Pour tous ecdicts ses <orgName key="huguenots"
+            >sectateurs</orgName></l><!-- Vérifier la graphie de ecdits--><!-- Saut#3 -->
+            <l n="20">Faisons donq venir ses <rs type="invective">tateurs</rs></l>
+            <note resp="editor" type="ling">Littéralement, <quote>ceux qui tâtent</quote>, du vin?</note><!-- mph? -->
+            <pb n="34r"/>
+            <fw type="pageNum" place="top-right">fol°xxxiiii</fw>
+            <l>Car nous avons bonne vynée</l>
+            <l>La grace <reg>à</reg> Dieu en ceste année</l>
+            <l>Vendanges ont esté assez <reg>belle[s]</reg></l>
+            <!-- Saut#4 -->
+            <l n="24">Helas <reg>qu’elle</reg> la baille belle</l>
+            <note resp="editor" type="glose">Catherine de Médicis et ses tentatives de
+               conciliation.</note>
+            <l>D’envoyer à <placeName><settlement type="city" key="Genève"
+                  >Genesve</settlement></placeName> ostaige</l>
+            <l>Pour pleiger des gens plains de raige</l>
+            <note resp="editor" type="ling"><hi rend="italic">Pleiger</hi>: <quote>se plaindre de</quote>.</note>
+            <l><rs type="invective">Essorillés</rs>
+               <rs type="invective">banis</rs> et <rs type="invective">appostatz</rs></l>
+            <!-- Saut#5 -->
+            <l n="28">Ilz furent ung jour tins les estats</l>
+            <l><reg>À</reg>
+               <placeName><settlement type="city">Orléans</settlement></placeName> chose
+               asseurée</l>
+            <l>Pensez <reg>qu’elle</reg> fut asseurée</l>
+            <l>Quant elle eust ouy les disputtes</l>
+            <note resp="editor" type="gloset">Catherine de Médicis a convoqué les États généraux qui
+               se sont tenus à Orléans du 13 décembre 1560 au 31 janvier 1561 après s'être attribué
+               la régence. Voir Hugues Daussy, <title>Le parti huguenot</title>, p. 189 et s.,
+               2014.</note>
+            <!-- Saut#6 -->
+            <l n="32">En <placeName><settlement type="country" key="Hollande"
+                  >Hullen</settlement></placeName> n’y a plus de puttes</l>
+            <l>On a faict tout chasser dehors</l>
+            <!-- Saut#7 -->
+            <l>Quant <persName ref="#Gabaston">Gabaston</persName> et ses consors</l>
+            <note resp="editor" type="glose">Ce sergent du guet avait conduit des catholiques à la
+               prison du Petit-Châtelet en décembre 1561 lors de l'attaque de la maison du
+               Patriarche. Agrippa d'Aubigné rappelle les faits au chapitre XXVI du deuxième livre
+               de l'<title>Histoire universelle</title> : <quote>Ce qui sur tout fit soupçonner la Roine
+               de favoriser ce parti, fut qu'elle commanda à Gabaston d'entrer en garde avec armes
+               au retour de Popincourt: ceste garde empescha un massacre general dans Paris, le 27
+               de Decembre, où il arriva plusieurs mauvais garçons de la paroisse S.Medard, ayans
+               fait provision d'armes de main et de traicts, sonnerent un tel carillon au
+               commencement du presche de Malo, que nul ne le pouvoit ouïr. On envoya deux de la
+               compagnie pour faire cesser le bruit, desquels l'un fut tué: les gardes qui y
+               voulurent aller estans repoussés, les jeunes escholiers qui y estoyent, y coururent,
+               il y eut un combat opiniastré, où plus de 40 Catholiques furent blessés ou tués,
+               quatorze prisonniers menés par les rues jusques au Chastelet, sans que personne fist
+               contenance de les secourir. Ceste esmeute là fut suivie d'une autre de S. Marceau.</quote>
+               (éd. A. Thierry, 1981, p. 327). Voir aussi Denis Richet, <quote>Aspects socio-culturels des
+               conflits religieux à Paris dans la seconde moitié du seizième siècle</quote>, 1977, p. 766;
+               et Denis Crouzet, <title>Les enfants bourreaux au temps des guerres de
+                  religion</title>, 2020.</note>
+            <l>Furent tous mys <reg>à</reg> la fin d’aise</l>
+            <l n="36">On meit le cappitaine <persName ref="#Cèze">Saize</persName></l>
+            <l>Pour estre chevalier du guet</l>
+            <note resp="editor" type="crit">César Brancho de Cèze fut nommé chevalier du guet en
+               1562. Voir Tatiana Debbagi Baranova, <hi rend="italic">op. cit.</hi>, p. 226.</note>
+            <!-- Saut#8 -->
+            <l>Vrayement on le print bien d'aguet</l>
+            <note resp="editor" type="ling"><hi rend="italic">Prendre quelqu'un d'aguet</hi>: <quote type="def">le
+               prendre au piège</quote>.</note>
+            <l>Mal luy fut la grand procession</l>
+            <l n="40"><reg>C’est</reg> d’<reg>où</reg> vint la sédition</l>
+            <l>Quant on <reg>l’appelle</reg> boullenger</l>
+            <note resp="editor" type="crit">La dispute entre le gouverneur et Cèze est également
+               mentionnée par Louis Régnier de La Planche, alors secrétaire de François de
+               Montmorency dans <title>Du grand et loyal devoir, fidélité et obéissance de messieurs
+                  de Paris envers le Roy et Couronne de France</title>, s.l., 1565 [BnF, Arsenal 8o
+               H 6279], p. 152-153. Mais l'auteur de ce coq-à-l'âne en rend responsable François de
+               Montmorency.</note>
+            <!-- Saut#9-->
+            <l>Je trouve que <reg>c’est</reg> grand danger</l>
+            <l><reg>D’avoir</reg> debat <expan>contre</expan> plus grand que soy</l>
+            <!-- Saut#10 -->
+            <l n="44">Garde <reg>n’ont</reg> de mourir de soif</l>
+            <l><reg>S’ilz</reg> sont noyez en la riviere</l>
+            <note resp="editor" type="crit">Nouvel appel au meurtre qui préfigure la
+               Saint-Barthélemy.</note>
+            <!-- Saut#11 -->
+            <l>Ilz scavent trop bien la maniere</l>
+            <l>Ces <rs type="invective">hurgnes</rs> de flatter en court</l>
+            <note resp="editor" type="ling">Le terme de <hi rend="italic">hurgnes</hi> non attesté
+               dans les dictionnaires de l'époque revient cinq fois pour désigner les adversaires
+               huguenots.</note>
+            <!-- Saut#12 -->
+            <l n="48">Elle alloit souvent <reg>à</reg> la <placeName>court</placeName></l>
+            <l>La pute femme au rouge <rs type="animal">veau</rs></l>
+            <note resp="editor" type="glose">Est visée ici Isabelle de Hauteville, dame de Loré,
+               mariée depuis décembre 1564 à Odet de Châtillon, le <q>rouge veau</q> en référence à la
+               couleur de son habit de cardinal.</note>
+            <l>Cela luy semble estre fort beau</l>
+            <l>De <choice>
+                  <orig>ce</orig>
+                  <reg>se</reg>
+               </choice> faire nommer contesse</l>
+            <!-- Saut#13-->
+            <l n="52">Ventre sainct gris <reg>et</reg> quel compte esse</l>
+            <l>Nous sommes quasy en balance</l>
+            <!-- Saut#14 -->
+            <l>J’ay veu <rs type="invective"><roleName ref="#Jean_de_Monluc">l’apostat</roleName> de
+                        <placeName><settlement type="city">Valence</settlement></placeName></rs></l>
+            <note resp="editor" type="glose">Il s'agit ici de Jean de Monluc, conseiller du roi et
+               de la reine-mère. On trouve le pasquil suivant à la suite des <title>Mémoires d'un
+                  curé de Paris</title>, Jehan de la Fosse : <quote>À l'evesque de Valence / Sub pelle
+               ovina latet mens vulpina</quote>, <quote>Sous une peau de mouton se cache un cœur de loup</quote>, éd. M.
+               Venard, 2004, p. 181.</note>
+            <l>Qui a putaing femme et enffans</l>
+            <l n="56">Ce sont d’un bien <rs type="invective">gros <rs type="animal" subtype="canidé"
+                     >loup</rs></rs> les fans</l>
+            <l>Ou du moings on luy faict accroire</l>
+            <l>C’est une chose forte <reg>à</reg> croire</l>
+            <l>Q’un <rs type="animal" subtype="canidé">loup</rs> peust paistre des <rs type="animal"
+                  >moutons</rs></l>
+            <l n="60">De cela plus ne dementons</l>
+            <l>Changer propos resjouyt l’homme</l>
+            <!-- Saut#15 -->
+            <l>On dict que le <roleName ref="#Pie_V">pape</roleName> de <placeName><settlement
+                     type="city" key="Rome">Romme</settlement></placeName></l>
+            <pb n="34v"/>
+            <fw type="sig" place="bottom-right">Jii</fw>
+            <l>Est ung tresgrand homme de bien</l>
+            <l n="64">Et que sa vye suyt tresbien</l>
+            <l>Sa doctrine <expan>[par]</expan> son habit</l><note resp="editor" type="crit">À
+               rebours de l'ironie habituelle des coq-à-l'âne, cette mention du pape semble bien à
+               prendre au sens littéral : Pie V, élu pape en janvier 1566, veut se démarquer de ses
+               prédécesseurs par son austérité. Il choisit ainsi de conserver son habit blanc de
+               religieux.</note>
+            <!-- Saut#16 -->
+            <l>Il avoit furieulx babil</l>
+            <l><roleName ref="#Philippe_de_Hesse">Ce prince</roleName> mort que vous scavés</l>
+            <note resp="editor" type="glose">Peut-être le landgrave Philippe de Hesse, mort six mois
+               plus tôt.</note>
+            <l n="68"><rs type="invective">Hurgnes</rs> bien perdu vous avéz</l>
+            <l><reg>À</reg> sa mort <reg>c’estoit</reg> ung pillier</l>
+            <l>De vostre eglise qui bien piller</l>
+            <l>Vous faisoit chasses croix <reg>et</reg> calices</l>
+            <note resp="editor" type="glose">Allusion à l'iconoclasme de Genève.</note>
+            <!-- Saut#17 -->
+            <l n="72">Je donne au grand diable la lice</l>
+            <l>Qui fut cause faire des presches</l>
+            <note resp="editor" type="glose">Notre auteur laisse entendre que les libertés accordées
+               aux protestants remonteraient à la mort de <persName ref="#Henri_II">Henri
+                  II</persName>.</note>
+            <!-- Saut#18 -->
+            <l>Mon Dieu quelle piteuse despesche</l>
+            <l>Que <reg>l’on</reg> feit devant <placeName><settlement type="city"
+                     key="Saint-Quentin">sainct Quentin</settlement></placeName></l>
+            <l n="76">Il disoict hault le <rs type="invective" ref="#Coligny">viel mastin</rs></l>
+            <note resp="editor" type="glose"><persName ref="#Coligny">Coligny</persName> est alors
+               fait prisonnier comme Anne de Montmorency, Montpensier, Longueville ou encore le
+               maréchal de Saint-André.</note>
+            <l>Sy vous vivez je vous feray tous pendre</l>
+            <l>Quant il fut prins s’on <reg>l'eust</reg> faict pendre</l>
+            <l><persName ref="#Henri_de_Guise">Guyse</persName> n’eust pas esté tué</l>
+            <note resp="editor" type="glose">Poltrot de Méré est considéré comme un agent de
+               Coligny.</note>
+            <!-- Saut#19 -->
+            <l n="80">Ilz se sont bien esvertué[s]</l>
+            <l>Pour faire venir <orgName type="peuple">Turcs</orgName> en <placeName><settlement
+                     type="country">France</settlement></placeName></l>
+            <l>Ilz en auront ung jour souffrance</l>
+            <l><roleName ref="#Charles_IX">Le Roy</roleName> scaura tout se dieu plaist</l>
+            <l n="84">Il y en a bien eu des plaicts</l><note resp="editor" type="ling"><hi
+               rend="italic">Plaicts</hi> sans doute pour <hi rend="italic">plaids</hi> au sens de
+                  <quote>paroles, discours, procès</quote>.</note>
+            <l>Pour leur justiffication</l>
+            <l><roleName ref="#Anne_de_Montmorency">Leur oncle</roleName> en eust compassion</l>
+            <note resp="editor" type="glose">À nouveau Montmorency, oncle des
+               Châtillon-Coligny.</note>
+            <l>Leur meschante cause a faict bonne</l>
+            <!-- Saut#20 -->
+            <l n="88">Je scay maulvais gré <reg>à</reg>
+               <orgName>Sorbonne</orgName></l>
+            <l><reg>Qu’il</reg>
+               <reg>n’empesche</reg> en plusieurs collèges</l>
+            <l>Les faulces leçons sortilesges</l>
+            <l>Que <rs type="invective">hurgnes</rs> font journellement</l>
+            <l n="92">Mais nous voyons qu’en parlement</l>
+            <l>Plusieurs sont qui les favorisent</l>
+            <l>Et qui plus est les auctorisent</l>
+            <l>Les <orgName type="secte">crestiens</orgName> ne gaignent jamays</l>
+            <l n="96">Le <rs type="animal">mouton</rs> crye je <reg>n’en</reg> puys mais</l>
+            <l>Ce neanlmoingts on le tue et <reg>l’escorche</reg></l>
+            <!-- Saut#21 -->
+            <l>Il porta une belle torche</l>
+            <l>Ce mosnyer jusques au pillory</l>
+            <!-- Saut#22 -->
+            <l n="100">Prins fut <placeName>au carrefour Guillory</placeName></l>
+            <note resp="editor" type="glose">Un des principaux carrefours parisiens, près de la
+               place de Grève.</note>
+            <l>L’orfebvre qui perdit sa barbe</l>
+            <l>Et maincts aultres par <persName type="saint">saincte Barbe</persName></l>
+            <l>Qu’il a faict de maulx en son temps</l>
+            <!-- Saut#23 -->
+            <l n="104">Apportez de l’argent content</l>
+            <fw type="sig" place="bottom-right">Pour bastir</fw>
+            <pb n="35r"/>
+            <fw type="pageNum" place="top-right">Fol°xxxv</fw>
+            <l>Pour bastir le lieu de la <roleName ref="#Catherine_de_Médicis">Royne</roleName></l>
+            <l>Il y aura mainct en ruyne</l>
+            <l>Des marechaulx de <reg>là</reg> autour</l>
+            <l n="108"><persName ref="#Du_Perron">Madame Du Péron</persName> ung tour</l>
+            <note resp="editor" type="glose">Dame de compagnie de Catherine de Médicis.</note>
+            <l>De récompense leur fera</l>
+            <l>Et scavez vous <reg>où</reg> se fera</l>
+            <l><placeName>Au tertre Montvalérien</placeName></l>
+            <!-- Saut#24 -->
+            <l n="112"><persName ref="#Bobigny">Bobigny</persName> est ung vray voiryen</l>
+            <note resp="editor" type="glose">Voir Stuart Carroll, <title>Vengeance, Kinship
+                  Solidarity and Affinity in Late-medieval and Early Modern France</title>, 2006, p.
+               9: <quote>At the battle of Dreux in 1562 Saint-André, one of the Catholic commanders, was
+               captured by the sieur de Bobigny, one of his former servants. Some years earlier
+               Bobigny had murdered a fellow servant.</quote>; Aussi Lucien Romier, <title>Jacques
+                  d'Albon de Saint-André</title>, 1909, p. 380 et Nicolas Le Roux, <title>La faveur
+                  du roi</title>, 2024.</note>
+            <l>D’avoir ainsy tué son maistre</l>
+            <note resp="editor" type="glose">Le geste remonte à 1562.</note>
+            <l>Sans en riens le vouloir <expan>congnoistre</expan></l>
+            <l>Pour <persName ref="#Saint_André">mareschal de sainct André</persName></l>
+            <l n="116">Que sur une croix sainct André</l>
+            <l>Le puisse on rompre <choice>
+                  <orig>se</orig>
+                  <reg>ce</reg>
+               </choice> volleur</l>
+            <l>Aussy il est de la coulleur</l>
+            <l>Du <roleName ref="#Judas">trésorier de Jhésucrist</roleName></l>
+            <note resp="editor" type="glose">Rapprochement entre Bobigny et Judas, tous les deux
+               roux. <quote>Le mauvais sort voulut qu'il tomba aux mains d'un individu de haute stature,
+               portant une petite barbe blonde ou rousse qu'il reconnut sans doute avec effroi.</quote>,
+               Lucien Romier, <hi rend="italic">ibid.</hi></note>
+            <!-- Saut#25 -->
+            <l n="120"><rs type="injonction" subtype="impératif">Mande</rs> moy ung peu par
+               escript</l>
+            <l>Pour me mieulx réconcillier</l>
+            <l>Sy d’un meschant conseiller</l>
+            <l>L’on peult bien faire ung bon evesque</l><note resp="editor" type="crit">Nous croyons
+               reconnaître une nouvelle attaque contre Jean de Monluc, conseiller de Catherine de
+               Médicis, condamné pour hérésie par Pie IV, déjà visé aux vers 53 et suivants.</note>
+            <l n="124">La responce est que non avecque</l>
+            <l>Ce qu’il est devenu changeur</l>
+            <l>Et qui plus est est grand mengeur</l>
+            <l>Il est bel <reg>à</reg> veoir <reg>à</reg> sa pance</l>
+            <l n="128">Dangereuses sont ses dispences</l>
+            <l>Car il menge chair en Caresme</l>
+            <l>Et les vendredis tout de mesme</l>
+            <l>Les gouttes le rendent excusable</l>
+            <l n="132">La musique sera muable</l>
+            <l>Nostre violle plus ne chante</l>
+            <l>Mais je pense moy qu’il enchante</l>
+            <l>Nostre bon Roy /<!-- Saut#26 --> ces <orgName type="secte">huguenots</orgName></l>
+            <l n="136">Ilz disoient bien des audinos</l><note resp="editor" type="ling"><hi rend="italic">Audinos</hi>:
+               "Prières, oraisons" (Huguet).</note>
+            <l>Lors qu’il meit feu à <placeName>Popincourt</placeName></l>
+            <note resp="editor" type="crit">Voir Jehan de La Fosse pour le mois d'avril 1562 : <quote>En ung
+               samedy 5e, Anne de Memorensy, connestable de Franche, fut devant Brasque en la maison
+               où pendoit pour enseigne la ville de Jherusalem, où preschoyent les huguenotz, et
+               feit mettre le feu dedans la maison de là, et fut à Popincourt où il feit mettre
+               pareillement le feu ; et ce mesme jour furent pris prisonniers aucuns predicants et
+               ung advocat nommé Rusé.</quote></note>
+            <l>Puis au <placeName>patria[r]che</placeName> s’en court</l>
+            <l>Pour le brusler rompre et abbatre</l>
+            <l n="140">C’est morguer pour les coups rabatre</l>
+            <l>Et pour dissimuller un monde</l>
+            <!-- Saut#27-->
+            <l><persName>L’hospital</persName> est pour tout le monde</l>
+            <note>Probable jeu de mots sur le nom du <roleName ref="#L_Hospital"
+                  >chancelier</roleName> critiqué pour sa politique de conciliation.</note>
+            <l>Ordonné ainsy que <reg>l’on</reg> dict</l>
+            <l n="144">Mais il n’est <reg>qu’un</reg> peuple mauldit</l>
+            <l>De bien venuz en cest endroict</l>
+            <l>Tout est pour eulx soict tort ou droict</l>
+            <l>Du <orgName type="secte">Catholique</orgName> ostez vous nyes</l>
+            <!-- Saut#28 -->
+            <l n="148">Je <reg>n’y</reg> vay pas argent <reg>n’y</reg> est</l>
+            <l>La cire y est pour nous trop chere</l>
+            <fw type="sig" place="bottom-right">Jiii</fw>
+            <pb n="35v"/>
+            <!-- Saut#29 -->
+            <l>Las <persName ref="#Pienne">Pienne</persName>, son amour te feust chere</l><note
+               resp="editor" type="glose">Dame de compagnie de Catherine de Médicis, Jeanne de
+               Piennes d'Halluin avait reçu une promesse de mariage du maréchal de Montmorency,
+               promesse rompue pour le laisser épouser Diane de France en 1557.</note>
+            <l>Reproche en as et auras longuement</l>
+            <l n="152">Tu <reg>n’avois</reg> cause de <reg>l’aymer</reg> nullement</l>
+            <l>Bel homme <reg>n’est</reg>, il est trop louche</l>
+            <!-- Saut#30 -->
+            <l>Vray dieu <reg>qu’il</reg> faisoit le farouche</l>
+            <l>Pendre ce pauvre homme du dimanche</l>
+            <note resp="editor" type="crit">Louis Régnier de La Planche rapporte cet épisode : <quote>En
+               un jour de Dimanche ayant surpris un gallant pillant une boutique en la rue
+               Saint-Denis, il le feist sur l'heure pendre aux fenestres de la maison.</quote>, <hi
+                  rend="italic">op. cit.</hi>, p. 155.</note>
+            <l n="156"><reg>C’estoit</reg> mal faire, amanche amanche</l>
+            <note resp="editor" type="crit">Expression proche au vers 184 de <quote>La Grue</quote> (CAA#27): <quote>C’est
+               raison, tu diz vray, emmanches</quote>.</note>
+            <l>Ce <reg>n’est</reg> pas tout, je croy que non</l>
+            <!-- Saut#31 -->
+            <l>Et ne fault il pas que <reg>l’<rs type="animal" subtype="équidé">asnon</rs></reg></l>
+            <l>Se <choice><orig>récente</orig><reg>ressente</reg></choice> des traicts de <reg>l’<rs type="animal" subtype="équidé"
+               >asne</rs></reg></l>
+            <note type="resp" subtype="glose">Tel père, tel fils : si l'<quote>asne</quote> est Anne, son fils
+               François est l'asnon.</note>
+            <!-- Saut#32 -->
+            <l n="160">Je vous promects que <persName ref="#Anne_de_Montmorency">ce gris <rs
+                     type="animal" subtype="équidé">asne</rs></persName></l>
+            <l>Feit pendre maincts hommes <reg>à</reg>
+               <placeName><settlement type="city" key="Bordeaux">Bordeaulx</settlement></placeName></l>
+            <l><reg>À</reg> leurs fenestres à gros cordeaulx</l>
+            <note resp="editor" type="crit">En référence à la répression particulièrement violente
+               de connétable contre la révolte de la gabelle à Bordeaux au cours de l'été
+               1548.</note>
+            <l>On ne luy ayme pas beaucoup</l>
+            <!-- Saut#33 -->
+            <l n="164">Helas il <reg>c’est</reg> vanté <reg>d’un</reg> coup</l>
+            <l>Se deffenseur de nouvelle evangille</l>
+            <!-- Saut#34 -->
+            <l>Qu’il a frappé de lance ville</l>
+            <note resp="editor" type="glose"><persName ref="#Montgommery"
+               >Montgommery.</persName></note>
+            <l>Nostre deffunct bon roy <persName ref="#Henri_II">Henry</persName></l>
+            <l n="168">Et qui plus est dont suys merry</l>
+            <l>Il dict <reg>à</reg> tous <reg>qu’il</reg> a jecté</l>
+            <l>Le peuple de captivité</l>
+            <l>Par tel moyen le malheureux</l>
+            <l n="172"><rs type="animal" subtype="équidé">Asne</rs> ne fut jamays heureulx</l>
+            <l>Lequel luy ferma le heaulme</l>
+            <l>Dont avons parlé, <!-- Saut#35 --><persName type="saint">Sainct
+               Guillaume</persName></l>
+            <l><reg>Qu’il</reg> fut estonné, le minyme</l>
+            <l n="176">Quant <persName>Grandmont</persName> qui gueres ne <reg>l’ayme</reg></l>
+            <l>Au port de <placeName><settlement type="city">Neuilly</settlement></placeName> le
+               trouva</l>
+            <l>Une injure luy controuva</l>
+            <l><reg>L’appelant</reg> caffart <expan>et</expan> meschant</l>
+            <l n="180">Je te mettray par le trenchant</l>
+            <l>De mon espée ou feray pendre</l>
+            <l><reg>À</reg> cest arbre sy ne veulx tendre</l>
+            <l>De faire mon vœuil au synode</l>
+            <note resp="editor" type="glose">Nous n'avons pas trouvé trace de cet épisode. Le minime
+               le plus célèbre parmi les prédicateurs du temps est sans doute Jehan de Ham (ou Hans)
+               qui fut arrêté puis relâché sous la pression populaire en 1561.</note>
+            <!-- Saut#36 -->
+            <l n="184">Il avoict trescruelle mode</l>
+            <l><persName ref="#Rochefoucauld">Roche Foucault</persName> de tant coupper</l>
+            <note resp="editor" type="crit">François de la Rochefoucauld, un des principaux chefs
+               protestants.</note>
+            <l>Oreilles de <expan>presbtres</expan> et soupper</l>
+            <l>Faire ses chiens de telles viandes</l>
+            <l n="188">Il en payra ung jour <reg>l’amende</reg></l>
+            <l>Par trop en a faict de camus</l><note resp="editor" type="ling">Pour leur avoir mutilé le nez.</note>
+            <!-- Saut#37 -->
+            <l>Ja ne chanterons Benedicamus</l>
+            <l>Nos sacerdots <reg>s’ilz</reg>
+               <reg>n’ont</reg>
+               <expan>monnoye</expan></l>
+            <!-- Saut#38 -->
+            <l n="192">Pensez vous pour chose <expan>qu’il</expan> voye</l>
+            <l><reg>Qu’il</reg> se ramende aulcunement</l>
+            <fw type="sig" place="bottom-right">On les</fw>
+            <pb n="36r"/>
+            <fw>f. xxxvi</fw>
+            <!-- Saut#39 -->
+            <l>On les treuve journellement</l>
+            <l>Barbus desguisés en gendarmes</l>
+            <l n="196">Ilz auront encore des alarmes</l>
+            <l>Herecticques leur feront passion</l>
+            <l>Ja n’yront en procession</l>
+            <l>Cy la croix n’est tousjours devant</l>
+            <!-- Saut#40 -->
+            <l n="200">Elle a bien presté son devant</l>
+            <l>Ceste grand vielle <roleName>mareschalle</roleName></l>
+            <note resp="editor" type="crit">Marguerite de Lustrac, maréchale de Saint-André.</note>
+            <l>Elle est <reg>à</reg> couvert <expan>pour</expan> le hasle</l>
+            <l>Vray dieu <reg>qu’elle</reg> a le cueur merry</l>
+            <l n="204">Qu’<rs type="invective" ref="#Condé">au petit <rs type="animal">singe</rs></rs> a donné
+                  <placeName type="domaine" subtype="château"
+               >Vallery</placeName><date>1562</date></l>
+            <note resp="editor" type="glose">Animalisation du Prince de Condé.</note>
+            <l>Par tel moyen pensoit estre princesse</l>
+            <l>Pleust au bon Dieu qu’elle eust pris cesse</l>
+            <l>La mesme opignion difformée</l>
+            <note resp="editor" type="crit">Quelques mois après la mort de son mari, la maréchale se
+               convertit au protestantisme.</note>
+            <l n="208">Et la nostre feust refformée</l>
+            <l>Pour florir en tout saison</l>
+            <!-- Saut#41 -->
+            <l><persName>Montmorency</persName> a eu raison</l><!-- A clarifier -->
+            <l>De son <persName ref="#Porcien">Portian</persName> plain de raige</l>
+            <note resp="editor" type="glose">Antoine de Croÿ, prince de Porcien, meurt le 5 mai
+               1567.</note>
+            <!-- Cf. Jehan de la Fosse -->
+            <l n="212">De faire ung sy villain oultraige</l>
+            <l>Au <roleName>Cardinal</roleName> <expan>et</expan> son <roleName>nepveu</roleName></l><!-- A préciser -->
+            <l>De ce faict n’avoit nul adveu</l>
+            <l>Tout ce proceddoit d’une envye</l>
+            <!-- Saut#42 -->
+            <l n="216">Le crieur en perdit la vye</l>
+            <l>Pour saulver les deux bons parens</l>
+            <!-- Saut#43 -->
+            <l><reg>L’on</reg> veoit tous les jours apparens</l>
+            <l>Les trahisons sectes <expan>et</expan> suyttes</l>
+            <l n="220">Conspirations <expan>et</expan> grand poursuyttes</l>
+            <l>Soubz coulleur de religion</l><note resp="editor" type="crit">Voir la lettre de
+               Charles IX à son oncle le duc de Ferrare au lendemain de la surprise de Meaux :
+               <cit><quote>[...] ilz me vindrent rencontrer et essayèrent de me combatre et atenter à ma
+               personne; mais Dieu voulut qu'ilz n'en rapportèrent que honte, et se descouvrit
+               clairement leur intention, laquele ne se peult plus couvrir du manteau de religion,
+               car jusques alors ne leur avoit esté donné aucun empeschement en la joissance des
+               éditz que pour ce j'avoys cy-devant faitz, estant chose si horrible que je m'asseure
+               elle devra estre trouvée aussi estrange de tous les princes du monde qu'elle est
+               malheureuse pour y prendre exemple [...]</quote></cit>, dans <title>Lettres de Catherine de
+                  Médicis</title>, tome 3, p. 62-63.</note>
+            <l>Que font une grand légion</l>
+            <l>De <rs type="invective">volleurs</rs>
+               <rs type="invective">assacinateurs</rs></l>
+            <l n="224">De piller eglise <rs type="invective">amateurs</rs></l>
+            <l>Sans les brusler que gaigne lon</l>
+            <l>Mais la ligue de <persName ref="#Anne_de_Montmorency">Ganelon</persName></l><note
+               resp="editor" type="crit">En référence à la <title>Chanson de Roland</title>,
+               Ganelon, archétype du félon et du traître, sert de modèle pour dénigrer une nouvelle
+               fois le connétable, complice de ses neveux.</note>
+            <l>De brusler les saulve <expan>et</expan> cuigarde</l>
+            <l n="228">De trop parler je me hazarde</l>
+            <l>Mais je scay bien ce que <reg>j’ay</reg> dict</l>
+            <!-- Saut#44 -->
+            <l>Nostre bon <roleName ref="#Charles_IX">roy</roleName> veult que l’ecdict</l>
+            <l>Du concille soict publié</l><!-- concile de Trente -->
+            <l n="232">Et que rien <reg>n’en</reg> soict oublié</l>
+            <l>Mais ce cadeleux ne veult pas</l>
+            <l>Le faulx viellard ne <reg>l’entend</reg> pas</l>
+            <l>De prendre escuz <reg>à</reg> toutes mains</l>
+            <l n="236">Par luy avons eu des maulx mainctz</l>
+            <pb n="36v"/>
+            <fw type="sig" place="bottom-right">J iiii</fw>
+            <l>Beuvant sa cire il est trop rogue</l>
+            <!-- Saut#45 -->
+            <l>As tu poinct veu le catalogue</l>
+            <l>De ces martirs de <persName key="antéchrist">l’anthecrist</persName></l>
+            <l n="240">Je t’en ay réduict par escript</l>
+            <l>Ce sont tixerrans savetiers</l>
+            <l>Orphevre painctres <reg>et</reg> plusieurs mestiers</l>
+            <l><rs type="invective">Couppeurs de bources</rs>
+               <rs type="invective">larrons</rs>
+               <rs type="invective">volleurs</rs></l>
+            <l n="244"><rs type="invective">Moynes renyez</rs> et <rs type="invective"
+               >farceurs</rs></l>
+            <l><rs type="invective">Desbaucheurs de relligieuses</rs></l>
+            <l>Qui de volutptez glorieuses</l>
+            <l>Ont tous souffert pour <persName>Jehan le noir</persName></l>
+            <note resp="editor" type="glose">Jean Calvin?</note>
+            <!-- Saut#46 -->
+            <l n="248">Qui a veu ce crieur de noir</l><!-- cri -->
+            <l>Qui preschoit la saincte evangille</l>
+            <l>Aux <placeName>faulxbourgs sainct Marcel</placeName> par St Gille</l>
+            <l><persName ref="#Canaye">Canaye</persName> en scayt bien quelque chose</l>
+            <note resp="editor" type="crit">Nouvelle allusion aux événements de 1562 contre la
+               maison du Patriarche qui appartenait à Jean Canaye.</note>
+            <!-- Saut#47 -->
+            <l n="252">Le petit roy <persName ref="#François_II">Françoys</persName> grand chose</l>
+            <l>Ne feit pas ce <reg>qu’il</reg> machinoit</l>
+            <l>Ce que <expan>commancé</expan> il avoict</l>
+            <l>Le bon seigneur <reg>à</reg> luy ne tint</l>
+            <l n="256"><reg>Qu’il</reg> ne feit mourir ses <rs type="invective"><rs type="animal"
+                     >mastins</rs></rs></l>
+            <l>Par <reg>l’oreille</reg> en perdit la vye</l>
+            <note resp="editor" type="glose">François II n'aura régné qu'une année avant de mourir
+               le 5 décembre 1562 d'une infection de l'oreille.</note>
+            <l>Ung empoisonneur plein d’envye</l>
+            <l>Par <rs type="invective">le grand vacher suborné</rs></l>
+            <l n="260">A ce malheureux faict borné</l>
+            <l>Avec <expan>consentement</expan> de <persName ref="#Anne_de_Montmorency"
+                  >l’oncle</persName></l>
+            <l><roleName>Des trois neveulx</roleName> qui ne feirent oncques</l>
+            <l>Nulz biens en <placeName><settlement type="country">France</settlement></placeName>
+               que trahir</l>
+            <note resp="editor" type="glose">L'auteur veut voir en cette mort une nouvelle
+               machination du clan Montmorency-Coligny.</note>
+            <!-- Saut#48 -->
+            <l n="264">Il ne nous fault pas esbahir</l>
+            <l>Sy les tirans sy fort nous maynent</l>
+            <l>Car sy justice ne domaine</l>
+            <l>Sans faveur nous <reg>n’aurons</reg> que mal</l>
+            <!-- Saut#49 -->
+            <l n="268"><reg>À</reg> ce <persName ref="#Millouet">Millouet</persName> faisoict grand
+               mal</l>
+            <note resp="editor" type="glose">Henry Millouet, trésorier.</note>
+            <l>D’estre pendu / <reg>Ô</reg> quel merveille</l>
+            <l>Il nous racompta de <persName ref="#La_Treille">La Treille</persName></l>
+            <l>Qui <reg>à</reg>
+               <placeName>Larcenac</placeName> le feu meist</l><note resp="editor" type="crit"
+               >François de La Treille est un artilleur sous Charles IX. Le manuscrit français 5285
+               de la BnF contient une <cit><quote>Commission pour apprécier les armes des habitants de Paris,
+               que par ordre du roi ils devaient déposer à l'Arsenal. A Cezar Brancho de Cezée,
+               marchal des logis et capitaine du guet, La treille, commissaire odrdinaire de
+               l'artillerie, 'Henri Alaiz', armurier. S.d.</quote></cit>(f.63-64). Voir également le
+                  <title>Discours des villes, chasteaux et forteresses, batues, assaillies et prises
+                  par la force de l'artillerie durant les règnes des roys Henry second et Charles
+                  IX, estant grand maistre et capitaine général d'icelle le seigneur
+                  Destrées</title> attribué à La Treille, 1563 puis 1568 [Bibliothèque de l'Arsenal,
+               cote 8-H-12775(1)].</note>
+            <l n="272">Tous ses peschez lui sont remys</l>
+            <!-- Saut#50 -->
+            <l>À <persName ref="#Tanchou">Tanchou</persName> on luy a faict grace</l>
+            <l>Mais son pauvre frere <reg>à</reg> sa place</l>
+            <l>Est demouré son lieutenant</l>
+            <note type="crit" resp="editor">cf. Jehan de la Fosse, <title>Mémoires...</title>, p. 68
+               :" [1567] En ung samedy 25e de janvier fut pendu pres du Petit Pont ung nommé
+               Tanchon, frere du prevost Tanchon (et led. prevost condamné d'aller aux galleres
+               perpetuelles); il avoyent tué deux hommes envyron neuf hores du soir, retournant de
+               souper de la ville *led. Tanchon par aprez fut remis en son estat*.' Le lieutenant
+               Tanchou sera l'un des plus zélés massacreurs de la Saint-Barthélemy. Cf. J. Foa,
+               2021. Ce même épisode est évoqué dans le 'Pasquil Courtizan' (CAA#69) du
+                  <title>Registre-journal</title> de Pierre de L'Estoile.</note>
+            <l n="276">Ilz se promeinent maintenant</l>
+            <l>Parmy <placeName><settlement type="city">Paris</settlement></placeName> ses
+                  <orgName>tresoriers</orgName></l>
+            <l>Aussy ilz ont fourny deniers</l>
+            <l>Pour les conduis de la fontaine</l>
+            <l n="280">Les aultres en ont souffert la peyne</l>
+            <l>Leur paresse les a faict pendre</l>
+            <fw type="sig" place="bottom-right">Ceulx cy</fw>
+            <pb n="37r"/>
+            <fw type="pageNum" place="top-right">Fol° xxxvii</fw>
+            <l>Ceulx cy ne se sont laissé prendre</l>
+            <l>Au pied ont gaigné des premiers</l>
+            <!-- Saut#51 -->
+            <l n="284">Ilz sont esleuz les <orgName>centeniers</orgName></l>
+            <note resp="editor" type="ling">Les centeniers sont les officiers de police.</note>
+            <l>Les <rs type="invective">hurgnes</rs> en sont fort faschez</l>
+            <l>Le <roleName ref="#Charles_IX">Roy</roleName> le veult et despechez</l>
+            <l>Les a luy mesme en son voulloir</l>
+            <!-- Saut#52 -->
+            <l n="288">Il ce voulloit faire valloir</l>
+            <note resp="editor" type="glose">Nouvelle attaque dirigée contre Anne de
+               Montmorency.</note>
+            <l>En faisant le <roleName ref="#Charles_IX">roy</roleName> bon compère</l>
+            <l>Las mon vray Dieu quel vitupère</l>
+            <l>Quel comperaige / <reg>Ô</reg> quel support</l>
+            <l n="292">Il en eust enduré la mort</l>
+            <l>Car son destin estoict tout pres</l>
+            <l><persName>Neptune</persName> et <persName>Mars</persName> y furent expres</l>
+            <l>Car ils sont tous deux de la ligue</l>
+            <l n="296">De <persName ref="#Condé">ce petit <rs type="animal">cinge</rs></persName>
+               qui brigue</l>
+            <l>Pour oster au <roleName ref="#Charles_IX">roy</roleName> sa couronne</l>
+            <l>Voullant prouver leur cause bonne</l>
+            <l>Par l’appostat nommé <persName ref="#De_Bèze">de Baize</persName></l>
+            <l n="300">Qui les a mys <reg>à</reg> la fournaize</l>
+            <l><reg>D’ambition</reg> par faulx langaige</l>
+            <l>En luy allegant son lignaige</l>
+            <l>Disant que le grand roy <persName ref="#François_Ier">Françoys</persName></l>
+            <l n="304">Les avoict frustré et pencois</l>
+            <l>Que son dire feust verité</l>
+            <!-- Saut#53 -->
+            <l><persName ref="#Anne_de_Montmorency">Ce gris <rs type="animal" subtype="équidé"
+                     >asne</rs></persName> est fort exité</l>
+            <l><reg>À</reg> faire faulx bons en campaigne</l>
+            <l n="308"><persName>Dieu</persName> luy envoye la malle taigne</l>
+            <note resp="editor" type="crit">Un vers semble manquant ici.</note>
+            <l>Car il est tousjours malheureux</l>
+            <l>Aussy <reg>à</reg> la journée de <placeName><settlement type="city"
+                     >Dreux</settlement></placeName></l>
+            <note resp="editor" type="glose">Le 19 décembre 1562.</note>
+            <l>Rompit cuysses et epargneulx</l><!-- Rime orpheline ou bien redoublement de la rime des vers suivants (rime redoublée) -->
+            <l n="312">Pris feust et mené hors des rancs</l>
+            <l><reg>À</reg> la journée de sainct Laurens</l>
+            <note resp="editor" type="crit">Bataille également mentionnée dans le "Coq à l'asne de
+               Brusquet à Ronsard" de 1565. (CAA#49)</note>
+            <l>Tout aultant en feit de sa grace</l>
+            <l>Sa bource en enfle et devient grasse</l>
+            <note resp="editor" type="crit">Accusation récurrente depuis le retour en grâce d'Anne
+               de Montmorency en 1547. Voir notamment "Le coq aux asnes et aux Veaulx faict lan mil
+               VC xlvii" (CAA#40).</note>
+            <l n="316">Par tel moyen faict des accords</l>
+            <!-- Saut#54 -->
+            <l>Mais n’estes vous poinct records</l>
+            <l>Du bon deffunct <persName ref="#François_de_Guise">monsieur de Guyse</persName></l>
+            <note>Opposition nette entre les deux partis qui prétendent conseiller le roi.</note>
+            <l><del><persName ref="#De_Bèze">De Baize</persName> et eulx ont conspiré</del></l>
+            <l>Dont de deuil mon cueur <reg>s’aguise</reg></l>
+            <l n="320"><persName ref="#De_Bèze">De Baize</persName>
+               <expan>et</expan> eulx ont conspiré</l>
+            <l><persName ref="#Poltrot">Jehan Polletrot</persName> ont inspiré</l>
+            <l>Par faulx escripts <expan>et</expan> sedition</l>
+            <l><reg>Qu’il</reg> feroict sa salvation</l>
+            <l n="324">Se ung tel <persName type="antiquité">Holoferne</persName> tuoyt</l>
+            <l>Qui tous les jours <reg>s’esvertuoict</reg></l>
+            <fw type="sig" place="bottom-right">lz j</fw>
+            <pb n="37v"/>
+            <l>De massacrer le peuple esleu</l>
+            <l>Le pauvre <rs type="invective">idiot</rs>
+               <reg>s'y</reg> est esleu</l>
+            <l n="328">Soy pensant saulver <reg>c'est</reg> dampné</l>
+            <l>Et puis après fut condempné</l>
+            <l>Accusant ses maistres tout hault</l>
+            <l>Tiré fut a quatre chevaulx</l>
+            <l n="332">Dedans la grand <placeName>place de Gresve</placeName></l>
+            <!-- Saut#55 -->
+            <l>Seigneur <persName>Dieu</persName> que cela les grève</l>
+            <l>Dequoy les <orgName type="mercenaire">Souysses</orgName> sont venuz</l>
+            <l>Et ne scay <reg>qu’ilz</reg> sont devenuz</l>
+            <l n="336">Plusieurs <reg>d’entre</reg> eulx troussent baigage</l>
+            <!-- Saut#56 -->
+            <l><reg>C’estoit</reg> ung homme plain de raige</l>
+            <l>Ce malheureux villain <persName>Brouillon</persName></l>
+            <l>Qui le mareschal <persName ref="#Bourdillon">Bourdillon</persName></l>
+            <note resp="editor" type="glose">Le maréchal meurt le 4 avril 1567. cf. Jehan de la
+               Fosse : "Monsr de Bordillon, maressal de France, morut au mois d’avril ; Monsr de
+               Gonor eust sa place ; on dict que led. sr de Bordillon fut empoisonné."</note>
+            <l n="340">Empoisonna par ung bruvaige</l>
+            <l>Est ce bien faict sa malle raige</l>
+            <l>Ce sont traicts de leur religion</l>
+            <l>Il en est plusieur légion</l>
+            <l n="344">De ses marchans de vye humaine</l>
+            <!-- Saut#57 -->
+            <l>Le roy <persName ref="#Philippe_II">Philippes</persName> rudesse meyne</l>
+            <l>Aux <orgName>gueulx</orgName> de <placeName><settlement type="region"
+                     >Flandre</settlement></placeName> et c’est raison</l>
+            <l>Et aux plus grands de sa maison</l>
+            <note resp="editor" type="glose">À l'exemple du sort de Dom Carlos.</note>
+            <l n="348">Lesquelz luy ont rebelles esté</l>
+            <l>Il leur a à tous faict oster</l>
+            <l>La teste pour les mieulx punyr</l>
+            <l>Vrayement <reg>l’on</reg> verroit tost fuyr</l>
+            <l n="352">Les faulces sectes en nostre <placeName><settlement type="country"
+                     >France</settlement></placeName></l>
+            <l><reg>S’on</reg> les mettoit en tel souffrance</l>
+            <l>Mais aux grands fauldroict commancer</l>
+            <!-- Saut#58 -->
+            <l>Il est desja bien devancé</l>
+            <l n="356">Ce beau <placeName>chasteau des Tuilleryes</placeName></l>
+            <l>Qui ne le verra ne s’en rye</l>
+            <l>C’est invention ytalique</l>
+            <l>Commance de bonne pratique</l>
+            <l n="360">Je ne scay quant il sera faict</l>
+            <l>La confiscation de <persName>Parfaict</persName></l><!-- Nom propre possible -->
+            <l>Et de ses aultres <orgName>trésoriers</orgName></l>
+            <l>Y a fourny force deniers</l>
+            <l n="364">Pour achever ce lieu de gloire</l>
+            <!-- Saut#59 -->
+            <l>Les pauvres <orgName>moynes</orgName> de <placeName ref="#St_Magloire">sainct
+                  Magloire</placeName></l>
+            <note resp="editor" type="crit">L'abbaye bénédictine se situe encore en 1567 rue
+               Saint-Denis.</note>
+            <l>Meurent de fain ainsy qu’on dict</l>
+            <fw type="sig" place="bottom-right">Aussy</fw>
+            <pb n="38r"/>
+            <fw>Fol°xxxviii</fw>
+            <l>Aussy ilz ont eu le crédict</l>
+            <l n="368">D’estre meschans le temps passé</l>
+            <!-- Saut#60 -->
+            <l>Ung bon requiescat in pace</l>
+            <l>Vault bien ung maulvais dieu ayt l’ame</l>
+            <!-- Saut#61 -->
+            <l><persName ref="#Porcien">Le Portian</persName> rendant son ame</l>
+            <l n="372">Dict que <persName ref="#Henri_de_Lorraine">monsieur de Guyse</persName>
+               auroit</l>
+            <l><roleName ref="#Catherine_de_Clèves">Sa femme</roleName> et qu’il l’espouseroit</l>
+            <l>Je ne scay qu’il en adviendra</l>
+            <note resp="editor" type="glose">Catherine de Clèves épouse effectivement Henri de
+               Lorraine trois ans plus tard, le 4 octobre 1570.</note>
+            <!-- Saut#62 -->
+            <l>Je croy que bien tost reviendra</l>
+            <l n="376"><persName ref="#Martigues">Martigues</persName> avec force
+                  <orgName>Bretons</orgName></l>
+            <note resp="editor" type="glose">Héros des catholiques intransigeants, Sébastien de
+               Luxembourg-Martigues est gouverneur de Bretagne depuis le 2 juin 1565.</note>
+            <l>Et puis après nos esbatrons</l>
+            <l><reg>À</reg> culbuter <rs type="invective">huguenoteaulx</rs></l>
+            <!-- Saut#63 -->
+            <l>Ilz sont trop fiers leurs malles eaues</l>
+            <l n="380">Tousjours <reg>s’attachent</reg>
+               <reg>à</reg> leur maistre</l>
+            <l>Dedans ung feu les puisse on mectre</l>
+            <note resp="editor" type="crit">Troisième appel à brûler les protestants que réiterera
+               deux ans plus tard le "Coq à l'ane d'un Parisien" (CAA#61), v. 12-13.</note>
+            <l>Quant plaira <reg>à</reg>
+               <persName>Dieu</persName> et au <roleName ref="#Charles_IX">roy</roleName></l>
+            <!-- Saut#64 -->
+            <l><placeName><settlement type="district">Montmartre</settlement></placeName> seroit
+               hors d’arroy</l>
+            <l n="384">Sy <placeName><settlement type="city">Paris</settlement></placeName> estoit
+               tout perdu</l>
+            <!-- Saut#65 -->
+            <l>Et quant ce <persName ref="#Anne_du_Bourg">du Bourg</persName> fut pendu</l>
+            <l><reg>L’on</reg> luy avalla bien ses eaulx</l>
+            <l>Il chantoit bien de ses ruisseaulx</l>
+            <l n="388">Seigneur Dieu et la Bicheree</l><!--ajout-->
+            <l>Sy esse qu’à buche <expan>et</expan> bourrée</l>
+            <l>Je veis consommer tout son corps</l>
+            <l>Le dernier fut j’en suys records</l>
+            <note resp="editor" type="glose">En plus d'appeler à la violence contre l'adversaire
+               protestant, l'auteur se plaît à évoquer par le menu leur supplice comme ici celui du
+               conseiller du Parlement qui avait osé reprocher à Henri II les persécutions contre
+               les réformés. Il mourut sur le bûcher le 23 décembre 1559.</note>
+            <l n="392">Fors <persName ref="#Nez_d_argent">Nez d’argent</persName> et <persName
+                  ref="#Gabaston">Gabaston</persName></l>
+            <l>Traynés furent sans hogueton</l>
+            <note resp="editor" type="ling">Hoqueton : "casaque militaire" ou "tunique".</note>
+            <l>Après leur mort <reg>à</reg> la voirye</l>
+            <l>Petis enffans feirent frairye</l>
+            <l n="396"><reg>S’escottant</reg> pour avoir du boys</l>
+            <note resp="éditor" type="crit">Pierre Créon, surnommé "Nez d'Argent", est un des
+               archers du prévôt des maréchaux exécuté aux Halles. Il est, selon Denis Crouzet, "la
+               première victime —à retardement— du tumulte de l'église divine contre l'abomination
+               de la profanation, dont il était accusé d'avoir été l'acteur, et contre la tentation
+               de clémence dont le pouvoir avait été soupçonné dans ces mois de mis en pratique,
+               après la promulgation de l'édit de janvier 1562, d'une politique de concorde entre
+               catholiques et huguenots. [...] Face au cadavre du pendu, les petits enfants prennent
+               la suite du bourreau en pratiquant la lapidation rituelle". cf. <title>Histoire
+                  veritable de la mutinerie, tumulte et sedition faite par les prestres sainct
+                  Medard contre les fideles</title>, s.l. (France), s.n., 1563, [USTC
+               n°290].<!-- corresp="https://www.ustc.ac.uk/editions/290" --> Christophle de
+               Bordeaulx en compose une chanson sur l'air de "La Fille portant panier": "Voulez vous
+               ouyr chanson, / La plus belle de France, / C'est du nez d'argent / Qui est mort sans
+               doutance : / A la voyrie fut son corps estendu / Or est le nez d'argent pendu. / On a
+               veu nez d'argent / Avecques ses complices / Estans dedans Paris / Soustenans
+               l'evangile / Des huguenots qui l'ont mal entendu, / Or est le nez d'argent pendu.
+               [...]" Le lieutenant du capitaine du guet Gabaston est mis à mort le 21 août
+               1562.</note>
+            <!-- Saut#66 -->
+            <l>Voirement ce beau pont de boys</l>
+            <l>Qui faict antrer en la <placeName>Bastille</placeName></l>
+            <l><reg>C’est</reg> invention bien subtille</l>
+            <l n="400">Pour tout saccaiger aux maisons</l>
+            <l>Aussy le pont des trahisons</l>
+            <l>Fut <add>il</add> nommé dès <reg>qu’il</reg> fut faict</l>
+            <l>Il le fault rompre tout <reg>à</reg> faict</l>
+            <l n="404">Affin que les <rs type="invective">hurgnes</rs>
+               <reg>n’y</reg> entrent</l>
+            <!-- Saut#67 -->
+            <fw type="sig" place="bottom-right">lz ii</fw>
+            <pb n="37v"/>
+            <l>Les <orgName type="mercenaire">Suysses</orgName> auront bien mal au ventre</l>
+            <l><reg>S’ilz</reg> boyvent trop de vin nouveau</l>
+            <!-- Saut#68 -->
+            <l><persName ref="#Cèze">Saize</persName> ne trouve pas trop beau</l>
+            <l n="408">Du grand orphevre trompé estre</l>
+            <l>Promys luy avoit foy de maistre</l>
+            <l><reg>Qu’il</reg> le merroit <reg>et</reg> remerroit</l>
+            <note resp="editor" type="ling">Marrir : "affliger".</note>
+            <l>Et qu’au <placeName>Louvre</placeName> ne le lairroit</l>
+            <l n="412">Mais failly luy a de promesse</l>
+            <!-- Saut#69 -->
+            <l>Ce <rs type="invective"><rs type="animal" subtype="canidé">chien</rs></rs> qui jamays
+               ne dict messe</l>
+            <l>A bien tous ses moynes accoustré</l>
+            <note resp="editor" type="glose">Lorsqu'il se présenta en costume militaire, les moines
+               de Lagny refusèrent de reconnaître le Sieur de Lizy, <persName ref="#Broullat"
+                  >Jacques du Broullat,</persName> calviniste déclaré. Il ouvrit les portes de la
+               ville et permit son pillage par les troupes huguenotes du comte de Lorges. cf.
+               Jacques-Amédée Le Paire, <title>Petite histoire populaire de Lagny-sur-Marne</title>,
+               1906.</note>
+            <l>Quel diable d’abbé qui monstré</l>
+            <l n="416">Leur a, ung tour, non de pasteur</l>
+            <l>Mais plustost d’un persécuteur</l>
+            <l>Au lieu de crosse espée portoit</l>
+            <l>Qui en son poing ensanglantoit</l>
+            <l n="420">Des gens de <placeName><settlement type="city">Lagny</settlement></placeName>
+               et ses moynes</l>
+            <!-- Saut#70 -->
+            <l>À tous les diables soict la coyne</l>
+            <l>De <rs type="invective">telz planteurs de verité</rs></l>
+            <l>Maintenant quelle auctorité</l>
+            <l n="424">Prendront il[s] pour toutes excuses</l>
+            <l>Au nom du <roleName ref="#Charles_IX">Roy</roleName> plus ne s’amusent</l>
+            <l>Car de blanc signe n’ont plus</l><!-- hypomètre -->
+            <l>Or donq <reg>qu’il</reg> n’en abuze plus</l>
+            <l n="428">Comment ilz <reg>l’ont</reg> voulu tuer</l>
+            <note resp="editor" type="glose">La discontinuité du discours cède la place à la
+               conclusion de l'auteur : les deux séquences (v. 413-420) et (v. 421-430) s'enchaînent
+               afin de faire la démonstration de la fourberie des réformés. Le coq-à-l'âne s'achève
+               donc sur la surprise de Meaux volontairement présentée comme une tentative de
+               régicide.</note>
+            <l>Et qui plus est esvertué</l>
+            <l>De le saccaiger au passaige</l>
+            <!-- Saut#71 -->
+            <l>Te fyer en eulx <reg>n’est</reg> pas saige</l>
+            <note resp="editor" type="glose">Cette dernière séquence s'adresse directement au
+               roi.</note>
+            <l n="432">Q’un <roleName>roy</roleName> ploye soubz ses vassaulx</l>
+            <l>Et endurer tous leurs assaulx</l>
+            <l>Puis paciffier avec eulx</l>
+            <l><reg>À</reg>
+               <reg>l’appétit</reg>
+               <rs type="invective">des vielz flateurs</rs></l>
+            <l n="436">Qui dissimulent en ce royaulme</l>
+            <l>A Dieu mon <roleName ref="#Charles_IX">Roy</roleName> qui pour heaulme</l>
+            <l>Vous doinct sa tressaincte puissance</l>
+            <l>Et de vos ennemys jouyssance</l>
+            <l n="440">Pour les punir ainsy que de raison</l>
+            <l>Puis seres maistre en <expan>vostre</expan> grand maison</l>
+         </p>
+      </body>
+   </text>
+</TEI>

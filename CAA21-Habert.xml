@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Du coq à l'asne à ung sien amy</title>
+            <respStmt xml:id="CCA">
+               <persName>Cyril Cano Arnedo</persName>
+               <resp>éditeur scientifique et encodeur</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Projet d'élaboration d'un corpus des coq-à-l'âne de 1530 à 1649</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>François Habert</author>
+                  <title>La Suytte du Banny de Lyesse</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <respStmt>
+                        <resp>Imprimeur</resp>
+                        <persName>Denys Janot</persName>
+                     </respStmt>
+                     <date when="1545">1541</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <listBibl>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Munich</settlement>
+                     <repository>Bayerische StaatsBibliothek</repository>
+                     <idno>Res/P.o.gall.57</idno>
+                  </msIdentifier>
+               </msDesc>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projet d'édition universitaire. Transcription à partir de la première édition.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Encodage semi-diplomatique</p>
+            <correction>
+               <p>Dissimilation i/j, u/v, ajout de l'apostrophe.</p>
+            </correction>
+            <normalization>
+               <p/>
+            </normalization>
+            <hyphenation>
+               <p>Respect des sauts de lignes, des mots coupés, des majuscules et des
+                  esperluettes</p>
+            </hyphenation>
+            <punctuation>
+               <p>Ponctuation originale conservée.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="frm">Français de la Renaissance</language>
+            <language ident="fre">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#CCA" when="2023">Création du fichier en xml-tei</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>*Epistre. XI. du coq à l'asne <lb break="no"/>à ung sien amy.</head>
+         </div>
+         <div>
+            <fw type="sig" place="bottom-right">M</fw>
+            <pb n="57v"/>
+            <fw place="center">Epistre unziesme</fw>
+            <l>Si tu veulx scavoir des nouvelles</l>
+            <l>De par <reg>deçà</reg> j’en sçay de belles,</l>
+            <l>Car nous voyons des cas nouveaux</l>
+            <l n="4">Et je t’asseure que noz <rs type="animal">veaulx</rs></l>
+            <note type="editor" subtype="crit">cf. 5e coq-à-l'âne de Marot de 1542 : "Il est fol,
+               qui le col se casse, / S'il n'en a deux comme le veau. / Et d'alleguer ung cas
+               nouveau, v. 6-8</note>
+            <l><choice>
+                  <orig>Sont trop plus grands qu’en ton païs</orig>
+                  <reg>Sont plus grandz qu'en vostre pays,</reg>
+               </choice></l>
+            <!--Saut#1-->
+            <l><orig>Mon Dieu que nous sommes ebahys</orig><reg>Mon dieu que seriez esbays</reg></l>
+            <l><orig>Quand nous oyons la melodie</orig><reg>Si vous oyez la melodie</reg></l>
+            <l n="8">De ces grands <rs type="animal" subtype="équidés">asnes</rs> d’<placeName
+                  type="mythologie">Arcadie</placeName></l>
+            <l>Qui ont escorché l’evangille</l>
+            <l>Non pas ainsi qu’on faict l’<rs type="animal" subtype="poisson">anguille</rs></l>
+            <note type="editor" subtype="crit">La rime evangille:anguille se retrouve dans notre
+               référence précédente de la même période: "Or toy, prescheur, prends donc l'anguille,
+               / Et toy, pescheur, prens l'evangille,</note>
+            <l>Car <reg>ilz</reg> y vont à contrepoil,</l>
+            <!--Saut#2-->
+            <l n="12">On nous montre au doigt &amp; à l’œil</l>
+            <l>Si nous scavons baboiner,</l>
+            <!--Saut#3-->
+            <l>Je ne vouldroye Sagoiner</l>
+            <l>Pour à <persName type="auteur">Marot</persName> faire la guerre,</l>
+            <note>Référence explicite à la fameuse querelle Marot-Sagon qui mobilisa les partisans
+               de chaque camp.</note>
+            <l n="16">Car en sa muse y a tonnerre</l>
+            <l>Qui me rend tout espoventable</l>
+            <!--Saut#4-->
+            <l>Il faict beau veoir assis à table</l>
+            <l>Ung cordelier bien en bon point,</l>
+            <l n="20">Pourveu que jeusne il ne soit point,</l>
+            <l>Car il en feroit conscience<note type="editor" subtype="ling">Au sens d'"avoir un
+                  scrupule" (Huguet)</note></l>
+            <!--Saut#5-->
+            <l>Trouvez vous en ung con science</l>
+            <l>De femme à qui le cueur varie?</l>
+            <!--Saut#6-->
+            <l n="24">Bon seroit d’aller en <placeName><country key="Syrie"
+                  >Surie</country></placeName><note type="editor" subtype="crit">Le jeu de mot
+                  Suerie (Syphilis)/ Surie (Syrie) est commun est déjà présent dans le premier
+                  coq-à-l'âne d'Eustorg de Beaulieu.</note></l>
+            <l>S’on ne frottoit si fort les rains,</l>
+            <!--Saut#7-->
+            <pb n="58r"/>
+            <fw type="pageNum" place="top-right">58</fw>
+            <l>Ces jours au departir de <placeName><settlement type="city"
+                  >Reims</settlement></placeName></l>
+            <l>Je rencontray ung vieil bon homme</l>
+            <l n="28">Qui se disoit venir de <placeName><settlement type="city" key="Rome"
+                     >Romme</settlement></placeName></l>
+            <l>Et y avoir bien proffité,</l>
+            <l>Car il en avoit apporté</l>
+            <l>Pour manger chair une dispense</l>
+            <l n="32">Lors que la charesme commence</l>
+            <l>C’estoit pour luy bon privilege,</l>
+            <l>Car le vieillard (memoire en ay je)<note type="editor" subtype="crit">Longue séquence
+                  visant le désormais traditionnel abus des bénéfices.</note></l>
+            <l>Estoit flumaticq &amp; debile,</l>
+            <!--Saut#8-->
+            <l n="36">C’est ung plaisant jeu que la <rs type="jeu">bille</rs></l>
+            <l>Quand bien <reg>l’on</reg> regarde à biller<note type="editor" subtype="ling">Biller
+                  : Lier, attacher, garrotter</note>,</l>
+            <!--Saut#9-->
+            <l>Chascun ne se peult habiller</l>
+            <l>De veloux, l’habit est trop grave</l>
+            <!--Saut#10-->
+            <l n="40"><reg>Aujourd’huy</reg> qui ne faict le brave</l>
+            <l><choice>
+                  <orig>Vers les dames n’est bien venu.</orig>
+                  <reg>Aux dames n'est le bien venu,</reg>
+               </choice></l>
+            <l>Car on ne prise ung homme nud,</l>
+            <!--Saut#11-->
+            <l><choice>
+                  <orig>Amy t’a-t-on point recité</orig>
+                  <reg>Amy, ne <reg>t'a</reg><reg> l'on</reg> recité</reg>
+               </choice></l>
+            <l n="44">La mort de Dame Charité</l>
+            <l>Par faulte de bon entretien?</l>
+            <!--Saut#12-->
+            <l>Il faict bon avoir grand soustien</l>
+            <l>Et ne commettre point d’exces,</l>
+            <l n="48">Ce sont serpentz que ces procez</l>
+            <l>Qui ne font que bourses miner,</l>
+            <!--Saut#13-->
+            <l>Il vault mieulx à pied cheminer</l>
+            <fw type="sig" place="bottom-right">H ii</fw>
+            <pb n="58v"/>
+            <l>Seurement par mont &amp; par val,</l>
+            <!--Oubli de la coordination dans ms22563-->
+            <l n="52">Qu’en peril aller à <rs type="animal" subtype="équidé">cheval</rs>,</l>
+            <!--Saut#14-->
+            <l>Il y a cas dedans <placeName><settlement type="city" key="Toulouse"
+                     >Tholose</settlement></placeName></l>
+            <l>Que je diroye bien, mais je n’ose,</l>
+            <!--Variante fautive dans ms22563-->
+            <l>Je te <choice>
+                  <orig>le</orig>
+                  <reg>les</reg>
+               </choice> laisse à deviner</l>
+            <!--Saut#15-->
+            <l n="56">Quand je trouve bien à disner,</l>
+            <l>Tu ne veiz oncq comme j’avalle,</l>
+            <!--Saut#16-->
+            <l>Qui trop tost ung degré devalle</l>
+            <l>Aulcunes foys le col se casse,<note type="editor" subtype="crit"/>cf. supra note
+               1</l>
+            <!--Saut#17-->
+            <l n="60">C’est bon menger qu’une <rs type="animal" subtype="oiseau">becasse</rs></l>
+            <!--Hapax-->
+            <l>Qui en pourroit avoir souvent,</l>
+            <!--Saut#18-->
+            <l>Ce n’est plus rien de <persName key="Taillevent">Taillevant</persName><note
+                  type="editor" subtype="crit">Guillaume Tirel (1314?-1395) connu sous le nom de
+                  Taillevent fut le cuisinier du roi Philippe VI de Valois et probablement l'auteur
+                  d'un recueil de recettes.</note>,</l>
+            <l>En son temps si bon cuysinier,</l>
+            <l n="64">Car je veiz en cuisine hier</l>
+            <l>Ung maistre es artz qui faisoit rage,</l>
+            <!--Saut#19-->
+            <l>Il faict bon parler tout langage</l>
+            <l>Au naturel sans <choice>
+                  <orig>l’escorcher</orig>
+                  <reg>escorcher</reg>
+               </choice></l>
+            <l n="68">Mais non pas pour aller prescher</l>
+            <l>Froidement l’escripture saincte<note type="editor" subtype="crit">Déjà la seconde
+                  mention de l'Evangile.</note>,</l>
+            <!--Saut#20-->
+            <l>Quand l’espée au costé j’ay ceincte</l>
+            <l>Je turoye caresmeprenant,<note type="editor" subtype="crit">Emile Picot (1912) relève
+                  la même locution dans la sottie Du pèlerinage de mariage : "—Olivier, baille luy
+                  ses botes; / Y tura Karesme prenant".</note></l>
+            <!--Saut#21-->
+            <l n="72">On ne me va point reprenant</l>
+            <l>Quand je veulx escripre une fable,</l>
+            <!--Saut#22-->
+            <l>C’est ung langage bien affable</l>
+            <l>Que le latin bien entendu,</l>
+            <pb n="59r"/>
+            <fw type="pageNum" place="top-right">59</fw>
+            <l n="76">Toutesfoys il est deffendu</l>
+            <l>A ceulx qui n'y entendent goutte</l>
+            <!--Saut#23-->
+            <l>Quant à moy je ne fais point doubte</l>
+            <l><choice>
+                  <orig>De</orig>
+                  <reg>A</reg>
+               </choice> ce qu’on dit communement,</l>
+            <l n="80">Venir la fin du jugement</l>
+            <l>Car les bestes parlent latin,</l>
+            <!--Saut#24-->
+            <l>Si je ne suis saoul le matin</l>
+            <l>Je ne puis estre prompt en rime</l>
+            <l n="84">Et le plus souvent je m’enrime<note type="editor" subtype="crit">Emprunt à la
+                  fameuse Petite épître au roy de Marot.</note></l>
+            <l>Par faulte d’estre bien couvert,</l>
+            <!--Saut#25-->
+            <l>J’ay veu pour rompre ung huys ouvert,</l>
+            <l>Ung malfaicteur escarteller,</l>
+            <l n="88">Car il osa depuceller</l>
+            <l>La femme qui estoit enceincte</l>
+            <l>Je te dy vray ce n’est pas faincte</l>
+            <!--Saut#27-->
+            <l>A ton advis n’est ce pas vice</l>
+            <l n="92">Troubler le laict d’une nourrice?</l>
+            <!--Saut#28-->
+            <l>Je n’en dictz plus car je congnoys</l>
+            <l>Que tu as ja laissé les noix</l>
+            <l>Pour avoir bonne congnoissance,</l><!--Saut#29-->
+            <l n="96">Escriptz moy, si te congnois en ce</l>
+            <l>Que practique une macquerelle,</l><!--Saut#31-->
+            <l>Je soustientz tousjours ma querelle</l>
+            <l>Que j’ayme trop mieulx sans butin</l>
+            <l n="100">La brunette au ferme tetin</l>
+            <fw type="sig" place="bottom-right">H iii</fw>
+            <pb n="59v"/>
+            <l>Qu’<persName>Alix</persName> ou la blanche <persName>Nicolle</persName></l>
+            <l>Qui me ressemble à paste molle.</l>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Coq à L'Asne.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p><interpGrp>
+               <interp xml:id="Adr" ana="adresse">adresse</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:base="ethos">ethos</interp>
+               <interp xml:id="topos">lieu commun</interp>
+               <interp xml:id="gén">généralisation</interp>
+               <interp xml:id="ironie">ironie</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="actu" ana="actualité">actualité</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+               <interp xml:id="satire" ana="satire">satire</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_pers">satire personnelle</interp>
+               <interp xml:id="Plmq" ana="polemic">polémique religieuse</interp>
+               <interp xml:id="sat_rel">satire religieuse</interp>
+               <interp xml:id="p_armes">prise d'armes</interp>
+               <interp xml:id="massacre">massacre</interp>
+               <interp xml:id="sit_pol">situation politique</interp>
+               <interp xml:id="pol_ext">politique extérieure</interp>
+               <interp xml:id="sit_mil">situation militaire</interp>
+               <interp xml:id="défaite">défaite militaire</interp>
+               <interp xml:id="argent">argent et ressources financières</interp>
+               <interp xml:id="bien_vivre">bien vivre</interp>
+               <interp xml:id="ambition">ambition</interp>
+               <interp xml:id="lâcheté">lâcheté</interp>
+               <interp xml:id="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie">tromperie</interp>
+               <interp xml:id="prudence">appel à la prudence</interp>
+               <interp xml:id="court">vie de la court</interp>
+               <interp xml:id="ravages">conséquences de la guerre</interp>
+               <interp xml:id="souffrances">peuple souffrant</interp>
+               <interp xml:id="réf_litt">références littéraires</interp>
+               <interp xml:id="mét_animale">métaphore animale</interp>
+               <interp xml:id="folie">Folie et monde renversé</interp>
+               <interp xml:id="érotique">Propos érotiques ou grivois</interp>
+               <interp xml:id="gnomique">Parole gnomique</interp>
+               <interp xml:id="g_civ">guerres civiles</interp>
+               <interp xml:id="vin">vin, vigne</interp>
+               <interp xml:id="corps">Du corps</interp>
+            </interpGrp></p>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic
+            url="/Volumes/CCA_T5/PROJET_D1/Sources_CAA/MANUSCRITS/Arch_Tronchin_Geneve/arch_tronchin_353_014_0009.jpg"
+         />
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Genève, </settlement>
+                  <repository>Archives Tronchin, </repository>
+                  <idno>ms. fr. 353.</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <p>
+            <pb n="1"
+               facs="/Volumes/CCA_T5/PROJET_D1/Sources_CAA/MANUSCRITS/Arch_Tronchin_Geneve/arch_tronchin_353_014_0009.jpg"/>
+            <fw type="pageNum" place="top-right">5</fw>
+            <l>Que chascun <rs type="injonction" subtype="conseil">pense</rs> à son cas</l><note
+               resp="editor" type="crit">Ce premier vers est hypométrique.</note>
+            <l ana="#mtd">Je ne dis rien, <roleName>frere</roleName>
+               <persName>Lucas</persName></l><note resp="editor" type="crit">Note sur frère
+               Lucas</note>
+            <l>Arrivera en peu de temps</l>
+            <l n="4">Et rendra ses amys contens.</l>
+            <!-- Saut#1 --><anchor type="saut#1"/>
+            <l>Il se fait bien grande entreprise</l>
+            <l ana="#mét_animale">Garde que la ruche ne soit prise</l>
+            <!-- Saut#2 --><anchor type="saut#2"/>
+            <l ana="#topos">Apres <reg>l'hyver</reg> viendra <reg>l'esté</reg></l>
+            <l n="8">Il sera grande quantité</l>
+            <l>De champignols en ceste année</l>
+            <!-- Saut#3 --><anchor type="saut#3"/>
+            <l><rs type="injonction" subtype="impératif">Gardes</rs> nous une matinée</l>
+            <l>Que vous n'hayés les innocens</l>
+            <!-- Saut#4 --><anchor type="saut#4"/>
+            <l n="12" ana="#argent">Dessus plus de mille cinq cens</l>
+            <l ana="#argent">Je voudrois havoir en ma bourse</l>
+            <!-- Saut#5 --><anchor type="saut#5"/>
+            <l ana="#mét_animale">Et puis la caverne de l'<rs type="animal" subtype="ursidé"
+                  >ourse</rs></l>
+            <l ana="#mét_animale">Sera de <rs type="animal" subtype="canidés">levriers</rs>
+               assailie</l>
+            <!-- Saut#6 --><anchor type="saut#6"/>
+            <l n="16" ana="#folie">Or ça tout le monde folie</l>
+            <l ana="#folie">Et chascun pense estre asses sage</l>
+            <!-- Saut#7 --><anchor type="saut#7"/>
+            <l>Jamais on ne vist tel mesnage</l>
+            <l>N'y tant de cuisiniers ensemble</l>
+            <l n="20">A peu pres que la terre en tremble</l>
+            <l><roleName type="peuple">Toupinambaoults</roleName> et <roleName type="peuple"
+                  >Margajeats</roleName></l><note resp="editor" type="crit">Noms de peuples du
+               Brésil dont l'association est déjà présente chez D'Aubigné: "Là trois cens chevaux se
+               presenterent au Roi, douze bandes de Grecs, Turcs, Arabes, Egyptiens, Canariens,
+               Mores, Ethiopiens, Indiens, Taprobaniens, Cannibales, Margajats et Thaupinambous;
+               desquels les chefs firent une harangue au Roi en leur gergon, ayant chacun leur
+               interprete.", <hi rend="italic">Histoire Universelle</hi>, Livre IV, chap. 5, <hi
+                  rend="italic">op. cit.</hi>, p.227.</note>
+            <l>Et infinité de goujats</l>
+            <l>Mangeront jusques aux escuelles.</l>
+            <!-- Saut#8 --><anchor type="saut#8"/>
+            <l n="24">Tant de gens ont esté rebelles</l>
+            <l>A leur vray et naturel prince</l>
+            <l><reg>J'ay</reg> bien peur que cette province</l>
+            <l><reg>N'en</reg> recoyve grand chastiment</l>
+            <l n="28">Or j'havois pensé autrement</l>
+            <l>Que <reg>l'on</reg> rendist à <persName>Charlotin</persName></l>
+            <l>Ce qu'est à luy car tel butin</l>
+            <l>Ne doit plus demeurer en gage</l>
+            <!-- Saut#9 --><anchor type="saut#9"/>
+            <l n="32">Liffre Loffre est beau langage</l><note resp="editor" type="glose"/>
+            <l>Mais, <hi rend="italic">Ma!</hi> et <hi rend="italic">Catzo</hi> ne sont
+               laids</l><note resp="editor" type="ling">"Mais!" et "Merde" en italien.</note>
+            <!-- Saut#10 --><anchor type="saut#10"/>
+            <l ana="#érotique">Je voudrois havoir mis le laict</l>
+            <l ana="#érotique">A la fille de mon hostesse</l>
+            <!-- Saut#11 --><anchor type="saut#11"/>
+            <l n="36">Quand il me souvient de la presse</l><note resp="editor" type="ling">Au sens
+               de "foule" ici.</note>
+            <l ana="#mtd">Qu'il y aura vous <reg>m'entendés</reg></l>
+            <l>Tant de gens y seront mandés</l>
+            <l ana="ethos">Que quasi je creve de rire</l>
+            <l n="40">Et alors ils pourront bien dire,</l>
+            <pb n="2"/>
+            <l>Est tout corrompu à present</l>
+            <!-- Saut#12 --><anchor type="saut#12"/>
+            <l><reg>J'en</reg> scay qui aiment les <expan>presens</expan></l>
+            <l ana="#argent">Mais il <reg>n'en</reg> viendront pas plus riche</l>
+            <l n="44" ana="#gnomique"><reg>L'homme</reg> opulent qui est ciche</l><note
+               resp="editor" type="ling">Chiche, avare.</note>
+            <l ana="#gnomique">Merite <reg>d'estre</reg> terrassé</l>
+            <!-- Saut#13 --><anchor type="saut#13"/>
+            <l ana="#gnomique">Jamais les tyrans n'hont assés</l>
+            <l ana="#gnomique">Ce fust bien folle entreprise</l>
+            <l n="48" ana="#g_civ">Que <placeName type="city" key="La Rochelle">la
+                  Rochelle</placeName> ne fust prise</l>
+            <l>Et ce ROI qui est pretendu</l>
+            <l>A ses rets et filez tendu</l>
+            <l>Pour un gros <rs type="poisson">poisson</rs> attraper</l>
+            <!-- Saut#14 --><anchor type="saut#14"/>
+            <l n="52" ana="#sit_pol">Je ne veux mon aureile couper</l>
+            <l ana="#sit_pol">S'ils firent jamais tels traités</l>
+            <l ana="#sit_pol">Sinon par accords arrestés</l>
+            <l>Avec celle fiere pucelle</l>
+            <!-- Saut#15 --><anchor type="saut#15"/>
+            <l n="56">Un <rs type="animal" subtype="équidé">cheval</rs> qui ha double selle</l>
+            <l>N'est pas mal fourny ce me semble</l>
+            <!-- Saut#16 --><anchor type="saut#16"/>
+            <l>Les medecins sont tous ensemble</l>
+            <l>Qui consultent la maladie</l>
+            <l n="60">Et <persName><expan>Monseigneur</expan> de Normandie</persName></l><note resp="editor" type="glose"></note>
+            <l>Fait bien du brave <reg>là</reg> dedans</l>
+            <l>Je doute que le mal des dens</l>
+            <l>Ne pullule bien ceste année</l>
+            <!-- Saut#17 --><anchor type="saut#17"/>
+            <l n="64" ana="#vin"><persName>Dieu</persName> nous doint donc belle vinée</l>
+            <l>Si <reg>l'on</reg> se regle par compas</l>
+            <l ana="#bien_vivre">Aux grands jours on fait trois repas</l>
+            <l ana="#corps">En faisant honneste exercice</l>
+            <!-- Saut#18 --><anchor type="saut#18"/>
+            <l n="68">Je voudrois hacher <reg>d'un</reg> saucisse</l>
+            <l>Avant que d'entrer en Caresme</l>
+            <l>Ce fust <expan>Monsieur</expan>
+               <persName>Sarriou</persName> luy mesme</l>
+            <l>Qui fist ceste belle sailie</l>
+            <!-- Saut#19 --><anchor type="saut#19"/>
+            <l n="72">La beste sera assailie</l>
+            <l>Plus dextrement que du passé</l>
+            <l>Tous les couars seront cassés</l>
+            <l>S'ils ne sautent dessus en croppe</l>
+            <!-- Saut#20 --><anchor type="saut#20"/>
+            <l n="76" ana="#gnomique">Tout le monde donne la coulpe</l>
+            <l>A quelcun, chascun n'entend bien</l>
+            <l>Or puis que nous scavons combien</l>
+            <l>De fautes nous havons commises</l>
+            <l n="80">En tous nos faits et entreprises</l>
+            <l>Je croy qu'en deviendrons plus sages</l>
+            <pb n="3"/>
+            <!-- Saut#21 --><anchor type="saut#21"/>
+            <fw type="pageNum" place="top-right">6</fw>
+            <l><unclear>Verroit</unclear> bien que <reg>l'on</reg> ha faily</l>
+            <l>Ha si on les eust assaily!</l>
+            <l n="84">On ne seroit en telle pene</l>
+            <!-- Saut#22 --><anchor type="saut#22"/>
+            <l>Hau Crie, <persName>Martin</persName>, desgaine</l>
+            <l>Et ne fais plus tant du mauvais</l>
+            <!-- Saut#23 --><anchor type="saut#23"/>
+            <l>Si nous estions à <placeName type="city" key="Saint-Gervais">S.
+               Gervaix</placeName></l>
+            <l n="88">Ce seroit bien une belle chose</l>
+            <l>De cuilir en febvrier la rose</l>
+            <l>Sans se piquer le bout des doits</l>
+            <!-- Saut#24 --><anchor type="saut#24"/>
+            <l>Je doibs plus que <reg>l'on</reg> ne me doibt</l>
+            <l n="92">Qui ne <reg>m'est</reg> chose trop plaisante</l>
+            <!-- Saut#25 --><anchor type="saut#25"/>
+            <l><reg>L'un</reg> pleure icy et <reg>l'autre</reg> chante</l>
+            <l ana="#folie">Le monde va en escrevisse</l>
+            <!-- Saut#26 --><anchor type="saut#26"/>
+            <l><reg>Ô</reg> mon dieu la grande malice</l>
+            <l n="96"><reg>Qu'il</reg> y a au cœur <reg>d'une</reg> femme</l>
+            <!-- Saut#27 --><anchor type="saut#27"/>
+            <l>Ma foy le soldat est infame</l>
+            <l>Qui <unclear>vire</unclear> renie et fourrage</l>
+            <!-- Saut#28 --><anchor type="saut#28"/>
+            <l>Et puis les Argoulets font rage</l>
+            <l n="100">Ils sont tous devenus <rs type="animal">renards</rs></l>
+            <!-- Saut#29 --><anchor type="saut#29"/>
+            <l>Bons seront les jeunes <rs type="animal">canards</rs></l>
+            <l>Avec la sauce à la poivrée</l>
+            <!-- Saut#30 --><anchor type="saut#30"/>
+            <l>Ma jaquette est ennyvrée</l>
+            <!-- vers hypométrique -->
+            <l n="104">Et ne peut plus jaser en cage</l>
+            <!-- Saut#31 --><anchor type="saut#31"/>
+            <l>Mais n'est ce pas bien grand dommage</l>
+            <l>D'havoir ainsi perdu le temps</l>
+            <!-- Saut#32 --><anchor type="saut#32"/>
+            <l>Les soldats ne sont point contens</l>
+            <l n="108">Si argent ne leur est donné</l>
+            <l>Cela est tresmal ordonné</l>
+            <l>Je ne scay que le monde pense</l>
+            <!-- Saut#33 --><anchor type="saut#33"/>
+            <l>Mais <reg>où</reg> sera la recompense</l>
+            <l n="112">A tant de gens qui sont ruinés</l>
+            <l>Plusieurs <reg>s'en</reg> prennent par le nez</l>
+            <l>Il est bien tard, allons nous boyre</l>
+            <!-- Saut#34 --><anchor type="saut#34"/>
+            <l>Celuy qui en dieu ne veut croire</l>
+            <l n="116">Est du tout pervers et meschant</l>
+            <!-- Saut#35 --><anchor type="saut#35"/>
+            <l>Si je rencontrois un marchand</l>
+            <l>Que je cognois parmy le monde</l>
+            <l>Je luy ruerois de ma fronde</l>
+            <!-- Saut#36 -->
+            <l n="120">Chascun pense à son profit</l>
+            <l>Tout ce que Dieu en terre fist.</l>
+            <pb/>
+            <!-- Saut#37 --><anchor type="saut37"/>
+            <l>Dezen trepi de la cova</l>
+            <l>Se ne son bin arreva</l>
+            <!-- Saut#38 --><anchor type="saut#38"/>
+            <l n="124">Gara damou, gara davo</l>
+            <l>Gara tot le pay de Vo</l>
+            <l>Gara desay gara delay</l>
+            <l>Gara bin tost le lon du Lay</l>
+            <!-- Saut#39 --><anchor type="saut#39"/>
+            <l n="128">Par dey fo manda à Messiou</l>
+            <l>Mai ma fey y nesson de pou</l>
+            <!-- Saut#40 --><anchor type="saut#40"/>
+            <l>Par tout un remue mesnage</l>
+            <l>Les apotiquaires font rage</l>
+            <l n="132">De faire sonner leur[s] mortiers</l>
+            <!-- Saut#41 --><anchor type="saut#41"/>
+            <l>On n'hante gueres les moustiers</l>
+            <l>Je ne scay que cela veut dire</l>
+            <l>Je croy que Dieu veut en son ire</l>
+            <l n="136">Punir des humains les meffaits</l>
+            <!-- Saut#42 --><anchor type="saut#42"/>
+            <l>Les advocats sont bien refaits</l>
+            <l>Ils se portent bien à <expan>present</expan></l>
+            <l>Vray est <reg>qu'ils</reg>
+               <reg>n'ont</reg> tant de <expan>present</expan></l>
+            <l n="140">Ainsi <reg>qu'ils</reg> souloyent du passé</l>
+            <!-- Saut#43 --><anchor type="saut#43"/>
+            <l>Dieu a fait paix aux trespassés</l>
+            <!-- Saut#44 --><anchor type="saut#44"/>
+            <l>Celle qui tant s'est excellée</l>
+            <l>Sera ce coup despucellée</l>
+            <l n="144">Jamais son amoureux de <placeName type="country" key="France"
+                  >France</placeName></l>
+            <l>Ne la gardera de souffrance</l>
+            <l>Selon son condigne merite</l>
+            <!-- Saut#45 --><anchor type="saut#45"/>
+            <l>Et le fils de la <persName>Marguerite</persName></l>
+            <l n="148">Y fera planter la croix blanche</l>
+            <l>Et lors dira Petter à <unclear>Lantze</unclear></l>
+            <l>Et <reg>d'asticots</reg> et <reg>d'astipoche</reg></l>
+            <note type="ling" resp="editor"><hi rend="italic">D'asticots</hi>: "Avec provocation",
+               selon Huguet qui cite en exemple d'Aubigné.</note>
+            <l><reg>C'est</reg> bien <expan>pour</expan> nous donner la loche</l>
+            <!-- Saut#46 --><anchor type="saut#46"/>
+            <l n="152">Le jour viendra je <reg>l'aperçois</reg></l>
+            <l ana="#folie #gnomique">Fol ne croit jusques il <reg>reçoit</reg></l>
+            <!-- Saut#47 --><anchor type="saut#47"/>
+            <l><reg>Ô</reg> mon dieu la fine moustarde!</l>
+            <l><reg>L'armée</reg> des Reistres trop tarde</l>
+            <l n="156"><reg>L'or</reg> du <placeName type="country" key="Pérou">Peru</placeName>
+               seroit tresbon</l>
+            <l>Avec un restat de jambon</l>
+            <l><reg>L'on</reg> boyroit du vin de <placeName type="region" key="Bourgogne"
+                  >Bourgogne</placeName></l>
+            <!-- Saut#48 --><anchor type="saut#48"/>
+            <l>Un homme qui seroit tout borgne</l><note resp="editor" type="crit">Au moins un vers
+               semble manquant entre celui-ci et le vers 160.</note>
+            <pb n=""/>
+            <fw type="pageNum" place="top-right">7</fw>
+            <l n="160">Il en est temps, <!-- Saut#49 --><anchor type="saut#49"/> mais les
+               passages</l>
+            <l>De <placeName key="Faucigny">Faucigny</placeName> et <placeName key="Faucigny">la Cluse</placeName></l>
+            <l>Se doivent garder <!-- Saut#50 --><anchor type="saut#50"/><reg>l'on</reg> accuse</l>
+            <l>Plusieurs gens <reg>d'infidelité</reg></l>
+            <!-- Saut#51 --><anchor type="saut#50"/>
+            <l n="164">Si la royale majesté</l>
+            <l>De ce grand monarque d'<placeName type="country" key="Espagne"
+               >Espagne</placeName></l>
+            <l>Une foys se met en campagne</l>
+            <l>On verra beau jeu à la Prime</l>
+            <!-- Saut#52 --><anchor type="saut#52"/>
+            <l n="168">A dieu vous dis plus je ne Rime</l>
+            <l>Jusques à ce que Bachus retourne</l>
+            <l>Qui son chef de Cambrusces atourne</l>
+            <l>Avec Ceres sa double amye</l>
+            <l n="172">A Dieu Dame de Suerie</l>
+            <l>FIN.</l>
+         </p>
+      </body>
+   </text>
+</TEI>
