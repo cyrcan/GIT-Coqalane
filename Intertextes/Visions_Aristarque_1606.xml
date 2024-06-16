@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Visions d'Aristarque 1606</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque de l'Arsenal</repository>
+                  <idno></idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <pb n="8"/>
+         <lg n="1">
+            <l>Je passay curieux dans cette île admirable</l>
+            <l>Qu'un François depuis peu trouva vers ce ponent</l>
+            <l>Lorsqu'un magicien sçavament estimable</l>
+            <l n="4">Me fit voir les objets que je vais decrivant</l>
+         </lg>
+         <lg n="2">
+            <l>Toy dont l'esprit subtil veut voir de cette terre</l>
+            <l>Les varibales mœurs, me dit le bon vieillard,</l>
+            <l>Regarde pelerin dans ce mystique verre,</l>
+            <l n="8">Et admire étonné le pouvoir de mon art</l>
+         </lg>
+         <lg n="3">
+            <l>Dans ce christal poly d'une admirable suitte,</l>
+            <l>Le present, le passé, l'avenir tu verras,</l>
+            <l>Et pourras dire au vray de cette île maudite</l>
+            <l n="12">Ce que les habitans mêmes ne sçavent pas.</l>
+         </lg>
+         <lg n="4">
+            <l>Mais pourtant ce sera sous figures estranges,</l>
+            <l>Que tu >reconnoistras le sens de tes amis</l>
+            <l>Ainsi, parlant à toy le langage des anges</l>
+            <l n="16">De parler autrement il ne m'est pas permis</l>
+         </lg>
+         <lg n="5">
+            <l>Je vis un grand chasteau basty dedans la nüe</l>
+            <l>Où avec l'art d'abyme on prenoit les amants,</l>
+            <l>Et une vieille Rhée hideuse et fort chenüe (a)</l><note resp="scriptor" type="glose"> (a) La reine Marguerite.</note>
+            <l n="20">Qui avoit de Cypris les riches vetements</l>
+         </lg>
+         <lg n="6">
+            <l>Je vis sous un Beau mont une petite Haye,</l> <note resp="scriptor" type="glose">Le comte de Beaumont et la Haye demlle de sa femme.</note>
+            <l>En laquelle s'etoit un vieux bout eroncé,</l>
+            <l>Mais il s'en arracha sans ressentir de playe,</l>
+            <l n="24">Et un singe de joye en devint insensé.</l>
+         </lg>
+         <lg n="7">
+            <l>Dessous un arbre sec je vis une cigale (b)</l><note>(b) La comtesse d'Auvergne.</note>
+            <pb n="8v"/>
+            <l>Qui chantoit son amour aux rayons du soleil (c)</l><note resp="scriptor" type="glose">(c) Le Roy.</note>
+            <l>Et peu de tems apres la faim tremblante et pâle</l>
+            <l n="28">L'etouffer en chantant, et la mettre en cercüeil.</l>
+         </lg>
+         <lg n="8">
+            <l>Je vis une Amazonne aussi belle que fiere</l><note resp="scriptor" type="glose">La marquise.</note>
+            <l>Fouler d'un pied vainqueur et l'envie et le sort,</l>
+            <l>Et la vis triompher et marcher la premiere</l>
+            <l n="32">De ceux qui batissoient leur triomphe en sa mort.</l>
+         </lg>
+         <lg n="9">
+            <l>Je vis une beauté (d)ardemment allumée</l><note resp="scriptor" type="glose">La Princesse de Conty.</note>
+            <l>Des feux de Cupidon mourir en languissant,</l>
+            <l>Et luy vis presenter une andoüille enfumée</l>
+            <l n="32">pour prendre son repas fort maigre et peu friand.</l>
+         </lg>
+         <lg n="10">
+            <l>Je vis l'hermaphrodite (e) avec sa voix de femme</l><note>(e) M. le Grand.</note>
+            <l>Qui faisoit du Roger entre les Rhodomonts,</l>
+            <l>Mais il ne trempoit point sa florentine lance</l>
+            <l n="36">Qu'en ces lasches de cœur qui tournent les talons.</l>
+         </lg>
+         <lg n="11">
+            <l>Je vis un charlatan (f) joueur de passe passe</l><note resp="scriptor" type="glose">(f) Le comte de Soissons.</note>
+            <l>Pour se faire admirer faire de l'élégant,</l>
+            <l>Ceux là qui entendoient les secrets de la farce</l>
+            <l n="40">Le loüoient de joüer le docteur ignorant.</l>
+         </lg>
+         <lg n="12">
+            <l>Sur la cime tortüe je vis vetu de rouge</l>
+            <l>Un prince (g) morfondu attendant un bateau</l><note resp="scriptor" type="glose">(g) La F. de Joinville.</note>
+            <l>Qui en se rechauffant sur le sein d'une gouge</l>
+            <l n="44">S'en retourna heureux et ? de nouveau.</l>
+         </lg>
+         <lg n="13">
+            <l>Je vis un courtisan (h) à la face d'hermite</l><note resp="scriptor" type="glose">(h) M. de la Force.</note>
+            <l>Applaudir un chacun des yeux et de la voix,</l>
+            <l>Et quelqu'un qui disoit, fuyés cet hypocrite</l>
+            <l n="48">Rien n'est desi cruel aux autres et aux bois.</l>
+         </lg>
+         <l>Je vis un homme (j) affreux à barbe d'espoussette</l><note resp="scriptor" type="glose">(j) Praslins.</note>
+         <l>Parler peu, mocquer tout, faire de l'insolent,</l>
+         <l>Au milieu d'un balais commander à baguette,</l>
+         <l n="52">Qui vray cameleon se repaissoit de vent.</l>
+      </body>
+   </text>
+</TEI>

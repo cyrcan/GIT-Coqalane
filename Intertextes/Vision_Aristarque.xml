@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vision d'Aristarque</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque de l'Arsenal</repository>
+                  <idno>Ms-4113 Tome VIII</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <pb n="289"/>
+         <lg n="1">
+            <l>Je passois curieux en cette Isle <expan>damnable</expan></l>
+            <note>Var. Admirable</note>
+            <l>Qu'un François depuis peu trouva vers le Ponant</l>
+            <l>Lors qu'un magicien sçavant et estimable</l>
+            <l n="4">Me fit veoir des objets que je vay descrivant</l>
+         </lg>
+         <lg n="2">
+            <l>Toy dont l'esprit subtil veut voir de cette terre</l>
+            <l>Les varibales meurs, me dit le bon vieillard,</l>
+            <l>Regarde pelerin dans ce mystique verre,</l>
+            <l n="8">Et admire estonné le pouvoir de mon art</l>
+         </lg>
+         <lg n="3">
+            <l>Dans ce crystal poly d'une admirable suitte,</l>
+            <l>Le present, le passé, l'advenir tu verras,</l>
+            <l>Et pourras dire au vray de cette Isle maudite</l>
+            <l n="12">Ce que les habitans mesmes ne sçavent pas.</l>
+         </lg>
+         <lg n="4">
+            <l>Mais pourtant ce sera sous figures estranges,</l>
+            <l>Que tu <expan>reconnoistras</expan> le sens de tes amys,</l>
+            <l>Aussi parlant à toy le langage des Anges</l>
+            <l n="16">De parler clairement il ne m'est pas permis</l>
+         </lg>
+         <pb n="289v"/>
+         <lg n="5">
+            <l>Je vis un grand chasteau basty dedans la nue</l>
+            <l>Où avec l'art d'Alcine on prenoit les amans,</l>
+            <l>Et une vieille Rhée imparfaite et chenue</l>
+            <l n="20">Qui avoit de Cypris les riches vestemens</l>
+         </lg>
+         <lg n="6">
+            <l>Je vis sous un Beau mont une petite Haye,</l>
+            <l>A laquelle s'estoit un vieillard enroncé;</l>
+            <l>Mais il s'en retira sans ressentir de playe,</l>
+            <l n="24">Et un singe de joye en devint insensé.</l>
+         </lg>
+         <lg n="7">
+            <l>Dessous un arbre sec je vis une sigalle,</l>
+            <l>Qui chantoit son amour aux rayons du soleil,</l>
+            <l>Et peu de temps apres la mort tremblante et pasle</l>
+            <l n="28">L'estouffer en chantant et la mettre en cercueil.</l>
+         </lg>
+         <lg n="8">
+            <l>Je vis une Amazone aussi belle que fiere,</l>
+            <l>Fouler d'un pied vainqueur <reg>et la vie</reg> et le sort,</l>
+            <l>Et la vis triompher et marcher la premiere</l>
+            <l n="32">De ceux qui bastissoient leur triomphe en sa mort.</l>
+         </lg>
+         <lg n="9">
+            <l>Je vis une beauté ardemment allumée</l>
+            <l>Des feux de Cupidon mourir en languissant</l>
+            <l>Et luy vis presenter une andouille fumée</l>
+            <l n="32">Y prenant son repas fort maigre et peu friand</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

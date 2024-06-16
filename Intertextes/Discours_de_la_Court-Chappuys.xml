@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../SortieHtml.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Discours de la Court</title>
+            <author>Claude Chappuys</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque de l'Arsenal</repository>
+                  <idno>identifier</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <l>Apres avoir maintz discours discouru,</l>
+         <l>Et en la Court tant nuict que jour couru</l>
+         <l>Afin de prendre, &amp; prenant estre pris,</l>
+         <l>Voulant scavoir &amp; ayant peu appris,</l>
+         <l>Plustos conduict de legiere jeunesse</l>
+         <l>Qu'accompaigné d'une meure saigesse:</l>
+         <l>Plus sot que fin, plus lourdauld que gentil,</l>
+         <l>Et beaucoup plus ignorant que subtil:</l>
+         <l>J'ay estimé honneste &amp; convenable</l>
+         <l>A moy de dire, aux aultres aggreable</l>
+         <l>D'ouyr en brief, ce qu'en long temps j'ay veu:</l>
+         <l>Non que je sois d'eloquence pourveu</l>
+         <l>Pour bien attaindre a matiere si haulte</l>
+         <l>Que trop bas peut tumber qui y faict faulte:</l>
+         <l>Et n'y fault point trop ou trop peu toucher,</l>
+         <l>Contenter l'ung, &amp; ung aultre fascher,</l>
+         <l>Donner attache aux ungs couvertement,</l>
+         <l>Les aultres trop extoller haultement:</l>
+         <l>Mais je suis seur si a tous en puis plaire</l>
+         <l>Que pour le moins a nul ne veulx desplaire:</l>
+         <l>Car soit mon dire ou veritable ou faulx</l>
+         <l>Au champ d'aultruy ne veulx jecter la faulx,</l>
+         <l>Cherchant trop plus la raison que la rithme,</l>
+         <l>Ny trop hardy ny trop pusillanime,</l>
+         <l>Gardant par tout le mediocrité,</l>
+         <l>Sans transgresser les loix de liberté:</l>
+         <l>Dont nul ne doibt me juger mesdisant,</l>
+         <pb n="1v"/>
+         <l>Et beaucoup moins ou flateur, ou plaisant</l>
+         <l>Pour parvenir a mon poinct opportun.</l>
+         <l>D'estre facheux, mal propre &amp; importun</l>
+         <l>A tant de gentz est commun avec moy</l>
+         <l>Que je n'en prens ny soucy ny esmoy.</l>
+         <l>En protestant que je ne veulx former</l>
+         <l>Le Courtisan, &amp; moins le reformer:</l>
+         <l>Car ce seroit marcher (a bien le prendre)</l>
+         <l>Sus ung grand feu cache d'ung peu de cendre,</l>
+         <l>De moy je veulx non d'aultruy rendre compte,</l>
+         <l>Aimant l'honneur de tous, craignant la honte</l>
+         <l>Et le venin d'envie, &amp; sa morsure.</l>
+         <l>Je me submetz a l'advis &amp; censure</l>
+         <l>De ceulx qui ont le meilleur jugement:</l>
+         <l>Car bon vouloir m'est seul coutentement</l>
+         <l>Et n'entendz point la bouche au ciel lever,</l>
+         <l>Blasmer le bien, &amp; le mal approuver:</l>
+         <l>Mais si mon œuvre en maintz lieux est mal pris</l>
+         <l>Des ignorantz, &amp; des scavantz repris,</l>
+         <l>Me reputant entre les bons poetes</l>
+         <l>Moins que Sault entre tous les prophetes,</l>
+         <l>Ce ne seront des roses espandues</l>
+         <l>Ains seullement des parolles perdues,</l>
+         <l>Et ne m'en veulx aultrement excuser,</l>
+         <l>Qui trop s'escuse, il se faict accuser,</l>
+         <l>Ou de vouloir user de fiction,</l>
+         <l>Ou de parler par grande affection:</l>
+         <pb n="2r"/>
+         <l>Et tel souvent barbare se dict estre</l>
+         <l>Qui neantmoings docte veult apparoistre</l>
+         <l>Quel moyen doncq y scaurois je tenir</l>
+         <l>Ny par quel bout commencer, ou finir?</l>
+         <l>Depuis qu'Adam le fruict voulut gouster</l>
+         <l>Dont il debvoyt le desir rejecter</l>
+         <l>Changeant la vie en mortelle douleur,</l>
+         <l>Felicite en misere &amp; malheur,</l>
+         <l>Le bien en mal, richesse en pauvreté,</l>
+         <l>Repoz en peine, en malice bonté,</l>
+         <l>Le vray en faulx, doulceur en violence,</l>
+         <l>Le seur en doubte, en vice l'innocence,</l>
+         <l>Tant a este nature depravee</l>
+         <l>En tous estatz Corrompue et grevee</l>
+         <l>Que je ne scay si doibz, comme <persName>Heraclite</persName>,</l>
+         <l>Plourer, ou rire, ainsy que <persName>Democrite</persName>:</l>
+         <l>Et quant de pres contemple &amp; considere</l>
+         <l>Qu'elle est la farce heureuse, ou mal <unclear>pipere</unclear>,</l>
+         <l>Qu'on veoit jouer a plusieurs personnaiges,</l>
+         <l>Souvent meslez les folz parmy les saiges,</l>
+         <l>Sus l'eschafault &amp; theatre du monde,</l>
+         <l>Tant plus avant a y penser me fonde</l>
+         <l>Tant plus me sens confuz et estonne:</l>
+         <l>Et m'est advis que suis environne</l>
+         <l>En mon esprit d'opinions diverses:</l>
+         <l>L'ung se tient fort, l'autre craind les traverses,</l>
+         <l>L'ung plaint son aage, &amp; l'autre maladie,</l>
+         <pb n="2v"/>
+         <l>Et n'y a fin a ceste tragedie,</l>
+         <l>L'ung est oysif en grand solicitude,</l>
+         <l>Et l'autre libre en dure servitude,</l>
+         <l>Autant de gens auant d'actes divers.</l>
+         <l>L'ung a choisy pour l'endroict tout l'envers,</l>
+         <l>L'ung en richesse est povre tant est chiche,</l>
+         <l>En povreté l'aultre trenche du riche</l>
+         <l>La plus grand part plus ha, plus se tourmente,</l>
+         <l>En n'en veois nul qui d'assez se contente.</l>
+         <l>L'ung ha plaisir, &amp; l'aultre est languoureux.</l>
+         <l>Et si j'avoys l'esprit assez heureux</l>
+         <l>Pour figurer si estrange spectacle</l>
+         <l>On le tiendroit pour fable, ou pour miracle.</l>
+         <l>Mais quoy? je suis tout plein d'obscurité</l>
+         <l>Cherchant par tout la claire verité</l>
+         <l>Pour y trouver le chemin &amp; la voye</l>
+         <l>De vray repos &amp; de parfaicte joye,</l>
+         <l>Ayant conceu pour resolution</l>
+         <l>Ardent desir, &amp; ferme affection</l>
+         <l>De despouiller ma robbe d'ignorance</l>
+         <l>Et me vestir du bien de cognoissance</l>
+         <l>Qui ne se peult par tresors acquerir,</l>
+         <l>Ny par l'effort des armes conquerir,</l>
+         <l>Ainsi par labeur &amp; travail assidu</l>
+         <l>Nous est pour vray moins donne que vendu.</l>
+         <l>Et sur ce poinct <expan>branlant</expan> dessoubz l'enseigne</l>
+         <l>De la raison, qui le chemin enseigne</l>
+         <pb n="3r"/>
+         <l>Pour parvenir <reg>à</reg> la felicité,</l>
+         <l>J'ay longuement debatu &amp; doubté</l>
+         <l>Si je debvois choisir la vie active</l>
+         <fw type="manchette" place="margin-right">La vie active &amp; contemplative</fw>
+         <l>Ou m'arrester <reg>à</reg> la contemplative.</l>
+         <l>Toutes deux sont seujectes <reg>à</reg> l'oraige,</l>
+         <l><reg>À</reg> la tempeste, &amp; perilleux naufraige</l>
+         <l>Des passions humaines, mais le vent</l>
+         <l>D'ambition, abbaisse souvent</l>
+         <l>Le gouvernail de saigesse &amp; prudence,</l>
+         <l>Et obeyt <reg>à</reg> la concupiscence,</l>
+         <l>En l'une est plus qu'en l'aultre impetueux.</l>
+         <l>Toutes deux font maintz actes vertueux.</l>
+         <l>L'une est commune, &amp; l'aultre solitaire.</l>
+         <l>Aux hommes l'une, <reg>à</reg> dieu l'aultre veut plaire</l>
+         <l>L'une en habitz garde simplicité,</l>
+         <l>L'aultre se plaist en la diversité.</l>
+         <l>L'une est <reg>à</reg> soy totallement reduicte,</l>
+         <l>L'aultre entreprend d'affaires la conduicte.</l>
+         <l>L'une demoure en sa maison privée,</l>
+         <l>D'aller par tout l'aultre n'est poins privée.</l>
+         <l>L'une est sans soing, &amp; l'aultre est curieuse.</l>
+         <l>L'une au mylieu de la mer dangereuse.</l>
+         <l>Et l'aultre flotte <reg>à</reg> la rive &amp; au bort</l>
+         <l>Que l'on maintient la plus pres de bon port.</l>
+         <l>Mais congnoissant du monde l'armonie</l>
+         <l>Tant consister a estre en compaignie</l>
+         <l>Que celuy <reg>là</reg> qui fuyt societé</l>
+         <pb n="3v"/>
+         <l>Semble approcher de la brutalité.</l>
+         <l>Voulant aussy en ce pelerinaige</l>
+         <l>Vivre non trop cogneu, ny trop saulvaige,</l>
+         <l>J'ay apart moy songneusement pensé</l>
+         <l>Par quelz moyens pourroys estre poulsé</l>
+         <l>En quelque estat dignité ou office</l>
+         <l>De vertueux &amp; honneste exercice,</l>
+         <l>Pour n'estre point des aultres contemné,</l>
+         <l>Et pour monstrer au moins que je suis né:</l>
+         <l>Rendant raison du talent que je doibz:</l>
+         <l>Le bien &amp; le mal calculant par mes doigz</l>
+         <l>Pour ne choisir en lieu du fruict, l'escorce:</l>
+         <l>Et bien fonder ma foiblesse ou ma force,</l>
+         <l>Mais quant par tout me suis bien espluché</l>
+         <l>J'ay pour certain este fort empesché</l>
+         <l><reg>À</reg> bien scavoir mesurer &amp; congnoistre</l>
+         <l>Que c'est de moy, ny que ce scauroyt estre</l>
+         <l>Et n'y trouvant que toute vanité</l>
+         <l>En desespoir estoys precipité</l>
+         <l>Quant j'apperçoy devant moy franc Arbitre</l>
+         <fw type="manchette" place="margin-left">Franc arbitre</fw>
+         <l>Qui se présente avecques ung beau tiltre</l>
+         <l>De grand'puissance, &amp; plaine liberté</l>
+         <l>Et eslevoit fort son authorité:</l>
+         <l>Il estoit vieil, car de Dieu fut donné</l>
+         <l>Au premier pere, &amp; depuis ordonné</l>
+         <l>Aux successeurs, comme par heritaige:</l>
+         <l>Petit de corps: &amp; tres beau de visaige:</l>
+         <pb n="4r"/>
+         <l>Car pour certain <persName>Adam</persName> ne le perdit</l>
+         <l>Si quelque peu abaissa son credit,</l>
+         <l>Se despouillant non de la voulenté,</l>
+         <l>Ainsi alterant de son sens la santé:</l>
+         <l>Quant tellement certes il s'esgara</l>
+         <l>Qu'<reg>à</reg> tout jamais la playe en seignera:</l>
+         <l>Aussi estoit franc Arbitre courbe</l>
+         <l>Sus ung baston ou sa force il assigne</l>
+         <fw type="manchette" place="margin-right">Grace divine</fw>
+         <l>Estoit de tous nommé grace divine:</l>
+         <l>Que chascun sent, &amp; nul ne peult scavoir</l>
+         <l>Combien il est capable de l'avoir:</l>
+         <l>Ne s'il sera seelle de petit seau,</l>
+         <l>Ou s'il pourra estre receu vaisseau</l>
+         <l>Plustost d'honneur que de coutumelie,</l>
+         <l>A celle fin que chascun s'humilie:</l>
+         <l>Mais on scait bien que pretendre sans elle</l>
+         <l>Ou que ce soit, seroit voller sans aelle,</l>
+         <l>Chasser en l'air, pescher dessus la terre,</l>
+         <l>Et des geans renouveller la guerre:</l>
+         <l>En dieu convient finir &amp; commencer,</l>
+         <l>Et qui vouldra, fors par luy s'advancer</l>
+         <l>Il se reculle, &amp; lieu de flourir,</l>
+         <l>Il veoit ses fleurs desescher &amp; perir:</l>
+         <l>Car c'est la pierre, &amp; le vray fondement</l>
+         <l>Ou fault asseoir tout nostre bastiment:</l>
+         <l>Mais figurer ceste grace indicible</l>
+         <fw type="sig" place="bottom">B</fw>
+         <pb n="4v"/>
+         <l>Il n'est <reg>à</reg> ny a aultre possible.</l>
+         <l>Tout en est plein en la terre &amp; es cieulx.</l>
+         <l>Elle domine &amp; reluyt en tous lieux,</l>
+         <l>D'elle depend tout l'ordre de la nature,</l>
+         <l>Et tout le bien de toute creature,</l>
+         <l>Tous noz effectz, pensées &amp; parolles</l>
+         <l>Sans elle sont &amp; vaines &amp; frivolles.</l>
+         <l>Par elle fut remission donnée,</l>
+         <l>Grace par grace auu ciel interinée</l>
+         <l>Et le salut des hommes recouvert.</l>
+         <l>L'enfer fermé aux bons, le ciel ouvert.</l>
+         <l rend="indent">En approchant doncques de cestre grace</l>
+         <l>J'ay apperceu pres d'elle face <reg>à</reg> face</l>
+         <l>Dame Esperance honnestement parée.</l>
+         <fw type="manchette" place="margin-left">Esperance</fw>
+         <l>Sa robbe estoit de couleur azurée,</l>
+         <l>Les yeulx riantz, &amp; qui monstroient assez</l>
+         <l>Que tous ennuys par elle sont chassez.</l>
+         <l>C'est celle <reg>là</reg> qui paist les malheureux,</l>
+         <l>Aux affligez chetifs et langoureux</l>
+         <l>Donne confort, &amp; quelque allegement.</l>
+         <l>Des prisonniers adoulcit le tourment,</l>
+         <l>Aux laboureurs la terre faict semer,</l>
+         <l>Les mariniers naviger en la mer.</l>
+         <l>Des couraigeux augmente la prouesse,</l>
+         <l>Aux couardz donne ung peu de hardiesse.</l>
+         <l>Et me voyant esmeu &amp; fort espris</l>
+         <l>Comme qui m'eust en extase surpris,</l>
+         <pb n="5r"/>
+         <l>A bien daigné me prendre par la main,</l>
+         <l>Et d'ung visaige affable et bien humain</l>
+         <l>Sans s'informer de ma profession,</l>
+         <l>De mes parentz, ny de ma nation,</l>
+         <l>De mon povoir, ny de ma volunte</l>
+         <l>Comme si bien congneu luy eusse este,</l>
+         <l>Et que de moy desja eust pris la charge,</l>
+         <l>Elle me montre ung chemin grand &amp; large</l>
+         <l>Tant frequenté &amp; tant battu de gentz</l>
+         <fw type="manchette" place="margin-right">Le chemin de la Court.</fw>
+         <l>De tous endroictz, de riches, d'indigentz,</l>
+         <l>Qu'il n'en est point ailleurs telle affluence:</l>
+         <l>Et tous y sont conduictz par l'influence</l>
+         <l>De cette dame ancienne &amp;aagée,</l>
+         <l>Et tellement de promesses chargée</l>
+         <l>Qui ne scauroient correspondre aux effectz,</l>
+         <l>Que bien souvent succumbe soubz le fais.</l>
+         <l>Elle me dict (pour trencher le mot court)</l>
+         <l>Ce beau chemin, est le chemin de court,</l>
+         <l><reg>Où</reg> est la fin de tout bon heur enclose</l>
+         <l>Et si de rien veulx estre quelque chose,</l>
+         <l>Et en estime entre les hommes vivre,</l>
+         <l>Avecques moy il te la convient suyvre,</l>
+         <l>Et tu pourras servir le plus grand Roy</l>
+         <l>Qui oncques fut. Dont soubdain je la croy,</l>
+         <l>Car il n'est tel que naiger en grand eau:</l>
+         <l>Et fault la noix rompre avant le noyau.</l>
+         <l rend="indent">Soit donc l'instinct ordonné de nature</l>
+         <fw place="bottom">B ij</fw>
+         <pb n="5v"/>
+         <l>Ou soit le sort fatal de l'advanture,</l>
+         <l>Heureux seray si j'en puy approcher,</l>
+         <l>Et de ce roy <reg>à</reg> la robbe toucher:</l>
+         <l>Mais y allant rencontray <persName type="author">l'Aretin</persName></l>
+         <l>Avec <persName>Pasquil</persName>, l'ung me parloit latin,</l>
+         <l>L'aultre tuscan, &amp; m'estoient incongneuz</l>
+         <l>Fors de renom, car ilz estoient venuz</l>
+         <l>En leurs habitz tissuz de mocquerie,</l>
+         <l>Qui poinct &amp; picque, &amp; si fault qu'on en rie</l>
+         <l>Ilz estoient noirs comme ethiopiens,</l>
+         <l>Et me sembloient quelques bohemiens</l>
+         <l>Dispos assez pour <expan>prendre</expan> ung lievre acourse</l>
+         <l>Riens toutesfoys ne prindrent ma bourse.</l>
+         <l rend="indent"><persName>Pasquil</persName> s'aproche &amp; <reg>à</reg> moy
+            s'arraisonne</l>
+         <l>Voulant parler de ma fortune bonne,</l>
+         <l>Jugeant quasi par phisionomye</l>
+         <l>De mes desseingtz toute l'anathomye:</l>
+         <l>Me mesurant ainsi que par compas,</l>
+         <l>Sy seray moyne ou ne le seray pas:</l>
+         <l>Et me gectoit plusieurs propos ensemble:</l>
+         <l>Dont l'un <reg>à</reg> l'aultre aucunement ne semble</l>
+         <l>Saultant du coq en l'asne, sans raison,</l>
+         <l>De maladie &amp; puys de guerison,</l>
+         <l>Tant qu'on ne scait ou plustost prendre pié:</l>
+         <l>Et ne scay pas s'il m'avoit espié</l>
+         <l>Lors qu'Esperance avec moy devisoit,</l>
+         <l>Mais en l'oreille &amp; tout bas me disoit.</l>
+         <pb n="6r"/>
+         <l>Soubz la belle herbe est caché le <rs type="animal">serpent</rs>,</l>
+         <l>Tel y va tost qui plustotst s'en repent,</l>
+         <l>Et me parloit par enigmes couvertz</l>
+         <l>Aucunesfoys en prose, &amp; puys en vers,</l>
+         <l>De <persName>Lancelot</persName>, de <persName>Gauvain</persName>, &amp;
+               d'<persName>Artus</persName></l>
+         <l>Des mal chaussez, &amp; des trop bien vestuz,</l>
+         <l>En comprenant (si j'en ay souvenance)</l>
+         <l>Peu de parolle &amp; beaucoup de substance,</l>
+         <l>Il est bien vray que rien il ne nomma</l>
+         <l>Et en commun seullement il blasma</l>
+         <l>Ce qu'en prvie n'eust ose pronuncer.</l>
+         <l>Craignant quelcung (non sans cause) offencer.</l>
+         <l>Mais son propos estoit si deshonneste</l>
+         <l>Que le cheveulx m'en dressoient en la teste:</l>
+         <l>Et grandement je m'en tournay fasché:</l>
+         <l>Parquoy le laisse, &amp; me suis approché</l>
+         <l>De ceste bonne &amp; heureuse esperance</l>
+         <l>Pour tirer droict <reg>à</reg> la grant <reg>court</reg> de <placeName><settlement
+                  type="country">France</settlement></placeName>:</l>
+         <l><reg>Où</reg> regne un roy premier de nom <persName>Françoys</persName></l>
+         <l>Premier de force, &amp; premier sus tous roys,</l>
+         <l>Roy beaucoup plus de son peuple estimé</l>
+         <l>Qu'ung pere n'est de ses enfans aymé:</l>
+         <l>Que n'est l'enfant unique aymé du pere</l>
+         <l>De luy j'actendz ce qu'il fault que j'espere,</l>
+         <l>Et le desir de le veoir seullement</l>
+         <l>Me rapportoit ung grant contentement</l>
+         <l>Dont me vouay du tout <reg>à</reg> son service.</l>
+         <pb n="6v"/>
+            
+
+      </body>
+   </text>
+</TEI>

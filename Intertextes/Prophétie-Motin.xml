@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prophetie</title>
+            <author>Motin</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Extrait du manuscrit français 884 de la BnF et reproduit dans le Cabinet
+               Satyrique.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque Nationale de France</repository>
+                  <idno>ms fr.884</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <pb n="55"/>
+         <lg n="1">
+            <l>Peuple Malheur sur vous quand le sanglant Gerfaut</l>
+            <l>Et le bleu limaçon mari de la linotte</l>
+            <l>Vers le pole Antarticq s'en viendra d'un plein saut</l>
+            <l n="4">Luisant comme un bonnet faict à la Matelotte.</l>
+         </lg>
+         <lg n="2">
+            <l>Ce malheur adviendra quand l'indompté guerrier</l>
+            <l>Vaillant et genereux ainsi qu'un pot de Chambre</l>
+            <l>Voudra sans dire mot en sursaut s'escrier</l>
+            <l n="8">Belle je suis de paille et vous estes mon Ambre</l>
+         </lg>
+         <lg n="3">
+            <l>Alors le grand Seigneur qui commande au Levant</l>
+            <l>Tranchera d'un revers tout le corps d'un fromage</l>
+            <l>Donnera d'un estoc dans les cheveux du vent</l>
+            <l n="12">Et mettra pour trophee une poire sauvage</l>
+         </lg>
+         <lg n="4">
+            <l>Car <persName>le duc <reg>Casimir</reg></persName> de cent mil <orgName type="peuple">Allemans</orgName></l>
+            <l>D'armes et de chevaux effroira la Campagne</l>
+            <l>Le Roy de Calicut n'est pas des <reg>Musulmans</reg></l>
+            <l n="16">Comme il fust arresté au grand Conseil de l'<placeName><settlement type="country">Espagne</settlement></placeName></l>
+         </lg>
+         <lg n="5">
+            <l><persName>La Royne d'Angleterre</persName>, et le <persName>Pape Clement</persName></l>
+            <l>Au son du violon danseront <rs type="danse">la Courante</rs></l>
+            <l>Puis allerent coupper aux vignes du sarment</l>
+            <l n="20"><reg>Où</reg> ilz firent chascun un bouquet d'Amaranthe</l>
+         </lg>
+         <lg n="6">
+            <l>Les Princes arrestez d'un accident si fort</l>
+            <l>Firent au Prebstre Jean une belle Ambassade</l>
+            <l>Luy donnant pour present une Teste de mort</l>
+            <l n="24">Une paire de gandz avec une salade</l>
+         </lg>
+         <lg n="7">
+            <l>L'Incarnadin d'<placeName><settlement type="country">Espagne</settlement></placeName>, et le velours tanné</l>
+            <l>Une escharpe orangee, une coiffe, une mitre</l>
+            <l>Alors que Salomon fut aux Juifz destiné</l>
+            <l n="28"><persName>Le Roy du Portugal</persName> presidoit au Chapitre</l>
+         </lg>
+         <lg n="8">
+            <l>De papier un tapis, du resveil, un filet</l>
+            <l>Un Evesque, un pauvre dont l'ame est poursuivie</l>
+            <l>D'un amoureux desir d'avoir un flageolet</l>
+            <l n="32"><persName>Grand Prince de Piedmont</persName> <persName>Dieu</persName> te doint bonne vie</l>
+         </lg>
+         <lg n="9">
+            <l>Une beste au long bec dans le sommet des tours,</l>
+            <l>Et aux lieux ennemis le plus souvent se niche,</l>
+            <l>Sa femme, au lieu de saincts adore des Amours,</l>
+            <l n="36">Et plante <reg>à</reg> sa Colonne une belle Cornic
