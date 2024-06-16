@@ -99,34 +99,48 @@
             <l>Que chascun <rs type="injonction" subtype="conseil">pense</rs> à son cas</l><note
                resp="editor" type="crit">Ce premier vers est hypométrique.</note>
             <l ana="#mtd">Je ne dis rien, <roleName>frere</roleName>
-               <persName>Lucas</persName></l><note resp="editor" type="crit">Note sur frère
-               Lucas</note>
+               <persName>Lucas</persName></l><note resp="editor" type="crit">Personnage non
+               identifié. Mais une frère Lucas apparaît dans les <title>Satyres chrestiennes de la
+                  cuisine papale</title>, Satyre II : "Dieux sçait si Frere Lucas / Desert joyeux le
+               benefice. / Brief, tous officiers font office / Pour tous ces triaculeux saincts.
+               C'est aussi sa première apparition dans le corpus des coq-à-l'âne.</note>
             <l>Arrivera en peu de temps</l>
             <l n="4">Et rendra ses amys contens.</l>
             <!-- Saut#1 --><anchor type="saut#1"/>
             <l>Il se fait bien grande entreprise</l>
-            <l ana="#mét_animale">Garde que la ruche ne soit prise</l>
+            <l ana="#mét_animale">Garde que la ruche ne soit prise</l><note resp="editor"
+               type="crit">Vers hypermétrique.</note>
             <!-- Saut#2 --><anchor type="saut#2"/>
             <l ana="#topos">Apres <reg>l'hyver</reg> viendra <reg>l'esté</reg></l>
             <l n="8">Il sera grande quantité</l>
             <l>De champignols en ceste année</l>
             <!-- Saut#3 --><anchor type="saut#3"/>
             <l><rs type="injonction" subtype="impératif">Gardes</rs> nous une matinée</l>
-            <l>Que vous n'hayés les innocens</l>
+            <l>Que vous n'hayés les innocens</l><note resp="editor" type="glose">Peut-être
+               pouvons-nous rapprocher ce vers de la locution <hi rend="italic">Donner les
+                  innocents</hi>, c'est-à-dire "donner le fouet, par jeu, aux jeunes filles que l'on
+               surprenait au lit le matin de la fête des saints Innocents" (Di Stefano, p.
+               313).</note>
             <!-- Saut#4 --><anchor type="saut#4"/>
-            <l n="12" ana="#argent">Dessus plus de mille cinq cens</l>
+            <l n="12" ana="#argent"><reg>D'escus</reg> plus de mille cinq cens</l><note
+               resp="editor" type="crit">Le glissement d'une idée à l'autre pourrait s'expliquer par
+               un jeu métonymique entre les coups de fouet et les étrennes que l'on donnait aux
+               jeunes femmes.</note>
             <l ana="#argent">Je voudrois havoir en ma bourse</l>
             <!-- Saut#5 --><anchor type="saut#5"/>
             <l ana="#mét_animale">Et puis la caverne de l'<rs type="animal" subtype="ursidé"
                   >ourse</rs></l>
-            <l ana="#mét_animale">Sera de <rs type="animal" subtype="canidés">levriers</rs>
-               assailie</l>
+            <l ana="#mét_animale">Sera des <rs type="animal" subtype="canidés">levriers</rs>
+               assailie</l><note resp="editor" type="crit">Vers hypermétrique.</note>
             <!-- Saut#6 --><anchor type="saut#6"/>
-            <l n="16" ana="#folie">Or ça tout le monde folie</l>
+            <l n="16" ana="#folie">Or ça tout le monde folie</l><note resp="editor" type="crit">Cf.
+               Le troisième coq-à-l'âne de Marot (CAA#7): "Fol, foliant, imprudent, indiscret", v.
+               3.</note>
             <l ana="#folie">Et chascun pense estre asses sage</l>
             <!-- Saut#7 --><anchor type="saut#7"/>
             <l>Jamais on ne vist tel mesnage</l>
-            <l>N'y tant de cuisiniers ensemble</l>
+            <l>N'y tant de cuisiniers ensemble</l><note resp="editor" type="crit">On pense à nouveau
+               aux goinfres des<title>Satyres Chrestiennes de la cuisine papale</title>.</note>
             <l n="20">A peu pres que la terre en tremble</l>
             <l><roleName type="peuple">Toupinambaoults</roleName> et <roleName type="peuple"
                   >Margajeats</roleName></l><note resp="editor" type="crit">Noms de peuples du
@@ -148,15 +162,16 @@
             <l>Ce qu'est à luy car tel butin</l>
             <l>Ne doit plus demeurer en gage</l>
             <!-- Saut#9 --><anchor type="saut#9"/>
-            <l n="32">Liffre Loffre est beau langage</l><note resp="editor" type="glose"/>
+            <l n="32">Liffre Loffre est beau langage</l><note resp="editor" type="glose"/><note
+               resp="editor" type="glose">Le parler suisse ou allemand.</note>
             <l>Mais, <hi rend="italic">Ma!</hi> et <hi rend="italic">Catzo</hi> ne sont
                laids</l><note resp="editor" type="ling">"Mais!" et "Merde" en italien.</note>
             <!-- Saut#10 --><anchor type="saut#10"/>
             <l ana="#érotique">Je voudrois havoir mis le laict</l>
             <l ana="#érotique">A la fille de mon hostesse</l>
             <!-- Saut#11 --><anchor type="saut#11"/>
-            <l n="36">Quand il me souvient de la presse</l><note resp="editor" type="ling">Au sens
-               de "foule" ici.</note>
+            <l n="36">Quand il me souvient de la presse</l><note resp="editor" type="ling">Jeu de
+               mots entre les sens de "pression" et de "foule".</note>
             <l ana="#mtd">Qu'il y aura vous <reg>m'entendés</reg></l>
             <l>Tant de gens y seront mandés</l>
             <l ana="ethos">Que quasi je creve de rire</l>
@@ -188,7 +203,8 @@
             <!-- Saut#16 --><anchor type="saut#16"/>
             <l>Les medecins sont tous ensemble</l>
             <l>Qui consultent la maladie</l>
-            <l n="60">Et <persName><expan>Monseigneur</expan> de Normandie</persName></l><note resp="editor" type="glose"></note>
+            <l n="60">Et <persName><expan>Monseigneur</expan> de Normandie</persName></l><note
+               resp="editor" type="glose"/>
             <l>Fait bien du brave <reg>là</reg> dedans</l>
             <l>Je doute que le mal des dens</l>
             <l>Ne pullule bien ceste année</l>
@@ -337,7 +353,8 @@
             <fw type="pageNum" place="top-right">7</fw>
             <l n="160">Il en est temps, <!-- Saut#49 --><anchor type="saut#49"/> mais les
                passages</l>
-            <l>De <placeName key="Faucigny">Faucigny</placeName> et <placeName key="Faucigny">la Cluse</placeName></l>
+            <l>De <placeName key="Faucigny">Faucigny</placeName> et <placeName key="Faucigny">la
+                  Cluse</placeName></l>
             <l>Se doivent garder <!-- Saut#50 --><anchor type="saut#50"/><reg>l'on</reg> accuse</l>
             <l>Plusieurs gens <reg>d'infidelité</reg></l>
             <!-- Saut#51 --><anchor type="saut#50"/>
