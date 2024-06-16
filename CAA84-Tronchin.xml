@@ -79,7 +79,7 @@
    <facsimile>
       <surface>
          <graphic
-            url="/Volumes/CCA_T5/PROJET_D1/Sources_CAA/MANUSCRITS/Arch_Tronchin_Geneve/arch_tronchin_353_014_0009.jpg"
+            url="https://github.com/cyrcan/GIT-Coqalane/blob/main/Sources/Arch_Tronchin_Geneve/arch_tronchin_353_014_0009.jpg"
          />
       </surface>
    </facsimile>
@@ -96,7 +96,7 @@
          </listBibl>
          <p>
             <pb n="1"
-               facs="https://github.com/cyrcan/GIT-Coqalane/blob/main/Sources/Arch_Tronchin_Geneve/arch_tronchin_353_014_0009.jpg>
+               facs="https://github.com/cyrcan/GIT-Coqalane/blob/main/Sources/Arch_Tronchin_Geneve/arch_tronchin_353_014_0009.jpg">
             <fw type="pageNum" place="top-right">5</fw>
             <l>Que chascun <rs type="injonction" subtype="conseil">pense</rs> à son cas</l><note
                resp="editor" type="crit">Ce premier vers est hypométrique.</note>
