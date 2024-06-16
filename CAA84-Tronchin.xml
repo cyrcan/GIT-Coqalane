@@ -71,6 +71,8 @@
                <interp xml:id="g_civ">guerres civiles</interp>
                <interp xml:id="vin">vin, vigne</interp>
                <interp xml:id="corps">Du corps</interp>
+               <interp xml:id="sagesse">sagesse</interp>
+               <interp xml:id="occasion"/>
             </interpGrp></p>
       </encodingDesc>
    </teiHeader>
@@ -176,11 +178,12 @@
             <l>Tant de gens y seront mandés</l>
             <l ana="ethos">Que quasi je creve de rire</l>
             <l n="40">Et alors ils pourront bien dire,</l>
-            <pb n="2"/>
+            <pb n="1v°"/>
             <l>Est tout corrompu à present</l>
             <!-- Saut#12 --><anchor type="saut#12"/>
             <l><reg>J'en</reg> scay qui aiment les <expan>presens</expan></l>
-            <l ana="#argent">Mais il <reg>n'en</reg> viendront pas plus riche</l>
+            <l ana="#argent">Mais <reg>il[s]</reg>
+               <reg>n'en</reg> viendront pas plus riches</l>
             <l n="44" ana="#gnomique"><reg>L'homme</reg> opulent qui est ciche</l><note
                resp="editor" type="ling">Chiche, avare.</note>
             <l ana="#gnomique">Merite <reg>d'estre</reg> terrassé</l>
@@ -210,11 +213,11 @@
             <l>Ne pullule bien ceste année</l>
             <!-- Saut#17 --><anchor type="saut#17"/>
             <l n="64" ana="#vin"><persName>Dieu</persName> nous doint donc belle vinée</l>
-            <l>Si <reg>l'on</reg> se regle par compas</l>
+            <l ana="#corps">Si <reg>l'on</reg> se regle par compas</l>
             <l ana="#bien_vivre">Aux grands jours on fait trois repas</l>
             <l ana="#corps">En faisant honneste exercice</l>
             <!-- Saut#18 --><anchor type="saut#18"/>
-            <l n="68">Je voudrois hacher <reg>d'un</reg> saucisse</l>
+            <l n="68">Je voudrois <unclear>hacher dur</unclear> saucisse</l>
             <l>Avant que d'entrer en Caresme</l>
             <l>Ce fust <expan>Monsieur</expan>
                <persName>Sarriou</persName> luy mesme</l>
@@ -222,16 +225,16 @@
             <!-- Saut#19 --><anchor type="saut#19"/>
             <l n="72">La beste sera assailie</l>
             <l>Plus dextrement que du passé</l>
-            <l>Tous les couars seront cassés</l>
-            <l>S'ils ne sautent dessus en croppe</l>
+            <l ana="#lâcheté">Tous les couars seront cassés</l>
+            <l ana="#occasion">S'ils ne sautent dessus en croppe</l>
             <!-- Saut#20 --><anchor type="saut#20"/>
             <l n="76" ana="#gnomique">Tout le monde donne la coulpe</l>
             <l>A quelcun, chascun n'entend bien</l>
             <l>Or puis que nous scavons combien</l>
             <l>De fautes nous havons commises</l>
             <l n="80">En tous nos faits et entreprises</l>
-            <l>Je croy qu'en deviendrons plus sages</l>
-            <pb n="3"/>
+            <l ana="#sagesse">Je croy qu'en deviendrons plus sages</l>
+            <pb n="2"/><fw type="pageNum" place="top-right">6</fw>
             <!-- Saut#21 --><anchor type="saut#21"/>
             <fw type="pageNum" place="top-right">6</fw>
             <l><unclear>Verroit</unclear> bien que <reg>l'on</reg> ha faily</l>
@@ -250,14 +253,16 @@
             <l>Je doibs plus que <reg>l'on</reg> ne me doibt</l>
             <l n="92">Qui ne <reg>m'est</reg> chose trop plaisante</l>
             <!-- Saut#25 --><anchor type="saut#25"/>
-            <l><reg>L'un</reg> pleure icy et <reg>l'autre</reg> chante</l>
-            <l ana="#folie">Le monde va en escrevisse</l>
+            <l><reg ana="#folie">L'un</reg> pleure icy et <reg>l'autre</reg> chante</l>
+            <l ana="#folie">Le monde va en escrevisse</l><note resp="editor" type="crit">Cf. le
+               coq-à-l'âne de "Brusquet à Ronsard": "Car le monde va au rebours / Aussy faict bien
+               une escrevisse" (v. 214-215).</note>
             <!-- Saut#26 --><anchor type="saut#26"/>
             <l><reg>Ô</reg> mon dieu la grande malice</l>
             <l n="96"><reg>Qu'il</reg> y a au cœur <reg>d'une</reg> femme</l>
             <!-- Saut#27 --><anchor type="saut#27"/>
             <l>Ma foy le soldat est infame</l>
-            <l>Qui <unclear>vire</unclear> renie et fourrage</l>
+            <l>Qui vire renie et fourrage</l>
             <!-- Saut#28 --><anchor type="saut#28"/>
             <l>Et puis les Argoulets font rage</l>
             <l n="100">Ils sont tous devenus <rs type="animal">renards</rs></l>
@@ -272,8 +277,8 @@
             <l>Mais n'est ce pas bien grand dommage</l>
             <l>D'havoir ainsi perdu le temps</l>
             <!-- Saut#32 --><anchor type="saut#32"/>
-            <l>Les soldats ne sont point contens</l>
-            <l n="108">Si argent ne leur est donné</l>
+            <l ana="#argent">Les soldats ne sont point contens</l>
+            <l n="108" ana="#argent">Si argent ne leur est donné</l>
             <l>Cela est tresmal ordonné</l>
             <l>Je ne scay que le monde pense</l>
             <!-- Saut#33 --><anchor type="saut#33"/>
@@ -289,9 +294,10 @@
             <l>Que je cognois parmy le monde</l>
             <l>Je luy ruerois de ma fronde</l>
             <!-- Saut#36 -->
-            <l n="120">Chascun pense à son profit</l>
-            <l>Tout ce que Dieu en terre fist.</l>
-            <pb/>
+            <l n="120">Chascun pense à son profit</l><note resp="editor" type="crit">cf. <hi
+                  rend="italic">supra</hi> le vers 1, lui aussi hypométrique.</note>
+            <l>Tout ce que <persName>Dieu</persName> en terre fist.</l>
+            <pb n="2v°"/>
             <!-- Saut#37 --><anchor type="saut37"/>
             <l>Dezen trepi de la cova</l>
             <l>Se ne son bin arreva</l>
