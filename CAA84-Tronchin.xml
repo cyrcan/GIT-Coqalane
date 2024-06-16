@@ -72,7 +72,7 @@
                <interp xml:id="vin">vin, vigne</interp>
                <interp xml:id="corps">Du corps</interp>
                <interp xml:id="sagesse">sagesse</interp>
-               <interp xml:id="occasion"/>
+               <interp xml:id="occasion">occasion</interp>
             </interpGrp></p>
       </encodingDesc>
    </teiHeader>
@@ -316,7 +316,7 @@
             <!-- Saut#41 --><anchor type="saut#41"/>
             <l>On n'hante gueres les moustiers</l>
             <l>Je ne scay que cela veut dire</l>
-            <l>Je croy que Dieu veut en son ire</l>
+            <l>Je croy que <persName>Dieu</persName> veut en son ire</l>
             <l n="136">Punir des humains les meffaits</l>
             <!-- Saut#42 --><anchor type="saut#42"/>
             <l>Les advocats sont bien refaits</l>
@@ -353,8 +353,8 @@
             <l><reg>L'on</reg> boyroit du vin de <placeName type="region" key="Bourgogne"
                   >Bourgogne</placeName></l>
             <!-- Saut#48 --><anchor type="saut#48"/>
-            <l>Un homme qui seroit tout borgne</l><note resp="editor" type="crit">Au moins un vers
-               semble manquant entre celui-ci et le vers 160.</note>
+            <l>Un homme qui seroit tout borgne</l><note resp="editor" type="crit">Au moins deux vers
+               semblent manquer entre celui-ci et le vers 160.</note>
             <pb n=""/>
             <fw type="pageNum" place="top-right">7</fw>
             <l n="160">Il en est temps, <!-- Saut#49 --><anchor type="saut#49"/> mais les
