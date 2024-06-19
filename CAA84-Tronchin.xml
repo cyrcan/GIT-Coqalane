@@ -195,42 +195,43 @@
             <l n="48" ana="#g_civ">Que <placeName type="city" key="La Rochelle">la
                   Rochelle</placeName> ne fust prise</l><note resp="editor" type="crit">Terminus a
                quo : le siège de La Rochelle en 1573.</note>
-            <l>Et ce ROI qui est pretendu</l>
+            <l>Et ce ROI qui est pretendu</l><note resp="editor" type="glose">On pense en premier lieu à Henri de Navarre.</note>
             <l>A ses rets et filez tendu</l>
-            <l>Pour un gros <rs type="poisson">poisson</rs> attraper</l>
+            <l>Pour un gros <rs type="poisson">poisson</rs> attraper</l><note resp="editor" type="glose">Le royaume de France.</note>
             <!-- Saut#14 --><anchor type="saut#14"/>
             <l n="52" ana="#sit_pol">Je ne veux mon aureile couper</l>
             <l ana="#sit_pol">S'ils firent jamais tels traités</l>
             <l ana="#sit_pol">Sinon par accords arrestés</l>
-            <l>Avec celle fiere pucelle</l><!-- Qui? -->
+            <l>Avec celle fiere pucelle</l><note resp="editor" type="glose">Elisabeth Iere?</note>
             <!-- Saut#15 --><anchor type="saut#15"/>
             <l n="56">Un <rs type="animal" subtype="équidé">cheval</rs> qui ha double selle</l>
             <l>N'est pas mal fourny ce me semble</l>
             <!-- Saut#16 --><anchor type="saut#16"/>
             <l>Les medecins sont tous ensemble</l>
-            <l>Qui consultent la maladie</l><!-- Celle de Charles IX? -->
+            <l>Qui consultent la maladie</l>
             <l n="60">Et <persName><expan>Monseigneur</expan> de Normandie</persName></l><note
                resp="editor" type="glose"/>
             <l>Fait bien du brave <reg>là</reg> dedans</l>
+            <!-- Saut#17 --><anchor type="saut#17"/>
             <l>Je doute que le mal des dens</l>
             <l>Ne pullule bien ceste année</l>
-            <!-- Saut#17 --><anchor type="saut#17"/>
+            <!-- Saut#18 --><anchor type="saut#18"/>
             <l n="64" ana="#vin"><persName>Dieu</persName> nous doint donc belle vinée</l>
             <l ana="#corps">Si <reg>l'on</reg> se regle par compas</l>
             <l ana="#bien_vivre">Aux grands jours on fait trois repas</l>
             <l ana="#corps">En faisant honneste exercice</l>
-            <!-- Saut#18 --><anchor type="saut#18"/>
+            <!-- Saut#19 --><anchor type="saut#19"/>
             <l n="68">Je voudrois <unclear>hacher dur</unclear> saucisse</l>
             <l>Avant que d'entrer en Caresme</l>
             <l>Ce fust <expan>Monsieur</expan>
                <persName>Sarriou</persName> luy mesme</l>
             <l>Qui fist ceste belle sailie</l>
-            <!-- Saut#19 --><anchor type="saut#19"/>
+            <!-- Saut#20 --><anchor type="saut#20"/>
             <l n="72">La beste sera assailie</l>
             <l>Plus dextrement que du passé</l>
             <l ana="#lâcheté">Tous les couars seront cassés</l>
             <l ana="#occasion">S'ils ne sautent dessus en croppe</l>
-            <!-- Saut#20 --><anchor type="saut#20"/>
+            <!-- Saut#21 --><anchor type="saut#21"/>
             <l n="76" ana="#gnomique">Tout le monde donne la coulpe</l>
             <l>A quelcun, chascun n'entend bien</l>
             <l>Or puis que nous scavons combien</l>
@@ -238,29 +239,29 @@
             <l n="80">En tous nos faits et entreprises</l>
             <l ana="#sagesse">Je croy qu'en deviendrons plus sages</l>
             <pb n="2"/><fw type="pageNum" place="top-right">6</fw>
-            <!-- Saut#21 --><anchor type="saut#21"/>
+            <!-- Saut#22 --><anchor type="saut#22"/>
             <fw type="pageNum" place="top-right">6</fw>
             <l><unclear>Verroit</unclear> bien que <reg>l'on</reg> ha faily</l>
             <l>Ha si on les eust assaily!</l>
             <l n="84">On ne seroit en telle pene</l>
-            <!-- Saut#22 --><anchor type="saut#22"/>
+            <!-- Saut#23 --><anchor type="saut#23"/>
             <l>Hau Crie, <persName>Martin</persName>, desgaine</l>
             <l>Et ne fais plus tant du mauvais</l>
-            <!-- Saut#23 --><anchor type="saut#23"/>
+            <!-- Saut#24 --><anchor type="saut#24"/>
             <l>Si nous estions à <placeName type="city" key="Saint-Gervais">S.
                Gervaix</placeName></l>
             <l n="88">Ce seroit bien une belle chose</l>
             <l>De cuilir en febvrier la rose</l>
             <l>Sans se piquer le bout des doits</l>
-            <!-- Saut#24 --><anchor type="saut#24"/>
+            <!-- Saut#25 --><anchor type="saut#25"/>
             <l>Je doibs plus que <reg>l'on</reg> ne me doibt</l>
             <l n="92">Qui ne <reg>m'est</reg> chose trop plaisante</l>
-            <!-- Saut#25 --><anchor type="saut#25"/>
+            <!-- Saut#26 --><anchor type="saut#26"/>
             <l><reg ana="#folie">L'un</reg> pleure icy et <reg>l'autre</reg> chante</l>
             <l ana="#folie">Le monde va en escrevisse</l><note resp="editor" type="crit">Cf. le
                coq-à-l'âne de "Brusquet à Ronsard": "Car le monde va au rebours / Aussy faict bien
                une escrevisse" (v. 214-215).</note>
-            <!-- Saut#26 --><anchor type="saut#26"/>
+            <!-- Saut#26 --><anchor type="saut#26"/><!-- Modifier le nombre de sauts -->
             <l><reg>Ô</reg> mon dieu la grande malice</l>
             <l n="96"><reg>Qu'il</reg> y a au cœur <reg>d'une</reg> femme</l>
             <!-- Saut#27 --><anchor type="saut#27"/>
