@@ -97,15 +97,16 @@
          <p>
             <pb n="1"
                facs="https://github.com/cyrcan/GIT-Coqalane/blob/main/Sources/Arch_Tronchin_Geneve/arch_tronchin_353_014_0009.jpg"/>
-               <fw type="pageNum" place="top-right">5</fw>
+            <fw type="pageNum" place="top-right">5</fw>
             <l>Que chascun <rs type="injonction" subtype="conseil">pense</rs> à son cas</l><note
                resp="editor" type="crit">Ce premier vers est hypométrique.</note>
             <l ana="#mtd">Je ne dis rien, <roleName>frere</roleName>
                <persName>Lucas</persName></l><note resp="editor" type="crit">Personnage non
-               identifié. Mais une frère Lucas apparaît dans les <title>Satyres chrestiennes de la
-                  cuisine papale</title>, Satyre II : "Dieux sçait si Frere Lucas / Desert joyeux le
-               benefice. / Brief, tous officiers font office / Pour tous ces triaculeux saincts.
-               C'est aussi sa première apparition dans le corpus des coq-à-l'âne.</note>
+               identifié. Mais ce personnage archétypal apparaît dans les <title>Satyres
+                  chrestiennes de la cuisine papale</title>, Satyre II : "Dieux sçait si Frere Lucas
+               / Desert joyeux le benefice. / Brief, tous officiers font office / Pour tous ces
+               triaculeux saincts. C'est aussi sa première apparition dans le corpus des
+               coq-à-l'âne.</note>
             <l>Arrivera en peu de temps</l>
             <l n="4">Et rendra ses amys contens.</l>
             <!-- Saut#1 --><anchor type="saut#1"/>
@@ -115,7 +116,7 @@
             <!-- Saut#2 --><anchor type="saut#2"/>
             <l ana="#topos">Apres <reg>l'hyver</reg> viendra <reg>l'esté</reg></l>
             <l n="8">Il sera grande quantité</l>
-            <l>De champignols en ceste année</l>
+            <l>De champignols en ceste année</l><!-- Mignons? cf. 1584 -->
             <!-- Saut#3 --><anchor type="saut#3"/>
             <l><rs type="injonction" subtype="impératif">Gardes</rs> nous une matinée</l>
             <l>Que vous n'hayés les innocens</l><note resp="editor" type="glose">Peut-être
@@ -141,9 +142,9 @@
             <l ana="#folie">Et chascun pense estre asses sage</l>
             <!-- Saut#7 --><anchor type="saut#7"/>
             <l>Jamais on ne vist tel mesnage</l>
-            <l>N'y tant de cuisiniers ensemble</l><note resp="editor" type="crit">On pense à nouveau
+            <l>Ny tant de cuisiniers ensemble</l><note resp="editor" type="crit">On pense à nouveau
                aux goinfres des<title>Satyres Chrestiennes de la cuisine papale</title>.</note>
-            <l n="20">A peu pres que la terre en tremble</l>
+            <l n="20">A peu pres que la terre en tremble</l><!-- janvier 1579? -->
             <l><roleName type="peuple">Toupinambaoults</roleName> et <roleName type="peuple"
                   >Margajeats</roleName></l><note resp="editor" type="crit">Noms de peuples du
                Brésil dont l'association est déjà présente chez D'Aubigné: "Là trois cens chevaux se
@@ -156,7 +157,7 @@
             <l>Mangeront jusques aux escuelles.</l>
             <!-- Saut#8 --><anchor type="saut#8"/>
             <l n="24">Tant de gens ont esté rebelles</l>
-            <l>A leur vray et naturel prince</l>
+            <l>A leur vray et naturel prince</l><!-- Trahison envers Henri III par le duc d'Anjou ou Henri IV? -->
             <l><reg>J'ay</reg> bien peur que cette province</l>
             <l><reg>N'en</reg> recoyve grand chastiment</l>
             <l n="28">Or j'havois pensé autrement</l>
@@ -191,7 +192,8 @@
             <l ana="#gnomique">Jamais les tyrans n'hont assés</l>
             <l ana="#gnomique">Ce fust bien folle entreprise</l>
             <l n="48" ana="#g_civ">Que <placeName type="city" key="La Rochelle">la
-                  Rochelle</placeName> ne fust prise</l>
+                  Rochelle</placeName> ne fust prise</l><note resp="editor" type="crit">Terminus a
+               quo : le siège de La Rochelle en 1573.</note>
             <l>Et ce ROI qui est pretendu</l>
             <l>A ses rets et filez tendu</l>
             <l>Pour un gros <rs type="poisson">poisson</rs> attraper</l>
@@ -199,13 +201,13 @@
             <l n="52" ana="#sit_pol">Je ne veux mon aureile couper</l>
             <l ana="#sit_pol">S'ils firent jamais tels traités</l>
             <l ana="#sit_pol">Sinon par accords arrestés</l>
-            <l>Avec celle fiere pucelle</l>
+            <l>Avec celle fiere pucelle</l><!-- Qui? -->
             <!-- Saut#15 --><anchor type="saut#15"/>
             <l n="56">Un <rs type="animal" subtype="équidé">cheval</rs> qui ha double selle</l>
             <l>N'est pas mal fourny ce me semble</l>
             <!-- Saut#16 --><anchor type="saut#16"/>
             <l>Les medecins sont tous ensemble</l>
-            <l>Qui consultent la maladie</l>
+            <l>Qui consultent la maladie</l><!-- Celle de Charles IX? -->
             <l n="60">Et <persName><expan>Monseigneur</expan> de Normandie</persName></l><note
                resp="editor" type="glose"/>
             <l>Fait bien du brave <reg>là</reg> dedans</l>
@@ -334,8 +336,9 @@
             <l>Ne la gardera de souffrance</l>
             <l>Selon son condigne merite</l>
             <!-- Saut#45 --><anchor type="saut#45"/>
-            <l>Et le fils de la <persName>Marguerite</persName></l>
-            <l n="148">Y fera planter la croix blanche</l>
+            <l>Et le fils de la <persName>Marguerite</persName></l><!-- Marguerite de France? -->
+            <l n="148">Y fera planter la croix blanche</l><note resp="editor" type="glose">La croix
+               blanche des ducs de Savoie?</note>
             <l>Et lors dira Petter à <unclear>Lantze</unclear></l>
             <l>Et <reg>d'asticots</reg> et <reg>d'astipoche</reg></l>
             <note type="ling" resp="editor"><hi rend="italic">D'asticots</hi>: "Avec provocation",
@@ -348,7 +351,8 @@
             <l><reg>Ô</reg> mon dieu la fine moustarde!</l>
             <l><reg>L'armée</reg> des Reistres trop tarde</l>
             <l n="156"><reg>L'or</reg> du <placeName type="country" key="Pérou">Peru</placeName>
-               seroit tresbon</l><note resp="editor" type="glose">L'or du Pérou afflue en Europe depuis 1533 environ.</note>
+               seroit tresbon</l><note resp="editor" type="glose">L'or du Pérou afflue en Europe
+               depuis 1533 environ.</note>
             <l>Avec un restat de jambon</l>
             <l><reg>L'on</reg> boyroit du vin de <placeName type="region" key="Bourgogne"
                   >Bourgogne</placeName></l>
@@ -368,7 +372,8 @@
             <l>De ce grand monarque d'<placeName type="country" key="Espagne"
                >Espagne</placeName></l>
             <l>Une foys se met en campagne</l>
-            <l>On verra beau jeu à la Prime</l>
+            <l>On verra beau jeu à la Prime</l><note resp="editor" type="ling">Au printemps, tandis
+               que <hi rend="italic">Jouer à la prime</hi> signifie "prendre les devants" (Huguet). </note>
             <!-- Saut#52 --><anchor type="saut#52"/>
             <l n="168">A dieu vous dis plus je ne Rime</l>
             <l>Jusques à ce que Bachus retourne</l>
