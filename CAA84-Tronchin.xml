@@ -70,9 +70,10 @@
                <interp xml:id="gnomique">Parole gnomique</interp>
                <interp xml:id="g_civ">guerres civiles</interp>
                <interp xml:id="vin">vin, vigne</interp>
-               <interp xml:id="corps">Du corps</interp>
+               <interp xml:id="corps">du corps</interp>
                <interp xml:id="sagesse">sagesse</interp>
                <interp xml:id="occasion">occasion</interp>
+            <interp xml:id="action_divine">châtiment, récompense ou vengeance de Dieu</interp>
             </interpGrp></p>
       </encodingDesc>
    </teiHeader>
@@ -318,8 +319,8 @@
             <!-- Saut#41 --><anchor type="saut#41"/>
             <l>On n'hante gueres les moustiers</l>
             <l>Je ne scay que cela veut dire</l>
-            <l>Je croy que <persName>Dieu</persName> veut en son ire</l>
-            <l n="136">Punir des humains les meffaits</l>
+            <l ana="#action_divine">Je croy que <persName>Dieu</persName> veut en son ire</l>
+            <l n="136" ana="#action_divine">Punir des humains les meffaits</l>
             <!-- Saut#42 --><anchor type="saut#42"/>
             <l>Les advocats sont bien refaits</l>
             <l>Ils se portent bien à <expan>present</expan></l>
@@ -327,7 +328,7 @@
                <reg>n'ont</reg> tant de <expan>present</expan></l>
             <l n="140">Ainsi <reg>qu'ils</reg> souloyent du passé</l>
             <!-- Saut#43 --><anchor type="saut#43"/>
-            <l>Dieu a fait paix aux trespassés</l>
+            <l ana="#action_divine">Dieu a fait paix aux trespassés</l>
             <!-- Saut#44 --><anchor type="saut#44"/>
             <l>Celle qui tant s'est excellée</l>
             <l>Sera ce coup despucellée</l>
