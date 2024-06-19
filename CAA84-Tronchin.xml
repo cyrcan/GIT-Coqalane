@@ -56,6 +56,7 @@
                <interp xml:id="argent">argent et ressources financières</interp>
                <interp xml:id="bien_vivre">bien vivre</interp>
                <interp xml:id="ambition">ambition</interp>
+               <interp xml:id="corruption">corruption</interp>
                <interp xml:id="lâcheté">lâcheté</interp>
                <interp xml:id="trahison">trahison et sédition</interp>
                <interp xml:id="tromperie">tromperie</interp>
@@ -73,7 +74,9 @@
                <interp xml:id="corps">du corps</interp>
                <interp xml:id="sagesse">sagesse</interp>
                <interp xml:id="occasion">occasion</interp>
-            <interp xml:id="action_divine">châtiment, récompense ou vengeance de Dieu</interp>
+               <interp xml:id="action_divine">châtiment, récompense ou vengeance de Dieu</interp>
+               <interp xml:id="maladie">maladie</interp>
+            <interp xml:id="pronostication">pronostication</interp>
             </interpGrp></p>
       </encodingDesc>
    </teiHeader>
@@ -169,7 +172,8 @@
             <l n="32">Liffre Loffre est beau langage</l><note resp="editor" type="glose"/><note
                resp="editor" type="glose">Le parler suisse ou allemand.</note>
             <l>Mais, <hi rend="italic">Ma!</hi> et <hi rend="italic">Catzo</hi> ne sont
-               laids</l><note resp="editor" type="ling">"Mais!" et "Merde" en italien.</note>
+               laids</l><note resp="editor" type="ling">"Mais!" et "Merde" en italien. Le changement
+               d'une langue à l'autre au gré des armées d'occupation.</note>
             <!-- Saut#10 --><anchor type="saut#10"/>
             <l ana="#érotique">Je voudrois havoir mis le laict</l>
             <l ana="#érotique">A la fille de mon hostesse</l>
@@ -183,7 +187,7 @@
             <pb n="1v°"/>
             <l>Est tout corrompu à present</l>
             <!-- Saut#12 --><anchor type="saut#12"/>
-            <l><reg>J'en</reg> scay qui aiment les <expan>presens</expan></l>
+            <l ana="#corruption"><reg>J'en</reg> scay qui aiment les <expan>presens</expan></l>
             <l ana="#argent">Mais <reg>il[s]</reg>
                <reg>n'en</reg> viendront pas plus riches</l>
             <l n="44" ana="#gnomique"><reg>L'homme</reg> opulent qui est ciche</l><note
@@ -195,14 +199,17 @@
             <l n="48" ana="#g_civ">Que <placeName type="city" key="La Rochelle">la
                   Rochelle</placeName> ne fust prise</l><note resp="editor" type="crit">Terminus a
                quo : le siège de La Rochelle en 1573.</note>
-            <l>Et ce ROI qui est pretendu</l><note resp="editor" type="glose">On pense en premier lieu à Henri de Navarre.</note>
+            <l>Et ce ROI qui est pretendu</l><note resp="editor" type="glose">On pense en premier
+               lieu à Henri de Navarre.</note>
             <l>A ses rets et filez tendu</l>
-            <l>Pour un gros <rs type="poisson">poisson</rs> attraper</l><note resp="editor" type="glose">Le royaume de France.</note>
+            <l>Pour un gros <rs type="poisson">poisson</rs> attraper</l><note resp="editor"
+               type="glose">Le royaume de France.</note>
             <!-- Saut#14 --><anchor type="saut#14"/>
             <l n="52" ana="#sit_pol">Je ne veux mon aureile couper</l>
             <l ana="#sit_pol">S'ils firent jamais tels traités</l>
             <l ana="#sit_pol">Sinon par accords arrestés</l>
-            <l>Avec celle fiere pucelle</l><note resp="editor" type="glose">Elisabeth Iere?</note>
+            <l ana="#sit_pol">Avec celle fiere pucelle</l><note resp="editor" type="glose">Elisabeth
+               Iere?</note>
             <!-- Saut#15 --><anchor type="saut#15"/>
             <l n="56">Un <rs type="animal" subtype="équidé">cheval</rs> qui ha double selle</l>
             <l>N'est pas mal fourny ce me semble</l>
@@ -213,8 +220,8 @@
                resp="editor" type="glose"/>
             <l>Fait bien du brave <reg>là</reg> dedans</l>
             <!-- Saut#17 --><anchor type="saut#17"/>
-            <l>Je doute que le mal des dens</l>
-            <l>Ne pullule bien ceste année</l>
+            <l ana="#maladie">Je doute que le mal des dens</l>
+            <l ana="#maladie">Ne pullule bien ceste année</l>
             <!-- Saut#18 --><anchor type="saut#18"/>
             <l n="64" ana="#vin"><persName>Dieu</persName> nous doint donc belle vinée</l>
             <l ana="#corps">Si <reg>l'on</reg> se regle par compas</l>
@@ -225,10 +232,10 @@
             <l>Avant que d'entrer en Caresme</l>
             <l>Ce fust <expan>Monsieur</expan>
                <persName>Sarriou</persName> luy mesme</l>
-            <l>Qui fist ceste belle sailie</l>
+            <l ana="#ironie">Qui fist ceste belle sailie</l>
             <!-- Saut#20 --><anchor type="saut#20"/>
-            <l n="72">La beste sera assailie</l>
-            <l>Plus dextrement que du passé</l>
+            <l n="72" ana="#pronostication #mét_animale">La beste sera assailie</l>
+            <l ana="#g_civ">Plus dextrement que du passé</l>
             <l ana="#lâcheté">Tous les couars seront cassés</l>
             <l ana="#occasion">S'ils ne sautent dessus en croppe</l>
             <!-- Saut#21 --><anchor type="saut#21"/>
@@ -261,56 +268,56 @@
             <l ana="#folie">Le monde va en escrevisse</l><note resp="editor" type="crit">Cf. le
                coq-à-l'âne de "Brusquet à Ronsard": "Car le monde va au rebours / Aussy faict bien
                une escrevisse" (v. 214-215).</note>
-            <!-- Saut#26 --><anchor type="saut#26"/><!-- Modifier le nombre de sauts -->
+            <!-- Saut#27 --><anchor type="saut#27"/>
             <l><reg>Ô</reg> mon dieu la grande malice</l>
             <l n="96"><reg>Qu'il</reg> y a au cœur <reg>d'une</reg> femme</l>
-            <!-- Saut#27 --><anchor type="saut#27"/>
+            <!-- Saut#28 --><anchor type="saut#28"/>
             <l>Ma foy le soldat est infame</l>
             <l>Qui vire renie et fourrage</l>
-            <!-- Saut#28 --><anchor type="saut#28"/>
+            <!-- Saut#29 --><anchor type="saut#29"/>
             <l>Et puis les Argoulets font rage</l>
             <l n="100">Ils sont tous devenus <rs type="animal">renards</rs></l>
-            <!-- Saut#29 --><anchor type="saut#29"/>
+            <!-- Saut#30 --><anchor type="saut#30"/>
             <l>Bons seront les jeunes <rs type="animal">canards</rs></l>
             <l>Avec la sauce à la poivrée</l>
-            <!-- Saut#30 --><anchor type="saut#30"/>
+            <!-- Saut#31 --><anchor type="saut#31"/>
             <l>Ma jaquette est ennyvrée</l>
             <!-- vers hypométrique -->
             <l n="104">Et ne peut plus jaser en cage</l>
-            <!-- Saut#31 --><anchor type="saut#31"/>
+            <!-- Saut#32 --><anchor type="saut#32"/>
             <l>Mais n'est ce pas bien grand dommage</l>
             <l>D'havoir ainsi perdu le temps</l>
-            <!-- Saut#32 --><anchor type="saut#32"/>
+            <!-- Saut#33 --><anchor type="saut#33"/>
             <l ana="#argent">Les soldats ne sont point contens</l>
             <l n="108" ana="#argent">Si argent ne leur est donné</l>
             <l>Cela est tresmal ordonné</l>
             <l>Je ne scay que le monde pense</l>
-            <!-- Saut#33 --><anchor type="saut#33"/>
+            <!-- Saut#34 --><anchor type="saut#34"/>
             <l>Mais <reg>où</reg> sera la recompense</l>
             <l n="112">A tant de gens qui sont ruinés</l>
             <l>Plusieurs <reg>s'en</reg> prennent par le nez</l>
             <l>Il est bien tard, allons nous boyre</l>
-            <!-- Saut#34 --><anchor type="saut#34"/>
+            <!-- Saut#35 --><anchor type="saut#35"/>
             <l>Celuy qui en dieu ne veut croire</l>
             <l n="116">Est du tout pervers et meschant</l>
-            <!-- Saut#35 --><anchor type="saut#35"/>
+            <!-- Saut#36 --><anchor type="saut#36"/>
             <l>Si je rencontrois un marchand</l>
             <l>Que je cognois parmy le monde</l>
             <l>Je luy ruerois de ma fronde</l>
-            <!-- Saut#36 -->
+            <!-- Saut#37 --><anchor type="saut#37"/>
             <l n="120">Chascun pense à son profit</l><note resp="editor" type="crit">cf. <hi
                   rend="italic">supra</hi> le vers 1, lui aussi hypométrique.</note>
             <l>Tout ce que <persName>Dieu</persName> en terre fist.</l>
             <pb n="2v°"/>
-            <!-- Saut#37 --><anchor type="saut37"/>
+            <!-- Saut#38 --><anchor type="saut38"/>
             <l>Dezen trepi de la cova</l>
             <l>Se ne son bin arreva</l>
-            <!-- Saut#38 --><anchor type="saut#38"/>
+            <!-- Saut#39 --><anchor type="saut#39"/>
             <l n="124">Gara damou, gara davo</l>
             <l>Gara tot le pay de Vo</l>
             <l>Gara desay gara delay</l>
             <l>Gara bin tost le lon du Lay</l>
-            <!-- Saut#39 --><anchor type="saut#39"/>
+            <!-- Saut#40 --><anchor type="saut#40"/><!-- Modifier le nombre de sauts -->
             <l n="128">Par dey fo manda à Messiou</l>
             <l>Mai ma fey y nesson de pou</l>
             <!-- Saut#40 --><anchor type="saut#40"/>
@@ -369,14 +376,14 @@
                   Cluse</placeName></l>
             <l>Se doivent garder <!-- Saut#50 --><anchor type="saut#50"/><reg>l'on</reg> accuse</l>
             <l>Plusieurs gens <reg>d'infidelité</reg></l>
-            <!-- Saut#51 --><anchor type="saut#50"/>
+            <!-- Saut#52 --><anchor type="saut#50"/>
             <l n="164">Si la royale majesté</l>
             <l>De ce grand monarque d'<placeName type="country" key="Espagne"
                >Espagne</placeName></l>
             <l>Une foys se met en campagne</l>
             <l>On verra beau jeu à la Prime</l><note resp="editor" type="ling">Au printemps, tandis
                que <hi rend="italic">Jouer à la prime</hi> signifie "prendre les devants" (Huguet). </note>
-            <!-- Saut#52 --><anchor type="saut#52"/>
+            <!-- Saut#53 --><anchor type="saut#53"/>
             <l n="168">A dieu vous dis plus je ne Rime</l>
             <l>Jusques à ce que Bachus retourne</l>
             <l>Qui son chef de Cambrusces atourne</l>
