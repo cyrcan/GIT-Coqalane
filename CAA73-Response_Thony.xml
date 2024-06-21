@@ -3,7 +3,7 @@
 <?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
-      <fileDesc xml:id="CAA73-Response_Thony">
+      <fileDesc xml:id="CAA73-R_Thony">
          <titleStmt>
             <title>Responce de Thoni</title>
          </titleStmt>
