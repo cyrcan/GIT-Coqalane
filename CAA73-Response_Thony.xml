@@ -1,20 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
-      <fileDesc>
+      <fileDesc xml:id="CAA73-Response_Thony">
          <titleStmt>
-            <title>Title</title>
+            <title>Responce de Thoni</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>La réponse de Thoni (que certains critiques ont voulu identifier à Baïf) est connue à
+               partir de quatre manuscrits. Les mss. 6678 et 6688 de la collection Rasse des Neux
+               qui ont donné lieu à la publication de Gilbert Schrenck chez Droz en 2005 (Tome V du
+               registre-journal), le ms. 172 de la Bibliothèque du Protestantisme français et le ms.
+               22564 de la BnF. Les variantes des premiers sont ici indiquées en notes, le ms. 172
+               ne livre que les cent premiers vers. Notre exemplaire de 150 vers est ici le plus
+               long. Il faut également confronter cette version avec celle imprimée en 1589.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p><listWit>
+                  <witness xml:id="fr6678"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris</settlement>
+                           <institution>Bibliothèque nationale de France</institution>
+                           <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
+                           <collection>Papiers de Pierre de L'Estoile</collection>
+                           <idno>6678</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+
+                  <witness xml:id="fr6688"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris</settlement>
+                           <institution>Bibliothèque nationale de France</institution>
+                           <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
+                           <collection>Papiers de Pierre de L'Estoile</collection>
+                           <idno>6688</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+
+                  <witness xml:id="fr22564"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris</settlement>
+                           <institution>Bibliothèque nationale de France</institution>
+                           <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
+                           <collection>Recueil Rasse des Neux</collection>
+                           <idno>22564</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness xml:id="BPF172"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris</settlement>
+                           <institution>Société du Protestantisme Français</institution>
+                           <repository>Bibliothèque du Protestantisme français<geo>48.8588897
+                                 2.320041</geo></repository>
+                           <idno>172</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+               </listWit>
+            </p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
+            </prefixDef>
+            <prefixDef ident="etiq" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Etiq.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "etiq:" pointent vers le Fichier des
+                  étiquettes du projet</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
    </teiHeader>
    <text>
       <body>
@@ -28,78 +97,246 @@
             </msDesc>
          </listBibl>
          <p>
-            <l>J'ay fort <expan>contenté</expan> mon esprit</l>
-            <l><persName type="destinataire">Arnault</persName> en lysant ton escrit</l>
+            <l ana="etiq:adr">J'ay fort <expan>contenté</expan> mon esprit</l>
+            <l ana="etiq:adr"><persName type="destinataire">Arnault</persName> en lysant ton
+               escrit</l>
             <l><reg>Où</reg> j'ay apprins maintes nouvelles</l>
             <l n="4">Mais je t'en diray de plus belles</l>
             <l>Nous avons à ce coup la paix</l>
             <l>Pour faire la guerre à jamais</l>
             <l>Du moins pour toute nostre vie</l>
+            <!-- Saut#1 --><anchor type="saut#1"/>
             <l n="8">Par mon ame il a grand' envye</l>
-            <l>De porter le lys au chappeau</l>
+            <l>De porter le lys au chappeau</l><note resp="editor" type="glose">Le Cardinal de
+               Bourbon que les Guises voulaient voir succéder à Henri III.</note>
+            <!-- Saut#2 --><anchor type="saut#2"/>
             <l>On prend aujourd'huy le manteau</l>
             <l>Puis le pourpoint puis la chemise</l>
-            <l n="12">Quant à <placeName><settlement type="city" key="La Rochelle">la
-                     Rochelle</settlement></placeName> elle est prise</l>
+            <!-- Saut#3 --><anchor type="saut#3"/>
+            <l n="12">Quant à <placeName type="city" key="La Rochelle">la Rochelle</placeName> elle
+               est prise</l>
             <l>Car les <orgName type="secte">Huguenots</orgName> sont dedans</l>
+            <!-- Saut#4 --><anchor type="saut#4"/>
             <l>Voycy venir les <orgName type="peuple">Allemans</orgName></l>
             <l>Pour ayder à faire vendange</l>
-            <l n="16">Nous n'avons pas perdu au <expan>change</expan></l>
-            <l>Pour un <roleName>Roy</roleName> nous en avons huict</l>
+            <!-- Saut#5 --><anchor type="saut#5"/>
+            <l n="16" ana="#ironie">Nous n'avons pas perdu au <expan>change</expan></l>
+            <l>Pour un <roleName>Roy</roleName> nous en avons huict</l><note type="glose">Les
+               princes de la maison de Lorraine.</note>
+            <!-- Saut#6 --><anchor type="saut#6"/>
             <l>Il fut sacré en une nuict</l>
             <l>Le Roy de la sanglante ligue</l>
-            <l n="20">L'on se plaint d'un qui est prodigue</l>
-            <l>Mais il donne ce qu'il n'a pas</l>
+            <!-- Saut#7 --><anchor type="saut#7"/>
+            <l n="20" ana="#sat_pers">L'on se plaint d'un qui est prodigue</l><note resp="editor"
+               type="glose"><persName ref="ind:Henri_III" key="Henri III">Henri III</persName> était
+               critiqué pour sa prodigalité.</note>
+            <l ana="etiq:sat_pers">Mais il donne ce qu'il n'a pas</l><note resp="editor"
+               type="glose">Le duc de Guise promet la couronne au Cardinal de Bourbon.</note>
+            <!-- Saut#8 --><anchor type="saut#8"/>
             <l>Elle estoit fort pres du trespas</l>
             <l>Sans de <persName>Myron</persName> la medecine</l>
+            <!-- Saut#9 --><anchor type="saut#9"/>
             <l n="24">Ne vous fiez pas à la mine</l>
             <l>On veult Bourbon <expan>dementeller</expan></l>
             <pb n="143v"/>
             <cb n="L"/>
+            <!-- Saut#10 --><anchor type="saut#10"/>
             <l>Il faut sur la frontiere aller</l>
             <l>Pour coupper le passage au[x] <orgName type="soldats">Reistres</orgName></l>
+            <!-- Saut#11 --><anchor type="saut#11"/>
             <l n="28">Mon Dieu que nous <expan>mengerons</expan> d'huystres</l>
-            <l><rs type="locution">Si nous vivons encor' un an</rs></l>
-            <l>La belle Venus &amp; Vulcain</l>
-            <l>Seront pour la ligue en <placeName><settlement type="region" key="Guyenne">Guienne</settlement></placeName></l>
+            <l><rs type="locution">Si nous vivons encor' un an</rs></l><note resp="editor"
+               type="crit">Topos.</note>
+            <!-- Saut#12 --><anchor type="saut#12"/>
+            <l>La belle <persName>Venus</persName> &amp; <persName>Vulcain</persName></l>
+            <l>Seront pour la ligue en <placeName type="region" key="Guyenne"
+               >Guienne</placeName></l>
+            <!-- Saut#13 --><anchor type="saut#13"/>
             <l n="32">La paix estoit trop ancienne</l>
             <l>Le serment estoit suranné</l>
+            <!-- Saut#14 --><anchor type="saut#14"/>
             <l>Par la mort bieu tu es damné</l>
             <l><rs type="injonction" subtype="impératif">Va</rs> de par le Diable à la Messe</l>
+            <!-- Saut#15 --><anchor type="saut#15"/>
             <l n="36">Il faut ruyner la Noblesse</l>
             <l>Pour mettre l'Estat à l'Envers</l>
+            <!-- Saut#16 --><anchor type="saut#16"/>
             <l>Tesmoin le bon <persName>Duc de Nevers</persName></l>
             <l>Qui en a dit sa rattellée</l>
+            <!-- Saut#17 --><anchor type="saut#17"/>
             <l n="40">Puis que la Carte est si meslée</l>
             <l><seg type="jeu">Le jeu ne sera sans hazard</seg></l>
+            <!-- Saut#18 --><anchor type="saut#18"/>
             <l>Je tiendroy le party guysard</l>
-            <l>Si j'avoy l'Ame Castillane</l>
-            <l n="44">Qui n'a voyagé en <placeName><settlement type="region" key="Toscane">Toscagne</settlement></placeName></l>
-            <l>Ne peult trahir accortement</l>
+            <l>Si j'avoy l'Ame Castillane</l><!-- cf. L'Asnesse à la Poulle (CAA#76) -->
+            <!-- Saut#19 --><anchor type="saut#19"/>
+            <l n="44" ana="etiq:satire">Qui n'a voyagé en <placeName type="region" key="Toscane"
+                  >Toscagne</placeName></l>
+            <l ana="etiq:lâcheté">Ne peult trahir <app>
+                  <lem wit="#fr22564">accortement</lem>
+                  <rdg wit="#BPF172">à contrecœur</rdg>
+               </app></l><note resp="editor" type="ling"><hi rend="italic">Accortement</hi>: "D'une
+               manière avisée, habile, avec esprit, avec ruse", Huguet.</note>
+            <!-- Saut#20 --><anchor type="saut#20"/>
             <l>N'est ce pas un grand changement</l>
-            <l>De voir les <roleName>Presidents</roleName> <roleName>Gendarmes</roleName></l>
+            <l>De voir les <roleName>Presidents</roleName>
+               <roleName>Gendarmes</roleName></l>
+            <!-- Saut#21 --><anchor type="saut#21"/>
             <l n="48">Il est fort à dextre aux armes</l>
-            <l><expan>Monsieur</expan> le <roleName>President</roleName> <persName>Charlet</persName></l>
+            <l><expan>Monsieur</expan> le <roleName>President</roleName><!-- Cf. note in Leber -->
+               <persName>Charlet</persName></l>
             <l>Quand il est dessus son <rs type="animal" subtype="équidé">mulet</rs></l>
             <l>Il me souvient du grand <persName>Pompée</persName></l>
+            <!-- Saut#22 --><anchor type="saut#22"/>
             <l n="52">Ô mon amy la bonne espée</l>
             <l>Que le <roleName>president</roleName> de <persName>Nulli</persName></l>
-            <l>Mais où est le pauvre <persName>Avrilly</persName></l>
-            <l>Qui ? Jarnaques &amp; <placeName><settlement type="city">La Chastre</settlement></placeName></l>
+            <!-- Saut#23 --><anchor type="saut#23"/>
+            <l>Mais où est le pauvre <persName>Aurilly</persName></l>
+            <l>Quinse Jarnaques &amp; <placeName type="city">La Chastre</placeName></l>
             <l n="56">Le bon homme a fait le follastre</l>
             <l>C'est un saint sanglant enligué</l>
             <l>On luy a fait sonder le gué</l>
             <l>Pour puis apres joindre le Reste</l>
+            <!-- Saut#24 --><anchor type="saut#24"/>
             <l n="60">Les <orgName type="peuple">Picards</orgName> presentent requeste</l>
             <l>Tendants à ravoir leurs faulcheurs</l>
             <l>Qui sont au camp de ces ligueurs</l>
-            <l>A la suytte du Roy d'<persName>Aumalle</persName></l>
+            <l><reg>À</reg> la suytte du Roy d'<persName>Aumalle</persName></l>
             <l n="64">Pour prendre le Ciel par eschalle</l>
             <l>À force de renier <persName>Dieu</persName></l>
-            <l>Leur saincteté a fait un veu</l>
+            <l><app>
+                  <lem wit="#fr22564">Leur</lem>
+                  <rdg wit="#BPF172">Cueur</rdg>
+               </app> saincteté a fait un veu</l>
             <cb n="R"/>
-            
-            
+            <l>De maintenir la <app>
+                  <lem wit="#fr22564">gourmandaille</lem>
+                  <rdg wit="#BPF172">grimandaye</rdg>
+               </app></l>
+            <!-- Saut#25 --><anchor type="saut#25"/>
+            <l n="68">Pour bien parler d'une bataille</l>
+            <l>Il s'en faut tenir à l'escart</l>
+            <!-- Saut#26 --><anchor type="saut#26"/>
+            <l><persName>Versoris</persName>, <persName>Fontenay</persName>,
+                  <persName>Chippart</persName></l><note resp="editor" type="glose">Trois avocats
+               ligueurs.</note>
+            <l>Sont tous bons soldats de la picque</l>
+            <!-- Saut#27 --><anchor type="saut#27"/>
+            <l n="72">Qui a du bien est hereticque</l>
+            <l>Ou à tout le moins huguenot</l>
+            <!-- Saut#28 --><anchor type="saut#28"/>
+            <l>Tel pourra payer cest escot</l>
+            <l>Qui n'est que debout à la table</l>
+            <!-- Saut#29 --><anchor type="saut#29"/>
+            <l n="76">Il vouldra estre connestable</l><note resp="editor" type="glose">Probablement
+               le duc de Guise.</note>
+            <l>S'il ne peult estre couronné</l>
+            <!-- Saut#30 --><anchor type="saut#30"/>
+            <l><persName>Arnauld</persName> si <persName>Dieu</persName> avoit donné</l>
+            <l>Un beau petit filz à la Reine</l>
+            <l n="80">Tous ces roytelets de Lorraine</l>
+            <l>Auroyent esprit &amp; cœur perdu</l>
+            <!-- Saut#31 --><anchor type="saut#31"/>
+            <l>Il fut à un gibet pendu</l>
+            <l>Le consul qui vendoit <placeName type="city" key="Marseille"
+               >Marseille</placeName></l>
+            <!-- Saut#32 --><anchor type="saut#32"/>
+            <l n="84">Tel fait de l'Endormy qui veille</l><note resp="editor" type="crit">On pense à
+               la figure de Guillot déjà associé à...</note>
+            <l>Je m'en rapporte au <addName key="Henri de Navarre">Bearnois</addName></l>
+            <!-- Saut#33 --><anchor type="saut#33"/>
+            <l>Nous avons encor <expan>quelques</expan> moys</l>
+            <l>Pour appeller de la sentence</l>
+            <!-- Saut#34 --><anchor type="saut#34"/>
+            <l n="88">L'on veult regler la conscience</l>
+            <l>Et les sainctes loix du Senat</l>
+            <l>Par l'insolence du soldat</l>
+            <l>N'est ce pas un moyen fort propre</l>
+            <!-- Saut#35 --><anchor type="saut#35"/>
+            <l n="92"><reg>L'on</reg> a dementy &amp; fait offre</l>
+            <l>De combattre ce grand ligueur</l>
+            <l>Il sera du Roy le tuteur</l>
+            <l>Si on consent à sa demande</l>
+            <!-- Saut#36 --><anchor type="saut#36"/>
+            <l n="96">Prenez bien garde à la viande</l>
+            <l>Souvenez vous des trespassez</l>
+            <!-- Saut#37 --><anchor type="saut#37"/>
+            <l>Mais pourquoy sont ils dispensez</l>
+            <l><app>
+                  <lem wit="#fr22564"><reg>À</reg></lem>
+                  <rdg wit="#BPF172">De</rdg>
+               </app> piller sans que rien eschappe</l>
+            <l n="100">Ce sont les francs taulpins du Pappe</l><note resp="editor" type="ling"><hi
+                  rend="italic">Franctaupin</hi>: "Soldat des milices rurales instituées sous
+               Charles VII et supprimées sous Louis XII", Huguet.</note>
+            <l ana="etiq:indulgences">Ils ont bon marché de Pardons</l><note resp="editor"
+               type="crit">Le manuscrit 172 de la Bibliothèque du protestantisme français s'arrête
+               sur ce vers.</note>
+            <!-- Saut#38 --><anchor type="saut#38"/>
+            <l><persName type="destinataire">Arnauld</persName> qui sauve les Lardons</l>
+            <l>Ne perd pas tout ce qu'il projette</l>
+            <l n="104">Encor' qu'au Bec on ne luy mette</l>
+            <l>Assez de quoy sa faim saouller</l>
+            <!-- Saut#39 --><anchor type="saut#39"/>
+            <l>L'un a place assez pour <rs type="jeu">bouller</rs></l>
+            <l>Et <rs type="jeu">pallemailler</rs> à son ayse</l>
+            <l n="108">Depuis la <placeName>plaine Chalonnoyse</placeName></l>
+            <l>Jusques à <placeName type="city">Thion</placeName> &amp; à <placeName type="city"
+                  key="Verdun">Verdun</placeName></l>
+            <l>De <placeName type="city" key="Saint-Dizier">St Dizier</placeName> à <placeName
+                  type="city" key="Châteaudun">Chasteaudun</placeName></l>
+            <l>Le chemin est plus long d'une aulne</l>
+            <pb n="145"/><fw>145</fw><cb n="L"/>
+            <l n="112">Mais de <placeName type="city" key="Dijon">Dijon</placeName> jusques à
+                  <placeName type="city" key="Beaune">Beaulne</placeName></l>
+            <l>L'autre se pourra se proumener</l>
+            <l>Sans plus grande garde mener</l>
+            <l>Que ses ordinaires escortes</l>
+            <!-- Saut#40 --><anchor type="saut#40"/>
+            <l n="116">Touque' &amp; <placeName type="city" key="Dinan">Dinan</placeName> sont
+               villes fortes</l>
+            <l>Pour faire revenir le cueur</l>
+            <l><reg>À</reg> ce vaillant roy de <persName>Mercueur</persName></l>
+            <l>Qui fuit devant à petit prince</l>
+            <!-- Saut#41 --><anchor type="saut#41"/>
+            <l n="120">Si la <placeName>Bourbonnaise Province</placeName></l>
+            <l>Est subjette au Roy d'<persName>Allebeuf</persName></l>
+            <l>On n'y mengera plus de bœuf</l>
+            <l>Et d'oison que de chair <expan>friande</expan></l>
+            <!-- Saut#42 --><anchor type="saut#42"/>
+            <l n="124">Le Roy d'<persName>Aumalle</persName> ne demande</l>
+            <l>Que des <rs type="animal" subtype="oiseau">pigeons</rs> pour son disner</l>
+            <l>Pour ce s'est il fait assigner</l>
+            <l>Le St Esprit pour son partage</l>
+            <l n="128">Mais ce n'est pas riche heritage</l>
+            <l>Ne pour faire grandes moissons</l>
+            <l>Que de la ville de <placeName type="city" key="Soissons">Soissons</placeName></l>
+            <l>Dont se <expan>contente</expan> ce bon homme</l>
+            <l n="132">Qui ne vouldroit <unclear>moindrir</unclear> la pomme</l>
+            <l>Du <unclear>revenu</unclear> que sa sœur tient</l>
+            <l>Là son nepveu appartient</l>
+            <l>Pour l'une &amp; pour l'autre <expan>couronne</expan></l>
+            <l n="136">Que Henry &amp; Xyste Couronne</l>
+            <l>Bien qu'on les luy donnast gratis</l>
+            <!-- Saut#43 --><anchor type="saut#43"/>
+            <l>Plus gras sont les Romains pastis</l>
+            <l>Pour les ouëilles du st père</l>
+            <l n="140">Que ceux du Genevois repaire</l>
+            <l>Pour le Catholique trouppeau</l>
+            <l>Le Guysard en aura la peau</l>
+            <l>S'il ne peult jusqu'à la chair mordre</l>
+            <!-- Saut#44 --><anchor type="saut#44"/>
+            <l n="144">Si le <addName key="Henri de Navarre">Navarroys</addName> n'y donne ordre</l>
+            <l>Il est en fort mauvais party</l>
+            <!-- Saut#45 --><anchor type="saut#45"/>
+            <l>Or de tout tu es adverty</l>
+            <l>Que j'ay peu à <placeName type="city" key="Paris">Paris</placeName>
+               <expan>apprendre</expan></l>
+            <l n="148">Je te prie me faire entendre</l>
+            <l>L'Estat de ce camp ennemy</l>
+            <l>A Dieu <persName type="destinataire">Arnault</persName>
+               <expan>mon</expan> bon Amy.</l>
+            <fw>1585</fw>
          </p>
       </body>
    </text>
