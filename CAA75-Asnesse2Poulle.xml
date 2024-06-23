@@ -180,7 +180,7 @@
             <l>Vous aurés force Fruits nouveaux.</l>
             <!-- Saut#11 -->
             <l>Si <reg>j'estoy'</reg> Evesque de <placeName type="city" key="Meaux"
-                  >Meaux</placeName>,</l>
+                  >Meaux</placeName>,</l><note resp="editor" type="glose">Louis de Brezé</note>
             <l><reg>J</reg>'en vivroy' bien mieux à mon aise.</l>
             <!-- Saut#12 --><anchor type="saut#12"/>
             <l n="60">Un beau Collet à longue fraize</l>
@@ -212,17 +212,20 @@
             <l>De mourir en Enfantement?</l>
             <l n="76">Car elle eut veu le <expan>Vestement</expan></l>
             <l>De son Mari Chef de <reg>Justice</reg>.</l>
+            <!-- Saut#18 --><anchor type="saut#18"/>
             <l>Si le <reg>Juge</reg> fuit L'avarice</l>
             <l>Son <reg>Jugement</reg> en est plus droict.</l>
+            <!-- Saut#19 --><anchor type="saut#19"/>
             <l n="80">Qui de L'argent <expan>demanderoit</expan></l>
-            <l>À Believre perdroit sa Peine.</l>
+            <l>À <persName ref="ind:Bellièvre" key="Bellièvre">Believre</persName> perdroit sa Peine.</l>
             <l>En temps d'hiver une Mitaine</l>
             <l>Tient bien la <expan>main</expan> plus chaudement.</l>
+            <!-- Saut#20 -->
             <l n="84">Qui veut parler plus librement</l>
             <l>Du S. Ordre de Hieronime,</l>
             <l>Et de la tant secrette mine,</l>
             <l>Qu'il se <expan>souvienne</expan> du fort lieu</l>
-            <l n="88">Ou va presider <persName>Richelieu</persName>.</l>
+            <l n="88"><reg>Où</reg> va presider <persName>Richelieu</persName>.</l>
             <l>Un beau Vermeil Bouton de Rose</l>
             <l>Sent aussi bon que de L'eau Rose,</l>
             <l>Aussi fait bien la Fleur de Lis.</l>
