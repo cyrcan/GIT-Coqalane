@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc xml:id="Asnesse2Poulle">
+         <titleStmt>
+            <title>L'Asnesse à la Poulle</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><listWit>
+                  <witness xml:id="fr6678"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris</settlement>
+                           <institution>Bibliothèque nationale de France</institution>
+                           <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
+                           <collection>Papiers de Pierre de L'Estoile</collection>
+                           <idno>6678</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+               </listWit></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p>
+            <interpGrp>
+               <interp xml:id="adr" ana="adresse">adresse</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:id="topos" ana="topos">lieu commun</interp>
+               <interp xml:id="gén" ana="généralisation">généralisation</interp>
+               <interp xml:id="ironie" ana="ironie">ironie</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="actu" ana="actualité">actualité</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+               <interp xml:id="satire" ana="satire_générale">satire générale</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+               <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+               <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+               <interp xml:id="massacre" ana="massacre">massacre</interp>
+               <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+               <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+               <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+               <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+               <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+               <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+               <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+               <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               <interp xml:id="prudence" ana="prudence">appel à la prudence</interp>
+               <interp xml:id="court" ana="court">vie de la court</interp>
+               <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+               <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+               <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="corps" ana="corps">corps</interp>
+               <interp xml:id="violences" ana="violences">guerres civiles</interp>
+               <interp xml:id="pillage-s" ana="pillages">Vol, pillages</interp>
+               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+               <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+               <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+               <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+               <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+               <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+            </interpGrp>
+         </p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><pb n="277v"/><l ana="#lâcheté">Si ma Braguette n'estoit Plaine,</l>
+            <l ana="#sat_pers">Moy je tiendroy' pour la Lorraine,</l><note resp="editor" type="crit"/>
+            <l ana="#sat_pers">Aussi <persName ref="ind:De_Bray">de Brai</persName> suit son
+               Parti,</l><note resp="editor" type="glose">De Bray est un des échevins de Paris déjà
+               visé dans le coq-à-l'âne n°61.</note>
+            <l n="4" ana="#trahison">S'estant de son Roy departi</l>
+            <l ana="#sat_pers #corps">Affin d'avoir une Andouille,</l>
+            <l ana="#sat_pers #corps">Aussi bien q'une grosse Couille</l>
+            <!-- Saut#1 --><anchor type="saut#1"/>
+            <l ana="#violences">Les <roleName type="secte">Huguenots</roleName> estant tués,</l>
+            <l n="8" ana="#pillage-s">Y aura il des Biens assés,</l>
+            <l ana="#argent">Pour aquitter toutes les Dettes,</l>
+            <l ana="#sat_pers">Que ces Roitelets <expan>avoient</expan> faittes?</l>
+            <l ana="#mtd"><reg>C'est</reg> une belle question.</l>
+            <!-- Saut#2 --><anchor type="saut#2"/>
+            <l n="12" ana="#infl_et">L'espagnole Inquisition,</l>
+            <l ana="#adv_rel">Fera le riche Catholique</l>
+            <l ana="#adv_rel">Se <expan>convertir</expan> en Heretique,</l>
+            <!-- Saut#3 --><anchor type="saut#3"/>
+            <l ana="#infl_et">Un <expan>Espion</expan> Rusé et Fin,</l>
+            <l n="16" ana="#tromperie">Vestu d'habit de Capussin,</l>
+            <l ana="#tromperie">Se <expan>proumenant</expan> de Place en Place,</l>
+            <l ana="#tromperie #sat_rel">Feindant d'emplir sa <expan>grand'</expan>Bezace,</l>
+            <l>Peult descouvrir et bien scavoir</l>
+            <l n="20" ana="#prudence">Nos Forces, et nostre Pouvoir,</l>
+            <l ana="#prudence">Et puis <expan>mander</expan> beaucoup de choses.</l>
+            <!-- Saut#4 --><anchor type="saut#4"/>
+            <l><expan>Quand</expan> les lettres <expan>seront</expan> descloses,</l>
+            <l>On verra ce qui est dedans.</l>
+            <pb n="278r"/>
+            <!-- Saut#5 --><anchor type="saut#5"/>
+            <l n="24" ana="#leitmotiv">Si nous <expan>vivons</expan> encor' <reg>dix</reg> Ans,</l>
+            <l ana="#adv_rel"><persName ref="ind:Poncet">Poncet</persName> de prescher fera
+               rage,</l><note resp="editor" type="glose"><persName ref="ind:Poncet">Maurice
+                  Poncet</persName>, curé de Saint Pierre des Arsis à Paris, "bon et docte
+               prédicateur, grandement honnoré et estimé de tout le peuple de Paris, pource que
+               librement il reprenoit les vices et n'espargnoit ne petit ne grand, quand il avoit le
+               bras eschauffé en sa chaize, preschoit d'un grand zele, et comme il le croioit et
+               pensoit: estoit, au surplus, d'une fort bonne vie et syncere conscience", selon
+               Pierre de L'Estoile qui mentionne sa mort à la suite de celle de Me François Le
+               Breton, premier "martyr" de la Ligue, en novembre 1586, <hi rend="italic">op.
+                  cit.</hi>, tome V, p. 207.</note>
+            <l ana="#ironie">En <expan>donnant</expan> bon cœur et courage,</l>
+            <l ana="#ironie">Pour diners et plaisans Sermons,</l>
+            <l n="28" ana="#ironie"><expan>Accompagnés</expan> de <expan>Passions</expan>,</l>
+            <l ana="#adv_rel">À ceux de la Savaterie,</l>
+            <l ana="#ironie">Pour faire une belle turie</l>
+            <l ana="#violences">Et remplir la Ville et les Chams</l>
+            <l n="32" ana="#ironie">Du sang de ces traïstres Meschans,</l>
+            <l ana="#ironie">Ennemis et Sacramentaires.</l>
+            <!-- Saut#6 --><anchor type="saut#6"/>
+            <l ana="#sat_pol">Il faudra bien des Secretaires</l>
+            <l ana="#sat_pol">D'estat à tous ces nouveaux Rois,</l>
+            <l n="36" ana="#argent">Encor' faudra il plus de Bois</l>
+            <l ana="#leitmotiv #sat_rel">Pour faire bouillir la Marmitte.</l>
+            <!-- Saut#7 --><anchor type="saut#7"/>
+            <l ana="#hypocrisie">Cest une fine <rs type="invective">Chatemitte</rs></l>
+            <l ana="#sat_pers">La <persName ref="ind:Charlotte_de_Sauve">Marquise de
+                  Noirmoustier</persName></l><note resp="scriptor">Note marginale: "Mme de
+               Sauve".</note>
+            <l n="40" ana="#corps #sat_pers">L'obscur Devant et le Fessier</l>
+            <l ana="#sat_pers">D'une Beaulté fine et <reg>rusée</reg></l>
+            <l>Fait ploier la Lance <reg>asserée</reg>.</l><note resp="editor" type="glose">Connue
+               pour avoir été la maîtresse de Charles IX, François d'Anjou, Henri III, puis de Henri
+               IV. Voir notamment les mémoires de Marguerite de Navarre.</note>
+            <!-- Saut#8 --><anchor type="saut#8"/>
+            <l>Aussi <addName ref="ind:Catherine_de_Médicis" key="Catherine de Médicis"
+                  >Catin</addName> n'oublira pas</l><note resp="scriptor" type="marginalia">Note
+               marginale: "R(oine) Mere". Surnom qui reparaît régulièrement pour désigner <persName
+                  ref="ind:Catherine_de_Médicis">Catherine de Médicis</persName> dans les libelles
+               et les coq-à-l'âne pendant la Ligue.</note>
+            <l n="44" ana="#ruse">De se servir de fins Appas</l>
+            <l ana="#ruse">Pour adoucir ces <expan>grans</expan> Gendarmes,</l>
+            <l ana="#cruauté">Qui ne s'esmeuvent par les Larmes</l>
+            <l ana="#souffrances">Du pauvre peuple ruiné.</l>
+            <l n="48" ana="#souffrances"><expan>Quand</expan> on n'est pas environné</l>
+            <l ana="#souffrances">D'une <expan>bonne</expan> et haute Muraille</l>
+            <l ana="#souffrances">L'on est <expan>rongé</expan> de ces Canailles.</l>
+            <!-- Saut#9 --><anchor type="saut#9"/>
+            <l>Si les Rois <expan>viennent</expan> à leurs fins,</l>
+            <l n="52">La <placeName type="country" key="France"><expan>France</expan></placeName>
+               aura force Dauphins,</l>
+            <l>Et ne faudra plus prier <persName>Dieu</persName></l>
+            <l>Soit en l'eglise ou autre lieu</l>
+            <l>Pour leur <expan>donner</expan>
+               <expan>grande</expan>
+               <reg>lignée</reg>,</l><note resp="editor" type="glose">Ironie quant aux manœuvres de
+               ceux de la Ligue.</note><!-- Note à compléter -->
+            <!-- Saut#10 -->
+            <l n="56">À chaque <expan>Saison</expan> de l'année</l>
+            <l>Vous aurés force Fruits nouveaux.</l>
+            <!-- Saut#11 -->
+            <l>Si <reg>j'estoy'</reg> Evesque de <placeName type="city" key="Meaux"
+                  >Meaux</placeName>,</l>
+            <l><reg>J</reg>'en vivroy' bien mieux à mon aise.</l>
+            <!-- Saut#12 --><anchor type="saut#12"/>
+            <l n="60">Un beau Collet à longue fraize</l>
+            <l>Sied mieux q'un Collet à renvers.</l>
+            <!-- Saut#13 --><anchor type="saut#13"/>
+            <l>Car si <placeName type="city" key="Paris">Paris</placeName> estoit <placeName
+                  type="city" key="Anvers">Anvers</placeName>,</l>
+            <l>Bien tost seroit en la <expan>Puissance</expan></l>
+            <l n="64">De tous ces nouveaux Rois de <placeName type="country" key="France"
+                  >France</placeName>.</l>
+            <!-- Saut#14 --><anchor type="saut#14"/>
+            <l>Les <expan>Financiers</expan>
+               <expan>tant</expan> recherchés,</l>
+            <l>N'en <expan>seroient</expan> pas un brin faschés.</l>
+            <!-- Saut#15 --><anchor type="saut#15"/>
+            <l><reg>J</reg>'aime mieux les <expan>Champs</expan> que la Ville.</l>
+            <!-- Saut#16 --><anchor type="saut#16"/>
+            <l n="68">Mais à propos de <persName>Videville</persName></l>
+            <l>Il a quitté <expan>Femme</expan> et <expan>Maison</expan>,</l>
+            <l>Si scavoit il bien sa lecon.</l>
+            <!-- Saut#17 --><anchor type="saut#17"/>
+            <l>Ô que <persName>Marcel</persName> est <expan>un</expan>
+               <expan>grand</expan>
+               <expan>Maistre</expan>!</l>
+            <l n="72">Aussi bien tos nous verrons naistre</l>
+            <pb n="278v"/>
+            <l>Force Apprentifs de son Escole.</l>
+            <l>Mais ne fut elle pas bien Fole</l>
+            <l>De mourir en Enfantement?</l>
+            <l n="76">Car elle eut veu le <expan>Vestement</expan></l>
+            <l>De son Mari Chef de <reg>Justice</reg>.</l>
+            <l>Si le <reg>Juge</reg> fuit L'avarice</l>
+            <l>Son <reg>Jugement</reg> en est plus droict.</l>
+            <l n="80">Qui de L'argent <expan>demanderoit</expan></l>
+            <l>À Believre perdroit sa Peine.</l>
+            <l>En temps d'hiver une Mitaine</l>
+            <l>Tient bien la <expan>main</expan> plus chaudement.</l>
+            <l n="84">Qui veut parler plus librement</l>
+            <l>Du S. Ordre de Hieronime,</l>
+            <l>Et de la tant secrette mine,</l>
+            <l>Qu'il se <expan>souvienne</expan> du fort lieu</l>
+            <l n="88">Ou va presider <persName>Richelieu</persName>.</l>
+            <l>Un beau Vermeil Bouton de Rose</l>
+            <l>Sent aussi bon que de L'eau Rose,</l>
+            <l>Aussi fait bien la Fleur de Lis.</l>
+            <l n="92"><reg>J'aymeray'</reg> mieux prendre <placeName type="city" key="Senlis"
+                  >Senlis</placeName></l>
+            <l>Que <expan>tant</expan> de petites Couchettes,</l>
+            <l>Mais encor' deux ou trois Houlettes</l>
+            <l>Pour prescher Moines en Convent,</l>
+            <l n="96"><expan>Seroient</expan> cause que plus souvent</l>
+            <l>On feroit razer sa Couronne.</l>
+            <l>Mets vaut <expan>bien</expan> autant que Bologne</l>
+            <l>Pour <expan>acommoder</expan> les Voisins.</l>
+            <l n="100">Toutefois les Vaillans Cousins,</l> [note marginale : Guisars]
+               <l>S'eslongneroiēt de la Cousine.</l> [note marginale : R. dEscosse] <l>Si le Chemin
+               de la Marine</l>
+            <l>Se pouvoit faire sans Basteau,</l>
+            <l n="104">Ou qu'on volast par dessus L'eau,</l>
+            <l>Par la <reg>Jesuite</reg> Finesse,</l>
+            <l>On mettroit bien la S.e Messe</l>
+            <l>En tous lieux, et en tous Endroits</l>
+            <l n="108">Maulgré L'escossois et L'anglois.</l>
+            <fw>1585.</fw></p>
+      </body>
+   </text>
+</TEI>
