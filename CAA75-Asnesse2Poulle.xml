@@ -14,11 +14,8 @@
             <p><listWit>
                   <witness xml:id="fr6678"><msDesc>
                         <msIdentifier>
-                           <settlement>Paris</settlement>
-                           <institution>Bibliothèque nationale de France</institution>
-                           <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
-                           <collection>Papiers de Pierre de L'Estoile</collection>
-                           <idno>6678</idno>
+                           <settlement>Paris, </settlement>
+                           <institution>Bibliothèque nationale de France.</institution>
                         </msIdentifier>
                      </msDesc></witness>
                </listWit></p>
@@ -92,7 +89,7 @@
       <body>
          <p><pb n="277v"/><l ana="#lâcheté">Si ma Braguette n'estoit Plaine,</l>
             <l ana="#sat_pers">Moy je tiendroy' pour la Lorraine,</l><note resp="editor" type="crit"/>
-            <l ana="#sat_pers">Aussi <persName ref="ind:De_Bray">de Brai</persName> suit son
+            <l ana="#sat_pers">Aussi <persName ref="ind:De_Bray" key="De Bray">de Brai</persName> suit son
                Parti,</l><note resp="editor" type="glose">De Bray est un des échevins de Paris déjà
                visé dans le coq-à-l'âne n°61.</note>
             <l n="4" ana="#trahison">S'estant de son Roy departi</l>
@@ -122,8 +119,8 @@
             <pb n="278r"/>
             <!-- Saut#5 --><anchor type="saut#5"/>
             <l n="24" ana="#leitmotiv">Si nous <expan>vivons</expan> encor' <reg>dix</reg> Ans,</l>
-            <l ana="#adv_rel"><persName ref="ind:Poncet">Poncet</persName> de prescher fera
-               rage,</l><note resp="editor" type="glose"><persName ref="ind:Poncet">Maurice
+            <l ana="#adv_rel"><persName ref="ind:Poncet" key="Poncet">Poncet</persName> de prescher fera
+               rage,</l><note resp="editor" type="glose"><persName ref="ind:Poncet" key="Poncet">Maurice
                   Poncet</persName>, curé de Saint Pierre des Arsis à Paris, "bon et docte
                prédicateur, grandement honnoré et estimé de tout le peuple de Paris, pource que
                librement il reprenoit les vices et n'espargnoit ne petit ne grand, quand il avoit le
@@ -147,7 +144,7 @@
             <l ana="#leitmotiv #sat_rel">Pour faire bouillir la Marmitte.</l>
             <!-- Saut#7 --><anchor type="saut#7"/>
             <l ana="#hypocrisie">Cest une fine <rs type="invective">Chatemitte</rs></l>
-            <l ana="#sat_pers">La <persName ref="ind:Charlotte_de_Sauve">Marquise de
+            <l ana="#sat_pers">La <persName ref="ind:Charlotte_de_Sauve" key="Charlotte de Beaune-Semblançay">Marquise de
                   Noirmoustier</persName></l><note resp="scriptor">Note marginale: "Mme de
                Sauve".</note>
             <l n="40" ana="#corps #sat_pers">L'obscur Devant et le Fessier</l>
@@ -159,7 +156,7 @@
             <l>Aussi <addName ref="ind:Catherine_de_Médicis" key="Catherine de Médicis"
                   >Catin</addName> n'oublira pas</l><note resp="scriptor" type="marginalia">Note
                marginale: "R(oine) Mere". Surnom qui reparaît régulièrement pour désigner <persName
-                  ref="ind:Catherine_de_Médicis">Catherine de Médicis</persName> dans les libelles
+                  ref="ind:Catherine_de_Médicis" key="Catherine de Médicis">Catherine de Médicis</persName> dans les libelles
                et les coq-à-l'âne pendant la Ligue.</note>
             <l n="44" ana="#ruse">De se servir de fins Appas</l>
             <l ana="#ruse">Pour adoucir ces <expan>grans</expan> Gendarmes,</l>
@@ -200,17 +197,17 @@
             <l>N'en <expan>seroient</expan> pas un brin faschés.</l>
             <!-- Saut#15 --><anchor type="saut#15"/>
             <l><reg>J</reg>'aime mieux les <expan>Champs</expan> que la Ville.</l>
-            <!-- Saut#16 --><anchor type="saut#16"/>
-            <l n="68">Mais à propos de <persName>Videville</persName></l>
+            <l n="68">Mais à propos de <persName ref="ind:Videville" key="Benoît Milon">Videville</persName></l>
             <l>Il a quitté <expan>Femme</expan> et <expan>Maison</expan>,</l>
             <l>Si scavoit il bien sa lecon.</l>
-            <!-- Saut#17 --><anchor type="saut#17"/>
-            <l>Ô que <persName>Marcel</persName> est <expan>un</expan>
+            <!-- Saut#16 --><anchor type="saut#16"/>
+            <l>Ô que <persName ref="ind:Marcel" key="Marcel">Marcel</persName> est <expan>un</expan>
                <expan>grand</expan>
                <expan>Maistre</expan>!</l>
             <l n="72">Aussi bien tos nous verrons naistre</l>
             <pb n="278v"/>
             <l>Force Apprentifs de son Escole.</l>
+            <!-- Saut#17 --><anchor type="saut#17"/>
             <l>Mais ne fut elle pas bien Fole</l>
             <l>De mourir en Enfantement?</l>
             <l n="76">Car elle eut veu le <expan>Vestement</expan></l>
