@@ -8,7 +8,9 @@
             <title>L'Asnesse à la Poulle</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Transcription à partir du seul témoin connu. Ce coq-à-l'âne anti-guisars se situe
+               dans la polémique protestante et insiste sur les rapports étroits entre la maison de
+               Lorraine et la couronne d'Espagne.</p>
          </publicationStmt>
          <sourceDesc>
             <p><listWit>
@@ -81,6 +83,9 @@
                <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
                <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
                <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+               <interp xml:id="gnomique" ana="parole_gnomique">Proverbes, sagesse et parole
+                  gnomique</interp>
+               <interp xml:id="financiers" ana="financiers">Contre les financiers</interp>
             </interpGrp>
          </p>
       </encodingDesc>
@@ -89,9 +94,9 @@
       <body>
          <p><pb n="277v"/><l ana="#lâcheté">Si ma Braguette n'estoit Plaine,</l>
             <l ana="#sat_pers">Moy je tiendroy' pour la Lorraine,</l><note resp="editor" type="crit"/>
-            <l ana="#sat_pers">Aussi <persName ref="ind:De_Bray" key="De Bray">de Brai</persName> suit son
-               Parti,</l><note resp="editor" type="glose">De Bray est un des échevins de Paris déjà
-               visé dans le coq-à-l'âne n°61.</note>
+            <l ana="#sat_pers">Aussi <persName ref="ind:De_Bray" key="De Bray">de Brai</persName>
+               suit son Parti,</l><note resp="editor" type="glose">De Bray est un des échevins de
+               Paris déjà visé dans le coq-à-l'âne n°61.</note>
             <l n="4" ana="#trahison">S'estant de son Roy departi</l>
             <l ana="#sat_pers #corps">Affin d'avoir une Andouille,</l>
             <l ana="#sat_pers #corps">Aussi bien q'une grosse Couille</l>
@@ -119,14 +124,14 @@
             <pb n="278r"/>
             <!-- Saut#5 --><anchor type="saut#5"/>
             <l n="24" ana="#leitmotiv">Si nous <expan>vivons</expan> encor' <reg>dix</reg> Ans,</l>
-            <l ana="#adv_rel"><persName ref="ind:Poncet" key="Poncet">Poncet</persName> de prescher fera
-               rage,</l><note resp="editor" type="glose"><persName ref="ind:Poncet" key="Poncet">Maurice
-                  Poncet</persName>, curé de Saint Pierre des Arsis à Paris, "bon et docte
-               prédicateur, grandement honnoré et estimé de tout le peuple de Paris, pource que
-               librement il reprenoit les vices et n'espargnoit ne petit ne grand, quand il avoit le
-               bras eschauffé en sa chaize, preschoit d'un grand zele, et comme il le croioit et
-               pensoit: estoit, au surplus, d'une fort bonne vie et syncere conscience", selon
-               Pierre de L'Estoile qui mentionne sa mort à la suite de celle de Me François Le
+            <l ana="#adv_rel"><persName ref="ind:Poncet" key="Poncet">Poncet</persName> de prescher
+               fera rage,</l><note resp="editor" type="glose"><persName ref="ind:Poncet"
+                  key="Poncet">Maurice Poncet</persName>, curé de Saint Pierre des Arsis à Paris,
+               "bon et docte prédicateur, grandement honnoré et estimé de tout le peuple de Paris,
+               pource que librement il reprenoit les vices et n'espargnoit ne petit ne grand, quand
+               il avoit le bras eschauffé en sa chaize, preschoit d'un grand zele, et comme il le
+               croioit et pensoit: estoit, au surplus, d'une fort bonne vie et syncere conscience",
+               selon Pierre de L'Estoile qui mentionne sa mort à la suite de celle de Me François Le
                Breton, premier "martyr" de la Ligue, en novembre 1586, <hi rend="italic">op.
                   cit.</hi>, tome V, p. 207.</note>
             <l ana="#ironie">En <expan>donnant</expan> bon cœur et courage,</l>
@@ -144,9 +149,9 @@
             <l ana="#leitmotiv #sat_rel">Pour faire bouillir la Marmitte.</l>
             <!-- Saut#7 --><anchor type="saut#7"/>
             <l ana="#hypocrisie">Cest une fine <rs type="invective">Chatemitte</rs></l>
-            <l ana="#sat_pers">La <persName ref="ind:Charlotte_de_Sauve" key="Charlotte de Beaune-Semblançay">Marquise de
-                  Noirmoustier</persName></l><note resp="scriptor">Note marginale: "Mme de
-               Sauve".</note>
+            <l ana="#sat_pers">La <persName ref="ind:Charlotte_de_Sauve"
+                  key="Charlotte de Beaune-Semblançay">Marquise de Noirmoustier</persName></l><note
+               resp="scriptor">Note marginale: "Mme de Sauve".</note>
             <l n="40" ana="#corps #sat_pers">L'obscur Devant et le Fessier</l>
             <l ana="#sat_pers">D'une Beaulté fine et <reg>rusée</reg></l>
             <l>Fait ploier la Lance <reg>asserée</reg>.</l><note resp="editor" type="glose">Connue
@@ -156,8 +161,8 @@
             <l>Aussi <addName ref="ind:Catherine_de_Médicis" key="Catherine de Médicis"
                   >Catin</addName> n'oublira pas</l><note resp="scriptor" type="marginalia">Note
                marginale: "R(oine) Mere". Surnom qui reparaît régulièrement pour désigner <persName
-                  ref="ind:Catherine_de_Médicis" key="Catherine de Médicis">Catherine de Médicis</persName> dans les libelles
-               et les coq-à-l'âne pendant la Ligue.</note>
+                  ref="ind:Catherine_de_Médicis" key="Catherine de Médicis">Catherine de
+                  Médicis</persName> dans les libelles et les coq-à-l'âne pendant la Ligue.</note>
             <l n="44" ana="#ruse">De se servir de fins Appas</l>
             <l ana="#ruse">Pour adoucir ces <expan>grans</expan> Gendarmes,</l>
             <l ana="#cruauté">Qui ne s'esmeuvent par les Larmes</l>
@@ -166,7 +171,7 @@
             <l ana="#souffrances">D'une <expan>bonne</expan> et haute Muraille</l>
             <l ana="#souffrances">L'on est <expan>rongé</expan> de ces Canailles.</l>
             <!-- Saut#9 --><anchor type="saut#9"/>
-            <l>Si les Rois <expan>viennent</expan> à leurs fins,</l>
+            <l ana="#ironie #sat_pol">Si les Rois <expan>viennent</expan> à leurs fins,</l>
             <l n="52">La <placeName type="country" key="France"><expan>France</expan></placeName>
                aura force Dauphins,</l>
             <l>Et ne faudra plus prier <persName>Dieu</persName></l>
@@ -176,7 +181,7 @@
                <reg>lignée</reg>,</l><note resp="editor" type="glose">Ironie quant aux manœuvres de
                ceux de la Ligue.</note><!-- Note à compléter -->
             <!-- Saut#10 -->
-            <l n="56">À chaque <expan>Saison</expan> de l'année</l>
+            <l n="56" ana="#ironie #sat_pol">À chaque <expan>Saison</expan> de l'année</l>
             <l>Vous aurés force Fruits nouveaux.</l>
             <!-- Saut#11 -->
             <l>Si <reg>j'estoy'</reg> Evesque de <placeName type="city" key="Meaux"
@@ -184,51 +189,60 @@
             <l><reg>J</reg>'en vivroy' bien mieux à mon aise.</l>
             <!-- Saut#12 --><anchor type="saut#12"/>
             <l n="60">Un beau Collet à longue fraize</l>
-            <l>Sied mieux q'un Collet à renvers.</l>
+            <l ana="#violences">Sied mieux q'un Collet à renvers.</l>
             <!-- Saut#13 --><anchor type="saut#13"/>
-            <l>Car si <placeName type="city" key="Paris">Paris</placeName> estoit <placeName
-                  type="city" key="Anvers">Anvers</placeName>,</l>
+            <l ana="#sit_mil">Car si <placeName type="city" key="Paris">Paris</placeName> estoit
+                  <placeName type="city" key="Anvers">Anvers</placeName>,</l><note>Cf. L'Estoile :
+               allusion à la prise d'Anvers 1585 par le roi d'Espagne.</note><!-- Note à rectifier -->
             <l>Bien tost seroit en la <expan>Puissance</expan></l>
-            <l n="64">De tous ces nouveaux Rois de <placeName type="country" key="France"
-                  >France</placeName>.</l>
+            <l n="64" ana="#ironie #sat_pers">De tous ces nouveaux Rois de <placeName type="country"
+                  key="France">France</placeName>.</l>
             <!-- Saut#14 --><anchor type="saut#14"/>
-            <l>Les <expan>Financiers</expan>
+            <l ana="#financiers">Les <expan>Financiers</expan>
                <expan>tant</expan> recherchés,</l>
-            <l>N'en <expan>seroient</expan> pas un brin faschés.</l>
+            <l ana="#financiers">N'en <expan>seroient</expan> pas un brin faschés.</l>
             <!-- Saut#15 --><anchor type="saut#15"/>
-            <l><reg>J</reg>'aime mieux les <expan>Champs</expan> que la Ville.</l>
-            <l n="68">Mais à propos de <persName ref="ind:Videville" key="Benoît Milon">Videville</persName></l>
+            <l ana="#ethos"><reg>J</reg>'aime mieux les <expan>Champs</expan> que la Ville.</l><note
+               resp="editor" type="glose">Sans doute parce que la ville est davantage concernée par les
+               affrontements.</note>
+            <l n="68" ana="#sat_pers">Mais à propos de <persName ref="ind:Videville" key="Benoît Milon"
+                  >Videville</persName></l>
             <l>Il a quitté <expan>Femme</expan> et <expan>Maison</expan>,</l>
             <l>Si scavoit il bien sa lecon.</l>
             <!-- Saut#16 --><anchor type="saut#16"/>
-            <l>Ô que <persName ref="ind:Marcel" key="Marcel">Marcel</persName> est <expan>un</expan>
+            <l ana="#sat_pers">Ô que <persName ref="ind:Marcel" key="Marcel">Marcel</persName> est
+                  <expan>un</expan>
                <expan>grand</expan>
                <expan>Maistre</expan>!</l>
-            <l n="72">Aussi bien tos nous verrons naistre</l>
+            <l n="72" ana="#ligue">Aussi bien tos nous verrons naistre</l>
             <pb n="278v"/>
-            <l>Force Apprentifs de son Escole.</l>
+            <l ana="#ligue">Force Apprentifs de son Escole.</l>
             <!-- Saut#17 --><anchor type="saut#17"/>
             <l>Mais ne fut elle pas bien Fole</l>
-            <l>De mourir en Enfantement?</l>
+            <l>De mourir en Enfantement?</l><!-- Qui? -->
             <l n="76">Car elle eut veu le <expan>Vestement</expan></l>
             <l>De son Mari Chef de <reg>Justice</reg>.</l>
             <!-- Saut#18 --><anchor type="saut#18"/>
-            <l>Si le <reg>Juge</reg> fuit L'avarice</l>
-            <l>Son <reg>Jugement</reg> en est plus droict.</l>
+            <l ana="#gnomique">Si le <reg>Juge</reg> fuit L'avarice</l>
+            <l ana="#gnomique">Son <reg>Jugement</reg> en est plus droict.</l>
             <!-- Saut#19 --><anchor type="saut#19"/>
-            <l n="80">Qui de L'argent <expan>demanderoit</expan></l>
-            <l>À <persName ref="ind:Bellièvre" key="Bellièvre">Believre</persName> perdroit sa Peine.</l>
-            <l>En temps d'hiver une Mitaine</l>
-            <l>Tient bien la <expan>main</expan> plus chaudement.</l>
-            <!-- Saut#20 -->
+            <l n="80" ana="#argent">Qui de L'argent <expan>demanderoit</expan></l>
+            <l ana="#sat_pers #argent">À <persName ref="ind:Bellièvre" key="Bellièvre"
+                  >Believre</persName> perdroit sa Peine.</l>
+            <l ana="#ironie">En temps d'hiver une Mitaine</l>
+            <l ana="#ironie">Tient bien la <expan>main</expan> plus chaudement.</l>
+            <!-- Saut#20 --><anchor type="saut#20"/>
             <l n="84">Qui veut parler plus librement</l>
             <l>Du S. Ordre de Hieronime,</l>
             <l>Et de la tant secrette mine,</l>
             <l>Qu'il se <expan>souvienne</expan> du fort lieu</l>
-            <l n="88"><reg>Où</reg> va presider <persName>Richelieu</persName>.</l>
+            <l n="88" ana="#sat_pers"><reg>Où</reg> va presider <persName
+                  ref="ind:François_Du_Plessis" key="François du Plessis">Richelieu</persName>.</l>
+            <!-- Saut#21 --><anchor type="saut#21"/>
             <l>Un beau Vermeil Bouton de Rose</l>
             <l>Sent aussi bon que de L'eau Rose,</l>
             <l>Aussi fait bien la Fleur de Lis.</l>
+            <!-- Saut#22 --><anchor type="saut#22"/>
             <l n="92"><reg>J'aymeray'</reg> mieux prendre <placeName type="city" key="Senlis"
                   >Senlis</placeName></l>
             <l>Que <expan>tant</expan> de petites Couchettes,</l>
@@ -236,15 +250,20 @@
             <l>Pour prescher Moines en Convent,</l>
             <l n="96"><expan>Seroient</expan> cause que plus souvent</l>
             <l>On feroit razer sa Couronne.</l>
-            <l>Mets vaut <expan>bien</expan> autant que Bologne</l>
+            <!-- Saut#23 --><anchor type="saut#23"/>
+            <l><placeName type="city" key="Metz">Mets</placeName> vaut <expan>bien</expan> autant
+               que <placeName type="city" key="Bologne">Bologne</placeName></l>
             <l>Pour <expan>acommoder</expan> les Voisins.</l>
-            <l n="100">Toutefois les Vaillans Cousins,</l> [note marginale : Guisars]
-               <l>S'eslongneroiēt de la Cousine.</l> [note marginale : R. dEscosse] <l>Si le Chemin
-               de la Marine</l>
+            <l n="100">Toutefois les Vaillans Cousins,</l><note resp="scriptor" type="glose">Note
+               marginale: "Guisars"</note>
+            <l><expan>S'eslongneroient</expan> de la Cousine.</l><note resp="scriptor" type="glose"
+               >Note marginale: "R. dEscosse"</note>
+            <!-- Saut#24 --><anchor type="saut#24"/>
+            <l>Si le Chemin de la Marine</l>
             <l>Se pouvoit faire sans Basteau,</l>
             <l n="104">Ou qu'on volast par dessus L'eau,</l>
-            <l>Par la <reg>Jesuite</reg> Finesse,</l>
-            <l>On mettroit bien la S.e Messe</l>
+            <l ana="#sat_rel">Par la <reg>Jesuite</reg> Finesse,</l>
+            <l ana="#sat_rel">On mettroit bien la <expan>Saincte</expan> Messe</l>
             <l>En tous lieux, et en tous Endroits</l>
             <l n="108">Maulgré L'escossois et L'anglois.</l>
             <fw>1585.</fw></p>
