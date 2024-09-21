@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="Testament89">
+         <titleStmt>
+            <title>COQ A L'ASNE. [CAA#83]</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p>
+            <interpGrp>
+               <interp xml:id="adr" ana="adresse">adresse</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="topos" ana="topos">lieu commun</interp>
+               <interp xml:id="gén" ana="généralisation">généralisation</interp>
+               <interp xml:id="ironie" ana="ironie">ironie</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="actu" ana="actualité">actualité</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+               <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+               <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+               <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+               <interp xml:id="massacre" ana="massacre">massacre</interp>
+               <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+               <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+               <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+               <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+               <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+               <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+               <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+               <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="corruption" ana="corruption">corruption</interp>
+               <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+               <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                  nécessaire</interp>
+               <interp xml:id="court" ana="court">vie de la court</interp>
+               <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+               <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+               <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="corps" ana="corps">corps</interp>
+               <interp xml:id="violences" ana="violences">guerres civiles</interp>
+               <interp xml:id="pillage-s" ana="pillages">Vol, pillages</interp>
+               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+               <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+               <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+               <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+               <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+               <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+               <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                  gnomique</interp>
+               <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+               <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+               <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+               <interp xml:id="exhortation" ana="exhortation">exhortations et
+                  encouragements</interp>
+               <interp xml:id="rire" ana="rire">rire</interp>
+               <interp xml:id="maladie" ana="maladie">maladie</interp>
+               <interp xml:id="misères" ana="misères">misères de ce temps</interp>
+               <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                  valeurs</interp>
+               <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+               <interp xml:id="rome" ana="contre_Rome">Contre Rome et la papauté</interp>
+               <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+               <interp xml:id="practiques" ana="practiques">practiques</interp>
+               <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+               <interp xml:id="misogynie" ana="misogynie">mysoginie</interp>
+               <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+               <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+               <interp xml:id="météo" ana="météo">météorologie</interp>
+               <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+               <interp xml:id="vanité" ana="vanité">vanité</interp>
+               <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
+                  l'adversaire</interp>
+               <interp xml:id="PolitiqueS" ana="PolitiqueS">Contre les politiques</interp>
+
+            </interpGrp>
+         </p>
+
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+            <pb n="8"/><fw place="top-center" type="pageNum">8</fw>
+            <l>Que dit on de nouveau? Le <persName ref="ind:Henri_III" key="Henri III"
+                  >Roy</persName> n'est il<lb/> pas mort?</l>
+            <!-- Saut#1 --><anchor type="saut#1"/>
+            <l>On dict que la <placeName><reg>Bastille</reg></placeName> est un chasteau bien
+               fort.</l>
+            <l><reg>Ô</reg> les <rs type="invective">beaux <rs type="animal" subtype="oiseau"
+                     >perroquets</rs></rs> sont en cette cage.</l>
+            <!-- Saut#2 --><anchor type="saut#2"/>
+            <l n="4">On a fait dedans <placeName type="city" key="Blois">Blois</placeName> un si
+               cruel carnage,</l><note resp="editor" type="glose">Lieu de l'assassinat des
+               Guise le 24 décembre 1588.</note>
+            <l>Qu'on ne sçait si <persName ref="ind:Philippe_II" key="Philippe II"
+                  >Philippe</persName> en sera courroucé.</l>
+            <!-- Saut#3 --><anchor type="saut#3"/>
+            <l><persName ref="ind:Épernon" key="Épernon">D'Espernon</persName> est il point encores
+               remboursé</l>
+            <l>Du bancquet de <placeName type="city" key="Venise">Venize</placeName>, il estoit en
+               chemize,</l>
+            <l n="8">Il y a bien dix ans. <rs type="interjection">Mon Dieu</rs> la belle frize.</l>
+            <!-- Saut#4 --><anchor type="saut#4"/>
+            <l>On dict ces <reg>jours</reg> passez que les <orgName type="peuple" key="Juif"
+                     ><reg>Juifs</reg></orgName> d'<expan>Avignon</expan></l>
+            <l>Sont venus secourir le <persName ref="ind:Henri_III" key="Henri III">Roy</persName>
+               &amp; <persName ref="ind:Épernon" key="Épernon">d'Espernon</persName>:</l>
+            <l>Ils en ont grand besoing. <!-- Saut#5 --><anchor type="saut#5"/>Mais pour mettre
+               à<lb/> mon roole,</l>
+            <l n="12"><persName ref="ind:Henri_III" key="Henri III">Henry</persName> combien de fois
+               sua il la verole?</l>
+            <l ana="#ironie"><reg>Ô</reg> qu'il a grand secours : <persName ref="ind:Chicot" key="Chicot"
+                  >Chicot</persName> luy a rescrit.</l><note resp="editor" type="glose">En 1588 est
+               publiée une lettre de Chicot à Henri III, <title>Au Roy, mon bon maistre, pour
+                  affaires expresses de Sa Majesté</title>, dans laquelle le bouffon l'assure de sa
+               fidélité dans ce temps de sédition.</note>
+            <!-- Saut#6 --><anchor type="saut#6"/>
+            <l>Mais <rs type="injonction" subtype="impératif">laissons</rs> tout cela. On dict que
+               par despit</l>
+            <l>La <persName ref="ind:Catherine_de_Médicis" key="Catherine de Médicis">Royne
+                  mere</persName> est morte : On nous le fait à <lb/> croire</l>
+            <!-- Saut#7 --><anchor type="saut#7"/>
+            <l n="16">Mais Messieurs en cest an sera il point de <lb/> foire?</l>
+            <pb/><fw type="sig" place="bottom-right"><reg>Je</reg></fw>
+            <l>Je pense qu'en <placeName type="country" key="Turquie">Turquie</placeName> on sçait
+               bien tout cecy.</l>
+            <!-- Saut#8 --><anchor type="saut#8"/>
+            <l>Ô le <rs type="invective">beau <rs type="animal" subtype="oiseau">perroquet</rs></rs>
+               que nous tenons icy.</l>
+            <!-- Saut#9 --><anchor type="saut#9"/>
+            <l>Avez vous entendu comment en <placeName type="region" key="Normandie"
+                  >Normandie</placeName></l>
+            <l n="20"><persName ref="ind:Henri_III" key="Henri III">Henry</persName> faisoit cercher
+               de la gendarmerie.</l>
+            <l>En <placeName type="region" key="Champagne">Champaigne</placeName> a trouvé <rs
+                  type="locution">un pelé deux <expan>tondus</expan></rs>,</l>
+            <l>Qui pour l'amour de luy ont esté tous pendus.</l>
+            <!-- Saut#10 --><anchor type="saut#10"/>
+            <l>Voyez vous <rs type="invective">la putain</rs>, <rs type="invective">la <rs
+                     type="animal" subtype="canidé"><expan>chienne</expan></rs> d'<placeName
+                     type="country" key="Angleterre">Angleterre</placeName></rs>,</l>
+            <l n="24">Elle se <reg>resjouist</reg> de nous voir tous en guerre</l>
+            <l><persName ref="ind:Chicot" key="Chicot">Chicot</persName> prophetiza que c'estoit à
+               bander.</l>
+            <!-- Saut#11--><anchor type="saut#11"/>
+            <l>Il fait bon en ce temps de se contreregarder.</l>
+            <l>Malgré tous les meschants nostre bon <persName ref="ind:Mayenne" key="Mayenne">Duc
+                  du<lb/> Maine</persName></l>
+            <l n="28">Est entier (Dieu mercy) &amp; de corps &amp; de veine.</l>
+            <l>Ce n'estoit qu'un faux bruit de quelque <expan>Partisan,</expan></l>
+            <l>De quelque <rs type="invective">Politique</rs>. <!-- Saut#12 --><anchor
+                  type="saut#12"/>On dict que le <rs type="animal" subtype="oiseau">Phaisan</rs></l><note/>
+            <l>Est viande des <roleName>Rois</roleName>. <!-- Saut#13 --><anchor type="saut#13"
+               />Mais parlons d'<rs type="animal" subtype="oiseau">Aloüettes</rs>:</l>
+            <l n="32"><persName ref="ind:Henri_III" key="Henri III">Le Roy</persName> et <persName
+                  ref="Épernon" key="Épernon">d'Espernon</persName> sont ce pas <rs type="invective"
+                  >deux grands<lb/> bestes</rs></l>
+            <l>Les <orgName type="peuple" subtype="Allemand">Alemans</orgName> de vray en ont mangé
+               plusieurs,</l>
+            <l>Comme fort <expan>clairement</expan> appert en plusieurs lieux.</l>
+            <l ana="#adr"><rs type="injonction" subtype="impératif">Attendez</rs> un petit, voicy
+               d'autres nouvelles.</l>
+            <l n="36">Et si ne voyez clair, <rs type="injonction" subtype="impératif">allumez</rs>
+               vos chandelles.</l>
+            <fw type="sig" place="bottom-right">B</fw>
+            <pb/>
+         </p>
+         <listBibl>
+            <bibl>Pallier Denis, <title>Recherches sir l'imprimerie à Paris pendant la ligue (1585-1594</title>).</bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>
