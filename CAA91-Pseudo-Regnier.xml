@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc xml:id="MR_Perclus">
+         <titleStmt>
+            <title>Satyre</title>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p><listWit>
+               <witness><msDesc>
+                  <msIdentifier>
+                     <settlement>Paris, </settlement>
+                     <institution>Bibliothèque nationale de France.</institution>
+                  </msIdentifier>
+               </msDesc></witness>
+            </listWit></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier
+                  des Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p>
+            <interpGrp>
+               <interp xml:id="adr" ana="adresse">adresse</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:id="topos" ana="topos">lieu commun</interp>
+               <interp xml:id="gén" ana="généralisation">généralisation</interp>
+               <interp xml:id="ironie" ana="ironie">ironie</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="actu" ana="actualité">actualité</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+               <interp xml:id="satire" ana="satire_générale">satire générale</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+               <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+               <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+               <interp xml:id="massacre" ana="massacre">massacre</interp>
+               <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+               <interp xml:id="pol_ext" ana="politique_extérieure">politique
+                  extérieure</interp>
+               <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+               <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+               <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+               <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+               <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+               <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               <interp xml:id="prudence" ana="prudence">appel à la prudence</interp>
+               <interp xml:id="court" ana="court">vie de la court</interp>
+               <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+               <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+               <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="corps" ana="corps">corps</interp>
+               <interp xml:id="violences" ana="violences">guerres civiles</interp>
+               <interp xml:id="pillage-s" ana="pillages">Vol, pillages</interp>
+               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+               <interp xml:id="adv_rel" ana="adversaire religieux">adversaire
+                  religieux</interp>
+               <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+               <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+               <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+               <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+               <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                  gnomique</interp>
+               <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+               <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+               <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+               <interp xml:id="exhortation" ana="exhortation">exhortations et
+                  encouragements</interp>
+               <interp xml:id="rire" ana="rire">rire</interp>
+               <interp xml:id="maladie" ana="maladie">maladie</interp>
+               <interp xml:id="misères" ana="misères">misères de ce temps</interp>
+               <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                  valeurs</interp>
+               <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+               <interp xml:id="rome" ana="contre_Rome">Contre Rome et la papauté</interp>
+               <interp xml:id="langue_venimeuse" ana="langue_venimeuse">Médisances et propos
+                  venimeux</interp>
+               <interp xml:id="inter_divine" ana="inter_divine">intervention divine</interp>
+            </interpGrp>
+         </p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+            <l ana="#corps">Perclus d’une jambe et des bras,</l>
+            <l>Tout de mon long entre deux dras,</l>
+            <l>Il ne me reste que la langue</l>
+            <l n="4">Pour vous faire cette harangue.</l>
+            <l>Vous sçavés que j’ay pension,</l>
+            <l>Et que l’on a pretention,</l>
+            <l>Soit par sotise, ou par malice,</l>
+            <l n="8">Embarrassant le benefice,</l>
+            <l>Me rendre, en me torchant le bec,</l>
+            <l>Le ventre creux comme un rebec.</l>
+            <l>On m’en baille en discours de belles,</l>
+            <l n="12" ana="#argent">Mais de l’argent point de nouvelles;</l>
+            <l>Encore, au lieu de payement,</l>
+            <l>On parle d’un retranchement,</l>
+            <l>Me faisant au nez grise mine:</l>
+            <l n="16">Que l’abbaye est en ruine</l>
+            <l>Et ne vaut pas, beaucoup s’en faut,</l>
+            <l>Les deux mille francs qu’il me faut;</l>
+            <l>Si bien que je juge, à son dire,</l>
+            <l n="20">Malgré le feu <persName ref="ind:Henri_de_Navarre" key="Henri IV">Roy</persName> nostre sire,</l>
+            <l>Qu’il desireroit volontiers</l>
+            <l>Lâchement me reduire au tiers.</l>
+            <l>Je laisse à part ce fâcheux conte;</l>
+            <l n="24">Au primtems, que la bile monte</l>
+            <l>Par les veines dans le cerveau,</l>
+            <l>Et que l’on sent, au renouveau,</l>
+            <l>Son esprit fécond en sornettes,</l>
+            <l n="28">Il faut mauvais se prendre aux poëtes;</l>
+            <l ana="#ethos">Toutesfois, je suis de ces gens</l>
+            <l>De toutes choses négligens</l>
+            <l>Qui, vivant au jour la journée,</l>
+            <l n="32">Ne contrôllent leur destinée,</l>
+            <l>Oubliant, pour se mettre en paix,</l>
+            <l>Les injures et les bien-faits,</l>
+            <l ana="#ethos">Et s’arment de philosophie.</l>
+            <l n="36">Il est pourtant fou qui s’y fie,</l>
+            <l>Car la dame Indignation</l>
+            <l>Est une forte passion.</l>
+            <l ana="#maladie">Etant donc en mon lit, malade,</l>
+            <l n="40" ana="#corps">Les yeux creux et la bouche fade,</l>
+            <l ana="#corps">Le teint jaune comme un espy,</l>
+            <l>Et non pas l’esprit assoupy,</l>
+            <l>Qui dans ses caprices s’égaye</l>
+            <l n="44">Et souvent se donne la baye,</l>
+            <l>Se feignant, pour passer le temps,</l>
+            <l ana="#argent">Avoir cent mille escus contans,</l>
+            <l>Avec cela large campagne,</l>
+            <l n="48" ana="#folie">Je fais <rs type="locution">des chasteaux en Espagne</rs>,</l>
+            <l>J’entreprens partis sur partis;</l>
+            <l>Toutesfois je vous avertis,</l>
+            <l>Pour le sel, que je m’en deporte,</l>
+            <l n="52">Que je n’en suis en nulle sorte,</l>
+            <l>Non plus que du droit annuël.</l>
+            <l>Je n’aime point le casuël.</l>
+            <l>J’ay bien un avis d’autre estoffe</l>
+            <l n="56">Dont du Luat le philosophe</l>
+            <l>Désigne rendre au consulat</l>
+            <l>Le nez fait comme un cervelat.</l>
+            <l>Si le Conseil ne s’y oppose,</l>
+            <l n="60" ana="#prophétie">Vous verrez une belle chose.</l>
+            <l ana="mtd">Mais, laissant là tous ces projets,</l>
+            <l ana="mtd">Je ne manque d’autres sujets</l>
+            <l>Pour entretenir mon caprice</l>
+            <l n="64">En un fantastique exercice;</l>
+            <l>Je discours des neiges d’antan,</l>
+            <l>Je prends au nid le vent d’autan,</l>
+            <l>Je pete contre le tonnerre,</l>
+            <l n="68">Aux <rs type="animal" subtype="insecte">papillons</rs> je fais la guerre,</l>
+            <l>Je compose almanachs nouveaux,</l>
+            <l>De rien je <rs type="locution">fais brides à veaux</rs>,</l>
+            <l><reg>À</reg> la <expan>Saint</expan> Jean je tends aux gruës,</l>
+            <l n="72">Je plante des pois par les ruës,</l>
+            <l ana="#folie">D’un baston je fais un <rs type="animal" subtype="équidé">cheval</rs>,</l>
+            <l>Je voy courir la Seine à val,</l>
+            <l>Et beaucoup de choses, beau sire,</l>
+            <l n="76" ana="#prudence">Que je ne veux et n’ose dire.</l>
+            <l ana="#folie">Après cela, je peinds en l’air,</l>
+            <l ana="#folie">J’apprens aux <rs type="animal" subtype="équidé">asnes</rs> à voler,</l>
+            <l>Du bordel je fais la chronique,</l>
+            <l n="80">Aux <rs type="animal" subtype="canidé">chiens</rs> j’apprends la rhetorique:</l>
+            <l>Car, en fin, ou <persName key="Plutarque">Plutarque</persName> ment,</l>
+            <l>Ou bien ils ont du jugement.</l>
+            <l>Ce n’est pas tout : je dis sornettes,</l>
+            <l n="84">Je dégoise des chansonnettes, </l>
+            <l>Et vous dis qu’avec grand effort</l>
+            <l>La nature pâtit très-fort.</l>
+            <l>Je suis si plein que je regorge.</l>
+            <l n="88">Si une fois je tends ma gorge,</l>
+            <l>Esclaffant ainsi q’un petard,</l>
+            <l>On dira : « Le <persName>Diable</persName> y ayt part. »</l>
+            <l>Voila comme le temps je passe;</l>
+            <l n="92">Si je suis las, je me délasse;</l>
+            <l>J’écris, je lis, je mange et boy,</l>
+            <l>Plus heureux cent fois que le <persName key="Louis_XIII">roy</persName></l>
+            <l>(Je ne dis pas le Roy de France),</l>
+            <l n="96">Si je n’estois court de finance.</l>
+            <l>Or, pour finir, voila comment</l>
+            <l>Je m’entretiens bisarrement;</l>
+            <l>Et <rs type="injonction" subtype="impératif">prenez-moi</rs> les plus extremes,</l>
+            <l n="100">En sagesse ils vivent de mesmes,</l>
+            <l>N’estant l’humain entendement</l>
+            <l>Qu’une grotesque seulement.</l>
+            <l>Vuidant des bouteilles cassées,</l>
+            <l n="104">Je m’embarasse en mes pensées,</l>
+            <l>Et, quand j’y suis bien embrouillé,</l>
+            <l>Je me couvre d’un sac mouillé.</l>
+            <l>Faute de papier, bona sere.</l>
+            <l n="108" ana="#argent">Qui a de l’argent si le serre.</l>
+            <l ana="#adr">Vostre serviteur à jamais,</l>
+            <l><persName>Maistre Janin du Pontalais.</persName></l></p>
+      </body>
+   </text>
+</TEI>

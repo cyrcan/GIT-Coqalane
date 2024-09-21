@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc xml:id="Mithon">
+         <titleStmt>
+            <title>Réf n°81: </title>
+            <title key="CAA#81">Coq a Lasne à Maistre Mithon, sur la ligue. 1586</title>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p><listWit>
+                  <witness xml:id="COL500"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris, </settlement>
+                           <institution>Bibliothèque nationale de France.</institution>
+                           <idno>Cinq Cents de Colbert, volume 500</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness xml:id="fr25567"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris, </settlement>
+                           <institution>Bibliothèque nationale de France.</institution>
+                           <idno>25567</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness xml:id="fr22564"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris, </settlement>
+                           <institution>Bibliothèque nationale de France.</institution>
+                           <idno>22564</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness xml:id="NAF14846"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris, </settlement>
+                           <institution>Bibliothèque nationale de France.</institution>
+                           <idno>NAF14846</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+               </listWit></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p>
+            <interpGrp>
+               <interp xml:id="adr" ana="adresse">adresse</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:id="topos" ana="topos">lieu commun</interp>
+               <interp xml:id="gén" ana="généralisation">généralisation</interp>
+               <interp xml:id="ironie" ana="ironie">ironie</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="actu" ana="actualité">actualité</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+               <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+               <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+               <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+               <interp xml:id="massacre" ana="massacre">massacre</interp>
+               <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+               <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+               <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+               <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+               <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+               <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+               <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+               <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+               <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                  nécessaire</interp>
+               <interp xml:id="court" ana="court">vie de la court</interp>
+               <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+               <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+               <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="corps" ana="corps">corps</interp>
+               <interp xml:id="violences" ana="violences">guerres civiles</interp>
+               <interp xml:id="pillage-s" ana="pillages">Vol, pillages</interp>
+               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+               <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+               <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+               <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+               <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+               <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+               <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                  gnomique</interp>
+               <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+               <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+               <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+               <interp xml:id="exhortation" ana="exhortation">exhortations et
+                  encouragements</interp>
+               <interp xml:id="rire" ana="rire">rire</interp>
+               <interp xml:id="maladie" ana="maladie">maladie</interp>
+               <interp xml:id="misères" ana="misères">misères de ce temps</interp>
+               <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                  valeurs</interp>
+               <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+               <interp xml:id="rome" ana="contre_Rome">Contre Rome et la papauté</interp>
+               <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+               <interp xml:id="practiques" ana="practiques">practiques</interp>
+               <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+               <interp xml:id="misogynie" ana="misogynie">mysoginie</interp>
+               <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+               <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+               <interp xml:id="météo" ana="météo">météorologie</interp>
+               <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+               <interp xml:id="vanité" ana="vanité">vanité</interp>
+               <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
+                  l'adversaire</interp>
+               <interp xml:id="PolitiqueS" ana="PolitiqueS">Contre les politiques</interp>
+
+            </interpGrp>
+         </p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+            <pb n="175r°"/><fw type="pageNum" place="top-right">175</fw>
+            <cb n="L"/>
+            <l>Apres avoir bien disputé</l>
+            <l>Maistre <persName>Mithon</persName> et contesté</l>
+            <l>Contre le poinct qui me retire</l>
+            <l n="4">D'aucune chose te rescrire</l>
+            <l>De peur que ne sois descouvert</l>
+            <l>Ou pris comme ung homme sans vert</l>
+            <l>Au fin j'animay mon courage</l>
+            <l n="8">De constance contre la rage</l>
+            <l>De <addName ref="ind:Henri_III" key="Henri III">frere Henry</addName> le <orgName
+                  type="ordre_religieux">capuchin</orgName></l>
+            <l>S'il pouvoict comme <persName>Jouachin</persName></l>
+            <l>Avoir ung filz en son viel age</l>
+            <l n="12">Vous verriez changer de visage</l>
+            <l>À maints qui seroient bien camus</l>
+            <l>Par ma foy ce ne sont qu'abus</l>
+            <l>Penser que pour priere faire</l>
+            <l n="16">L'on ayt des enfans sans les faire</l>
+            <l>Aussy le bon homme disoit</l>
+            <l>Que le chanoyne mort estoit</l>
+            <l>Qui faisoit les enfans à <placeName type="city" key="Chartres"
+               >Chartres</placeName></l>
+            <l n="20">La vieille abbesse de <placeName type="district" key="Montmartre"
+                  >Montmartre</placeName></l>
+            <l>Les faisoit d'une autre façon</l>
+            <l>Mais <app>
+                  <lem wit="#COL500">le caphard de père <persName>Aymond</persName></lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">ce caphard Pere d'Aemon</rdg>
+               </app>
+            </l>
+            <l>Est cause de ceste misere</l>
+            <l n="24"><rs type="interjection">Vray Dieu</rs> qu'il fait bon contrefaire</l>
+            <l>Le moyne enfermé en ce temps</l>
+            <l>Plusieurs ont eu dons &amp; presens</l>
+            <l>Pour avoir part à la cuculle</l><note resp="editor" type="ling"><hi rend="italic"
+                  >Cuculle</hi>: "capuchon de moine".</note>
+            <l n="28">De nostre sainct pere la mulle</l>
+            <l>Sera adoré en tout lieu</l>
+            <l>Voyre peult estre plus que <persName>Dieu</persName></l>
+            <l ana="#ligue">Sy la ligue obtenoit la victoire</l>
+            <cb n="R"/>
+            <l n="32">Les Reistres demandent sur <geogName type="fleuve" key="La Loire"
+                  >Loyre</geogName></l>
+            <l>Une ville pour seureté</l>
+            <l>Autrement ilz ont arresté</l>
+            <l>De ne point sortir d'<placeName type="country" key="Allemagne"
+               >Allemagne</placeName></l>
+            <l n="36">Et pour se mettre en la campagne</l>
+            <l>Ilz veullent ung <roleName>prince du <geogName type="fleuve" key="Le Rhin"
+                     >Rhin</geogName></roleName></l>
+            <l>Desjà le <roleName>Conte Palatin</roleName></l>
+            <l>Les a refusez et <roleName>le Saxe</roleName></l>
+            <l n="40"><app>
+                  <lem wit="#COL500">La cause s'en va droict</lem>
+                  <rdg wit="#fr25567 #NAF14846 #fr22564">Il en faut donc chercher</rdg>
+               </app> en dace</l>
+            <l>Ou en <placeName type="country" key="Danemark">Dannemarch</placeName> autrement</l>
+            <l>Je crains fort qu'un estonnement</l>
+            <l>Ou bien quelque fiebvre poltronne</l>
+            <l n="44">Ne refroidisse leur <persName>Belonne</persName></l>
+            <l>Comme l'arrivée de <persName>Condé</persName></l>
+            <l><persName>Calvin</persName> dit qu'il est bien fondé</l>
+            <l>Et pour faire en faire claire preuve</l>
+            <l n="48">Il demande que l'on se treuve</l>
+            <l>En ung concile general</l>
+            <l>Mais il est tard venu &amp; mal</l>
+            <l>D'entrer ainsy en conference</l>
+            <l n="52">Et puis voicy la pauvre <placeName type="country" key="France"
+                  >France</placeName></l>
+            <l><app>
+                  <lem wit="#COL500">Qui est rongée jusques aux os</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">Qui en est rongée jusqu'aux os</rdg>
+               </app></l>
+            <l>Je ne veux pas oster le los</l>
+            <l>Du bon seigneur duc de <persName ref="ind:Joyeuse" key="Joyeuse"
+               >Joyeuse</persName></l>
+            <l n="56">Mais sa noble <expan>vertu</expan> fameuse</l>
+            <l><persName>Du Maynois</persName> lui servit beaucoup</l>
+            <l ana="#corps">Il porte aux moustaches un coup</l>
+            <l>Qui faict ramener sa prouesse</l>
+            <l n="60">Que ce fut une heureuse adresse</l>
+            <l>Pour mieulx asseurer sa valleur</l>
+            <l><app>
+                  <lem wit="#COL500">Car ayant perdu le</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">Ayant fait apparoir son</rdg>
+               </app> cueur</l>
+            <l><app>
+                  <lem wit="#COL500">Il s'enfuit bien loing</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">Soudain s'enfuit</rdg>
+               </app> de la presse</l>
+            <l n="64"><persName ref="ind:Espernon" key="Espernon">Espernon</persName> a presté sa
+               fesse</l>
+            <pb/><cb n="L"/>
+            <l>Ainsy que tout le monde dit</l>
+            <l>Aussy est il en grand credit</l>
+            <l>Comme le second de la <placeName type="country" key="France">France</placeName></l>
+            <l n="68">Touteffois j'ay bonne esperance</l>
+            <l>Que son caquet <app>
+                  <lem wit="#COL500">abaissera</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">rabaissera</rdg>
+               </app></l>
+            <l>Et que l'on le dechassera</l>
+            <l ana="#ligue">Sy la ligue faict son affaire</l>
+            <l n="72">Cependant il <app>
+                  <lem wit="#COL500">fera bon</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">fait fort bon</rdg>
+               </app> faire</l>
+            <l>Bonne mine en un mauvais jeu</l>
+            <l>Et s'entretenir peu <reg>à</reg> peu</l>
+            <l>De l'espoir <app>
+                  <lem wit="#COL500">du bon hymenée</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">d'un vain hymenée</rdg>
+               </app></l>
+            <l n="76">Que sy ceste saincte menée</l>
+            <l>Ne <app>
+                  <lem wit="#COL500">vient comme on dit</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">reussit pas</rdg>
+               </app> à bon port</l>
+            <l>Il <app>
+                  <lem wit="#fr22564 #fr25567 #NAF14846">vaudroit</lem>
+                  <rdg wit="#COL500">faudroit</rdg>
+               </app> mieux tandis au fort</l>
+            <l>Luy faire espouser nostre fille</l>
+            <l n="80">Mais le bruit est en <expan>nostre</expan> ville</l>
+            <l ana="#maladie #sat_pers">Que son chancre est contagieux</l>
+            <l>Et que le duc au <app>
+                  <lem wit="#COL500">mont</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">nom</rdg>
+               </app> Joyeux</l>
+            <l>Le dit au <roleName>Roy</roleName> &amp; <reg>à</reg> la
+               <roleName>Royne</roleName></l>
+            <l n="84">Je m'en rapporte au <expan>Maistre</expan> Moyne</l>
+            <l>Je ne veux <expan>point d'autre</expan> tesmoing</l>
+            <l>Que Fontenay &amp; St Germain</l>
+            <l>Ceux là ont porté les estrilles</l>
+            <l n="88"><persName>Perrot</persName> procureur de la ville</l>
+            <l>Favorise les <orgName type="secte">huguenots</orgName></l>
+            <l>Aussy font bien tous les prevotz</l>
+            <l>Ilz se sentent de la farine</l>
+            <l n="92">Tel entre vous fait bonne mine</l>
+            <l>Qui est <orgName type="secte">huguenot</orgName>
+               <app>
+                  <lem wit="#COL500">en son</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">dans le</rdg>
+               </app> cueur</l>
+            <l>Sy j'estois <roleName>du Roy procureur</roleName></l>
+            <l>Tout chacun diroit en justice</l>
+            <l n="96">Qu'il est catholique rommain</l>
+            <l>Il faict bon estre <rs type="métier">medecin</rs></l>
+            <l>Ou <rs type="métier">chirurgien</rs> à cest heure</l>
+            <l>Le <persName ref="ind:Henri_III" key="Henri III">Roy</persName> a donné la
+               demeure</l>
+            <l n="100">Des <orgName type="ordre" subtype="religieux">Jeronimites</orgName> à
+                  <persName key="Miron">Myron</persName></l>
+            <l>Touteffois le Roy se dit on</l>
+            <cb n="R"/>
+            <l>Ira encore jusques à ce</l>
+            <l> Que les <orgName type="ordre" subtype="religieux">capuchins</orgName> on reface</l>
+            <l n="104">Car trop estroite est leur maison</l>
+            <l>Le sieur mareschal de <persName>Byron</persName></l>
+            <l>N'a rien perdu <app>
+                  <lem wit="#COL500">à</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">en</rdg>
+               </app> ceste guerre*</l>
+            <l>Onc' rien ne luy fut <app>
+                  <lem wit="#COL500">plus</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">si</rdg>
+               </app> prospere</l>
+            <l n="108">Et mieux à poinct <expan>pour</expan> s'acquicter</l>
+            <l><persName>Tavanne</persName> a pensé tout gaster</l>
+            <l>Et nous remettre en <app>
+                  <lem wit="#COL500">tresgrand'</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">grande</rdg>
+               </app> peyne</l>
+            <l>C'est pourquoy le sieur de <persName>Mayenne</persName></l>
+            <l n="112">Ne <app>
+                  <lem wit="#COL500">voulloit</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">voulut</rdg>
+               </app> pas passer <placeName type="city" key="Poitiers">Poictiers</placeName></l>
+            <l>La prise du chasteau d'<placeName type="city" key="Angers">Angiers</placeName></l>
+            <l>A bien advancé <app>
+                  <lem wit="#COL500">la misere</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">le mystere</rdg>
+               </app></l>
+            <l>Nous n'eussions pas en peu d'affaire</l>
+            <l n="116">À rompre l'effort de <persName>Condé</persName></l>
+            <l>S'il eust peu estre secondé</l>
+            <l>Par <persName>le viconte de Touraine</persName></l>
+            <l>Aussy comme dit ma maraine</l>
+            <l n="120" ana="#gnomique">Malheur en quelque chose est bon</l>
+            <l>Monsieur le president <persName>Brisson</persName></l>
+            <l>Est des commis <app>
+                  <lem wit="#COL500">en</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">à</rdg>
+               </app> la recherche</l>
+            <l>Sy au fond de son cueur on cherche</l>
+            <l n="124">On le trouvera bien poyvré</l>
+            <l>Il sera <expan>aysement</expan> livré</l>
+            <l>Pour ung <roleName>surveillant</roleName> ou <roleName>diacre</roleName></l>
+            <l>Il feroit fort beau voir le sacre</l>
+            <l n="128">Du <addName>Roy de <placeName type="city" key="Pampelune"
+                     >Pampelune</placeName></addName> à <placeName type="city">Reims</placeName></l>
+            <l>Par ma foy il n'<app>
+                  <lem wit="#fr22564 #fr25567 #NAF14846">a</lem>
+                  <rdg wit="#COL500">est</rdg>
+               </app> pas les reins</l>
+            <l>Assez puissant[s] pour ceste charge</l>
+            <l>S'il ne veult suivre la vraye Loy</l>
+            <l n="132">Ce royaume n'eust jamais <roleName>Roy</roleName></l>
+            <l>Qui ne feust oint &amp; catholique</l>
+            <l>J'espere aussy que <addName>l'heretique</addName></l>
+            <l>Ne doibt pas redouter ce coup</l>
+            <l n="136">Il ne fault pas livrer au <rs type="animal">Loup</rs></l>
+            <l>La pauvre <rs type="animal">brebis</rs> sans deffense</l>
+            <l>Le <roleName>premier mareschal de France</roleName></l>
+            <pb n="176r°"/><fw type="pageNum" place="top-right">176</fw>
+            <cb n="L"/>
+            <l>A esté fort mal avisé</l>
+            <l n="140">Quand il <app>
+                  <lem wit="#COL500">fut</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">s'est</rdg>
+               </app> ainsy divisé</l>
+            <l>D'<app>
+                  <lem wit="#COL500">entre le <roleName>Roy</roleName> et nostre</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">D'avecq le Roy et l'Eglise></rdg>
+               </app> Eglise</l>
+            <l>Touttefois ce n'est que la guise</l>
+            <l>Des <persName>Ganelons</persName> &amp; <app>
+                  <lem wit="#COL500">leurs</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">ses</rdg>
+               </app> ayeux</l>
+            <l n="144">Le jeune <persName>Chaumont</persName> a faict myeux</l>
+            <l>D'abjurer sa folle creance</l>
+            <l><persName>Rohan</persName> a esté en balance</l>
+            <l>D'en faire autant &amp; ce dit on</l>
+            <l n="148">Que plusieurs seigneurs de renom</l>
+            <l>De <placeName type="region" key="Poitou">Poictou</placeName> &amp; de <placeName
+                  type="region" key="Normandie">Normandye</placeName></l>
+            <l>Ont du tout quicté l'heresie</l>
+            <l>Pour se <expan>conformer</expan>
+               <reg>à</reg> l'edit</l>
+            <l n="152">Monsieur Do retourne en credit</l>
+            <l>Par le moyen de son beau pere</l>
+            <l>Il faict bon panser le cautere</l><note resp="editor" type="philo">Il manque un vers
+               ici. Le ms. fr. 25567 signale ce manque par une ligne laissée blanche. Aucun des
+               quatre témoins ne le rétablit.</note>
+            <l><persName>Portail</persName> a eu par ce moyen</l>
+            <l n="156">Pour son filz ung <app>
+                  <lem wit="#COL500">beau benefice</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">fot bel office</rdg>
+               </app></l>
+            <!-- Saut# --><anchor type="saut"/>
+            <l>Mais que <persName key="D'O">Do</persName> ne soit pas sy nyce</l><note resp="editor"
+               type="ling"><hi rend="italic">Nice</hi>: naïf.</note>
+            <l>De quiter le chasteau de <placeName type="city" key="Caen">Can</placeName></l>
+            <l>S'il ne veult estre dedans l'an</l>
+            <l n="160">Chassé tant d'un costé que d'autre</l>
+            <l>Il y a tresmauvais ordre</l>
+            <l>En ceste ville pour l'edit</l>
+            <l>Chacun vit <reg>à</reg> son appetit</l>
+            <l n="164">Et comme luy vient en courage</l>
+            <l>Sans se soucier davantage</l>
+            <l>D'obeyr au <roleName>Roy</roleName> &amp; à <persName>Dieu</persName></l>
+            <l><roleName>Le Roy de Navarre</roleName> en tout lieu</l>
+            <l n="168">Se dit <roleName>premier prince de <placeName type="country" key="France"
+                     >France</placeName></roleName></l>
+            <l>Mais le <roleName key="Charles de Bourbon">cardinal</roleName> le devance</l>
+            <l>Du degré de l'oncle à nepveu</l>
+            <l>Il n'y a prestrise ne veu</l>
+            <l n="172">Qui l'en puisse rendre incapable</l>
+            <l>Aussy <app>
+                  <lem wit="#COL500">n'est ce pas</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">ce n'est que</rdg>
+               </app> pure fable</l>
+            <l>Et une sotte fiction</l>
+            <l>Que la representation</l>
+            <cb n="R"/>
+            <l n="176"><app>
+                  <lem wit="#COL500">Qui</lem>
+                  <rdg wit="#fr25567 #fr22564 #NAF14846">Et</rdg>
+               </app> n'a lieu au degré qui s'offre</l>
+            <l>S'yl descend quelque lifre lofre</l>
+            <l>Nous le saluerons sur le <geogName type="fleuve" key="Le Rhin">Rhin</geogName></l>
+            <l>Il n'y a pas assez de vin</l>
+            <l n="180">Pour eux en <placeName type="country" key="France">France</placeName> ceste
+               année</l>
+            <l>Mais des <orgName type="secte">huguenots</orgName> la menée</l>
+            <l>Dieu aydant <app>
+                  <lem wit="#fr25567 #fr22564 #NAF14846">s'en</lem>
+                  <rdg wit="#COL500"/>
+               </app> ira au vent</l>
+            <l>Car l'on a envoyé argent</l>
+            <l n="184">Pour faire rompre leur levée</l>
+            <l>Le <persName>duc du Mayne</persName> à mainte armée</l>
+            <l>Court tout le <placeName type="region">pays d'Angoulmoys</placeName></l>
+            <l>Devant que soit bien peu de moys</l>
+            <l n="188">Tous oyrez dire du mesnage</l>
+            <l>On dit que le sieur de <persName>Bouchage</persName></l>
+            <l>S'en va avoir ung compagnon</l>
+            <l>Je pense que c'est le <roleName>baron</roleName></l>
+            <l n="192"><persName>De Termes</persName> pour la recompense</l>
+            <l>D'avoir au lict couru la lance</l>
+            <l>Et receu <app>
+                  <lem wit="#fr25567 #fr22564 #NAF14846">celuy</lem>
+                  <rdg wit="#COL500">celle</rdg>
+               </app> d'Espernon</l>
+            <l><expan>Maintenant</expan> il ne faict pas bon</l>
+            <l n="196">De luy faire prendre ung clistere</l>
+            <l>D'autant qu'il a mal au derriere</l>
+            <l ana="#maladie">Qui est ung chancre ce dict on</l>
+            <l>Le <roleName key="Henri III">Roy</roleName> a faict sommer
+                  <persName>Bouillon</persName></l>
+            <l n="200">D'obeyr <reg>à</reg> son ordonnance</l>
+            <l>Et s'il ne rend obeissance</l>
+            <l>Au <roleName>Roy</roleName> qui est souverain</l>
+            <l>Il verra bloquer tout soudain</l>
+            <l n="204">De <placeName type="city" key="Sedan">Sedan</placeName> le chasteau &amp;
+               ville</l>
+            <l>L'on a requis que le concile</l>
+            <l>De Trente fust verifié</l>
+            <l>Ayant esté modifié</l>
+            <l n="208">Pour les libertez de la <placeName type="country" key="France"
+                  >France</placeName></l>
+            <l>Sa majesté en apparance</l>
+            <l>A monstré d'en estre <expan>content</expan></l>
+            <l>Mais on a veu evidemment</l>
+            <pb n="176v°"/><cb n="L"/>
+            <l n="212">Depuis que ce n'estoit que feincte</l>
+            <l>Il faut aller <reg>à</reg> la contrainte</l>
+            <l><app>
+                  <lem wit="#COL500">Qu'il dit que l'heretique attend</lem>
+                  <rdg wit="#NAF14846 #fr25567 #fr22564"/>
+               </app></l><note>Vers absent du manuscrit Rasse des Neux (fr. 22564) et de ceux qui le
+               suivent (fr. 25567 et NAF 14846).</note>
+            <l>Mais soubz main il fournit argent</l>
+            <l n="216">Au premier pour faire la guerre</l>
+            <l>Quatre mil hommes d'<placeName type="country" key="Angleterre"
+               >Angleterre</placeName></l>
+            <l>Sont <app>
+                  <lem wit="#COL500">demeurez</lem>
+                  <rdg wit="#fr25567 #fr22564 #NAF14846">descenduz</rdg>
+               </app> au <placeName type="country" key="Pays-Bas">Pais-Bas</placeName>s</l>
+            <l>Le guerre empesche nos esbats</l>
+            <l n="220">Il ne fault <app>
+                  <lem wit="#COL500">plus que le Roy</lem>
+                  <rdg wit="#fr25567 #fr22564 #NAF14846">que le Roy plus ne</rdg>
+               </app> danse</l>
+            <l>Sy nous pouvons avoir dispense</l>
+            <l>De <placeName type="city" key="Rome">Romme</placeName> pour vendre le bien</l>
+            <l>De l'Eglise, Dieu scait combien</l>
+            <l n="224">L'edit dernier aura de vogue</l>
+            <l>Il faict bon faire la morgue</l>
+            <l ana="#argent">Pour toucher argent puis apres</l>
+            <l>Je crains <app>
+                  <lem wit="#COL500">que tous noz grands</lem>
+                  <rdg wit="#fr25567 #fr22564 #NAF14846">fort que tous noz</rdg>
+               </app> apprests</l>
+            <l n="228">Ne soient convertis en fumée</l>
+            <!-- Saut# --><anchor type="saut#"/>
+            <l><persName key="Perreuse">Pairreuse</persName> sera ceste année</l>
+            <l><app>
+                  <lem wit="#COL500">Se dit le</lem>
+                  <rdg wit="#fr25567 #fr22564 #NAF14846">Ce dit on</rdg>
+               </app>
+               <roleName>prevost</roleName> des <rs type="métier">marchans</rs></l>
+            <l>S'il ne vient quelque edit meschant</l>
+            <l n="232">Qui <app>
+                  <lem wit="#COL500">soit cause de continue</lem>
+                  <rdg wit="#fr22564 #NAF14846">cause qu'on le confirme</rdg>
+                  <rdg wit="#fr25567">cause qu'on le continue</rdg>
+               </app></l>
+            <l>Touteffois <app>
+                  <lem wit="#COL500">le Nuble s'esvertue</lem>
+                  <rdg wit="#fr22564 #NAF14846">Hector s'esvertue</rdg>
+                  <rdg wit="#fr25567">Hector continue</rdg>
+               </app></l>
+            <l>De donner à <persName key="Nully">Nuly</persName> le choc</l>
+            <l>Je suis en crainte que le <app>
+                  <lem wit="#COL500">choc</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">froc</rdg>
+               </app></l>
+            <l n="236">Ne nous apporte de la <app>
+                  <lem wit="#fr22564 #NAF14846 #fr25567">hargne</lem>
+                  <rdg wit="#COL500"><unclear/></rdg>
+               </app></l>
+            <l>Le <persName ref="ind:Henri_III" key="Henri III">Roy</persName> a espuysé
+               l'espargne</l>
+            <l>De telle sorte qu'<reg>à</reg> present</l>
+            <l><app>
+                  <lem wit="#COL500">Il</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">On</rdg>
+               </app> ne peult où trouver argent</l>
+            <l n="240">Pour payer l'armée de <persName ref="ind:Henri_de_Guise" key="Henri de Guise"
+                  >Guise</persName></l>
+            <l>Et l'argent que fournist l'Eglise</l>
+            <l>Est destiné pour Languedoc</l>
+            <l><reg>À</reg> ceste cause monsieur <persName>Do</persName></l>
+            <l n="244">Veult faire <app>
+                  <lem wit="#COL500">payer</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">taxer</rdg>
+               </app> chasque ville</l>
+            <!-- Saut# --><anchor type="saut#"/>
+            <l>Du <roleName>premier Medecin</roleName> la fille</l>
+            <l>Tient la place de la <persName>Beauvoir</persName></l>
+            <l>Il n'eust pas esté beau de voir</l>
+            <l n="248">La jeune desmentir l'aisnée</l>
+            <l>Car elle <app>
+                  <lem wit="#COL500 #fr25567">est chaste</lem>
+                  <rdg wit="#fr22564 #NAF14846">chasse</rdg>
+               </app> de lignée</l>
+            <l>Et la <app>
+                  <lem wit="#COL500">maigre</lem>
+                  <rdg wit="#fr25567 #fr22564 #NAF14846">mere</rdg>
+               </app> à arrester sert</l>
+            <l>Sy Johannes est descouvert</l>
+            <l n="252">Ou qu'il faille à son entreprise</l>
+            <l><addName key="Henri de Guise">Le balafré sieur de Guise</addName></l>
+            <l>Ne le garantira jamais</l>
+            <l>L'on donne <placeName type="city" key="Boulogne">Boulongne</placeName> et <placeName
+                  type="city" key="Calais">Calays</placeName></l>
+            <l n="256">À <persName ref="ind:Épernon" key="Épernon">d'Espernon</persName> en
+               recompense</l>
+            <l><app>
+                  <lem wit="#COL500">Aussy a il</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">Ainsi il a</rdg>
+               </app> les clefs de <placeName type="country" key="France">France</placeName></l>
+            <l><app>
+                  <lem wit="#COL500">Pour se veoir le</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">Pour s'y rendre</rdg>
+               </app> plus fort s'il peult</l>
+            <l>Touteffois <persName>d'Estrée</persName> ne veult</l>
+            <l n="260">De <placeName type="city" key="Boulogne">Boulongne</placeName> quiter la
+               place</l>
+            <l>Et sy on le force il menace</l>
+            <l>De mettre <orgName type="peuple" key="anglais">l'Angloys</orgName> le plus fort</l>
+            <l>Je ne scay sy le prince est mort</l>
+            <l n="264">Ou bien s'il est en <placeName type="country" key="Angleterre"
+                  >Angleterre</placeName></l>
+            <l>Ou aupres du <persName ref="ind:Henri_de_Navarre" key="Henri de Navarre">Roy de
+                  Navarre</persName></l>
+            <l>Ou avec <persName ref="ind:François_de_Montmorency" key="François de Montmorency">de
+                  Montmorancy</persName></l>
+            <l>S'il est mort je suys en soucy</l>
+            <l n="268">Que deviendra son accordée</l>
+            <l>La ville <app>
+                  <lem wit="#COL500">depuis desbordée</lem>
+                  <rdg wit="#fr25567 #fr22564 #NAF14846">du Puy d'abordée</rdg>
+               </app></l>
+            <l>A branlé <app>
+                  <lem wit="#COL500">par</lem>
+                  <rdg wit="#fr25567 #fr22564 #NAF14846">pour</rdg>
+               </app> les <orgName type="secte">Huguenotz</orgName></l>
+            <l>Je voy les partages &amp; lotz</l>
+            <l n="272">De nostre <placeName type="country" key="France">France</placeName>
+               dispersée</l>
+            <l>Sy tost que du <roleName>Roy</roleName> la fusée</l>
+            <l>Aura eu le coup de cousteau</l>
+            <l>Sy tost <app>
+                  <lem wit="#COL500">que viendra</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">qu'il sera</rdg>
+               </app> au tombeau</l>
+            <l n="276"><addName key="Charles de Bourbon">Le titulaire de la Ligue</addName></l>
+            <l>En continuant bien sa brigue</l>
+            <l>Le sceptre aura pour son chappeau</l>
+            <l><reg>À</reg> la mort de <app>
+                  <lem wit="#COL500">Calvin pimpeau</lem>
+                  <rdg wit="#fr25567 #fr22564 #NAF14846">Catin pruneau</rdg>
+               </app></l><note resp="editor" type="glose">Pimpeau? peut-être dérivé de pimper pour
+               "fardé", "déguisé"</note>
+            <l n="280">Qu'il y eut de tripes perdues</l>
+            <l>Et y aura <app>
+                  <lem wit="#fr25567 #fr22564 #NAF14846">quand</lem>
+                  <rdg wit="#COL500">grande</rdg>
+               </app> avenues</l>
+            <l>Sera <app>
+                  <lem wit="#COL500">la mort</lem>
+                  <rdg wit="#fr25567 #fr22564 #NAF14846">celle</rdg>
+               </app> de <persName key="Villequier">Villequiert</persName></l>
+            <pb n="177r°"/><fw type="pageNum" place="top-right">177</fw>
+            <cb n="L"/>
+            <l><app>
+                  <lem wit="#COL500">On craint</lem>
+                  <rdg wit="fr22564 #NAF14846 #fr25567">L'on doubte</rdg>
+               </app> fort que <app>
+                  <lem wit="#COL500">de</lem>
+               </app>
+               <persName>Montpensier</persName></l>
+            <l n="284"><app>
+                  <lem wit="#COL500">Soustienne</lem>
+                  <rdg wit="#22564 #NAF14846 #25567">Ne porte</rdg>
+               </app> le party <expan>contraire</expan></l>
+            <l><app>
+                  <lem wit="#COL500">C'est pourquoy en ung tel</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">Aussi on croid qu'on cest'</rdg>
+               </app> affaire</l>
+            <l>Il tiendra le lieu du Tacet</l>
+            <l>Quel ennuy voir sur un placet</l>
+            <l n="288">Un NE SE PEULT en grosse lettre</l>
+            <l>Il vault mieulx se garder <app>
+                  <lem wit="#COL500">du</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">d'un</rdg>
+               </app> traistre</l>
+            <l>Que non pas de son ennemy</l>
+            <l>Il ne fault point estre à demy</l>
+            <l n="292">D'une religion ou d'<expan>aultre</expan></l>
+            <l>Car qui n'est <expan>pour</expan>
+               <persName>Dieu</persName>
+               <app>
+                  <lem wit="#COL500">il est contre</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">est pour l'autre</rdg>
+               </app></l>
+            <l>C'est ung article de la <app>
+                  <lem wit="#COL500">Loy</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">foy</rdg>
+               </app></l>
+            <l>Non <persName>Madame de Villeroy</persName></l>
+            <l n="296">Comme je croy fust desja morte</l>
+            <l>D'extreme ennuy qu'elle supporte</l>
+            <l ana="#sat_pers">Pour l'absence de son <persName>Breton</persName></l>
+            <l>Sans la grande consolation</l>
+            <l n="300">Qu'elle a receu de <persName>La Mirande</persName></l>
+            <l><app>
+                  <lem wit="#COL500 #NAF14846">Surrousse</lem>
+                  <rdg wit="#fr25567"> </rdg>
+                  <rdg wit="#fr22564" resp="second hand">Surrousse</rdg>
+               </app> aussy toute sa bande</l>
+            <l><app>
+                  <lem wit="#COL500">Fust rechargée</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">feurent chargez</rdg>
+               </app> prest de la mort</l>
+            <l>Il fauldra <expan>faire</expan> double fort</l>
+            <l n="304">Qui voudra bloquer <placeName type="city" key="La Rochelle">La
+                  Rochelle</placeName></l>
+            <l>Et <expan>outre</expan> armer mainte nacelle</l>
+            <l>Pour empescher le <app>
+                  <lem wit="#COL500">cours</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">secours</rdg>
+               </app> de mer</l>
+            <l>Je pense qu'il <app>
+                  <lem wit="#fr22564 #NAF14846 #fr25567">est</lem>
+                  <rdg wit="#COL500">soit</rdg>
+               </app> bien amer</l>
+            <l n="308">Au <roleName ref="ind:Henri_III" key="Henri III">Roy</roleName> de voir venir
+               en la <placeName type="country" key="France">France</placeName></l>
+            <l>Des gens hors son obeissance</l>
+            <l>Et qui ont faict tous leurs efforts</l>
+            <l>De <app>
+                  <lem wit="#COL500">le</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">se</rdg>
+               </app> rendre <app>
+                  <lem wit="#COL500">Roy</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">Roys</rdg>
+               </app> de dehors</l>
+            <l n="312">Le privant de ceste couronne</l>
+            <l>Au bas <persName>Mayne</persName> le tambour sonne</l>
+            <l>Pour le <persName>Sieur marquis de Conty</persName></l>
+            <l>Celuy à tort fust desmenty</l>
+            <l n="316">Qui apporta au <roleName ref="ind:Henri_III" key="Henri III">Roy</roleName>
+               nouvelle</l>
+            <cb n="R"/>
+            <l>Que le marquis estoit rebelle</l>
+            <l>Suyvant le party huguenot</l>
+            <l><persName>Madame de La Rochepot</persName></l>
+            <l n="320">Commence <reg>à</reg> estre mesnagere</l>
+            <l>Elle <app>
+                  <lem wit="#COL500 #fr22564 #NAF14846">gaigne</lem>
+                  <rdg wit="#fr25567">guigne</rdg>
+               </app> avec son derriere</l>
+            <l ana="#misogynie">Maintz beaux <expan>presens</expan> à reculons</l>
+            <l>Monsieur le <persName>Conte de Soissons</persName></l>
+            <l n="324">Je dis à demy prend la fille</l>
+            <l>De <persName>madame de Longueville</persName></l>
+            <l>S'il n'est par le <addName ref="ind:Henri_de_Guise" key="Henri de Guise"
+                  >Guysard</addName> frustré</l>
+            <l>Que le <persName>duc de Retz</persName> est <del resp="scriptor">heuré</del>
+               <app>
+                  <lem wit="#COL500">leurré</lem>
+                  <rdg wit="#fr25567">heuré</rdg>
+               </app></l>
+            <l n="328">Il monstre bien qu'il n'est pas beste</l>
+            <l>Ayant fait une telle queste</l>
+            <l>Et sy bien pesché de ses retz</l>
+            <l><persName ref="ind:Épernon" key="Épernon">D'Espernon</persName> feinct d'aller à
+                  <placeName type="city" key="Metz">Metz</placeName></l>
+            <l n="332">Mais <app>
+                  <lem wit="#fr22564 #NAF14846 #fr25567">c'est</lem>
+                  <rdg wit="#COL500">est</rdg>
+               </app> pour brasser une nopce</l>
+            <l>Le petit Conte <persName>Pierre Bosse</persName></l>
+            <l>Ne fit pas mal de passer l'eau</l>
+            <l ana="#prophétie">J'ay veu ung almanach nouveau</l>
+            <l n="336" ana="#sit_mil">Qui menace d'une menée</l>
+            <l>Jamais dit on chair enfumée</l>
+            <l>Ne valut rien en t'y fie pas</l>
+            <l>De ceux je ne fais pas grand cas</l>
+            <l n="340">Qui regardent par la fenestre</l>
+            <l><addName ref="ind:Henri_de_Guise" key="Henri de Guise">Le balafré</addName> a promis
+               estre</l>
+            <l>Dans peu de temps aupres du <persName ref="ind:Henri_III" key="Henri III"
+                  >Roy</persName></l>
+            <l>Je ne le croy pas quant à moy</l>
+            <l n="344">De <placeName type="city" key="Florence">Florence</placeName> il scait la
+               cautelle</l>
+            <l>On ne scait aucune nouvelle</l>
+            <l>De l'armée de Dauphiné</l>
+            <l><persName ref="ind:Épernon" key="Épernon">D'Espernon</persName> y fut destiné</l>
+            <l n="348">Mais sa veue est au <persName ref="ind:Henri_III" key="Henri III"
+                  >Roy</persName> trop chere</l>
+            <l><app>
+                  <lem wit="#COL500">Puis l'<expan>aultre</expan> vault mieulx que</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">Et puis l'autre vault bien</rdg>
+               </app> son frere</l>
+            <l>Fors qu'il n'est pas sy bien <app>
+                  <lem wit="#COL500">veneu</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">voulu</rdg>
+               </app></l>
+            <pb n="177v°"/><cb n="L"/>
+            <l>Le jour du jeudi <reg>absolu</reg></l>
+            <l n="352">Le <roleName ref="ind:Henri_III" key="Henri III">Roy</roleName> feit
+               penitence entiere</l>
+            <l>Avec la capelle cochere</l>
+            <l><corr resp="editor" source="#fr22564 #NAF14846 #fr25567">Et</corr> n'en deplaise à
+               son cocher</l>
+            <l>Le <roleName ref="ind:Henri_III" key="Henri_III">Roy</roleName> a faict maint
+               chevalier</l>
+            <l n="356"><reg>À</reg> ce commancement d'année</l>
+            <l>Ce sera tantost la livrée</l>
+            <l>Esgalle aux nobles &amp; vilains</l>
+            <l>Comme il y en a desja maintz</l>
+            <l n="360">Desquels la noblesse est fort basse</l>
+            <l>Si tu voullois sonder la race</l>
+            <l>De <persName>Combault</persName> elle sonne bas</l>
+            <l>Aussy elle approche du bas</l>
+            <l n="364">Mais sa mere la taverniere</l>
+            <l>Luy a enseigné la maniere</l>
+            <l>De la mettre sur ung rapé</l>
+            <l>Le chasteau d'<placeName type="city" key="Angers">Angers</placeName> feust sapé</l>
+            <l n="368">Et mis par terre[,] sy la ville</l>
+            <l>A fournir eust esté habille</l>
+            <l>La somme que l'on demandoit</l>
+            <l>Mais <persName>Du Bouchage</persName> ne taschoit</l>
+            <l n="372">(Dont la ville feut advertye)</l><note resp="editor" type="philo">Vers absent
+               du mansucrit Colbert.</note>
+            <l><app>
+                  <lem wit="#fr22564 #NAF14846 #fr25567">Que de toucher cette partie</lem>
+                  <rdg wit="#COL500">Qu'à toucher argent de la</rdg>
+               </app> partie</l>* <l>Et puis laisser le chasteau sus</l>
+            <l>Vray Dieu qu'il y a de coqus</l>
+            <l n="376">En ceste <app>
+                  <lem wit="#COL500">ville</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">court</rdg>
+               </app>
+               <corr resp="editor" source="#fr22564 #NAF14846 #fr25567">de toutes sortes</corr></l>
+            <l>L'une le faict entre deux portes</l>
+            <l>L'autre aux degrés en ung besoin</l>
+            <l>Tandis que <persName>Myron</persName>
+               <rs type="métier">medecin</rs></l>
+            <l n="380">Chevauche de la part Royalle</l>
+            <l><reg>À</reg>
+               <persName ref="ind:Épernon" key="Épernon">Espernon</persName> la Mareschalle</l>
+            <l>Sondoit s'il estoit bon picqueur</l>
+            <l>Mais il pensa perdre le <reg>cœu</reg>r</l>
+            <l n="384">Quand il ouyt la voix de <persName ref="ind:Henri_de_Guise"
+                  key="Henri de Guise">Guyse</persName></l>
+            <l>Il s'en fuid <corr resp="editor" source="#fr22564 #NAF14846 #fr25567">tout</corr> nud
+               en chemise</l>
+            <cb n="R"/>
+            <l>Cacher <reg>à</reg> la <app>
+                  <lem wit="#COL500">ruelle</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">rive</rdg>
+               </app> du lict</l>
+            <l>Et passa là toute la nuict</l>
+            <l n="388">Aussy que ceux de <placeName>purgatoire</placeName></l>
+            <l><app>
+                  <lem wit="#COL500">Oyant</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">Voyants</rdg>
+               </app> de paradis la gloire</l>
+            <l>Sans y pouvoir participer</l>
+            <l>Chacun se plainct du <roleName>chancelier</roleName></l>
+            <l n="392">On dit qu'entre deux eaux il nage</l>
+            <l>Et quoyqu'il brasse ung parantage</l>
+            <l>Avec monsieur le duc d'<persName key="Elbœuf">Albœuf</persName></l>
+            <l>Sy est ce que les yeux de <rs type="invective"><rs type="animal" subtype="bovidé"
+                     >bœuf</rs></rs></l>
+            <l n="396">De ceste vieille <rs type="secte">huguenote</rs></l>
+            <l>Ont bien apperceu qu'il susporte</l>
+            <l>Le party du <roleName key="Henri de Navarrd">Roy navarrois</roleName></l>
+            <l>Les heretiques escossois</l>
+            <l n="400">Soustenus de ceux d'<placeName type="country" key="Angleterre"
+                  >Angleterre</placeName></l>
+            <l>Font à leur petit <roleName>Roy</roleName> la guerre</l>
+            <l>Mais se sont des tours d'Ysabeau</l>
+            <l><app>
+                  <lem wit="#COL500">Conjoincts au beau printemps nouveau</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567"> </rdg>
+               </app></l><note resp="editor" type="philo">Ce vers ne figure que dans le manuscrit
+               500 des Cinq cens de Colbert.</note>
+            <l n="404">Avec <corr source="#fr22564 #NAF14846 #fr25567">[le]</corr> changement <app>
+                  <lem wit="#COL500">du</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">d'un</rdg>
+               </app> prince</l>
+            <l><corr source="#fr22564 #NAF14846 #fr25567">[On vera changer la
+               Province]</corr></l><note resp="editor" type="philo">Vers absent du manuscrit de
+               Colbert et rétabli à l'aide des autres témoins.</note>
+            <l>De foy &amp; de religion</l>
+            <l>Quelle saincte devotion</l>
+            <l n="408">A de nouveau saisy <app>
+                  <lem wit="#COL500"><persName>le Merle</persName></lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">De Marle</rdg>
+               </app></l>
+            <l>Son habit et sa langue parle</l>
+            <l><app>
+                  <lem wit="#COL500">Encontre de ce qu'elle</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">Au contraire de ce qu'il</rdg>
+               </app> croit</l>
+            <l>Mais par ce moyen il s'acroist</l>
+            <l n="412">Ayant eu en don ung office</l>
+            <l>Que le capuchon est propice</l>
+            <l>Pour se maintenir aujourd'huy</l>
+            <l>Et puis soubz ombre d'iceluy</l>
+            <l n="416">On va voir les jeunes d'<persName>Estrée</persName></l>
+            <l>Je voudrois avoir veu l'entrée</l>
+            <l>Qu'on a faict à d'<persName ref="ind:Épernon" key="Épernon">Espernon</persName></l>
+            <pb n="178r°"/><fw type="pageNum" place="top-right">178</fw>
+            <cb n="L"/>
+            <l>Quand il a passé par <placeName type="city" key="Châlons">Chalon</placeName></l>
+            <l n="420">Et qu'il a esté en <placeName type="region" key="Lorraine"
+                  >Lorraine</placeName></l>
+            <l>Le commun bruit est que d'<persName>Elbene</persName></l>
+            <l>L'abbé fils aisné du banquier</l>
+            <l>Gouverne plainement de Tier</l>
+            <l n="424">Aussy faict il bien la Surgere</l>
+            <l>Mais pour cela ne t'y fie guere</l>
+            <l>Car il favorise <persName>Bourbon</persName></l>
+            <l>Et est icy <expan>comme</expan> espion</l>
+            <l n="428">Pour advertir <app>
+                  <lem wit="#COL500">les Roys en</lem>
+                  <rdg wit="#NAF14846 #fr22564 #fr25567">le Roy sans</rdg>
+               </app> terre</l>
+            <!--Vers manquant? -->
+            <l><app>
+                  <lem wit="#COL500">Dont serait il</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">Doncques il est</rdg>
+               </app> aysé à croyre</l>
+            <l>Q'un <addName key="Henri de Navarre">Navarroys</addName> n'<app>
+                  <lem>aurait</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">ayant</rdg>
+               </app> pouvoir</l>
+            <l><app>
+                  <lem wit="#fr22564 #NAF14846 #fr25567">En vain aura il le vouloir</lem>
+               </app></l><note resp="editor" type="philo">Vers absent du manuscrit de la collection
+               Colbert.</note>
+            <l n="432">De changer le sacré mistere</l>
+            <l>Que c'est une fine commere</l>
+            <l>Que la <persName ref="ind:Catherine_de_Medicis" key="Catherine de Médicis">Royne mere
+                  du Roy</persName></l>
+            <l>Elle a mis tout en desarroy</l>
+            <l n="436">Et presque ruyné la <placeName type="country" key="France"
+               >France</placeName></l>
+            <l>Mais sy <persName key="La reine Margot">Margot</persName> ne la devance</l>
+            <l>Au moins elle la suit de pres</l>
+            <!-- Saut# -->
+            <l>Il pensa prendre <placeName type="region" key="Le Vivaret">Vivares</placeName></l>
+            <l n="440"><addName>Le Maynois</addName> mais sa menée</l>
+            <l>A esté trop <corr resp="editor" source="#fr22564 #NAF14846 #fr25567">[tost]</corr>
+               esvantée</l>
+            <l>Voyant descouvertz ses desseints</l>
+            <l>Il feignoit s'en aller aux bains</l>
+            <l n="444">Et faillit de prendre <placeName type="city" key="Marseille"
+                  >Marseille</placeName></l>
+            <l>Le duc <reg>à</reg> la double bouteille</l>
+            <l>En s'enfuyant prist <app>
+                  <lem wit="#COL500"><placeName type="city">Baujency</placeName></lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">Boisjency</rdg>
+               </app></l>
+            <l>Sy par tout il faisoit ainsy</l>
+            <l n="448">Il gaigneroit plus à la fuite</l>
+            <l>Qu'il ne feroit à la poursuite</l>
+            <l>Aussy il se taist maintenant</l>
+            <l><app>
+                  <lem wit="#COL500">Mais tous messieurs</lem>
+                  <rdg>Les gens du Roy</rdg>
+               </app> de Parlement</l>
+            <l n="452">Sont tous <orgName type="secte">huguenots</orgName> soubz l'escorce</l>
+            <l>Toutesfois chacun d'eux s'efforce</l>
+            <l>De se monstrer homme de bien</l>
+            <l><app>
+                  <lem wit="#fr22564 #NAF14846 #fr25567">Trouillaut fut estrillé en chien</lem>
+                  <rdg wit="#COL500">Travaillant sur estrille</rdg>
+               </app></l>
+            <l n="456"><app>
+                  <lem wit="#fr22564 #NAF14846 #fr25567">Enfermé à la vieille feste</lem>
+                  <rdg wit="#COL500">En chien enfermé</rdg>
+               </app></l>
+            <l><app>
+                  <lem wit="#COL500"><reg>Où</reg></lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">Et</rdg>
+               </app> eut cinq ou six jours la teste</l>
+            <l><corr source="#fr22564 #NAF14846 #fr25567">Dedans</corr> ung privé à l'envers</l>
+            <l>Il <app>
+                  <lem wit="#COL500">fault se garder des</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">se faut garder du</rdg>
+               </app> revers</l>
+            <l n="460">Du <roleName>Roy de <placeName type="region" key="Champagne"
+                     >Champagne</placeName> &amp; de <placeName type="region" key="Brie"
+                     >Brye</placeName></roleName></l>
+            <l>Sy <persName type="saint" key="Saint Mesgrin">sainct Maigrin</persName> estoict en
+               vye</l>
+            <l>Il diroit bien la verité</l>
+            <l><persName>Ruadan</persName> ce dit on a esté</l>
+            <l n="464"><app>
+                  <lem wit="#COL500">Tachant tuer le duc</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">qui marchandait tuer</rdg>
+               </app> de Guise</l>
+            <l>Mais <reg>à</reg> propos quand je m'avise</l>
+            <l>Que <app>
+                  <lem wit="#fr22564 #NAF14846 #fr25567">fait <persName>Stavay</persName></lem>
+                  <rdg wit="#COL500">faut Soutens</rdg>
+               </app> maintenant</l>
+            <l>Car d'<persName>Estrée</persName> marche bien devant</l>
+            <l n="468">Et son duc brasse ung mariage</l>
+            <l>A l'on faict ung grand advantage</l>
+            <l>A l'aisnée du duc Lorrain</l>
+            <l>Je croy que c'est à son cousin</l>
+            <l n="472">Que la Royne l'a destinée</l>
+            <l>Et que <app>
+                  <lem wit="#COL500">demandera</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">deviendra</rdg>
+               </app> la puisnée</l>
+            <l>Au sieur de <persName>Longueville</persName> duc</l>
+            <l>On dit que le sieur de <persName>St Luc</persName></l>
+            <l n="476">Tramoit une entreprise belle</l>
+            <l>Sur la ville de <placeName type="city" key="La Rochelle">La Rochelle</placeName></l>
+            <l>Mais tout a esté esventé</l>
+            <l>Cependant <app>
+                  <lem wit="#COL500">on a</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">ils ont</rdg>
+               </app> arresté</l>
+            <l n="480"><app>
+                  <lem wit="#COL500">Dedans la ville une parloire</lem>
+                  <rdg>Dans leur ville une parlonyaire</rdg>
+               </app></l>
+            <pb n="178v°"/>
+            <cb n="L"/>
+            <l>Dont le president et le Mayre</l>
+            <l>Avec douze <rs type="métier">conseillers</rs></l>
+            <l>Quatre <rs type="métier">marchands</rs> quatre <rs type="métier">escuiers</rs></l>
+            <l n="484">Et quatre <rs type="métier">officiers de justice</rs></l>
+            <l>Le duc d'<persName ref="ind:Épernon" key="Épernon">Espernon</persName> n'a qu'un
+               vice</l>
+            <l>Il est trop vaillant en gascon</l>
+            <l ana="#gnomique">Il faut comme dit le dicton</l>
+            <l n="488">Du bien d'aultruy large couraye</l><note resp="editor" type="ling"><hi
+                  rend="italic">Courroye</hi>: </note>
+            <l ana="#gén">C'est pourquoy tout le monde ploye</l>
+            <l>Soubz son pouvoir dont je me ris</l>
+            <l>Du sieur de <persName>Montfort L'Amaulry</persName></l>
+            <l n="492">Mais les lettres sont refusées</l>
+            <!-- Saut# -->
+            <l>Le prince des Alpes glacées</l>
+            <l>Doibt assieger les <orgName type="peuple">Genevoys</orgName></l>
+            <l>Les <orgName type="peuple">Espagnols</orgName> les <orgName type="peuple"
+                  >Bearnoys</orgName></l>
+            <l n="496">Du moins la force de la <placeName type="country" key="France"
+                  >France</placeName></l>
+            <l>Et <persName ref="ind:Henri_de_Guise" key="Henri de Guise">Guise</persName> avec sa
+               puissance</l>
+            <l>Secondé du secours lorrain</l>
+            <l><app>
+                  <lem wit="#COL500">Empeschera</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">empescheront</rdg>
+               </app> au bord du <geogName type="fleuve">Rhin</geogName></l>
+            <l n="500">Que les <rs type="soldat" subtype="mercenaire">Reistres</rs> n'entrent en
+                  <placeName type="country" key="France">France</placeName></l>
+            <l>Par ainsy j'ay bonne esperance</l>
+            <l><app>
+                  <lem wit="#COL500">Que tout, aydant <persName>Dieu</persName>,</lem>
+                  <rdg wit="#fr22564 #fr25567 #NAF14846">Aydant Dieu que tout</rdg>
+               </app> ira bien</l>
+            <l>Et que bien tost par ce moyen</l>
+            <l n="504">Nous verrons chasser l'heresie</l>
+            <l>Aussy est ce la prophetie</l>
+            <l>De <persName ref="ind:Henri_III" key="Henri III">Henry</persName> à present
+               regnant</l>
+            <l>Que tout ainsy que du vivant</l>
+            <l n="508">Du deffunct roy <persName key="Henri II">Henry</persName> son pere</l>
+            <l>Et par son ayde <corr>[tant]</corr> prospere</l>
+            <l>Regna le Roy des <orgName type="secte">Protestans</orgName></l>
+            <l>Ainsy qu'il verra de son temps</l>
+            <cb n="R"/>
+            <l n="512">Par l'effort d'un <persName ref="ind:Henri_de_Guise" key="Henri de Guise"
+                  >Henry</persName> deffaire</l><note resp="editor" type="glose">Henri de Guise,
+               champion des catholiques.</note>
+            <l>Et changer la Loy adversaire</l><note resp="editor" type="glose">La foi
+               réformée.</note>
+            <l>Remettant sus en sa splendeur</l>
+            <l>En pris en gloire &amp; en honneur</l>
+            <l n="516">La vraye &amp; ancienne Eglise</l>
+            <l>Avecques semblable franchise</l>
+            <l>Dont jadis elle jouissoit</l>
+            <!--Saut#-->
+            <l>Le premier President disoit</l>
+            <l n="520">Dernierement en sa harangue</l>
+            <l>Toute <expan>autre</expan> chose de <app>
+                  <lem wit="#COL500">sa</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">la</rdg>
+               </app> langue</l>
+            <l>Qu'il ne pensoit au fonds du cueur</l>
+            <l>Car je le pluvis pour le seur</l><note resp="editor" type="ling"><hi rend="italic"
+                  >Pluvir</hi>:"garantir, certifier" (Huguet).</note>
+            <l n="524">Ung tres asseuré <orgName type="secte">Calviniste</orgName></l>
+            <l>Aussy est bien toute la suite</l>
+            <l>Des presidents hors mis <persName>de Thou</persName></l>
+            <!-- Saut# -->
+            <l>L'on ne void encore le bout</l>
+            <l n="528">De la partye qui se joue</l>
+            <l>Le <persName ref="ind:Henri_III" key="Henri III">Roy</persName> a mandé <persName>La
+                  Nouë</persName></l>
+            <l>Aussy <persName>La Nocle</persName> ce dit on</l>
+            <l>Ce n'est pas sans occasion</l>
+            <l n="532">Il se brasse <expan>quelque</expan> finesse</l>
+            <!-- Saut# -->
+            <l><rs type="injonction" subtype="défense">Ne te fie </rs><app>
+                  <lem wit="#COL500">pas trop en </lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">trop en la</rdg>
+               </app>promesse</l>
+            <l>Promettre &amp; tenir ce sont deux</l>
+            <l>Songe bien au <corr source="#fr22564 #NAF14846 #fr25567">saut</corr> perilleux</l>
+            <l n="536">Des nopces du <addName ref="ind:Henri_de_Navarre" key="Henri_de_Navarre">Roy
+                  de Navarre</addName></l>
+            <l>Sy sur le <addName>Guisard</addName> l'on a barre</l>
+            <l>L'on revocquera les Editz</l>
+            <l>Mais <persName>Dieu</persName>
+               <expan>veritable</expan> en ses dits</l>
+            <l n="540">Nous asseure que son Eglise</l>
+            <l>Aura la victoire promise</l>
+            <l>Sur <persName>Sathan</persName> &amp; <app>
+                  <lem wit="#COL500">les</lem>
+                  <rdg wit="#fr22564 #NAF14846 #fr25567">ses</rdg>
+               </app> ennemys*</l>
+            <l ana="#adr">Maistre <persName type="destinataire">Mithon</persName> adieu vous dis</l>
+            <l n="544">Le priant par sa saincte grace</l>
+            <l>Que ceste faveur il <expan>nous</expan> face</l>
+            <l>De voir florir la vraye Loy</l>
+            <l>Suyvant la prophetie du <persName ref="ind:Henri_III" key="Henri III"
+               >Roy</persName></l>
+            <l n="548">Par ton amy dont la devise</l>
+            <l>Est mourir pour <persName>Dieu</persName> &amp; l'Eglise</l>
+         </p>
+      </body>
+   </text>
+</TEI>
