@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc xml:id="Caresme_Prenant_4Lang">
+         <titleStmt>
+            <title>Caresme-Prenant</title>
+            <author>Benoet du Lac</author>
+            <editor>Cyril Cano Arnedo</editor>
+            <respStmt>
+               <name>Cyril Cano Arnedo</name>
+               <resp>encodage</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Texte établi d'après l'édition originale de 1595.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>Transcription d'un corpus de coq-à-l'âne de 1530 à 1650.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Scène 2 de l'acte V aux pages 86 à 90.</p>
+            <p><bibl><author>Benoet du Lac</author><title>Le desespere TRAGICOMEDIE pour exemplaire
+                     d'obeissance. Poëme tres-remarquable aux peres, &amp; enfans de famille : A
+                     laquelle est adjousté un petit meslange de Poësie, avec Caresme-prenant.
+                     Tragicomedie facetieuse en laquelle y a un Coq à l'Asne à quatre langues,
+                     touchant plusieurs abus de ce temps.</title><pubPlace>A Aix en
+                     Provence</pubPlace><publisher>Par Jean Courraud. Imprimeur de la
+                     ville.</publisher><date when="1595">1595</date></bibl></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p>
+            <interpGrp>
+               <!-- A -->
+               <interp xml:id="actu" ana="actualité">actualité commentée</interp>
+               <interp xml:id="adr" ana="adresse">adresse</interp>
+               <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+               <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+               
+               <!-- B -->
+               <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
+               <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
+               
+               <!-- C -->
+               <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
+               <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+               <interp xml:id="corruption" ana="corruption">corruption</interp>
+               <interp xml:id="corps" ana="corps">corps</interp>
+               <interp xml:id="cour" ana="court">vie de la cour</interp>
+               <interp xml:id="cri" ana="cri">cris des marchands</interp>
+               <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+               
+               <!-- D -->
+               <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+               <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+               
+               <!-- E -->
+               <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+               <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="exhortation" ana="exhortation">exhortations et
+                  encouragements</interp>
+               
+               <!-- F -->
+               <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+               <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+               
+               <!-- G -->
+               <interp xml:id="gén" ana="généralisation">généralisation</interp>
+               <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                  gnomique</interp>
+               
+               <!-- H -->
+               <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+               <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+               
+               
+               <!-- I -->
+               <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
+                  l'adversaire</interp>
+               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+               <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+               <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
+               <interp xml:id="ironie" ana="ironie">ironie</interp>
+               
+               <!-- L -->
+               <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+               <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+               <interp xml:id="topos" ana="topos">lieu commun</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+               
+               <!-- M -->
+               <interp xml:id="maladie" ana="maladie">maladie</interp>
+               <interp xml:id="massacre" ana="massacre">massacre</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:id="météo" ana="météo">météorologie</interp>
+               <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+               <interp xml:id="misères" ana="misères">misères du temps</interp>
+               <interp xml:id="misogynie" ana="misogynie">misogynie</interp>
+               <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                  valeurs</interp>
+               <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+               
+               
+               <!-- P -->
+               <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+               <interp xml:id="pillage-s" ana="pillages">vols, pillages</interp>
+               <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
+               <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+               <interp xml:id="practiques" ana="practiques">practiques</interp>
+               <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+               <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+               <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                  nécessaire</interp>
+               
+               <!-- R -->
+               <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+               <interp xml:id="rébus" ana="rébus">rébus</interp>
+               <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+               <interp xml:id="rire" ana="rire">rire</interp>
+               <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
+               <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+               
+               <!-- S -->
+               
+               <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+               <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+               <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+               <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+               
+               <!-- T -->
+               <interp xml:id="tauto" ana="tauto">tautologie</interp>
+               <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+               <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               
+               <!-- V -->
+               <interp xml:id="vanité" ana="vanité">vanité</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="violences" ana="violences">violences</interp>
+            </interpGrp>
+         </p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Aix-en-Provence</settlement>
+                  <repository>Bibliothèque Méjanes Patrimoine</repository>
+                  <idno>Rés. D.105</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <fw type="pageNum" place="top-left">86</fw>
+         <fw type="header" place="center">Caresme-prenant</fw>
+         <cb n="2"/>
+         <div n="5" type="acte">
+            <head>Acte V.</head>
+         </div>
+         <div n="2" type="scene">
+            <head>Scene II. TIVAN. JAUMET. ARLEQUIN. GUILLOT</head>
+         </div>
+         <div>
+            <sp>
+               <speaker xml:lang="frsav">TIVAN.</speaker>
+               <lg>
+                  <l>He! bin de Di, ô frandi frare,</l>
+                  <l>He pouvrou que deven no fare,</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frp">JAUMET.</speaker>
+               <lg>
+                  <l><expan>Maridon</expan>
+                     <persName>Margot</persName>
+                     <expan>farent</expan> lo guinguas</l>
+                  <l n="4">Quan <persName>Guillot</persName> n'y farat pas.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="it">ARLEQUIN.</speaker>
+               <lg>
+                  <l>Dous é andato quel beffatore</l>
+                  <l>Becco cornuto, e tradittore?</l>
+               </lg>
+            </sp>
+            <fw>G. Je</fw>
+            <pb n="87"/>
+            <fw type="pageNum" place="top-right">87</fw>
+            <cb n="L"/>
+            <sp>
+               <speaker xml:lang="frm">GUILLOT.</speaker>
+               <lg>
+                  <l>Je creve de boire desja,</l>
+                  <l n="8">Ma mere de soif enragea</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frsav">TIVAN.</speaker>
+               <lg>
+                  <l>Or sur depar cincanta diablou,</l>
+                  <l>Nozatrou fen ben miserablou,</l>
+                  <l>Y <expan>diou</expan> que notron pouvrou Dou</l>
+                  <l n="12">Sen ét ja fouy de mala pou:</l>
+                  <l>Bentou li faren rendre gourze</l>
+                  <l rend="indent">Malan qu'à decuver la fourze</l>
+                  <l>De lé ruze du zespagno.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frp">JAUMET.</speaker>
+               <lg>
+                  <l n="16">Tu fies un plezen rossigno,</l>
+                  <l>Se portaves la coua detras.</l>
+                  <l rend="indent">Haussa mi veire un pau lo nas</l>
+                  <l>Et jou ti daray la beccado</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="it">ARLEQUIN.</speaker>
+               <lg>
+                  <l n="20">Perche noi vedemo di rado,</l>
+                  <l>Il naso colorato in rosso</l>
+                  <l>Che d'<expan>imbriachezzanon</expan> fia mosso</l>
+                  <l>Et tutta donna gialla, o rossa</l>
+                  <l n="24">Amorevole fin a l'ossa,</l>
+                  <l>O veramente fin al cazzo.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frsav">TIVAN.</speaker>
+               <lg>
+                  <l>Ze pillou, ze robou, <corr resp="editor">z'amasso</corr>,</l>
+                  <l>E poé to s'en va ù bordet.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frm">GUILLOT.</speaker>
+               <lg>
+                  <l n="28">Moy je suis <expan>monsieur</expan> le Cadet,</l>
+                  <l>Et la guerre Gentilastre,</l>
+                  <l>En ma maison monsieur le Sartre</l>
+                  <l>Ou venerable muletier.</l>
+                  <l rend="indent" n="32">Les putains <expan>changent</expan> de mestier.</l>
+                  <l>Lors que leur visage se ride</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frp">JAUMET.</speaker>
+               <lg>
+                  <l>Bessai que si non si maride,</l>
+                  <l>Jogarat vous m'entendes ben.</l>
+                  <l rend="indent" n="36">Mai regacha me un pau lei den</l>
+                  <l>Dias, non fias vons boticari.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frsav">TIVAN.</speaker>
+               <lg>
+                  <l>Tozor poffou, <reg>et</reg> toçou ari, ari,</l>
+                  <l>Ari mon anou de par Diu:</l>
+                  <l n="40">Tozor lou toucera mon fiu,</l>
+                  <l>Se Di ne no fa tan de ben,</l>
+                  <cb n="R"/>
+                  <l>De no garda de fausse zen,</l>
+                  <l>Et de noblessi, <reg>et</reg> de zendarme.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="it">ARLEQUIN.</speaker>
+               <lg>
+                  <l n="44">Arquebugio, qui spada e altre arme</l>
+                  <l ana="#violences">Assalto guerra, ogni fracasso.</l>
+                  <l ana="#violences">Jo ferisco, abbato, e amasso,</l>
+                  <l>Tutto quello che s'appresenta.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frp" n="48">JAUMET.</speaker>
+               <lg>
+                  <l>Jou amariou mai vin, que <expan>trenta,</expan></l>
+                  <l>De car de <rs type="animal" subtype="oiseau">perdris</rs>, que de beou</l>
+                  <l>Un conillon qu'un gros coniou,</l>
+                  <l>Une rossetto, qu'uno bruno,</l>
+                  <l n="52">Et quatro <expan>pommo</expan>, qu'uno pruno,</l>
+                  <l>Un <expan>compromes</expan> qu'un condamnat.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frm">GUILLOT.</speaker>
+               <lg>
+                  <l>Il y faut mettre un cadenat</l>
+                  <l>Aux portes de <placeName>Calibristi</placeName>,</l>
+                  <l n="56">Autrement le pauvre mari</l>
+                  <l ana="#cocuage">Sera cornu comme une <rs type="animal" subtype="bovidé"
+                        >vache</rs>.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="it">ARLEQUIN.</speaker>
+               <lg>
+                  <l>Questo, Signore, non mi piace,</l>
+                  <l ana="#corps">Ma del ventre il cuor mi toglie,</l>
+                  <l n="60">Di veder presso di mia moglie,</l>
+                  <l>Un <orgName type="peuple">Francese</orgName> tanto garbato.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frsav">TIVAN.</speaker>
+               <lg>
+                  <l>Zi vey, zi corou, zi rabato,</l>
+                  <l>Encore ne poi jou pa vivre,</l>
+                  <l n="64">N'y até ren que me delivre,</l>
+                  <l>D'un pou de me malencuni.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frp">JAUMET.</speaker>
+               <lg>
+                  <l>Vautres qu'entendes l'aveni</l>
+                  <l>Que seas Astrologs de cuisino,</l>
+                  <l n="68">Coneissez vous ten à ma mino,</l>
+                  <l>Qu'iou siege <expan>cauqun</expan> jour cogueou.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frm">GUILLOT.</speaker>
+               <lg>
+                  <l>Conoissez vous <persName key="Garguelingou">Garguelingou</persName></l>
+                  <l>Qui prenoit les <rs type="animal" subtype="batracien">crapaux</rs> au gite?</l>
+                  <l n="72">Puis on dit que la lichefrite,</l>
+                  <l>Se veut marier au rechaut.</l>
+                  <l ana="#folie">De ces <rs type="invective">gros fols</rs> il ne me chaut,</l>
+                  <l>Qui portent <rs type="locution">le nez au visage</rs>,</l>
+                  <fw type="sig" place="bottom-right">M.</fw>
+                  <pb n="88"/>
+                  <fw type="pageNum" place="top-left">88</fw>
+                  <cb n="L"/>
+                  <l n="76">Je les estimeroys plus sages,</l>
+                  <l>Qu'ils me le portassent au cu.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:id="frsav">TIVAN.</speaker>
+               <lg>
+                  <l>Y ne me fau ren dé moucu,</l>
+                  <l>Maque solaman notra Altessi,</l>
+                  <l n="80">Fusse en gracy de la Noblessi,</l>
+                  <l>Vo zentendi ben noutron Du:</l>
+                  <l>Mè de par Di y lan tondu,</l>
+                  <l>Et raza la barba en Provenci.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="it">ARLEQUIN.</speaker>
+               <lg>
+                  <l n="84">Questo da vero non conviensi</l>
+                  <l>Basciar tante volte le donne,</l>
+                  <l>Senza alzarli però le gonne,</l>
+                  <l>Et senza al fatto calvacarle,</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frp">JAUMET.</speaker>
+               <lg>
+                  <l n="88">Are, tau en ben dou Rey parle,</l>
+                  <l>Que roigue incare les escut,</l>
+                  <l>Qu'a grosigna de vostre Dut,</l>
+                  <l>Et vautre aqui me roigares.</l>
+                  <l rend="indent" n="92">Non, perdona mi, non fares</l>
+                  <l>Qu'iou ay ou queou un mau de testo,</l>
+                  <l>Que mi meine tan de tempesto,</l>
+                  <l>Que dirias qu'es un trompetaire.</l>
+                  <l n="96">Quia <expan>ren</expan> vis maistre Annicocaire,</l>
+                  <l>Que <unclear>causse</unclear> lo beguin eis vaques?</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frm">GUILLOT.</speaker>
+               <lg>
+                  <l>Ouy, pource que les casaques</l>
+                  <l>Se portent bien de tous costez:</l>
+                  <l n="100">Mesme qu'on dict que les pastez</l>
+                  <l>Se liguent contre les <rs type="animal" subtype="poisson">sardines</rs>.</l>
+                  <l rend="indent">Si paix se fait plusieurs cuisines,</l>
+                  <l>Auront un facheux accident,</l>
+                  <l n="104">Baillez moy donc mon cure-dent</l>
+                  <l>Que je me cure les oreilles,</l>
+                  <l>Ou bien jouons aux friqueneilles</l>
+                  <l>A Per ou non, non per, per, non,</l>
+                  <l n="108">Tu n'<reg>a[s]</reg> pas encore du bon,</l>
+                  <l>Il te faudra changer de chance.</l>
+               </lg>
+            </sp>
+            <cb n="R"/>
+            <sp>
+               <speaker xml:lang="frsav">TIVAN.</speaker>
+               <lg>
+                  <l>Per marma zé perdu nè <expan>quitance</expan>,</l>
+                  <l>E me faudra paya due vei.</l>
+                  <l rend="indent" n="112">Mon Di que ze voudren <expan>ben</expan> vei</l>
+                  <l>Que lo Gascon fusse dezia</l>
+                  <l>Prè de noutron Dou Acevia,</l>
+                  <l>Per m'outa lou marté de téta.</l>
+                  <l rend="indent" n="116">Voli vo pa fare la féta</l>
+                  <l>A notron Du qu'è tan <expan>bon</expan> omou?</l>
+                  <l>Ze vozi conzura, <reg>et</reg> vo sommou:</l>
+                  <l>Voutre zoreille son camuze.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="it">ARLEQUIN.</speaker>
+               <lg>
+                  <l n="120">Per ciò poi pasciono di scuze</l>
+                  <l>Le Donne lequali i mariti</l>
+                  <l>Giustamente hanno insospetiti.</l>
+                  <l rend="indent">La donna, e mula son due cose</l>
+                  <l n="124">D'inganar molto sospetose,</l>
+                  <l>Inanzi quella, e questa in dietro.</l>
+                  <l rend="indent">Quando d'ingegno io penetro</l>
+                  <l>E di senso saldo, e profondo</l>
+                  <l n="128">Quanti matti sono nel mondo</l>
+                  <l>Di maraviglia io fo la croce,</l>
+                  <l>Perdendo la parola, <reg>et</reg> voce:</l>
+                  <l>E però nessun se lo dice.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frm">GUILLOT.</speaker>
+               <lg>
+                  <l n="132" ana="#argent">Or sus qui me veut faire riche,</l>
+                  <l>Et trente sol je luy dorray,</l>
+                  <l>Si tost que je les trouveray:</l>
+                  <l>Veu aussi que pour passer drole,</l>
+                  <l ana="#maladie" n="136">Faut suer neur fois la <rs type="maladie"
+                     >verole</rs>,</l>
+                  <l>Ou bien avoir du bran, tenant</l>
+                  <l>De quatre Caresme-Prenant</l>
+                  <l>Sur le dernier de sa chemise.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frp">JAUMET.</speaker>
+               <lg>
+                  <l n="140">Nautre aven care le cerise:</l>
+                  <l>You crezi que senton l'uscla:</l>
+                  <l>Agen, agen, pur force bla:</l>
+                  <l>Auren incare lei den blanque,</l>
+                  <l n="144">Et veires, mai que ne nou <expan>manque</expan></l>
+                  <fw type="sig" place="bottom-right">De</fw>
+                  <pb n="89"/>
+                  <fw type="pageNum" place="top-right">89</fw>
+                  <cb n="L"/>
+                  <l>De <persName type="mythologie" subtype="divinité" key="Bacchus"
+                        >Bacchus</persName> lo sant aliment,</l>
+                  <l>De rouges naz un regiment.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frsav">TIVAN.</speaker>
+               <lg>
+                  <l>E l'ha falut torna arriè,</l>
+                  <l n="148">U senet pansa enfoiriè,</l>
+                  <l>Noutro a enfortuna Du:</l>
+                  <l>Mè que von vo,y lan fa pù:</l>
+                  <l>Lhan aprei trei mo de sa crenci.</l>
+                  <l rend="indent" n="152">Y son mavese zen en <placeName type="region"
+                        key="Provence">Provensi</placeName>,</l>
+                  <l>Fieron per to san regardà</l>
+                  <l>Ne le visazo, ne lo na.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frm">GUILLOT.</speaker>
+               <lg>
+                  <l>Chacun sçait bien ce qu'il y faut:</l>
+                  <l n="156">Mais en fin il y a un cas haut,</l>
+                  <l>Que chacun n'entend, à <placeName type="city" key="Marseille"
+                        >Marseille</placeName></l>
+                  <l>Allons y. Non, garde l'oreille.</l>
+                  <l rend="indent">Le <persName>Diable</persName> s'y puisse fier,</l>
+                  <l n="160">On m'y feroit crucifier:</l>
+                  <l>Apres l'oreille, la <choice>
+                        <orig>ptoence</orig>
+                        <reg>potence</reg>
+                     </choice></l>
+                  <l>Car en <placeName type="region" key="Provence">Provence</placeName> prou
+                     avance:</l>
+                  <l>Qui sçait piller, <reg>et</reg> rober bien.</l>
+                  <l n="164">Tel a du bien, qui n'est pas sien,</l>
+                  <l>Tel en voudroit qui ny peut mordre.</l>
+                  <l rend="indent">Bref, c'est un beau joly desordre,</l>
+                  <l>Ou peu de gens prennent plaisir.</l>
+                  <l n="168">Que sert de les faire choisir,</l>
+                  <l>Ils aiment autant croix que pille.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="it">ARLEQUIN.</speaker>
+               <lg>
+                  <l>Jo son frisco, bello, e gentille,</l>
+                  <l>Ma di denari poco robba,</l>
+                  <l n="172">E ciò male il capo m'adobba</l>
+                  <l>In mal anno nessun m'invita.</l>
+                  <l rend="indent"> Ancora ciò che più mi doglie,</l>
+                  <l>Che <expan>non</expan> trovo donna ne moglie.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frm">GUILLOT.</speaker>
+               <lg>
+                  <l n="176">En <placeName>Enfer</placeName> sont les riches gens,</l>
+                  <l>Y avez vous point de parens,</l>
+                  <cb n="R"/>
+                  <l>Ainsi <persName>Dieu</persName> face que je vive,</l>
+                  <l>Il faut donc que je leur escrive.</l>
+                  <l rend="indent" n="180">Viença, dy moy, maistre Jaquet</l>
+                  <l>Y veux-tu porter le paquet.</l>
+                  <l rend="indent">He, quelcun de la compagnie</l>
+                  <l>Me face ceste courtoisie,</l>
+                  <l n="184">Le chemin est beau, large, <reg>et</reg> grand.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frp">JAUMET</speaker>
+               <lg>
+                  <l>Ho Diou perdon à <persName type="saint" key="Saint-Bertrand">sein
+                           <expan>Bertrand</expan></persName>,</l>
+                  <l>Que savie ben boutar canello.</l>
+                  <l rend="indent">Non faut tant estre friquanello</l>
+                  <l n="188">Per ben entendre lo Latin.</l>
+                  <l rend="indent">Si faut levar un pau matin,</l>
+                  <l>Que vo robar mieoux à son aise.</l>
+                  <l>Autan ben aqueou que men baise,</l>
+                  <l n="192">Enten mieoux le juoc de chut.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frm">GUILLOT.</speaker>
+               <lg>
+                  <l>Aussi despuis que le fort cheut</l>
+                  <l>On vit cesser le tintamarre.</l>
+                  <l>Puis on dict que la Coquemarre,</l>
+                  <l n="196">Hante la fille du voisin,</l>
+                  <l rend="indent">Avec un sexe masculin,</l>
+                  <l>il y aura quelque bernagde:</l>
+                  <l>Bien, chacun ne peut estre sage,</l>
+                  <l n="200">Son hausse-plis couvrira tout.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frsav">TIVAN.</speaker>
+               <lg>
+                  <l>Frandi n'aren no zamé bout</l>
+                  <l>A tant de fasseri de guéra:</l>
+                  <l>Voy é me fo vendre una téra,</l>
+                  <l n="204">Deman un prà, apré deman</l>
+                  <l>A Di ma téra per un blan.</l>
+                  <l>Mon principà per l'interé.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frm">GUILLOT.</speaker>
+               <lg>
+                  <l>Or voicy le siecle doré,</l>
+                  <l n="208">Et le printemps de nos noblesses</l>
+                  <l rend="indent">On en voit dans les forteresses,</l>
+                  <l>Force chanoines, <reg>et</reg> marchans.</l>
+                  <fw type="sig" place="bottom-right">M 2</fw>
+                  <pb n="90"/>
+                  <fw type="pageNum" place="top-left">90</fw>
+                  <cb n="L"/>
+                  <l>Pour faire <expan>trembler</expan> les meschans</l>
+                  <l n="212">Aller à pied les argolets,</l>
+                  <l>Denicher tant de roytelets,</l>
+                  <l>Et cesser tant d'actes mauvais,</l>
+                  <l>Il ne faut qu'une bonne paix.</l>
+                  <l n="216" rend="indent">C'est assez parlé de l'amour</l>
+                  <l>Ne luy fatrassez tant autour,</l>
+                  <l>De peur, qu'en chaleur elle n'<expan>entre</expan></l>
+                  <l ana="#corps"><rs type="interjection">Mais quoy?</rs> croyez vous que le
+                     ventre,</l>
+                  <l n="220" ana="#corps">Que tant grand, large, <reg>et</reg> gros on porte,</l>
+                  <l>Puisse plus entrer par la porte,</l>
+                  <l>Sans l'eslargir de quatre pans.</l>
+                  <l>Par tout mesme jusqu'aux enfans,</l>
+                  <l n="224">On sçait autant comme à <placeName type="city" key="Grenoble"
+                        >Grenoble</placeName>, </l>
+                  <l>Car aujourd'huy pour passer noble,</l>
+                  <l>Ne faut qu'une espée au costé:</l>
+                  <l ana="#argent">Aussi si j'estois bien renté,</l>
+                  <l n="228" ana="#hedo">Je ferois bien meilleure chere.</l>
+                  <l>Mets moy ta masque en mon derriere,</l>
+                  <l>Ains que caresme soir venu,</l>
+                  <l>Si tu veux qu'il ne soit cognu,</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frp">JAUMET.</speaker>
+               <lg>
+                  <l n="232" ana="#hedo">Ho que fa bon beoure <rs type="vin">vin</rs> fresc,</l>
+                  <l>Et (si non anas fin qu'à Tresc)</l>
+                  <l>Bon brimballar subre la paillo.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="it">ARLEQUIN.</speaker>
+               <lg>
+                  <l>Fate me <roleName>Conte</roleName> o <roleName>Ammiragli</roleName></l>
+                  <l n="236">Mi piace grandezza, <reg>et</reg> gadagno,</l>
+                  <l>Bella putana, <reg>et</reg> buon compagno</l>
+                  <l>Buon insalata, <reg>et</reg> pota tonda.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker ana="frsav">TIVAN.</speaker>
+               <lg>
+                  <l>Di perdon à <persName key="Margot">Margot la blonda,</persName></l>
+                  <l n="240">Qu'ere fille du Rei Franfei.</l>
+                  <l>Dei poé no n'aven eu bon sei,</l>
+                  <l>Que notron Dou per mala crenci</l>
+                  <cb n="R"/>
+                  <l>Voli crocheta la <placeName type="region" key="Provence"
+                     >Provenci</placeName>,</l>
+                  <l n="244">Mé sozecu se son trompa.</l>
+                  <l rend="indent">He! mon bon Di ne vu tou pa</l>
+                  <l>De le zendarme no garda</l>
+                  <l>Et per ta bonta engarda</l>
+                  <l n="248">Que noutre rave ne se zélon:</l>
+                  <l>Tant que se louz agné se mélon</l>
+                  <l>Permi lo bou to ita ma.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frm">GUILLOT.</speaker>
+               <lg>
+                  <l>Dy, despuis qu'on le despluma,</l>
+                  <l n="252">Vostre beau Duc de fanfrelume.</l>
+                  <l>A il point jetté d'autre plume?</l>
+                  <l>Bien, bien, qu'il en jette à foison,</l>
+                  <l>tandis qu'on plume le <orgName type="peuple">Gascon</orgName>,</l>
+                  <l n="256">Au despens des pauvres villages.</l>
+                  <l>Mon Dieu quand serons nous tous sages,</l>
+                  <l>Pour defricher de nos guerets</l>
+                  <l>De nos campagnes, <reg>et</reg> forests,</l>
+                  <l n="260">Tant de <rs type="néologisme">pillharpepicoraille</rs>,</l>
+                  <l ana="#intertexte">tant addonnez à pinsemaille?</l>
+                  <l>Quand <persName>Dieu</persName> voudra la cause prendre,</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker xml:lang="frp">JAUMET.</speaker>
+               <lg>
+                  <l>Jou non podi pas ben entendre</l>
+                  <l n="264">N'en Gascon, n'en nostre lengagy,</l>
+                  <l>Que sinifique aques bernagy:</l>
+                  <l>L'un per lo Rey l'autre per sey,</l>
+                  <l>L'un robe ilate, <reg>et</reg> l'autre eissi,</l>
+                  <l n="268">Einsi tout vat en robatori.</l>
+                  <l rend="indent">Acot es paga lo rigori,</l>
+                  <l>In ca que non seas en prezon,</l>
+                  <l>Cantaren ben rezon, rezon,</l>
+                  <l n="272">Rezon, rezon:mais à la fayre</l>
+                  <l>Aqui l'hat un pau trop d'affaire,</l>
+                  <l>A gen que si plazon ou juoc,</l>
+                  <l>Cerquen la don en autre luoc.</l>
+               </lg>
+            </sp>
+            <fw type="sig" place="bottom-right">ACTE</fw>
+         </div>
+      </body>
+   </text>
+</TEI>
