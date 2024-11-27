@@ -1,155 +1,357 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-      <fileDesc>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc xml:id="Esprit_Trouble_Rescrit">
          <titleStmt>
-            <title>Rescript de l'asne au Coq</title>
+            <title>Réf. n°13: </title>
+            <title key="CAA#13">L'escript de L'asne au Coq. lvvviii.</title>
          </titleStmt>
          <publicationStmt>
-            <p>Le Joyeux devis récréatif de l'esprit troublé <date>1539</date></p>
+            <p/>
          </publicationStmt>
          <sourceDesc>
-            <p>Nb d'éditions au XVIe siècle</p>
+            <p><listWit>
+                  <witness xml:id="JD-2963"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris, </settlement>
+                           <institution>Bibliothèque nationale de France.</institution>
+                           <idno>Rothschild_2963_802a</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness xml:id="JD-174"><msDesc>
+                        <msIdentifier>
+                           <settlement>Copenhague, </settlement>
+                           <institution>Det Kongelige Bibliotek.</institution>
+                           <idno>174_4_129_00673</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+               </listWit></p>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc><change><date>30-09-2023</date>Encodage de niveau 0.</change></revisionDesc>
-  </teiHeader>
-  <text>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p>
+            <interpGrp>
+               <interp xml:id="adr" ana="adresse">adresse</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="topos" ana="topos">lieu commun</interp>
+               <interp xml:id="gén" ana="généralisation">généralisation</interp>
+               <interp xml:id="ironie" ana="ironie">ironie</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="actu" ana="actualité">actualité</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+               <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+               <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+               <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+               <interp xml:id="massacre" ana="massacre">massacre</interp>
+               <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+               <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+               <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+               <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+               <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+               <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+               <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+               <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="corruption" ana="corruption">corruption</interp>
+               <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+               <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                  nécessaire</interp>
+               <interp xml:id="court" ana="court">vie de la court</interp>
+               <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+               <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+               <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="corps" ana="corps">corps</interp>
+               <interp xml:id="violences" ana="violences">guerres civiles</interp>
+               <interp xml:id="pillage-s" ana="pillages">Vol, pillages</interp>
+               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+               <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+               <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+               <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+               <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+               <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+               <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                  gnomique</interp>
+               <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+               <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+               <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+               <interp xml:id="exhortation" ana="exhortation">exhortations et
+                  encouragements</interp>
+               <interp xml:id="rire" ana="rire">rire</interp>
+               <interp xml:id="maladie" ana="maladie">maladies</interp>
+               <interp xml:id="misères" ana="misères">misères de ce temps</interp>
+               <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                  valeurs</interp>
+               <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+               <interp xml:id="rome" ana="contre_Rome">Contre Rome et la papauté</interp>
+               <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+               <interp xml:id="practiques" ana="practiques">practiques</interp>
+               <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+               <interp xml:id="misogynie" ana="misogynie">mysoginie</interp>
+               <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+               <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+               <interp xml:id="météo" ana="météo">météorologie</interp>
+               <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+               <interp xml:id="vanité" ana="vanité">vanité</interp>
+               <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
+                  l'adversaire</interp>
+               <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
+               <interp xml:id="cri" ana="cri">cris de Paris</interp>
+               <interp xml:id="tauto" ana="tauto">tautologie</interp>
+               <interp xml:id="guerre" ana="guerre">guerre</interp>
+               <interp xml:id="vin" ana="vin">vin et vignes</interp>
+            </interpGrp>
+         </p>
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
       <body>
-         <listBibl>
-	           <msDesc>
-	              <msIdentifier>
-                  <settlement>where is it</settlement>
-	                 <repository>repository name</repository>
-	                 <idno>identifier</idno>
-               </msIdentifier>
-	           </msDesc>
-         </listBibl>
-         <l>Amy pour respondre <reg>à</reg> ta lettre</l>
-         <l>Pardeça nous fault tresmal estre</l>
-         <l>Pour le gain qui est tant petit</l><!-- Saut#1 -->
-         <l n="4">En belle femme est apetit</l>
-         <l>Pource je faulte en trescripvant</l>
-         <l>De Lasne au Coq doresnavant</l><!-- Saut#2 -->
-         <l>De <placeName><settlement type="region">Provence</settlement></placeName> on aura nouvelle</l>
-         <l n="8">Au bout de l'an la vache velle</l>
-         <l>S'elle est malade elle n'est point saine</l><!-- Saut#3 -->
-         <l>Quant on mengue de la laine</l>
-         <l>C'est grant remede au flux de ventre</l><!-- Saut#4 -->
-         <l n="12">Dont vient cela que quant je rentre</l>
-         <l>C'est assez pour gaigner le jeu</l>
-         <l>Ung jour passe au marche jeu</l>
-         <l>Quatre cuillers pour ung tournois</l>
-         <l n="16">Mais qui a eu bruict au tournois</l>
-         <l>Qui a este faict à <placeName><settlement type="city">Paris</settlement></placeName></l>
-         <l>Les tresoriers sont tous peris</l>
-         <l>Et n'y en a plus nulz en <placeName><settlement type="country">France</settlement></placeName></l>
-         <l n="20">Par mon serment c'est grant oultrance</l>
-         <l>Faire tant de maulx soustenir</l>
-         <l>(Car aultrement ne peult venir)</l>
-         <l><reg>À</reg> ceulx qui suent la verolle</l>
-         <l n="24">Il te convient scavoir ton rolle</l>
-         <l>Pour bien jouer ton personnage</l>
-         <l>C'est tresmal faict perdre son aage</l>
-         <l>Soubz ung asnier maistre d'escolle</l>
-         <l n="28">Ho deffende ceste bricolle</l>
-         <l>Je ne puis la chasse tenir</l>
-         <l>Qui veult sa femme entretenir</l>
-         <l>Il la fault mener à l'esbat</l>
-         <l n="32">Car c'est bien faict fuir debat</l>
-         <l>Et puis qu'ilz sont d'or &amp; de poix</l>
-         <l>Je t'envoiray du lart a poix</l>
-         <l>Pour passer ce temps de quaresme</l>
-         <l n="36">C'est ung doulx menger que de cresme</l>
-         <l>Pour les dames parisiennes</l>
-         <l>Si tu veulx avoir les miennes</l>
-         <l>Tu les auras mes pantouflettes</l>
-         <l n="40">On porte maintenant moufflettes</l>
-         <l>Aussi bien yver qu'esté</l>
-         <l>Et pour cela n'y ay esté</l>
-         <l>Affin d'eviter les reproches.</l>
-         <l n="44">Il fault au soir porter des torches</l>
-         <l>De paour de rencontrer le guet</l>
-         <l>Tu ne scay point que dit <persName key="Margot">Marguet</persName></l>
-         <l>Par mon ame elle est desja grosse</l>
-         <l n="48">Regarde la comment il gosse</l>
-         <l>Attache moy une sonnette</l>
-         <l>A chascun poil de la barbette</l>
-         <l>D'ung boutecul ou d'un cagot</l>
-         <l n="52">Et vous verrez <persName>maistre Ragot</persName></l>
-         <l>Qui vous joura une morisque</l>
-         <l>Sois moy tousjours joly &amp; frisque</l>
-         <l>Et retiens bien ce qu'on t'enseigne</l>
-         <l n="56">Si fault que du bras on te seigne</l>
-         <l>Bons medecins y a à <placeName><settlement type="city">Laon</settlement></placeName></l>
-         <l>Janvier le moys commence l'an</l>
-         <l>Et fuyt le froit moys de Decembre</l>
-         <l n="60">On y vend des chapeletz D'ambre</l>
-         <l>A ceulx qui vont en garouage</l>
-         <l>Que la malle mort &amp; la rage</l>
-         <l>Puist endormir le mailloteur</l>
-         <l>Mais qui est ce fol barboteur</l>
-         Qui ne nous faict que barboter
-         Il ne convient ta barbe oster
-         Si tu veulx aller en la guerre
-         Pour cela je n'y pense guere
-         Et ne respondz à tous tes dictz
-         Car adventuriers plus de dix
-         A le prevost des mareschaulx
-         Apres pasques les pastez chaulx
-         Seront fort bons pour desjeuner
-         Faulte d'argent nous faict jeusner
-         A grande peine pardeça
-         Depuis deux ou trois mois en ça
-         Trois furent menez au gibet
-         À l'eschiquier bon vin on boit
-         c'est assez pres de sainct Martin
-         Je me levay hier au matin
-         Encore lors luisoit la lune
-         Trouvay quelqung de Pampelune
-         Qui me mist en tresgrant erreur
-         En me parlant de L'empereur
-         Et de sa glorieuse fuite
-         On faict icy grosse poursuitte
-         Aux hannuiers que dieu mauldie
-         Il regne cy gran maladie
-         Chascun n'a point monnoye à point
-         Ce qui me vient tresmal a point
-         Soit à midy soit au matin
-         Dieu pardoint au povre Martin
-         Il conduisoit bien son pourceau
-         Je ne scay plus rien de nouveau
-         Sinon que j'ay ung chapeau rouge
-         Hola mon amy ne te bouge
-         Les allemans ont prins querelle
-         Pour ravoir une maquerelle
-         Comme feroit ung bon preudhomme
-         Dieu doint grace au pape de Rome
-         Que chascun vive en bonne amour
-         Bona dies bon iour bon iour
-         Mon dieu que les sotz seront braves
-         Dimenche au jeu jourdain de Blaves
-         On en fera raportz divers
-         De ces moines vestus de vers
-         Qui ont dames belles rebelles
-         Monsieur en scaura les nouvelles
-         Et notera en quatre livres
-         Amours m'ont bien cousté cent livres
-         Et si m'ont faict coucher dehors
-         Toutesfois ce ne fust alors
-         Que ce pougault vient à jube
-         Le moyne parle à son abbé
-         Quant il veult avoir sa jacquette
-         Dont vient cela que la bucquette
-         Eschet tousjours au malheureux
-         Tais toy Normand qui es d'Evreux
-         Et si porte honneur à ton maistre
-         Car je ne vueil cy plus rien mettre.
-         
-         
-         Fin de lescript de Lasne au Coq (CAA13-Rescript (JDET), Pos. 1-121)</body>
-  </text>
+         <p><pb/>
+            <l ana="#adr"><persName type="destinataire">Amy</persName> pour respondre <reg>à</reg>
+               ta lettre</l>
+            <l ana="#misères">Pardeça nous fault tresmal estre</l>
+            <l>Pour le gain qui est tant petit</l>
+            <!-- Saut#1 --><anchor type="saut#1"/>
+            <l n="4">En belle femme est apetit</l>
+            <l ana="#mtd">Pource je saulte en t'escripvant</l><!-- Coquille chez Lotrian : en trescripvant -->
+            <l ana="#mtd">De Lasne au Coq. Doresnavant</l>
+            <!-- Saut#2 --><anchor type="saut#2"/>
+            <l>De <placeName type="region" key="Provence">Provence</placeName> on aura
+               nouvelle</l><note resp="editor" type="glose">Allusion probable à la défense de la
+               Provence par Montmorency à partir de juillet 1536 contre les troupes de
+               l'empereur.</note>
+            <!-- Saut#3 --><anchor type="saut#3"/>
+            <l n="8">Au bout de l'an la vache velle</l>
+            <l ana="#tauto">S'elle est malade el n'est point saine</l>
+            <!-- Saut#4 --><anchor type="saut#4"/>
+            <l>Quant <reg>on</reg> mengue de la laine</l>
+            <l ana="#maladie">C'est grant remede au fleux de ventre</l>
+            <!-- Saut#5 --><anchor type="saut#5"/>
+            <l n="12">Dont vient cela que quant je rentre</l>
+            <l>C'est assez pour gaigner le jeu</l>
+            <!-- Saut#6 --><anchor type="saut#6"/>
+            <l>Ung jour passé au <reg>marché</reg> jeu</l>
+            <l>Quattre cuilliers pour ung <rs type="monnaie">tournoys</rs></l>
+            <!-- Saut#7 --><anchor type="saut#7"/>
+            <l n="16">Mais qui a eu bruit au tournoys</l>
+            <l>Qui a este faict <reg>à</reg>
+               <placeName type="city" key="Paris">Paris</placeName></l>
+            <!-- Saut#8 --><anchor type="saut#8"/>
+            <l>Les tresoriers sont tous peris</l>
+            <l>Et n'y en a plus nulz en <placeName type="country" key="France"
+               >France</placeName></l>
+            <!-- Saut#9 --><anchor type="saut#9"/>
+            <l n="20">Par mon serment c'est grand oultrance</l>
+            <l>Faire tant de maulx soustenir</l>
+            <l>(Car aultrement ne peult venir)</l>
+            <l ana="#maladie"><reg>À</reg> ceulx qui suent la <rs type="maladie">verolle</rs></l>
+            <!-- Saut#10 --><anchor type="saut#10"/>
+            <l n="24">Il te convient scavoir ton rolle</l>
+            <l>Pour bien jouer ton personnage</l>
+            <!-- Saut#11 --><anchor type="Saut#11"/>
+            <l ana="#équivoque">C'est tresmal faict perdre son aage</l>
+            <l>Soubz ung <rs type="invective">asnier</rs> maistre d'escolle</l>
+            <pb n="2"/>
+            <!-- Saut#12 --><anchor type="saut#12"/>
+            <l n="28">Ho deffende ceste bricolle</l>
+            <l>Je ne puis la chasse tenir</l>
+            <!-- Saut#13 --><anchor type="saut#13"/>
+            <l>Qui veult sa femme entretenir</l>
+            <l>Il la fault mener à l'esbat</l>
+            <l n="32">Car c'est bien faict fuir debat</l>
+            <!-- Saut#14 --><anchor type="saut#14"/>
+            <l>Et puis qu'ilz sont d'or &amp; de poyx</l>
+            <l>Je t'envoiray du lart a poys</l>
+            <l>Pour passer ce temps de karesme</l>
+            <!-- Saut#15 --><anchor type="saut#15"/>
+            <l n="36">C'est ung doulx menger que de cresme</l>
+            <l>Pour les dames parisiennes</l>
+            <!-- Saut#16 --><anchor type="saut#16"/>
+            <l>Si tu veulx avoir les miennes</l>
+            <l>Tu les auras mes pantoufflettes</l>
+            <!-- Saut#17 --><anchor type="saut#17"/>
+            <l n="40">On porte maintenant moufflettes</l>
+            <l>Aussi bien yver qu'esté</l>
+            <pb n="3"/>
+            <!-- Saut#18 --><anchor type="saut#18"/>
+            <l>Et pour cela n'y ay esté</l>
+            <l>Affin d'eviter les reproches.</l>
+            <!-- Saut#19 --><anchor type="saut#19"/>
+            <l n="44">Il fault au soir porter des torches</l>
+            <l>De paour de rencontrer le guet</l>
+            <!-- Saut#20 --><anchor type="saut#20"/>
+            <l>Tu ne scay poinct que dict <persName key="Marguet">Marguet</persName></l>
+            <l>Par mon ame elle est desja grosse</l>
+            <!-- Saut#21 --><anchor type="saut#21"/>
+            <l n="48"><rs type="injonction" subtype="impératif"><app>
+                     <lem>Regarde</lem>
+                     <rdg>Regarda</rdg>
+                  </app></rs>
+               <reg>là</reg> comment il gosse</l>
+            <!-- Saut#22 --><anchor type="saut#22"/>
+            <l><rs type="injonction" subtype="impératif">Attache moy</rs> une sonnette</l>
+            <l><reg>À</reg> chascun poil de la barbette</l>
+            <l>D'ung <rs type="invective">bouttecul</rs> ou d'ung <rs type="invective"
+               >cagot</rs></l><note resp="editor" type="ling"><hi rend="italic">Boutecul</hi>:
+               "moine convers", Huguet.</note>
+            <l n="52">Et vous verrez <persName>maistre Ragot</persName></l>
+            <l>Qui vous joura une morisque</l><note resp="editor" type="crit">Cf. Le deuxième
+               coq-à-l'âne de Marot (CAA#5): "Attachez moi une sonnette / Sur le front d'un Moyne
+               crotté, / Une oreille à chasque costé / Du capuchon de sa caboche, / Voilà ung sot de
+               la Bazoche / Aussi bien painct, qu'il est possible:", v. 80-85.</note>
+            <!-- Saut#23 --><anchor type="saut#23"/>
+            <l><rs type="injonction" subtype="impératif">Soys moy</rs> tousjours joly &amp;
+               frisque</l><note resp="editor" type="crit">La rime morisque:frisque se trouve dans le
+               "Temple de Cupido" de Marot: </note>
+            <l>Et <rs type="injonction" subtype="impératif">retiens</rs> bien ce qu'on
+               t'enseigne</l><!-- rime -->
+            <!-- Saut#24 --><anchor type="saut#24"/>
+            <l n="56" ana="#équivoque">Si fault que du bras on te seigne</l>
+            <l>Bons <rs type="métier">medecins</rs> y a à <placeName type="city" key="Laon"
+                  ref="https://data.bnf.fr/ark:/12148/cb11932227j"><geo>49.349
+                  3.3735</geo>Laon</placeName></l>
+            <!-- Saut#25 --><anchor type="saut#25"/>
+            <l>Janvier le moys commence l'an</l>
+            <l>Et fuyt le froid moys de Decembre</l>
+            <!-- Saut#26 --><anchor type="saut#26"/>
+            <l n="60">On y vend des chappeletz D'ambre</l>
+            <l><reg>À</reg> ceulx qui vont en garouage</l>
+            <!-- Saut#27 --><anchor type="saut#27"/><note resp="editor" type="ling"><hi
+                  rend="italic">Garouage</hi>: débauche.</note>
+            <!-- Saut#28 --><anchor type="saut#28"/>
+            <l ana="#maladie">Que la malle mort &amp; la rage</l>
+            <l ana="#imprécation">Puist endormir le mailloteur</l>
+            <!-- Saut#29 --><anchor type="saut#29"/>
+            <l n="64">Mais qui est ce fol barboteur</l>
+            <l>Qui ne nous faict que barbotter</l>
+            <!-- Saut#30 --><anchor type="saut#30"/>
+            <l ana="#équivoque">Il ne convient ta barbe oster</l>
+            <l ana="#guerre">Si tu veulx aller en la guerre</l>
+            <!-- Saut#31 --><anchor type="saut#31"/>
+            <l n="68">Pour cela je n'y pense guiere</l>
+            <l>Et ne respons <reg>à</reg> tous tes dictz</l>
+            <!-- Saut#32 --><anchor type="saut#32"/>
+            <l>Car adventuriers plus de dix</l>
+            <l>A le <roleName>prevost</roleName> des <roleName>mareschaulx</roleName></l>
+            <!-- Saut#33 --><anchor type="saut#33"/>
+            <l n="72">Apres pasques les pastez chaulx</l>
+            <l>Seront fort bons pour desjeuner</l>
+            <!-- Saut#34 --><anchor type="saut#34"/>
+            <l>Faulte d'argent nous faict jeusner</l>
+            <l><reg>À</reg> grande peine pardeça</l>
+            <!-- Saut#35 --><anchor type="saut#35"/>
+            <l n="76" ana="#vp">Depuis deux ou trois moys en ça</l>
+            <l ana="#violences">Troys furent menez au gibet</l>
+            <!-- Saut#36 --><anchor type="saut#36"/>
+            <l ana="#vin"><placeName>À l'eschiquier</placeName> bon vin on boit</l><note
+               resp="editor" type="glose">On pense à une taverne.</note>
+            <l>C'est assez pres de <placeName>sainct Martin</placeName></l><note resp="editor"
+               type="glose">Toponyme particulièrement répandu. Dans la région, était connu
+               Saint-Martin aux Bois pour son abbatiale. Mais la saint-Martin, fêtée le 11
+               novembre, est aussi le début de la période du règne des Sots, et des excès.</note>
+            <!-- Saut#37 --><anchor type="saut#37"/>
+            <l n="80">Je me levay hier au matin</l>
+            <l>Encore lors luysoit la Lune</l>
+            <pb n="4"/>
+            <l>Trouvay quelqung de <placeName type="city" key="Pampelune">Pampelune</placeName></l>
+            <l>Qui me mist en tresgrant erreur</l>
+            <l n="84">En me parlant de <persName ref="ind:Charles-Quint">L'empereur</persName></l>
+            <l>Et de sa glorieuse fuyte</l><note resp="editor" type="glose">Les Espagnols ne
+               quittent la France qu'en septembre 1536.</note>
+            <!-- Saut#38 --><anchor type="saut#38"/>
+            <l>On faict icy grosse poursuyte</l>
+            <l>Aux hannuyers que <persName>Dieu</persName> mauldie</l><!-- Cf. Resveries -->
+            <!-- Saut#39 --><anchor type="saut#39"/>
+            <l n="88">Il regne cy gran maladie</l>
+            <l ana="#argent">Chascun n'a point monnoye <reg>à</reg> point</l>
+            <l>Ce qui me vient tresmal apoint</l>
+            <l>Soit <reg>à</reg> midy soit au matin</l>
+            <!-- Saut#40 --><anchor type="saut#40"/>
+            <l n="92">Dieu pardoint au povre <persName>Martin</persName></l>
+            <l>Il conduisoit bien son <rs type="animal">pourceau</rs></l>
+            <!-- Saut#41 --><anchor type="saut#41"/>
+            <l>Je ne scay plus rien de nouveau</l>
+            <l>Sinon que j'ay ung chappeau rouge</l>
+            <!-- Saut#42 --><anchor type="saut#42"/>
+            <l n="96">Hola mon amy ne te bouge</l>
+            <l>Les <orgName type="peuple" subtype="allemand">Allemans</orgName> ont pris
+               querelle</l>
+            <l>Pour ravoir une maquerelle</l>
+            <l>Comme feroit ung bon preudhomme</l>
+            <!-- Saut#43 --><anchor type="saut#43"/>
+            <l n="100"><persName>Dieu</persName> doint grace au <roleName type="pape" key="Paul III"
+                  >pape</roleName> de <placeName type="city" key="Rome">Romme</placeName></l>
+            <l>Que chascun vive en bonne amour</l>
+            <l>Bonadies bonjour bonjour</l>
+            <!-- Saut#44 --><anchor type="saut#44"/>
+            <!-- Passage absent de l'édition Arnoullet -->
+            <l>Mon dieu que les sotz seront braves</l>
+            <l n="104">Dimenche au jeu jourdain de Blaves</l><note><title>Jourdain de Blaye</title>
+               est une chanson de geste remaniée.</note>
+            <!-- Saut#45 --><anchor type="saut#45"/>
+            <l>On en fera raportz divers</l>
+            <l>De ces moines vestus de vers</l>
+            <l>Qui ont dames belles rebelles</l>
+            <l n="108">Monsieur en scaura les nouvelles</l>
+            <l>Et notera en quatre livres</l>
+            <!-- Reprise dans Arnoullet -->
+            <!-- Saut#46 --><anchor type="saut#46"/>
+            <l>Amours m'ont bien coustez cent livres</l><note resp="editor" type="philo">L'édition
+               Arnoullet ajoute ici le vers "Comme tu verras par mes livres" pour restituer l'écho
+               de la rime précédente.</note>
+            <l>Et si m'ont faict coucher dehors</l>
+            <!-- Saut#47 --><anchor type="saut#47"/>
+            <l n="112">Toutesffoys ce ne fust alors</l>
+            <l>Que ce pougault vint <reg>à</reg> jubé</l><note resp="editor" type="ling"><hi
+                  rend="italic">Faire venir à jubé</hi>:"Forcer à céder", Huguet. Cf. "Plus hault
+               que toy est a le fois tombé, / Cognois ton cas et si viens à jubé;", Jean Molinet, "Le
+               débat d'Apvril et de May".</note>
+            <!-- Saut#48 --><anchor type="saut#48"/>
+            <l>Le moyne parle <reg>à</reg> son abbé</l>
+            <l>Quant il veult avoir sa jacquette</l><note resp="editor" type="ling">Quand il veut
+               manger.</note>
+            <!-- Saut#49 --><anchor type="saut#49"/>
+            <l n="116">Dont vient cela que la bucquette</l>
+            <l>Eschet tousjours au malheureux</l><note resp="editor" type="ling">"Au malheureux
+               chiet toujours la bucquette" (Di Stefano): le tirage au sort est toujours défavorable
+               au malheureux. Même rime aux vers 7-8 du "Temple de Mars" de Jean Molinet: "Je fus de
+               dars perchiet, cotte et jacquette: / Au malheureux chiet tousjours la bucquette.",
+                  <title>Faictz et Dictz</title>.</note>
+            <!-- Saut#50 --><anchor type="saut#50"/>
+            <l><rs type="injonction" subtype="impératif">Tais toy</rs> Normand qui es d'Evreux</l>
+            <l>Et si porte honneur <reg>à</reg> ton maistre</l>
+            <l n="120">Car je ne vueil cy plus rien mettre.</l>
+            <l><app>
+                  <lem wit="#JD-2963"/>
+                  <rdg wit="#JD-174"><fw>Fin de l'escript de L'asne au Coq</fw></rdg>
+               </app></l>
+         </p>
+      </body>
+   </text>
 </TEI>

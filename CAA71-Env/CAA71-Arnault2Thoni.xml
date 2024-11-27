@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader xml:id="Arnault_85">
+      <fileDesc>
+         <titleStmt>
+            <title>Coq a l'asne sur la ligue 1585</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <idno>Cinq-Cents de Colbert (volume 500)</idno>
+               </msIdentifier>
+            </msDesc></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)" replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)" replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)" replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p><interpGrp>
+            <interp xml:id="Adr" ana="adresse">adresse</interp>
+            <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+            <interp xml:id="topos">lieu commun</interp>
+            <interp xml:id="gén">généralisation</interp>
+            <interp xml:id="ironie">ironie</interp>
+            <interp xml:id="vp" ana="pivot">vers pivot</interp>
+            <interp xml:id="actu" ana="actualité">actualité</interp>
+            <interp xml:id="ligue" ana="ligue">ligue</interp>
+            <interp xml:id="satire" ana="satire">satire</interp>
+            <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+            <interp xml:id="sat_pers">satire personnelle</interp>
+            <interp xml:id="Plmq" ana="polemic">polémique religieuse</interp>
+            <interp xml:id="sat_rel">satire religieuse</interp>
+            <interp xml:id="p_armes">prise d'armes</interp>
+            <interp xml:id="massacre">massacre</interp>
+            <interp xml:id="sit_pol">situation politique</interp>
+            <interp xml:id="pol_ext">politique extérieure</interp>
+            <interp xml:id="sit_mil">situation militaire</interp>
+            <interp xml:id="défaite">défaite militaire</interp>
+            <interp xml:id="argent">argent et ressources financières</interp>
+            <interp xml:id="bien_vivre">bien vivre</interp>
+            <interp xml:id="ambition">ambition</interp>
+            <interp xml:id="lâcheté">lâcheté</interp>
+            <interp xml:id="trahison">trahison et sédition</interp>
+            <interp xml:id="tromperie">tromperie</interp>
+            <interp xml:id="prudence">appel à la prudence</interp>
+            <interp xml:id="court">vie de la court</interp>
+            <interp xml:id="ravages">conséquences de la guerre</interp>
+            <interp xml:id="souffrances">peuple souffrant</interp>
+            <interp xml:id="réf_litt">références littéraires</interp>
+         </interpGrp></p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <p><pb n="184r"></pb><fw type="pageNum" place="top-right">184</fw>
+            <cb n="L"/>
+            <l ana="#Adr"><persName ref="ind:Thony">Thony</persName> pour te donner plaisir</l><note
+               resp="editor" type="crit">Sur les identités de l'auteur et de son destinataire, voir
+               Jean Vignes et François Rouget.</note>
+            <l ana="#mtd">Je te veux conter à loisir</l>
+            <l ana="#actu">Ce que j'ay appris de la <orgName ana="#ligue">ligue</orgName></l>
+            <l n="4" ana="#actu">Tout va tout <app><lem wit="ms:COL500">bruit</lem><rdg wit="ms:172">vient</rdg></app> tout court tout brigue</l>
+            <l ana="#p_armes">Chacun faict fourbir son harnoys</l>
+            <l>Pourtant le <roleName ref="ind:Henri_de_Navarre">Roy des Navarroys</roleName></l>
+            <l>A failly le petit <reg>breuvage</reg></l>
+            <l n="8"><app>
+                  <lem wit="ms:COL500">Par moy tout</lem>
+                  <rdg wit="ms:172">Par ma foy</rdg>
+               </app> ce bel heritage</l><note resp="editor" type="glose">Le royaume de
+               France.</note>
+            <l>Ne sera pas sans heritier</l>
+            <l>On parle de le marier</l>
+            <l>En ces vieux ans <addName key="Cardinal de Bourbon">la grise teste</addName></l>
+            <l n="12" ana="#vp">Ha que c'est une estrange beste</l>
+            <l>Que la bruslante ambition</l>
+            <!-- Sau#1 --><anchor type="Saut#1"/>
+            <l ana="#ironie">C'est une grande devotion</l>
+            <l ana="#massacre">Q[u]'un massacre à la catholique</l><note resp="editor" type="glose">Référence à la
+               Saint-Barthélemy. Les Ligueurs se rassemblent contre l'autorité du roi. Cf. v.
+               4.</note>
+            <!-- Saut#2 --><anchor type="Saut#2"/>
+            <l n="16">Sy j'estois armé d'une pique</l>
+            <l>Monté sur le haut d'un clocher</l>
+            <l>J'<app>
+                  <lem wit="ms:COL500">empescherois</lem>
+                  <rdg wit="ms:172">engarderoys</rdg>
+               </app> bien d'approcher</l>
+            <l><rs type="invective">Ces <rs type="animal" subtype="canidé">mastins</rs>
+               <app>
+                  <lem wit="ms:COL500">abbayeurs</lem>
+                  <rdg wit="ms:172">aboyeurs</rdg>
+               </app> de lune</rs></l><note resp="editor" type="crit">Image ironique du courage tout
+               relatif du locuteur. Le procédé reviendra par la suite.</note>
+            <!-- Saut#3 --><anchor type="Saut#3"/>
+            <l n="20">Ils courroient la mesme fortune</l>
+            <l ana="#sit_pol">Et ung mesme temps les <orgName type="peuple">Grisons</orgName></l>
+            <!-- Saut#4 --><anchor type="Saut#4"/>
+            <l ana="#sit_mil">Les <app>
+                  <lem wit="ms:COL500"><orgName type="peuple">Irlandois</orgName></lem>
+                  <rdg wit="ms:172">Zelandois</rdg>
+               </app> et les <orgName type="peuple">Frisons</orgName></l>
+            <l ana="#sit_mil">Sont prests à remuer mesnage</l>
+            <l n="24" ana="#sit_mil"><persName>Le Prince Casimir</persName> faict rage</l>
+            <l ana="#sit_mil">Et <app>
+                  <lem wit="ms:COL500">de <placeName type="country" key="Suede"
+                           >Suede</placeName></lem>
+                  <rdg wit="ms:172"/>
+               </app> encores plus</l>
+            <l ana="#argen">Dieu qu'il faudra de Carolus</l><note resp="editor" type="ling">Les <hi rend="italic"
+                  >Carolus</hi> sont des pièces d'argent frappées sous Charles VIII.</note>
+            <l ana="#argent">Pour paier tant de <orgName type="soldats" subtype="mercenaires">lifrelofres</orgName></l><note resp="editor" type="ling"><hi rend="italic"
+                  >Lifrelofres</hi>: Sobriquet souvent appliqué aux Allemands ou aux Suisses
+               allemands (Huguet).</note>
+            <!-- Saut#5 --><anchor type="Saut#5"/>
+            <l n="28" ana="#sit_pol">Les <orgName type="peuple">Flamens</orgName> font de belles offres</l><!-- Marginalia : De se donner au roy apres la mort du duc d'Anjou. -->
+            <l ana="#pol_ext">Mais nous avons à faire ailleurs</l>
+            <!-- Saut#6 --><anchor type="Saut#6"/>
+            <l ana="#sat_rel">Sus sus que les <orgName type="ordre" subtype="religieux">freres
+               mineurs</orgName></l>
+            <l ana="#sat_rel"><orgName type="ordre" subtype="religieux">Augustins</orgName>, <orgName type="ordre"
+                  subtype="religieux">jacobins</orgName> et <orgName type="ordre"
+                  subtype="religieux">carmes</orgName></l>
+            <l n="32" ana="#sat_rel">Prennent à cette fois les armes</l>
+            <l ana="#sat_rel">Il y va du droit besassier</l><note resp="editor" type="crit">Cf. <quote>La Nicque à
+                  Nocque</quote></note>
+            <!-- Saut#7 --><anchor type="Saut#7"/>
+            <l>Sy <persName ref="#Catherine_de_Lorraine">Madame de Montpensier</persName></l>
+            <l>Loge une fois au <placeName>Chappeau rouge</placeName></l>
+            <l n="36">Et que la marmitte ne bouge</l>
+            <l>Je seray quelque jour <roleName>prelat</roleName></l>
+            <!-- Saut#8 --><anchor type="Saut#8"/>
+            <l ana="#bien_vivre">Mieux vault courtiser un bon plat</l>
+            <l>Que d'estre tué à la guerre</l>
+            <!-- Saut#9 --><anchor type="Saut#9"/>
+            <l n="40">La bonne <roleName>reyne d'Angleterre</roleName></l>
+            <l>Feust à deux pieds près de la mort</l>
+            <!-- Saut#10 --><anchor type="Saut#10"/>
+            <l ana="#sat_rel">C'est un tres asseuré support</l>
+            <l ana="#sat_rel">Que d'avoir au vray Dieu fiance</l>
+            <cb n="R"/>
+            <!-- Saut#11 --><anchor type="Saut#11"/>
+            <l n="44">Pour bien garantir nostre <placeName><settlement type="country" key="France"
+                     >France</settlement></placeName></l>
+            <l>Le <roleName ref="ind:Henri_III">Roy</roleName> attend trop longuement</l>
+            <!-- Saut#12 --><anchor type="Saut#12"/>
+            <l>On veult qu'il face ung testament</l><!-- Marginalia : Les ligueux vouloient déclarer le cardinal de Bourbon son héritier. -->
+            <l>Cependant qu'il est en jeunesse</l>
+            <!-- Saut#13 --><anchor type="Saut#13"/>
+            <l n="48">Plusieurs ont mancqué de promesse</l>
+            <l>Au <roleName>gouverneur des <orgName>Champenois</orgName></roleName></l><!-- Marginalia : Le gouverneur des Champenois estoit le duc de Guise aussy cy pares appelé le roy de Champagne. -->
+            <!-- Saut#14 --><anchor type="Saut#14"/>
+            <l ana="#ambition #sit_pol">Nous avons force nouveaux Roys</l>
+            <l ana="#ironie">Tous orphelins de la couronne</l>
+            <!-- Saut#15 --><anchor type="Saut#15"/>
+            <l n="52">On n'a pas ouvert à <placeName type="city" key="Péronne"
+                     >Peronne</placeName></l>
+            <l>Sy follement comme à <placeName type="city" key="Châlons"
+                     >Chalons</placeName></l>
+            <l ana="#lâcheté #ironie">Gens bien armés par les talons</l>
+            <l ana="#lâcheté">Sont propres à faire retraitte</l>
+            <!-- Saut#16 --><anchor type="Saut#16"/>
+            <l n="56"><persName type="destinataire" ref="ind:Thony">Thony</persName> faisons une cornette</l><note
+               resp="editor" type="glose">Au sens de troupe de cavalerie.</note>
+            <l>De beaux petits chevaux legiers</l><note resp="editor" type="crit">Cf. <quote>La
+                  Nicque à Nocque</quote></note>
+            <l ana="#lâcheté #ironie">Mais <rs type="injonction" subtype="défense">n'approchons</rs> point des dangers</l>
+            <l ana="#ironie">Il fault mesnager nostre vye</l>
+            <l n="60" ana="#satire">Je veux aller en <placeName type="country" key="Italie"
+                     >Italye</placeName></l>
+            <l ana="#satire #lâcheté">Pour apprendre à poltroniser</l>
+            <l>Non fay je me viens d'adviser</l>
+            <l ana="#lâcheté">Je <app>
+                  <lem wit="ms:COL500">hay</lem>
+                  <rdg wit="ms:172">scay</rdg>
+               </app> à frapper par derriere</l>
+            <!-- Saut#17 --><anchor type="Saut#17"/>
+            <l n="64" ana="#tromperie">Je crains que <roleName>nostre bonne mere</roleName></l>
+            <l ana="#tromperie">Ne face que nous amuser</l><note>Allusion aux "practiques" de Catherine de Médicis au
+               printemps 1585.</note>
+            <!-- Saut#18 --><anchor type="Saut#18"/>
+            <l>Comment se peult on excuser</l>
+            <l>D'avoir faict la guerre à son prince</l>
+            <l n="68">On veult lopiner <app><lem wit="ms:COL500">sa</lem><rdg wit="ms:172">la</rdg></app> province</l>
+            <l>Mais chacun <app><lem wit="ms:COL500">d'eux voudroict bien</lem><rdg wit="ms:172">voudroit bien le</rdg></app> tout</l>
+            <!-- Saut#19 --><anchor type="Saut#19"/>
+            <l>Qui prend <app><lem wit="ms:COL500">sa</lem><rdg wit="ms:172">la</rdg></app> lance au menu bout</l>
+            <l>Ne fait jamais une grande playe</l>
+            <!-- Saut#20 --><anchor type="Saut#20"/>
+            <l n="72" ana="#sat_pers">Et Madame de longue raye</l>
+            <l>Faict elle rien à ton advis</l>
+            <l>Tu n'es pas trop de ses amys</l>
+            <l><rs type="injonction" subtype="défense">Ne prens</rs> rien à ton advantage</l>
+            <!-- Saut#21 --><anchor type="Saut#21"/>
+            <l n="76" ana="#massacre">Par le traicté de mariage</l>
+            <l ana="#massacre">On debvoict massacrer <persName ref="ind:Thony">Thony</persName></l>
+            <!-- Saut#22 --><anchor n="22"/>
+            <l>Il faillit bien d'estre <app><lem wit="ms:COL500">honny</lem><rdg wit="ms:172">à cony</rdg></app></l>
+            <l>Celuy qui vint à la <placeName><settlement>Tournelle</settlement></placeName></l>
+            <!-- Saut#23 --><anchor type="Saut#22"/>
+            <l n="80" ana="#ironie">C'est une tres bonne allumelle</l>
+            <l ana="#ironie">Que l'Espée au Roy cardinal</l>
+            <!-- Saut#24 --><anchor type="Saut#23"/>
+            <l>Il est mort <roleName>le pauvre Admiral</roleName></l>
+            <l>Mais nous en aurions bien à faire</l>
+            <!-- Saut#25 --><anchor n="24"/>
+            <l n="84">Porter ung sceptre et un breviaire</l>
+            <l>Se sont deux bastons tout divers</l>
+            <pb n="184v"/><cb n="L"/>
+            <!-- Saut#26 --><anchor type="Saut#25"/>
+            <l>Je croy que <persName>Monsieur de Nevers</persName></l>
+            <l>Veult avoir raison de sa quille</l>
+            <l n="88" ana="#sit_mil">Il ne prendra pas la
+               <placeName><settlement>Bastille</settlement></placeName></l>
+            <l ana="#sit_mil">Car saincte Solenne est dedans</l>
+            <!-- Saut#27 --><anchor type="Saut#26"/>
+            <l ana="#défaite">Nous avons perdu <placeName type="city" key="Orléans"
+                     >Orleans</placeName></l>
+            <l>Qu'en despit de la Citadelle</l><!-- Construite sous Charles IX -->
+            <l n="92">Ils ont fouillé en l'Escarcelle</l>
+            <l>Puys ont pris le party guisard</l>
+            <l><persName>St Luc</persName> en tira bien sa part</l>
+            <l>Pendant qu'il eut voix en chapitre</l>
+            <l n="96" ana="#gén">Lorsque la force sert de titre</l>
+            <l ana="#gén">Chacun met sous le pied les loix</l>
+            <!-- Saut#28 --><anchor type="Saut#27"/>
+            <l ana="#sit_mil">Nous aurons des armes de <placeName><settlement type="city" key="Foix"
+                     >Foix</settlement></placeName></l>
+            <l ana="#sit_mil">Sy le <addName ref="ind:Henri_de_Navarre">Bearnoys</addName> passe <geogName type="fleuve">Loyre</geogName></l>
+            <l n="100">Vienne la paix ou la victoire</l>
+            <l>Plus de morts et moings d'ennemys</l>
+            <!-- Saut#29 --><anchor type="Saut#28"/>
+            <l ana="#sit_mil #défaite">Sy l'on avoict prins <placeName><settlement type="city" key="Saint-Denis">St
+                     Denys</settlement></placeName></l>
+            <l ana="#sit_mil #défaite"><placeName><settlement type="city" key="Saint-Cloud">Sainct
+                  Clou</settlement></placeName> et <placeName><settlement type="city"
+                     key="Charenton">Charanton sur Seyne</settlement></placeName></l>
+            <l n="104"><placeName type="city" key="Paris">Paris</placeName>
+               auroit bien de la peyne</l>
+            <l>Et s'y feroit de froids repas</l><note resp="editor" type="glose">En référence aux
+               sièges passés de la ville. Cf. Le coq-à-l'âne de 1567.</note>
+            <!-- Saut#30 --><anchor type="Saut#29"/>
+            <l>L'on brasse quelque estrange cas</l>
+            <l>Mais peu de gens le sçavent dire</l>
+            <!-- Saut#31 --><anchor type="Saut#30"/>
+            <l n="108">Sy l'un faict mal l'autre faict pire</l>
+            <l>L'autre veult son droit disputer</l>
+            <!-- Saut#32 --><anchor type="Saut#31"/>
+            <l ana="#court">L'arbre sacré à Juppiter</l>
+            <l ana="#sat_pers">Ombrageoit madame Jaquine</l>
+            <l n="112" ana="#sat_pers">Et combien qu'elle fust bien fine</l>
+            <l ana="#court">Ils furent ouvers les bahus</l>
+            <!-- Saut#33 --><anchor type="Saut#32"/>
+            <l ana="#ravages">Nous avons des enfans perdus</l>
+            <l ana="#sit_mil">Plus qu'il n'en faut en une armée</l>
+            <l n="116" ana="#sit_mil">Sy ceste guerre est de durée</l>
+            <l ana="#souffrances">Le pauvre peuple aura fort temps</l>
+            <l ana="#sit_pol">Il se verra des mal contants</l>
+            <l ana="#souffrances">Et des las d'endurer à force</l>
+            <!-- Saut#34 --><anchor type="Saut#33"/>
+            <l n="120">Sy le feu n'eust pris à l'amorce</l>
+            <l>Il n'eust tué le pistollet</l>
+            <!-- Saut#35 --><anchor type="Saut#34"/>
+            <!-- Séries de lieux communs -->
+            <l ana="#sit_mil #topos">À dire vray un Cabasset</l><note resp="editor" type="ling"><hi rend="italic"
+                  >Cabasset</hi>: <quote>Sorte de casque léger.</quote> (Huguet). S'ouvre ici et
+               jusqu'au vers 128 une séquence de lieux communs.</note>
+            <l ana="#topos">Est fort propre pour la Cervelle</l><note resp="editor" type="glose">Nous n'avons pas
+               identifié la victime de cet accident.</note>
+            <!-- Saut#36-->
+            <l n="124" ana="#ironie">Je crois que ceux de <placeName type="city" key="La Rochelle">La
+                     Rochelle</placeName></l>
+            <l ana="#ironie">Ne tiennent le <orgName>party Lorrain</orgName></l>
+            <l ana="#ironie #sat_rel">Et que le <roleName>Pontife Romain</roleName></l>
+            <l ana="#ironie #sat_rel">N'a point de Legat à <placeName><settlement type="city" key="Genève"
+                     >Geneve</settlement></placeName></l>
+            <!-- Saut#37 --><anchor type="Saut#36"/>
+            <l n="128" ana="#topos">C'est un dangereux lieu que
+                  <placeName><settlement>Greve</settlement></placeName></l>
+            <l ana="#ligue #sat_pol">Pour les <orgName type="ligueurs">François Espagnollez</orgName></l>
+            <l>J'en verray mille descollez</l>
+            <l ana="#vp">Sy un jour le <roleName ref="ind:Henri_III">Roy</roleName> est le
+                  maistre</l><note resp="editor" type="crit">"Vers-pivot" qui rappelle le
+               procédé de Guillaume du Sable. La séquence propose ainsi une double lecture. La
+               poétique du saut nous conduit d'abord à l'interpréter comme la promesse d'un
+               châtiment des ligueurs en cas de victoire du roi. Mais l'effet de contexte du vers
+               suivant et la question brûlante de l'absence d'héritier (cf. supra v.) opère un
+               glissement interprétatif plaisant vers l'espoir d'une naissance, immédiatement
+               évacué, il est vrai, par le vers 132. L'auteur illustre ici son art de l'allusion. À
+               noter que la variante chez L'Estoile fonctionne tout autant.</note>
+            <!-- Saut#38 --><anchor type="Saut#37"/>
+            <l n="132">Il pourra <app type="substantive">
+                  <lem wit="ms:COL500">quelque chose</lem>
+                  <rdg wit="#fr6678">monstre</rdg>
+               </app> naistre</l>
+            <l>Apres ce long traicté de paix</l><!-- A préciser -->
+            <!-- Saut#39 --><anchor type="Saut#38"/>
+            <l ana="#réf_litt">As tu point veu dans <persName ref="ind:Rabelais">Rabelais</persName></l>
+            <l ana="#réf_litt #ironie">Le cruel combat des andouilles</l>
+            <!-- Saut#40 --><anchor type="Saut#39"/>
+            <l n="136">J'ay leu au livre des quenouilles</l>
+            <l ana="#sit_pol">Qu'on peult le <roleName ref="ind:Henri_III">roy</roleName> deposseder</l>
+            <l>S'il luy plaist ainsy l'accorder</l>
+            <l>Luy mesme se mest en tutelle</l>
+            <!-- Saut#41 --><anchor type="Saut#40"/>
+            <l n="140">On prend bien <rs type="locution">garde à la vaisselle</rs></l><note
+               resp="editor" type="ling">Cf. CAA#70 v. 98-99: "Ilz ont eu les yeux bien ouverts / À
+               prendre garde à la vaisselle".</note>
+            <l>Au <placeName type="region" key="Dauphiné"
+                  >Dauphiné</placeName> et <placeName type="region"
+                     key="Languedoc">Languedoc</placeName></l>
+            <l>Et m'a conté que monsieur <persName>D'O</persName></l>
+            <l>Tient de <placeName><settlement type="city" key="Caen">Can</settlement></placeName>
+               la plus forte place</l>
+            <l n="144">C'est une tresbonne cuirasse</l>
+            <l>Et à l'espreuve du Canon</l>
+            <!-- Saut#41 --><anchor type="Saut#41"/>
+            <l>On se plaint du Duc d'<persName ref="ind:Épernon">Espernon</persName></l>
+            <l>Mais c'est le sceptre qu'on demande</l>
+            <!-- Saut#42 --><anchor type="Saut#42"/>
+            <l n="148"><reg>À</reg> quoy tient il qu'on ne commande</l>
+            <l><reg>À</reg> mectre au vent nos vieux drappeaux</l><note resp="editor" type="ling"
+               >C'est-à-dire exposer au danger, à la menace.</note>
+            <!-- Saut#43 --><anchor type="Saut#43"/>
+            <l>Ils saultent comme <rs type="animal" subtype="batraciens">crapaux</rs></l>
+            <l>Les Espagnols à la fuiyade</l>
+            <!-- Saut#44 --><anchor type="Saut#44"/>
+            <l n="152">Mon Dieu qu'il a la couleur fade</l>
+            <l>Pour estre Monsieur appellé</l>
+            <!-- Saut#45 --><anchor type="Saut#45"/>
+            <l>Au Diable soit le vieil pelé</l>
+            <l>Avec sa mine d'hypocrite</l>
+            <!-- Saut#46 --><anchor type="Saut#46"/>
+            <l n="156">Puisqu'il y va de la marmite</l>
+            <l>Nous verrons force marmitons</l>
+            <!-- Saut#47 --><anchor type="Saut#47"/>
+            <l>Sy force joye nous combattons</l>
+            <l>Ce sera ung triste carnage</l>
+            <l n="160">Du sang s'emplira le rivage</l>
+            <l>Les champs de feu le ciel de voix</l>
+            <l>J'aymerois mieux estre en un bois</l>
+            <l>Couché dessoubz les vertes branches</l>
+            <l n="164">Et descouvrir les fesses blanches</l>
+            <l>De quelque beau petit tendron</l>
+            <l>Puis accorder ma voix au son</l>
+            <l>De la mignonne <persName ref="#Philomèle">Philomelle</persName></l>
+            <pb n="185"/><fw type="pageNum" place="top-right">185</fw>
+            <cb n="L"/>
+            <l n="168">Vertu bieu ne parlons plus d'elle</l>
+            <l>J'en ay par trop esté tansé</l>
+            <!-- Saut#48 --><anchor type="Saut#48"/>
+            <l>Avant que cet an soit passé</l>
+            <l><seg type="prophetie">Nous verrons de grandes merveilles</seg></l>
+            <!-- Saut#49 --><anchor type="Saut#49"/>
+            <l n="172">Pour bien desnicher les <rs type="insecte">abbeilles</rs></l><note
+               resp="editor" type="glose">Jeu sur abeille/abbaye.</note>
+            <l>Il fault l'habit d'un <roleName>penitent</roleName></l>
+            <!-- Saut#50 --><anchor type="Saut#50"/>
+            <l>Sy j'estois <roleName>premier President</roleName></l>
+            <l><persName ref="#Chippart">Chipart</persName> n'auroit plus d'audience</l><note
+               resp="editor" type="glose">Un des Seize qui a la réputation d'un modéré. Cf. R.
+               Descimon, p. 113.</note>
+            <!-- Saut#51 --><anchor type="Saut#51"/>
+            <l n="176">Hé que j'ay fait de reverences</l>
+            <l>À ces <rs type="invective">petits dieux du pallais</rs></l>
+            <!-- Saut#52 --><anchor type="Saut#52"/>
+            <l>Monsieur le <persName ref="#Gondi">Mareschal de Retz</persName></l>
+            <l>A faict au <roleName ref="#Henri_III">Roy</roleName> ung bon service</l>
+            <!-- Saut#53 --><anchor type="Saut#53"/>
+            <l n="180">Je veux honnorer la justice</l>
+            <l>Puisque j'ay gaigné mon proces</l><!-- Quand le cas personnel l'emporte sur le collectif -->
+            <!-- Saut#54 --><anchor type="Saut#54"/>
+            <l>Touteffois c'est un grand excès</l>
+            <l>Que de consigner tant d'épices</l><!-- note linguistique -->
+            <!-- Saut#55 --><anchor type="Saut#55"/>
+            <l n="184">Premier qu'avoir esté novices</l>
+            <l>Plusieurs sont devenus Abbés</l><note resp="editor" type="crit"
+               ><!-- A compléter --></note>
+            <!-- Saut#56 --><anchor type="Saut#56"/>
+            <l>Ceux qui ont les cerveaux plombés</l><!-- A définir -->
+            <l>Ne font jamais belle entreprise</l>
+            <!-- Saut#57 --><anchor type="Saut#57"/>
+            <l n="188">Tous les edicts du <roleName type="ironie">Roy</roleName> de <persName
+                  ref="#Henri_de_Guise">Guise</persName></l>
+            <l>Sont scellés du petit cachet</l><!-- Petit cachet par opposition? en référence à ? -->
+            <!-- Saut#58 --><anchor type="Saut#58"/>
+            <l>Le gendre de Monsieur Touchet</l>
+            <l>A pris le party des rebelles</l>
+            <!-- Saut#59 --><anchor type="Saut#59"/>
+            <l n="192">L'on mange à <placeName><settlement type="city" key="Paris"
+                     >Paris</settlement></placeName> des pucelles</l>
+            <l>Mais il s'en retrouve bien peu</l><note resp="editor" type="crit">Cf. notre CAA#23:
+               "Aussi l'on voit peu de pucelles / Qui puissent long temps vivre en court",
+               v.52-53.</note>
+            <!-- Saut#60 --><anchor type="Saut#60"/>
+            <l>Ung <rs type="invective"><rs type="animal" subtype="canidé">loup</rs></rs> tout
+               nouveau est esleu</l>
+            <l>Pour veiller sur la bergerye</l>
+            <!-- Saut#61--><anchor type="Saut#61"/>
+            <l n="196">Sy le <roleName>Cardinal</roleName> se marie</l>
+            <l>Jamais tu ne vis tant danser</l>
+            <!-- Saut#62 --><anchor type="Saut#62"/>
+            <l>Nous les ferons tous fiancer</l>
+            <l>Nos curés à leurs chambrieres</l>
+            <l n="200">Mais que deviendront les vicaires</l>
+            <l>Vivront ils tousjours au commun</l>
+            <!-- Saut#63 --><anchor type="Saut#63"/>
+            <l>Monsieur le conte de Loudun</l>
+            <l>A fendu le vent de bonne heure</l>
+            <l n="204">Hé pensez de quel œil il pleure</l>
+            <l>D'avoir quicté le <placeName><settlement>Chastellet</settlement></placeName></l>
+            <!--Saut#64 --><anchor type="Saut#64"/>
+            <l>Vive le sieur de Nantouillet</l>
+            <l>Et ceux qui ayent la patrie</l><!-- Attention à la variante sur le verbe -->
+            <cb n="R"/>
+            <!-- Saut#65 --><anchor type="Saut#65"/>
+            <l n="208">Pour une sotte menterie</l>
+            <l>L'on a decappité <persName>Montault</persName></l>
+            <!-- Saut#66 --><anchor type="Saut#66"/>
+            <l>Nous n'aurons pas encore l'assault</l>
+            <l>Puisqu'on a esventé la mine</l>
+            <!-- Saut#67 --><anchor type="Saut#67"/>
+            <l n="212">Pour bien chasser une vermine</l>
+            <l>Il faudroict brusler le paillier</l>
+            <!-- Saut#68 -->
+            <l>J'aspire à estre chancellier</l>
+            <l>D'un des petits Roys de Champaigne</l>
+            <l n="216">Ilz sont nepveux de <persName ref="#Charlemagne">Charlemaigne</persName></l>
+            <l>Filz de <persName>Godeffroy de Billon</persName></l>
+            <l>Mais où est le beau <persName>Champvallon</persName></l>
+            <l>Est il poinct aussy de leur suitte</l>
+            <!-- Saut# -->
+            <l n="220">Ha la vaillante <persName>Margueritte</persName></l>
+            <l>Elle va livrer le combat</l>
+            <l>Amont amont aval aval</l>
+            <l>Au canon bataille bataille</l>
+            <!-- Saut# -->
+            <l n="224">Je croy qu'ils font bonne ripaille</l>
+            <l>Les soldats au <roleName type="ironie">Roy</roleName>
+               d'<persName>Ellebeuf</persName></l>
+            <l>Ilz ne voudroient pas prendre un œuf</l>
+            <l>Mais ilz mettront tout au pillage</l>
+            <l n="228">C'est ung tresmauvais voisinage</l>
+            <l>Pour les habitants d'<placeName><settlement type="city"
+                  >Allençon</settlement></placeName></l>
+            <l>Ce sont tous fauscheurs de cresson</l>
+            <l>Ceux que le <roleName type="ironie">Roy</roleName> d'Aumalle meine</l>
+            <l n="232">Je ne scay sy le <roleName type="ironie">Roy</roleName> du Maine</l>
+            <l>Viendra au combat des premiers</l>
+            <l>A que de nouveaux chevalliers</l>
+            <l>Qui portent la croix espagnolle</l>
+            <l n="236"><placeName><settlement type="country" key="France"
+                  >France</settlement></placeName> helas que tu es folle</l>
+            <l>D'eslever enfans sy ingrats</l>
+            <l><persName>Paupiel</persName> fut mangé des rats</l><!-- Sur le rapprochement entre le légendaire Popiel et Henri III, cf. https://histoirebnf.hypotheses.org/19305 -->
+            <l>Et les <rs type="invective">marmittons</rs> nous assaillent</l>
+            <l n="240">Les <orgName type="ligueurs">ligueurs</orgName> nouveaux se travaillent</l>
+            <l>En vain à passer cest estat</l>
+            <l>Pour contrefaire <rs type="invective">l'appostat</rs></l>
+            <l>Il fault l'habit d'un <orgName type="ordre" subtype="religieux"
+               >Jesuiste</orgName></l>
+            <l n="244">Ilz ont tous reffusé la luicte</l><note resp="editor" type="ling"
+               >Lutte.</note>
+            <l>Du sainct concille à eux offert</l>
+            <l>Bien souvent ung bon droit se perd</l>
+            <l>À faulte de le bien debattre</l>
+            <pb n="185v"/><cb n="L"/>
+            <l n="248">Pour faire les imposts rabattre</l>
+            <l>On veult le peuple ruiner</l>
+            <l>Dieu qu'ilz ont grand peur de jeusner</l>
+            <l>Ces rouges pilliers de cuisine</l>
+            <l n="252">La belle <persName>Margot</persName> est maline</l>
+            <l>D'avoir quicté son bon mary</l>
+            <l>Je croy qu'il n'en est pas marry</l>
+            <l>Il congnoist bien la damoiselle</l>
+            <l n="256"><reg>Penses</reg> tu qu'on la baille belle</l>
+            <l>Au viel <persName>cardinal de Bourbon</persName></l>
+            <l>Sy j'estois monsieur d'Avignon</l>
+            <l>J'aurois la pantoufle dorée</l>
+            <l n="260">Hé bonjour dame pécorée</l>
+            <l>Tant vous avez de beaux enfans</l>
+            <l>Mon dieu qu'ilz sont de poursuivans</l>
+            <l>Aux estats du roy de la febve</l>
+            <l n="264">Pour les passer l'infernal fleuve</l>
+            <l><persName>Charon</persName> s'est mis de leur costé</l>
+            <l>Ces Apprentiz de Royaulté</l>
+            <l>Promettent à tous recompence</l>
+            <l n="268">Il y a bien de l'apparance</l>
+            <l>Q'un chenu tremblotant viellard</l>
+            <l>Succede à ung prince gaillard</l>
+            <l>Sy ne pense quelque finesse</l>
+            <l n="272">Au premier on faisoit largesse</l>
+            <l>Pendant que l'argent a duré</l>
+            <l>J'ay bien peur d'estre censuré</l>
+            <l>Car j'ay parlé de la besasse</l>
+            <l n="276">Ô qu'il y va de bonne grace</l>
+            <l>Ce nouveau tiercelet de Roy</l>
+            <l>De voulloir qu'on rompe la foy</l>
+            <l>Sur qui la paix fut asseurée</l>
+            <l n="280">Elle est encor bien enserrée</l>
+            <l><roleName>La Royne du peuple escossois</roleName></l>
+            <l>Certes vous n'estes plus françois</l>
+            <l>Vous qui artisans de malice</l>
+            <l n="284">Pillez <placeName><settlement type="country" key="France"
+                  >France</settlement></placeName> vostre nourice</l>
+            <l>Ains estes de <placeName><settlement type="country" key="France"
+                  >France</settlement></placeName> avortons</l>
+            <cb n="R"/>
+            <l>As tu poinct veu des <rs type="invective"><rs type="animal">hannetons</rs></rs></l>
+            <l>Qui n'ont que deux mois de furie</l>
+            <l n="288">Mais <persName type="destinataire">Thony</persName> di moy je te prie</l>
+            <l>Quel monstre ay je la advisé</l>
+            <l>Ung François Espagnollisé</l>
+            <l>Pippé des appas de Lorraine</l>
+            <l n="292">Une ame d'ambition pleine</l>
+            <l>Ne se peult de rien contenter</l>
+            <l>L'on nous faict par present tenter</l>
+            <l>Mais rien que le debvoir n'oblige</l>
+            <l n="296">Ilz sont bourgeonnez du viel tige</l>
+            <l>De <persName ref="#Charlemagne">Charlemaigne</persName> ou de Pepin</l>
+            <l ana="#ironie"><rs type="injonction" subtype="impératif">Rendons nous</rs> voicy <persName ref="ind:Lavardin"
+               key="Jean de Beaumanoir, seigneur de Lavardin">Laverdin</persName></l>
+            <l>Sus il fault courrir comme <rs type="animal" subtype="corvidé">lievres</rs></l>
+            <l n="300">Faisons ung bataillon de <rs type="animal">chievres</rs></l>
+            <l>Pour broutter tous ces rejettons</l>
+            <!-- Saut# -->
+            <l>Il pensoit charmer les <orgName type="peuple">Brettons</orgName></l>
+            <l>Par la vertu du caducée</l>
+            <l n="304">Et prendre une gent peu rusée</l>
+            <l>Par le beau habit de Mercure</l>
+            <l>Mais ilz n'ont d'eux ny des <reg>leur[s]</reg> cure</l>
+            <l>Ils sont trop fidelles chrestiens</l>
+            <l n="308"><rs type="injonction" subtype="défense">Ne lasche poinct</rs> ce que tu
+               tiens</l>
+            <l>Ce dict le Lorrain qui cantonne</l>
+            <l>Voy tu pas que le <roleName ref="#Henri_III">Roy</roleName> s'estonne</l>
+            <l>Il nous accorde quasy tout</l>
+            <!-- Saut# -->
+            <l n="312">En fin elle en <rs type="locution">aura le bout</rs></l><note resp="editor"
+               type="ling"><hi rend="italic">Avoir le bout</hi>, au sens de réussir.</note>
+            <l>De la paix <addName ref="#Catherine_de_Médicis">nostre bonne Dame</addName></l>
+            <l>Que depuis deux mois elle trame</l><note>Seconde allusion aux "praticques" de la
+               reine-mère qui cherche à diviser le camp des Lorrains. Voir Xavier Le Person.</note>
+            <l>Mais elle est fascheuse à ourdir</l>
+            <l n="316">Et en fin c'est pour estourdir</l>
+            <l><addName ref="#Henri_III">Ce bon prince tant catholique</addName></l>
+            <l>Qui ne veult ny noise ny picque</l>
+            <l>Dieu ne la faict que pour aymer</l>
+            <l n="329">Il ayme mieux consommer</l>
+            <l>Cent escus en bal et masques</l>
+            <l>Que cent sols en poudre et en flasques</l>
+            <pb n="185v"/>
+            <cb n="L"/>
+            <l>Et autres guerriers instruments</l>
+            <!-- Saut# -->
+            <l n="324">Dieu sauve les pauvres Flamans</l>
+            <l>Ils sont en dANger de grand perte</l><!-- Coquille à corriger dans collatio et MAXQDA -->
+            <l>Et de veoir la <placeName><settlement type="country" key="Flandre"
+                     >Flandre</settlement></placeName> couverte</l>
+            <l>D'Espagnolz d'inquisition</l>
+            <l n="328">Sy ne sont ilz sans passion</l>
+            <l>Ces deux grands pairs depuis nagueres</l>
+            <l>Qui prennent tout et ne font guieres</l>
+            <l>Ou rien que braver piaffer</l>
+            <l n="332">S'ilz pensoient au fier <persName>Lucifer</persName></l>
+            <l>Qui s'oubliant de sa bassesse</l>
+            <l>Bien ba descheut de sa haultesse</l>
+            <l>Ilz <rs type="locution">mettroient de l'eau en leur vin</rs></l>
+            <l n="336">Prophete ne suis ne devin</l>
+            <l><persName type="destinataire">Thony</persName> mais je t'ose bien dire</l>
+            <l>S'ilz n'appaisent du bon dieu l'ire</l>
+            <l>Que bien tost il leur mescherra</l>
+            <l n="340">Pas n[' a pleu tout] ce qu'il cherra</l>
+            <l>Du ciel courbé à la vengeande</l>
+            <l>De ceste orde et mal engeance</l>
+            <l>Qui est cause de nos ennuicts</l>
+            <!-- Saut# -->
+            <l n="344">Ceux de <placeName><settlement type="city" key="Laon"
+                  >Laon</settlement></placeName> veilloient les nuicts</l>
+            <l>Pour se sauver de l'escallade</l>
+            <l>Mais la paix doibt estre mallade</l>
+            <l>Le medecin y va souvent</l>
+            <l n="348">Les <orgName>Guisards</orgName> sont ja bien avant</l>
+            <l>Aux effects de leur ligue saincte</l>
+            <l>Sy dict on que c'est une feincte</l>
+            <l>Pour venir à plus hault degré</l>
+            <l n="352">Et pour porter sceptre malgré</l>
+            <l>L'espoir d'un qui doict estre sire</l>
+            <l>Car en son cœur il ne desire</l>
+            <l>Que ces petits gratiffier</l>
+            <l n="356">On ne scait à qui se fier</l>
+            <l>Cela peult à la paix entendre</l>
+            <l>Pour une autre guerre entreprendre</l>
+            <l>Les <orgName>huguenos</orgName> seront trompés</l>
+            <l n="360">Les pauvres gens sont bien pippés</l>
+            <cb n="R"/>
+            <l>S'attendans que ce petit Sire</l>
+            <l>Qui ne faict que sauter et rire</l>
+            <l>Les sauve du prochain malheur</l>
+            <l n="364">Sa femme a bien trouvé meilleur</l>
+            <l>Le party de ceux de Lorraine</l>
+            <!-- Saut# -->
+            <l>Penses tu que l'evesque de Dyne</l>
+            <l>Luy ayt donné ce bon conseil</l>
+            <l n="368">Or <persName ref="ind:Thony">Thony</persName> je voy le soleil</l>
+            <l>Dedans l'ocean se retraire</l>
+            <l ana="#mtd">Partant il est temps de me taire</l>
+            <l ana="#mtd">Et mectre fin à mes propos</l>
+            <l n="372">Sy tu es aussy aspres aux pots</l>
+            <l>Et aux verres que de coustume</l>
+            <l><rs type="injonction" subtype="impératif">Mandes</rs> le moy et <rs type="injonction"
+                  subtype="impératif">prens</rs> la plume</l>
+            <l>Pour respondre à ton bon amy</l>
+            <l n="376"><persName type="destinataire">Arnault</persName> fils de Jehan l'Endormy</l>
+         </p>
+      </body>
+   </text>
+</TEI>

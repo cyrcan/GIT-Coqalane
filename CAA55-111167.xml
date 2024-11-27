@@ -1,20 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
-      <fileDesc>
+      <fileDesc xml:id="St_Denis">
          <titleStmt>
             <title>L'Asne au Coq 1567</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Récit de la bataille de Saint-Denis de l'intérieur par un des combattants
+               catholiques. Texte à mettre en relation avec la 9e et la 49e chanson du Recueil des
+               chansons des batailles de X de Bordeaux chez Nicolas Bonfons (1575). Exemplaire de
+               Bâle.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Seul témoin de cette pièce, numérisé par la Bibliothèque nationale de France et
-               disponible sur Gallica : https://gallica.bnf.fr/ark:/12148/btv1b10511040b</p>
+            <p>
+               <listWit>
+                  <witness xml:id="COL488">
+                     <msDesc>
+                        <msIdentifier>
+                           <settlement>Paris</settlement>
+                           <repository>Bibliothèque nationale de France </repository>
+                           <idno>Cinq Cents de Colbert - Volume 488 (f°488-)</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+               </listWit></p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -115,23 +126,15 @@
 
       </encodingDesc>
       <revisionDesc>
-         <change><date>12-11-2023</date>Début d'encodage (3 folios).</change>
-         <change><date>16-11-2023</date>Finalisation de la transcription et relecture #1 et révision
+         <change><date>2023-11-12</date>Début d'encodage (3 folios).</change>
+         <change><date>2023-11-16</date>Finalisation de la transcription et relecture #1 et révision
             de la numérotation.</change>
-         <change><date>18-11-2023</date>Correction des noms et recherches des personnes.</change>
+         <change><date>2023-11-18</date>Correction des noms et recherches des personnes.</change>
+         <change><date>2024-08-14</date>Association du schéma de témoins et d'apparat.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <listBibl>
-            <msDesc>
-               <msIdentifier>
-                  <settlement>Paris</settlement>
-                  <repository>Bibliothèque nationale de France </repository>
-                  <idno>Cinq cents de Colbert - Volume 488 (f°488-)</idno>
-               </msIdentifier>
-            </msDesc>
-         </listBibl>
          <div>
             <l><persName type="destinataire">Cocq</persName> mon bon Ami, dieu te gard,</l>
             <l>J'ay esté en tres grand hazard,</l>
@@ -140,7 +143,7 @@
                   rebelles</rs></l>
             <l>Tout <reg>à</reg> rebours va <expan>nostre</expan> Estat,</l>
             <l>Et n'avois plus aucun esbat</l>
-            <note resp="editor" type="ling">Loisir.</note>
+            <note resp="editor" type="ling"><hi rend="italic">Esbat</hi>: loisir.</note>
             <l>Qu'à faire <reg>là</reg> icy la <expan>sentinelle</expan></l>
             <!-- "On avoit dressé un Regiment de Parisiens, composé tant de marchans, artisans, qu'autres volontaires, qui lors se trouverent en ville." in Vraye & entiere histoire...(p. 59)  -->
             <!-- Bourgeois? -->
@@ -151,9 +154,9 @@
                      Denis</settlement></placeName></l>
             <note resp="editor" type="crit">C'est le 2 octobre 1567 que Condé et Coligny marchent
                vers Paris et s'installent à Saint-Denis afin de préparer le siège de la capitale.
-               (Cornette, 1999, p. 399).</note>
+               (Voir J. Cornette, <title>Le Livre et le Glaive</title>, 1999, p. 399).</note>
             <l>Et qui gastoient toute la prée</l>
-            <note resp="editor" type="ling">La terre.</note>
+            <note resp="editor" type="ling"><hi rend="italic">La prée</hi>: La terre.</note>
             <l n="12">De ceste fertile contrée,</l>
             <note resp="editor" type="crit">"Toute ceste plaine est cultivee, &amp; de sa pluspart
                emblavee pour la nourriture du plus prochain cartier : mipartie &amp; divisee comme
@@ -198,8 +201,8 @@
             <l>Ainsi <persName ref="#Marcel">Marcel</persName> nous le fait croire,</l>
             <note resp="editor" type="crit">Claude Marcel était marchant-orfèvre sur le
                Pont-au-Change à Paris, échevin en 1557 et 1562, il est élu prévôt des marchands le
-               21 août 1564 mais n'exercera sa charge qu'en 1570, pendant deux ans. Cf. aussi "Le coq à
-               l'âne d'un Parisien" de Jean de Bondys (CAA#61).</note>
+               21 août 1564 mais n'exercera sa charge qu'en 1570, pendant deux ans. Cf. aussi "Le
+               coq à l'âne d'un Parisien" de Jean de Bondys (CAA#61).</note>
             <l n="36">Et ses consuls de <placeName
                   corresp="https://data.bnf.fr/ark:/12148/cb120104311">St Magloire,</placeName></l>
             <l><persName ref="#Le_Clerc">Le Clerc</persName>, <persName>La Briere <persName

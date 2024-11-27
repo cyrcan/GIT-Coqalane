@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../Users/c.ca/Downloads/tei_Corpus_CAA.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../../../Users/c.ca/Downloads/tei_Corpus_CAA.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader xml:id="Pasquil_Courtizan">
       <fileDesc>
@@ -161,10 +160,11 @@
                </person>
                <person xml:id="Saint-Luc">
                   <idno/>
-                  <persName xml:lang="fr"><forename type="first">François</forename><surname> d'
-                        Espinay, Saint-Luc</surname></persName>
-                  <birth><date>1554</date></birth>
-                  <death><date>1597-09-08</date>Siège d'Amiens</death>
+                  <persName xml:lang="fr"><forename type="first"
+                           >François</forename><surname><nameLink>d'</nameLink> Espinay,
+                        Saint-Luc</surname></persName>
+                  <birth when="1554">né en 1554</birth>
+                  <death when="1597-09-08">Mort au siège d'Amiens le 8 septembre 1597</death>
                </person>
                <person xml:id="Anne_de_Montmorency"
                   corresp="https://data.bnf.fr/ark:/12148/cb121165804">
@@ -222,22 +222,23 @@
             tout commun.</l>
          <l/>
          <p>
-            <l>Trop importun, tu me <reg>convies</reg></l>
-            <note resp="editor" type="variante" source="#BnFCOL500">Var. du ms. COL500: <hi
-                  rend="italic">il me convie</hi></note>
+            <l>Trop importun, <app>
+                  <lem wit="#fr6678">tu me <reg>convies</reg></lem>
+                  <rdg wit="#COL500">il me convie</rdg>
+               </app></l>
             <l>À <expan>respondre</expan>, et n'en ay envie,<note resp="editor" type="multiple"
                   source="#BnFCOL500"><hi rend="italic">A te respondre nay envie</hi>. Le locuteur
                   maintient le jeu de l'épître familière.</note></l>
             <l>Car par apres il faut paier.</l>
             <note resp="editor" type="variante" source="#BnFCOL500">Var. du ms. COL500: <hi
                   rend="italic">Car bien souvent il fault paier</hi></note>
-            <!-- Saut#1 -->
+            <!-- Saut#1 --><anchor type="saut#1"/>
             <l n="4">Les <name type="animal">Chiens</name> qu'on oid plus abbaier</l>
             <l>
                <expan>Monstrans</expan> un Œil plain de Furie,</l>
             <l>N'en <expan>ont</expan> pas l'ame plus hardie</l>
             <l>Et ne sont ceux qui mordent mieux,</l>
-            <!-- Saut#2 -->
+            <!-- Saut#2 --><anchor type="saut#2"/>
             <l n="8">
                <reg>Je</reg> m'en rapporte à <persName ref="#Chasteauvieux"
                   >Chasteauvieux,</persName><note type="editor" subtype="crit">Cosme de La Gambe,
@@ -246,12 +247,12 @@
             <l>
                <reg>S'il</reg>
                <reg>joueroit</reg> bien une Farce</l>
-            <!-- Saut#3 -->
+            <!-- Saut#3 --><anchor type="saut#3"/>
             <l>De cil qui s'en va à la Chasse</l>
             <l>Et <reg>a</reg> tant de <reg>levriers</reg> chés lui.</l>
             <l n="12">Si <expan>n'engendreront</expan> ils meshui,</l>
             <l>Ils ont beau monter l'un sur l'autre,</l>
-            <!-- Saut#4 -->
+            <!-- Saut#4 --><anchor type="saut#4"/>
             <l>Madame, la Faute en est vostre,</l>
             <l>S'il <reg>n'y</reg>
                <reg>a</reg> des <name type="animal" subtype="canidé">
@@ -308,14 +309,14 @@
                milliers,</l>
             <l>Ceux qui sont de sa confrairie,</l>
             <note resp="scriptor" source="#BnFFR6678" place="margin-left">Dans la marge :
-               Coquus</note>
+               "Coquus".</note>
             <l>Chacun en est <reg>s'il</reg> se marie.</l><note resp="editor" type="crit">Propos
                misogyne sur l'inconstance des femmes, devenu un lieu commun des coq-à-l'âne. <hi
                   rend="italic">Faire son mari Jean</hi> signifie le tromper (Di Stefano, p.
                317).</note>
-            <l><persName ref="#Saint-Luc"><expan>Saint</expan> Luc</persName> est le
-                     <roleName><expan>Mignon</expan>
-               </roleName> du <roleName ref="#Henri_III">Roy</roleName>,</l>
+            <l><persName ref="ind:Saint-Luc" key="Saint-Luc"><expan>Saint</expan> Luc</persName> est
+               le <roleName><expan>Mignon</expan>
+               </roleName> du <roleName ref="ind:Henri_III" key="Henri III">Roy</roleName>,</l>
             <l n="44">Et sa Feste <expan>comme</expan>
                <reg>je</reg> croy.</l><note resp="editor" type="glose">Jeu de mot probable entre
                "Feste" et "Fesse" : ce pasquil est précédé chez L'Estoile du sonnet "A Saint Luc
@@ -336,9 +337,10 @@
                'vous sçavez que je l'aime'. La faveur royale et son ascension à la cour transforment
                sa définition sociale de façon ostensible." Nicolas Le Roux, <title>La Faveur du
                   roi</title>, p. 224.</note>
-            <!-- Saut#10 -->
+            <!-- Saut#10 --><anchor type="saut#10"/>
             <l>On ne vend plus les Patenostres</l>
-            <l>De ce Vieillard <persName ref="#Anne_de_Montmorency"><expan>Monmonranci</expan>
+            <l>De ce Vieillard <persName ref="#Anne_de_Montmorency" key="Anne de Montmorency"
+                     ><expan>Monmonranci</expan>
                </persName>,</l><note resp="editor" type="crit">Attribut récurrent de l'ancien
                connétable. Cf. "L'Asne au coq" (CAA#53) : "Car ce diseur de patenostres / En ses
                vieulx ans nous faict grands maulx" (v. 6-7) et "La seconde truye au foing" de
@@ -348,7 +350,7 @@
             <l n="48">Son Chapelet est tout transsi,</l>
             <note resp="editor" type="variante">Var. COL500: <hi rend="italic">Son chappelet est
                   tout ranci</hi>.</note>
-            <!-- Saut#11 -->
+            <!-- Saut#11 --><anchor type="saut#11"/>
             <l>Mais la <reg>Majesté</reg> de <persName ref="#Birague">Birague</persName></l>
             <l>Avecques son Chappeau se brague,</l>
             <note resp="editor" type="ling"><hi rend="italic">Se brague</hi> : "Se parer, faire
@@ -367,18 +369,19 @@
                M. l’Amiral!", Paris, GF, p. 29.</note>
             <l>Pour mieux faire la Contenance,</l>
             <l>Que peust il aller à Potence</l>
-            <l>Avecques <persName ref="#Sardini">Scipion Sardini</persName></l><note resp="editor"
-               type="glose">Un des conseillers de Catherine de Médicis particulièrement visé par les
-               libelles de l'époque.</note>
-            <l n="56">Ils valent mieux que <persName ref="#Cheverny">Cheverni</persName></l><note
-               resp="editor" type="crit">On retrouve les mêmes cibles de la critique que dans <ref
-                  target="CAA69-Requoy(25567).xml">"L'Asne au coq"</ref> mentionné précédemment :
-               "Chiverny a acquis le bruit / D'avoir meschante conscience" (v. 34-35).</note>
+            <l>Avecques <persName ref="#Sardini" key="Sardini">Scipion Sardini</persName></l><note
+               resp="editor" type="glose">Un des conseillers de Catherine de Médicis
+               particulièrement visé par les libelles de l'époque.</note>
+            <l n="56">Ils valent mieux que <persName ref="#Cheverny" key="Cheverny"
+                  >Cheverni</persName></l><note resp="editor" type="crit">On retrouve les mêmes
+               cibles de la critique que dans <ref target="CAA69-Requoy(25567).xml">"L'Asne au
+                  coq"</ref> mentionné précédemment : "Chiverny a acquis le bruit / D'avoir
+               meschante conscience" (v. 34-35).</note>
             <l>Quelques <expan>meschans</expan> qu'ils puissent estre.</l>
-            <!-- Saut#12 -->
+            <!-- Saut#12 --><anchor type="saut#12"/>
             <l><reg>C'est</reg> un grand bien que d'estre Maistre</l>
             <l>On est bien Vallet <expan>quand</expan> on veult.</l>
-            <!-- Saut#13 -->
+            <!-- Saut#13 --><anchor type="saut#13"/>
             <l n="60"><roleName key="Henri III">Sire</roleName>, plus souffrir on ne peult,</l>
             <l>Une si rude Tirannie,</l>
             <l>Aussi est ce une Vilanie</l>
@@ -388,7 +391,7 @@
                <persName> Pierre</persName></l>
             <l><reg>À</reg> qui ces <expan>Mignons</expan> font la Guerre,</l>
             <note resp="scriptor" place="margin-left" source="#BnFFR6678">Dans la marge :
-               Mignons</note>
+               "Mignons".</note>
             <l>Et <expan>comme</expan> lui veulent porter</l>
             <l n="68">La Clef qui lui veulent oster</l>
             <l>Pour entrer dans le <placeName>Cabinet.</placeName></l><note resp="editor"
@@ -397,27 +400,27 @@
                noblesse traditionnelle qui se voit écartée du premier cercle du roi dans cette
                nouvelle économie du don mise en place par Henri III. Cf. Nicolas Le Roux, <hi
                   rend="italic">op.cit.</hi>, 2024.</note>
-            <!-- Saut#14 -->
+            <!-- Saut#14 --><anchor type="saut#14"/>
             <l>Elle n'avoit son Cas bien net</l>
             <l><persName>La belle Nonnain</persName> de <expan>Saint</expan>
                <persName>Pierre</persName>.</l>
-            <note resp="scriptor" source="#BnFFR6678" place="margin-left">Dans la marge : Le
-               Roy</note>
+            <note resp="scriptor" source="#BnFFR6678" place="margin-left">Dans la marge : "Le
+               Roy".</note>
             <l n="72">Qui de deux Chapeaux de Lierre,</l>
             <l>Vous <expan>courronna</expan> si bien l'engin.</l>
-            <!-- Saut#15 -->
+            <!-- Saut#15 --><anchor type="saut#15"/>
             <l>Il ne faut avoir <expan>grand</expan> Engin</l><note resp="editor" type="ling">Jeu
                sur la polysémie du terme "engin", l'intellect et le membre viril.</note>
             <pb n="156"/>
             <l>Pour <expan>congnoistre</expan> toutes matieres,</l>
-            <!-- Saut#16 -->
+            <!-- Saut#16 --><anchor type="saut#16"/>
             <l n="76">Car il y <reg>a</reg> dans les Minieres</l>
             <l>Plus d'or que dans un Fourneau.</l>
-            <!-- Saut#17 -->
+            <!-- Saut#17 --><anchor type="saut#17"/>
             <l><persName ref="#François_Alençon">Monsieur</persName>, vous n'estes assés beau,</l>
             <l>Pour avoir une clef dorée,</l><note resp="editor" type="glose">Allusion à la laideur
                du frère du roi, le duc d'Alençon, marqué par la variole.</note>
-            <!-- Saut#18 -->
+            <!-- Saut#18 --><anchor type="saut#18"/>
             <l n="80">Pour ce <reg>qu'</reg>une Femme parée</l>
             <l>En a le cul bien plus marchand,</l>
             <!-- Saut#19 -->
@@ -425,7 +428,7 @@
             <l>Et pour cela me doit on croire,</l>
             <l n="84">Que ce lui est une grand' Gloire,</l>
             <l>D'estre ainsi coëffé d'un Beguin,<note resp="scriptor" place="margin-right"
-                  source="#fr6678">Dans la marge : Le Roy</note></l>
+                  source="#fr6678">Dans la marge : "Le Roy".</note></l>
             <l>Il serviroit bien d'un badin,</l><note resp="editor" type="multiple"><hi
                   rend="italic">Badin</hi> : "Celui qui joue le rôle du sot dans une farce ou une
                comédie" (Huguet). Var. du ms. COL500: <hi rend="italic">Il a la troigne d'un
@@ -488,9 +491,9 @@
                   veult estre maistre</hi></note>
             <!-- Saut#26 -->
             <l n="116"><persName ref="#Reine_Margot">Marguerite</persName> est bien aise d'estre</l>
-            <note resp="scriptor" source="#BnFFR6678" place="margin-right">Dans la marge : <roleName
-                  ref="#Reine_Margot">Roine de Navarre</roleName> qu'on bravoit à la cour d'estre
-               grosse</note>
+            <note resp="scriptor" source="#BnFFR6678" place="margin-right">Dans la marge :
+                  "<roleName ref="#Reine_Margot">Roine de Navarre</roleName> qu'on bravoit à la cour
+               d'estre grosse".</note>
             <l>Reallier avec son <roleName ref="#Henri_de_Navarre">Mari</roleName>,</l><note
                resp="editor" type="glose">Catherine de Médicis lors de sa rencontre avec Henri de
                Navarre à La Réole le 2 octobre 1578 se réjouit du rapprochement des deux époux dont
@@ -505,9 +508,11 @@
             <l>Mais il n'en est mort à demi,</l>
             <l>Il faloit admortir la Race</l><note resp="editor" type="glose">En référence à la
                situation de Henri de Navarre après le massacre.</note>
-            <l n="124">Avecques celle de Brandace,</l>
-            <note resp="editor" type="variante">Var. ms. COL500 : <hi rend="italic">Brancasse.</hi>
-               L'allusion nous échappe.</note>
+            <l n="124">Avecques celle de <app>
+                  <lem wit="#fr6678">Brandace</lem>
+                  <rdg wit="#COL500">Brancasse</rdg>
+               </app>,</l>
+            <note resp="editor" type="crit"> L'allusion nous échappe.</note>
             <l>Et des seditieus <persName>Bourbons</persName>,</l>
             <note resp="editor" type="variante">Var. ms. COL500 : <hi rend="italic">Et de ces
                   valeureux Bourbons</hi></note>
@@ -521,7 +526,7 @@
             <!-- Saut#28 -->
             <l n="132">Combien que ce soit la maniere</l>
             <note type="scriptor" source="#fr6678" place="margin-left">Dans la marge :
-               Sodomie</note>
+               "Sodomie".</note>
             <l>De nostre Cour,<expan>comme</expan> l'on dit.</l>
             <!-- Saut#29 -->
             <l><persName>Helene</persName>
@@ -548,29 +553,30 @@
             <l>Qui est plus ladre que tu n'es.</l>
             <!-- Saut#34 -->
             <l>On dit qu'elle <reg>a</reg> le Nes punais</l>
-            <l><persName type="saint"><expan>Saint</expan> Luc</persName>, la petite
-               Camuse.</l><note resp="editor" type="crit">Cf. "La Catzerie des financiers et des
-               mignons", dans les ramas de L'Estoile pour cette année 1579 : "Saint-Luc est en grand
-               tourment, / Le Normant, / Et ne dort plus à son aise, / Se voiant, sans arrasser, /
-               Embrasser / Par une Femme punaise.", <hi rend="italic">op. cit.</hi>, p. 53.</note>
-            <!-- Saut#35 -->
+            <l><persName ref="ind:Saint-Luc" key="Saint-Luc"><expan>Saint</expan> Luc</persName>, la
+               petite Camuse.</l><note resp="editor" type="crit">Cf. "La Catzerie des financiers et
+               des mignons", dans les ramas de L'Estoile pour cette année 1579 : "Saint-Luc est en
+               grand tourment, / Le Normant, / Et ne dort plus à son aise, / Se voiant, sans
+               arrasser, / Embrasser / Par une Femme punaise.", <hi rend="italic">op. cit.</hi>, p.
+               53.</note>
+            <!-- Saut#35 --><anchor type="saut#35"/>
             <l n="152"><expan>Monsieur</expan>
                <persName ref="#Tanchou">Tanchou</persName>, je vous recuse,</l>
             <note type="scriptor" place="margin-left" source="#fr6678">Dans la marge : <persName
-                  ref="#Tanchou">Tanchou</persName></note>
+                  ref="#Tanchou">"Tanchou"</persName>.</note>
             <l>Vostre Frere <reg>a</reg> esté pendu</l>
             <note resp="editor" type="crit">Personnage déjà connu des coq-à-l'âne. Il s'agit de la
                troisième mention, en référence à un meurtre pour lequel son frère est condamné à
                mort alors que Tanchou échappe aux galères. cf. "L'Asne au coq" (CAA#53) pour la
                référence de l'épisode. La "Grenoille au Crapault" (CAA#52) renvoie quant à elle à
                l'intransigeance du lieutenant.</note>
-            <!-- Saut#36 -->
+            <!-- Saut#36 --><anchor type="saut#36"/>
             <l>Mon Dieu, qu'il fait de l'entendu</l>
             <l><persName ref="#Louis_Séguier">Seguier</persName>, pour avoir une crosse</l>
-            <note resp="scriptor" source="#fr6678" place="margin-left">Dans la marge : Le doyen
+            <note resp="scriptor" source="#fr6678" place="margin-left">Dans la marge : "Le doyen
                   <persName ref="#Louis_Séguier">Seguier</persName> pretendant d'estre
                   <roleName>Evesque</roleName> de <placeName><settlement type="city"
-                     >Paris</settlement></placeName>.</note>
+                     >Paris</settlement></placeName>".</note>
             <l n="156">Il <reg>a</reg> beau faire bonne bosse,</l><note resp="editor" type="ling"
                   ><hi rend="italic">Faire bonne bosse</hi> : "faire bonne mine" (Di Stefano, p.
                72).</note>
@@ -589,21 +595,23 @@
             <l n="164">Pensés vous <expan>combien</expan> il endure,</l>
             <l>Pour <expan>Saint</expan> Mesgrin et <expan>Saint</expan>
                <persName ref="#Caylus">Kailus</persName>.</l><note resp="scriptor"
-               place="margin-left" source="#fr6678">Dans la marge : La Rochelle</note>
+               place="margin-left" source="#fr6678">Dans la marge : "La Rochelle".</note>
             <l>Il les <reg>a</reg> fait peindre tout nuds,</l><note resp="editor" type="glose">On
                trouve au Louvre un <ref
                   target="https://collections.louvre.fr/ark:/53355/cl020111498">portrait de
                   Saint-Mégrin</ref> probablement composé par <persName>Nicholas Hilliard</persName>
                dans les années 1577-1578 à la demande du roi. Cf. Nicolas Le Roux, <hi rend="italic"
                   >op. cit.,</hi> p. 274.</note>
-            <l>Pour <expan>rendre</expan> sa Gloire eternelle,</l>
-            <note resp="editor" type="variante" source="#BnFCOL500">Var. du ms. COL500 : <hi
-                  rend="italic">Pour rendre leur gloire Immortelle</hi></note>
-            <l n="168">Car il battist tant <placeName><settlement type="city" key="La Rochelle">La
-                     Rochelle</settlement></placeName>,</l>
+            <l>Pour <expan>rendre</expan>
+               <app>
+                  <lem wit="#fr6678">sa Gloire eternelle</lem>
+                  <rdg wit="#COL500">Pour rendre leur gloire Immortelle</rdg>
+               </app>,</l>
+            <l n="168">Car il battist tant <placeName type="city" key="La Rochelle">La
+                     Rochelle</placeName>,</l>
             <l>Qu'en fin il en eust de l'argent.</l>
-            <!-- Saut#38 -->
-            <l>Tu es bien glorieux <persName ref="#L_Archant">L'Archant</persName>,</l>
+            <!-- Saut#38 --><anchor type="saut#39"/>
+            <l>Tu es bien glorieux <persName ref="#L_Archant" key="L'Archant">L'Archant</persName>,</l>
             <l>D'estre Serviteur de ta Femme,</l>
             <l n="172">Elle ne te peult faire infame,</l>
             <note resp="editor" type="variante" source="#BnFCOL500">Mais on ne t'en peut donner
@@ -614,7 +622,7 @@
                par L'Estoile (tome III, p. 179): "Et si ne s'en soucie pas tant / Que fait le
                seigneur de L'archant, / Qui pour le secret de sa femme / Porte le Diademe
                infame."</note>
-            <!-- Saut#39 -->
+            <!-- Saut#39 --><anchor type="saut#39"/>
             <l>[N']Est ce pas un <expan>homme</expan> de cœur,</l>
             <l>Que nostre <rs type="animal" subtype="gallinacé">Poulle</rs> couronnee<note
                   resp="scriptor" source="#BnFFR6678" place="margin-left"><roleName ref="#Henri_III"
@@ -622,7 +630,7 @@
             <l n="176">Car il muera en ceste Année,</l>
             <note resp="editor" type="variante">Puis qu'il a mué ceste année</note>
             <l>Il en aura le Poil plus beau.</l>
-            <!-- Saut#40 -->
+            <!-- Saut#40 --><anchor type="saut#40"/>
             <l>Il fait bon estre Maquereau,</l>
             <l>Pour estre <roleName>Mareschal de France</roleName></l><note resp="editor"
                type="glose">Jean VI d'Aumont? Chevalier du Saint-Esprit depuis janvier 1579, il est
@@ -634,7 +642,7 @@
             <l>Aussi la gratte t il en la teste,</l>
             <l n="184"><expan>Quand</expan> il lui fait ainsi la Feste.</l>
             <l>Pauvre <roleName ref="#Louise_de_Lorraine">Roine</roleName>, tu jeunes bien,</l>
-            <!-- Saut#41 -->
+            <!-- Saut#41 --><anchor type="saut#41"/>
             <l>Vrai est qu'il est <expan>grand</expan> Terrien,</l><note resp="editor" type="crit"
                >Cf. Marot#1 : "L'Empereur est grand terrien, / Plus grand que Monsieur de Bourbon."
                (v. 18-19)</note>
@@ -650,7 +658,7 @@
                limites d’icelle."</note>
             <l>Ô que je verroy' volontiers,</l>
             <l>S'ils en [de]viendront plus Preudhommes.</l>
-            <!-- Saut#42 -->
+            <!-- Saut#42 --><anchor type="saut#42"/>
             <l n="192">Mais tais toi, que l'on ne t'assomme,</l>
             <l>Car l'on ne hait que Verité,</l>
             <l><expan>Quand</expan> le <rs type="animal" subtype="Félidé">Lion</rs> est irrité</l>
@@ -662,7 +670,7 @@
             <l>Si dist on qu'elle fait nourrir</l>
             <l>Cil qui de sa Mort sera cause</l><note resp="editor" type="glose">Énigme qui pourrait
                renvoyer à <persName ref="#Henri_de_Navarre">Henri de Navarre</persName>.</note>
-            <!-- Saut#44 -->
+            <!-- Saut#44 --><anchor type="saut#44"/>
             <l n="200">Mais puis que parler l'on n'en ause,</l>
             <l>Je <rs type="locution">jetterai ma langue aux Chiens</rs>,</l><note resp="editor"
                type="ling"><hi rend="italic">Jeter sa langue aux chiens</hi> : "Donner sa langue au

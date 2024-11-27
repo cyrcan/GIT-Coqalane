@@ -143,7 +143,7 @@
                </choice></l>
             <l n="8">Qu'<reg>à</reg> faire grand chose l'on tasche</l>
             <l>Pour abbatre la nouveaulté</l>
-            <l>Que l'<placeName><settlement type="country">Allemaigne</settlement></placeName> a
+            <l>Que l'<placeName type="country" key="Allemagne">Allemaigne</placeName> a
                apporté</l>
             <note resp="editor" type="crit">Le luthéranisme. L'Allemagne et non pas Genève. L'auteur
                ne semble pas faire partie des réformés. On se souvient de l'"épître au Roy" de
@@ -193,12 +193,12 @@
             <l>On faict tout <reg>à</reg> leur advantaige</l>
             <!-- Saut#5 -->
             <l n="36">Mauldict de dieu soict le lignage</l>
-            <l>Qu'ainsy nous vint de l'<placeName key="Austrasie"><settlement type="region"
-                     >ostrasye</settlement></placeName></l>
+            <l>Qu'ainsy nous vint de l'<placeName key="Austrasie" type="region"
+                     >ostrasye</placeName></l>
             <note resp="editor" type="glose">L'Austrasie, littéralement "le royaume de l'Est". C'est
                vraisemblablement la maison de Lorraine qui est ici visée.</note>
-            <l>Nostre <placeName key="France"><settlement type="country"
-                  >France</settlement></placeName> a l'épilepsye</l>
+            <l>Nostre <placeName key="France" type="country"
+                  >France</placeName> a l'épilepsye</l>
             <l>Loing d'elle fault chasser le rouge</l>
             <note resp="editor" type="ling">C'est-à-dire le traître.</note>
             <l n="40"><roleName ref="#Charles_de_Lorraine">Le quart d'entre eulx</roleName> qui
@@ -226,7 +226,7 @@
             <pb n="61v"/>
             <l>Que la cueiller en est usée</l>
             <!-- Saut #9 -->
-            <l>La <placeName><settlement type="country">France</settlement></placeName> est
+            <l>La <placeName type="country" key="France">France</placeName> est
                longtemps abusée</l>
             <l>Qui en la fin le cognoistra</l>
             <!-- Saut#10 -->
@@ -249,7 +249,7 @@
             <!-- Saut#14 -->
             <l n="68">Onques ne c'est evertué</l>
             <l>Qu'<reg>à</reg> jurer et morguer le monde</l>
-            <l><persName ref="#François_de_Montmorency">Le beau mareschal</persName> le seconde</l>
+            <l><roleName ref="#François_de_Montmorency" key="François de Montmonerency">Le beau mareschal</roleName> le seconde</l>
             <note resp="editor" type="crit">Le maréchal de Montmorency qu'on accusait de favoriser
                ses cousins, les Coligny.</note>
             <l>Aussy est il de son party</l>
@@ -348,10 +348,10 @@
             <l>Ilz ont les trous du cul veluz</l>
             <l>Et n'ont poinct de barbe au menton</l>
             <!-- Saut#32 -->
-            <l n="132">La forte place qu'<placeName><settlement type="city"
-                  >Aubenton</settlement></placeName></l>
-            <l>Elle deffend bien les <placeName><settlement type="region"
-                  >Ardennes</settlement></placeName></l><!-- note sur Aubenton -->
+            <l n="132">La forte place qu'<placeName type="city" key="Aubenton"
+                  >Aubenton</placeName></l>
+            <l>Elle deffend bien les <placeName type="region" key="Ardennes"
+                  >Ardennes</placeName></l><!-- note sur Aubenton -->
             <fw type="sig" place="bottom-right">Q ii</fw>
             <pb n="62v"/>
             <l>On n'oseroit tirer aux <rs type="animal" subtype="oiseau">canes</rs></l>
@@ -371,7 +371,7 @@
             <l>Le cul pour boire du vin doulx</l>
             <!-- Saut#35 -->
             <l>Rudement a este ce coup</l>
-            <l>En <placeName><settlement type="country">Suede</settlement></placeName> le
+            <l>En <placeName type="country" key="Suède">Suede</placeName> le
                   <roleName>roy</roleName> dannois</l>
             <l n="144">Ayde demandoit aux <orgName type="peuple">Françoys</orgName></l>
             <l>Mais le <roleName ref="#Charles_IX">roy</roleName> ne l'a accordé</l>
@@ -382,8 +382,8 @@
             <l n="148">Il n'est que d'avoir des ducats</l>
             <l>On est pour cela gentilhomme</l>
             <!-- Saut#38 -->
-            <l>On n'amenda d'aller à <placeName><settlement type="city" key="Rome"
-                     >Romme</settlement></placeName></l>
+            <l>On n'amenda d'aller à <placeName type="city" key="Rome"
+                     >Romme</placeName></l>
             <l><rs type="proverbe"><rs type="animal" subtype="équidé">Cheval</rs> ny homme
                   asseurément</rs></l><note resp="editor">"Jamais homme ni cheval n'amenda d'aller à
                Rome" est un proverbe relevé par Le Roux de Lincy, <title>Le livre des proverbes
@@ -402,7 +402,7 @@
                femme etique / Ne saurait être bonne bague" (v. 80-81).</note>
             <l>N'a pas le cul trop rebondy</l>
             <!-- Saut#41 -->
-            <l>Scay tu <reg>à</reg> quoy sert ung <persName ref="#Gondi">Gondy</persName></l>
+            <l>Scay tu <reg>à</reg> quoy sert ung <persName ref="#Gondi" key="Gondi">Gondy</persName></l>
             <l>Il sert <reg>à</reg> pendre en quelque endroict</l>
             <l n="160">Celluy qui pourchasse bon droict</l>
             <l>N'a il pas bonne occasion</l>
@@ -434,7 +434,7 @@
             <l>Tel est l'usaige de la <placeName>court</placeName></l>
             <l>Maintenant en ce temps qui court</l>
             <!-- Saut#46 -->
-            <l>Hors <placeName><settlement type="country">France</settlement></placeName> on a
+            <l>Hors <placeName type="country" key="France">France</placeName> on a
                chassé les anges</l>
             <l n="184">Se sont nouvelles bien estranges</l>
             <l>Leur marchepied est demouré</l>
@@ -463,7 +463,7 @@
                troussé</l>
             <note resp="editor" type="ling">Perdu.</note>
             <l>On a advancé en son lieu</l>
-            <l><persName ref="#Sommerive">Sommerive</persName> ennemy de dieu</l>
+            <l><persName ref="#Sommerive" key="Sommerive">Sommerive</persName> ennemy de dieu</l>
             <l>Et qui encores trop pys vault</l>
             <note resp="editor" type="glose">Le lieutenant-général Honoré de Savoie est chargé par
                Catherine de Médicis de s'opposer aux protestants de Provence et notamment au

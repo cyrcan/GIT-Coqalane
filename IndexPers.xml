@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Index général</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Liste des noms de personnes et de lieux du corpus Coq-à-l'âne</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>En construction</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <head>Index des noms des personnes</head>
+            
+            <person xml:id="Anne_de_Pisseleu"><ptr target="https://data.bnf.fr/ark:/12148/cb14978045m"/>
+               <idno type="ISNI">0000 0001 2208 7539</idno>
+               <persName xml:lang="fr"><forename type="first">Anne
+                  de</forename><surname>Pisseleu</surname></persName>
+            </person>
+            
+            <person xml:id="G_Poyet"><ptr target="https://data.bnf.fr/ark:/12148/cb10411705z"/>
+               <idno type="ISNI">0000 0001 1677 8982</idno>
+               <persName xml:lang="fr"><forename type="first"
+                  >Guillaume</forename><surname>Poyet</surname></persName>
+            </person>
+            <person xml:id="Boniface_VIII"><ptr target="https://data.bnf.fr/ark:/12148/cb12128117z"/>
+               <idno type="ISNI">0000 0001 2124 2007</idno>
+               <persName xml:lang="fr"><forename type="first"
+                  >Benedetto</forename><surname>Caetani</surname></persName>
+            </person>
+            <person xml:id="Jésus">
+               <persName xml:lang="fr"><forename type="first">Jésus</forename><surname>
+                  <nameLink>de</nameLink> Nazareth</surname></persName>
+            </person>
+            <person>
+               <persName xml:id="Bellièvre"><ptr target="https://data.bnf.fr/ark:/12148/cb134962124"/>
+                  <idno type="ISNI">0000 0000 5319 0689</idno>
+                  <persName xml:lang="fr"><forename type="first">Pomponne</forename><surname>
+                        <nameLink>de</nameLink> Bellièvre</surname></persName></persName>
+               <occupation>surintendant des finances</occupation>
+               <birth when="1529">Né en 1529</birth>
+               <death when="1607">Mort en 1607</death>
+            </person>
+            <person sex="F" xml:id="Catherine_de_Lorraine">
+               <persName>
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">Catherine-Marie</forename><surname>
+                        <nameLink>de</nameLink> Lorraine</surname></persName></persName>
+               <birth when="1552-07-18">Née à Joinville le 18 juillet 1552</birth>
+               <death when="1596-05-06">Morte à Paris le 6 mai 1596</death>
+            </person>
+
+            <person>
+               <persName xml:id="Henri_III"><ptr target="https://data.bnf.fr/ark:/12148/cb12016877w"/>
+                  <idno type="ISNI">0000 0001 2319 7721</idno>
+                  <persName xml:lang="fr"><forename type="first">Henri</forename><surname>
+                        III</surname></persName></persName>
+            </person>
+            
+            <person>
+               <persName xml:id="Henry_VIII"><ptr target="https://data.bnf.fr/ark:/12148/cb11988809r"/>
+                  <idno type="ISNI">0000 0001 2258 6127</idno>
+                  <persName xml:lang="en"><forename type="first">Henry</forename><surname>
+                     VIII</surname></persName></persName>
+               <birth when="1491-06-28">né le 28 juin 1491</birth>
+               <death when="1547-01-28">mort le 28 janvier 1547</death>
+               <event when="1536-05-30"><desc>Il se marie avec Jane Seymour le 30 mai 1536</desc></event>
+            </person>
+            
+            <person>
+               <persName xml:id="Jane_Seymour"><ptr target="https://data.bnf.fr/ark:/12148/cb13755889t"/>
+                  <idno type="ISNI">0000 0000 7145 9901</idno>
+                  <persName xml:lang="en"><forename type="first">Jane</forename><surname>
+                     Seymour</surname></persName></persName>
+               <birth when="1509">née en 1509</birth>
+               <death when="1537-10-24">morte le 24 octobre 1537</death>
+               <event when="1536-05-30"><desc>Elle se marie avec Henri VIII le 30 mai 1536</desc></event>
+            </person>
+
+            <person>
+               <persName xml:id="Philomèle"><ptr target="https://data.bnf.fr/ark:/12148/cb150819080"/>
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first"
+                        >Philomèle</forename><surname> </surname></persName></persName>
+            </person>
+
+            <person xml:id="Gondi">
+               <ptr target="http://viaf.org/viaf/89654338"/>
+               <idno type="VIAF">89654338</idno>
+               <persName xml:lang="fr"><forename type="first">Albert</forename><surname>
+                     <nameLink>de</nameLink> Gondi, comte de Retz</surname></persName>
+            </person>
+
+            <person>
+               <persName xml:id="Luther"><ptr target="https://data.bnf.fr/ark:/12148/cb119136609"/>
+                  <idno type="ISNI">0000 0001 2121 4073</idno>
+                  <persName xml:lang="fr"><forename type="first">Martin</forename><surname>
+                        Luther</surname></persName></persName>
+               <occupation>théologien</occupation>
+               <occupation>poète</occupation>
+               <faith>réformateur</faith>
+               <birth when="1483-11-10">Né à Eisleben le 10 novembre 1483</birth>
+               <death when="1546-02-18">Mort à Eisleben le 18 février 1546</death>
+            </person>
+
+            <person>
+               <persName xml:id="Melanchthon"><ptr
+                     target="https://data.bnf.fr/ark:/12148/cb119154816"/>
+                  <idno type="ISNI">0000 0001 2140 0378</idno>
+                  <persName xml:lang="fr"><forename type="first">Philippe</forename><surname>
+                        Melanchthon</surname></persName></persName>
+               <occupation>théologien</occupation>
+               <faith>réformateur</faith>
+               <birth when="1497-02-16">Né à Bretten le 16 février 1497</birth>
+               <death when="1560-04-19">Mort à Wittenberg le 19 avril 1560</death>
+            </person>
+
+            <person>
+               <persName xml:id="Charles-Quint"><ptr
+                     target="https://data.bnf.fr/ark:/12148/cb12038246v"/>
+                  <idno type="ISNI">0000 0001 2096 5852</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                        >Charles-Quint</forename><surname> </surname></persName><roleName>empereur
+                     du Saint Empire Romain Germanique</roleName></persName>
+               <faith>catholique</faith>
+               <birth when="1500-02-24">Né le 24 février 1500</birth>
+               <death when="1558-09-21">Mort le 21 septembre 1558</death>
+            </person>
+
+            <person>
+               <persName xml:id="Marot"><ptr target="https://data.bnf.fr/ark:/12148/cb119146627"/>
+                  <idno type="ISNI">0000 0001 2101 6421</idno>
+                  <persName xml:lang="fr"><forename type="first">Clément</forename><surname>
+                        Marot</surname></persName></persName>
+               <occupation>poète</occupation>
+               <faith>évangélique</faith>
+               <birth notBefore="1496">Né à Cahors en 1496</birth>
+               <death when="1544">Mort à Turin en 1544</death>
+            </person>
+            
+            <person>
+               <persName xml:id="Jamet">
+                  <persName xml:lang="fr"><forename type="first">Lyon ou Léon</forename><surname>
+                     Jamet</surname></persName></persName>
+               <occupation>secrétaire</occupation>
+               <faith>évangélique</faith>
+            </person>
+
+            <person>
+               <persName xml:id="Rabelais"><ptr target="https://data.bnf.fr/ark:/12148/cb11920939s"/>
+                  <idno type="ISNI">0000 0001 2277 5067</idno>
+                  <persName xml:lang="fr"><forename type="first">François</forename><surname>
+                        Rabelais</surname></persName></persName>
+               <occupation>médecin</occupation>
+               <occupation>écrivain</occupation>
+               <faith>évangélique</faith>
+               <birth notBefore="1494">Né à Chinon vers 1494</birth>
+               <death when="1553-04-09">Mort à Paris le 9 avril 1553</death>
+            </person>
+
+            <person xml:id="Épernon">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb129927039"/>
+               <idno type="ISNI">0000 0001 2134 3043</idno>
+               <persName xml:lang="fr"><forename type="first">Jean-Louis
+                        </forename><surname><nameLink>de</nameLink> Nogaret de La Valette
+                     Épernon</surname><roleName/></persName>
+               <birth when="1554-05">Né en mai 1554</birth>
+               <death when="1562-01-13"/>
+            </person>
+
+            <person xml:id="Charlemagne">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb11940325v"/>
+               <idno type="ISNI">0000 0001 2143 0569</idno>
+               <persName xml:lang="fr"><forename type="first"
+                     >Charlemagne</forename><surname> </surname></persName>
+               <birth when="0742-04-02">Né le 2 avril 742</birth>
+               <death when="0814-01-28">Mort le 28 janvier 814</death>
+            </person>
+
+            <person>
+               <persName xml:id="Charles-Emmanuel_I"><ptr
+                     target="https://data.bnf.fr/ark:/12148/cb12260254h"/>
+                  <idno type="ISNI">0000 0001 2336 5668</idno>
+                  <persName xml:lang="fr"><forename type="first">Charles-Emmanuel</forename>
+                     <roleName>duc de Savoie</roleName></persName></persName>
+               <birth when="1562-01-12">Né à Rivoli (Italie) le 12 janvier 1562</birth>
+               <death when="1630-07-26">Mort à Savagliano (Italie) le 26 juillet 1630</death>
+               <event>
+                  <desc>Il épouse Catherine-Michelle d'Autriche, fille de Philippe II, le 11 mars
+                     1585.</desc>
+               </event>
+            </person>
+
+            <person xml:id="Catherine_de_Médicis">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb123351707"/>
+               <idno>0000 0001 2095 7473</idno>
+               <persName xml:lang="fr"><forename type="first">Catherine</forename><surname>
+                     <nameLink>de</nameLink> Médicis</surname></persName>
+            </person>
+
+            <person sex="F" xml:id="Charlotte_de_Sauve">
+               <persName><forename type="first">Charlotte </forename><nameLink>de
+                     </nameLink><surname>Beaune-Semblançay</surname><roleName> baronne de Sauve et
+                     marquise de Noirmoutier</roleName></persName>
+               <birth when="1551-10-26">Née le 26 octobre 1551</birth>
+               <death when="1617-09-30">Morte le 30 septembre 1617</death>
+               <occupation>dame d'honneur de Catherine de Médicis</occupation>
+               <event when="1583">
+                  <desc>chassée de la cour en 1583</desc>
+               </event>
+               <event when="1588-12-23">
+                  <desc>a passé la nuit avec le duc de Guise</desc>
+               </event>
+            </person>
+
+            <person xml:id="Ochino"><ptr target="https://data.bnf.fr/ark:/12148/cb12216298j"/>
+               <persName xml:lang="fr"><forename type="first"
+                  >Bernardino</forename><surname>Ochino</surname></persName>
+            </person>
+
+            <person sex="M" xml:id="Monluc">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb11916518z"/>
+               <persName>
+                  <idno type="ISNI">0000 0001 0854 8757</idno>
+                  <persName xml:lang="fr"><forename type="first">Blaise</forename><surname>
+                        <nameLink>de</nameLink> Monluc</surname></persName></persName>
+               <birth when="1502">Né à Saint-Puy (Gers) en 1502</birth>
+               <death when="1577">Mort à Estillac (Lot-et-Garonne) en 1577</death>
+               <occupation>capitaine</occupation>
+               <occupation>mémorialiste</occupation>
+            </person>
+
+            <person sex="M" xml:id="Saint-Luc">
+               <persName>
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">François</forename><surname>
+                        <nameLink>d'</nameLink>Espinay de Saint-Luc</surname></persName></persName>
+               <birth when="1554">Né en 1554</birth>
+               <death when="1597">Mort à Amiens en 1597</death>
+               <occupation>Homme militaire</occupation>
+               <occupation>Favori d'Henri III</occupation>
+            </person>
+
+            <person xml:id="Henri_de_Guise">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb12569222k"/>
+               <idno type="ISNI">0000 0001 2369 2597</idno>
+               <persName xml:lang="fr"><forename type="first">Henri
+                     <genName>Ier</genName></forename><surname>
+                     <nameLink>de</nameLink> Lorraine,</surname><roleName> 3e duc de Guise et 2e
+                     prince de Joinville</roleName><addName>le Balafré</addName></persName>
+               <birth when="1550-12-31">Né à Joinville le 31 décembre 1550</birth>
+               <death when="1588-12-23">Mort à Blois le 23 décembre 1588</death>
+               <event when="1588-12-23">
+                  <desc>Assassiné</desc>
+               </event>
+            </person>
+
+            <person xml:id="Thony">
+               <idno/>
+               <persName xml:lang="fr"><forename type="first">thony</forename><surname
+                  > </surname></persName>
+               <occupation>Fou du roi</occupation>
+            </person>
+
+            <person xml:id="Henri_de_Navarre">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb120154019"/>
+               <idno type="ISNI">0000 0001 2134 8311</idno>
+               <persName xml:lang="fr"><forename type="first">Henri</forename><surname>
+                     <nameLink>de</nameLink> Navarre</surname> (futur Henri
+                  IV)<roleName/></persName>
+               <birth when="1553-12-14">Né le 14 décembre 1553</birth>
+               <death when="1610-05-14">Mort le 14 mai 1610</death>
+               <event>
+                  <desc>Assassiné par <persName>Ravaillac</persName></desc>
+               </event>
+               <occupation from="1589" to="1610">roi de France</occupation>
+            </person>
+            <person xml:id="Marcel">
+               <idno/>
+               <persName xml:lang="fr"><forename type="first">Claude</forename><surname>
+                     Marcel</surname></persName>
+            </person>
+            <person xml:id="Nicolas_Bourgeois">
+               <idno/>
+               <persName xml:lang="fr"><forename type="first">Nicolas</forename><surname>
+                     Bourgeois</surname><roleName> (échevin de Paris)</roleName></persName>
+            </person>
+            <person xml:id="De_Bray">
+               <idno/>
+               <persName xml:lang="fr"><forename type="first">Jean</forename><surname> De
+                     Bray</surname><roleName> (échevin de Paris)</roleName></persName>
+            </person>
+            <person xml:id="François_de_Montmorency"
+               corresp="https://data.bnf.fr/ark:/12148/cb10730880p">
+               <idno type="ISNI">0000 0005 0409 3432</idno>
+               <persName xml:lang="fr"><forename type="first">François de</forename><surname>
+                     Montmorency</surname></persName>
+            </person>
+            <person xml:id="Charles_IX">
+               <ptr target="https://data.bnf.fr/12463140/charles_9/"/>
+               <idno type="ISNI">0000 0001 2142 8995</idno>
+               <persName xml:lang="fr"><forename type="first">Charles</forename><surname>
+                     IX</surname></persName>
+            </person>
+            <person xml:id="Simon_Vigor">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb107037152"/>
+               <idno type="ISNI">0000 0000 7820 4266</idno>
+               <persName xml:lang="fr"><forename type="first">Simon</forename><surname>
+                     Vigor</surname></persName>
+               <birth><date>1515</date></birth>
+               <death><date>11-01-1575</date></death>
+            </person>
+            <person xml:id="Le_Lièvre">
+               <idno/>
+               <persName xml:lang="fr"><forename type="first">Claude</forename><surname> Le
+                     Lièvre</surname></persName>
+            </person>
+            <person xml:id="Anne_de_Montmorency"
+               corresp="https://data.bnf.fr/ark:/12148/cb121165804">
+               <idno type="ISNI">0000 0001 2118 2438</idno>
+               <persName xml:lang="fr"><forename type="first">Anne de</forename><surname>
+                     Montmorency</surname></persName>
+               <death><date>1567</date></death>
+            </person>
+            <person xml:id="Legendre">
+               <ptr target="https://bibale.irht.cnrs.fr/54020"/>
+               <idno>Collecta 1450</idno>
+               <persName xml:lang="fr"><forename type="first">Nicolas</forename><surname> III
+                     Legendre de Neufville</surname></persName>
+               <birth><date>1525</date></birth>
+               <death><date>1598</date></death>
+            </person>
+            <person xml:id="Pie_V">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb11919954n"/>
+               <idno>0000 0001 2096 6134</idno>
+               <persName xml:lang="fr"><forename type="first"
+                     >Antonio</forename><surname>Ghislieri</surname></persName>
+               <!--Pape de 1566 à 1572-->
+            </person>
+            <person xml:id="Poltrot">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb15550683x"/>
+               <idno type="ISNI">0000 0000 7911 3622</idno>
+               <persName xml:lang="fr"><forename type="first">Jean</forename><surname> Poltrot de
+                     Méré</surname></persName>
+            </person>
+            <person xml:id="Poncet">
+               <ptr target="http://viaf.org/viaf/32044147"/>
+               <idno type="VIAF">32044147</idno>
+               <persName xml:lang="fr"><forename type="first"
+                     >Maurice</forename><surname>Poncet</surname><roleName> (curé de Saint-Pierre
+                     des Arcis, à Paris. Auteur supposé de "La France-Turquie" et de
+                     "L'Antipharmaque du chevalier Poncet") </roleName></persName>
+            </person>
+            <person sex="M" xml:id="Videville">
+               <persName xml:lang="fr"><forename>Benoît </forename><surname>Milon sieur de
+                     Videville</surname></persName>
+               <occupation>trésorier de la Couronne et premier intendant des finances, président à
+                  la chambre des Comptes (av. 1584)</occupation>
+            </person>
+            <!-- Ajout du 24 juin 2024 -->
+
+            <person xml:id="Henri_de_Bourbon-Condé">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb13496661f"/>
+               <idno type="ISNI">0000 0000 7991 7364</idno>
+               <persName xml:lang="fr"><forename type="first">Henri Ier</forename><surname>
+                     <nameLink>de</nameLink> Bourbon-Condé</surname><roleName>, prince de
+                     Condé</roleName></persName>
+               <birth when="1552-12-29"><date>Né le 29 décembre 1552</date></birth>
+               <death when="1588-03-05"><date>Mort le 5 mars 1588</date></death>
+            </person>
+            <person xml:id="Turenne1" corresp="https://data.bnf.fr/ark:/12148/cb13497122d">
+               <idno type="ISNI">0000 0000 8342 3551</idno>
+               <persName xml:lang="fr"><forename type="first">Henri</forename><surname> de La Tour
+                     d'Auvergne, vicomte de Turenne, duc de Bouillon</surname><roleName/></persName>
+               <birth><date>1555-09-28</date></birth>
+               <death><date>1623-03-25</date></death>
+            </person>
+            <person xml:id="Saint_Léger">
+               <idno/>
+               <persName xml:lang="fr"><forename type="first"/><surname>
+                  Saint-Léger</surname></persName>
+            </person>
+            <person xml:id="Birague" corresp="https://data.bnf.fr/ark:/12148/cb14875274v">
+               <idno type="ISNI">0000 0001 1623 060X</idno>
+               <persName xml:lang="fr"><forename type="first">René</forename><surname> de
+                     Birague</surname><roleName/></persName>
+               <birth><date>1506-02-05</date></birth>
+               <death>1583-11-24</death>
+            </person>
+            <person xml:id="Cheverny" corresp="https://data.bnf.fr/ark:/12148/cb12516669k">
+               <idno type="ISNI">0000 0000 8060 3020</idno>
+               <persName xml:lang="fr"><forename type="first">Philippe</forename><surname> Hurault
+                     de Cheverny</surname></persName>
+               <birth><date>1523</date></birth>
+               <death>1599</death>
+            </person>
+            <person>
+               <persName xml:id="Lignerolles">
+                  <idno/>
+                  <persName xml:lang="fr"><surname>Le Voyer, seigneur de Bellefille et de
+                        Lignerolles</surname><forename type="first">
+                  Philibert</forename></persName></persName>
+               <death><date>1571</date></death>
+            </person>
+
+            <person>
+               <persName xml:id="François_d_O" corresp="https://data.bnf.fr/ark:/12148/cb18061618g">
+                  <idno type="ISNI">0000 0005 0985 0754</idno>
+                  <persName xml:lang="fr"><surname> Ô<forename type="first">, François
+                        d'</forename></surname></persName></persName>
+               <death><date>1585</date></death>
+            </person>
+
+            <person xml:id="François_Du_Plessis">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb12136124z"/>
+               <idno type="ISNI">0000 0003 5699 0341</idno>
+               <persName xml:lang="fr"><forename type="first">François</forename><surname> du
+                     Plessis, sieur de Richelieu</surname></persName>
+               <birth when="1548">Né en 1548</birth>
+               <death when="1590-06-10">Mort le 10 juin 1590.</death>
+            </person>
+            <person xml:id="Maurevert">
+               <idno/>
+               <persName xml:lang="fr"><forename type="first">Charles</forename><surname> de
+                     Louviers</surname></persName>
+               <birth><date>1507</date></birth>
+               <death><date>1583-04-14</date></death>
+            </person>
+            <person xml:id="Souvré">
+               <idno/>
+               <persName xml:lang="fr"><forename type="first">Gilles</forename><surname> de
+                     Courtenvaux, de Souvré</surname></persName>
+            </person>
+            <person xml:id="Simiers">
+               <idno/>
+               <persName xml:lang="fr"><forename type="first">Jean</forename><surname>
+                     Simiers</surname><roleName> (Maître de la garde-robe du duc
+                     d'Alençon)</roleName></persName>
+            </person>
+            <person xml:id="Françoise_de_Bourbon">
+               <idno/>
+               <persName xml:lang="fr"><forename type="first">Françoise</forename><surname> de
+                     Bourbon, <roleName>duchesse de Bouillon</roleName></surname></persName>
+               <birth><date>1539</date></birth>
+               <death>1587</death>
+            </person>
+            <person xml:id="Maugiron">
+               <idno/>
+               <persName xml:lang="fr"><forename type="first">Louis</forename><surname> de
+                     Maugiron</surname> (favori de Henri III)<roleName/></persName>
+               <birth><date>1560</date></birth>
+               <death>1578-04-27</death>
+            </person>
+            <person xml:id="Caylus">
+               <idno/>
+               <persName xml:lang="fr"><forename type="first">Jacques</forename><surname> de
+                     Lévis</surname>, comte de Caylus ou Quélus<roleName/></persName>
+               <birth><date>1554</date></birth>
+               <death>1578-05-29</death>
+            </person>
+            <person xml:id="Aumont">
+               <idno/>
+               <persName xml:lang="fr"><forename type="first">Jean VI</forename><surname> d'
+                     Aumont</surname><roleName>, maréchal en 1579</roleName></persName>
+               <birth><date>1522</date></birth>
+               <death>1595</death>
+            </person>
+            <person xml:id="Beaupré">
+               <idno/>
+               <persName xml:lang="fr"><forename type="first">Christian</forename><surname> de
+                     Choiseul, baron de Beaupré</surname><roleName/></persName>
+               <birth/>
+               <death/>
+            </person>
+            <person xml:id="Montpensier2">
+               <idno type="ISNI">0000 0000 3753 7662</idno>
+               <persName xml:lang="fr" corresp="https://data.bnf.fr/ark:/12148/cb14978923s"
+                     ><forename type="first">Louis II</forename><surname> de
+                     Bourbon-Montpensier</surname><roleName/></persName>
+               <birth><date>1513-06-10</date></birth>
+               <death><date>1582-09-23</date></death>
+            </person>
+            <person xml:id="Nevers">
+               <idno type="ISNI">0000 0000 6130 8720</idno>
+               <persName xml:lang="fr" corresp="https://data.bnf.fr/ark:/12148/cb126281123"
+                     ><forename type="first">Louis</forename><surname> de Gonzague, duc de
+                     Nevers</surname><roleName/></persName>
+               <birth><date>1539-09-18</date></birth>
+               <death><date>1595-10-23</date></death>
+               <!-- Écrivait aussi en italien et en latin
+Homme de guerre. - Prince de Mantoue, fils de Frédéric II, duc de Mantoue. - Duc de Nevers par son union avec Henriette de Clèves (1565). - Naturalisé français en 1560 -->
+            </person>
+            <person xml:id="Villeroy" corresp="http://catalogue.bnf.fr/ark:/12148/cb12512069z"
+               sameAs="http://viaf.org/viaf/24708426" sex="1" source="OPP">
+               <persName xml:lang="fr"><surname>Villeroy</surname><nameLink>de
+                     Neufville</nameLink><forename>Nicolas</forename></persName>
+               <birth>1542, Paris</birth>
+               <death>1617, Rouen</death>
+            </person>
+            <person xml:id="Reine_Margot" corresp="https://data.bnf.fr/ark:/12148/cb120277296">
+               <idno type="ISNI">0000 0001 2140 7748</idno>
+               <persName xml:lang="fr" corresp="https://data.bnf.fr/ark:/12148/cb126281123"
+                     ><forename type="first">Marguerite</forename><surname> de
+                  Navarre</surname><roleName/></persName>
+               <birth><date>1553-05-14</date></birth>
+               <death><date>1615-03-27</date></death>
+            </person>
+            <person xml:id="Jean-Casimir">
+               <idno/>
+               <persName xml:lang="fr"><forename type="first">Jean</forename><surname> Casimir de
+                     Bavière, électeur du Palatinat</surname><roleName/></persName>
+               <birth/>
+               <death/>
+            </person>
+            <person xml:id="Clervent">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb150586145"/>
+               <idno type="ISNI">0000 0003 5724 3698</idno>
+               <persName><forename>Claude-Antoine</forename><surname> Vienne <nameLink>de</nameLink>
+                     Clervant</surname><roleName> comte</roleName></persName>
+               <occupation>agent du roi de Navarre</occupation>
+               <birth when="1534">Né en 1534</birth>
+               <death when="1588-01">Mort en janvier 1588</death>
+            </person>
+            <person xml:id="Charles_de_Bourbon">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb13521503h"/>
+               <idno type="ISNI">0000 0001 2130 0668</idno>
+               <persName><forename>Charles</forename><surname>
+                     <nameLink>de</nameLink> Bourbon</surname></persName>
+               <birth when="1523-12-22">Né le 22 décembre 1523</birth>
+               <death when="1590-05-09">Mort en prison le 9 mai 1590</death>
+            </person>
+            <person xml:id="Louis_II_Guise">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb11267277q"/>
+               <idno type="ISNI">0000 0001 1694 8371 </idno>
+               <persName><forename>Louis II</forename><surname><roleName> archevêque de Reims puis
+                        cardinal</roleName>
+                     <nameLink>de</nameLink> Guise</surname></persName>
+               <event when="1578">
+                  <desc>Il devient cardinal en 1578</desc>
+               </event>
+               <birth when="1555-07-06">Né le 6 juillet 1555</birth>
+               <death when="1588-12-24">Mort en prison le 24 décembre 1588</death>
+            </person>
+            <person xml:id="Duchesse_de_Retz">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb145573395"/>
+               <idno type="ISNI">0000 0000 7250 0574</idno>
+               <persName><forename>Claude-Catherine</forename><surname><roleName/>
+                     <nameLink>de</nameLink> Clermont</surname><addName> La Mareschale (car épouse
+                     de Retz)</addName></persName>
+               <birth when="1543">Né en 1543</birth>
+               <death when="1603-02-26">Morte le 25 février 1603</death>
+            </person>
+            <person xml:id="Sixte_V">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb13164007c"/>
+               <idno type="ISNI">0000 0001 2119 5239</idno>
+               <persName><forename>Felice</forename><surname> Peretti</surname></persName>
+               <birth when="1521-12-13">Né le 13 décembre 1521</birth>
+               <death when="1590-08-27">Mort le 27 août 1590</death>
+               <event when="1585-04-24">
+                  <desc>élu pape le 24 avril 1585</desc>
+               </event>
+            </person>
+            <person xml:id="Charles_de_Lorraine">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb12351136h"/>
+               <idno>0000 0000 7977 8077</idno>
+               <persName><forename>Charles</forename>
+                  <surname><nameLink>de</nameLink> Lorraine</surname>
+                  <roleName> duc de Mayenne</roleName></persName>
+               <birth when="1554-03-26">né le 26 mars 1554</birth>
+               <death when="1661-10-03">mort le 3 octobre 1611</death>
+            </person>
+            <person xml:id="Joyeuse">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb12569397r"/>
+               <idno>0000 0000 6131 3642</idno>
+               <persName><forename>Anne</forename>
+                  <surname> Joyeuse</surname>
+                  <roleName> duc</roleName></persName>
+               <birth when="1560">né en 1560</birth>
+               <death when="1587-10-20">mort le 20 octobre 1587</death>
+               <occupation>Homme de guerre et favori d'Henri III à partir de 1578</occupation>
+            </person>
+            <person xml:id="Biron">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb11852468x"/>
+               <idno>0000 0000 2128 3039</idno>
+               <persName><forename>Armand</forename><nameLink> de</nameLink>
+                  <surname> Gontaut</surname>
+                  <roleName> Maréchal</roleName></persName>
+               <birth when="1524">né en 1524</birth>
+               <death when="1592-07-26">mort le 26 juillet 1592</death>
+            </person>
+            <person xml:id="Neptune">
+               <persName>Neptune</persName>
+            </person>
+            <person xml:id="Duplessis-Mornay">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb11925758q"/>
+               <idno>0000 0001 0927 3134</idno>
+               <persName><forename>Philippe </forename><nameLink>Du
+                     </nameLink><surname>Mornay</surname></persName>
+               <occupation>homme politique</occupation>
+               <occupation>polémiste protestant</occupation>
+               <birth when="1549-11-05">né le 5 novembre 1549</birth>
+               <death when="1611-11-11">mort le 11 novembre 1611</death>
+            </person>
+            <person xml:id="Lavardin">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb10712038r"/>
+               <idno>0000 0000 0075 1622</idno>
+               <persName><forename>Jean</forename><nameLink> de</nameLink>
+                  <surname> Beaumanoir</surname>
+                  <roleName> seigneur de Lavardin, lieutenant général puis maréchal à partir de
+                     1595</roleName></persName>
+               <occupation>homme militaire</occupation>
+               <birth when="1551">né en 1551</birth>
+               <death when="1614-11-13">mort le 13 novembre 1614</death>
+            </person>
+            <person xml:id="Sibilot">
+
+               <idno/>
+               <persName><forename>Jean</forename><surname> Sibilot</surname>
+               </persName>
+               <occupation>Fou de cour</occupation>
+               <death when="1588">probablement mort en 1588</death>
+            </person>
+            <person xml:id="Chastelet">
+
+               <idno/>
+               <persName><forename>Jean</forename><surname> Allamant</surname>
+                  <roleName> seigneur de Chastelet</roleName></persName>
+               <occupation>Financier</occupation>
+            </person>
+            <person xml:id="Entragues">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb17055161v"/>
+               <idno>0000 0004 5964 9816</idno>
+               <persName><forename>Charles</forename><nameLink> de</nameLink>
+                  <surname> Balzac d'Entragues</surname>
+                  <roleName> baron des Dunes, dit le "Bel Entraguet"</roleName></persName>
+               <occupation/>
+
+               <death when="1598">mort en 1598</death>
+            </person>
+            <person xml:id="Senneterre">
+               <persName><forename>François</forename><nameLink> de</nameLink>
+                  <surname> Sainct-Nectaire</surname>
+               </persName>
+               <occupation>officier</occupation>
+               <affiliation>Frère d'Antoine de Senneterre, évêque du Puy</affiliation>
+               <event when="1583-12-31">
+                  <desc>Conseiller d'État, il est fait chevalier des ordres du roi le 31 décembre
+                     1583.</desc>
+               </event>
+               <birth when="1523">né en 1523</birth>
+               <death when="1587-06-09">mort le 9 juin 1587</death>
+            </person>
+            <person xml:id="Elbene">
+               <persName><forename>Pierre</forename><nameLink> d'</nameLink>
+                  <surname>Elbène</surname>
+               </persName>
+               <occupation>abbé</occupation>
+               <affiliation>Fils de Lucrèce de Calvalcanti</affiliation>
+               <death when="1590">mort en 1590</death>
+            </person>
+            <person xml:id="Sarriou">
+               <persName><forename>Roger</forename><nameLink> de</nameLink>
+                  <surname>Sarriou</surname><addName>Sarrieu</addName>
+               </persName>
+               <occupation>homme militaire catholique</occupation>
+               <death when="1578">mort vers 1578</death>
+            </person>
+            <person xml:id="Lasphrise">
+               <persName><forename>Marc</forename>
+                  <surname> Papillon</surname><nameLink> de</nameLink> Lasphrise </persName>
+               <occupation>homme militaire</occupation>
+               <occupation>poète</occupation>
+            </person>
+            <person xml:id="Chicot">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb10197077g"/>
+               <idno>0000 0000 7974 888X</idno>
+               <persName><forename>Jean-Antoine </forename><nameLink>d'
+               </nameLink><surname>Anglerais</surname></persName>
+               <occupation>bouffon de Henri III et Henri IV</occupation>
+               <birth when="1540">né en 1540</birth>
+               <death when="1591">mort en 1591</death>
+            </person>
+            <person xml:id="Gautier-Garguille">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb12517732r"/>
+               <idno>0000 0003 7478 498X</idno>
+               <persName><forename>Gauthier </forename><surname>Garguille</surname></persName>
+               <occupation>comédien et auteur de farce</occupation>
+               <birth when="1540">né en 1573</birth>
+               <death when="1591">mort en 1637</death>
+            </person>
+            <person xml:id="Aretin">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb13197293p"/>
+               <idno>0000 0001 2102 0148</idno>
+               <persName><forename>Pierre </forename><surname>Arétin</surname></persName>
+               <occupation>poète et auteur de farces satiriques</occupation>
+               <birth when="1492-04-19">né le 19 avril 1492</birth>
+               <death when="1591">mort le 21 octobre 1556</death>
+            </person>
+            <person xml:id="Saint_Jean">
+               
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,7 +14,109 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change><date>2023</date>Encodage de niveau 3.</change></revisionDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le
+                  Fichier Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la
+                  base de données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le
+                  Fichier des Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p>
+            <interpGrp>
+               <interp xml:id="adr" ana="adresse">adresse</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
+               <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="topos" ana="topos">lieu commun</interp>
+               <interp xml:id="gén" ana="généralisation">généralisation</interp>
+               <interp xml:id="ironie" ana="ironie">ironie</interp>
+               <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
+               <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
+               <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="actu" ana="actualité">actualité</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+               <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+               <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+               <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+               <interp xml:id="massacre" ana="massacre">massacre</interp>
+               <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+               <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+               <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+               <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+               <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+               <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+               <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+               <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="corruption" ana="corruption">corruption</interp>
+               <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+               <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                  nécessaire</interp>
+               <interp xml:id="court" ana="court">vie de la court</interp>
+               <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+               <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+               <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="corps" ana="corps">corps</interp>
+               <interp xml:id="violences" ana="violences">guerres civiles</interp>
+               <interp xml:id="pillage-s" ana="pillages">Vol, pillages</interp>
+               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+               <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+               <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+               <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+               <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+               <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+               <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                  gnomique</interp>
+               <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+               <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+               <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+               <interp xml:id="exhortation" ana="exhortation">exhortations et
+                  encouragements</interp>
+               <interp xml:id="rire" ana="rire">rire</interp>
+               <interp xml:id="maladie" ana="maladie">maladie</interp>
+               <interp xml:id="misères" ana="misères">misères de ce temps</interp>
+               <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                  valeurs</interp>
+               <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+               <interp xml:id="rome" ana="contre_Rome">Contre Rome et la papauté</interp>
+               <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+               <interp xml:id="practiques" ana="practiques">practiques</interp>
+               <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+               <interp xml:id="misogynie" ana="misogynie">mysoginie</interp>
+               <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+               <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+               <interp xml:id="météo" ana="météo">météorologie</interp>
+               <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+               <interp xml:id="vanité" ana="vanité">vanité</interp>
+               <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
+                  l'adversaire</interp>
+               <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
+               <interp xml:id="cri" ana="cri">cris de Paris</interp>
+               <interp xml:id="tauto" ana="tauto">tautologie</interp>
+            </interpGrp>
+         </p>
+      </encodingDesc>
+      <revisionDesc>
+         <change><date>2023</date>Encodage de niveau 3.</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -30,43 +131,43 @@
          </listBibl>
          <l><persName type="destinataire">Robin</persName> mon amy pour aultant</l>
          <l>Qu’en ceste ville on va saultant</l>
-         <l>Pour la paix faicte à l’espaignol</l>
+         <l ana="#sit_mil">Pour la paix faicte à <addName ref="ind:Charles_V" key="Charles-Quint">l'espaignol</addName></l>
          <note resp="editor" type="crit">Le 18 septembre 1544, François Ier et Charles Quint signent
             la trêve de Crépy-en-Laonnois.</note>
          <fw type="sig" place="bottom-right">Je</fw>
          <pb n="73r"/>
          <fw type="pageNum" place="top-right">f°lxxiii</fw>
-         <l n="4">Je ressemble le <rs type="animal" subtype="oiseau">rossignol</rs></l>
+         <l n="4" ana="#ethos">Je ressemble le <rs type="animal" subtype="oiseau">rossignol</rs></l>
          <l>Qui chante quant l’esté <expan>commance</expan></l>
-         <!-- Saut#1 -->
-         <l>Parce que tu scays bien qu’en <placeName><settlement type="country"
-               >France</settlement></placeName></l>
-         <l>On faict tousjours ecdicts nouveaulx</l>
-         <l n="8">Je donne au grand Diable les <rs type="animal">veaulx</rs></l>
+         <!-- Saut#1 --><anchor type="saut#1"/>
+         <l>Parce que tu scays bien qu’en <placeName type="country" key="France"
+               >France</placeName></l>
+         <l ana="#sit_pol">On faict tousjours ecdicts nouveaulx</l>
+         <l n="8">Je donne au grand Diable les <rs type="invective"><rs type="animal">veaulx</rs></rs></l>
          <l>Qui <reg>s’en</reg> sont fuys sans leurs femmes</l>
-         <l>Mais ce pendant les bonnes dames</l>
-         <l><reg>N’ont</reg> poinct tousjours dormy depuis</l>
-         <!-- Saut#2 -->
-         <l n="12">On dict pourtant que <reg>l’eaue</reg> de puys</l>
-         <note resp="editor" type="ling">Prendre l'eau en son puys : ne dépendre de personne (Di
-            Stefano).</note>
+         <l ana="#misogynie">Mais ce pendant les bonnes dames</l>
+         <l ana="#cocuage"><reg>N’ont</reg> poinct tousjours dormy depuis</l>
+         <!-- Saut#2 --><anchor type="saut#2"/>
+         <l n="12">On dict pourtant que <rs type="locution"><reg>l’eaue</reg> de puys</rs></l>
+         <note resp="editor" type="ling"><hi rend="italic">Prendre l'eau en son puys</hi>: "ne dépendre de personne", Di
+            Stefano.</note>
          <l><reg>N’est</reg> pas bonne <expan>pour</expan> les estiques</l>
-         <!-- Saut#3 -->
+         <!-- Saut#3 --><anchor type="saut#3"/>
          <l>Ha vielle tu pers tes pratiques</l>
          <l>Un aultre veult tenir ta place</l>
          <l n="16">Mais que voulez vous que j'ey face</l>
          <l>On ne peult pas tousjours durer</l>
-         <!-- Saut#4 -->
+         <!-- Saut#4 --><anchor type="saut#4"/>
          <l>Sy esse <reg>qu’il</reg> fault endurer</l>
          <l>Ung soufflet quant monsieur le donne</l>
          <l n="20">Car d’abuser de la couronne</l>
          <l><reg>C’est</reg> trop monsieur ne le veult pas</l>
-         <!-- Saut#5 -->
+         <!-- Saut#5 --><anchor type="saut#5"/>
          <l>Combien fault il marcher de pas</l>
-         <l>Pour dancer une basse dance</l>
-         <!-- Saut#6 -->
+         <l>Pour dancer une <rs type="danse">basse dance</rs></l>
+         <!-- Saut#6 --><anchor type="saut#6"/>
          <l n="24">Sy vous scaviez la grand despence</l>
-         <l><reg>Qu’on</reg> faict les dames de Paris</l>
+         <l><reg>Qu’on</reg> faict les <orgName>dames de <placeName type="city" key="Paris">Paris</placeName></orgName></l>
          <l>Pour la peur qu’ont eu leurs marys</l>
          <l>Vous ne le scauriez estimer</l>
          <!-- Saut#7 -->
@@ -97,15 +198,15 @@
          <l n="44">Et les filles estant pucelles</l>
          <l>En <placeName><settlement type="city">Paris</settlement></placeName> craignent la
             fureur</l>
-         <l>Des <orgName>gendarrmes</orgName> de <persName key="Charles-Quint"
+         <l>Des <orgName>gendarrmes</orgName> de <persName ref="ind:Charles_V" key="Charles-Quint"
             >l’empereur</persName></l>
          <l>Qu’ilz ne prinsent leurs pucellaiges</l>
          <l n="48">Ont laissé monter aux formaiges</l>
-         <l>Le chat de peur des <orgName>Bourguignons</orgName></l>
-         <!-- Saut#13 -->
+         <l>Le chat de peur des <orgName type="peuple">Bourguignons</orgName></l>
+         <!-- Saut#13 --><anchor type="saut#13"/>
          <l><reg>D’où</reg> vient cela que les oignons</l>
          <l>Viennent au contraire de la <geogName>lune</geogName></l>
-         <!-- Saut#14 -->
+         <!-- Saut#14 --><anchor type="saut#14"/>
          <l n="52">C’est ung dur morceau <reg>qu’une</reg> enclume</l>
          <l>S’elle <reg>n’a</reg> pas boullu longuement</l>
          <!-- Saut#15 -->
@@ -126,22 +227,24 @@
          <l n="64"><reg>N’est</reg> ce pas une chose vile</l>
          <l>D’ainsy piller les pauvres gens</l>
          <!-- Saut#18 -->
-         <l>Et puys on dict <expan>que</expan> les sergens</l>
-         <l>Sont larrons faisans leurs offices</l>
-         <!-- Saut#19 -->
-         <l n="68">Puisque messieurs de la justice</l>
-         <l>Font grand proffict <expan>chascun</expan> y court</l>
+         <l ana="#satire">Et puys on dict <expan>que</expan> les sergens</l>
+         <l ana="#pillage-s">Sont larrons faisans leurs offices</l>
+         <!-- Saut#19 --><anchor type="saut#19"/>
+         <l n="68" ana="#corruption">Puisque messieurs de la justice</l>
+         <l >Font grand proffict <expan>chascun</expan> y court</l>
          <!-- Saut#20 -->
-         <l>Et sy maintenant <reg>à</reg> la <expan>court</expan></l>
-         <l>On ne joue plus qu’<reg>à</reg> la pille</l>
-         <l n="72">Adieu donques le jeu de bille</l>
+         <l>Et sy maintenant <reg>à</reg> la <placeName><expan>court</expan></placeName></l>
+         <l>On ne joue plus qu’<reg>à</reg>
+            <rs type="jeu">la pille</rs></l>
+         <l n="72">Adieu donques <rs type="jeu">le jeu de bille</rs></l>
          <l>Puisque chascun court au pillaige</l>
+         <note resp="editor" type="crit">Jeu de mot convenu sur le terme "pille".</note>
          <!-- Saut#21 -->
-         <l>Par la mort bieu <persName type="destinataire">Robin</persName>,
+         <l><rs type="juron">Par la mort bieu</rs> <persName type="destinataire">Robin</persName>,
             <reg>j’enraige</reg></l>
-         <l>Que le Roy <reg>n’a</reg> laissé frapper</l>
+         <l>Que <persName ref="ind:François_Ier" key="François Ier">le Roy</persName> <reg>n’a</reg> laissé frapper</l>
          <l n="76">Dernierement pour attrapper</l>
-         <l><reg>L’empereur</reg> et toute sa garde</l>
+         <l><persName ref="ind:Charles_V" key="Charles-Quint"><reg>L’empereur</reg></persName> et toute sa garde</l>
          <!-- Saut#22 -->
          <l>Mon amy Marion leng arde</l>
          <l>Les femmes gouvernent la guerre</l>
@@ -183,8 +286,8 @@
          <l>Il vous tire les vers du nez</l>
          <l>De ses pauvres coureurs de rues</l>
          <!-- Saut#29 -->
-         <l n="108"><expan>Chascun</expan> veult ressembler aux grues</l>
-         <l>Chascun faict grup en grosses lettres</l>
+         <l n="108"><expan>Chascun</expan> veult ressembler aux <rs type="animal" subtype="oiseau">grues</rs></l>
+         <l>Chascun faict <label>grup</label> en grosses lettres</l>
          <!-- Saut#30 -->
          <l><reg>Voilà</reg>
             <reg>qu’ilz</reg> ont gaigné <reg>à</reg> mectre</l>
@@ -292,10 +395,10 @@
             <expan>vous</expan> scavez</l>
          <l>Le tout mieulx que moy pourtant</l>
          <l>Rescrivez le tout aultant</l>
-         <l n="176">De <expan>vostre</expan> pays de <placeName><settlement type="region"
-                  >Provence</settlement></placeName></l>
-         <l>Adieu donq de <placeName><settlement type="city">Paris</settlement></placeName> en
-                  <placeName><settlement type="country">France</settlement></placeName></l>
+         <l n="176">De <expan>vostre</expan> pays de <placeName type="region" key="Provence"
+                  >Provence</placeName></l>
+         <l>Adieu donq de <placeName type="city" key="Paris">Paris</placeName> en
+                  <placeName type="country" key="France">France</placeName></l>
          <l>Fin</l>
       </body>
    </text>

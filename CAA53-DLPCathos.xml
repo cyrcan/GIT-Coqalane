@@ -281,7 +281,7 @@
                août 1567. Voir <title>À coups de libelles</title>, Genève, Droz, 2012, p. 227.</note>
             <l>Force <rs type="invective">vermine</rs> cy en va</l>
             <l n="12">Je te supplie ne reviens va</l>
-            <l>Devers le <roleName ref="#Charles_IX">Roy</roleName> pour <reg>l’advertir</reg></l>
+            <l>Devers le <roleName ref="#Charles_IX" key="Charles IX">Roy</roleName> pour <reg>l’advertir</reg></l>
             <l><reg>Qu’il</reg>
                <reg>s’en</reg> pourra bien repentir</l>
             <l><reg>S’il</reg> ne chasse tous ses <rs type="invective"><rs type="animal"
@@ -305,8 +305,8 @@
             <l n="24">Helas <reg>qu’elle</reg> la baille belle</l>
             <note resp="editor" type="glose">Catherine de Médicis et ses tentatives de
                conciliation.</note>
-            <l>D’envoyer à <placeName><settlement type="city" key="Genève"
-                  >Genesve</settlement></placeName> ostaige</l>
+            <l>D’envoyer à <placeName type="city" key="Genève"
+                  >Genesve</placeName> ostaige</l>
             <l>Pour pleiger des gens plains de raige</l>
             <note resp="editor" type="ling"><hi rend="italic">Pleiger</hi>: <quote>se plaindre de</quote>.</note>
             <l><rs type="invective">Essorillés</rs>
@@ -314,7 +314,7 @@
             <!-- Saut#5 -->
             <l n="28">Ilz furent ung jour tins les estats</l>
             <l><reg>À</reg>
-               <placeName><settlement type="city">Orléans</settlement></placeName> chose
+               <placeName type="city" key="Orléans">Orléans</placeName> chose
                asseurée</l>
             <l>Pensez <reg>qu’elle</reg> fut asseurée</l>
             <l>Quant elle eust ouy les disputtes</l>
@@ -323,8 +323,8 @@
                la régence. Voir Hugues Daussy, <title>Le parti huguenot</title>, p. 189 et s.,
                2014.</note>
             <!-- Saut#6 -->
-            <l n="32">En <placeName><settlement type="country" key="Hollande"
-                  >Hullen</settlement></placeName> n’y a plus de puttes</l>
+            <l n="32">En <placeName  type="country" key="Hollande"
+                  >Hullen></placeName> n’y a plus de puttes</l>
             <l>On a faict tout chasser dehors</l>
             <!-- Saut#7 -->
             <l>Quant <persName ref="#Gabaston">Gabaston</persName> et ses consors</l>
@@ -394,7 +394,7 @@
             <l>Nous sommes quasy en balance</l>
             <!-- Saut#14 -->
             <l>J’ay veu <rs type="invective"><roleName ref="#Jean_de_Monluc">l’apostat</roleName> de
-                        <placeName><settlement type="city">Valence</settlement></placeName></rs></l>
+                        <placeName type="city" key="Valence">Valence</placeName></rs></l>
             <note resp="editor" type="glose">Il s'agit ici de Jean de Monluc, conseiller du roi et
                de la reine-mère. On trouve le pasquil suivant à la suite des <title>Mémoires d'un
                   curé de Paris</title>, Jehan de la Fosse : <quote>À l'evesque de Valence / Sub pelle
@@ -410,8 +410,8 @@
             <l n="60">De cela plus ne dementons</l>
             <l>Changer propos resjouyt l’homme</l>
             <!-- Saut#15 -->
-            <l>On dict que le <roleName ref="#Pie_V">pape</roleName> de <placeName><settlement
-                     type="city" key="Rome">Romme</settlement></placeName></l>
+            <l>On dict que le <roleName ref="#Pie_V">pape</roleName> de <placeName>
+                     type="city" key="Rome">Romme></placeName></l>
             <pb n="34v"/>
             <fw type="sig" place="bottom-right">Jii</fw>
             <l>Est ung tresgrand homme de bien</l>
@@ -423,7 +423,7 @@
                religieux.</note>
             <!-- Saut#16 -->
             <l>Il avoit furieulx babil</l>
-            <l><roleName ref="#Philippe_de_Hesse">Ce prince</roleName> mort que vous scavés</l>
+            <l><roleName ref="#Philippe_de_Hesse" key="Philippe de Hesse">Ce prince</roleName> mort que vous scavés</l>
             <note resp="editor" type="glose">Peut-être le landgrave Philippe de Hesse, mort six mois
                plus tôt.</note>
             <l n="68"><rs type="invective">Hurgnes</rs> bien perdu vous avéz</l>
@@ -439,21 +439,20 @@
                   II</persName>.</note>
             <!-- Saut#18 -->
             <l>Mon Dieu quelle piteuse despesche</l>
-            <l>Que <reg>l’on</reg> feit devant <placeName><settlement type="city"
-                     key="Saint-Quentin">sainct Quentin</settlement></placeName></l>
+            <l>Que <reg>l’on</reg> feit devant <placeName type="city"
+                     key="Saint-Quentin">sainct Quentin</placeName></l>
             <l n="76">Il disoict hault le <rs type="invective" ref="#Coligny">viel mastin</rs></l>
             <note resp="editor" type="glose"><persName ref="#Coligny">Coligny</persName> est alors
                fait prisonnier comme Anne de Montmorency, Montpensier, Longueville ou encore le
                maréchal de Saint-André.</note>
             <l>Sy vous vivez je vous feray tous pendre</l>
             <l>Quant il fut prins s’on <reg>l'eust</reg> faict pendre</l>
-            <l><persName ref="#Henri_de_Guise">Guyse</persName> n’eust pas esté tué</l>
+            <l><persName ref="#Henri_de_Guise" key="Henri de Guise">Guyse</persName> n’eust pas esté tué</l>
             <note resp="editor" type="glose">Poltrot de Méré est considéré comme un agent de
                Coligny.</note>
             <!-- Saut#19 -->
             <l n="80">Ilz se sont bien esvertué[s]</l>
-            <l>Pour faire venir <orgName type="peuple">Turcs</orgName> en <placeName><settlement
-                     type="country">France</settlement></placeName></l>
+            <l>Pour faire venir <orgName type="peuple" key="turc">Turcs</orgName> en <placeName type="country" key="France">France</placeName></l>
             <l>Ilz en auront ung jour souffrance</l>
             <l><roleName ref="#Charles_IX">Le Roy</roleName> scaura tout se dieu plaist</l>
             <l n="84">Il y en a bien eu des plaicts</l><note resp="editor" type="ling"><hi
@@ -546,7 +545,7 @@
             <l>Nostre bon Roy /<!-- Saut#26 --> ces <orgName type="secte">huguenots</orgName></l>
             <l n="136">Ilz disoient bien des audinos</l><note resp="editor" type="ling"><hi rend="italic">Audinos</hi>:
                "Prières, oraisons" (Huguet).</note>
-            <l>Lors qu’il meit feu à <placeName>Popincourt</placeName></l>
+            <l>Lors qu’il meit feu à <placeName type="street">Popincourt</placeName></l>
             <note resp="editor" type="crit">Voir Jehan de La Fosse pour le mois d'avril 1562 : <quote>En ung
                samedy 5e, Anne de Memorensy, connestable de Franche, fut devant Brasque en la maison
                où pendoit pour enseigne la ville de Jherusalem, où preschoyent les huguenotz, et
@@ -572,7 +571,7 @@
             <fw type="sig" place="bottom-right">Jiii</fw>
             <pb n="35v"/>
             <!-- Saut#29 -->
-            <l>Las <persName ref="#Pienne">Pienne</persName>, son amour te feust chere</l><note
+            <l>Las <persName ref="#Pienne" key="Jeanne de Piennes d'Halluin">Pienne</persName>, son amour te feust chere</l><note
                resp="editor" type="glose">Dame de compagnie de Catherine de Médicis, Jeanne de
                Piennes d'Halluin avait reçu une promesse de mariage du maréchal de Montmorency,
                promesse rompue pour le laisser épouser Diane de France en 1557.</note>
@@ -600,7 +599,7 @@
             <l n="160">Je vous promects que <persName ref="#Anne_de_Montmorency">ce gris <rs
                      type="animal" subtype="équidé">asne</rs></persName></l>
             <l>Feit pendre maincts hommes <reg>à</reg>
-               <placeName><settlement type="city" key="Bordeaux">Bordeaulx</settlement></placeName></l>
+               <placeName type="city" key="Bordeaux">Bordeaulx</placeName></l>
             <l><reg>À</reg> leurs fenestres à gros cordeaulx</l>
             <note resp="editor" type="crit">En référence à la répression particulièrement violente
                de connétable contre la révolte de la gabelle à Bordeaux au cours de l'été
@@ -611,9 +610,9 @@
             <l>Se deffenseur de nouvelle evangille</l>
             <!-- Saut#34 -->
             <l>Qu’il a frappé de lance ville</l>
-            <note resp="editor" type="glose"><persName ref="#Montgommery"
+            <note resp="editor" type="glose"><persName ref="#Montgommery" key="Montgommery"
                >Montgommery.</persName></note>
-            <l>Nostre deffunct bon roy <persName ref="#Henri_II">Henry</persName></l>
+            <l>Nostre deffunct bon roy <persName ref="#Henri_II" key="Henri II">Henry</persName></l>
             <l n="168">Et qui plus est dont suys merry</l>
             <l>Il dict <reg>à</reg> tous <reg>qu’il</reg> a jecté</l>
             <l>Le peuple de captivité</l>
@@ -624,7 +623,7 @@
                Guillaume</persName></l>
             <l><reg>Qu’il</reg> fut estonné, le minyme</l>
             <l n="176">Quant <persName>Grandmont</persName> qui gueres ne <reg>l’ayme</reg></l>
-            <l>Au port de <placeName><settlement type="city">Neuilly</settlement></placeName> le
+            <l>Au port de <placeName type="city" key="Neuilly">Neuilly</placeName> le
                trouva</l>
             <l>Une injure luy controuva</l>
             <l><reg>L’appelant</reg> caffart <expan>et</expan> meschant</l>
@@ -637,7 +636,7 @@
                qui fut arrêté puis relâché sous la pression populaire en 1561.</note>
             <!-- Saut#36 -->
             <l n="184">Il avoict trescruelle mode</l>
-            <l><persName ref="#Rochefoucauld">Roche Foucault</persName> de tant coupper</l>
+            <l><persName ref="#Rochefoucauld" key="François de La Rochefoucauld">Roche Foucault</persName> de tant coupper</l>
             <note resp="editor" type="crit">François de la Rochefoucauld, un des principaux chefs
                protestants.</note>
             <l>Oreilles de <expan>presbtres</expan> et soupper</l>
@@ -645,7 +644,7 @@
             <l n="188">Il en payra ung jour <reg>l’amende</reg></l>
             <l>Par trop en a faict de camus</l><note resp="editor" type="ling">Pour leur avoir mutilé le nez.</note>
             <!-- Saut#37 -->
-            <l>Ja ne chanterons Benedicamus</l>
+            <l>Ja ne chanterons <hi rend="italic">Benedicamus</hi></l>
             <l>Nos sacerdots <reg>s’ilz</reg>
                <reg>n’ont</reg>
                <expan>monnoye</expan></l>
@@ -747,7 +746,7 @@
             <!-- Saut#46 -->
             <l n="248">Qui a veu ce crieur de noir</l><!-- cri -->
             <l>Qui preschoit la saincte evangille</l>
-            <l>Aux <placeName>faulxbourgs sainct Marcel</placeName> par St Gille</l>
+            <l>Aux <placeName type="district" key="Faubourg Saint-Marcel">faulxbourgs sainct Marcel</placeName> par St Gille</l>
             <l><persName ref="#Canaye">Canaye</persName> en scayt bien quelque chose</l>
             <note resp="editor" type="crit">Nouvelle allusion aux événements de 1562 contre la
                maison du Patriarche qui appartenait à Jean Canaye.</note>
@@ -767,7 +766,7 @@
             <l>Avec <expan>consentement</expan> de <persName ref="#Anne_de_Montmorency"
                   >l’oncle</persName></l>
             <l><roleName>Des trois neveulx</roleName> qui ne feirent oncques</l>
-            <l>Nulz biens en <placeName><settlement type="country">France</settlement></placeName>
+            <l>Nulz biens en <placeName type="country" key="France">France</placeName>
                que trahir</l>
             <note resp="editor" type="glose">L'auteur veut voir en cette mort une nouvelle
                machination du clan Montmorency-Coligny.</note>
@@ -781,7 +780,7 @@
                mal</l>
             <note resp="editor" type="glose">Henry Millouet, trésorier.</note>
             <l>D’estre pendu / <reg>Ô</reg> quel merveille</l>
-            <l>Il nous racompta de <persName ref="#La_Treille">La Treille</persName></l>
+            <l>Il nous racompta de <persName ref="#La_Treille" key="La Treille">La Treille</persName></l>
             <l>Qui <reg>à</reg>
                <placeName>Larcenac</placeName> le feu meist</l><note resp="editor" type="crit"
                >François de La Treille est un artilleur sous Charles IX. Le manuscrit français 5285
@@ -796,7 +795,7 @@
                cote 8-H-12775(1)].</note>
             <l n="272">Tous ses peschez lui sont remys</l>
             <!-- Saut#50 -->
-            <l>À <persName ref="#Tanchou">Tanchou</persName> on luy a faict grace</l>
+            <l>À <persName ref="#Tanchou" key="Tanchou">Tanchou</persName> on luy a faict grace</l>
             <l>Mais son pauvre frere <reg>à</reg> sa place</l>
             <l>Est demouré son lieutenant</l>
             <note type="crit" resp="editor">cf. Jehan de la Fosse, <title>Mémoires...</title>, p. 68
@@ -808,7 +807,7 @@
                2021. Ce même épisode est évoqué dans le 'Pasquil Courtizan' (CAA#69) du
                   <title>Registre-journal</title> de Pierre de L'Estoile.</note>
             <l n="276">Ilz se promeinent maintenant</l>
-            <l>Parmy <placeName><settlement type="city">Paris</settlement></placeName> ses
+            <l>Parmy <placeName type="city">Paris</placeName> ses
                   <orgName>tresoriers</orgName></l>
             <l>Aussy ilz ont fourny deniers</l>
             <l>Pour les conduis de la fontaine</l>
@@ -840,11 +839,11 @@
                qui brigue</l>
             <l>Pour oster au <roleName ref="#Charles_IX">roy</roleName> sa couronne</l>
             <l>Voullant prouver leur cause bonne</l>
-            <l>Par l’appostat nommé <persName ref="#De_Bèze">de Baize</persName></l>
+            <l>Par l’appostat nommé <persName ref="#De_Bèze" key="Théodore de Bèze">de Baize</persName></l>
             <l n="300">Qui les a mys <reg>à</reg> la fournaize</l>
             <l><reg>D’ambition</reg> par faulx langaige</l>
             <l>En luy allegant son lignaige</l>
-            <l>Disant que le grand roy <persName ref="#François_Ier">Françoys</persName></l>
+            <l>Disant que le grand roy <persName ref="#François_Ier" key="François Ier">Françoys</persName></l>
             <l n="304">Les avoict frustré et pencois</l>
             <l>Que son dire feust verité</l>
             <!-- Saut#53 -->
@@ -854,8 +853,8 @@
             <l n="308"><persName>Dieu</persName> luy envoye la malle taigne</l>
             <note resp="editor" type="crit">Un vers semble manquant ici.</note>
             <l>Car il est tousjours malheureux</l>
-            <l>Aussy <reg>à</reg> la journée de <placeName><settlement type="city"
-                     >Dreux</settlement></placeName></l>
+            <l>Aussy <reg>à</reg> la journée de <placeName type="city" key="Dreux"
+                     >Dreux</placeName></l>
             <note resp="editor" type="glose">Le 19 décembre 1562.</note>
             <l>Rompit cuysses et epargneulx</l><!-- Rime orpheline ou bien redoublement de la rime des vers suivants (rime redoublée) -->
             <l n="312">Pris feust et mené hors des rancs</l>
@@ -872,9 +871,9 @@
             <l>Mais n’estes vous poinct records</l>
             <l>Du bon deffunct <persName ref="#François_de_Guise">monsieur de Guyse</persName></l>
             <note>Opposition nette entre les deux partis qui prétendent conseiller le roi.</note>
-            <l><del><persName ref="#De_Bèze">De Baize</persName> et eulx ont conspiré</del></l>
+            <l><del><persName ref="#De_Bèze" key="Théodore de Bèze">De Baize</persName> et eulx ont conspiré</del></l>
             <l>Dont de deuil mon cueur <reg>s’aguise</reg></l>
-            <l n="320"><persName ref="#De_Bèze">De Baize</persName>
+            <l n="320"><persName ref="#De_Bèze" key="Théodore de Bèze">De Baize</persName>
                <expan>et</expan> eulx ont conspiré</l>
             <l><persName ref="#Poltrot">Jehan Polletrot</persName> ont inspiré</l>
             <l>Par faulx escripts <expan>et</expan> sedition</l>
@@ -909,17 +908,17 @@
             <l>Il en est plusieur légion</l>
             <l n="344">De ses marchans de vye humaine</l>
             <!-- Saut#57 -->
-            <l>Le roy <persName ref="#Philippe_II">Philippes</persName> rudesse meyne</l>
-            <l>Aux <orgName>gueulx</orgName> de <placeName><settlement type="region"
-                     >Flandre</settlement></placeName> et c’est raison</l>
+            <l>Le roy <persName ref="#Philippe_II" key="Philippe II">Philippes</persName> rudesse meyne</l>
+            <l>Aux <orgName>gueulx</orgName> de <placeName type="region" key="Flandre"
+                     >Flandre</placeName> et c’est raison</l>
             <l>Et aux plus grands de sa maison</l>
             <note resp="editor" type="glose">À l'exemple du sort de Dom Carlos.</note>
             <l n="348">Lesquelz luy ont rebelles esté</l>
             <l>Il leur a à tous faict oster</l>
             <l>La teste pour les mieulx punyr</l>
             <l>Vrayement <reg>l’on</reg> verroit tost fuyr</l>
-            <l n="352">Les faulces sectes en nostre <placeName><settlement type="country"
-                     >France</settlement></placeName></l>
+            <l n="352">Les faulces sectes en nostre <placeName type="country" key="France"
+                     >France</placeName></l>
             <l><reg>S’on</reg> les mettoit en tel souffrance</l>
             <l>Mais aux grands fauldroict commancer</l>
             <!-- Saut#58 -->
@@ -973,9 +972,9 @@
             <l>Quant plaira <reg>à</reg>
                <persName>Dieu</persName> et au <roleName ref="#Charles_IX">roy</roleName></l>
             <!-- Saut#64 -->
-            <l><placeName><settlement type="district">Montmartre</settlement></placeName> seroit
+            <l><placeName type="district" key="Montmartre">Montmartre</placeName> seroit
                hors d’arroy</l>
-            <l n="384">Sy <placeName><settlement type="city">Paris</settlement></placeName> estoit
+            <l n="384">Sy <placeName type="city" key="Paris">Paris</placeName> estoit
                tout perdu</l>
             <!-- Saut#65 -->
             <l>Et quant ce <persName ref="#Anne_du_Bourg">du Bourg</persName> fut pendu</l>
@@ -1052,7 +1051,7 @@
             <l>Mais plustost d’un persécuteur</l>
             <l>Au lieu de crosse espée portoit</l>
             <l>Qui en son poing ensanglantoit</l>
-            <l n="420">Des gens de <placeName><settlement type="city">Lagny</settlement></placeName>
+            <l n="420">Des gens de <placeName type="city" key="Lagny">Lagny</placeName>
                et ses moynes</l>
             <!-- Saut#70 -->
             <l>À tous les diables soict la coyne</l>

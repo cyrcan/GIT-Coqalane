@@ -150,7 +150,7 @@
                dans les deux témoins. Cf. l'"Epistre du Coq à l'Asne à M. Claude Hagard, facteur"
                (CAA#44): "Ainsi est car nous esperons, / Que chascun pensera aux cas: / Pourquoy les
                logis d'advocats / Sont bastis si triumphamment.", v. 97-99.</note>
-            <l ana="etiq:mtd">Je ne dis rien, <roleName>frere</roleName>
+            <l ana="#mtd">Je ne dis rien, <roleName>frere</roleName>
                <persName>Lucas</persName></l><note resp="editor" type="crit">Ce personnage
                archétypal apparaît dans les <title>Satyres chrestiennes de la cuisine
                papale</title>, Satyre II : "Dieux sçait si Frere Lucas / Desert joyeux le benefice.
@@ -161,13 +161,13 @@
             <l>Arrivera en peu de temps</l>
             <l n="4">Et rendra ses amys contens.</l>
             <!-- Saut#1 --><anchor type="saut#1"/>
-            <l ana="etiq:sit_mil">Il se fait bien grande entreprise</l>
-            <l ana="etiq:mét_animale">Garde que la ruche ne soit prise</l><note resp="editor"
+            <l ana="#sit_mil">Il se fait bien grande entreprise</l>
+            <l ana="#mét_animale">Garde que la ruche ne soit prise</l><note resp="editor"
                type="crit">Vers hypermétrique. Jeu possible entre "La Ruche" et "La Roch[elle]". Cf.
                   <hi rend="italic">infra</hi> les vers 125-126.</note>
             <!-- Saut#2 --><anchor type="saut#2"/>
-            <l ana="etiq:topos">Apres <reg>l'hyver</reg> viendra <reg>l'esté</reg></l><!--Datation : hiver ?-->
-            <l n="8" ana="etiq:sat_pol">Il <app>
+            <l ana="#topos">Apres <reg>l'hyver</reg> viendra <reg>l'esté</reg></l><!--Datation : hiver ?-->
+            <l n="8" ana="#sat_pol">Il <app>
                   <lem wit="#BGEtr353">sera</lem>
                   <rdg wit="#BGE376">serat</rdg>
                </app> grande quantité</l>
@@ -185,23 +185,23 @@
                surprenait au lit le matin de la fête des saints Innocents", Di Stefano, p.
                313.</note>
             <!-- Saut#4 --><anchor type="saut#4"/>
-            <l n="12" ana="etiq:argent"><reg>D'escus</reg> plus de mille cinq cens</l><note
+            <l n="12" ana="#argent"><reg>D'escus</reg> plus de mille cinq cens</l><note
                resp="editor" type="crit">Le glissement d'une idée à l'autre pourrait s'expliquer par
                un jeu métonymique entre les coups de fouet et les étrennes que l'on donnait aux
                jeunes femmes. Le mot "escus" au début du vers est absent dans le recueil 376.</note>
-            <l ana="etiq:argent">Je voudrois havoir en ma bourse</l>
+            <l ana="#argent">Je voudrois havoir en ma bourse</l>
             <!-- Saut#5 --><anchor type="saut#5"/>
-            <l ana="etiq:mét_animale">Et puis la caverne de l'<rs type="animal" subtype="ursidé"
+            <l ana="#mét_animale">Et puis la caverne de l'<rs type="animal" subtype="ursidé"
                   >ourse</rs></l>
-            <l ana="etiq:mét_animale">Sera des <rs type="animal" subtype="canidés">levriers</rs>
+            <l ana="#mét_animale">Sera des <rs type="animal" subtype="canidés">levriers</rs>
                assailie</l><note resp="editor" type="crit">Cf. le "Pasquil Courtizan" de 1579
                (CAA#68): "Madame, La Faute en est vostre / S'il n'y a des levriers en Court. / Car
                ainsi comme le bruit court, / On les veult faire Chiens de chasse.", v. 14-17.</note>
             <!-- Saut#6 --><anchor type="saut#6"/>
-            <l n="16" ana="etiq:folie">Or ça tout le monde folie</l><note resp="editor" type="crit"
+            <l n="16" ana="#folie">Or ça tout le monde folie</l><note resp="editor" type="crit"
                   ><hi rend="italic">Cf</hi>. Le troisième coq-à-l'âne de Marot (CAA#7): "Fol,
                foliant, imprudent, indiscret", v. 3.</note>
-            <l ana="etiq:folie">Et chascun pense estre asses sage</l>
+            <l ana="#folie">Et chascun pense estre asses sage</l>
             <!-- Saut#7 --><anchor type="saut#7"/>
             <l>Jamais on ne vist tel mesnage</l><note resp="editor" type="glose">Cette séquence des
                v.18-23 peut tout aussi bien renvoyer à un événement précis qu'à la situation du
@@ -224,42 +224,42 @@
             <l>Mangeront jusques aux escuelles.</l><note type="philo">L'adverbe "jusques" est
                manquant dans le ms. 376.</note>
             <!-- Saut#8 --><anchor type="saut#8"/>
-            <l n="24" ana="etiq:trahison">Tant de gens ont esté rebelles</l>
+            <l n="24" ana="#trahison">Tant de gens ont esté rebelles</l>
             <l><reg>À</reg> leur vray et naturel prince</l><note resp="editor" type="glose">On pense
                en premier lieu à <persName ref="ind:Henri_III" key="Henri III">Henri III</persName>,
                mais le contexte ligueur des années 1580 ouvre d'autres possibilités.</note>
             <l><reg>J'ay</reg> bien peur que cette province</l>
             <l><reg>N'en</reg> recoyve grand chastiment</l>
-            <l n="28" ana="etiq:sit_pol">Or j'havois pensé autrement</l>
-            <l ana="etiq:sit_pol">Que <reg>l'on</reg> rendist à <addName ref="ind:Charles-Emmanuel_I"
+            <l n="28" ana="#sit_pol">Or j'havois pensé autrement</l>
+            <l ana="#sit_pol">Que <reg>l'on</reg> rendist à <addName ref="ind:Charles-Emmanuel_I"
                   key="Charles-Emmanuel de Savoie">Charlotin</addName></l><note resp="editor"
                type="glose">Surnom qui pourrait désigner <persName ref="ind:Charles-Emmanuel_I"
                   >Charles-Emmanuel I<hi rend="sup">er</hi></persName>, duc de Savoie à partir de
                1580.</note>
-            <l ana="etiq:sit_pol">Ce qu'est à luy car tel butin</l>
-            <l ana="etiq:sit_pol">Ne doit plus demeurer en gage</l><note resp="editor" type="glose">On pense notamment
+            <l ana="#sit_pol">Ce qu'est à luy car tel butin</l>
+            <l ana="#sit_pol">Ne doit plus demeurer en gage</l><note resp="editor" type="glose">On pense notamment
                au marquisat de Saluces dont le duc de Savoie finit par s'emparer avec l'aide de la
                couronne espagnole en 1588. Pour autant, la Savoie doit faire face ensuite à
                l'alliance des Français, des Genevois et des Bernois.</note>
             <!-- Saut#9 --><anchor type="saut#9"/>
-            <l n="32" ana="etiq:sit_mil">Liffre Loffre est beau langage</l><note resp="editor" type="glose">Le parler
+            <l n="32" ana="#sit_mil">Liffre Loffre est beau langage</l><note resp="editor" type="glose">Le parler
                suisse ou allemand. Dans notre corpus, l'autre occurrence du terme se trouve dans le
                "Coq à l'asne d'Arnaud à Thoni" (CAA#71): "Dieu qu'il faudra de Carolus / Pour paier
                tant de lifrelofres", v. 26-27.</note>
-            <l ana="etiq:ironie">Mais, <hi rend="italic">Ma!</hi> et <hi rend="italic">Catzo</hi> ne sont
+            <l ana="#ironie">Mais, <hi rend="italic">Ma!</hi> et <hi rend="italic">Catzo</hi> ne sont
                laids</l><note resp="editor" type="ling">"Mais!" et "Merde" en italien. Le changement
                de langue rend compte du passage des armées, celles des <orgName type="soldat"
                   >Reîtres</orgName> et des <orgName type="soldat">Suisses</orgName>, qui traversent
                le pays.</note>
             <!-- Saut#10 --><anchor type="saut#10"/>
-            <l ana="etiq:érotique">Je voudrois havoir mis le laict</l>
-            <l ana="etiq:érotique"><reg>À</reg> la fille de mon hostesse</l>
+            <l ana="#érotique">Je voudrois havoir mis le laict</l>
+            <l ana="#érotique"><reg>À</reg> la fille de mon hostesse</l>
             <!-- Saut#11 --><anchor type="saut#11"/>
             <l n="36">Quand il me souvient de la presse</l><note resp="editor" type="ling">Jeu de
                mots entre les sens de "pression" et de "foule".</note>
-            <l ana="etiq:adr">Qu'il y aura vous <reg>m'entendés</reg></l>
+            <l ana="#adr">Qu'il y aura vous <reg>m'entendés</reg></l>
             <l>Tant de gens y seront mandés</l>
-            <l ana="etiq:ethos">Que quasi <app>
+            <l ana="#ethos">Que quasi <app>
                   <lem wit="#BGETr353">je</lem>
                   <rdg wit="#BGE376">j'en</rdg>
                </app> creve de rire</l>
@@ -289,27 +289,27 @@
             <l>De faire sonner <corr source="#BGE376">leurs</corr> mortiers</l><note resp="editor"
                type="glose">Peut-être une allusion aux poisons.</note>
             <!-- Saut#16 --><anchor type="saut#16"/>
-            <l n="52" ana="etiq:misères"><app>
+            <l n="52" ana="#misères"><app>
                   <lem wit="#BGETr353">On</lem>
                   <rdg wit="#BGE376">L'on</rdg>
                </app> n'hante gueres les moustiers</l>
-            <l ana="etiq:ironie">Je ne scay que cela veut dire</l>
-            <l ana="etiq:action_divine">Je croy que <persName>Dieu</persName> veut en son ire</l>
-            <l ana="etiq:action_divine">Punir des humains les meffaits</l>
+            <l ana="#ironie">Je ne scay que cela veut dire</l>
+            <l ana="#action_divine">Je croy que <persName>Dieu</persName> veut en son ire</l>
+            <l ana="#action_divine">Punir des humains les meffaits</l>
             <!-- Saut#17 --><anchor type="saut#17"/>
-            <l n="56" ana="#etiq:satire">Les <rs type="métier">advocats</rs> sont bien refaits</l>
-            <l ana="#etiq:satire"><app>
+            <l n="56" ana="#satire">Les <rs type="métier">advocats</rs> sont bien refaits</l>
+            <l ana="#satire"><app>
                   <lem wit="#BGETr353">Ils</lem>
                   <rdg wit="#BGE376">Et</rdg>
                </app> se portent bien à <expan>present</expan></l>
-            <l ana="#etiq:corruption">Vray est <reg>qu'ils</reg>
+            <l ana="#corruption">Vray est <reg>qu'ils</reg>
                <reg>n'ont</reg> tant de <expan>present</expan></l>
-            <l ana="#etiq:temps"><app>
+            <l ana="#temps"><app>
                   <lem wit="#BGETr353">Ainsi <reg>qu'</reg></lem>
                   <rdg wit="#BGE376">Comme</rdg>
                </app>ils souloyent du passé</l>
             <!-- Saut#18 --><anchor type="saut#18"/>
-            <l n="60" ana="etiq:action_divine"><persName>Dieu</persName>
+            <l n="60" ana="#action_divine"><persName>Dieu</persName>
                <app>
                   <lem wit="#BGETr353">a fait</lem>
                   <rdg wit="#BGE376">face</rdg>
@@ -347,7 +347,7 @@
                </app></l>
             <!-- Saut#21 --><anchor type="saut#21"/>
             <l>Le jour viendra je <reg>l'aperçois</reg></l>
-            <l n="72" ana="etiq:folie #gnomique">Fol ne croit jusques il <reg>reçoit</reg></l>
+            <l n="72" ana="#folie #gnomique">Fol ne croit jusques il <reg>reçoit</reg></l>
             <!-- Saut#22 --><anchor type="saut#22"/>
             <l><rs type="interjection"><reg>Ô</reg> mon dieu</rs> la fine moustarde!</l>
             <l><reg>L'armée</reg> des <rs type="soldats" subtype="mercenaires" key="reîtres"
@@ -396,17 +396,17 @@
                356.</note>
             <l>Qui ne <reg>m'est</reg> chose trop plaisante</l>
             <!-- Saut#28 --><anchor type="saut#28"/>
-            <l><reg ana="etiq:folie">L'un</reg> pleure icy <app>
+            <l><reg ana="#folie">L'un</reg> pleure icy <app>
                   <lem wit="#BGETr353">et</lem>
                   <rdg wit="#BGE376">là</rdg>
                </app>
                <reg>l'autre</reg> chante</l>
-            <l ana="etiq:folie">Le monde va en escrevisse</l><note resp="editor" type="crit"><hi
+            <l ana="#folie">Le monde va en escrevisse</l><note resp="editor" type="crit"><hi
                   rend="italic">Cf</hi>. le coq-à-l'âne de "Brusquet à Ronsard": "Car le monde va au
                rebours / Aussy faict bien une escrevisse", v. 214-215.</note><!-- Cf. Pronostications joyeuses -->
             <!-- Saut#29 --><anchor type="saut#29"/>
             <l n="92"><reg>Ô</reg> mon dieu la grande malice</l>
-            <l ana="etiq:misogynie"><reg>Qu'il</reg> y a au cœur <reg>d'une</reg> femme</l>
+            <l ana="#misogynie"><reg>Qu'il</reg> y a au cœur <reg>d'une</reg> femme</l>
             <!-- Saut#30 --><anchor type="saut#30"/>
             <l>Ma foy le <rs type="soldat" subtype="générique">soldat</rs> est infame</l>
             <l>Qui jure renie et fourrage</l>
@@ -433,9 +433,9 @@
             <l>Mais n'est ce pas bien grand dommage</l>
             <l>D'havoir ainsi perdu le temps</l>
             <!-- Saut#35 --><anchor type="saut#35"/>
-            <l n="104" ana="etiq:argent">Les <rs type="soldat">soldats</rs> ne sont point
+            <l n="104" ana="#argent">Les <rs type="soldat">soldats</rs> ne sont point
                contens</l>
-            <l ana="etiq:argent">Si argent ne leur est donné</l>
+            <l ana="#argent">Si argent ne leur est donné</l>
             <l>Cela est tresmal ordonné</l>
             <l>Je ne scay que le monde pense</l>
             <!-- Saut#36 --><anchor type="saut#36"/>
@@ -463,20 +463,20 @@
             <!-- Variante -->
             <l>Est tout corrompu à present</l>
             <!-- Saut#40 --><anchor type="saut#40"/>
-            <l n="120" ana="etiq:corruption"><reg>J'en</reg> scay qui aiment les
+            <l n="120" ana="#corruption"><reg>J'en</reg> scay qui aiment les
                   <expan>presens</expan></l><note resp="editor" type="philo">Vers absent du
                manuscrit 376.</note>
-            <l ana="etiq:argent">Mais <reg>il[s]</reg>
+            <l ana="#argent">Mais <reg>il[s]</reg>
                <reg>n'en</reg> viendront pas plus riches</l>
-            <l ana="etiq:gnomique"><reg>L'homme</reg> opulent qui est ciche</l><note resp="editor"
+            <l ana="#gnomique"><reg>L'homme</reg> opulent qui est ciche</l><note resp="editor"
                type="ling">Chiche, avare.</note>
-            <l ana="etiq:gnomique">Merite <reg>d'estre</reg> terrassé</l>
+            <l ana="#gnomique">Merite <reg>d'estre</reg> terrassé</l>
             <!-- Saut#41 --><anchor type="saut#41"/>
-            <l n="124" ana="etiq:gnomique">Jamais les tyrans n'hont assés</l><note resp="editor"
+            <l n="124" ana="#gnomique">Jamais les tyrans n'hont assés</l><note resp="editor"
                type="crit"><hi rend="italic">Cf</hi>. le "Coq à l'asne de Jean de Bondys" de 1570
                (CAA#61): "Celuy ét Tiran qui trop prinse", v. 146.</note>
-            <l ana="etiq:gnomique">Ce fust bien folle entreprise</l>
-            <l ana="etiq:g_civ">Que <placeName type="city" key="La Rochelle">la Rochelle</placeName>
+            <l ana="#gnomique">Ce fust bien folle entreprise</l>
+            <l ana="#g_civ">Que <placeName type="city" key="La Rochelle">la Rochelle</placeName>
                ne fust prise</l><note resp="editor" type="crit">La place huguenote de <placeName
                   type="city" key="La Rochelle">La Rochelle</placeName> est un enjeu dont témoignent
                les très nombreuses occurrences dans les coq-à-l'âne depuis le siège de 1573 jusqu'au
@@ -492,13 +492,13 @@
             <l>Pour un gros <rs type="poisson">poisson</rs> attraper</l><note resp="editor"
                type="glose">Le royaume de France.</note>
             <!-- Saut#42 --><anchor type="saut#42"/>
-            <l ana="etiq:sit_pol"><app>
+            <l ana="#sit_pol"><app>
                   <lem wit="#BGETr353">Je ne veux mon aureile couper</lem>
                   <rdg>Je veulx mes deux oreilles coppées</rdg>
                </app></l>
-            <l ana="etiq:sit_pol">S'ils firent jamais tels traités</l>
-            <l n="132" ana="etiq:sit_pol">Sinon par accords arrestés</l>
-            <l ana="etiq:sit_pol">Avec celle fiere pucelle</l><note resp="editor" type="glose"
+            <l ana="#sit_pol">S'ils firent jamais tels traités</l>
+            <l n="132" ana="#sit_pol">Sinon par accords arrestés</l>
+            <l ana="#sit_pol">Avec celle fiere pucelle</l><note resp="editor" type="glose"
                >Probablement <persName>Elizabeth d'Angleterre</persName>.</note>
             <!-- Saut#43 --><anchor type="saut#43"/>
             <l>Un <rs type="animal" subtype="équidé">cheval</rs> qui ha double selle</l><note
@@ -514,13 +514,13 @@
                gouverneurs de Normandie.</note>
             <l>Fait bien du brave <reg>là</reg> dedans</l>
             <!-- Saut#45 --><anchor type="saut#45"/>
-            <l n="140" ana="etiq:maladie">Je doute que le mal des dens</l><!-- locution?-->
-            <l ana="etiq:maladie">Ne pullule bien ceste année</l>
+            <l n="140" ana="#maladie">Je doute que le mal des dens</l><!-- locution?-->
+            <l ana="#maladie">Ne pullule bien ceste année</l>
             <!-- Saut#46 --><anchor type="saut#46"/>
-            <l ana="etiq:vin"><persName>Dieu</persName> nous doint donc belle vinée</l>
-            <l ana="etiq:corps">Si <reg>l'on</reg> se regle par compas</l>
-            <l n="144" ana="etiq:bien_vivre">Aux grands jours on fait trois repas</l>
-            <l ana="etiq:corps">En faisant honneste exercice</l>
+            <l ana="#vin"><persName>Dieu</persName> nous doint donc belle vinée</l>
+            <l ana="#corps">Si <reg>l'on</reg> se regle par compas</l>
+            <l n="144" ana="#bien_vivre">Aux grands jours on fait trois repas</l>
+            <l ana="#corps">En faisant honneste exercice</l>
             <!-- Saut#47 --><anchor type="saut#47"/>
             <l>Je voudrois <unclear>hacher dur</unclear> saucisse</l>
             <l>Avant que d'entrer en Caresme</l>
@@ -540,19 +540,19 @@
                consacre une épitaphe, "Sur le trespas de Monsieur de Sarrieu, qui fut mastre de camp
                du plus vieil Regiment en garnison de Picardie", <title>Diverses poésies</title>,
                édition de Nérina Clérici-Balmas, Genève, Droz, 1988, p. 136.</note>
-            <l ana="etiq:ironie">Qui fist ceste belle sailie</l>
+            <l ana="#ironie">Qui fist ceste belle sailie</l>
             <!-- Saut#48 --><anchor type="saut#48"/>
             <l ana="#pronostication #mét_animale">La beste sera assailie</l>
-            <l ana="etiq:g_civ">Plus dextrement que du passé</l>
-            <l n="152" ana="etiq:lâcheté">Tous les couars seront cassés</l>
-            <l ana="etiq:occasion">S'ils ne sautent dessus en croppe</l>
+            <l ana="#g_civ">Plus dextrement que du passé</l>
+            <l n="152" ana="#lâcheté">Tous les couars seront cassés</l>
+            <l ana="#occasion">S'ils ne sautent dessus en croppe</l>
             <!-- Saut#49 --><anchor type="saut#49"/>
-            <l ana="etiq:gnomique">Tout le monde donne la coulpe</l>
+            <l ana="#gnomique">Tout le monde donne la coulpe</l>
             <l><reg>À</reg> quelcun, chascun m'entend bien</l>
             <l n="156">Or puis que nous scavons combien</l>
             <l>De fautes nous havons commises</l>
             <l>En tous nos faits et entreprises</l>
-            <l ana="etiq:sagesse">Je croy qu'en deviendrons plus sages</l><!-- variante -->
+            <l ana="#sagesse">Je croy qu'en deviendrons plus sages</l><!-- variante -->
             <pb n="2v°"/>
             <l n="160">Il en est temps, <!-- Saut#50 --><anchor type="saut#50"/> mais les
                passages</l>
@@ -577,7 +577,7 @@
                   <lem wit="#BGETr353">double</lem>
                   <rdg wit="#BGE376">douce</rdg>
                </app> amye</l>
-            <l n="172" ana="etiq:maladie">A Dieu Dame de Suerie</l><note resp="editor" type="crit"
+            <l n="172" ana="#maladie">A Dieu Dame de Suerie</l><note resp="editor" type="crit"
                >Lieu commun sur la maladie vénérienne. <hi rend="italic">Cf</hi>. Eustorg de
                Beaulieu, X<hi rend="sup">e</hi> Epistre (CAA#4): "Car Venus a ses gens espars / Par
                tout le pays de Surie", v. 96-97.</note>

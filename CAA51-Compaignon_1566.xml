@@ -96,8 +96,8 @@
             <l>Il nous fault avoir d'aultres armes</l>
             <!-- Saut#4 -->
             <l>C'estoient des furieux alarmes</l>
-            <l>Que ceulx qu'on donna à <placeName><settlement type="city"
-                  >Paris</settlement></placeName></l>
+            <l>Que ceulx qu'on donna à <placeName type="city" key="Paris"
+                  >Paris</placeName></l>
             <l n="16">Les <orgName type="habitants">Parisiens</orgName> furent marris</l>
             <l>De ce qu'on feit <reg>à</reg> leur Achille</l>
             <l>Le <roleName ref="#François_de_Montmorency">mareschal</roleName> fut trop habille</l>
@@ -107,15 +107,15 @@
             <l>Que de vingt cinq ou de trente</l>
             <!-- Cf. Elargissement par L'hospital-->
             <!-- Saut#6 -->
-            <l>Les <expan>concilles</expan> arrestez à <placeName><settlement type="city"
-                     >Trente</settlement></placeName></l>
+            <l>Les <expan>concilles</expan> arrestez à <placeName type="city" key="Trente"
+                     >Trente</placeName></l>
             <l>D'eussent estre ja publiez</l>
             <l n="24">On ne les a pas oubliez</l>
-            <l>Au pays de <placeName><settlement type="city" key="Reims"
-                  >Reins</settlement></placeName>
+            <l>Au pays de <placeName type="city" key="Reims"
+                  >Reins</placeName>
                <expan>et</expan>
-               <placeName><settlement type="region" key="Lorraine"
-               >Loraine</settlement></placeName></l>
+               <placeName type="region" key="Lorraine"
+               >Loraine</placeName></l>
             <!-- Saut#7 -->
             <l>La cyre est plus chere <expan>que</expan> layne</l>
             <l><reg>C'est</reg> pourquoy l'on faict tant d'edictz</l>
@@ -144,8 +144,8 @@
             <l><reg>C'estoit</reg> une fort belle terre</l>
             <fw type="sig" place="bottom-right">Lz iii</fw>
             <pb n="39v"/>
-            <l>Que la conté de <placeName><settlement type="district" key="Dammartin"
-                     >Dampmartin</settlement></placeName></l>
+            <l>Que la conté de <placeName type="city" key="Dammartin"
+                     >Dampmartin</placeName></l>
             <l n="44">On travailloit soir <expan>et</expan> matin</l>
             <l>Pour ung gros proces ramasser</l>
             <l>Qui veult en bref bien <reg>s'advancer</reg></l>
@@ -180,12 +180,12 @@
                <reg>qu'à</reg> gouverner</l>
             <l>Et les financiers qu'<reg>à</reg> piller</l>
             <l>Ilz ont eu grand peur <reg>à</reg>
-               <placeName><settlement type="ville" key="Genève">Genesve</settlement></placeName></l>
+               <placeName type="ville" key="Genève">Genesve</placeName></l>
             <l n="76"><reg>D'estre</reg> surpris non non je resve</l>
             <l>On en voulloict aux <orgName type="secte">huguenots</orgName></l>
             <l>Le <roleName ref="#Charles_IX">Roy</roleName> veid bien des mathelos</l>
-            <l>En son bas pays de <placeName><settlement type="region" key="Saintonge"
-                     >Sainctonge</settlement></placeName></l>
+            <l>En son bas pays de <placeName type="region" key="Saintonge"
+                     >Sainctonge</placeName></l>
             <l n="80">Ô que <reg>c'est</reg> une belle esponge</l>
             <l>Que ce beau monsieur de <persName ref="#Gonnord">Gonnor</persName></l>
             <l>Pour trouver ung riche tresor</l>
@@ -202,13 +202,13 @@
             <l>Il n'en peult venir <expan>que</expan> malheur</l>
             <l>Sy noz princes avoient du cueur</l>
             <l>On feroit aux villains esclandre</l>
-            <l n="92">Il nous fault tous aller en <placeName><settlement type="region"
-                     >Flandre</settlement></placeName></l>
+            <l n="92">Il nous fault tous aller en <placeName type="region" key="Flandres"
+                     >Flandre</placeName></l>
             <l>Ayder au <roleName ref="#Philippe_II">beaufrere</roleName> du <roleName
                   ref="#Charles_IX">roy</roleName></l>
             <l>Sy nous avions ung viceroy</l>
-            <l>Tout en yroit bien mieulx en <placeName><settlement type="country"
-                     >France</settlement></placeName></l>
+            <l>Tout en yroit bien mieulx en <placeName type="country" key="France"
+                     >France</placeName></l>
             <l n="96">Nostre <roleName ref="#Charles_IX">roy</roleName> ayme bien la dance</l>
             <l>Et sy scayt desja bien jurer</l>
             <l>Sy tu veulx longuement durer</l>
@@ -250,7 +250,7 @@
             <l>Qu'en ce temps les villains sont tout</l>
             <l n="132">Nous peusmes bien venir <reg>à</reg> bout</l>
             <l><reg>À</reg>
-               <placeName><settlement type="city">Moulins</settlement></placeName> de nostre
+               <placeName type="city" key="Moulins">Moulins</placeName> de nostre
                entreprise</l><!--Datation-->
             <l>Chascun sert son dieu <reg>à</reg> sa guise</l>
             <l>Il nous en debvera de retour</l>

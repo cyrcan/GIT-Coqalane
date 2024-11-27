@@ -37,16 +37,17 @@
          <p>
             <interpGrp>
                <!-- A -->
+               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
                <interp xml:id="ambition" ana="ambition">ambition</interp>
                <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
-
+               
                <!-- B -->
                <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
                <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
-
+               
                <!-- C -->
                <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
                <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
@@ -55,33 +56,33 @@
                <interp xml:id="cour" ana="court">vie de la cour</interp>
                <interp xml:id="cri" ana="cri">cris des marchands</interp>
                <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
-
+               
                <!-- D -->
                <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
                <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
-
+               
                <!-- E -->
                <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
                <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
                <interp xml:id="ethos" ana="ethos">ethos</interp>
                <interp xml:id="exhortation" ana="exhortation">exhortations et
                   encouragements</interp>
-
+               
                <!-- F -->
                <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
                <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
-
+               
                <!-- G -->
                <interp xml:id="gén" ana="généralisation">généralisation</interp>
                <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
                   gnomique</interp>
                <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
-
+               
                <!-- H -->
                <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
                <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
-
-
+               
+               
                <!-- I -->
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
@@ -89,13 +90,13 @@
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
                <interp xml:id="ironie" ana="ironie">ironie</interp>
-
+               
                <!-- L -->
                <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
                <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
                <interp xml:id="topos" ana="topos">lieu commun</interp>
                <interp xml:id="ligue" ana="ligue">ligue</interp>
-
+               
                <!-- M -->
                <interp xml:id="maladie" ana="maladie">maladie</interp>
                <interp xml:id="massacre" ana="massacre">massacre</interp>
@@ -107,10 +108,12 @@
                <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
                   valeurs</interp>
                <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
-
-
+               
+               
                <!-- P -->
                <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
+               <interp xml:id="persona" ana="persona">persona de Marot</interp>
                <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
                <interp xml:id="pillage-s" ana="pillages">vols, pillages</interp>
                <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
@@ -121,7 +124,7 @@
                <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
                <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
                   nécessaire</interp>
-
+               
                <!-- R -->
                <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
                <interp xml:id="rébus" ana="rébus">rébus</interp>
@@ -130,9 +133,9 @@
                <interp xml:id="rire" ana="rire">rire</interp>
                <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
                <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
-
+               
                <!-- S -->
-
+               
                <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
                <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
                <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
@@ -140,13 +143,13 @@
                <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
                <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
                <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
-
+               
                <!-- T -->
                <interp xml:id="tauto" ana="tauto">tautologie</interp>
                <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
                <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
                <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
-
+               
                <!-- V -->
                <interp xml:id="vanité" ana="vanité">vanité</interp>
                <interp xml:id="vp" ana="pivot">vers pivot</interp>
@@ -154,6 +157,12 @@
             </interpGrp>
          </p>
       </encodingDesc>
+      <revisionDesc>
+         <change><date>2024-11_07</date>Mise en œuvre de la transcription à partir du codex 148 avec
+            l'appui de l'édition Meylan.</change>
+         <change><date>2024-11-08</date>Transcription du second feuillet et ajout des sauts
+            logiques.</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -176,12 +185,12 @@
             <!-- Saut#1 --><anchor type="saut#1"/>
             <l>A il relevé son deffault</l>
             <l>Celuy que l'on fit adjourner</l>
-            <l n="12">Le plus court n'est de s'y trouver</l>
-            <l>Entre les mains d'un ennemy</l>
-            <!-- Saut#1 --><anchor type="saut#2"/>
+            <l n="12" ana="#prudence">Le plus court n'est de s'y trouver</l>
+            <l ana="#prudence">Entre les mains d'un ennemy</l>
+            <!-- Saut#2 --><anchor type="saut#2"/>
             <l>Il n'a respondu qu'à demy</l>
             <l><expan>Nostre</expan>
-               <persName ref="ind:Charles_V" key="Charles-Quint">empereur</persName> pert la
+               <persName ref="ind:Charles-Quint" key="Charles-Quint">empereur</persName> pert la
                parolle</l>
             <l n="16">C'est au <persName ref="ind:François_Ier" key="François Ier">Roy</persName> à
                jouer son rolle</l>
@@ -189,12 +198,151 @@
             <l>Advis absence garde la pince</l>
             <l>Et la fureur d'un jeune prince</l>
             <l>Il est beaucoup de plus beaux jeulx</l>
-            <l n="20">Couppez le nez[,] crevez les yeulx[,]</l>
+            <!-- Saut#4 --><anchor type="saut#4"/>
+            <l n="20"><rs type="injonction" subtype="impératif">Couppez</rs> le nez[,] <rs
+                  type="injonction" subtype="impératif">crevez</rs> les yeulx[,]</l>
             <l><rs type="injonction" subtype="impératif">Fermez</rs> cest huys[,] <rs
                   type="injonction" subtype="impératif">chassez</rs> ce <rs type="animal"
                   subtype="canidé">chian</rs></l>
+            <!-- Saut#5 --><anchor type="saut#4"/>
             <l><rs type="injonction" subtype="impératif">Dictes</rs> à <persName>Dieu</persName>
                qu'il vous face bien</l>
+            <l><expan>Nostre</expan> herault plus ne parla</l>
+            <!-- Saut#6 --><anchor type="saut#6"/>
+            <l n="24"><rs type="injonction" subtype="impératif">Tien</rs> l'estrier <rs
+                  type="injonction" subtype="impératif">picque</rs>
+               <expan>et</expan>
+               <rs type="injonction" subtype="impératif">t'en va</rs></l>
+            <l><rs type="injonction" subtype="impératif">Dy</rs> donc au <persName
+                  ref="ind:François_Ier" key="François Ier">Roy</persName> que point n'y voise</l>
+            <l>En <placeName type="country" key="Italie">Itallie</placeName> elle est
+                  <reg>françoise</reg></l>
+            <!-- Saut#7 --><anchor type="saut#7"/>
+            <l>Les <orgName type="peuple" key="allemand">Allemens</orgName> sons bonnes gent</l>
+            <l n="28">Le premier va tousjours davant</l>
+            <!-- Saut#8 --><anchor type="saut#8"/>
+            <l><placeName type="city" key="Venise">Venise</placeName> rit <placeName type="city"
+                  key="Milan">Millan</placeName> se mocque</l>
+            <l>Toutesfois tousjours elle crocque</l>
+            <l><placeName type="city" key="Rome">Rome</placeName> avecques ses
+                  <expan>pardons</expan></l>
+            <!-- Saut#9 --><anchor type="saut#9"/>
+            <l n="32">En cuydant gaigner nous <expan>perdons</expan></l>
+            <l>Le poisson routy et la chair</l>
+            <l>S'il n'est plus ferme q'ung rochier</l>
+            <!-- Saut#10 --><anchor type="saut#10"/>
+            <l><rs type="interjection">Par le sang bieu</rs> je vous auray</l>
+            <l n="36">Monsieur le turc ou je verray</l>
+            <pb n="117r"/><fw type="pageNum" place="top-right">117</fw>
+            <l>S'il est vray ce que l'on raconte</l>
+            <!-- Saut#11 --><anchor type="saut#11"/>
+            <l>L'on dict que monsieur le viconte</l>
+            <l>A entreprins faire ung voyage</l>
+            <!-- Saut#12 --><anchor type="saut#12"/>
+            <l n="40"><persName>Montigen</persName> ne fut pas trop saige</l>
+            <l>En cuydant prandre ses plaisirs</l>
+            <!-- Saut#13 --><anchor type="saut#13"/>
+            <l>L'admiral fera ses desirs</l>
+            <l>Si le grand maistre ne l'en garde</l>
+            <!-- Saut#14 --><anchor type="saut#14"/>
+            <l n="44"><persName>Vendosme</persName> dit donne toy garde</l>
+            <!-- Saut#15 --><anchor type="saut#15"/>
+            <l><persName>Monsieur de Rut</persName> trouva <persName>Nansor</persName></l>
+            <!-- Saut#16 --><anchor type="saut#16"/>
+            <l>Bien empescher Le <rs type="animal" subtype="poisson">haran sor</rs></l>
+            <l>Ne prent pas si tost à la grille</l>
+            <!-- Saut#17 --><anchor type="saut#17"/>
+            <l n="48">Elle fut bien fine la fille</l>
+            <l>De bailler jour au capitaine</l>
+            <!-- Saut#18 --><anchor type="saut#18"/>
+            <l><rs type="injonction" subtype="défense">Ne laissez</rs> jamais la mitaine</l>
+            <l>Sy vous craignez d'estre picqué</l>
+            <!-- Saut#19 --><anchor type="saut#19"/>
+            <l n="52"><persName>Jehan Paulle</persName> estoit <reg>là</reg> pres parqué</l>
+            <l>Qui print <placeName type="city" key="Florence">Florence</placeName> au trebuchet</l>
+            <!-- Saut#20 --><anchor type="saut#20"/>
+            <l><rs type="injonction" subtype="impératif">Dictes</rs> à <persName>Boysy</persName>
+               que le mouchet</l>
+            <l><expan>Pour</expan> avoir faict trop à sa guise</l>
+            <l n="56">A voltigé monsieur de Guyse</l>
+            <l>Qui est signe de gros tonnerre</l>
+            <!-- Saut#21 --><anchor type="saut#21"/>
+            <l><rs type="injonction" subtype="impératif">Chassez</rs> la paix vive la guerre</l>
+            <l>Nous employron les estrangiers</l>
+            <l n="60">Ou faictes de poeur des estrangiers</l>
+            <!-- Saut#22 --><anchor type="saut#22"/>
+            <l>Mon <expan>gentilhomme</expan> pour estre asseur</l>
+            <l>Ung mur de dix piedz d'epesseur</l>
+            <l>Feroit grant bien autour <placeName type="city" key="Péronne">Peronne</placeName></l>
+            <!-- Saut#23 --><anchor type="saut#23"/>
+            <l n="64">Vous estes dame trop felonne</l>
+            <l>Et rigoureuse à vostre amy</l>
+            <l><rs type="injonction" subtype="impératif">Ostez</rs>
+               <rs type="injonction" subtype="impératif">ostez</rs> soye et samy</l>
+            <l>Et vous <rs type="injonction" subtype="impératif">vestez</rs> de fine laine</l>
+            <!-- Saut#24 --><anchor type="saut#24"/>
+            <l n="68">Par mon serment il eut grand peine</l>
+            <l>La court ne m'y sauroit <expan>contraindre</expan></l>
+            <l>Je ne dy pas qu'il faille findre</l>
+            <l>Ne faulcer foy à son seigneur</l>
+            <l n="72">Le Roy n'a point tenu rigueur</l>
+            <l>Mais l'on m'a dict qu'il la tiendra</l>
+            <pb n="117v"/>
+            <l>Il dit qu'il l'amendera</l>
+            <l>Voyla le faict de ses <unclear>venteurs</unclear></l>
+            <l n="76">Ses rotisseurs ne ses docteurs</l>
+            <l ana="#prétérition">Ne veullent pas je ne dy rien</l>
+            <l>Et sy je mentz je n'en veulx rien</l>
+            <!-- Saut#25 --><anchor type="saut#25"/>
+            <l>Vrayment c'est bonne nouvelle</l>
+            <l n="80"><unclear>Cecille</unclear> est il soubz sa tutelle</l>
+            <!-- Saut#26 --><anchor type="saut#26"/>
+            <l><persName>Calabre</persName> la poulle gardez vous</l>
+            <!-- Saut#27 --><anchor type="saut#27"/>
+            <l><persName>Pater Sancte</persName> où estez vous</l>
+            <l>Aprestez vous pour recepvoir</l>
+            <l n="84" ana="#abus">Sur vostre <rs type="animal" subtype="équidé">mulle</rs> aux
+               frains dorez</l>
+            <l ana="#abus">Force ducatz que l'on vous porte</l>
+            <l ana="#sat_rel"><rs type="injonction" subtype="impératif">Chassez</rs> le pauvre de la
+               porte</l>
+            <l><rs type="injonction" subtype="impératif">Mectez</rs> le <rs type="animal"
+                  subtype="canidé">chian</rs> sur le coessin</l>
+            <!-- Saut#28 --><anchor type="saut#28"/>
+            <l n="88">Il se montra trop bon voisin</l>
+            <l>Car le malheur tombe souvent</l>
+            <l>Par fol cuyder il t'en souvient</l>
+            <l>Ce disent ses <rs type="invective">pates pelues</rs></l>
+            <l n="92">Damoiselles vielles mollues</l>
+            <!-- Saut#29 --><anchor type="saut#29"/>
+            <l>Comment ce porte ce mygnon</l>
+            <l>La chausse percée au tallon</l>
+            <l n="96">Et la bouteille bien garnye</l>
+            <!-- Saut#30 --><anchor type="saut#30"/>
+            <l>Quelque perdrix routye</l>
+            <l>Viendroit au point <expan>pour</expan> avoir bruyt</l>
+            <!-- Saut#31 --><anchor type="saut#31"/>
+            <l>La jeune fille quant il est nuyct</l>
+            <l n="100">Donne dedans mon gentil homme</l>
+            <l>Vous me rompez le premier somme</l>
+            <l>Respond <persName>Jenyn</persName> je vouldroys estre</l>
+            <!-- Saut#32 --><anchor type="saut#32"/>
+            <l><rs type="injonction" subtype="impératif">Mariez vous</rs> monsieur le
+                  <expan>presbtre</expan></l>
+            <l n="104">La chambriere ne voullut pas</l>
+            <!-- Saut#33 --><anchor type="saut#33"/>
+            <l><persName>Therouane</persName>
+               <placeName type="city" key="Arras">Arras</placeName> n'est pas</l>
+            <l>Bien asseuré n'y fut <placeName type="city" key="Cambrai">Cambray</placeName></l>
+            <l><persName>Le Roy</persName> l'a sceu est il vray</l>
+            <!-- Saut#34 --><anchor type="saut#34"/>
+            <l n="108"><rs type="interjection" subtype="juron">Par le corps bieu</rs>
+               <rs type="injonction" subtype="impératif">donne toy garde</rs></l>
+            <l ana="#folie">Ce fol qui vous bailla l'aubade</l>
+            <l>Dedans le camp pres <placeName type="city" key="Avignon">Advignon</placeName></l>
+            <l>Sy fut il force au compaignon</l>
+            <l n="112" ana="#ambition">Avoir tousjours grant renommée</l>
+            <l><expan>Nostre</expan> gueulle demaconnée</l>
          </p>
       </body>
    </text>

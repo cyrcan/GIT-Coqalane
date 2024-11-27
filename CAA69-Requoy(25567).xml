@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../Users/c.ca/Downloads/tei_Corpus_CAA.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../../../Users/c.ca/Downloads/tei_Corpus_CAA.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc xml:id="Requoy_1580">
@@ -279,29 +278,29 @@ Homme de guerre. - Prince de Mantoue, fils de Frédéric II, duc de Mantoue. - D
             <l>Il y en aura de surpris</l>
             <l>Et seront traittez <reg>à</reg> tel prix</l>
             <l>Que <date key="St-Barthélemy" ref="#w0">le Jour St Barthelemy</date></l>
-            <!-- Saut #1 -->
+            <!-- Saut#1 --><anchor type="saut#1"/>
             <l n="16">Il n'est pas <orgName type="secte">Chrestien</orgName>
                <reg>à</reg> demy</l>
             <l>Qui ne porte un beau chapelet</l>
-            <!-- Saut#2 -->
+            <!-- Saut#2 --><anchor type="saut#2"/>
             <l>Les Prisonniers du <placeName>Chastelet</placeName></l>
             <l>N'en sortent point sans fascherie,</l>
-            <!-- Saut#3 -->
+            <!-- Saut#3 --><anchor type="saut#3"/>
             <l n="20">Scavoir si la <placeName>Conciergerie</placeName></l>
             <l>Est agreable <reg>à</reg>
                <persName ref="#Saint_Léger">St Leger</persName></l><note resp="editor" type="glose"
                >L'Estoile signale l'emprisonnement du sieur de St-Léger à la date du 9 mars 1581
                pour trois ou quatre mois. <title>Registre-Journal</title>, tome III, p. 137.</note>
             <pb n="40v"/>
-            <!-- Saut#4 -->
+            <!-- Saut#4 --><anchor type="saut#4"/>
             <l>D'<reg>où</reg> vient cela que l'estranger</l>
             <l>A si grand credit <reg>à</reg> la Cour</l>
-            <!-- Saut#5 -->
+            <!-- Saut#5 --><anchor type="saut#5"/>
             <l n="24"><rs type="proverbe">Tel compte qui se trouve court</rs></l>
             <l>Pour n'entendre l'Arithmetique</l>
             <l>Et faulte de mettre en pratique</l>
             <l>Le chiffre qu'on nomme Zero</l>
-            <!-- Saut#6 -->
+            <!-- Saut#6 --><anchor type="saut#6"/>
             <l n="28">Il ne s'en fault plus rien qu'un <persName ref="#François_d_O"
                >O</persName></l><note resp="editor" type="glose">François d’O. Seigneur de Fresnes
                et de Maillebois, fils de Jean d’O et d’Hélène d’Illiers (mort en 1594). Maître de la
@@ -309,14 +308,14 @@ Homme de guerre. - Prince de Mantoue, fils de Frédéric II, duc de Mantoue. - D
                l’Ile-de-France. Il fit partie des « quatre » favoris d'Henri III avec d’Inteville,
                Saint-Sulpice et Caylus.</note>
             <l>Que je n'entende l'Alphabet</l>
-            <!-- Saut#7 -->
+            <!-- Saut#7 --><anchor type="saut#7"/>
             <l>Que ne mene l'on au gibet</l>
             <l>Tous ces <rs type="invective">Inventeurs de subsides</rs></l>
-            <!-- Saut#8 -->
+            <!-- Saut#8 --><anchor type="saut#8"/>
             <l n="32">Mais quoy les bourses sont si vuides</l>
             <l>Que chacun estat est destruict</l>
-            <!-- Saut#9 -->
-            <l><persName>Chiverny</persName> a acquis le bruit</l><note resp="editor" type="crit"
+            <!-- Saut#9 --><anchor type="saut#9"/>
+            <l><persName ref="ind:Cheverny" key="Cheverny">Chiverny</persName> a acquis le bruit</l><note resp="editor" type="crit"
                >L'Estoile note dans son <title>Registre-Journal</title> en septembre 1578 : "Le
                lundi 29e septembre, jour et feste S. Michel, le Cardinal de Birague, Chancelier de
                France, remist entre les mains du Roy les seaux de France, lesquels furent baillés à
@@ -328,21 +327,21 @@ Homme de guerre. - Prince de Mantoue, fils de Frédéric II, duc de Mantoue. - D
                chirurgien [François Rasse des neux?] qui se connoissoit bien aux maux, mais n’avoit
                gueres accoustumé de les flatter." Cf. tome II, p. 214.</note>
             <l>D'avoir meschante conscience,</l>
-            <!-- Saut#10 -->
+            <!-- Saut#10 --><anchor type="saut#10"/>
             <l n="36">De present c'est grande science</l>
             <l>De ne craindre ny croire en <persName>Dieu</persName>,</l>
-            <!-- Saut#11 -->
+            <!-- Saut#11 --><anchor type="saut#11"/>
             <l>Regarde comment <persName ref="#François_Du_Plessis">Richelieu</persName></l>
             <l>En est en faveur et credit</l><note resp="editor" type="glose">Soucieux de renforcer
                la police de la cour, Henri III a confié à François du Plessis, le père du futur
                Cardinal, la charge de grand prévôt de France. Sa juridiction s'étendait non
                seulement à la cour mais à l'ensemble du royaume.</note>
-            <!-- Saut#12 -->
+            <!-- Saut#12 --><anchor type="saut#12"/>
             <l n="40">Penseriés vous bien que l'Edit</l>
             <l>Dernier fait au <roleName ref="#Henri_de_Navarre">Roy de Navarre</roleName></l>
             <l>Soit tenu, non, mais gare gare</l>
             <l>On scait bien comment s'en deffaire</l>
-            <!-- Saut#13 -->
+            <!-- Saut#13 --><anchor type="saut#13"/>
             <l n="44">Les pauvres gens dedans <placeName key="La Fère"><settlement type="city">La
                      Fere</settlement></placeName></l><note resp="editor" type="glose">Allusion à
                   <date ref="#militaire-1">la prise de La Fère</date> par le prince de Condé le 29
@@ -352,7 +351,7 @@ Homme de guerre. - Prince de Mantoue, fils de Frédéric II, duc de Mantoue. - D
             <l>Qu'on ne leur a tenu promesse,</l>
             <pb n="41"/>
             <fw type="pageNum" place="top-right">41</fw>
-            <!-- Saut#14 -->
+            <!-- Saut#14 --><anchor type="saut#14"/>
             <l n="48">Ô la vertueuse Princesse</l>
             <l>Que la <persName ref="#Françoise_de_Bourbon">Duchesse de Bouillon</persName></l><note
                resp="editor" type="glose">Françoise de Bourbon.</note>
@@ -598,24 +597,24 @@ Homme de guerre. - Prince de Mantoue, fils de Frédéric II, duc de Mantoue. - D
             <l>On verra bientost commancer</l>
             <l>Puisque sommes au temps nouveau,</l>
             <!-- Saut#44 -->
-            <l>Ce long sejour de <placeName><settlement type="city"
-                  >Chenonceau</settlement></placeName></l>
-            <l n="152">Et de <placeName><settlement type="city">Blois</settlement></placeName> n'est
+            <l>Ce long sejour de <placeName type="city"
+                  >Chenonceau</placeName></l>
+            <l n="152">Et de <placeName type="city">Blois</placeName> n'est
                pas inutile</l>
             <!-- Saut#45 -->
             <l>Que c'est une <roleName>Princesse</roleName> habile</l>
-            <l>Que cette <persName ref="#Reine_Margot">Royne de Navarre</persName></l>
+            <l>Que cette <persName ref="#Reine_Margot" key="La Reine Margot">Royne de Navarre</persName></l>
             <l>Il n'est si fin qu'elle ne rembarre</l>
-            <l n="156">Et si tient le <roleName ref="#Henri_de_Navarre">Roy</roleName> son mary</l>
+            <l n="156">Et si tient le <roleName ref="#Henri_de_Navarre" key="Henri de Navarre">Roy</roleName> son mary</l>
             <l>Si bien charmé et endormy</l>
             <l>Qu'<reg>à</reg> elle il est du tout reduit</l>
             <l>Si <persName>Dieu</persName> qui tout voit et conduit</l>
             <l n="160">Ne le retire du naufrage</l>
             <l>On verra bientost quelque orage</l>
             <l>Dessus sa maison advenir</l>
-            <!-- Saut#46 -->
+            <!-- Saut#46 --><anchor type="saut#46"/>
             <l>Mais ce <roleName>Prince</roleName>
-               <persName ref="#Jean-Casimir">Jehan Casimir</persName></l><note resp="editor"
+               <persName ref="#Jean-Casimir" key="Jean-Casimir de Bavière">Jehan Casimir</persName></l><note resp="editor"
                type="glose">Jean-Casimir de Bavière qui a rallié la cause des Malcontents.</note>
             <l n="164">Vouldroit il bien mordre <reg>à</reg> l'appast</l>
             <l>Et pour deux cent milles ducats</l>

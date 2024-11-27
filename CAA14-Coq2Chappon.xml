@@ -154,6 +154,8 @@
          </p>
 
       </encodingDesc>
+      <revisionDesc><change><date>2024-11-07</date>Transcription intégrale à partir du codex 148. Appui de l'édition Meylan. Encodage de niveau 1+.</change></revisionDesc>
+      <!-- A faire : Annotation / Sauts logiques -->
    </teiHeader>
    <facsimile>
       <surface xml:id="Cod.148_14a" n="107v">

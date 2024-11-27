@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc xml:id="Hagard">
+         <titleStmt>
+            <title>Epistre du Coq à Lasne à M. Claude Hagard, facteur</title>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p><listWit>
+                  <witness xml:id="Ye.2721"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris, </settlement>
+                           <institution>Bibliothèque nationale de France.</institution>
+                        </msIdentifier>
+                     </msDesc></witness>
+
+               </listWit></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p>
+            <interpGrp>
+               <interp xml:id="adr" ana="adresse">adresse</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="topos" ana="topos">lieu commun</interp>
+               <interp xml:id="gén" ana="généralisation">généralisation</interp>
+               <interp xml:id="ironie" ana="ironie">ironie</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="actu" ana="actualité">actualité</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+               <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+               <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+               <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+               <interp xml:id="massacre" ana="massacre">massacre</interp>
+               <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+               <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+               <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+               <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+               <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+               <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+               <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+               <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="corruption" ana="corruption">corruption</interp>
+               <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+               <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                  nécessaire</interp>
+               <interp xml:id="court" ana="court">vie de la court</interp>
+               <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+               <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+               <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="corps" ana="corps">corps</interp>
+               <interp xml:id="violences" ana="violences">guerres civiles</interp>
+               <interp xml:id="pillage-s" ana="pillages">Vol, pillages</interp>
+               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+               <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+               <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+               <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+               <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+               <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+               <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                  gnomique</interp>
+               <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+               <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+               <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+               <interp xml:id="exhortation" ana="exhortation">exhortations et
+                  encouragements</interp>
+               <interp xml:id="rire" ana="rire">rire</interp>
+               <interp xml:id="maladie" ana="maladie">maladie</interp>
+               <interp xml:id="misères" ana="misères">misères de ce temps</interp>
+               <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                  valeurs</interp>
+               <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+               <interp xml:id="rome" ana="contre_Rome">Contre Rome et la papauté</interp>
+               <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+               <interp xml:id="practiques" ana="practiques">practiques</interp>
+               <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+               <interp xml:id="misogynie" ana="misogynie">mysoginie</interp>
+               <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+               <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+               <interp xml:id="météo" ana="météo">météorologie</interp>
+               <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+               <interp xml:id="vanité" ana="vanité">vanité</interp>
+               <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
+                  l'adversaire</interp>
+               <interp xml:id="PolitiqueS" ana="PolitiqueS">Contre les politiques</interp>
+               <interp xml:id="cri" ana="cri">Cris de Paris</interp>
+            </interpGrp>
+         </p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+            <pb/>
+            <l>ET puis mon bon amy <persName type="destinataire">Hagard</persName>,</l>
+            <l ana="#sat_pers">Cognois tu point <rs type="invective">ce grand bragard</rs></l><note
+               resp="editor" type="ling"><hi rend="italic">Bragard</hi>: dans le sens d'orgueilleux
+               et de fier ici.</note>
+            <l ana="#sat_pers">Qui contrefait tant du grobis</l><note resp="editor" type="ling"><hi
+                  rend="italic">Grobis</hi>: Qui se donne de l'importance.</note>
+            <l n="4" ana="#sat_pers">Il semble un ramina grobis</l>
+            <l ana="#ironie">Quand il se marche sus sa mulle,</l>
+            <l>Et dit chose estre ridiculle,</l>
+            <l>De faire ainsi faire le guet</l>
+            <l n="8"><reg>À</reg>
+               <persName>Marion</persName> &amp; <reg>à</reg>
+               <persName>Huguet</persName></l>
+            <l>Au coing de l'<placeName>eglise saint Cosme</placeName>:</l><note resp="editor"
+               type="glose">On hésite <placeName><geo>48.5101 2.2032</geo>l'église anciennement
+                  située à Paris</placeName> à l’angle de la rue des Cordeliers (actuelle rue de
+               l’École-de-Médecine) et de rue de la Harpe et plus
+                     vraisemblablement<placeName><geo>49.0644 2.2543</geo> l'église
+                  Saint-Cosme-Saint-Damiens de Luzarches</placeName></note>
+            <!-- Saut#1 --><anchor type="saut#1"/>
+            <l rend="indent">Un jour passé tout ainsi comme</l>
+            <l>Je retournoye de la <placeName>halle</placeName>,</l><note resp="editor" type="glose"
+               >Peut-être celle de Luzarches, connue depuis le XIIIe siècle.</note>
+            <l n="12">Je vis un sot pourtant sa malle</l>
+            <l>Qui trenchoit fort de l'achepteur,</l>
+            <l>Je ne scay s'il fut crocheteur</l>
+            <l>De benefice ou de bouteille,</l>
+            <l n="16"><rs type="interjection" subtype="juron">Par Dieu</rs> s'on luy coupoit l'oreille</l>
+            <l>Ce ne seroit pas trop mal fait:</l>
+            <l>Car je vous promets en effet</l>
+            <l>Que c'est <rs type="invective">un tresmeschant larron</rs></l>
+            <!-- Saut#2 --><anchor type="saut#2"/>
+            <l n="20" ana="#cri">Chastines à rostir Marron,</l>
+            <l ana="#cri">Ce sont deux des cris de <placeName type="city" key="Paris"
+                  >Paris</placeName>.</l>
+            <fw type="sig" place="bottom-right">Dis tu</fw>
+            <pb/>
+            <l>Dis tu point qu'ils sont tous peris</l>
+            <l>Ces <rs type="métier">lanterniers</rs>, &amp; que <rs type="métier">marchans</rs></l>
+            <l n="24">Sont (comme on dit) souvent meschants</l>
+            <l>Quand <reg>il[s]</reg> font d'un tanné un rouge.</l>
+            <!-- Saut#3 --><anchor type="saut#3"/>
+            <l rend="indent">Hola tout beau que l'on ne bouge</l>
+            <l>Et me dits si tu crois cela,</l>
+            <l n="28">Cognois tu point cil qui scella</l>
+            <l>À sa commere, le devant?</l>
+            <l><rs type="interjection">Ha mon Dieu</rs> qu'il estoit scavant</l>
+            <l ana="#mtd">Car il cognu, vray est ce texte,</l>
+            <l n="32">Que cornes luy fit en la teste</l>
+            <l>Ou devant n'estoit qu'un <rs type="animal">agneau</rs>,</l>
+            <l>Celuy qui pourtrahy l'aneau</l>
+            <l>Ne voulut son compere croire,</l>
+            <l n="36">Combien que s'il eust eu la foire</l>
+            <l>Le cotton luy eust fort servi,</l>
+            <!-- Saut#4 --><anchor type="saut#4"/>
+            <l>Fust ce à lors que tu t'asservi,</l>
+            <l><reg>À</reg> recorder ainsi ton roulle.</l>
+            <!-- Saut#5 --><anchor type="saut#5"/>
+            <l n="40" rend="indent" ana="#maladie">Ha que la meschante <rs type="maladie">verolle</rs></l>
+            <l ana="#maladie">Fait maintesfois crier <rs type="iinterjection" subtype="plainte">helas</rs>,</l>
+            <!-- Saut#6 --><anchor type="saut#6"/>
+            <l>J'en ay veu que prenois soulas,</l>
+            <l>Plaisir esbat, &amp; passetemps</l>
+            <l n="44" ana="#motifs_sexuels"><reg>À</reg> mener dames sur les champs.</l>
+            <l rend="indent">Et puis tu ne veux qu'on en rie,</l>
+            <l ana="#misogynie">D'une qui fait la rencherie,</l><note resp="editor" type="ling"><hi
+                  rend="italic">Renchérie</hi>: précieuse.</note>
+            <l ana="#misogynie">Et si sent tant le vieil cabas</l><note resp="editor" type="ling"
+                  ><hi rend="italic">Vieil cabas</hi>: "Vieille femme" (Di Stefano, p. 93).</note><!-- Cf. faictz et dictz -->
+            <!-- Saut#7 --><anchor type="saut#7"/>
+            <l n="48">Par <persName type="saint">Saint Jean</persName> c'il descent cy bas</l>
+            <l>En Marrabeth se fera tondre.</l><note resp="editor" type="ling"><hi rend="italic"
+                  >Marrabais</hi>: Juif converti ou Espagnol descendu des Maures (Huguet).</note>
+            <fw type="sig" place="bottom-right">Il ad</fw>
+            <pb/>
+            <!-- Saut#8 --><anchor type="saut#8"/>
+            <l rend="indent">Il advient souvent pour respondre</l>
+            <l>Qu'il faut user de contreditz,</l><!-- Cf. faictz et dictz -->
+            <!-- Saut#9 --><anchor type="saut#9"/>
+            <l n="52">Je le sçay passé des ans dix</l>
+            <l>Que ce <rs type="invective">gros Jobelin</rs> munier,</l><note resp="editor"
+               type="ling"><hi rend="italic">Jobelin</hi>: niais.</note>
+            <l>Laisse sa <expan>femme</expan> manier</l>
+            <l><reg>À</reg> celuy <expan>qui</expan> en à affaire:</l>
+            <!-- Saut#10 --><anchor type="saut#10"/>
+            <l n="56">Si quelque cas nous vient à faire,</l>
+            <l>De l'acomplir y mettrons ordre.</l>
+            <!-- Saut#11 --><anchor type="saut#11"/>
+            <l rend="indent">Hau, <persName>Jenin</persName>, faut il qu'on vous morde</l><note
+               resp="editor" type="ling"><hi rend="italic">Jenin</hi>: "mari trompé ou complaisant"
+               (Huguet).</note>
+            <l>Ou que <reg>l'on</reg> vous touche mon <rs type="animal" subtype="équidé"
+               >asne</rs>:</l>
+            <!-- Saut#12 --><anchor type="saut#12"/>
+            <l n="60"><reg>Ô</reg> la belle gorge de <rs type="animal">Cane</rs>,</l>
+            <l>Qui fait si bien de l'eau son cas,</l><!-- Cf. faictz et dictz -->
+            <!-- Saut#13 --><anchor type="saut#13"/>
+            <l>Quand la boursette sonne cas,</l>
+            <l>Bon est en pot monsieur de gresse,</l>
+            <!-- Saut#14 --><anchor type="saut#14"/>
+            <l n="64">C'est pource que quand on les <reg>engresse</reg>,</l>
+            <l>Qu'ilz sont vers comme <rs type="animal" subtype="oiseau">Perroquets</rs>.</l>
+            <!-- Saut#15 --><anchor type="saut#15"/>
+            <l rend="indent">Au diable toutes ces perruques</l>
+            <l>Qui nous font rencherir les pignes,</l>
+            <l n="68" ana="#maladie">Que le <rs type="maladie">mal saint Job</rs> &amp; la
+               tigne,</l>
+            <l ana="#imprécation">Leur puist faire un jour reverence,</l>
+            <l ana="#équivoque">Chacun seroit reverend en ce</l>
+            <l>Voire s'il n'avoit mal au bras.</l>
+            <!-- Saut#16 --><anchor type="saut#16"/>
+            <l n="72" rend="indent">Leus tu jamais en Fierabras</l>
+            <l>La chanson de Jean de Laigni,</l>
+            <!-- Saut#17 --><anchor type="saut#17"/>
+            <l>Tu scez assez <reg>où</reg> est <placeName type="city" key="Margni"><geo>49.4030
+                     2.5205</geo>Magni</placeName>,</l>
+            <l><reg>C'est</reg> plus pres de <placeName type="city" key="Muille"><geo>49.4341
+                     3.0402</geo>Muille</placeName> que <placeName type="city" key="Ham"
+                     ><geo>49.4450 3. 0425</geo><reg>Ham</reg></placeName>.</l>
+            <!-- Saut#18 --><anchor type="saut#18"/>
+            <l n="76">Fy villain petez vous d'ahan,</l>
+            <l ana="#imprécation">Que malle vesse puissiez boire,</l>
+            <l>Vous ne mangerez de la poire,</l>
+            <fw type="sig" place="bottom-right">Qui</fw>
+            <pb/>
+            <l>Qui est mon amy <persName>de Certeau</persName>.</l>
+            <!-- Saut#19  --><anchor type="saut#19"/>
+            <l n="80" rend="indent">On dit que c'est un fort chasteau</l>
+            <l>Que celuy qui est à <placeName type="city" key="Hesdin"><geo>50.2152
+                  2.0548</geo>Hedin</placeName>,</l><note resp="editor" type="glose">Le château est
+               détruit en 1553 par Charles-Quint en même temps que la ville.</note>
+            <!-- Saut#20 --><anchor type="saut#20"/>
+            <l>Et que c'est tout que le badin,</l>
+            <l>Quand on scait bien jouer la farce,</l>
+            <!-- Saut#21 --><anchor type="saut#21"/>
+            <l n="84">Ce fut pitié <reg>qu'elle</reg> ne fut arse</l>
+            <l>Pour avoir deffait son enfant</l>
+            <!-- Saut#22 --><anchor type="saut#22"/>
+            <l>En veis tu jamais mieux bouffant</l>
+            <l>Que nostre glorieux Cocard?</l>
+            <l n="88">Saint Jean nenny, quand un cocard</l>
+            <l>C'est par estre du feu trop pres,</l>
+            <l>Il court en poste apres, apres</l>
+            <l>Il fera mieux que moy l'office,</l>
+            <l n="92">Pour impetrer un benefice</l>
+            <l>Car il scait bien trencher du lourd.</l>
+            <!-- Saut#23 --><anchor type="saut#23"/>
+            <l rend="indent">Ha mon amy quel beau milourt</l>
+            <l>Pour mettre droit ces chaperons,</l>
+            <!-- Saut#24 --><anchor type="saut#24"/>
+            <l n="96">Ainsi est car nous esperons,</l>
+            <l>Que chascun pensera aux cas:</l>
+            <!-- Saut#25 --><anchor type="saut#25"/>
+            <l>Pourquoy les logis d'advocats</l>
+            <l>Sont bastis si triumphamment.</l>
+            <!-- saut#26 --><anchor type="saut#26"/>
+            <l n="100" rend="indent">Si tu dis que le brave <choice>
+                  <orig>mens</orig>
+                  <reg resp="editor">ment</reg>
+               </choice>,</l>
+            <l>Qu'il n'oseroit te donner trente,</l>
+            <l>Je presuppose en mon entente</l>
+            <l>Que tu aurois encor le dé.</l>
+            <!-- Saut#27 --><anchor type="saut#27"/>
+            <l n="104" rend="indent">Fut elle pas fille à <persName>Ledé</persName>,</l>
+            <l>La belle &amp; la rebelle <persName>Helaine</persName>,</l>
+            <l>Maint pour elle perdit la laine</l>
+            <fw type="mark">F</fw>
+            <pb/>
+            <l><reg>À</reg> l'expugnation de <placeName>Troye</placeName></l>
+            <!-- Saut#28 --><anchor type="saut#28"/>
+            <l n="108">Et si à plus de femme à <placeName type="city"><geo>49.4152
+                  2.4721</geo>Roye</placeName></l>
+            <l>Qu'il <reg>n'y</reg>
+               <reg>a</reg> pas en toute <placeName type="country" key="France"
+               >France</placeName>,</l>
+            <l>Ayez pitié de la souffrance,</l>
+            <l>Que reçoit pour vous un Amant,</l>
+            <!-- Saut#29 --><anchor type="saut#29"/>
+            <l n="112">Il pert son sens, il est amant,</l>
+            <l>Il est ravi en ses amours</l>
+            <!-- Saut#30 --><anchor type="saut#30"/>
+            <l>Pource si tu <reg>passe[s]</reg> à <placeName type="city" key="Limours">Limours</placeName>,</l>
+            <l><rs type="invective" subtype="impératif">Garde toy</rs> de ceste damnnée,</l>
+            <l n="116">Qui nous fut un jour admenée</l>
+            <l>Pour avec nous prendre repos.</l>
+            <l rend="indent">Vrayement puis qu'il vient à propos</l>
+            <l>Je t'en diray au vray la chose,</l>
+            <l n="120">Chacun disoit que <reg>c'estoit</reg> Rose,</l>
+            <l>Tant avoit musequin riant,</l>
+            <l>Ha par mon ame il fut friant</l>
+            <l ana="#motifs_sexuels">Qui premier tasta de ses prunes,</l>
+            <!-- Saut#31 --><anchor type="saut#31"/>
+            <l n="124">On dit que quand elles sont brunes</l>
+            <l>Qu'elles sont de bonne couleur,</l>
+            <!-- Saut#32 --><anchor type="saut#32"/>
+            <l>En tout n'<reg>y a</reg> qu'heur &amp; malheur,</l>
+            <l>On le dit tout communement:</l>
+            <!-- Saut#33 --><anchor type="saut#33"/>
+            <l n="128">Puis se une communement</l>
+            <l>C'est pour saillir un bon <rs type="métier">danseur</rs>,</l>
+            <!-- Saut#34 --><anchor type="saut#34"/>
+            <l>Par tel moyen qu'un bon <rs type="métier">brasseur</rs></l>
+            <l>Se trouve estonné en sa biere.</l>
+            <!-- Saut#35 --><anchor type="saut#35"/>
+            <l n="132" rend="indent">Icy gerra la <rs type="métier">chambriere</rs></l>
+            <l>Qui l'eust plus tost laissé pourrir,</l>
+            <l>Que pour oster la jambe ouvrir</l>
+            <fw type="sig" place="bottom-right">Chacun</fw>
+            <pb/>
+            <l>Chacun entend bien la chosette:</l>
+            <l n="136">Elle fut jadis tant doucette</l>
+            <l>Qu'<reg>à</reg> tous se laissoit accoller,</l>
+            <l>Par tel party qu'<reg>à</reg> reculler</l>
+            <l>On luy faisoit payer <reg>l'amande</reg>,</l>
+            <!-- Saut#36 --><anchor type="saut#36"/>
+            <l n="140" ana="#misogynie">Fy fy de la vieille Normande.</l>
+            <l ana="#motifs_sexuels">Qui suit chacun jusqu'au grenier</l>
+            <l>Et pour je ne scay quoy gaignier,</l>
+            <l>Laisse brouiller son parchemin</l><note resp="editor" type="ling">Acception grivoise
+               du terme <hi rend="italic">parchemin</hi> pour désigner les parties sexuelles.</note>
+            <l n="144" ana="#équivoque">Se je la treuve par chemin,</l>
+            <l>Je luy donray le mal encontre.</l>
+            <!-- Saut#37 --><anchor type="saut#37"/>
+            <l rend="indent"><rs type="injonction" subtype="impératif">Recouvré nous</rs> d'un basse
+               contre</l>
+            <l>Et d'une taille, &amp; d'un dessus,</l>
+            <l n="148">Ainsi nous pourrons mettre sus</l>
+            <l>La chanson de <persName>frere Thibaut</persName>:</l>
+            <l>Et lairras tu cela <persName>Michaut</persName>.</l>
+            <l rend="indent">Pour chanter un jour à la feste</l>
+            <l n="152">Ou autrement je te proteste,</l>
+            <l>Que je ne chanteray ja messe,</l>
+            <l>Quand on <reg>a</reg> fait quelque promesse,</l>
+            <l>De l'accomplir n'est de raison.</l>
+            <!-- Saut#38 --><anchor type="saut#38"/>
+            <l n="156"><rs type="interjction" subtype="juron">Par Dieu</rs> <reg>c'est</reg> grande desraison</l>
+            <l>Fillette qu'on ne vous marie,</l>
+            <l>Je croy que n'en seriez marrie,</l>
+            <l>On le voit bien à vostre face.</l>
+            <!-- Saut#39 --><anchor type="saut#39"/>
+            <l n="160" rend="indent">Et puis que voulez vous qu'on face</l>
+            <l>Quand on ne peut plus rien manger</l>
+            <l>Sur ce point pretend me ranger,</l>
+            <fw type="mark" place="bottom-right">F 2</fw>
+            <l>Faisant mon chevet d'une enclume</l>
+            <l n="164">Car par trop est lassé ma plume.</l>
+         </p>
+      </body>
+   </text>
+</TEI>

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Epistre de Lasne au coq par Francoys la Salla, a son amy Pierre Bordet.</title>
+            <title>Epistre de Lasne au coq par Francoys la Salla, <reg>à</reg> son amy Pierre
+               Bordet.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -28,12 +29,13 @@
             <reg>m’est</reg> advis</l>
          <l>Que <reg>je</reg> suis au <placeName>champ <reg>d’Elisée</reg></placeName></l>
          <l n="4"><reg>Avec</reg>
-            <persName>Enoch</persName> &amp; <persName>Elisée</persName></l>
-         <l>Qui font le guet contre <persName>antechrist</persName></l>
+            <persName key="Enoch">Enoch</persName> &amp; <persName>Elisée</persName></l>
+         <l>Qui font le guet contre <persName key="Antéchrist">antechrist</persName></l>
          <l>Mais tenons nous <reg>à</reg>
-            <persName>Jesuchrist</persName></l>
+            <persName key="Jésus-Christ">Jesuchrist</persName></l>
          <l>Sans <reg>jamais</reg> estre variables</l>
          <!-- Saut#1 -->
+         <anchor type="saut#1"/>
          <l n="8">Je te demande si les dyables</l>
          <l>Ont tant de cornes que <reg>l’on</reg> dit</l>
          <pb n="np"/>
@@ -41,62 +43,70 @@
             <reg>advis</reg> que <reg>c’est</reg> mesdict</l>
          <l><reg>Qu’ung</reg> esperit se laisse ainsi veoir</l>
          <!-- Saut#2 -->
+         <anchor type="saut#2"/>
          <l n="12">Voyla qui <reg>m’a</reg> fait esmouvoir</l>
-         <l>De chanter par tout <reg>ça</reg> et la</l>
-         <l>Secourez moy <reg>d’où</reg> vient cela</l>
-         <l>Que plus ne vous recommandes</l>
+         <l>De chanter par tout <reg>ça</reg> et <reg>là</reg></l>
+         <l><rs type="injonction" subtype="impératif">Secourez moy</rs>
+            <reg>d’où</reg> vient cela</l>
+         <l>Que plus ne vous recommandés</l>
          <!-- Saut#3 -->
+         <anchor type="saut#3"/>
          <l n="16">Affin que si <reg>jouez</reg> aux dedz</l>
          <l>Que tu te gardez des hazars</l>
          <!-- Saut#4 -->
+         <anchor type="saut#4"/>
          <l>Ce <reg>n’est</reg>
-            <reg>qu’à</reg> faulte de croysardz</l>
-         <l>Que le turcq nous occupe <placeName>Rhodes</placeName></l>
+            <reg>qu’à</reg> faulte de <orgName type="soldat" subtype="croisé"
+            >croysardz</orgName></l>
+         <l>Que le <orgName type="peuple">Turcq</orgName> nous occupe <placeName type="city"
+               key="Rhodes">Rhodes</placeName></l>
          <l n="20"><choice>
                <orig>Cōbien</orig>
                <reg>Combien</reg>
             </choice>
             <reg>qu’on</reg> dit qu’aux <placeName>Antipodes</placeName></l>
-         <l>Le pays est fort altere,</l>
-         <l>Mais <reg>l’air</reg> y est si tempere</l>
+         <l>Le pays est fort <reg>altéré</reg>,</l>
+         <l>Mais <reg>l’air</reg> y est si <reg>tempéré</reg></l>
          <l>Que personne <reg>n’y</reg> peult mourir</l>
-         <!-- Saut#5 -->
-         <l n="24"><persName><reg>L’empereur</reg></persName>
+         <!-- Saut#5 --><anchor type="saut#5"/>
+         <l n="24"><persName ref="ind:Charles-Quint" key="Charles-Quint"
+               ><reg>L’empereur</reg></persName>
             <reg>s’en</reg> va secourir</l>
          <l>Son frere <persName>le roy <choice>
                   <orig>Dongrie</orig>
-                  <reg>de <placeName><settlement type="country"
-                     >Hongrie</settlement></placeName></reg>
+                  <reg>de <placeName type="country" key="Hongrie">Hongrie</placeName></reg>
                </choice></persName></l>
-         <!-- Saut#6 -->
+         <!-- Saut#6 --><anchor type="saut#6"/>
          <l>Pource <reg>qu’on</reg> ne tient la crie</l>
          <!-- Vers hypomètre -->
          <l>Des escus et testons de poix</l>
          <!-- erreur de copie esches pour escus -->
-         <l n="28">Garde toy de manger des poix</l>
+         <l n="28"><rs type="injonction" subtype="impératif">Garde toy</rs> de manger des poix</l>
          <l>Que le lard ne soit bien <reg>haché</reg></l>
-         <!-- Saut#7 -->
-         <l>Les lymossins ont bon <reg>marché</reg></l>
+         <!-- Saut#7 --><anchor type="saut#7"/>
+         <l>Les <orgName type="peuple">Lymossins</orgName> ont bon <reg>marché</reg></l>
          <l>De ravez et petiz naveaulx</l>
-         <!-- Saut#8 -->
+         <!-- Saut#8 --><anchor type="saut#8"/>
          <l n="32">Noelz nouveaulx <choice>
                <orig>Noel</orig>
                <reg>Noelz</reg>
             </choice> nouveaulx</l>
-         <l>Avec ung de <persName>Clement Maroth</persName></l>
-         <!-- Saut#9 -->
-         <l><persName>Sathan</persName>,<persName>beherith</persName>
-            <persName>astharoth</persName></l>
+         <l>Avec ung de <persName ref="ind:Marot" key="Clément Marot">Clement Maroth</persName></l>
+         <!-- Saut#9 --><anchor type="saut#9"/>
+         <l><persName key="Satan">Sathan</persName>,<persName key="Beherith">beherith</persName>
+            <persName key="Astarot">astharoth</persName></l>
          <l>Accompaignes des hennuyers</l>
          <l n="36">Ont abbatu force noyers</l>
          <l>Parmy ces roches de <placeName><reg>Quercy</reg></placeName></l>
-         <!-- Saut#10 -->
-         <l>Va <reg>t’en</reg> dela <reg>je</reg> suis icy</l>
-         <!-- Saut#12 -->
+         <!-- Saut#10 --><anchor type="saut#10"/>
+         <l><rs type="injonction" subtype="impératif">Va <reg>t’en</reg></rs> dela <reg>je</reg>
+            suis icy</l>
+         <!-- Saut#12 --><!-- ERREUR DE NUMEROTATION -->
          <pb n="np"/>
-         <l>Combatons nous hōme pour hōme</l>
+         <l><rs type="injonction" subtype="impératif">Combatons nous</rs>
+            <expan>homme</expan> pour <expan>homme</expan></l>
          <!-- Saut#13 -->
-         <l n="40">Les Cardinaulx qui sont <reg>à</reg>
+         <l n="40"><roleName>Les Cardinaulx</roleName> qui sont <reg>à</reg>
             <placeName>Rome</placeName></l>
          <l><reg>N’en</reg> feront pource moindre chere</l>
          <l>Car quant tu <choice>
@@ -156,7 +166,7 @@
          <l>Qui est patron et mandataire</l>
          <!--Saut#23-->
          <pb n="np"/>
-         <l n="68">Vien sa monsieur le lapidaire</l>
+         <l n="68"><rs type="injonction" subtype="impératif">Vien sa</rs> monsieur le lapidaire</l>
          <l>Avez vous des pierres indoyses</l>
          <l>Combien le quintal des turquoyses</l>
          <l>Et la livre des esmeraudes</l>
@@ -170,7 +180,7 @@
          <l>Puis <reg>qu’on</reg> dit que la terre ronde</l>
          <l>Le ciel <reg>n’en</reg> est pas plus <reg>quarré</reg></l>
          <!--Saut#26-->
-         <l n="76">Chantons Ut la mi fa sol <reg>ré</reg></l>
+         <l n="76"><rs type="injonction" subtype="impératif">Chantons</rs> Ut la mi fa sol <reg>ré</reg></l>
          <l>Pour donner au phiffre l’aubade</l>
          <!-- Saut#27 -->
          <l>Voyla pour toy une gambade</l>
@@ -181,15 +191,17 @@
          <!-- Saut#29 -->
          <l>Disons <rs type="jeu">Cornichon va devant</rs><note type="editor" subtype="ling">Jeu qui
                consistait à courir en ramassant des objets au passage. (Huguet)</note></l>
-         <l>Et suyvez moy mon compaignon</l>
+         <l>Et <rs type="injonction" subtype="impératif">suyvez moy</rs> mon compaignon</l>
          <!-- Saut#30 -->
-         <l n="84">Ne manges point <reg>d’aulx</reg> ne <reg>d’oignon</reg></l>
-         <l>Si vous avez <reg>couppé</reg> le doy</l><!-- Saut#31 -->
+         <l n="84"><rs type="injonction" subtype="défense">Ne manges point</rs> <reg>d’aulx</reg> ne <reg>d’oignon</reg></l>
+         <l>Si vous avez <reg>couppé</reg> le doy</l>
+         <!-- Saut#31 -->
          <l>[Vers manquant]</l>
-         <l>La bonne fleuste de <persName key="Pierre Rafi">Raffy</persName>.</l><!-- Saut#32 -->
+         <l>La bonne fleuste de <persName key="Pierre Rafi">Raffy</persName>.</l>
+         <!-- Saut#32 -->
          <l n="88">Attendons que <persName key="Le roi de Perse">le grand Sophy</persName></l>
-         <l>Ayt ces <reg>Turquoys</reg> tous desconfiz</l>
-         <l>Et metons fin <reg>à</reg> noz escripz.</l>
+         <l>Ayt ces <orgName type="peuple" key="Turc"><reg>Turquoys</reg></orgName> tous desconfiz</l>
+         <l>Et <rs type="injonction" subtype="impératif">metons fin</rs> <reg>à</reg> noz escripz.</l>
 
          <l>Tout par esgard.</l>
          <l>FINIS.</l>

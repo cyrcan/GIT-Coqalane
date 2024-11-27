@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -9,23 +8,46 @@
             <title>Le Coq à l'Ane des Ministres de Geneve &amp; huguenots de France.</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Transcription à partir des deux témoins des Bibliothèque nationale de France et
+               universitaire de Bâle. L'exemplaire bâlois corrige les fautes de celui de Paris.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p><listWit>
+                  <witness xml:id="Rés_P_Ye241"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris,</settlement>
+                           <institution>Bibliothèque nationale de France</institution>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness xml:id="Aleph_E_XI_12"><msDesc>
+                        <msIdentifier>
+                           <settlement>Basel, </settlement>
+                           <institution>Bibliothèque universitaire de Bâle.</institution>
+                           <idno>Aleph E XI 12</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+
+               </listWit>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc><p><listPerson><person xml:id="De_Bèze" corresp="https://data.bnf.fr/ark:/12148/cb11891892g">
-         <idno type="ISNI">0000 0001 2137 1511</idno>
-         <persName xml:lang="fr"><forename type="first">Théodore</forename><surname> de
-            Bèze</surname></persName></person>
-         <person xml:id="Perrussel">
-            <idno/>
-            <persName xml:lang="fr"><forename type="first">François</forename><surname>
-               Perrussel</surname></persName>
-         </person>
-      </listPerson></p></encodingDesc>
-      <revisionDesc><change><date>02-03-2024</date>Correction</change></revisionDesc>
+      <encodingDesc>
+         <p><listPerson>
+               <person xml:id="De_Bèze" corresp="https://data.bnf.fr/ark:/12148/cb11891892g">
+                  <idno type="ISNI">0000 0001 2137 1511</idno>
+                  <persName xml:lang="fr"><forename type="first">Théodore</forename><surname> de
+                        Bèze</surname></persName>
+               </person>
+               <person xml:id="Perrussel">
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">François</forename><surname>
+                        Perrussel</surname></persName>
+               </person>
+            </listPerson></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change><date>2024-03-02</date>Correction</change>
+         <change><date>2024-08-12</date>Confrontation avec l'exemplaire de Basel</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -40,27 +62,51 @@
          </listBibl>
          <pb n="83v"/>
 
-         <l><emph>EN</emph> <reg>revenant</reg> de <placeName><settlement type="city" key="Genève">Geneve</settlement></placeName> pres le
-               <placeName>Lac,</placeName></l>
-         <l>Par terre <reg>trouvis</reg> un sac</l>
-         <l>Tout plein de briborions,</l><note resp="editor" type="ling">Briborion : Prière dite machinalement (Huguet)</note>
+         <l><emph>EN</emph>
+            <reg>revenant</reg> de <placeName><settlement type="city" key="Genève"
+                  >Geneve</settlement></placeName> pres le <placeName>Lac,</placeName></l>
+         <l>Par terre <app>
+               <lem wit="#Rés_P_Ye241"><reg>trouvis</reg></lem>
+               <rdg wit="#Aleph_E_XI_12">trouvay</rdg>
+            </app> un sac</l>
+         <l>Tout plein de briborions,</l>
+         <note resp="editor" type="ling">Briborion : Prière dite machinalement (Huguet)</note>
          <l n="4">Si <persName ref="#Perrussel">Perucel</persName> eust esté enclos dedans</l>
-         <l>Rompu luy eussent les dents</l>
+         <l>Rompu luy <app>
+               <lem wit="#Rés_P_Ye241">eussent</lem>
+               <rdg wit="#Aleph_E_XI_12">eusse</rdg>
+            </app> les dents</l>
          <l><reg>À</reg> grands coups de horions,</l>
-         <l><reg>À</reg> quels beaux trousseux</l>
-         <l n="8">Des pots de vins carrousseux</l><note resp="editor" type="ling">Faire carous : Boire dans une réunion où l'on se provoque mutuellement à boire, tenir tête à qqn en buvant, faire un excès de boisson. (Huguet)</note>
+         <l><app>
+               <lem wit="#Aleph_E_XI_12"><reg>Ô</reg></lem>
+               <rdg wit="#Rés_P_Ye241"><reg>À</reg></rdg>
+            </app> quels beaux <app>
+               <lem wit="#Rés_P_Ye241">trousseux</lem>
+               <rdg wit="#Aleph_E_XI_12">trousseurs</rdg>
+            </app></l>
+         <l n="8"><app>
+               <lem wit="#Rés_P_Ye241">Des</lem>
+               <rdg wit="#Aleph_E_XI_12">De</rdg>
+            </app> pots de vins carrousseux</l>
+         <note resp="editor" type="ling">Faire carous : Boire dans une réunion où l'on se provoque
+            mutuellement à boire, tenir tête à qqn en buvant, faire un excès de boisson.
+            (Huguet)</note>
          <l>Sont ces Cantons d'<placeName type="pays" key="Allemagne">Allemaigne</placeName></l>
          <l>Halle <reg>levrier</reg></l>
-         <l>Quand <reg>un</reg> <rs type="animal"><reg>lievre</reg></rs> va du pied</l>
+         <l>Quand <reg>un</reg>
+            <rs type="animal"><reg>lievre</reg></rs> va du pied</l>
          <!--EXPRESSION-->
          <l n="12">Il brouille bien du papier.</l>
          <l rend="indent"><expan>Dedans</expan>
-            <placeName type="city" key="Genève">Geneve</placeName> ces ministres <reg>nouveaux</reg></l>
+            <placeName type="city" key="Genève">Geneve</placeName> ces ministres
+            <reg>nouveaux</reg></l>
          <l>Qui preschent comme des <rs type="animal">veaux</rs></l>
          <l>Sont en repos maintenant,</l>
-         <l n="16"><reg>J</reg>'ay quelque fois entendu <persName type="peuple"
-               >l'espagnol</persName></l>
-         <l>Chantant comme <reg>un</reg> <rs type="animal">Rossignol</rs></l>
+         <l n="16"><reg>J</reg>'ay quelque fois entendu <orgName type="peuple"
+            >l'espagnol</orgName></l>
+         <!-- Majuscule dans Basel -->
+         <l>Chantant comme <reg>un</reg>
+            <rs type="animal">Rossignol</rs></l>
          <l>Dechiffrer son Allemant,</l>
          <l><persName ref="#De_Bèze"><choice>
                   <orig>Baise</orig>
@@ -68,36 +114,50 @@
                </choice></persName> n'est qu'<reg>un</reg> sot,</l>
          <l n="20">Parlons hault sans dire mot,</l>
          <!--Paradoxe-->
-         <l>Quiconque ira dedans <placeName><settlement type="city">Rome</settlement></placeName>,</l>
+         <l>Quiconque ira dedans <placeName><settlement type="city"
+            >Rome</settlement></placeName>,</l>
          <l>Il rapportera</l>
-         <l>Plain sa teste pour certain</l>
+         <l><app>
+               <lem wit="#Aleph_E_XI_12">Plein</lem>
+               <rdg wit="#Rés_P_Ye241">Plain</rdg>
+            </app> sa teste pour certain</l>
          <pb n="84"/>
-         <l n="24">D'hebreu bon Grec &amp; latin.</l>
+         <l n="24">D'<reg>Hebreu</reg><reg>,</reg> bon Grec &amp; latin.</l>
          <!--écho au CAA2 de Marot-->
          <l rend="indent">Comme la glace au soleil sont defondus</l>
          <l>Ces ministres morfondus</l>
          <!--écho 1572-->
          <l>Chacun d'eux est negligent,</l>
-         <l n="28"><reg>Un</reg> bon frelot m'a dict que <persName ref="#Perrussel">Perroceli</persName></l>
+         <l n="28"><reg>Un</reg> bon frelot m'a dict que <persName ref="#Perrussel"
+               >Perroceli</persName></l>
          <l>A vendu deux de ces lits</l>
          <l>Faulte qu'il n'a point d'argent,</l>
          <l><choice>
                <orig>Dn</orig>
                <reg>Du</reg>
-            </choice> tout son au bas</l>
+            </choice> tout <reg>sont</reg> au bas</l>
          <l n="32">Ils faisoient de bons repas</l>
          <l>Quand ils preschoient par la <placeName type="pays">France</placeName>,</l>
          <l>Moue <persName type="inconnnu"><reg>Jean</reg> Babbeau</persName></l>
-         <l>Qui torche leurs gros museau</l>
+         <l><app>
+               <lem wit="#Aleph_E_XI_12">Qu'ilz torchent leur</lem>
+               <rdg wit="#Rés_P_Ye241">Qui torche leurs</rdg>
+            </app> gros museau</l>
          <l n="36"><reg>Jamais</reg> ne l'auront si beau.</l>
-         <l rend="indent">Si les ministres estoient dans des fourchaux</l>
+         <l rend="indent">Si les ministres estoient <app>
+               <lem wit="#Rés_P_Ye241">dans des fourchaux</lem>
+               <rdg wit="#Aleph_E_XI_12"><expan>dedans un four chaut</expan></rdg>
+            </app></l>
          <!--Alinéa-->
          <l>Croyez que les <orgName type="secte">huguenaulx</orgName></l>
          <l><reg>À</reg> la presche n'iroient plus,</l>
          <l n="40"><persName type="Biblique"><choice>
                   <orig>Sanson</orig>
                   <reg>Samson</reg>
-               </choice></persName> le fort occis mille <orgName type="peuple"><choice>
+               </choice></persName> le fort <app>
+               <lem wit="#Aleph_E_XI_12">occit</lem>
+               <rdg wit="#Rés_P_Ye241">occis</rdg>
+            </app> mille <orgName type="peuple"><choice>
                   <orig>Filistins</orig>
                   <reg>Philistins</reg>
                </choice></orgName></l>
@@ -110,19 +170,31 @@
                <orig>aller</orig>
                <reg>allé</reg>
             </choice> en <placeName type="dystopie">Barbarie</placeName>,</l>
+         <!-- Cf. Molinet? -->
          <l rend="indent">C'est un grand ennuy</l>
          <l>Que deplucher des navets</l>
          <l n="48">En tricotant des bonnets.</l>
          <l rend="indent"><expan>Quand</expan> me <expan>souvient</expan> je ris de ce bon
                <persName>Calvin</persName></l>
          <l>Qui <reg>tousjours</reg> deux pots de vin</l>
-         <l>Vuidoit à son <reg>desjuner</reg></l>
+         <l>Vuidoit à son <app>
+               <lem wit="#Aleph_E_XI_12">desjeuner</lem>
+               <rdg wit="#Rés_P_Ye241"><reg>desjuner</reg></rdg>
+            </app></l>
          <pb n="84v"/>
          <fw type="sig" place="bottom-right">L iiij</fw>
          <l n="52">L'on dict à <placeName><settlement type="city" key="Caen"
                   ><expan>Cans</expan></settlement></placeName>
-            <expan>q</expan> de cornes de <rs type="animal">pourceaux</rs></l>
-         <l>Derassinent leurs <reg>naveaux</reg></l>
+            <expan>q</expan>
+            <app>
+               <lem wit="#Aleph_E_XI_12">des</lem>
+               <rdg wit="#Rés_P_Ye241">de</rdg>
+            </app> cornes de <rs type="animal">pourceaux</rs></l>
+         <l><app>
+               <lem wit="#Aleph_E_XI_12">Desracinent des naveaux</lem>
+               <rdg wit="#Rés_P_Ye241">Derassinent leurs</rdg>
+            </app>
+            <reg>naveaux</reg></l>
          <l>Dont <reg>je</reg> suis fort estonné</l>
          <l><reg>J</reg>'apperçois <reg>souvent</reg></l>
          <l n="56">Que <reg>devant</reg> soleil <reg>levant</reg>,</l>
@@ -136,8 +208,12 @@
                   <reg>Bèze</reg>
                </choice></persName> entre ses mains</l>
          <l>Et tous autres predicans,</l>
-         <l n="64"><reg>Je</reg> suis bien seur que le <reg>jour</reg> de <persName type="saint">S.
-               Remy</persName>,</l>
+         <l n="64"><reg>Je</reg> suis bien seur que le <reg>jour</reg>
+            <app>
+               <lem wit="#Aleph_E_XI_12"/>
+               <rdg wit="#Rés_P_Ye241">de</rdg>
+            </app>
+            <persName type="saint">S. Remy</persName>,</l>
          <l>Un homme bien endormy</l>
          <l>Pescha deux ou trois estangs,</l>
          <l>Si ce <reg>jour</reg> de l'an,</l>
@@ -159,10 +235,13 @@
                   type="region">Floride</settlement></placeName> descendus</l>
          <l>Des sauvages fort veluz</l>
          <l>Ont trouvé <reg>un</reg> milion,</l>
-         <l><reg>Un</reg> hardy masson</l>
+         <l><reg>Un</reg> hardy <app>
+               <lem wit="#Aleph_E_XI_12">maçon</lem>
+               <rdg wit="#Rés_P_Ye241">masson</rdg>
+            </app></l>
          <pb n="85"/>
          <l n="80">Combattoit <reg>un</reg>
-            <rs type="animal">lymason</rs>,</l>
+            <rs type="animal">lymasson</rs>,</l>
          <l><reg>À</reg> grands coups de sa truelle</l>
          <l><reg>Je</reg> suis bien certain</l>
          <l>Que trente six <orgName type="peuple">Escossois</orgName></l>
@@ -176,12 +255,22 @@
          <l>Comme un mortel ennemy</l>
          <l>Car il a faussé sa foy</l>
          <l>Changeons de propos</l>
-         <l n="92">Ce sont grands rainfleux de pots</l>
+         <l n="92">Ce sont grands <app>
+               <lem wit="#Aleph_E_XI_12">rinsseux</lem>
+               <rdg wit="#Rés_P_Ye241">rainfleux</rdg>
+            </app> de pots</l>
          <l>Au pays de <placeName><settlement type="region">Picardie</settlement></placeName>,</l>
          <l>Je suis bien marry</l>
          <l>Quant les carreaux sont mouillez</l>
          <l n="96">Car l'eau entre à mes solliez.</l>
-         <l rend="indent">Paintre <reg>je</reg> suis qui veut tirer en marmot</l>
+         <l rend="indent"><app>
+               <lem wit="#Aleph_E_XI_12">Peintre</lem>
+               <rdg wit="#Rés_P_Ye241">Paintre</rdg>
+            </app>
+            <reg>je</reg> suis qui veut tirer <app>
+               <lem wit="#Aleph_E_XI_12">un</lem>
+               <rdg wit="#Rés_P_Ye241">en</rdg>
+            </app> marmot</l>
          <l>Le Vidasme huguenot,</l>
          <l>Bien plus qu'<reg>un</reg>
             <rs type="animal">singe</rs> mallin</l>
@@ -190,7 +279,10 @@
          <l>Vestu de toille &amp; couvert,</l>
          <l>Comme l'esle d'<reg>un</reg> moulin</l>
          <l>Dieu gard <orgName type="peuple">les Bretons</orgName></l>
-         <l n="104">Ils <reg>preignent</reg> les <rs type="animal">hannetons</rs></l>
+         <l n="104">Ils <app>
+               <lem wit="#Aleph_E_XI_12">prennent</lem>
+               <rdg wit="#Rés_P_Ye241"><reg>preignent</reg></rdg>
+            </app> les <rs type="animal">hannetons</rs></l>
          <!--écho 1572-->
          <l>En yver quand neige volle</l>
          <l>Si les <orgName type="habitants">Beausserons</orgName></l>
@@ -201,49 +293,70 @@
          <l>D'<reg>avoir</reg> contre son seigneur</l>
          <l>Porté la pistolle au poing</l>
          <l n="112">Si <reg>je</reg> pensois moy seul <reg>combatre</reg>
-            <persName type="peuple">l'Anglois</persName></l>
+            <orgName type="peuple">l'Anglois</orgName></l>
          <l>Soudain <reg>je</reg> m'embarquerois</l>
          <l>Sus la <placeName>mer</placeName> au port au foing</l>
          <l><reg>J</reg>'ay veu de <reg>nouveau</reg></l>
          <l n="116">Vendre le laict d'<reg>un</reg>
             <rs type="animal">toreau</rs></l>
-         <l>Pour blanchir une <choice>
-               <orig>moreses</orig>
-               <reg>moresse</reg>
-            </choice></l>
-         <l>Il couroit <expan>bon</expan>
-            <expan>temps</expan> si n'estoit <orgName type="peuple">les bourguignons</orgName></l>
-         <l>Qui mange noz oygnons.</l>
+         <l>Pour blanchir une <app>
+               <lem wit="#Aleph_E_XI_12">moresque</lem>
+               <rdg wit="#Rés_P_Ye241"><reg>moresse</reg></rdg>
+            </app></l>
+         <l>Il <app>
+               <lem wit="#Aleph_E_XI_12">courroit</lem>
+               <rdg wit="#Rés_P_Ye241">couroit</rdg>
+            </app>
+            <expan>bon</expan>
+            <expan>temps</expan> si n'estoit <orgName type="peuple">les Bourguignons</orgName></l>
+         <l>Qui mange <app>
+               <lem wit="#Aleph_E_XI_12">tous noz</lem>
+               <rdg wit="#Rés_P_Ye241">noz</rdg>
+            </app> oygnons.</l>
          <l n="120" rend="indent">Si <reg>je</reg> faisois ma residence en <placeName><settlement
                   type="region">Poictou</settlement></placeName></l>
          <l>Bien tost m'en irois à <placeName><settlement type="city"
             >Tours</settlement></placeName></l>
-         <l><persName key="?">Merlusine</persName> &amp; son <placeName>chasteau</placeName></l>
-         <l>Sans faire mal à la v de <placeName><settlement type="city" key="Poitiers"
+         <l><persName key="Mélusine">Merlusine</persName> &amp; son <placeName>chasteau</placeName></l>
+         <l>Sans faire mal à la ville de <placeName><settlement type="city" key="Poitiers"
                   >Poictiers</settlement></placeName></l>
-         <l n="124">Venus sont mille Potiers</l>
+         <l n="124">Venus sont mille potiers</l>
          <l><reg>À</reg>
             <placeName><settlement type="city">Beauvais</settlement></placeName> tout de nouveau</l>
-         <l>Dansons sus le ion</l>
+         <l>Dansons sus le <reg>jon</reg></l>
          <l>La <choice>
                <orig>montarde</orig>
                <reg>moutarde</reg>
-            </choice> de d'lion</l>
+            </choice> de <placeName type="city" key="Dijon">Dijon</placeName></l>
          <l n="128">Est bien plus douce que l'autre</l>
          <l>Las c'est grand pitié</l>
          <l>Que d'estre pauvre &amp; friand</l>
          <l>Et n'<reg>avoir</reg>
-            <reg>jamais</reg> argent.</l>
+            <reg>jamais</reg>
+            <app>
+               <lem wit="#Aleph_E_XI_12">d'argent</lem>
+               <rdg wit="#Rés_P_Ye241">argent</rdg>
+            </app>.</l>
          <lb/>
          <l n="132">Si <placeName><settlement type="city">Montauban</settlement></placeName>
             <placeName><settlement type="city" key="La Rochelle">la
                Rochelle</settlement></placeName> &amp; <placeName><settlement type="city"
                   >Angely</settlement></placeName></l>
-         <l>Penses contre fleur de lys</l>
+         <l><app>
+               <lem wit="#Aleph_E_XI_12">Pensent</lem>
+               <rdg wit="#Rés_P_Ye241">Penses</rdg>
+            </app> contre fleur de lys</l>
          <pb n="86"/>
-         <l>Resister ils sont bien sots,</l>
-         <l><reg>J</reg>'ay entendu que les <orgName type="peuple">Grecs</orgName> en leurs pays</l>
-         <l n="136">Se <reg>treuvent</reg> fort esbahis</l>
+         <l>Resister<reg type="ponctuation">,</reg> ils sont bien sots,</l>
+         <l><reg>J</reg>'ay entendu que les <orgName type="peuple">Grecs</orgName> en <app>
+               <lem wit="#Aleph_E_XI_12">leur</lem>
+               <rdg wit="#Rés_P_Ye241">leurs</rdg>
+            </app> pays</l>
+         <l n="136">Se <reg>treuvent</reg>
+            <app>
+               <lem wit="#Rés_P_Ye241">fort</lem>
+               <rdg wit="#Aleph_E_XI_12">tout</rdg>
+            </app> esbahis</l>
          <l>D'<reg>avoir</reg> en <reg>yver</reg> si chauld</l>
          <l>Si ces bons <persName>Lorrains</persName>,</l>
          <l>Viennent à <placeName>la foyre</placeName> à <placeName><settlement type="city"
@@ -257,12 +370,21 @@
                Flamant</orgName></l>
          <l>Disputer contre <orgName type="peuple">un Normand</orgName>,</l>
          <l>En langue de <orgName type="peuple">Hollandois</orgName></l>
-         <l><reg>Je</reg> quelque fois naiger aux <reg>environs</reg></l>
+         <l><app>
+               <lem wit="#Aleph_E_XI_12">J'ay</lem>
+               <rdg wit="#Rés_P_Ye241">Je</rdg>
+            </app> quelque fois <app>
+               <lem wit="#Aleph_E_XI_12">nagé</lem>
+               <rdg wit="#Rés_P_Ye241">naiger</rdg>
+            </app> aux <reg>environs</reg></l>
          <l n="148">De la <geogName>mer</geogName> sans <reg>avirons</reg>,</l>
          <l>Sans batteaux en maints endroicts,</l>
          <l>Messieurs de <placeName>Vernon</placeName>,</l>
          <l>M'<reg>avoient</reg> donné <reg>un</reg> sot nom</l>
-         <l n="152">M'appellant <persName type="surnom">Raque-de-barbe</persName></l>
+         <l n="152">M'appellant <persName type="surnom">Raque-de-barbe</persName><app>
+               <lem wit="#Aleph_E_XI_12">?</lem>
+               <rdg wit="#Rés_P_Ye241"/>
+            </app></l>
          <l>Mais pour mon bon droict</l>
          <l>Ceux de <placeName><settlement type="city" key="Mantes">Mante</settlement></placeName>
             ont tant playdé</l>

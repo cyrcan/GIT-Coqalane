@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
-      <fileDesc>
+      <fileDesc xml:id="Habert">
          <titleStmt>
-            <title>Du coq à l'asne à ung sien amy</title>
+            <title>Réf. n°21</title>
+            <title key="CAA#21">Du coq à l'asne à ung sien amy</title>
             <respStmt xml:id="CCA">
                <persName>Cyril Cano Arnedo</persName>
                <resp>éditeur scientifique et encodeur</resp>
@@ -61,6 +61,103 @@
                <p>Ponctuation originale conservée.</p>
             </punctuation>
          </editorialDecl>
+         
+            <listPrefixDef>
+               <prefixDef ident="ind" matchPattern="([a-z]+)"
+                  replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+                  <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                     Index du projet</p>
+               </prefixDef>
+               <prefixDef ident="plc" matchPattern="([0-9]+)"
+                  replacementPattern="https://www.geonames.org/$1">
+                  <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                     données géographiques GeoNames.</p>
+               </prefixDef>
+               <prefixDef ident="ms" matchPattern="([0-9]+)"
+                  replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+                  <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                     Sources Manuscrites du projet.</p>
+               </prefixDef>
+            </listPrefixDef>
+            <p>
+               <interpGrp>
+                  <interp xml:id="adr" ana="adresse">adresse</interp>
+                  <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+                  <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+                  <interp xml:id="topos" ana="topos">lieu commun</interp>
+                  <interp xml:id="gén" ana="généralisation">généralisation</interp>
+                  <interp xml:id="ironie" ana="ironie">ironie</interp>
+                  <interp xml:id="vp" ana="pivot">vers pivot</interp>
+                  <interp xml:id="actu" ana="actualité">actualité</interp>
+                  <interp xml:id="ligue" ana="ligue">ligue</interp>
+                  <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+                  <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+                  <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+                  <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+                  <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+                  <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+                  <interp xml:id="massacre" ana="massacre">massacre</interp>
+                  <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+                  <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+                  <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+                  <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+                  <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+                  <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+                  <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+                  <interp xml:id="ambition" ana="ambition">ambition</interp>
+                  <interp xml:id="corruption" ana="corruption">corruption</interp>
+                  <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+                  <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+                  <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+                  <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                     nécessaire</interp>
+                  <interp xml:id="court" ana="court">vie de la court</interp>
+                  <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+                  <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+                  <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+                  <interp xml:id="ethos" ana="ethos">ethos</interp>
+                  <interp xml:id="corps" ana="corps">corps</interp>
+                  <interp xml:id="violences" ana="violences">guerres civiles</interp>
+                  <interp xml:id="pillage-s" ana="pillages">Vol, pillages</interp>
+                  <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+                  <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+                  <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+                  <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+                  <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+                  <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+                  <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                     gnomique</interp>
+                  <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+                  <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+                  <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+                  <interp xml:id="exhortation" ana="exhortation">exhortations et
+                     encouragements</interp>
+                  <interp xml:id="rire" ana="rire">rire</interp>
+                  <interp xml:id="maladie" ana="maladie">maladies</interp>
+                  <interp xml:id="misères" ana="misères">misères de ce temps</interp>
+                  <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                     valeurs</interp>
+                  <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+                  <interp xml:id="rome" ana="contre_Rome">Contre Rome et la papauté</interp>
+                  <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+                  <interp xml:id="practiques" ana="practiques">practiques</interp>
+                  <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+                  <interp xml:id="misogynie" ana="misogynie">mysoginie</interp>
+                  <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+                  <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+                  <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+                  <interp xml:id="météo" ana="météo">météorologie</interp>
+                  <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+                  <interp xml:id="vanité" ana="vanité">vanité</interp>
+                  <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
+                     l'adversaire</interp>
+                  <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
+                  <interp xml:id="cri" ana="cri">cris de Paris</interp>
+                  <interp xml:id="tauto" ana="tauto">tautologie</interp>
+                  <interp xml:id="guerre" ana="guerre">guerre</interp>
+                  <interp xml:id="vin" ana="vin">vin et vignes</interp>
+               </interpGrp>
+            </p>
       </encodingDesc>
       <profileDesc>
          <langUsage>
@@ -69,7 +166,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="#CCA" when="2023">Création du fichier en xml-tei</change>
+         <change><date>2023</date>Création du fichier en xml-tei</change>
+         <change><date>2024-08-20</date>Début de mise à jour après consultation.</change> 
       </revisionDesc>
    </teiHeader>
    <text>
@@ -85,14 +183,14 @@
             <l>De par <reg>deçà</reg> j’en sçay de belles,</l>
             <l>Car nous voyons des cas nouveaux</l>
             <l n="4">Et je t’asseure que noz <rs type="animal">veaulx</rs></l>
-            <note type="editor" subtype="crit">cf. 5e coq-à-l'âne de Marot de 1542 : "Il est fol,
+            <note resp="editor" type="crit">cf. 5e coq-à-l'âne de <persName ref="ind:Marot">Marot</persName> de 1542 : "Il est fol,
                qui le col se casse, / S'il n'en a deux comme le veau. / Et d'alleguer ung cas
                nouveau, v. 6-8</note>
             <l><choice>
                   <orig>Sont trop plus grands qu’en ton païs</orig>
                   <reg>Sont plus grandz qu'en vostre pays,</reg>
                </choice></l>
-            <!--Saut#1-->
+            <!--Saut#1--><anchor type="sau#1"/>
             <l><orig>Mon Dieu que nous sommes ebahys</orig><reg>Mon dieu que seriez esbays</reg></l>
             <l><orig>Quand nous oyons la melodie</orig><reg>Si vous oyez la melodie</reg></l>
             <l n="8">De ces grands <rs type="animal" subtype="équidés">asnes</rs> d’<placeName
@@ -103,12 +201,12 @@
                référence précédente de la même période: "Or toy, prescheur, prends donc l'anguille,
                / Et toy, pescheur, prens l'evangille,</note>
             <l>Car <reg>ilz</reg> y vont à contrepoil,</l>
-            <!--Saut#2-->
+            <!--Saut#2--><anchor type="saut#2"/>
             <l n="12">On nous montre au doigt &amp; à l’œil</l>
             <l>Si nous scavons baboiner,</l>
             <!--Saut#3-->
             <l>Je ne vouldroye Sagoiner</l>
-            <l>Pour à <persName type="auteur">Marot</persName> faire la guerre,</l>
+            <l>Pour à <persName ref="ind:Marot" key="Clément Marot">Marot</persName> faire la guerre,</l>
             <note>Référence explicite à la fameuse querelle Marot-Sagon qui mobilisa les partisans
                de chaque camp.</note>
             <l n="16">Car en sa muse y a tonnerre</l>
@@ -117,36 +215,36 @@
             <l>Il faict beau veoir assis à table</l>
             <l>Ung cordelier bien en bon point,</l>
             <l n="20">Pourveu que jeusne il ne soit point,</l>
-            <l>Car il en feroit conscience<note type="editor" subtype="ling">Au sens d'"avoir un
+            <l>Car il en feroit conscience<note resp="editor" type="ling">Au sens d'"avoir un
                   scrupule" (Huguet)</note></l>
             <!--Saut#5-->
             <l>Trouvez vous en ung con science</l>
             <l>De femme à qui le cueur varie?</l>
             <!--Saut#6-->
-            <l n="24">Bon seroit d’aller en <placeName><country key="Syrie"
-                  >Surie</country></placeName><note type="editor" subtype="crit">Le jeu de mot
+            <l n="24">Bon seroit d’aller en <placeName type="country" key="Syrie"
+                  >Surie</placeName><note resp="editor" type="crit">Le jeu de mot
                   Suerie (Syphilis)/ Surie (Syrie) est commun est déjà présent dans le premier
                   coq-à-l'âne d'Eustorg de Beaulieu.</note></l>
             <l>S’on ne frottoit si fort les rains,</l>
             <!--Saut#7-->
             <pb n="58r"/>
             <fw type="pageNum" place="top-right">58</fw>
-            <l>Ces jours au departir de <placeName><settlement type="city"
-                  >Reims</settlement></placeName></l>
+            <l>Ces jours au departir de <placeName type="city" key="Reims"
+                  >Reims</placeName></l>
             <l>Je rencontray ung vieil bon homme</l>
-            <l n="28">Qui se disoit venir de <placeName><settlement type="city" key="Rome"
-                     >Romme</settlement></placeName></l>
+            <l n="28">Qui se disoit venir de <placeName type="city" key="Rome"
+                     >Romme</placeName></l>
             <l>Et y avoir bien proffité,</l>
             <l>Car il en avoit apporté</l>
             <l>Pour manger chair une dispense</l>
             <l n="32">Lors que la charesme commence</l>
             <l>C’estoit pour luy bon privilege,</l>
-            <l>Car le vieillard (memoire en ay je)<note type="editor" subtype="crit">Longue séquence
+            <l>Car le vieillard (memoire en ay je)<note resp="editor" type="crit">Longue séquence
                   visant le désormais traditionnel abus des bénéfices.</note></l>
             <l>Estoit flumaticq &amp; debile,</l>
             <!--Saut#8-->
             <l n="36">C’est ung plaisant jeu que la <rs type="jeu">bille</rs></l>
-            <l>Quand bien <reg>l’on</reg> regarde à biller<note type="editor" subtype="ling">Biller
+            <l>Quand bien <reg>l’on</reg> regarde à biller<note resp="editor" type="ling">Biller
                   : Lier, attacher, garrotter</note>,</l>
             <!--Saut#9-->
             <l>Chascun ne se peult habiller</l>
@@ -156,7 +254,7 @@
             <l><choice>
                   <orig>Vers les dames n’est bien venu.</orig>
                   <reg>Aux dames n'est le bien venu,</reg>
-               </choice></l>
+               </choice></l><!-- Cf. JDevis -->
             <l>Car on ne prise ung homme nud,</l>
             <!--Saut#11-->
             <l><choice>
@@ -241,7 +339,7 @@
             <l>Si je ne suis saoul le matin</l>
             <l>Je ne puis estre prompt en rime</l>
             <l n="84">Et le plus souvent je m’enrime<note type="editor" subtype="crit">Emprunt à la
-                  fameuse Petite épître au roy de Marot.</note></l>
+                  fameuse "Petite épître au roy" de Marot.</note></l>
             <l>Par faulte d’estre bien couvert,</l>
             <!--Saut#25-->
             <l>J’ay veu pour rompre ung huys ouvert,</l>
@@ -255,9 +353,11 @@
             <!--Saut#28-->
             <l>Je n’en dictz plus car je congnoys</l>
             <l>Que tu as ja laissé les noix</l>
-            <l>Pour avoir bonne congnoissance,</l><!--Saut#29-->
+            <l>Pour avoir bonne congnoissance,</l>
+            <!--Saut#29-->
             <l n="96">Escriptz moy, si te congnois en ce</l>
-            <l>Que practique une macquerelle,</l><!--Saut#31-->
+            <l>Que practique une macquerelle,</l>
+            <!--Saut#30-->
             <l>Je soustientz tousjours ma querelle</l>
             <l>Que j’ayme trop mieulx sans butin</l>
             <l n="100">La brunette au ferme tetin</l>

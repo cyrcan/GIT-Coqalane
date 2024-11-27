@@ -23,19 +23,25 @@
          <l>Tes doulx salutz amy <persName type="auteur"><reg>Marot</reg></persName></l>
          <l>Plus toust que n’est chassé garrot</l>
          <l>Tu <reg>m’as</reg> transmys jusques <reg>à</reg>
-            <placeName><settlement type="city" key="Lyon">Lion</settlement></placeName></l><!-- Saut#1 -->
+            <placeName><settlement type="city" key="Lyon">Lion</settlement></placeName></l>
+         <!-- Saut#1 -->
          <l n="4">Mays noz curez fidelium</l>
-         <l>Ne chanteront poinct sans argent</l><!-- Saut#2 -->
+         <l>Ne chanteront poinct sans argent</l>
+         <!-- Saut#2 -->
          <l>Car leurs filletes par art gent</l>
-         <l>Le coq à <reg>l’asne</reg> font sauter</l><!-- Saut#3 -->
+         <l>Le coq à <reg>l’asne</reg> font sauter</l>
+         <!-- Saut#3 -->
          <l n="8"><reg>Voilà</reg> pourquoy <reg>l’on</reg> va luter</l>
-         <l>En la tour close [aux] financiers</l><!-- Saut#4 -->
+         <l>En la tour close [aux] financiers</l>
+         <!-- Saut#4 -->
          <l>Gens <reg>d’armes</reg> ont arnays d’aciers</l>
          <l>Mays ne sont fors pour se deffendre</l>
          <l n="12">Contre advocatz qui sçavent prendre</l>
-         <l>Tout fors esguille par le bout</l><!-- Saut#5 -->
+         <l>Tout fors esguille par le bout</l>
+         <!-- Saut#5 -->
          <l>Femme de plat et boys debout</l>
-         <l>Comme <reg>l’on</reg> dict dure sans fin</l><!-- Saut#6 -->
+         <l>Comme <reg>l’on</reg> dict dure sans fin</l>
+         <!-- Saut#6 -->
          <l n="16">Les <unclear>forsaires</unclear> seuffrent grand fain</l>
          <l>Soif chault et froict en ses gallaires</l>
          <l>Si postes courent sur leurs haires</l>

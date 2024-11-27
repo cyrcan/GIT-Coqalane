@@ -178,7 +178,7 @@
          <l><reg>À</reg> grand peine ces mesdisans</l>
          <l>Ne deussent ilz pas avoir honte</l>
          <l n="120">Ilz veullent qu'on leur rende compte</l>
-         <fw type="sig" place="bottom-roght">De tant d'argent</fw>
+         <fw type="catch" place="bottom-right">De tant d'argent</fw>
          <l>De tant <reg>d'argent</reg>
             <reg>qu'on</reg> a <reg>pillé</reg></l>
          <l>Et disent qu'on en a <reg>baillé</reg></l>
@@ -199,8 +199,8 @@
          <l n="136"><persName>Jehan Paicte</persName> mengea la prune</l>
          <l><persName>Le pauvre escossois</persName> feit le sault</l>
          <l>Quoy <reg>qu'en</reg> dye <persName>maistre Jehan Thibault</persName></l>
-         <l>Or garde le bec si tu veulx<note resp="editor" type="ling">Garder le bec : savoir se
-               taire (Di Stefano).</note></l>
+         <l>Or garde le bec si tu veulx<note resp="editor" type="ling"><hi rend="italic">Garder le bec</hi>: "savoir se
+               taire", Di Stefano.</note></l>
          <l n="140">Scaiz tu <reg>qu'en</reg> disent ces resveus</l>
          <l>Que si la court du tout ne change</l>
          <l>Craindre debvons que Dieu ne vange</l>

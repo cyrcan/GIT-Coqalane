@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liste des sources manuscrites</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Liste des manuscrits du corpus Coq-à-l'âne</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>En construction</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listWit>
+            <witness xml:id="fr25567"><msDesc>
+                  <msIdentifier>
+                     <settlement>Paris</settlement>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
+                     <collection>Manuscrits français</collection>
+                     <idno>25567</idno>
+                     <msName>Anciennement Gaignières</msName>
+                  </msIdentifier>
+               </msDesc></witness>
+
+            <witness xml:id="fr6678"><msDesc>
+                  <msIdentifier>
+                     <settlement>Paris</settlement>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
+                     <collection>Papiers de Pierre de L'Estoile</collection>
+                     <idno>6678</idno>
+                  </msIdentifier>
+               </msDesc></witness>
+
+            <witness xml:id="NAF6888"><msDesc>
+                  <msIdentifier>
+                     <settlement>Paris</settlement>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
+                     <collection>Papiers de Pierre de L'Estoile</collection>
+                     <idno>NAF 6888</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <p>Manuscrit in-folio 332x218 mm remmmargé au crayon. Paginé 1-567, [4f].
+                        Reliure cartonnée veau fauve. Estampille BN/RF. </p>
+                  </physDesc>
+                  <additional>
+                     <p>En lien avec fr. 6678. Filigrane au raisin similaire à NAF 1870. En partie
+                        autographe. Ayant appartenu à Pereisc.</p>
+                  </additional>
+               </msDesc></witness>
+
+            <witness xml:id="NAF14846"><msDesc>
+                  <msIdentifier>
+                     <settlement>Paris</settlement>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
+                     <collection>Nouvelles Acquisitions Françaises</collection>
+                     <idno>14846</idno>
+                  </msIdentifier>
+               </msDesc></witness>
+
+            <witness xml:id="fr22564"><msDesc>
+                  <msIdentifier>
+                     <settlement>Paris</settlement>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
+                     <collection>Recueil Rasse des Neux</collection>
+                     <idno>22564</idno>
+                  </msIdentifier>
+               </msDesc></witness>
+
+            <witness xml:id="COL500"><msDesc>
+                  <msIdentifier>
+                     <settlement>Paris</settlement>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
+                     <collection>Cinq Cents de Colbert</collection>
+                     <idno>500</idno>
+                  </msIdentifier>
+               </msDesc></witness>
+
+            <witness xml:id="COL488"><msDesc>
+                  <msIdentifier>
+                     <settlement>Paris</settlement>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
+                     <collection>Cinq Cents de Colbert</collection>
+                     <idno>488</idno>
+                  </msIdentifier>
+               </msDesc></witness>
+
+            <witness xml:id="BPF172"><msDesc>
+                  <msIdentifier>
+                     <settlement>Paris</settlement>
+                     <institution>Société du Protestantisme Français</institution>
+                     <repository>Bibliothèque du Protestantisme français<geo>48.8588897
+                           2.320041</geo></repository>
+                     <idno>172</idno>
+                  </msIdentifier>
+               </msDesc></witness>
+
+            <witness xml:id="BGE376"><msDesc>
+                  <msIdentifier>
+                     <settlement>Genève</settlement>
+                     <institution>Bibliothèque de Genève</institution>
+                     <repository>Bibliothèque des Bastions<geo/></repository>
+                     <idno>376</idno>
+                  </msIdentifier>
+               </msDesc></witness>
+
+<!-- SOISSONS -->
+            <witness xml:id="ms202"><msDesc>
+                  <msIdentifier>
+                     <settlement>Soissons</settlement>
+                     <institution>Bibliothèque municipale</institution>
+                     <repository><geo/></repository>
+                     <idno>202</idno>
+                  </msIdentifier>
+               </msDesc></witness>
+            
+            <witness xml:id="ms203"><ptr target="https://arca.irht.cnrs.fr/ark:/63955/md365425n484"/><msDesc>
+               <msIdentifier>
+                  <settlement>Soissons</settlement>
+                  <institution>Bibliothèque municipale</institution>
+                  <repository><geo/></repository>
+                  <idno>203(189 C)</idno>
+                  <altIdentifier>
+                     <idno type="Medium/Arca">35481</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents><p>Mélanges de vers et de prose</p>
+                  <ab>f°125r(46)-f°131r(82): La truye qui fille <ptr target="CAA28-Truye_qui_file.xml"/></ab>
+               </msContents>
+               <physDesc><p>315x207mm, 191 f., papier, sans décoration.</p></physDesc>
+            </msDesc></witness>
+
+<!-- PARIS, BNF -->
+
+            <witness xml:id="fr4967"><msDesc>
+                  <msIdentifier>
+                     <settlement>Paris</settlement>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <repository><geo>48.869233 2.340167</geo></repository>
+                     <idno>4967</idno>
+                  </msIdentifier>
+               <physDesc></physDesc>
+               </msDesc></witness>
+
+            <witness xml:id="NAF1870">
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Paris</settlement>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
+                     <idno>NAF 1870</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <p>V et 96 feuillets. 250x170mm. Reliure maroquin vert, au chiffre du baron J.
+                        Pichon.</p>
+                  </physDesc>
+                  <additional>
+                     <p>Papier au filigrane de Jean Simonnet (un pot à une seule anse), réf. 12826
+                        du répertoire Briquet.</p>
+                  </additional>
+               </msDesc></witness>
+         </listWit>
+      </body>
+   </text>
+</TEI>

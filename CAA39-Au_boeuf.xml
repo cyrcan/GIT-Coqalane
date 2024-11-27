@@ -15,7 +15,6 @@
                 <p>Information about the source</p>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change><date>2023</date>Encodage de niveau 2.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface xml:id="ms0203_0196" n="1v"/>
@@ -272,8 +271,8 @@
             <l>Mais en fin tout vient en sa bride</l>
             <l n="176">Imposions dusches et aydes</l>
             <l><unclear>Cele</unclear> dont fault <reg>que</reg> me plaigne</l>
-            <l>Que ne debvois riens à l'<placeName type="country">Espaigne</placeName></l>
-            <l><unclear>Quirres</unclear> promys <reg>à</reg> l'<placeName type="country"
+            <l>Que ne debvois riens à l'<placeName type="country" key="Espagne">Espaigne</placeName></l>
+            <l><unclear>Quirres</unclear> promys <reg>à</reg> l'<placeName type="country" key="Italie"
                     >Ittalye</placeName></l>
             <l n="180"><del>A</del>Car tant de jong sur quoy on lye</l>
             <l><reg>Qu'ung</reg> jour tomberons soulz le faictz</l>

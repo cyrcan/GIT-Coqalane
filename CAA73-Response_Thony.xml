@@ -28,16 +28,6 @@
                         </msIdentifier>
                      </msDesc></witness>
 
-                  <witness xml:id="fr6688"><msDesc>
-                        <msIdentifier>
-                           <settlement>Paris</settlement>
-                           <institution>Bibliothèque nationale de France</institution>
-                           <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
-                           <collection>Papiers de Pierre de L'Estoile</collection>
-                           <idno>6688</idno>
-                        </msIdentifier>
-                     </msDesc></witness>
-
                   <witness xml:id="fr22564"><msDesc>
                         <msIdentifier>
                            <settlement>Paris</settlement>

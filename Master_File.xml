@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xi="http://www.w3.org/2001/XInclude">
+
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title> Corpus numérique des coq-à-l'âne de 1530 à 1649 </title>
+                </titleStmt>
+                <editionStmt>
+                    <edition> This edition is a first draft of my PhD project that aims at creating
+                        a corpus of epistles of coq-à-l'âne composed by known and unknown authors in
+                        Early-Modern French Literature. The present encoding project starts from
+                        Marot's first familiar epistles, as it is transmitted by different
+                        manuscripts and editions. </edition>
+                    <respStmt>
+                        <resp>encoded by</resp>
+                        <name>Cyril Cano Arnedo</name>
+                    </respStmt>
+                </editionStmt>
+                <publicationStmt>
+                    <p>
+                        <!-- Published with ? -->
+                    </p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>Les textes encodés ici proviennent de sources multiples manuscrites et
+                        imprimées composées entre 1530 et 1650.</p>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <listPrefixDef>
+                    <prefixDef ident="ind" matchPattern="([a-z]+)"
+                        replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+                        <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le
+                            Fichier Index du projet</p>
+                    </prefixDef>
+                    <prefixDef ident="plc" matchPattern="([0-9]+)"
+                        replacementPattern="https://www.geonames.org/$1">
+                        <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la
+                            base de données géographiques GeoNames.</p>
+                    </prefixDef>
+                    <prefixDef ident="ms" matchPattern="([0-9]+)"
+                        replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+                        <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le
+                            Fichier des Sources Manuscrites du projet.</p>
+                    </prefixDef>
+                </listPrefixDef>
+                <p>
+                    <interpGrp>
+                        <!-- A -->
+                        <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+                        <interp xml:id="actu" ana="actualité">actualité commentée</interp>
+                        <interp xml:id="adr" ana="adresse">adresse</interp>
+                        <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+                        <interp xml:id="ambition" ana="ambition">ambition</interp>
+                        <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+                        
+                        <!-- B -->
+                        <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
+                        <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
+                        
+                        <!-- C -->
+                        <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
+                        <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+                        <interp xml:id="corruption" ana="corruption">corruption</interp>
+                        <interp xml:id="corps" ana="corps">corps</interp>
+                        <interp xml:id="cour" ana="court">vie de la cour</interp>
+                        <interp xml:id="cri" ana="cri">cris des marchands</interp>
+                        <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+                        
+                        <!-- D -->
+                        <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+                        <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+                        
+                        <!-- E -->
+                        <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+                        <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+                        <interp xml:id="ethos" ana="ethos">ethos</interp>
+                        <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
+                        <interp xml:id="exhortation" ana="exhortation">exhortations et
+                            encouragements</interp>
+                        
+                        <!-- F -->
+                        <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+                        <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+                        
+                        <!-- G -->
+                        <interp xml:id="gén" ana="généralisation">généralisation</interp>
+                        <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                            gnomique</interp>
+                        <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
+                        
+                        <!-- H -->
+                        <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+                        <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+                        
+                        
+                        <!-- I -->
+                        <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+                        <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
+                            l'adversaire</interp>
+                        <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+                        <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+                        <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+                        <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
+                        <interp xml:id="ironie" ana="ironie">ironie</interp>
+                        
+                        <!-- L -->
+                        <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+                        <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+                        <interp xml:id="topos" ana="topos">lieu commun</interp>
+                        <interp xml:id="ligue" ana="ligue">ligue</interp>
+                        
+                        <!-- M -->
+                        <interp xml:id="maladie" ana="maladie">maladie</interp>
+                        <interp xml:id="massacre" ana="massacre">massacre</interp>
+                        <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+                        <interp xml:id="météo" ana="météo">météorologie</interp>
+                        <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+                        <interp xml:id="misères" ana="misères">misères du temps</interp>
+                        <interp xml:id="misogynie" ana="misogynie">misogynie</interp>
+                        <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                            valeurs</interp>
+                        <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+                        
+                        
+                        <!-- P -->
+                        <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+                        <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
+                        <interp xml:id="persona" ana="persona">persona de Marot</interp>
+                        <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+                        <interp xml:id="pillage-s" ana="pillages">vols, pillages</interp>
+                        <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
+                        <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+                        <interp xml:id="practiques" ana="practiques">practiques</interp>
+                        <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+                        <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+                        <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+                        <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                            nécessaire</interp>
+                        
+                        <!-- R -->
+                        <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+                        <interp xml:id="rébus" ana="rébus">rébus</interp>
+                        <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+                        <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+                        <interp xml:id="rire" ana="rire">rire</interp>
+                        <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
+                        <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+                        
+                        <!-- S -->
+                        
+                        <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+                        <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+                        <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+                        <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+                        <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+                        <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+                        <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+                        
+                        <!-- T -->
+                        <interp xml:id="tauto" ana="tauto">tautologie</interp>
+                        <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+                        <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+                        <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+                        
+                        <!-- V -->
+                        <interp xml:id="vanité" ana="vanité">vanité</interp>
+                        <interp xml:id="vp" ana="pivot">vers pivot</interp>
+                        <interp xml:id="violences" ana="violences">violences</interp>
+                    </interpGrp>
+                </p>
+            </encodingDesc>
+        </teiHeader>
+
+        <xi:include href="CAA24-Marot#5.xml" xmlns:xi="http://www.w3.org/2001/Xinclude"
+            xpointer="Marot_5">
+            <xi:fallback>fichier manquant</xi:fallback>
+        </xi:include>
+
+        <!-- Réseau de la Grue -->
+
+        <xi:include href="CAA28-Truye_qui_file.xml" xmlns:xi="http://www.w3.org/2001/Xinclude"
+            xpointer="Truye_qui_file">
+            <xi:fallback>fichier manquant</xi:fallback>
+        </xi:include>
+
+        <xi:include href="CAA29-CdParis.xml" xmlns:xi="http://www.w3.org/2001/Xinclude"
+            xpointer="Crottes_Paris">
+            <xi:fallback>fichier manquant</xi:fallback>
+        </xi:include>
+
+        <!-- -->
+
+        <xi:include href="CAA55-111167.xml" xmlns:xi="http://www.w3.org/2001/Xinclude"
+            xpointer="St_Denis">
+            <xi:fallback>fichier manquant</xi:fallback>
+        </xi:include>
+
+        <xi:include href="CAA73-Response_Thony.xml" xmlns:xi="http://www.w3.org/2001/XInclude"
+            xpointer="CAA73-R_Thony">
+            <xi:fallback>fichier manquant</xi:fallback>
+        </xi:include>
+
+        <xi:include href="CAA72-NNocque.xml" xmlns:xi="http://www.w3.org/2001/XInclude"
+            xpointer="NNocque">
+            <xi:fallback>fichier manquant</xi:fallback>
+        </xi:include>
+
+        <xi:include href="CAA74-Pluie_vent.xml" xmlns:xi="http://www.w3.org/2001/Xinclude"
+            xpointer="Pluie2vent">
+            <xi:fallback>fichier manquant</xi:fallback>
+        </xi:include>
+
+        <xi:include href="CAA75-Asnesse2Poulle.xml" xmlns:xi="http://www.w3.org/2001/Xinclude"
+            xpointer="Asnesse2Poulle">
+            <xi:fallback>fichier manquant</xi:fallback>
+        </xi:include>
+
+        <xi:include href="CAA78-A_propos_Coq.xml" xmlns:xi="http://www.w3.org/2001/Xinclude"
+            xpointer="A_propos_Coq_1585">
+            <xi:fallback>fichier manquant</xi:fallback>
+        </xi:include>
+
+        <xi:include href="CAA79-Douarti.xml" xmlns:xi="http://www.w3.org/2001/Xinclude"
+            xpointer="Douarti">
+            <xi:fallback>fichier manquant</xi:fallback>
+        </xi:include>
+
+
+    </teiCorpus>
+</TEI>

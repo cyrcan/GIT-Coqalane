@@ -461,7 +461,7 @@
             <l>On dit qu’<reg>à</reg>
                <placeName><settlement type="city" key="Reims">Reims</settlement></placeName> le
                   <roleName>Cardinal</roleName></l>
-            <l><persName>De Guyse</persName> va dire sa messe</l>
+            <l><persName ref="ind:Louis_II_Guise" key="Louis de Guise">De Guyse</persName> va dire sa messe</l>
             <l n="68">Vous y verrez quelque finesse</l>
             <l>Dessoubz ce pretexte &amp; pratique</l><note resp="editor" type="ling"><hi
                   rend="italic">Pratique</hi>: au sens ici d'entreprise ou d'intrigue. Cf. <hi
