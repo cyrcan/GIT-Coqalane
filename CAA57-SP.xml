@@ -61,15 +61,15 @@
          <l>Pour ne veoir ce que je desire</l>
          <note>Ce début détone au sein du genre en se concentrant non plus sur le contexte
             politico-religieux mais sur l'intimité de l'auteur.</note>
-         <!-- Saut#1 -->
+         <!-- Saut#1 --><anchor type="saut#1"/>
          <l n="12">Qui mectra son amy en ire</l>
          <l>Il n'aura de luy que couroux</l>
-         <!-- Saut#2 -->
-         <l>Garde toy d'un mary jaloux</l>
+         <!-- Saut#2 --><anchor type="saut#2"/>
+         <l><rs type="injonction" subtype="conseil">Garde toy</rs> d'un mary jaloux</l>
          <l>Et ne te chaille de la guerre</l>
          <l n="16">D'advis je suys qu'en rien tu n'erres</l>
          <l>Sy l'on vient à t'interroger</l>
-         <!-- Saut#3 -->
+         <!-- Saut#3 --><anchor type="saut#3"/>
          <l>Dans la <placeName><settlement type="country">France</settlement></placeName> y a ung
                <persName>Roger</persName></l>
          <l>Qui a le temps bien à soubhait</l>
@@ -101,7 +101,7 @@
          <l n="36">Il n'est pas bien seant de faire</l>
          <l>D'un saige en compagnye de folz</l>
          <!-- Saut#8 -->
-         <l>Ilz se rompront ung jour les colz</l>
+         <l>Ilz se rompront ung jour les colz</l><note resp="editor" type="crit">Cf. CAA#24 de Marot pour la rime folz:colz</note>
          <l>Ses prescheurs de carfarderyes</l>
          <l n="40">Ilz ne disent que resveryes</l>
          <l>Et decripvent les simples gens</l>
@@ -116,7 +116,7 @@
          <l>Est de crainte d'estre apperceues</l>
          <!-- Saut#11 -->
          <l n="48">L'on veoit plus de becs et veues</l>
-         <l>Dedans <placeName><settlement type="city">Paris</settlement></placeName> qu'on ne
+         <l>Dedans <placeName type="city" key="Paris">Paris</placeName> qu'on ne
             soulloit</l>
          <l>Pource que ung chascun voulloit</l>
          <l>Au temps passé se tenir serre</l>
@@ -151,7 +151,7 @@
          <l>Perdre ne se peult nullement</l>
          <l>Je n'ay soulcy tant seullement</l>
          <l>Que de mectre ung amy à l'amble</l>
-         <note resp="editor" type="ling">Mettre à l'amble: "Mettre à raison" (Di Stefano, p.
+         <note resp="editor" type="ling"><hi rend="italic">Mettre à l'amble</hi>: "Mettre à raison" (Di Stefano, p.
             15).</note>
          <l n="76">Quant icy pense sy fort je tremble</l>
          <l>Que je demeure tout confuz</l>

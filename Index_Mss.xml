@@ -7,7 +7,7 @@
             <title>Liste des sources manuscrites</title>
          </titleStmt>
          <publicationStmt>
-            <p>Liste des manuscrits du corpus Coq-à-l'âne</p>
+            <p>Liste des manuscrits du corpus des coq-à-l'âne</p>
          </publicationStmt>
          <sourceDesc>
             <p>En construction</p>
@@ -17,6 +17,42 @@
    <text>
       <body>
          <listWit>
+            <!-- AUTRICHE -->
+            <witness xml:id="Cod_10203"><msDesc>
+                  <msIdentifier>
+                     <settlement>Vienne</settlement>
+                     <institution>Bibliothèque nationale d'Autriche</institution>
+                     <repository><geo>48.205909729003906 16.367305755615234</geo></repository>
+                     <idno>Codex 10203</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <!-- Contient 4 coq-à-l'âne -->
+                     <p>18 folios, 259x192mm, Petite cursive gothique du XVI<hi rend="sup">e</hi>
+                        siècle. Pas de mention de propriétaire. Reliure du XIX<hi rend="sup">e</hi>
+                        siècle. (Description par Henri Meylan, 1956, p. XI.)</p>
+                     <!-- demande de reproduction intégrale le 4 décembre 2024 obtenue le 18 décembre 2024-->
+                  </physDesc>
+                  <msContents>
+                     <msItem>
+                        <p>Epistre du coq a l'asne. "Amy pour bien peu t'esjouir..." f°1-f°5</p>
+                     </msItem>
+                     <msItem>
+                        <p>Aultre epistre du coq a l'asne. "Puis qu'il te plaist parfaict
+                           amy..." f°5-f°12</p>
+                     </msItem>
+                     <msItem>
+                        <p>Aultre epistre du coq a l'asne. "Je te veulx escripre a ce coup..." f°12-f°19</p>
+                     </msItem>
+                     <msItem>
+                        <p>Aultre Epistre. "Coq, mon amy, le long sejour..." f°20-f°26</p>
+                     </msItem>
+                  </msContents>
+               </msDesc><listBibl>
+                  <bibl>Meylan Henri, 1956.</bibl>
+               </listBibl></witness>
+
+            <!-- FRANCE -->
+
             <witness xml:id="fr25567"><msDesc>
                   <msIdentifier>
                      <settlement>Paris</settlement>
@@ -106,6 +142,22 @@
                   </msIdentifier>
                </msDesc></witness>
 
+            <!-- SUISSE -->
+
+            <witness xml:id="M1016"><msDesc>
+                  <msIdentifier>
+                     <settlement>Lausanne</settlement>
+                     <institution>Bibliothèque de Lausanne</institution>
+                     <repository>Bibliothèque cantonale et universitaire<geo/></repository>
+                     <idno>M1016</idno>
+                     <msName>Manuscrit Grenet</msName>
+                  </msIdentifier>
+               </msDesc>
+               <listBibl>
+                  <bibl>Meylan Henri, 1956.</bibl>
+               </listBibl></witness>
+
+
             <witness xml:id="BGE376"><msDesc>
                   <msIdentifier>
                      <settlement>Genève</settlement>
@@ -115,7 +167,7 @@
                   </msIdentifier>
                </msDesc></witness>
 
-<!-- SOISSONS -->
+            <!-- SOISSONS -->
             <witness xml:id="ms202"><msDesc>
                   <msIdentifier>
                      <settlement>Soissons</settlement>
@@ -124,24 +176,37 @@
                      <idno>202</idno>
                   </msIdentifier>
                </msDesc></witness>
-            
-            <witness xml:id="ms203"><ptr target="https://arca.irht.cnrs.fr/ark:/63955/md365425n484"/><msDesc>
-               <msIdentifier>
-                  <settlement>Soissons</settlement>
-                  <institution>Bibliothèque municipale</institution>
-                  <repository><geo/></repository>
-                  <idno>203(189 C)</idno>
-                  <altIdentifier>
-                     <idno type="Medium/Arca">35481</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <msContents><p>Mélanges de vers et de prose</p>
-                  <ab>f°125r(46)-f°131r(82): La truye qui fille <ptr target="CAA28-Truye_qui_file.xml"/></ab>
-               </msContents>
-               <physDesc><p>315x207mm, 191 f., papier, sans décoration.</p></physDesc>
-            </msDesc></witness>
 
-<!-- PARIS, BNF -->
+            <witness xml:id="ms203"><ptr target="https://arca.irht.cnrs.fr/ark:/63955/md365425n484"/><msDesc>
+                  <msIdentifier>
+                     <settlement>Soissons</settlement>
+                     <institution>Bibliothèque municipale</institution>
+                     <repository><geo/></repository>
+                     <idno>203(189 C)</idno>
+                     <altIdentifier>
+                        <idno type="Medium/Arca">35481</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <p>Mélanges de vers et de prose</p>
+                     <ab>f°125r(46)-f°131r(82): La truye qui fille <ptr
+                           target="CAA28-Truye_qui_file.xml"/></ab>
+                  </msContents>
+                  <physDesc>
+                     <p>315x207mm, 191 f., papier, sans décoration.</p>
+                  </physDesc>
+               </msDesc></witness>
+
+            <!-- PARIS, BNF -->
+            <witness>
+               <msDesc>
+                  <msIdentifier xml:id="ms2964">
+                     <settlement>Paris</settlement>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
+                     <idno>Rothschild 2964 (Gueffier)</idno>
+                  </msIdentifier>
+               </msDesc></witness>
 
             <witness xml:id="fr4967"><msDesc>
                   <msIdentifier>
@@ -150,7 +215,7 @@
                      <repository><geo>48.869233 2.340167</geo></repository>
                      <idno>4967</idno>
                   </msIdentifier>
-               <physDesc></physDesc>
+                  <physDesc/>
                </msDesc></witness>
 
             <witness xml:id="NAF1870">

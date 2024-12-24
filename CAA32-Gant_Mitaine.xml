@@ -139,7 +139,7 @@
          <!-- Saut#25 -->
          <!-- Séquence plus longue -->
          <l>J'ay ouy chef de ville qui vous sonne</l>
-         <l>De par delà le <placeName>mont Senys</placeName></l>
+         <l>De par delà le <geogName key="Mont Cenys">mont Senys</geogName></l>
          <l n="60"><rs type="injonction" subtype="impératif">Envoyez luy</rs> donc <persName>sainct
                Denis</persName></l>
          <l>Au devant pour luy faire escorte</l>

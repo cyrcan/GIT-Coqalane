@@ -111,9 +111,9 @@
          <l>Ne verray je poinct ces meschantz</l>
          <l>Doubler cousteaulx à deux tranchans</l>
          <l>Avec leurs faulx et oustilz</l>
-         <l n="68">Suivre <persName key="René Gentils">le président Gentilz</persName></l>
+         <l n="68">Suivre <persName ref="ind:Gentils" key="René Gentil[s]">le président Gentilz</persName></l>
          <note resp="editor" type="crit">Il fut pendu au gibet de Montfaucon en septembre
-            1544.</note>
+            1543.</note>
          <l>Il me desplaist de telle peste</l>
          <l>On joue au camp <reg>à</reg> toute reste</l>
          <l>Et <reg>n’y</reg> couche <reg>l’on</reg> que des testes</l>

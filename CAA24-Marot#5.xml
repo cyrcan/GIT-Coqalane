@@ -189,15 +189,15 @@
             Veu le grief mal qu’il enduroit (v. 256-259).</note>
          <!-- Saut#1 -->
          <anchor type="saut#1"/>
-         <l>Il est fol qui le col se casse</l>
+         <l ana="#folie">Il est fol qui le col se casse</l>
          <l>S'il n'en a deux comme le <rs type="animal">veau</rs></l>
          <l n="8">Et d'alleguer ung cas nouveau</l>
          <l>La question n'en est plus bonne</l>
-         <l>Pourquoy? <expan>nostre</expan> mere <orgName>Sorbonne</orgName></l>
-         <l>Faict à tous <rs type="animal">veaulx</rs> avoir deux testes</l>
-         <l n="12">Et s'ilz sont sottes comme bestes</l>
-         <l>Il fault aprendre les passaiges</l>
-         <l>Ung trois foys fol vault ung vray saige</l>
+         <l ana="#adv_rel">Pourquoy? <expan>nostre</expan> mere <orgName>Sorbonne</orgName></l>
+         <l ana="#adv_rel">Faict à tous <rs type="animal">veaulx</rs> avoir deux testes</l>
+         <l n="12" ana="#bêtise">Et s'ilz sont sottes comme bestes</l>
+         <l ana="#folie">Il fault aprendre les passaiges</l>
+         <l ana="#folie">Ung trois foys fol vault ung vray saige</l><!-- Cf. référence biblique Bonaventure des Périers St-Paul-->
          <!-- A élucider -->
          <l ana="#adr">Or je te demande comment</l>
          <!-- Saut#2 -->
@@ -286,16 +286,16 @@
          <l n="48">Car l'on dict qu'on scent sa farine</l>
          <l>Si l'on ne scet son <persName>Pathelin</persName></l>
          <!--Saut#17-->
-         <l>Le voyaige <persName type="saint" key="saint Mathurin">sainct Mathelin</persName></l>
-         <l>Gaignera beaucoup de chandelle</l>
-         <l n="52">S'il a les folz et leur sequelle</l>
+         <l ana="#folie">Le voyaige <persName type="saint" key="saint Mathurin">sainct Mathelin</persName></l>
+         <l ana="#folie">Gaignera beaucoup de chandelle</l>
+         <l n="52" ana="#folie">S'il a les folz et leur sequelle</l>
          <!-- Saut#18 -->
-         <l>À <placeName><settlement type="city" key="Orléans">Orleans</settlement></placeName> le
-            secretain</l>
+         <l>À <placeName type="city" key="Orléans">Orleans</placeName> le
+            secretain</l><note resp="editor" type="ling"><hi rend="italic">Secretain</hi>: sacristain.</note>
          <l>A prins or argent et estain</l>
          <l>Pour amener la secretaine</l>
          <l n="56"><persName key="Louise de Bourbon">L'abbesse de la Magdelaine</persName></l>
-         <fw type="sig" place="bottom-right">Deviendra grosse</fw>
+         <fw type="catch" place="bottom-right">Deviendra grosse</fw>
          <pb n="151r"/>
          <fw type="pageNum" place="top-right">151</fw>
          <l>Deviendra grosse par despit</l>

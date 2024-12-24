@@ -66,6 +66,7 @@
                         <!-- C -->
                         <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
                         <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+                        <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de l'épître</interp>
                         <interp xml:id="corruption" ana="corruption">corruption</interp>
                         <interp xml:id="corps" ana="corps">corps</interp>
                         <interp xml:id="cour" ana="court">vie de la cour</interp>
@@ -85,6 +86,7 @@
                             encouragements</interp>
                         
                         <!-- F -->
+                        <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
                         <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
                         <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
                         
@@ -176,6 +178,13 @@
                 </p>
             </encodingDesc>
         </teiHeader>
+
+
+        <xi:include href="CAA22-Jamet#4.xml" xmlns:xi="http://www.w3.org/2001/Xinclude"
+            xpointer="Jamet_4">
+            <xi:fallback>fichier manquant</xi:fallback>
+        </xi:include>
+        
 
         <xi:include href="CAA24-Marot#5.xml" xmlns:xi="http://www.w3.org/2001/Xinclude"
             xpointer="Marot_5">

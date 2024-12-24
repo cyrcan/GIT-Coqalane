@@ -18,26 +18,119 @@
       <body>
          <listPerson>
             <head>Index des noms des personnes</head>
+
+<!-- PERSONNAGES POLITIQUES -->
+            <!-- MONARQUES -->
             
-            <person xml:id="Anne_de_Pisseleu"><ptr target="https://data.bnf.fr/ark:/12148/cb14978045m"/>
+            <person xml:id="Charlemagne">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb11940325v"/>
+               <idno type="ISNI">0000 0001 2143 0569</idno>
+               <persName xml:lang="fr"><forename type="first"
+                     >Charlemagne</forename><surname> </surname></persName>
+               <birth when="0742-04-02">Né le 2 avril 742</birth>
+               <death when="0814-01-28">Mort le 28 janvier 814</death>
+            </person>
+            
+            <person>
+               <persName xml:id="François_Ier"><ptr
+                     target="https://data.bnf.fr/ark:/12148/cb120127827"/>
+                  <idno type="ISNI">0000 0001 2102 9337</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                        >François Ier</forename><surname> </surname></persName><roleName>roi de France de 1515 à 1547</roleName></persName>
+               <faith>catholique</faith>
+               <birth when="1494-09-12">Né à Cognac le 12 septembre 1494</birth>
+               <death when="1547-03-03">Mort à Rambouillet le 3 mars 1547</death>
+            </person>
+            
+            <person>
+               <persName xml:id="Charles-Quint"><ptr
+                     target="https://data.bnf.fr/ark:/12148/cb12038246v"/>
+                  <idno type="ISNI">0000 0001 2096 5852</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                        >Charles-Quint</forename><surname> </surname></persName><roleName>empereur
+                           du Saint Empire Romain Germanique</roleName></persName>
+               <faith>catholique</faith>
+               <birth when="1500-02-24">Né le 24 février 1500</birth>
+               <death when="1558-09-21">Mort le 21 septembre 1558</death>
+            </person>
+            
+            <person>
+               <persName xml:id="Henry_VIII"><ptr
+                     target="https://data.bnf.fr/ark:/12148/cb11988809r"/>
+                  <idno type="ISNI">0000 0001 2258 6127</idno>
+                  <persName xml:lang="en"><forename type="first">Henry</forename><surname>
+                        VIII</surname></persName></persName>
+               <birth when="1491-06-28">né le 28 juin 1491</birth>
+               <death when="1547-01-28">mort le 28 janvier 1547</death>
+               <event when="1536-05-30">
+                  <desc>Il se marie avec Jane Seymour le 30 mai 1536</desc>
+               </event>
+            </person>
+            
+            <person>
+               <persName xml:id="Henri_III"><ptr target="https://data.bnf.fr/ark:/12148/cb12016877w"/>
+                  <idno type="ISNI">0000 0001 2319 7721</idno>
+                  <persName xml:lang="fr"><forename type="first">Henri</forename><surname>
+                        III</surname></persName></persName>
+            </person>
+            
+            <person xml:id="Henri_de_Navarre">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb120154019"/>
+               <idno type="ISNI">0000 0001 2134 8311</idno>
+               <persName xml:lang="fr"><forename type="first">Henri</forename><surname>
+                     <nameLink>de</nameLink> Navarre</surname> (futur Henri
+                  IV)<roleName/></persName>
+               <birth when="1553-12-14">Né le 14 décembre 1553</birth>
+               <death when="1610-05-14">Mort le 14 mai 1610</death>
+               <event>
+                  <desc>Assassiné par <persName>Ravaillac</persName></desc>
+               </event>
+               <occupation from="1589" to="1610">roi de France</occupation>
+            </person>
+            
+            
+            
+            <!-- COURTISAN·E·S -->
+            <person xml:id="Anne_de_Pisseleu">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb14978045m"/>
                <idno type="ISNI">0000 0001 2208 7539</idno>
                <persName xml:lang="fr"><forename type="first">Anne
-                  de</forename><surname>Pisseleu</surname></persName>
+                     de</forename><surname>Pisseleu</surname></persName>
             </person>
-            
-            <person xml:id="G_Poyet"><ptr target="https://data.bnf.fr/ark:/12148/cb10411705z"/>
+
+            <person sex="M" xml:id="Gentils">
+               <persName>
+                  <idno/>
+                  <persName xml:lang="fr"><forename type="first">René</forename><surname>
+                        Gentil[s]</surname></persName></persName>
+               <death when="1543-09-23">Pendu le 23 septembre 1543</death>
+               <occupation>Conseiller</occupation>
+               <event>
+                  <p>Procès qui débute en 1537 et se poursuit cinq années</p>
+               </event>
+               <altGrp>
+                  <ptr target="CAA23-Esjoyr(NAF1870).xml"/>
+                  <ptr target="CAA35-Coquette-au-coquet.xml"/>
+                  <ptr target="CAA27-La_Grue.xml"/>
+               </altGrp>
+            </person>
+
+
+            <person xml:id="G_Poyet">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb10411705z"/>
                <idno type="ISNI">0000 0001 1677 8982</idno>
                <persName xml:lang="fr"><forename type="first"
-                  >Guillaume</forename><surname>Poyet</surname></persName>
+                     >Guillaume</forename><surname>Poyet</surname></persName>
             </person>
-            <person xml:id="Boniface_VIII"><ptr target="https://data.bnf.fr/ark:/12148/cb12128117z"/>
+            <person xml:id="Boniface_VIII">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb12128117z"/>
                <idno type="ISNI">0000 0001 2124 2007</idno>
                <persName xml:lang="fr"><forename type="first"
-                  >Benedetto</forename><surname>Caetani</surname></persName>
+                     >Benedetto</forename><surname>Caetani</surname></persName>
             </person>
             <person xml:id="Jésus">
                <persName xml:lang="fr"><forename type="first">Jésus</forename><surname>
-                  <nameLink>de</nameLink> Nazareth</surname></persName>
+                     <nameLink>de</nameLink> Nazareth</surname></persName>
             </person>
             <person>
                <persName xml:id="Bellièvre"><ptr target="https://data.bnf.fr/ark:/12148/cb134962124"/>
@@ -57,31 +150,19 @@
                <death when="1596-05-06">Morte à Paris le 6 mai 1596</death>
             </person>
 
-            <person>
-               <persName xml:id="Henri_III"><ptr target="https://data.bnf.fr/ark:/12148/cb12016877w"/>
-                  <idno type="ISNI">0000 0001 2319 7721</idno>
-                  <persName xml:lang="fr"><forename type="first">Henri</forename><surname>
-                        III</surname></persName></persName>
-            </person>
             
+
             <person>
-               <persName xml:id="Henry_VIII"><ptr target="https://data.bnf.fr/ark:/12148/cb11988809r"/>
-                  <idno type="ISNI">0000 0001 2258 6127</idno>
-                  <persName xml:lang="en"><forename type="first">Henry</forename><surname>
-                     VIII</surname></persName></persName>
-               <birth when="1491-06-28">né le 28 juin 1491</birth>
-               <death when="1547-01-28">mort le 28 janvier 1547</death>
-               <event when="1536-05-30"><desc>Il se marie avec Jane Seymour le 30 mai 1536</desc></event>
-            </person>
-            
-            <person>
-               <persName xml:id="Jane_Seymour"><ptr target="https://data.bnf.fr/ark:/12148/cb13755889t"/>
+               <persName xml:id="Jane_Seymour"><ptr
+                     target="https://data.bnf.fr/ark:/12148/cb13755889t"/>
                   <idno type="ISNI">0000 0000 7145 9901</idno>
                   <persName xml:lang="en"><forename type="first">Jane</forename><surname>
-                     Seymour</surname></persName></persName>
+                        Seymour</surname></persName></persName>
                <birth when="1509">née en 1509</birth>
                <death when="1537-10-24">morte le 24 octobre 1537</death>
-               <event when="1536-05-30"><desc>Elle se marie avec Henri VIII le 30 mai 1536</desc></event>
+               <event when="1536-05-30">
+                  <desc>Elle se marie avec Henri VIII le 30 mai 1536</desc>
+               </event>
             </person>
 
             <person>
@@ -97,6 +178,8 @@
                <persName xml:lang="fr"><forename type="first">Albert</forename><surname>
                      <nameLink>de</nameLink> Gondi, comte de Retz</surname></persName>
             </person>
+
+<!-- THÉOLOGIENS -->
 
             <person>
                <persName xml:id="Luther"><ptr target="https://data.bnf.fr/ark:/12148/cb119136609"/>
@@ -122,17 +205,7 @@
                <death when="1560-04-19">Mort à Wittenberg le 19 avril 1560</death>
             </person>
 
-            <person>
-               <persName xml:id="Charles-Quint"><ptr
-                     target="https://data.bnf.fr/ark:/12148/cb12038246v"/>
-                  <idno type="ISNI">0000 0001 2096 5852</idno>
-                  <persName xml:lang="fr"><forename type="first"
-                        >Charles-Quint</forename><surname> </surname></persName><roleName>empereur
-                     du Saint Empire Romain Germanique</roleName></persName>
-               <faith>catholique</faith>
-               <birth when="1500-02-24">Né le 24 février 1500</birth>
-               <death when="1558-09-21">Mort le 21 septembre 1558</death>
-            </person>
+<!-- AUTEURS -->            
 
             <person>
                <persName xml:id="Marot"><ptr target="https://data.bnf.fr/ark:/12148/cb119146627"/>
@@ -144,11 +217,11 @@
                <birth notBefore="1496">Né à Cahors en 1496</birth>
                <death when="1544">Mort à Turin en 1544</death>
             </person>
-            
+
             <person>
                <persName xml:id="Jamet">
                   <persName xml:lang="fr"><forename type="first">Lyon ou Léon</forename><surname>
-                     Jamet</surname></persName></persName>
+                        Jamet</surname></persName></persName>
                <occupation>secrétaire</occupation>
                <faith>évangélique</faith>
             </person>
@@ -165,6 +238,8 @@
                <death when="1553-04-09">Mort à Paris le 9 avril 1553</death>
             </person>
 
+
+
             <person xml:id="Épernon">
                <ptr target="https://data.bnf.fr/ark:/12148/cb129927039"/>
                <idno type="ISNI">0000 0001 2134 3043</idno>
@@ -175,14 +250,7 @@
                <death when="1562-01-13"/>
             </person>
 
-            <person xml:id="Charlemagne">
-               <ptr target="https://data.bnf.fr/ark:/12148/cb11940325v"/>
-               <idno type="ISNI">0000 0001 2143 0569</idno>
-               <persName xml:lang="fr"><forename type="first"
-                     >Charlemagne</forename><surname> </surname></persName>
-               <birth when="0742-04-02">Né le 2 avril 742</birth>
-               <death when="0814-01-28">Mort le 28 janvier 814</death>
-            </person>
+            
 
             <person>
                <persName xml:id="Charles-Emmanuel_I"><ptr
@@ -220,9 +288,10 @@
                </event>
             </person>
 
-            <person xml:id="Ochino"><ptr target="https://data.bnf.fr/ark:/12148/cb12216298j"/>
+            <person xml:id="Ochino">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb12216298j"/>
                <persName xml:lang="fr"><forename type="first"
-                  >Bernardino</forename><surname>Ochino</surname></persName>
+                     >Bernardino</forename><surname>Ochino</surname></persName>
             </person>
 
             <person sex="M" xml:id="Monluc">
@@ -269,19 +338,7 @@
                <occupation>Fou du roi</occupation>
             </person>
 
-            <person xml:id="Henri_de_Navarre">
-               <ptr target="https://data.bnf.fr/ark:/12148/cb120154019"/>
-               <idno type="ISNI">0000 0001 2134 8311</idno>
-               <persName xml:lang="fr"><forename type="first">Henri</forename><surname>
-                     <nameLink>de</nameLink> Navarre</surname> (futur Henri
-                  IV)<roleName/></persName>
-               <birth when="1553-12-14">Né le 14 décembre 1553</birth>
-               <death when="1610-05-14">Mort le 14 mai 1610</death>
-               <event>
-                  <desc>Assassiné par <persName>Ravaillac</persName></desc>
-               </event>
-               <occupation from="1589" to="1610">roi de France</occupation>
-            </person>
+            
             <person xml:id="Marcel">
                <idno/>
                <persName xml:lang="fr"><forename type="first">Claude</forename><surname>
@@ -682,7 +739,7 @@ Homme de guerre. - Prince de Mantoue, fils de Frédéric II, duc de Mantoue. - D
                <ptr target="https://data.bnf.fr/ark:/12148/cb10197077g"/>
                <idno>0000 0000 7974 888X</idno>
                <persName><forename>Jean-Antoine </forename><nameLink>d'
-               </nameLink><surname>Anglerais</surname></persName>
+                     </nameLink><surname>Anglerais</surname></persName>
                <occupation>bouffon de Henri III et Henri IV</occupation>
                <birth when="1540">né en 1540</birth>
                <death when="1591">mort en 1591</death>
@@ -703,9 +760,7 @@ Homme de guerre. - Prince de Mantoue, fils de Frédéric II, duc de Mantoue. - D
                <birth when="1492-04-19">né le 19 avril 1492</birth>
                <death when="1591">mort le 21 octobre 1556</death>
             </person>
-            <person xml:id="Saint_Jean">
-               
-            </person>
+            <person xml:id="Saint_Jean"> </person>
          </listPerson>
       </body>
    </text>

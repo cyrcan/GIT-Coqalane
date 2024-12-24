@@ -418,7 +418,7 @@
                 <l ana="#tromperie">Qui soubz umbre d’un beau parler</l>
                 <l>Couvent un dangereux penser</l>
                 <!-- Saut#42--><anchor type="saut#42"/>
-                <l>Mais chacun ne peult estre sage</l>
+                <l ana="#gnomique">Mais chacun ne peult estre sage</l>
                 <l n="192" ana="#folie">Il fault mettre les folz en cage</l>
                 <!-- Saut#43 --><anchor type="saut#43"/>
                 <l ana="#ambition">Car les <rs type="animal" subtype="oiseau">perroquets</rs> ont le
@@ -435,8 +435,8 @@
                 <l>Car tant de <rs type="animal" subtype="homidé">Singes</rs> en la France</l>
                 <l n="200">Fournissent autrement leur panse</l>
                 <!-- Saut#46 --><anchor type="saut#46"/>
-                <l>Mais certes c’est un beau renom</l>
-                <l>Qu’estre appellé <roleName>duc</roleName> d’<persName>Espernon</persName></l>
+                <l ana="#ironie">Mais certes c’est un beau renom</l>
+                <l ana="#sat_pers">Qu’estre appellé <roleName>duc</roleName> d’<persName>Espernon</persName></l>
                 <!-- Saut#47 --><anchor type="saut#47"/>
                 <l ana="#gnomique">Qui trop s’eschauffe mal se trouve</l>
                 <l n="204">Cecy n’a point besoin de preuve</l>
@@ -451,8 +451,8 @@
                 <l n="212">De ce <rs type="invective">factieux herectique</rs></l>
                 <l>Car ce <expan>concordat</expan> inhumain</l>
                 <l>Ou tous debvoyent prester la main</l><!-- A éclaircir -->
-                <l>Pour contraindre le <roleName key="Henri_III">Roy de <placeName type="country"
-                            key="France">France</placeName></roleName></l>
+                <l>Pour contraindre le <persName key="Henri_III">Roy de <placeName type="country"
+                            key="France">France</placeName></persName></l>
                 <l n="216">Estoit leur entiere esperance</l>
                 <l>D’extirper la Religion</l>
                 <l>Mettant tout en <expan>confusion</expan></l>
@@ -477,7 +477,7 @@
                 <!-- Saut#53 --><anchor type="saut#53"/>
                 <l>De quoy nous sert ceste chanson</l>
                 <l>Nous n’en retenons que le son</l>
-                <l>C’est pour venir au vieil proverbe</l>
+                <l ana="#mtd">C’est pour venir au vieil proverbe</l>
                 <l n="236" ana="#gnomique">Toujours on void la mauvaise herbe</l>
                 <l ana="#gnomique">Produire le mortel venin</l>
                 <!-- Saut#54 --><anchor type="saut#54"/>

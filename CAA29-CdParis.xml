@@ -4,9 +4,9 @@
 <?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
-      <fileDesc>
+      <fileDesc xml:id="Crottes_Paris">
          <titleStmt>
-            <title xml:id="Crottes_Paris">Crottes de Paris</title>
+            <title>Crottes de Paris</title>
          </titleStmt>
          <publicationStmt>
             <p>Texte établi à partir de la version du manuscrit 203 de Soissons et que reprend le
@@ -72,6 +72,7 @@
                <!-- C -->
                <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
                <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de l'épître</interp>
                <interp xml:id="corruption" ana="corruption">corruption</interp>
                <interp xml:id="corps" ana="corps">corps</interp>
                <interp xml:id="cour" ana="court">vie de la cour</interp>

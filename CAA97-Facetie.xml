@@ -4,7 +4,7 @@
 <?xml-stylesheet type="text/xsl" href="../Count.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
-      <fileDesc xml:id="Facetie1616">
+      <fileDesc xml:id="Facetie1617">
          <titleStmt>
             <title>Coq à l'asne [Réf. 97]</title>
          </titleStmt>
@@ -172,7 +172,13 @@
             <l ana="#adr">Qu'on veid dernierement chez vous,</l>
             <l ana="#sat_rel">Un moine chauffant ses genoux,</l>
             <l ana="#motifs_sexuels">Guignoit dessous vostre chemise</l>
-            <l n="12" ana="#motifs_sexuels">Le babichon par <reg>où</reg> tu pisses</l>
+            <l n="12" ana="#motifs_sexuels">Le babichon par <reg>où</reg> tu pisses</l><note
+               resp="editor" type="ling">Alain Mercier signale le terme <hi rend="italic"
+                  >barbichot</hi> en béarnais comme équivalent du terme <hi rend="italic"
+                  >barbolle</hi> à propos de la "barbolle abattue" dans le témoignage des matrones
+               du <title>Resveil du chat qui dort</title> et de ses copies pour désigner les poils
+               du pubis. Voir <title>La Seconde Après-dînée du caquet de l'accouchée</title>, p.
+               76.</note>
             <l ana="#sat_rel"><rs type="injonction" subtype="impératif">Fuyez</rs> ceux qui parlent
                Latin</l>
             <!-- Saut#2 --><anchor type="saut#2"/>
@@ -183,22 +189,33 @@
                quelque sorte la figuration du "je" satyrique: il opère dans les recueils comme une
                figure lyrique familière et réinvestie par les poètes.", p. 121.</note>
             <l ana="#argent">Se vendent cher outre mesure.</l><!-- Cf. réalité de 1616 -->
-            <l ana="#motifs_sexuels" n="16">Pour ceux qui besongnent en peinture</l>
+            <l ana="#motifs_sexuels" n="16">Pour ceux qui besongnent en peinture</l><note
+               resp="editor" type="crit">Cf. le coq-à-l'âne "Amy pour ung peu t'esjouyr" de 1542
+               (CAA#23): "Messieurs appreignent à pourtraire / Ils sçavent desjà bien noircir / On
+               veoit trop souvent amortir / Par fard le tain des damoiselles", v. 48-51.</note>
             <!-- Saut#3 --><anchor type="saut#3"/>
             <l>Le bon Hermite <persName type="saint">Alivergot</persName></l><note resp="editor"
                type="glose">Nom celte qui signifie "décapité" et associé dans l'Aisne notamment à
                Saint-Jean.</note>
-            <l>Mit son frelaut dans un fagot,</l><!--<note resp="editor" type="ling"><hi rend="italic">Frelaut</hi>: frère au sens chrétien.</note>-->
+            <l>Mit son frelaut dans un fagot,</l><note resp="editor" type="ling"><hi rend="italic"
+                  >Frelaut</hi>: "frère", au sens chrétien. Cependant, le contexte invite à une
+               acception plus large.</note>
             <l ana="#sat_rel">Affin de faire penitence</l>
             <l n="20" ana="#sat_rel">C'estoit charge de conscience,</l>
-            <l ana="#sat_rel">Ou bien manque de sens rassis,</l>
+            <l ana="#sat_rel">Ou bien manque de sens rassis,</l><note resp="editor" type="ling"><hi
+                  rend="italic">Rassis</hi>: "Ce qui n'est point esmeu, ni troublé de passion.
+               Parler de sens <hi rend="italic">rassis</hi>, c'est parler sagement et avec
+               connoissance", Furetière.</note>
             <l ana="#sat_rel">Le temps passé les circonsis,</l>
             <l ana="#sat_rel">Ne perdoient rien que le prepuce.</l>
             <!-- Saut#4 --><anchor type="saut#4"/>
             <l n="24" ana="#sat_rel">Or si jamais je porte aumuse</l><note resp="editor" type="ling"
                   ><hi rend="italic">Aumuse</hi>: "An ornament of furre worne by Canons."
                (Cotgrave).</note>
-            <l ana="#ironie">Je guariray du <rs type="maladie">mal de Sainct</rs>.</l>
+            <l ana="#ironie">Je guariray du <rs type="maladie">mal de Sainct</rs>.</l><note
+               resp="editor" type="glose">De quel mal de saint s'agit-il? Celui de St-Paul?
+               L'allusion rappelle cependant les vers 70-71 du "Discours de la Pluie au Vent" de
+               1585: "L'un d'entre eux print une Apostume / De la servante d'un Chanoine".</note>
             <!-- Saut#5 --><anchor type="saut#5"/>
             <l><rs type="injonction" subtype="impératif">Allons</rs> vistement, car je craint,</l>
             <l ana="#prudence">Qu'on nous face quelque vergogne.</l><note resp="editor" type="ling"
@@ -206,8 +223,8 @@
             <l n="28">Desja dans l'<placeName>hostel de Bourgogne</placeName>,</l>
             <l ana="#folie">Les <orgName>maistres foux</orgName> sont habillez,</l>
             <l ana="#satire">Pour faire veoir les <rs type="invective">barboüillez</rs>.<note
-               resp="editor" type="ling"><hi rend="italic">Barbouillé</hi>: Personnage qui agit de
-               façon extravagante ou ridicule.</note></l>
+                  resp="editor" type="ling"><hi rend="italic">Barbouillé</hi>: Personnage qui agit
+                  de façon extravagante ou ridicule.</note></l>
             <fw>FIN.</fw>
          </p>
 
