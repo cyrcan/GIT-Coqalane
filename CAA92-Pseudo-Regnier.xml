@@ -110,7 +110,8 @@
             <l ana="#corps">Perclus d’une jambe et des bras,</l>
             <l>Tout de mon long entre deux dras,</l>
             <l>Il ne me reste que la langue</l>
-            <l n="4">Pour vous faire cette harangue.</l>
+            <l n="4" ana="mtd">Pour vous faire cette harangue.</l>
+            
             <l>Vous sçavés que j’ay pension,</l>
             <l>Et que l’on a pretention,</l>
             <l>Soit par sotise, ou par malice,</l>

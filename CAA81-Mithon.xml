@@ -178,11 +178,12 @@
             <l>Plusieurs ont eu dons &amp; presens</l>
             <l>Pour avoir part à la cuculle</l><note resp="editor" type="ling"><hi rend="italic"
                   >Cuculle</hi>: "capuchon de moine".</note>
-            <l n="28">De nostre sainct pere la mulle</l>
+            <l n="28">De nostre <persName>sainct pere</persName> la mulle</l>
             <l>Sera adoré en tout lieu</l>
             <l>Voyre peult estre plus que <persName>Dieu</persName></l>
             <l ana="#ligue">Sy la ligue obtenoit la victoire</l>
             <cb n="R"/>
+            <!-- Saut -->
             <l n="32">Les Reistres demandent sur <geogName type="fleuve" key="La Loire"
                   >Loyre</geogName></l>
             <l>Une ville pour seureté</l>

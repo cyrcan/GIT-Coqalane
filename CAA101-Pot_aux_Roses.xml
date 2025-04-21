@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="Pot_aux_Roses">
+         <titleStmt>
+            <title>Réf. n°101: </title>
+            <title>Le Coq-à-l'asne ou Pot aux Roses descouvert. Addressé aux Financiers.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Coq-à-l'âne qui fait partie d'un recueil factice conservé à la Bibliothèque de
+               Patrimoine de Toulouse. Edition différente de celle numérisée par la Bibliothèque
+               nationale de France. Frise et ponctuations sont différentes.</p>
+            <p>La satire politique et celle des ambitieux de la cour dominent. </p>
+            <p><listWit>
+                  <witness><msDesc>
+                        <msIdentifier xml:id="FaD18103_16">
+                           <settlement>Toulouse, </settlement>
+                           <repository>Bibliothèque du Patrimoine, </repository>
+                           <idno>Fa D 18103(16)</idno>
+                        </msIdentifier>
+                        <physDesc>
+                           <objectDesc>
+                              <ab>In-8° de 6 pages.</ab>
+                           </objectDesc>
+                        </physDesc>
+                     </msDesc></witness>
+               </listWit></p>
+            <p>
+               <listBibl>
+                  <bibl><author>Alain Mercier</author>, <title>Le Tombeau de la mélancolie</title>,
+                        <pubPlace>Paris</pubPlace>, <publisher>Honoré Champion</publisher>,
+                        <date>2005</date>, <biblScope>n°209 [ex 115]</biblScope>, p. 555-558. Avec
+                     transcription intégrale du texte.</bibl>
+                  <bibl><author>Edouard Fournier</author><title>Variétés historiques et littéraires:
+                        recueil de pièces volantes rares et curieuses en prose et en vers,
+                        </title><objectName>Tome IV, </objectName><pubPlace>Paris,
+                        </pubPlace><publisher>Pierre Jannet, </publisher>
+                     <date>1856, </date> p. 349.</bibl>
+               </listBibl></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p>
+            <interpGrp>
+               <!-- A -->
+               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="actu" ana="actualité">actualité commentée</interp>
+               <interp xml:id="adr" ana="adresse">adresse</interp>
+               <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+               <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="amour" ana="amour">amour</interp>
+               <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+
+               <!-- B -->
+               <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
+               <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
+
+               <!-- C -->
+               <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
+               <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de
+                  l'épître</interp>
+               <interp xml:id="corruption" ana="corruption">corruption</interp>
+               <interp xml:id="corps" ana="corps">corps</interp>
+               <interp xml:id="cour" ana="court">vie de la cour</interp>
+               <interp xml:id="cri" ana="cri">cris des marchands</interp>
+               <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+
+               <!-- D -->
+               <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+               <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+
+               <!-- E -->
+               <interp xml:id="éloge" ana="éloge">éloge</interp>
+               <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+               <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="eschatologie" ana="eschatologie">conception eschatologique</interp>
+               <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
+               <interp xml:id="exhortation" ana="exhortation">exhortations et
+                  encouragements</interp>
+
+               <!-- F -->
+               <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
+               <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+               <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+
+               <!-- G -->
+               <interp xml:id="gén" ana="généralisation">généralisation</interp>
+               <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                  gnomique</interp>
+               <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
+
+               <!-- H -->
+               <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+               <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+
+
+               <!-- I -->
+               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
+                  l'adversaire</interp>
+               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+               <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+               <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
+               <interp xml:id="ironie" ana="ironie">ironie</interp>
+
+               <!-- L -->
+               <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+               <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+               <interp xml:id="topos" ana="topos">lieu commun</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+
+               <!-- M -->
+               <interp xml:id="maladie" ana="maladie">maladie</interp>
+               <interp xml:id="massacre" ana="massacre">massacre</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:id="météo" ana="météo">météorologie</interp>
+               <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+               <interp xml:id="misères" ana="misères">misères du temps</interp>
+               <interp xml:id="misogynie" ana="misogynie">misogynie</interp>
+               <interp xml:id="mode" ana="mode">mode</interp>
+               <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                  valeurs</interp>
+               <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+
+               <!-- N -->
+               <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
+
+
+               <!-- P -->
+               <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
+               <interp xml:id="persona" ana="persona">persona de Marot</interp>
+               <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+               <interp xml:id="pillage-s" ana="pillages">vols, pillages</interp>
+               <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
+               <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+               <interp xml:id="practiques" ana="practiques">practiques</interp>
+               <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+               <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+               <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                  nécessaire</interp>
+
+               <!-- R -->
+               <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+               <interp xml:id="rébus" ana="rébus">rébus</interp>
+               <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="révélations" ana="révélations">révélation(s)</interp>
+               <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+               <interp xml:id="rire" ana="rire">rire</interp>
+               <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
+               <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+
+               <!-- S -->
+
+               <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+               <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="sergents" ana="sergents">contre les sergents</interp>
+               <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+               <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+               <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+               <interp xml:id="syllepse" ana="syllepse">syllepse</interp>
+
+               <!-- T -->
+               <interp xml:id="tauto" ana="tauto">tautologie</interp>
+               <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+               <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+
+               <!-- V -->
+               <interp xml:id="vanité" ana="vanité">vanité</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="violences" ana="violences">violences</interp>
+            </interpGrp>
+         </p>
+      </encodingDesc>
+      <revisionDesc>
+         <change><date when="2025-04-12">samedi 12 avril 2025</date> Transcription et consultation
+            avec l'exemplaire de Toulouse.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+            <l ana="#ethos">J'Ayme le <persName ref="ind:Louis_XIII">Roy</persName>, j'ayme les
+                  <roleName>Princes</roleName>,</l>
+            <l ana="#ethos">Je me déplais dans les Provinces,</l>
+            <l ana="#cour">Trop esloignées de la <placeName>Cour</placeName>,</l>
+            <!-- Saut#1 --><anchor type="saut#1"/>
+            <!-- Contre les courtisans et les ambitieux -->
+            <l n="4" ana="#leitmotiv">Il faict bon pour le temps qui court</l>
+            <l ana="#ambition">S'entremettre dans les affaires,</l>
+            <l ana="#sat_pol">Les <rs type="métier" subtype="intendant">Intendants</rs>, les <rs
+                  type="métier" subtype="secrétaire">Secretaires</rs>,</l>
+            <l ana="#sat_pol">Les <rs type="métier" subtype="financier">Financiers</rs>, les
+               Partizants,</l>
+            <l n="8" ana="#sat_pol">Les gens d'Estat, les Courtizants,</l>
+            <l ana="#sat_pol">Sont ceux maintenant qu'on destine</l>
+            <l ana="#sat_pol"><reg>À</reg> conquerir la <placeName type="region" key="Valteline"
+                  >Valtoline</placeName>,<note resp="editor" type="glose">Située entre la Lombardie
+                  et le Tyrol, la vallée de La Valteline, dans les Grisons, est une place
+                  stratégique pour l'Espagne, car elle assure les communications vers les Pays-Bas.
+                  Le 29 janvier 1622, en violation du traité de Madrid, l'Espagne impose le traité
+                  de Milan contre la Ligue suisse des Grisons, interdit le protestantisme et
+                  rattache une partie du pays au Tyrol autrichien. En mars, Louis XIII préfère aller
+                  combattre les protestants en Languedoc et ne pas intervenir militairement en
+                  Valteline. Ces vers doivent se situer en périphérie du traité de Paris du 7
+                  février 1623 signé au Louvre et qui constitue une alliance entre la France, Venise
+                  et la Savoie pour la restitution des lieux occupés et appartenant aux Grisons.
+                  Voir Joël Cornette, <title>Les Années cardinales, chronique de la France
+                     (1599-1652)</title>, Armand Colin-SEDES, 2000, p. 153-176.</note></l>
+            <l ana="#sat_pol">Ils sont pleins de biens &amp; d'honneurs,</l>
+            <l n="12" ana="#sat_pol">Ils ont destourné les mal'heurs</l>
+            <l ana="#sat_pol">Que trainoit la guerre passée,</l>
+            <l ana="#sat_pol">Par la paix qu'ils en ont tracée,</l><note resp="editor" type="glose"
+               >En référence à la paix de Montpellier du 18 octobre 1622 qui met fin à la guerre
+               entre les protestants et les troupes royales.</note>
+            <fw type="sig" place="bottom">A2</fw><fw type="réclame" place="bottom-right">Et</fw>
+            <pb n="4"/><fw type="pageNum" place="top-center">4</fw>
+            <l ana="#sat_pol">Et sont disposez maintenant,</l>
+            <l n="16" ana="#sat_pol"><reg>À</reg> payer force argent comptant</l>
+            <l ana="#ambition">Au <persName ref="ind:Louis_XIII" key="Louis XIII">Roy</persName>
+               pour faire le voyage</l>
+            <l ana="#ambition">De <placeName type="region" key="Picardie">Picardie</placeName> &amp;
+               de <placeName type="region" key="Brouage">Broüage</placeName>,</l>
+            <l ana="#ironie">Mesmes rencontrant <persName ref="ind:Spinola" key="Spinola, Ambroise"
+                  >Spinola</persName>,</l>
+            <l n="20" ana="#ironie">Ils l'obligeront au hola,<note resp="editor" type="glose">Le
+                  marquis Ambroise Spinola, commandant des troupes espagnoles aux Pays-Bas et futur
+                  vainqueur de Breda.</note></l>
+            <l ana="#sat_pol">Et nous asseurant les Salines,</l>
+            <l ana="#sat_pol">Fourniront aux places voysines,</l>
+            <l ana="#argent">Pourveu que leurs commissions,</l>
+            <l n="24" ana="#ambition">Leurs brevets &amp; leurs pensions,</l>
+            <l ana="#ambition">Leus soient remis <expan>rentrants</expan> en grace,<note
+                  resp="editor" type="glose">Des brevets particuliers sont émis les 24 et 26 octobre
+                  1623 rétablissant les huguenots dans "leurs biens, charges, honneurs et dignités",
+                  à l'instar du duc de Rohan et au grand dam du parti dévot.</note></l>
+            <l ana="#ambition">Chassans les nommez en leur place,</l>
+            <l ana="#satire">Ainsi purgez de leurs larcins</l>
+            <l n="28">Ils esloigneront les mutins,</l>
+            <l ana="#ironie">Qui vont affligeant nostre <placeName type="country" key="France"
+                  >France</placeName>,</l>
+            <l ana="#ironie">Et qui nous font vivre d'advance,</l>
+            <l ana="#sat_pol">On en voit dans les Parlements,</l>
+            <!-- Saut#2 --><anchor type="saut#2"/>
+            <l n="32" ana="#satire">Les <rs type="métier" subtype="conseiller">Conseillers</rs>, les
+               Presidents,</l>
+            <l ana="#satire">S'esmeuvent souvent en collere,</l>
+            <!-- Saut#3 --><anchor type="saut#3"/>
+            <l ana="#ambition">Et puis on courtize la <persName key="Marie de Médicis"
+                  >Mere</persName>,</l>
+            <fw type="réclame" place="bottom-right">Affin</fw>
+            <pb n="5"/><fw type="pageNum" place="top-center">5</fw>
+            <l ana="#ambition">Affin de pouvoir parvenir</l>
+            <l n="36" ana="#faveurs">Au but de son doux souvenir</l>
+            <l ana="#ambition">Par ce moyen gaignant la fille,</l>
+            <!-- Saut#4 --><anchor type="saut#4"/>
+            <l ana="#motifs_sexuels">Un conart en a dans la Quille,<note resp="editor" type="ling"
+                  >Sens très libre.</note></l>
+            <!-- Saut#5 --><anchor type="saut#5"/>
+            <l ana="#corruption">Les pistolles entrent par tout,</l>
+            <l n="40" ana="#corruption">Rien n'est à l'espreuve à ce bout,</l>
+            <l ana="#corruption">Afin d'empescher un divorce</l>
+            <!-- Saut#6 --><anchor type="saut#6"/>
+            <l>Il ne faut manquer à l'amorce:</l>
+            <l ana="#hypocrisie">Mon Dieu que j'en vois d'empeschez</l>
+            <l n="44" ana="#hypocrisie"><reg>À</reg> confesser tous leurs pechez</l>
+            <l ana="sat_rel">Où le Caresme nous convie</l>
+            <l ana="#sat_rel">Feignant d'amander nostre vie:</l>
+            <!-- Saut#7 --><anchor type="saut#7"/>
+            <l ana="#ambition">Chacun est du conseil secret,</l>
+            <l n="48">On est vain, on faict le discret,</l>
+            <l ana="#hypocrisie">On murmure un mot à l'oreille,</l>
+            <l ana="#sat_pol">Monsieur ne veut pas qu'on l'esveille</l>
+            <l ana="#sat_pol">On a pacquets de tous costez</l>
+            <l n="52" ana="#ambition">On vient de veoir leurs Majestez,</l>
+            <l ana="#cour">Et souvent dans les galleries,</l>
+            <l ana="#cour">On s'arreste aux tapisseries,</l>
+            <fw type="sig" place="bottom">A3</fw><fw type="réclame" place="bottom-right">Ou</fw>
+            <pb n="6"/><fw type="pageNum" place="top-center">6</fw>
+            <l ana="#cour">Ou bien aupres du Cabinet</l>
+            <l n="56" ana="#sat_pol">Feignant estre au Conseil secret,</l>
+            <l ana="#sat_pol">Trompant ainsi la populace:</l>
+            <l ana="#sat_pol">Qui croit qu'au Conseil ils ont place:</l>
+            <!-- Saut#8 --><anchor type="saut#8"/>
+            <l ana="#ambition">Qu'il est des Conseillers d'Estat,</l>
+            <l n="60" ana="#ambition"><reg>À</reg> simple fraize ou bas rabat,</l>
+            <l ana="#ambition">Qui maintenant portant calotte<note resp="editor" type="glose">Comme
+                  signe de dignité ecclésiastique?</note></l>
+            <l ana="#argent">Voudroyent bien mettre à la pallotte:<note resp="editor" type="glose"
+                  >Autre forme de la <hi rend="italic">Paulette</hi>, l'impôt sur "la soixantiéme
+                  partie du prix de l'ofice, que donne au Roi tous les ans au commencement de
+                  l'année chaque Oficier de Justice et de Finance afin de pouvoir pendant l'année
+                  disposer de son ofice." (Furetière, 1690). Sans son paiement, la charge est perdue
+                  pour les héritiers. De nombreuses facéties lui sont consacrées vers 1615 et
+                  notamment <title>La guerre de Charon &amp; Misoquin, voulant passer l'Acheron par
+                     force. Le secours que luy presta Briseloix, ou la Paulette. Raporté par Maistre
+                     Guillaume</title>, Paris, Antoine Cheriot, 1618, in-8°, 16 p. [BnF, 8-LB36-1122
+                  et Y2-40818 ex. incomplet].</note></l>
+            <!-- Saut#9 --><anchor type="saut#9"/>
+            <l ana="#ironie">Le <persName ref="ind:Louis_XIII" key="Louis XIII">Roy</persName> s'en
+               trouve bien servy,</l>
+            <l n="64" ana="#faveurs">Chacun Prince a son favory,</l>
+            <l><persName key="Jupiter" type="mythologie">Jupiter</persName> avoit <persName
+                  key="Ganimède" type="mythologie">Ganimede</persName>,</l>
+            <!-- Saut#10 --><anchor type="saut#10"/>
+            <l ana="#gnomique">Verres cassez sont sans remede,</l>
+            <l ana="#mtd">Et bref pour le faire plus court,</l>
+            <!-- Saut#11 --><anchor type="saut#11"/>
+            <l n="68">Il n'est que de suivre la <placeName>Court</placeName>,</l>
+            <l ana="#ironie">En la <placeName>Cour</placeName> la Noblesse abonde,</l>
+            <l ana="#ironie">C'est le <placeName type="paradis">Paradis</placeName> de ce monde.</l>
+            <fw>FIN.</fw>
+         </p>
+      </body>
+   </text>
+</TEI>

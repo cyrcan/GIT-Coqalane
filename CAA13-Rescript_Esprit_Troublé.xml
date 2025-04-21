@@ -143,11 +143,13 @@
             <l ana="#mtd">De Lasne au Coq. Doresnavant</l>
             <!-- Saut#2 --><anchor type="saut#2"/>
             <l>De <placeName type="region" key="Provence">Provence</placeName> on aura
-               nouvelle</l><note resp="editor" type="glose">Allusion probable à la défense de la
-               Provence par Montmorency à partir de juillet 1536 contre les troupes de
-               l'empereur.</note>
+               nouvelle</l><note resp="editor" type="glose">Allusion à la défense de la Provence par
+                  <persName ref="ind:Montmorency">Montmorency</persName> à partir de juillet 1536
+               contre les troupes de l'empereur.</note>
             <!-- Saut#3 --><anchor type="saut#3"/>
-            <l n="8">Au bout de l'an la vache velle</l>
+            <l n="8">Au bout de l'an la <rs type="animal" key="vache">vache</rs> velle</l><note resp="editor"
+               type="ling">La locution <hi rend="italic">ne vache ne veel!</hi> signifie: "rien du
+               tout", Di Stefano.</note>
             <l ana="#tauto">S'elle est malade el n'est point saine</l>
             <!-- Saut#4 --><anchor type="saut#4"/>
             <l>Quant <reg>on</reg> mengue de la laine</l>
@@ -273,8 +275,8 @@
                resp="editor" type="glose">On pense à une taverne.</note>
             <l>C'est assez pres de <placeName>sainct Martin</placeName></l><note resp="editor"
                type="glose">Toponyme particulièrement répandu. Dans la région, était connu
-               Saint-Martin aux Bois pour son abbatiale. Mais la saint-Martin, fêtée le 11
-               novembre, est aussi le début de la période du règne des Sots, et des excès.</note>
+               Saint-Martin aux Bois pour son abbatiale. Mais la saint-Martin, fêtée le 11 novembre,
+               est aussi le début de la période du règne des Sots, et des excès.</note>
             <!-- Saut#37 --><anchor type="saut#37"/>
             <l n="80">Je me levay hier au matin</l>
             <l>Encore lors luysoit la Lune</l>
@@ -294,7 +296,7 @@
             <l>Soit <reg>à</reg> midy soit au matin</l>
             <!-- Saut#40 --><anchor type="saut#40"/>
             <l n="92">Dieu pardoint au povre <persName>Martin</persName></l>
-            <l>Il conduisoit bien son <rs type="animal">pourceau</rs></l>
+            <l>Il conduisoit bien son <rs type="animal" key="cochon">pourceau</rs></l>
             <!-- Saut#41 --><anchor type="saut#41"/>
             <l>Je ne scay plus rien de nouveau</l>
             <l>Sinon que j'ay ung chappeau rouge</l>
@@ -330,8 +332,8 @@
             <l n="112">Toutesffoys ce ne fust alors</l>
             <l>Que ce pougault vint <reg>à</reg> jubé</l><note resp="editor" type="ling"><hi
                   rend="italic">Faire venir à jubé</hi>:"Forcer à céder", Huguet. Cf. "Plus hault
-               que toy est a le fois tombé, / Cognois ton cas et si viens à jubé;", Jean Molinet, "Le
-               débat d'Apvril et de May".</note>
+               que toy est a le fois tombé, / Cognois ton cas et si viens à jubé;", Jean Molinet,
+               "Le débat d'Apvril et de May".</note>
             <!-- Saut#48 --><anchor type="saut#48"/>
             <l>Le moyne parle <reg>à</reg> son abbé</l>
             <l>Quant il veult avoir sa jacquette</l><note resp="editor" type="ling">Quand il veut

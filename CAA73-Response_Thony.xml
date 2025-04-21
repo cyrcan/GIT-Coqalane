@@ -3,7 +3,7 @@
 <?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
-      <fileDesc xml:id="CAA73-R_Thony">
+      <fileDesc xml:id="R_Thony">
          <titleStmt>
             <title>Responce de Thoni</title>
          </titleStmt>
@@ -13,7 +13,7 @@
                qui ont donné lieu à la publication de Gilbert Schrenck chez Droz en 2005 (Tome V du
                registre-journal), le ms. 172 de la Bibliothèque du Protestantisme français et le ms.
                22564 de la BnF. Les variantes des premiers sont ici indiquées en notes, le ms. 172
-               ne livre que les cent premiers vers. Notre exemplaire de 150 vers est ici le plus
+               ne livre que les cent premiers vers. Notre exemplaire Rasse des Neux de 150 vers est ici le plus
                long. Il faut également confronter cette version avec celle imprimée en 1589.</p>
          </publicationStmt>
          <sourceDesc>
@@ -87,11 +87,11 @@
             </msDesc>
          </listBibl>
          <p>
-            <l ana="etiq:adr">J'ay fort <expan>contenté</expan> mon esprit</l>
-            <l ana="etiq:adr"><persName type="destinataire">Arnault</persName> en lysant ton
+            <l ana="#adr">J'ay fort <expan>contenté</expan> mon esprit</l>
+            <l ana="#adr"><persName type="destinataire">Arnault</persName> en lysant ton
                escrit</l>
             <l><reg>Où</reg> j'ay apprins maintes nouvelles</l>
-            <l n="4">Mais je t'en diray de plus belles</l>
+            <l n="4" ana="#mtd">Mais je t'en diray de plus belles</l>
             <l>Nous avons à ce coup la paix</l>
             <l>Pour faire la guerre à jamais</l>
             <l>Du moins pour toute nostre vie</l>
@@ -267,7 +267,7 @@
                   <lem wit="#fr22564"><reg>À</reg></lem>
                   <rdg wit="#BPF172">De</rdg>
                </app> piller sans que rien eschappe</l>
-            <l n="100">Ce sont les francs taulpins du Pappe</l><note resp="editor" type="ling"><hi
+            <l n="100">Ce sont les <orgName type="soldat" subtype="franctaupin">francs taulpins</orgName> du Pappe</l><note resp="editor" type="ling"><hi
                   rend="italic">Franctaupin</hi>: "Soldat des milices rurales instituées sous
                Charles VII et supprimées sous Louis XII", Huguet.</note>
             <l ana="etiq:indulgences">Ils ont bon marché de Pardons</l><note resp="editor"

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="Beaulieu_1">
+         <titleStmt>
+            <title>Réf. n°4: </title>
+            <title>La dixieme espistre du coq a l'asne</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p>
+            <interpGrp>
+               <!-- A -->
+               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="actu" ana="actualité">actualité commentée</interp>
+               <interp xml:id="adr" ana="adresse">adresse</interp>
+               <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+               <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+
+               <!-- B -->
+               <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
+               <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
+
+               <!-- C -->
+               <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
+               <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de
+                  l'épître</interp>
+               <interp xml:id="corruption" ana="corruption">corruption</interp>
+               <interp xml:id="corps" ana="corps">corps</interp>
+               <interp xml:id="cour" ana="court">vie de la cour</interp>
+               <interp xml:id="cri" ana="cri">cris des marchands</interp>
+               <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+
+               <!-- D -->
+               <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+               <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+
+               <!-- E -->
+               <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+               <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
+               <interp xml:id="exhortation" ana="exhortation">exhortations et
+                  encouragements</interp>
+
+               <!-- F -->
+               <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
+               <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+               <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+
+               <!-- G -->
+               <interp xml:id="gén" ana="généralisation">généralisation</interp>
+               <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                  gnomique</interp>
+               <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
+
+               <!-- H -->
+               <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+               <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+
+
+               <!-- I -->
+               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
+                  l'adversaire</interp>
+               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+               <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+               <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
+               <interp xml:id="ironie" ana="ironie">ironie</interp>
+
+               <!-- L -->
+               <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+               <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+               <interp xml:id="topos" ana="topos">lieu commun</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+
+               <!-- M -->
+               <interp xml:id="maladie" ana="maladie">maladie</interp>
+               <interp xml:id="massacre" ana="massacre">massacre</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:id="météo" ana="météo">météorologie</interp>
+               <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+               <interp xml:id="misères" ana="misères">misères du temps</interp>
+               <interp xml:id="misogynie" ana="misogynie">misogynie</interp>
+               <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                  valeurs</interp>
+               <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+
+
+               <!-- P -->
+               <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
+               <interp xml:id="persona" ana="persona">persona de Marot</interp>
+               <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+               <interp xml:id="pillage-s" ana="pillages">vols, pillages</interp>
+               <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
+               <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+               <interp xml:id="practiques" ana="practiques">practiques</interp>
+               <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+               <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+               <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                  nécessaire</interp>
+
+               <!-- R -->
+               <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+               <interp xml:id="rébus" ana="rébus">rébus</interp>
+               <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+               <interp xml:id="rire" ana="rire">rire</interp>
+               <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
+               <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+
+               <!-- S -->
+
+               <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+               <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+               <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+               <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+
+               <!-- T -->
+               <interp xml:id="tauto" ana="tauto">tautologie</interp>
+               <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+               <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+
+               <!-- V -->
+               <interp xml:id="vanité" ana="vanité">vanité</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="violences" ana="violences">violences</interp>
+            </interpGrp>
+         </p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Aix-en-Provence, </settlement>
+                  <repository>BM Méjanes, </repository>
+                  <idno>C. 2994</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <p><l ana="#adr"><persName type="destinataire">Madamoyselle</persName>, j'ay pensé</l>
+            <l>Que de vous seray dispensé</l>
+            <l>De vous avoir escript à haste;</l>
+            <l n="4">Mais ce a esté (sans que vous flate)</l>
+            <l>Pour ce que pensois retourner</l>
+            <l>En <placeName type="region" key="Limousin">Lymosin</placeName>, sans sejourner</l>
+            <l>En <placeName type="region" key="Bourbonnais">Bourbonnoys</placeName> tant que j'ay
+               faict.</l>
+            <l n="8">Quoy voyant, me hastay en effect</l>
+            <l>De barboiller à l'aventure</l>
+            <l>Ceste ma presente escripture</l>
+            <l>Pour m'acquiter en vostre endroit:</l>
+            <l n="12">Ce que n'ay, pour ce que le froid</l>
+            <l>S'opposoit à tenir ma plume.</l>
+            <l>Aussi je n'ay point de coustume</l>
+            <l>De monter jamais à <rs type="animal" subtype="équidé" key="cheval">Cheval</rs></l>
+            <l n="16">Quand ce vient à descendre ung Val,</l>
+            <l>A cause que mes Jarretieres</l>
+            <l>Me servent souvent d'estrivieres ;</l>
+            <l>Et d'aultre part on void souvent</l>
+            <l n="20">Boyre devant Soleil levant</l>
+            <l>Les petitz Garsons de cuysine,</l>
+            <l>Qui nous est ung evident signe</l>
+            <l>Du grand &amp; dernier Jugement.</l>
+            <l n="24">Joinct que autant trote ung <rs type="animal" subtype="équidé" key="jument">Jument</rs></l>
+            <l>En plat pays q'une <rs type="animal" subtype="crustacé" key="écrevisse">Escrevisse</rs>.</l>
+            <l>Et si la Court n'y met police,</l>
+            <l>Je me doubte q'ung temps viendra</l>
+            <l n="28">Q'ung Larron l'aultre soustiendra.</l>
+            <l>Mais que que soit, Je vous supplye,</l>
+            <l><rs type="injonction" subtype="défense">Ne soyez jamais</rs> endormye</l>
+            <l>Quand vous passerez ung Ruysseau,</l>
+            <l n="32">Car je vous prometz que sur l'Eau</l>
+            <l>Faict mal danser une Gaillarde.</l>
+            <l>Mais à sçavoir mon s'il vous tarde</l>
+            <l>De veoir les travaulx &amp; negoces</l>
+            <l n="36">Du desiré jour de voz Nopces ?</l>
+            <l>Que pleust à Dieu feust il demain,</l>
+            <l>Et qu'on vous menast par la main</l>
+            <l>A l'esglise espouser ung Conte.</l>
+            <!-- Saut# -->
+            <l n="40">Je croy qu'avez ouy le compt</l>e <l>De mon <rs type="animal" subtype="équidé" key="cheval"
+                  >Cheval</rs> qui l'aultre jour</l>
+            <l>Se mist à genoulx pres d'ung Four</l>
+            <l>Droit sur le grand chemin de <placeName>Joze</placeName>.</l>
+            <l n="44">Vous asseurant que c'est grand chose</l>
+            <l>De la tour du Louvre à <placeName type="city" key="Paris">Paris</placeName>;</l>
+            <l>Et faict tresbon veoir les Maris</l>
+            <l>Qui croyent à leurs bonnes Femmes.</l>
+            <l n="48">Ο qu'il y a de Gens infames</l>
+            <l>A faulte d'avoir bien dequoy,</l>
+            <l>Combien que ne sçay sur ma foy</l>
+            <l>S'il fault que je vous advertisse</l>
+            <l n="52">D'impetrer pour moy ung office</l>
+            <l>D'ung des Presidens de la Court.</l>
+            <l>Non, que dis je ? (je suis bien lourd)</l>
+            <l>Mais ung office qu'on appelle</l>
+            <l n="56">Aulmonier ou clerc de Chappelle,</l>
+            <l>Mais qu'il se serve par quartier,</l>
+            <l>Car, qui faict de terre ung Mortier,</l>
+            <l>Il y a danger que se casse,</l>
+            <l n="60">Et (aussi) tel souvent menasse</l>
+            <l>Qui a grand peur d'estre batu.</l>
+            <l>Mais, le tout au long debatu,</l>
+            <l>Je vous ay bien voulu escripre</l>
+            <l n="64">La griefve dolleur &amp; martire</l>
+            <l>Que endure icy, vueille il ou non,</l>
+            <l>Nostre paovre petit Guenon</l>
+            <l>Qui se est bruslé une partie,</l>
+            <l n="68">Car si vous oyez comme il crie</l>
+            <l>Quand la Jacqueline le pense,</l>
+            <l>Je vous prometz ma conscience</l>
+            <l>Que vous jugeriez proprement</l>
+            <l n="72">Que ce n'est point enchantement.</l>
+            <l><rs type="injonction" subtype="impératif">Avisez</rs> donq si l'on se joue</l>
+            <l>De bailler du poing sur la joue,</l>
+            <l>Veu la neige qu'est par deça,</l>
+            <l n="76">Car despuis quatorse ans en ça</l>
+            <l>On ne feit en Apvril vendenges.</l>
+            <l>Mon Dieu, qu'en Paradis a d'Anges,</l>
+            <l>Et aux grosses Villes de Veaulx.</l>
+            <l n="80">Les premiers fruictz sont toutz nouveaulx</l>
+            <l>Selon la carte gallicane.</l>
+            <l>En <placeName type="region" key="Limousin">Lymosin</placeName> disons Lucane</l>
+            <l>Ce qu'en <placeName type="country" key="France">France</placeName> est ung
+               Galatas.</l>
+            <l n="84"><rs type="injonction" subtype="défense">Ne vous fiez point</rs> à ung tas</l>
+            <l>De <rs type="invective">Mommons</rs> qu'en plein jour chemynent,</l>
+            <l>Ne à ceulx qui disent qu'ilz devinent,</l>
+            <l>Mais fiez vous du tout en Dieu.</l>
+            <l n="88">Je fus l'aultre jour en ung lieu</l>
+            <l>Où je veiz de belles Nourrices.</l>
+            <l>Si vous ne voulez plus d'espices,</l>
+            <l><rs type="injonction" subtype="impératif">Mandez</rs> le moy par ce porteur,</l>
+            <l n="92">Car le boyre matin porte heur</l>
+            <l>Au dire des Pantagruelistes.</l>
+            <!-- Saut# -->
+            <l>Or, à propos des Sorbonistes,</l>
+            <l>Sçavez vous le Dominus pars ?</l>
+            <l n="96">Car Venus a ses gens espars</l>
+            <l>Par tout <placeName type="imaginaire">le pays de Surie</placeName>.</l>
+            <l>Mais que vault la babillerie</l>
+            <l>Si on n'a les <rs type="monnaie" subtype="écu">Escus</rs> contans ?</l>
+            <l n="100">Ce n'est sinon que perdre temps</l>
+            <l>D'apprendre à danser une Truye.</l>
+            <l>Nous avons eu forse de pluye</l>
+            <l>Despuis ung moys en ce quartier,</l>
+            <!-- Saut# -->
+            <l n="104">Et si me dict on devant yer</l>
+            <l>Que l'An de Jubilé se aproche.</l>
+            <!-- Saut# -->
+            <l>Toutesfois, c'est ung grand reproche</l>
+            <l>A ung Marchant d'estre trompeur.</l>
+            <l n="108">Jesus, &amp; que je euz belle peur</l>
+            <l>Lors qu'on me dict : Ο je vous prie,</l>
+            <l>Ne pensez plus à vostre vie</l>
+            <l>Car le mal est enraciné</l>
+            <l n="112">Et d'estre plus mediciné.</l>
+            <l>C'est ung grand mal que Jalousie,</l>
+            <l>Non obstant (à ma fantaisie)</l>
+            <l>Ma Dame ne m'a pas vendu.</l><note>Cf. Chanson de Marot que le poète cite lui-même
+               dans le premier coq-à-l'âne du genre.</note>
+            <l>Pensez-vous que j'eusse attendu</l>
+            <l>Mon payement, passé le terme ?</l>
+            <l>In Jehan, je ne suis pas si ferme.</l>
+            <l>Que pleust à Dieu que les Paillardz</l>
+            <l>Feussent d'ung grand feu de paille ardz,</l>
+            <l>Et la Paillarde sote &amp; folle,</l>
+            <l>Qui tant de jeunes Gens affolle,</l>
+            <l>Et ne s'en peult on descharger.</l>
+            <l>Achapter, vendre ne changer</l>
+            <l>Ne pourront plus messieurs des Ligues,</l>
+            <l>Car chascung dict : fy de leurs Figues,</l>
+            <l>Et n'est bruyt que des vieulx Cabas.</l>
+            <l>Je suis marri qu'on mete à bas</l>
+            <l>Une si tres pompeuse Ville,</l>
+            <l>Veu que jadis entre dix mille</l>
+            <l>C'est celle qu'avoit bruyt &amp; los.</l>
+            <l>Mais, ainsi q'ung Chien ronge l'os,</l>
+            <l>Ainsi de nuyct en maintes sortes</l>
+            <l>Les Amoureux rongent les portes ;</l>
+            <l>Tesmoing Monsieur maistre Jenyn.</l>
+            <l ana="#gnomique"><rs type="proverbe">A la queue gist le venin</rs>,</l>
+            <l>Et si de bref quelqu'ung ne l'oste,</l>
+            <l>Tel disne au jourd'huy cheuz son hoste</l>
+            <l>Qui s'en yra sans le poyer.</l>
+            <l><rs type="injonction" subtype="impératif">Laissez</rs> crier &amp; aboyer</l>
+            <l>Toutz ces Coqs marquez sur la creste,</l>
+            <l>Et fuyez de la malle Beste</l>
+            <l>Qui donne à vivre aux Tryacleurs ;</l>
+            <l>Car la fin d'amours n'est que pleurs,</l>
+            <l>Se dict ma grand mere Laurence.</l>
+            <l>Quand vous ferez la Reverance,</l>
+            <l><rs type="injonction" subtype="impératif">Plyez</rs> tout beau les deux Genoulx,</l>
+            <l>Disant : Comment vous portez vous ?</l>
+            <l>Bien, Dieu mercy ; Puis, quelz nouvelles ?</l>
+            <l>On roigne au grand Sacre les aelles,</l>
+            <l>Dont les Loups sont fort esbays,</l>
+            <l>Car n'yront plus par le pays.</l>
+            <l>Vous mocqués vous ? Non, sur mon ame.</l>
+            <l>Mais on l'appellera Madame</l>
+            <l>Si son Mari est Chevailler.</l>
+            <l>Pour ce, nul ne doibt travailler</l>
+            <l>S'il reffuze à menger &amp; boyre.</l>
+            <l>Aussi, si j'ay courte memoire,</l>
+            <l>Pour Dieu, ne prenez nul esmoy,</l>
+            <l>Si je crains ung plus fort que moy,</l>
+            <l>Car à faulte d'ung Secretaire</l>
+            <l>Tout enfant peult son secret taire,</l>
+            <l>Sauf à son propre Confesseur.</l>
+            <l>Toutesfois, je me tiens si seur</l>
+            <l>De vous, ma bonne Damoyselle,</l>
+            <l>Que vous serez au jour d'huy celle</l>
+            <l>A qui je diray sans Rancueur</l>
+            <l>Que je prie à Dieu de bon cueur</l>
+            <l>Vous donner bonne &amp; longue vie,</l>
+            <l>Et en fin la Gloire infinie.</l>
+         </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>where is it</settlement>
+                  <repository>repository name</repository>
+                  <idno>identifier</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <p>
+            <l><persName>Philon</persName>, en t'ayant irrité</l>
+            <l>Je m'en suis allé dépité,</l>
+            <l>Voire aussi remply de colère</l>
+            <l n="4">Qu'un voleur qu'on mène en galère,</l>
+            <l>Dans un lieu de mauvais renom,</l>
+            <l>Où jamais femme n'a dit non:</l>
+            <l>Et là je ne vis que l'hôtesse,</l>
+            <l n="8">Ce qui redoubla ma tristesse,</l>
+            <l>Mon amy, car j'avois pour lors</l>
+            <l>Beaucoup de graine dans le corps.</l>
+            <l>Cette vieille branlant la teste.</l>
+            <l n="12">Me dit, excusez, c'est la feste</l>
+            <l>Qui fait que l'on ne trouve rien,</l>
+            <l>Car tout le monde est gens de bien:</l>
+            <l>Et si j'ay promis en mon âme.</l>
+            <l n="16">Qu'à ce jour pour n'entrer en blâme</l>
+            <l>Ce péché ne seroit commis;</l>
+            <l>Mais vous estes de nos amis,</l>
+            <l>Parmanenda je vous le jure:</l>
+            <l n="20">Il faut pour ne vous faire injure,</l>
+            <l>Après mesme avoir eu le soin</l>
+            <l>De venir chez nous de si loin,</l>
+            <l>Que ma chambrière j'envoye</l>
+            <l n="24">Jusques à l'écu de Savoye:</l>
+            <l>Là, mon amy, tout d'un plain saut</l>
+            <l>On trouvera ce qu'il vous faut.</l>
+            <l>Que j'aime les hommes de plume,</l>
+            <l n="28">Quand je les voys mon cœur s'allume.</l>
+            <l>Autrefois je parlois latin,</l>
+            <l>Discourons un peu du destin,</l>
+            <l>Peut-il forcer les propheties?</l>
+            <l n="32">Les <rs type="animal">pourceaux</rs> ont-ils deux vessies?</l>
+            <l><rs type="injonction" subtype="impératif">Dites nous</rs> quel auteur écrit</l>
+            <l>La naissance de l'<persName ref="ind:Antéchrist" key="L'Antéchrist">Antechrist</persName>?</l>
+            <l>O! le grand homme que <persName>Virgile</persName>!</l>
+            <l n="36">Il me souvient de l'Evangile</l>
+            <l>Que le Prestre a dit aujourd'huy.</l>
+            <l>Mais vous prenez beaucoup d'ennuy</l>
+            <l>Ma servante est un peu tardive,</l>
+            <l n="40">Si faut-il vrayment qu'elle arrive,</l>
+            <l>Dans un bon quart d'heure d'icy,</l>
+            <l>Elle me sert toujours ainsi.</l>
+            <l>En attendant prenez un siège,</l>
+            <l n="44">Vos escarpins n'ont point de liège,</l>
+            <l>Votre collet fait un beau tour.</l>
+            <l><reg>À</reg> la guerre de Montcontour</l>
+            <l>On ne portoit point de rotonde,</l>
+            <l n="48">Vous ne voulez pas qu'on vous tonde,</l>
+            <l>Les choses lons sont de saison.</l>
+            <l>Je fus autrefois de maison</l>
+            <l>Docte, bien parlante &amp; habile,</l>
+            <l n="52">Autant que fille de la ville:</l>
+            <l>Je me faisois bien décrotter,</l>
+            <l>Et nul ne m'entendoit peter,</l>
+            <l>Que ce ne fust dedans ma chambre.</l>
+            <l n="56">J'avois toujours un collier d'ambre,</l>
+            <l>Des grands nœufs, des souliers noircis,</l>
+            <l>J'eusse pû captiver Narcis.</l>
+            <l>Mais helas! étant ainsi belle</l>
+            <l n="60">Je ne fus pas long-temps pucelle,</l>
+            <l>Un Chevalier d'autorité</l>
+            <l>Acheta ma virginité:</l>
+            <l>Et depuis avec une drogue</l>
+            <l n="64">Ma mere, qui faisoit la rogue</l>
+            <l>Quand on me parloit de cela,</l>
+            <l>En trois jours me renpucela.</l>
+            <l>J'étois faite à son badinage.</l>
+            <l n="68">Après pour servir au ménage</l>
+            <l>Un Prelat me voulut avoir,</l>
+            <l>Son argent me mit en devoir</l>
+            <l>De le servir, &amp; de luy plaire:</l>
+            <l n="72">Toute peine requiert salaire.</l>
+            <l>Puis après voyant en effet</l>
+            <l>Mon pucelage tout refait,</l>
+            <l>Ma mere en son métier sçavante</l>
+            <l n="76">Me mit une autre fois en vente;</l>
+            <l>Si bien qu'un jeune Trésorier</l>
+            <l>Fut le troisième avanturier</l>
+            <l>Qui fit bouillir notre marmite.</l>
+            <l n="80">J'appris autrefois d'un Hermite</l>
+            <l>Tenu pour un sçavant parleur,</l>
+            <l>Qu'on peut dérober un voleur,</l>
+            <l>Sans se charger la conscience.</l>
+            <l n="84">Dieu m'a donné cette science.</l>
+            <l>Cet homme aussi riche que laid</l>
+            <l>Me fit épouser son valet,</l>
+            <l>Un bon sot qui se nommoit Blaise;</l>
+            <l n="88">Je ne fus onc tant à mon aise,</l>
+            <l>Qu'à l'heure que ce gros manant</l>
+            <l>Alloit les restes butinant,</l>
+            <l>Non pas seulement de son maistre,</l>
+            <l n="92">Mais du Chevalier &amp; du Prestre.</l>
+            <l>De ce costé j'eûs mille francs,</l>
+            <l>Et j'avois ja depuis deux ans</l>
+            <l>Avec ma petite pratique</l>
+            <l n="96">Gagné dequoy lever boutique,</l>
+            <l>De cabaret à Montléry,</l>
+            <l>Où nasquit mon pauvre mary.</l>
+            <l>Helas! que c'étoit un bon homme!</l>
+            <l n="100">Il avoit été jusqu'à <placeName type="city" key="Rome">Rome</placeName>,</l>
+            <l>Il chantoit comme un rossignol:</l>
+            <l>Il sçavoit parler Espagnol.</l>
+            <l>Il ne recevoit point d'écornes,</l>
+            <l>Car il ne portoit pas les cornes</l>
+            <l>Depuis qu'avecque luy je fus.</l>
+            <l>Il avoit les membres touffus:</l>
+            <l>Le poil est un signe de force,</l>
+            <l>Et ce signe a beaucoup d'amorce</l>
+            <l>Parmy les femmes du metier.</l>
+            <l>Il étoit bon arbalestier,</l>
+            <l>Sa cuisse étoit de belle marge,</l>
+            <l>Il avoit l'épaule bien large,</l>
+            <l>Il étoit ferme des roignons,</l>
+            <l>Non comme ces petits mignons</l>
+            <l>Qui font de la sainte Nitouche,</l>
+            <l>Aussi-tost que leur doigt vous touche,</l>
+            <l>Ils n'osent pousser qu'à demy:</l>
+            <l>Celuy-là poussoit en amy,</l>
+            <l>Et n'avoit ny muscle, ny veine</l>
+            <l>Qui ne poussat sans prendre haleine,</l>
+            <l>Mais tant &amp; tant il a poussé</l>
+            <l>Qu'en poussant il est trépassé.</l>
+            <l>Soudain que son corps fut en terre</l>
+            <l>L'enfant Amour me fit la guerre,</l>
+            <l>De façon que pour mon amant</l>
+            <l>Je pris un basteleur Normant,</l>
+            <l>Lequel me donna la vérole;</l>
+            <l>Puis luy prestay sur sa parole,</l>
+            <l>Avant que je connusse rien</l>
+            <l>A son mal, presque tout mon bien:</l>
+            <l>Maintenant nul de moy n'a cure,</l>
+            <l>Je fléchy aux loix de nature,</l>
+            <l>Je suis aussi sèche qu'un os,</l>
+            <l>Je ferois peur aux Huguenots</l>
+            <l>En me voyant ainsi ridée,</l>
+            <l>Sans dents &amp; la gorge bridée,</l>
+            <l>S'ils ne mettoient nos visions</l>
+            <l>Au rang de leurs dérisions.</l>
+            <l>Je suis vendeuse de chandelles,</l>
+            <l>Il ne s'en voit point de fidelles</l>
+            <l>En leur état, comme je suis,</l>
+            <l>Je connois bien ce que je puis:</l>
+            <l>Je ne puis aimer la jeunesse</l>
+            <l>Qui veut avoir trop de finesse,</l>
+            <l>Car les plus fines de la Cour</l>
+            <l>Ne me cachent point leur amour.</l>
+            <l>Telle va souvent à l'Eglise,</l>
+            <l>De qui je connois la feintise;</l>
+            <l>Telle qui veut son fait nier,</l>
+            <l>Dit que c'est pour communier;</l>
+            <l>Mais la chose m'est indiquée,</l>
+            <l>C'est pour estre communiquée</l>
+            <l>A ses amis par mon moyen,</l>
+            <l>Comme Heleine fit au Troyen.</l>
+            <l>Quand la vieille sans nulle honte</l>
+            <l>M'eut achevé son petit conte,</l>
+            <l>Un Commissaire illec passa,</l>
+            <l>Un sergent la porte poussa.</l>
+            <l>Sans attendre la chambrière</l>
+            <l>Je sortis par l'huis de derrière,</l>
+            <l>Et m'en allay chez le voisin,</l>
+            <l>Moitié figue, moitié raisin,</l>
+            <l>N'ayant ny tristesse, ny joye</l>
+            <l>De n'avoir point trouvé la proye.</l> (CAA93-Régnier-Discours d'une vieille Macquerelle, Pos. 1-164)</p>
+      </body>
+   </text>
+</TEI>

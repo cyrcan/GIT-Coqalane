@@ -136,9 +136,9 @@
                <persName>Marion</persName> &amp; <reg>à</reg>
                <persName>Huguet</persName></l>
             <l>Au coing de l'<placeName>eglise saint Cosme</placeName>:</l><note resp="editor"
-               type="glose">On hésite <placeName><geo>48.5101 2.2032</geo>l'église anciennement
+               type="glose">On hésite entre <placeName><geo>48.5101 2.2032</geo>l'église anciennement
                   située à Paris</placeName> à l’angle de la rue des Cordeliers (actuelle rue de
-               l’École-de-Médecine) et de rue de la Harpe et plus
+               l’École-de-Médecine) et de la rue de la Harpe, et plus
                      vraisemblablement<placeName><geo>49.0644 2.2543</geo> l'église
                   Saint-Cosme-Saint-Damiens de Luzarches</placeName></note>
             <!-- Saut#1 --><anchor type="saut#1"/>
@@ -192,9 +192,9 @@
             <l ana="#misogynie">Et si sent tant le vieil cabas</l><note resp="editor" type="ling"
                   ><hi rend="italic">Vieil cabas</hi>: "Vieille femme" (Di Stefano, p. 93).</note><!-- Cf. faictz et dictz -->
             <!-- Saut#7 --><anchor type="saut#7"/>
-            <l n="48">Par <persName type="saint">Saint Jean</persName> c'il descent cy bas</l>
+            <l n="48"><rs type="interjection" subtype="juron">Par <persName type="saint">Saint Jean</persName></rs> c'il descent cy bas</l>
             <l>En Marrabeth se fera tondre.</l><note resp="editor" type="ling"><hi rend="italic"
-                  >Marrabais</hi>: Juif converti ou Espagnol descendu des Maures (Huguet).</note>
+                  >Marrabais</hi>: Juif converti ou Espagnol descendu des Maures, Huguet.</note>
             <fw type="sig" place="bottom-right">Il ad</fw>
             <pb/>
             <!-- Saut#8 --><anchor type="saut#8"/>
@@ -228,7 +228,7 @@
             <l rend="indent">Au diable toutes ces perruques</l>
             <l>Qui nous font rencherir les pignes,</l>
             <l n="68" ana="#maladie">Que le <rs type="maladie">mal saint Job</rs> &amp; la
-               tigne,</l>
+               <rs type="maladie" subtype="teigne">tigne</rs>,</l>
             <l ana="#imprécation">Leur puist faire un jour reverence,</l>
             <l ana="#équivoque">Chacun seroit reverend en ce</l>
             <l>Voire s'il n'avoit mal au bras.</l>
@@ -245,7 +245,7 @@
             <l n="76">Fy villain petez vous d'ahan,</l>
             <l ana="#imprécation">Que malle vesse puissiez boire,</l>
             <l>Vous ne mangerez de la poire,</l>
-            <fw type="sig" place="bottom-right">Qui</fw>
+            <fw type="réclame" place="bottom-right">Qui</fw>
             <pb/>
             <l>Qui est mon amy <persName>de Certeau</persName>.</l>
             <!-- Saut#19  --><anchor type="saut#19"/>
@@ -262,7 +262,7 @@
             <!-- Saut#22 --><anchor type="saut#22"/>
             <l>En veis tu jamais mieux bouffant</l>
             <l>Que nostre glorieux Cocard?</l>
-            <l n="88">Saint Jean nenny, quand un cocard</l>
+            <l n="88"><rs type="interjection">Saint Jean</rs> nenny, quand un cocard</l>
             <l>C'est par estre du feu trop pres,</l>
             <l>Il court en poste apres, apres</l>
             <l>Il fera mieux que moy l'office,</l>
@@ -287,18 +287,18 @@
             <l>Que tu aurois encor le dé.</l>
             <!-- Saut#27 --><anchor type="saut#27"/>
             <l n="104" rend="indent">Fut elle pas fille à <persName>Ledé</persName>,</l>
-            <l>La belle &amp; la rebelle <persName>Helaine</persName>,</l>
+            <l>La belle &amp; la rebelle <persName key="Hélène">Helaine</persName>,</l>
             <l>Maint pour elle perdit la laine</l>
             <fw type="mark">F</fw>
             <pb/>
-            <l><reg>À</reg> l'expugnation de <placeName>Troye</placeName></l>
+            <l><reg>À</reg> l'expugnation de <placeName key="Troie">Troye</placeName></l>
             <!-- Saut#28 --><anchor type="saut#28"/>
             <l n="108">Et si à plus de femme à <placeName type="city"><geo>49.4152
                   2.4721</geo>Roye</placeName></l>
             <l>Qu'il <reg>n'y</reg>
                <reg>a</reg> pas en toute <placeName type="country" key="France"
                >France</placeName>,</l>
-            <l>Ayez pitié de la souffrance,</l>
+            <l><rs type="injonction" subtype="impératif">Ayez pitié</rs> de la souffrance,</l>
             <l>Que reçoit pour vous un Amant,</l>
             <!-- Saut#29 --><anchor type="saut#29"/>
             <l n="112">Il pert son sens, il est amant,</l>
@@ -309,7 +309,7 @@
             <l n="116">Qui nous fut un jour admenée</l>
             <l>Pour avec nous prendre repos.</l>
             <l rend="indent">Vrayement puis qu'il vient à propos</l>
-            <l>Je t'en diray au vray la chose,</l>
+            <l ana="#mtd">Je t'en diray au vray la chose,</l>
             <l n="120">Chacun disoit que <reg>c'estoit</reg> Rose,</l>
             <l>Tant avoit musequin riant,</l>
             <l>Ha par mon ame il fut friant</l>
@@ -330,7 +330,7 @@
             <l n="132" rend="indent">Icy gerra la <rs type="métier">chambriere</rs></l>
             <l>Qui l'eust plus tost laissé pourrir,</l>
             <l>Que pour oster la jambe ouvrir</l>
-            <fw type="sig" place="bottom-right">Chacun</fw>
+            <fw type="réclame" place="bottom-right">Chacun</fw>
             <pb/>
             <l>Chacun entend bien la chosette:</l>
             <l n="136">Elle fut jadis tant doucette</l>
@@ -342,9 +342,9 @@
             <l ana="#motifs_sexuels">Qui suit chacun jusqu'au grenier</l>
             <l>Et pour je ne scay quoy gaignier,</l>
             <l>Laisse brouiller son parchemin</l><note resp="editor" type="ling">Acception grivoise
-               du terme <hi rend="italic">parchemin</hi> pour désigner les parties sexuelles.</note>
+               du terme <hi rend="italic">parchemin</hi> pour désigner les parties sexuelles. Cf. Calvin, <title>Avertissement sur la censure</title></note>
             <l n="144" ana="#équivoque">Se je la treuve par chemin,</l>
-            <l>Je luy donray le mal encontre.</l>
+            <l ana="#imprécation">Je luy donray le mal encontre.</l>
             <!-- Saut#37 --><anchor type="saut#37"/>
             <l rend="indent"><rs type="injonction" subtype="impératif">Recouvré nous</rs> d'un basse
                contre</l>

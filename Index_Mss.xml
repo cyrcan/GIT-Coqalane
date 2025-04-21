@@ -37,11 +37,12 @@
                         <p>Epistre du coq a l'asne. "Amy pour bien peu t'esjouir..." f°1-f°5</p>
                      </msItem>
                      <msItem>
-                        <p>Aultre epistre du coq a l'asne. "Puis qu'il te plaist parfaict
-                           amy..." f°5-f°12</p>
+                        <p>Aultre epistre du coq a l'asne. "Puis qu'il te plaist parfaict amy..."
+                           f°5-f°12</p>
                      </msItem>
                      <msItem>
-                        <p>Aultre epistre du coq a l'asne. "Je te veulx escripre a ce coup..." f°12-f°19</p>
+                        <p>Aultre epistre du coq a l'asne. "Je te veulx escripre a ce coup..."
+                           f°12-f°19</p>
                      </msItem>
                      <msItem>
                         <p>Aultre Epistre. "Coq, mon amy, le long sejour..." f°20-f°26</p>
@@ -175,7 +176,14 @@
                      <repository><geo/></repository>
                      <idno>202</idno>
                   </msIdentifier>
-               </msDesc></witness>
+                  <msContents>
+                     <msItem>
+                        <p>Epistre envoyée par Clément Marot à Lyon Jamet en juillet Vc XXXVI (sic)
+                           (1535) du coq a l'asne (2e coq-à-l'âne de Marot)</p>
+                     </msItem>
+                  </msContents>
+               </msDesc>
+            </witness>
 
             <witness xml:id="ms203"><ptr target="https://arca.irht.cnrs.fr/ark:/63955/md365425n484"/><msDesc>
                   <msIdentifier>
@@ -208,6 +216,20 @@
                   </msIdentifier>
                </msDesc></witness>
 
+            <witness>
+               <msDesc>
+                  <msIdentifier xml:id="fr22561">
+                     <settlement>Paris</settlement>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
+                     <idno>fr. 22561</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <p>Recueil de pièces de vers, chansons, sonnets, triolets, sur les guerres de
+                        religion, formé par le chirurgien protestant Rasse des Nœux.</p>
+                  </msContents>
+               </msDesc></witness>
+
             <witness xml:id="fr4967"><msDesc>
                   <msIdentifier>
                      <settlement>Paris</settlement>
@@ -234,6 +256,12 @@
                      <p>Papier au filigrane de Jean Simonnet (un pot à une seule anse), réf. 12826
                         du répertoire Briquet.</p>
                   </additional>
+                  <msContents>
+                     <msItem>
+                        <p>Aultre coq a l'asne audict Jamet (2e coq-à-l'âne de Marot)</p>
+                     </msItem>
+                     
+                  </msContents>
                </msDesc></witness>
          </listWit>
       </body>

@@ -5,6 +5,7 @@
    <teiHeader>
       <fileDesc xml:id="Chappon_Resp">
          <titleStmt>
+            <title>Réf. n°15: </title>
             <title>Du Chappon au Coq Responce [CAA#15]</title>
          </titleStmt>
          <publicationStmt>
@@ -203,7 +204,7 @@
                   type="injonction" subtype="impératif">crevez</rs> les yeulx[,]</l>
             <l><rs type="injonction" subtype="impératif">Fermez</rs> cest huys[,] <rs
                   type="injonction" subtype="impératif">chassez</rs> ce <rs type="animal"
-                  subtype="canidé">chian</rs></l>
+                  subtype="canidé" key="chien">chian</rs></l>
             <!-- Saut#5 --><anchor type="saut#4"/>
             <l><rs type="injonction" subtype="impératif">Dictes</rs> à <persName>Dieu</persName>
                qu'il vous face bien</l>
@@ -249,7 +250,7 @@
             <!-- Saut#15 --><anchor type="saut#15"/>
             <l><persName>Monsieur de Rut</persName> trouva <persName>Nansor</persName></l>
             <!-- Saut#16 --><anchor type="saut#16"/>
-            <l>Bien empescher Le <rs type="animal" subtype="poisson">haran sor</rs></l>
+            <l>Bien empescher Le <rs type="animal" subtype="poisson" key="hareng">haran sor</rs></l>
             <l>Ne prent pas si tost à la grille</l>
             <!-- Saut#17 --><anchor type="saut#17"/>
             <l n="48">Elle fut bien fine la fille</l>
@@ -301,13 +302,13 @@
             <!-- Saut#27 --><anchor type="saut#27"/>
             <l><persName>Pater Sancte</persName> où estez vous</l>
             <l>Aprestez vous pour recepvoir</l>
-            <l n="84" ana="#abus">Sur vostre <rs type="animal" subtype="équidé">mulle</rs> aux
+            <l n="84" ana="#abus">Sur vostre <rs type="animal" subtype="équidé" key="mule">mulle</rs> aux
                frains dorez</l>
             <l ana="#abus">Force ducatz que l'on vous porte</l>
             <l ana="#sat_rel"><rs type="injonction" subtype="impératif">Chassez</rs> le pauvre de la
                porte</l>
             <l><rs type="injonction" subtype="impératif">Mectez</rs> le <rs type="animal"
-                  subtype="canidé">chian</rs> sur le coessin</l>
+                  subtype="canidé" key="chien">chian</rs> sur le coessin</l>
             <!-- Saut#28 --><anchor type="saut#28"/>
             <l n="88">Il se montra trop bon voisin</l>
             <l>Car le malheur tombe souvent</l>

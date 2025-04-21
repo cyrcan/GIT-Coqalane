@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="Guillaume_1616">
+         <titleStmt>
+            <title>Réf. n°91: </title>
+            <title>Pasquil ou Coq à l'asne de Me Guillaume pour balleier les ordures de ce temps
+               (1616)</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Réédité sans modification en 1620 sous le titre <title>Les Bigarures de Maistre
+                  Guillaume envoyées à Madame Mathurine, sur le temps qui court</title>.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><listWit>
+                  <witness>
+                     <msDesc>
+                        <msIdentifier xml:id="Ye-29600">
+                           <settlement>Paris, </settlement>
+                           <repository>Bibliothèque nationale de France,</repository>
+                           <idno>Ye-29600 et Rés. Ye-4542 (éditions relais);</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness><msDesc>
+                        <msIdentifier xml:id="Ars-8-H-12856-16">
+                           <settlement>Paris, </settlement>
+                           <repository>Bibliothèque de l'Arsenal, </repository>
+                           <idno>8-H-12856(16);</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness><msDesc>
+                        <msIdentifier xml:id="Bigarures">
+                           <settlement>Paris, </settlement>
+                           <repository>BnF, sous le titre <title>Les Bigarures de Maistre Guillaume
+                                 envoyées à Madame Mathurine, sur le temps qui court</title>, 1620, </repository>
+                           <idno>Ye-15488;</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness><msDesc>
+                        <msIdentifier xml:id="Ballieux">
+                           <settlement>Paris, </settlement>
+                           <repository>BnF, sous le titre <title>Les Ballieux des ordures du monde,
+                                 nouvellement imprimé pour le première impretion par le commandement
+                                 de nostre Puissant l'Econome.</title>, 1609, </repository>
+                           <idno>Rés. Ye-3509 et Ye-3510;</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness><msDesc>
+                        <msIdentifier xml:id="Gazette-1609">
+                           <settlement>Aix-en-Provence, </settlement>
+                           <repository>Méjanes, </repository>
+                           <idno>Rés. S.127;</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness><msDesc>
+                        <msIdentifier xml:id="Ramon-1616">
+                           <settlement>Harvard University</settlement>
+                           <repository>Houghton Library, sous le titre <title>Ramon ou coq a l'asne
+                                 de Maistre Guillaume ramoneur de la ville de Paris. Aumanché pour
+                                 ballier plusieurs ordures de ce Royaume de France,
+                              </title></repository>
+                           <idno>*FC6 G9454 616r.</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+
+               </listWit></p>
+
+            <p><listBibl>
+                  <bibl><author>Alain Mercier</author>, <title>Le Tombeau de la mélancolie</title>,
+                        <pubPlace>Paris</pubPlace>, <publisher>Honoré Champion</publisher>,
+                        <date>2005</date>, <biblScope>n°70, 510 et 511</biblScope>.</bibl>
+                  <bibl><author>Viollet-Leduc Emmanuel</author>, <title>Catalogue des livres
+                        composant la bibliothèque poétique de Viollet le Duc.</title>,
+                        <pubPlace>Paris, </pubPlace>
+                     <publisher>Hachette, </publisher>1843.</bibl>
+                  <bibl><author>Edouard Fournier</author><title>Variétés historiques et littéraires:
+                        recueil de pièces volantes rares et curieuses en prose et en vers,
+                        </title><pubPlace>Paris, </pubPlace><publisher>Pierre Jannet, </publisher>
+                     <date>1855, </date> p. 185-201.</bibl>
+               </listBibl></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p>
+            <interpGrp>
+               <!-- A -->
+               <interp xml:id="actu" ana="actualité">actualité commentée</interp>
+               <interp xml:id="adr" ana="adresse">adresse</interp>
+               <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+               <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+
+               <!-- B -->
+               <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
+               <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
+
+               <!-- C -->
+               <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
+               <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+               <interp xml:id="corruption" ana="corruption">corruption</interp>
+               <interp xml:id="corps" ana="corps">corps</interp>
+               <interp xml:id="cour" ana="court">vie de la cour</interp>
+               <interp xml:id="cri" ana="cri">cris des marchands</interp>
+               <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+
+               <!-- D -->
+               <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+               <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+
+               <!-- E -->
+               <interp xml:id="éloge" ana="éloge">éloge</interp>
+               <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+               <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="exhortation" ana="exhortation">exhortations et
+                  encouragements</interp>
+
+               <!-- F -->
+               <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
+               <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+               <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+
+               <!-- G -->
+               <interp xml:id="gén" ana="généralisation">généralisation</interp>
+               <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                  gnomique</interp>
+               <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
+
+               <!-- H -->
+               <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+               <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+
+
+               <!-- I -->
+               <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
+                  l'adversaire</interp>
+               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+               <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+               <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
+               <interp xml:id="ironie" ana="ironie">ironie</interp>
+
+               <!-- L -->
+               <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+               <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+               <interp xml:id="topos" ana="topos">lieu commun</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+
+               <!-- M -->
+               <interp xml:id="maladie" ana="maladie">maladie</interp>
+               <interp xml:id="massacre" ana="massacre">massacre</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:id="météo" ana="météo">météorologie</interp>
+               <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+               <interp xml:id="misères" ana="misères">misères du temps</interp>
+               <interp xml:id="misogynie" ana="misogynie">misogynie</interp>
+               <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                  valeurs</interp>
+               <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+
+               <!-- N -->
+               <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
+
+               <!-- P -->
+               <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+               <interp xml:id="pillage-s" ana="pillages">vols, pillages</interp>
+               <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
+               <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+               <interp xml:id="practiques" ana="practiques">practiques</interp>
+               <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+               <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+               <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                  nécessaire</interp>
+
+               <!-- R -->
+               <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+               <interp xml:id="rébus" ana="rébus">rébus</interp>
+               <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+               <interp xml:id="rire" ana="rire">rire</interp>
+               <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
+               <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+
+               <!-- S -->
+
+               <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+               <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+               <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+               <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+
+               <!-- T -->
+               <interp xml:id="tauto" ana="tauto">tautologie</interp>
+               <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+               <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+
+               <!-- V -->
+               <interp xml:id="vanité" ana="vanité">vanité</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="violences" ana="violences">violences</interp>
+            </interpGrp>
+         </p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <p>
+               <!-- D'un monde instable -->
+               <l ana="#monde_renversé"><hi rend="Lettrine">Ô</hi> La <rs type="hapax"
+                     >vicissitude</rs> estrange,</l>
+               <l ana="#gnomique">Toutes choses courent au change,</l><note resp="editor"
+                  type="crit">Le discours s'ouvre sur la désormais traditionnelle inconstance du
+                  monde, ses misères et les vices qui pulullent.</note>
+               <l>Le ferme est fondé sur le point:</l>
+               <l n="4" ana="#nostalgie">Autresfois l'on ne voyoit point</l>
+               <!-- où pullulent les voleurs et les hypocrites -->
+               <l>Tant de <rs type="invective">crocheteurs</rs> par le monde,</l>
+               <l>De vigilans <rs type="invective">faiseurs de ronde</rs>,</l>
+               <l>De <rs type="invective">porteurs de pacquets pliez</rs>,<note resp="editor"
+                     type="ling">Des espions.</note></l>
+               <l n="8">De <rs type="invective">grandz faiseurs de bon adiez</rs><note resp="editor"
+                     type="ling"><hi rend="italic">Bona dies</hi>: "Bonjour", emprunté à l'italien.
+                     Voir la satire III de <persName ref="ind:Régnier">Mathurin Régnier</persName>,
+                     éd. G. Raibaud revue par Pascal Debailly, Paris, 1995: "Je ne puis deguiser la
+                     vertu ny le vice,/ Offrir tout de la bouche et, d'un propos menteur,/ Dire:
+                     'pardieu, monsieur, je vous suis serviteur',/ Pour cent bonadies s'arrester en
+                     la rue,", v. 110-113, p. 32.</note>,</l>
+               <!-- Saut#1 --><anchor type="saut#1"/>
+               <!-- Parasites -->
+               <l>Tant de <rs type="invective">faineans</rs> par la ruë,</l>
+               <l>De <rs type="invective">questeurs de franches repeuës</rs>,</l>
+               <l>De <rs type="invective">sires Jeans escornifleurs</rs>,</l>
+               <!-- Saut#2 --><anchor type="saut#2"/>
+               <!-- Menteurs -->
+               <l n="12" ana="#tromperie">De <rs type="invective">pipeurs de dez</rs>, d'<rs
+                     type="invective">enjolleurs</rs>,</l>
+               <l>De <orgName type="soldat" subtype="franctaupin">francs taupins</orgName><note
+                     resp="editor" type="crit">Cf. <title>La response de Thoni à Arnault</title>
+                     (réf. n°73): "Ce sont les francs taulpins du Pappe", v. 100. </note>, de <rs
+                     type="invective">fripelippes</rs>,</l><note resp="editor" type="crit">Liste qui
+                  rappelle celle que <persName ref="ind:Marnix" key="Philippe de Marnix">Philippe de
+                     Marnix</persName> dresse pour condamner Rome dans son <title>Tableau des
+                     différends de la religion</title>, éd. E. Quinet, Tome IV, Bruxelles, Impr. Fr.
+                  Van Meenem, 1857, p. 192: "[...] tous blasphémateurs, renieurs, tous perjures,
+                  tous putiers et paillards, toutes louves, chaudes lices, rufiens, ribleux,
+                  maquereaux, bordeliers, et adulteres, larrons, faulsaires, records de tesmoings,
+                  boutefeux, trahistres et empoisonneurs, tous pipeurs de dez, faux monoieurs,
+                  franctaupins, calomniateurs, delateurs, vagabons, marrans, barbotteurs, bouffons,
+                  aventuriers, assasins, destrousseurs de chemin, riennevaux, happelopins,
+                  trainegaines, fait-neans, tous sorciers, enchanteurs, necromanciens, devins, vieux
+                  routiers, usuriers, et bref tous garnemens, coquins, pendars, et fourrage de
+                  corbeaux, degresseurs de bonnets, croquelardons, baguenaudiers tiennent cour
+                  ouverte en la ville de Rome, et tous y sont les tresbien venus[...]".</note>
+               <l>De <rs type="invective">moines laiz</rs>, de <rs type="invective">francs
+                     attripes</rs>,<note><hi rend="italic">Franca-Trippa</hi>: type de personnage
+                     des farces italiennes. Voir Callot.</note></l>
+               <l>De <rs type="invective">bouffons</rs>, de <rs type="invective">sots</rs>, de <rs
+                     type="invective">cocus</rs>,</l>
+               <fw type="sig" place="bottom-right">Aj</fw>
+               <pb n="4"/>
+               <fw type="pageNum" place="top-center">4</fw>
+               <!-- Saut#3 --><anchor type="saut#3"/>
+               <!-- Hypocrisie -->
+               <l n="16">De <rs type="invective">truchemens</rs>, <rs type="invective">courtiers du
+                     culs</rs>,</l>
+               <l>De <rs type="invective">charlatans planteurs de bourdes</rs>,</l>
+               <l>D'<rs type="invective">ypocrites</rs>, de <rs type="invective">limes
+                  sourdes</rs>,</l><note resp="editor" type="ling"><hi rend="italic">Lime
+                     sourde</hi>: personne sournoise ou hypocrite.</note>
+               <l>De chicaneurs, de patelins,</l>
+               <l n="20">De <rs type="invective">trompeurs</rs>, de <rs type="invective">maistre
+                     Gonins</rs>,</l><note resp="editor" type="ling"><hi rend="italic">Maistre
+                     Gonin</hi>: Type-même de l'escamoteur.</note>
+               <l>De <rs type="invective">r'habilleurs de pucellages</rs>,</l><note resp="editor"
+                  type="crit">Cf. La facétie du <title>Réveil du chat qui dort</title>
+                  (1616).</note>
+               <l>De <rs type="invective">faiseurs de faux mariages</rs>,</l>
+               <l>De <rs type="invective">nourrices avant le temps</rs>,</l>
+               <!-- Profiteurs -->
+               <!-- Saut#4 --><anchor type="saut#4"/>
+               <l n="24">De <rs type="invective">plaisants</rs>, de <rs type="invective">rogers
+                     bontemps</rs><note resp="editor" type="ling"><hi rend="italic">Roger
+                        Bontemps</hi>: "Bon vivant", Di Stefano. On trouve dans <title>La recreation
+                        et passetemps des tristes</title> (Paris, Pierre l'Huillier, 1573) un
+                     huitain intitulé "Les souhaitz d'un Roger Bontemps" : "Pour tous souhaitz ne
+                     desire en ce monde / Fors que santé, &amp; tousjours mille escus,[...]".
+                     (Bibliothèque de l'Arsenal RESERVE 8-BL-30503 et disponible sur Gallica : <ref
+                        type="url">https://gallica.bnf.fr/ark:/12148/bpt6k3158271)</ref></note></l>
+               <!-- Saut#5 --><anchor type="saut#5"/>
+               <!-- Maquereaux -->
+               <l>De <app>
+                     <lem wit="#Ye-29600"><rs type="invective">flannieres</rs></lem>
+
+                     <rdg wit="#Bigarures">maquereaux</rdg>
+                  </app> &amp; maquerelles,<note resp="editor" type="ling"><hi rend="italic"
+                        >Flannieres</hi>: femmes de mauvaise vie, entremetteuses, Huguet.</note></l>
+               <l>De <rs type="invective">faiseurs de laict aux mamelles</rs>,</l>
+               <!-- Saut#6 --><anchor type="saut#6"/>
+               <!-- Menteurs -->
+               <l ana="#tromperie">De <rs type="invective">faux tesmoins</rs>, <rs type="invective"
+                     >faux rapporteurs</rs>,</l>
+               <l n="28" ana="#tromperie">De <rs type="invective">fabulistes</rs>, de <rs
+                     type="invective">menteurs</rs>,</l>
+               <l ana="#tromperie">De <rs type="invective">semeurs de fauses sciences</rs>,</l>
+               <l ana="#tromperie">D'<rs type="invective">escamoteurs de consciences</rs>,</l>
+               <l>De <rs type="invective">corrupteurs de Magistrats</rs>,</l>
+               <!-- Saut#7 --><anchor type="saut#7"/>
+               <!-- Nostalgie d'un âge d'or -->
+               <l n="32" ana="#satire">Bref mille &amp; mille fatras</l>
+               <l ana="#satire">Qui pullulent parmy les hommes,</l>
+               <l ana="#misères">En ce maudit siecle où nous sommes,</l>
+               <l ana="#misères">Empoisonnent l'antiquité,</l>
+               <!-- Saut#8 --><anchor type="saut#8"/>
+               <l n="36"><rs type="allégorie">La Deesse de verité</rs>,</l>
+               <l>Sur son cube estoit toute nuë,</l>
+               <l><rs type="allégorie">Justice marchoit retenuë</rs></l>
+               <l>Sans colere, faveur n'y choix,</l>
+               <l n="40">Au gouvernement de ses loix,</l>
+               <l><rs type="allégorie">L'horrible <rs type="animal">vipere</rs> d'envie</rs>,</l>
+               <l>De l'<placeName key="Enfer">Enfer</placeName> n'estoit point sortie,</l>
+               <l ana="#misères">La Noblesse aymoit la vertu,</l>
+               <l n="44">Le noble <app>
+                     <lem wit="#Bigarures">en estoit</lem>
+                     <rdg wit="#Ye-29600">n'estoit</rdg>
+                  </app> revestu</l>
+               <l>C'estoit son clinquant, son pennache,</l>
+               <l>Son pent oreille, &amp; sa moustache:</l>
+               <!-- Eglise -->
+               <!-- Saut#9 --><anchor type="saut#9"/>
+               <l>L'Eglise en sa <app>
+                     <lem wit="#Ye-29600">splendeur</lem>
+                     <rdg wit="#Bigarures">splandeur</rdg>
+                  </app> estoit,</l>
+               <pb n="5"/><fw type="pageNum" place="top-center">5</fw>
+               <l n="48">Et dedans ses flancs ne portoit</l>
+               <l>Tant de <rs type="invective">serviteurs d'<persName ref="ind:Élisée" key="Élisée"
+                           ><reg>Elisée</reg></persName></rs>,</l><note resp="editor" type="crit">Le
+                  type même du menteur et de l'homme malhonnête. Voir <title>Ancien
+                     Testament</title>, 2 Rois 5:20-27: "25 Quant à lui, il rentra et se présenta à
+                  son maître. Élisée lui dit: "D'où viens-tu, Guékhazi?" Il dit: "Ton serviteur
+                  n'est allé ni ici, ni là." 26 Élisée lui dit : "Mon cœur n'est-il pas allé [avec
+                  toi], tandis qu'un homme s'élançait du haut de son char au-devant de toi? Était-ce
+                  donc le temps d'accepter de l'argent et d'accepter des habits, des oliviers et des
+                  vignes, du gros bétail et du petit bétail, des serviteurs et des servantes? 27 Et
+                  la lèpre de Naaman se collera à toi et à ta postérité à jamais." Et l'autre sortit
+                  de devant lui, atteint d'une lèpre blanche comme la neige.", édition E. Dhorme, p.
+                  1154-1155.</note>
+               <l>Sa robbe n'estoit <reg>divisée</reg>,</l><note resp="editor" type="crit">A
+                  rapprocher des vers 14-16 du "Coq à l'âne de Brusquet à Ronsard" (réf. n°49): "Car
+                  sy l'on eust fermé la porte / À ceulx qui preschent en pourpoinct / L'église ne
+                  feust pas en tel poinct."</note>
+               <l>Par ces <rs type="invective"><persName key="Simon le Magicien">Simons
+                        Magiciens</persName></rs>,</l>
+               <l n="52">Et l'on ne donnoit point aux <rs type="animal" subtype="canidé"
+                  >chiens</rs></l>
+               <l>Le pain des enfans legitimes,</l><!-- Sentiment d'usurpation -->
+               <l>Le Pasteur mesnageoit les dixsmes,</l>
+               <l>Sans les bailler aux hommes laiz:</l>
+               <!-- Réaction contre les taxes-->
+               <!-- Saut#10 --><anchor type="saut#10"/>
+               <l n="56">Mais sus donc <rs type="injonction" subtype="impératif">prenons</rs> nos
+                  balaiz,</l>
+               <l><app>
+                     <lem wit="#Bigarures"><rs type="injonction" subtype="impératif"
+                        >Balions</rs></lem>
+                     <rdg wit="#Ye-29600">Balleons</rdg>
+                  </app> toutes ces ordures,</l>
+               <l><rs type="injonction" subtype="impératif">Ostons</rs> premier ces charges
+                  dures,</l>
+               <l>Ces porteurs de nouveaux capots,</l><note resp="editor" type="ling">Capes ou
+                  manteaux. Cf. Vauquelin de La Fresnaye, <title>Satyres</title>, "A J. A. De Baif":
+                  "Avoir tu dois un ventre de burelle, / Et de velours, à la mode nouvelle, / Un
+                  beau cappot : mais fais du cuir d'autruy / Large couroy', comme on fait
+                  aujourd'huy,".</note>
+               <l n="60" ana="#argent">Ces subsides, empruns, impots,</l>
+               <l ana="#argent">Fermes, Fermiers &amp; monopoles,</l>
+               <l ana="#maladie">Ces <rs type="maladie">chaude-pisses</rs>, ces <rs type="maladie"
+                     >verolles</rs>,</l>
+               <l>Ces <rs type="invective">raptasseurs de nez pourris</rs>,</l>
+               <l n="64">Verds-blez, perles, <app>
+                     <lem wit="#Bigarures">camats</lem>
+                     <rdg wit="#Ye-29600">camars</rdg>
+                  </app>, devis,</l>
+               <l>Ces Gilles-Jeans, ces carrelages,</l>
+               <l>Et autres tels maquerellages,</l>
+               <l>Sources de tant de portions,</l>
+               <l n="68">De poudres, de decoctions,</l>
+               <l>De diettes, de robbes grises,</l>
+               <l>Et de semblables marchandises,</l>
+               <l>Qui purgent la bouche &amp; le corps;</l>
+               <!-- Saut#11 --><anchor type="saut#11"/>
+               <l n="72"><rs type="injonction" subtype="impératif">Chassons</rs> en mesme temps
+                  dehors</l>
+               <l ana="#satire">Ces subtiles <rs type="invective">reverenderesses</rs>,</l>
+               <l ana="#satire">Ces <app>
+                     <lem wit="#Bigarures"><rs type="invective">lempronieres</rs></lem>
+                     <rdg wit="#Ye-29600">lampronieres</rdg>
+                  </app> maniresses,</l>
+               <l ana="#tromperie">Qui faisant semblant de porter</l>
+               <l n="76"><reg>À</reg>
+                  <persName>Madame</persName> pour achepter</l>
+               <l ana="#argent">Quelque chaisne d'or singuliere,</l>
+               <l ana="#tromperie">Pour luy lever sa penilliere,</l>
+               <l ana="#motifs_sexuels">Luy racoustrer son bilboquet,</l>
+               <fw type="sig" place="bottom-right">A iij</fw>
+               <pb n="6"/><fw type="pageNum" place="top-center">6</fw>
+               <l n="80" ana="#motifs_sexuels">L'entre-fesson, &amp; le briquet</l>
+               <l ana="#mtd">(Car <reg>ce</reg> sont là leurs doctes termes)</l>
+               <l ana="#motifs_sexuels">Ces <rs type="invective">croches-cons à bouches
+                  fermes</rs>,</l>
+               <l ana="#tromperie"><reg>Entremeslant</reg> dans leurs discours,</l>
+               <l n="84" ana="#tromperie">Mille petits propos d'amours,</l>
+               <l ana="#motifs_sexuels">Et mettant la <reg>main</reg> sur la motte,</l>
+               <l ana="#motifs_sexuels">Glissent le poulet<note resp="editor" type="ling"><hi
+                        rend="italic">Poulet</hi>: billet doux.</note> sous la cotte:</l>
+               <!-- Saut#12 --><anchor type="saut#12"/>
+               <l><rs type="injonction" subtype="impératif">Chassons</rs> encore, <rs
+                     type="injonction" subtype="impératif"><reg>jetons</reg></rs> à l'eau,</l>
+               <l n="88">Ces <rs type="invective">vieilles lampes de bordeau</rs>,</l>
+               <l><rs type="invective">Mamelles molles &amp; fanées</rs>,</l>
+               <l>Commes <rs type="invective">vessies <reg>surannées</reg></rs>:</l>
+               <l><rs type="invective">Culs de postillons endurcis</rs>,</l>
+               <l n="92"><rs type="invective">Cols de <rs type="animal" subtype="oiseau"
+                        >Cigoigne</rs> retroissis</rs>,</l>
+               <l ana="#corps"><reg>Dents</reg> déchaussées &amp; pourries,</l>
+               <l ana="#corps"><reg>Arrangées en dents</reg> de sies,</l>
+               <l ana="#corps">Nez morfondus, yeux enfoncez,</l>
+               <l n="96" ana="#corps">Vieils fronts ridez &amp; replissez,</l>
+               <l>Comme un garde cul de village,</l>
+               <l><rs type="invective">Vieille perruque à triple estage</rs>,</l>
+               <l><rs type="invective">Vieilles eschines de <rs type="animal">chameau</rs></rs>,</l>
+               <l n="100"><rs type="invective">Poictrines de maigre <rs type="animal"
+                     >pourceau</rs></rs>,</l>
+               <l ana="#corps">Ventres pendants, jambes de lattes,</l>
+               <l ana="#corps">Croupions pointus, fesses plattes,</l>
+               <l ana="#corps">Vieils <app>
+                     <lem wit="#Bigarures">haures</lem>
+                     <rdg wit="#Ye-29600">heures</rdg>
+                  </app> ouverts à tous vents,</l>
+               <l n="104"><rs type="invective">Vieilles lanternes de convents</rs>,</l>
+               <l ana="#corps"><rs type="invective">Vieilles barques
+                  <reg>abandonnées</reg></rs>,</l>
+               <l ana="#corps"><rs type="invective">Vieilles masures <reg>ruinées</reg></rs>,</l>
+               <l ana="#corps"><rs type="invective">Vieilles granges</rs>, <rs type="invective"
+                     >vieils culs rompus</rs>,</l>
+               <l n="108">Vieils flaix dequoy l'on ne bat plus:</l>
+               <l ana="#corps">Vieilles <app>
+                     <lem wit="#Bigarures">braguettes</lem>
+                     <rdg wit="#Ye-29600">brayettes</rdg>
+                  </app>, <reg>vieilles</reg> bragues,</l>
+               <l ana="#motifs_sexuels">Fourreaux crevez, &amp; molles dagues,</l>
+               <l ana="#corps">Vieilles <reg>quaisses</reg>, &amp; vieux cabas,</l>
+               <pb n="7"/>
+               <fw type="pageNum" place="top-center">7</fw>
+               <l n="112" ana="#corps">Vieil estallage, vieux haras:</l>
+               <l ana="#satire"><rs type="injonction" subtype="impératif">Videz</rs><add
+                     type="ponctuation" resp="editor">,</add>
+                  <rs type="injontion" subtype="impératif">sortez</rs>
+                  <rs type="invective">vieille antiquaille</rs></l>
+               <l ana="#satire">Vous ne servez de rien qui vaille.</l>
+               <!-- Reprise -->
+               <!-- Saut#13 --><anchor type="saut#13"/>
+               <l ana="#satire"><rs type="injonction" subtype="impératif">Balloyons</rs>
+                  <app>
+                     <lem wit="#Ye-29600">encor</lem>
+                     <rdg wit="#Bigarures">encore</rdg>
+                  </app> fermement</l>
+               <l n="116" ana="#tromperie">Ces <rs type="invective">revendeurs
+                  d'entendement</rs>,</l>
+               <l ana="#tromperie">De memoire artificielle,</l>
+               <l ana="#tromperie">Ces <rs type="invective">esponges de Damoiselle</rs>,</l>
+               <l ana="#mode">Leurs fards, leurs pignes, leurs miroirs,</l>
+               <l n="120" ana="#mode">Leurs assiquets, leurs esventoirs,</l>
+               <l ana="#mode">Leurs petits chiens excuse-vesses,</l>
+               <l ana="#satire">Leurs brusques <reg>branslements</reg> de fesses</l>
+               <l ana="#tromperie">Leur cajol, leurs attraits charmeux,</l>
+               <l n="124" ana="#tromperie">Ris fardez, regards ravisseurs,</l>
+               <l ana="#tromperie">Leurs finesses, leurs pomperies,</l>
+               <l ana="#satire">Leurs passe temps, leurs railleries,</l>
+               <l ana="#satire">Leurs secretes esmotions,</l>
+               <l n="128" ana="#tromperie">Leurs <reg>deguisées</reg> passions,</l>
+               <l ana="#tromperie">Leurs souspirs <app>
+                     <lem wit="#Ye-29600">feints</lem>
+                     <rdg wit="#Bigarures">feins</rdg>
+                  </app>, leurs larmes feintes</l>
+               <l ana="#tromperie">Le <app>
+                     <lem wit="#Bigarures">flatter</lem>
+                     <rdg wit="#Ye-29600">flate</rdg>
+                  </app> de leurs douces plaintes</l>
+               <l ana="#tromperie">Les bons coups <app>
+                     <lem wit="#Bigarures">qu'il[z] font</lem>
+                     <rdg wit="#Ye-29600">qui sont</rdg>
+                  </app> à l'escart,</l>
+               <l n="132" ana="#satire">Leurs <reg>servantes</reg> de chambre au cart,</l>
+               <l ana="#satire">Leurs bals, festins &amp; mascarades,</l>
+               <l ana="#satire">Leurs masse pains, &amp; marmelades,</l>
+               <l ana="#satire">Leur chaud <app>
+                     <lem wit="#Bigarures">satyron</lem>
+                     <rdg wit="#Ye-29600">satirion</rdg>
+                  </app> confit,</l>
+               <l n="136" ana="#satire">Et autres esperons de lict,</l>
+               <!-- Saut#14 --><anchor type="saut#14"/><!-- Métaphore filée  -->
+               <l ana="#satire">Mais <rs type="injonction" subtype="impératif">abatons</rs> la
+                  grande <rs type="animal" subtype="arachnide" key="araignée">araigne</rs>,</l>
+               <l ana="#satire">Qui <app>
+                     <lem wit="#Bigarures">chasse</lem>
+                     <rdg wit="#Ye-29600">casse</rdg>
+                  </app> aux <rs type="animal" subtype="insecte" key="moucheron">Bibets<note
+                        resp="editor" type="ling"><hi rend="italic">bibets</hi>: "moucherons ou
+                        moustiques", Huguet.</note></rs> d'<placeName type="country" key="Allemagne"
+                     >Allemagne</placeName>,</l>
+               <l ana="#satire">Et cet autre qui en ce coing,</l>
+               <l n="140" ana="#satire">Estend ses voisles de si loing,</l>
+               <l ana="#satire">Voyez vous ces quatre <rs type="animal" subtype="arachnide"
+                     key="araignée"><reg>araignées</reg></rs>,</l>
+               <l ana="#satire">Comme <reg>elles</reg> sont <reg>embesongnées</reg>,</l>
+               <l ana="#satire"><reg>À</reg> tendre leurs rethz aux passants,</l>
+               <pb n="8"/><fw type="pageNum" place="top-center">8</fw>
+               <!-- Saut#15 --><anchor type="saut#15"/>
+               <l n="144" ana="#sat_pers"><rs type="injonction" subtype="impératif">Allons</rs> donc
+                  vivement houssant</l>
+               <l ana="#sat_pers">Ceste petite libertine,</l>
+               <l ana="#sat_pers">Elle est chaste <app>
+                     <lem wit="#Bigarures">comme</lem>
+                     <rdg wit="#Ye-29600">commune</rdg>
+                  </app>
+                  <persName>Faustine</persName></l>
+               <l ana="#sat_pers">A de son venimeux poison,</l>
+               <l n="148" ana="#sat_pers">Gaté mainte honneste maison,</l>
+               <l ana="#imprécation">Sus donc qu'elle soit <reg>baloyée</reg>,</l>
+               <l ana="#satire">Ceste place est bien <reg>nettoyée</reg>,</l>
+               <l ana="#satire">La plus grosse ordure est dehors,</l>
+               <!-- Saut#16 --><anchor type="saut#16"/>
+               <l n="152" ana="#mtd"><rs type="injonction" subtype="impératif">Allons</rs> visiter
+                  d'autres bords,</l>
+               <l ana="#satire">Et <rs type="injonction" subtype="impératif">chassons</rs> de nos
+                  Republiques,</l>
+               <l ana="#satire">Les <rs type="invective">Histrions</rs>, les <rs type="invective"
+                     >Empiriques</rs><note resp="editor" type="ling"><hi rend="italic"
+                        >Empiriques</hi>, ici dans le sens de "charlatans".</note>,</l>
+               <l ana="#satire">Les <rs type="invective">beuveurs de vin par excez</rs>,</l>
+               <l n="156" ana="#satire">Les <rs type="invective">rajeunisseurs de procez</rs>,</l>
+               <l ana="#satire"><rs type="invective">Soliciteurs faiseurs de clauses</rs>,</l>
+               <l ana="#satire"><rs type="invective">Bailleurs d'avis</rs>, <rs type="invective"
+                     >vendeurs de causes</rs>,</l>
+               <l ana="#satire">Les Sizamnes, les Arabins,</l>
+               <l n="160" ana="#satire">Les <rs type="invective">grands babillards aux
+                  festins</rs>,</l>
+               <l ana="#satire">Les <persName ref="ind:Carnéade" key="Carnéade"
+                     >Carneades</persName><note resp="editor" type="glose">Philosophe sceptique de
+                     la "Nouvelle Académie" d'Athènes.</note>, les <rs type="invective"
+                     >Sophistes</rs>,</l>
+               <l ana="#satire">Les <rs type="invective">Sarcophages Atheistes</rs>,</l>
+               <l ana="#satire">Tous <rs type="invective">ces nouveaux Reformateurs</rs>,</l>
+               <l n="164" ana="#satire">Et ces <rs type="invective">Alquimistes souffleurs</rs>,</l>
+               <l ana="#argent">Qui pour un lingot sous la cendre</l>
+               <l ana="#satire">Trouvent un licol pour les pendre:</l>
+               <!-- Saut#17 --><anchor type="saut#17"/>
+               <l ana="#imprécation">Nous voulons aussi baloyer</l>
+               <l n="168" ana="#satire">Le <rs type="occupation">Legiste</rs> qui sçait ployer,</l>
+               <l ana="#satire">Les <rs type="occupation">bergers</rs> qui ont deux houlettes</l>
+               <l ana="#satire">Les collations de Sœurettes</l>
+               <l ana="#satire">Tant de <rs type="invective">baiseurs par charité</rs>,</l>
+               <l n="172" ana="#hypocrisie">Petits presens de pieté,</l>
+               <l ana="#hypocrisie">Et autres pratiques devotes,</l>
+               <l ana="#satire">Les causes de tant de riottes,<note resp="editor" type="ling"><hi
+                        rend="italic">Riotte</hi>: "Petite querelle ou difficulté qui arrive souvent
+                     dans le ménage, ou dans les societés.", Furetière, 1690.</note></l>
+               <l ana="#satire">De tant de licts privez d'amour</l>
+               <fw type="sig" place="bottom-right">De</fw>
+               <pb n="9"/><fw type="pageNum" place="top-center">9</fw>
+               <l n="176" ana="#satire">De tant de pains perdus au four,</l>
+               <l ana="#satire">De tant de nappes <app>
+                     <lem wit="#Bigarures"><reg>esgarées</reg></lem>
+                     <rdg wit="#Ye-29600">adirées</rdg>
+                  </app>,</l>
+               <l ana="#satire">De tant de futailles <reg>vuidées</reg>,</l>
+               <l ana="#satire">De tant de <app>
+                     <lem wit="#Bigarures">salons</lem>
+                     <rdg>lardiers</rdg>
+                  </app> videz,</l>
+               <l n="180" ana="#satire">De tant de scandales semez,</l>
+               <l ana="#rire">Et qui font rire à plaine gorge</l>
+               <l ana="#satire">Les saincts de la nouvelle forge;</l>
+               <l ana="#hypocrisie">Car parmy ces devotions,</l>
+               <l n="184" ana="#hypocrisie">L'on voit bien peu d'<persName ref="ind:Eustochie"
+                     key="Sainte Eustochie">Estochions</persName>,</l>
+               <l ana="#hypocrisie"><persName ref="ind:Paule" key="Sainte Paule">Paules</persName>,
+                     <persName ref="ind:Marcelle" key="Sainte Marcelle">marcelles</persName>,
+                     <persName ref="ind:Fabiole" key="Fabiole">fabiolles</persName>,<note
+                     resp="editor" type="glose">Ces saintes ont en commun d'être des disciples de
+                        <persName ref="ind:Jérôme" key="Saint Jérôme"
+                     >Jérôme</persName>.<!-- A compléter --></note></l>
+               <l ana="#hypocrisie">De semblables christicolles<note resp="editor" type="ling"
+                     >Littéralement, les "adorateurs du Christ".</note></l>
+               <l ana="#hypocrisie"><app>
+                     <lem wit="#Bigarures">Du bon Guillaume</lem>
+                     <rdg wit="#Ye-29600">De <expan>Sainct</expan> Hierosmes</rdg>
+                  </app> encor moins:</l>
+               <!-- Saut#18 --><anchor type="saut#18"/>
+               <l n="188" ana="#satire"><rs type="injonction" subtype="impératif">Chassons</rs>
+                  encor tous faux tesmoins</l>
+               <l ana="#satire">Tous examens signez sans lire,</l>
+               <l ana="#hypocrisie">Le Prescheur qui n'ose tout dire,</l>
+               <l ana="#hypocrisie">Le Prescheur qui à toute main,</l>
+               <l n="192" ana="#hypocrisie">Prend tout poisson avec son ain,<note resp="editor"
+                     type="ling"><hi rend="italic">Ain</hi>: "Hameçon".</note></l>
+               <l ana="#satire">Les <rs type="occupation" subtype="médecin">Medecins</rs> qui sont
+                  trop riches,</l>
+               <l ana="#satire">Les <rs type="occupation" subtype="pharmacien">Pharmacopolles</rs>
+                  trop chiches,</l>
+               <l ana="#satire">Les <rs type="occupation" subtype="chirurgien">Chirurgiens</rs> trop
+                  piteux,</l>
+               <l n="196">Les <rs type="occupation" subtype="page">Pages</rs> qui sont trop
+                  honteux,</l>
+               <l ana="#satire">Une <rs type="occupation" subtype="nourrice">Nourrice</rs> trop
+                  songearde,</l>
+               <l ana="#satire">Une <rs type="occupation" subtype="nonne">Nonnain</rs> trop
+                  fretillarde,</l>
+               <l ana="#satire">Un <rs type="occupation">Confesseur</rs> trop indulgent,</l>
+               <l n="200" ana="#satire">Un <rs type="occupation">Connetable</rs> negligent,</l>
+               <l ana="#satire">Un <rs type="occupation" subtype="secrétaire">Secretaire</rs> trop
+                  prolixe,</l>
+               <l ana="#satire">Une trop jeunette <rs type="occupation">Obstetrice</rs>,</l>
+               <l ana="#satire">Un <rs type="occupation" subtype="brasseur">Brasseur</rs> pres de
+                  mauvaise eau</l>
+               <l n="204" ana="#satire">Un <rs type="occupation" subtype="pâtissier">Paticier</rs>
+                  pres d'un bordeau</l>
+               <l ana="#satire">Un <rs type="occupations" subtype="boucher">Boucher</rs> de puante
+                  alaine,</l>
+               <l ana="#satire">Une <rs type="occupation" subtype="servante">Servante</rs> trop
+                  mondaine,</l>
+               <l ana="#satire">Un <rs type="occupation" subtype="écolier">Escolier</rs> pres d'un
+                  tripot,</l>
+               <fw type="sig" place="bottom-right">B</fw>
+               <pb n="10"/><fw type="pageNum" place="top-center">10</fw>
+               <l n="208" ana="#satire">Un <rs type="occupation" subtype="tavernier">Tavernier</rs>
+                  aupres <app>
+                     <lem wit="#Bigarures">d'un</lem>
+                     <rdg wit="#Ye-29600">du</rdg>
+                  </app> pot</l>
+               <l ana="#satire">Un <rs type="occupation" subtype="meunier">Meusnier</rs> pres de sa
+                  tremie,</l>
+               <l ana="#satire">Un Jaloux pres d'une abbaye.</l>
+               <!-- Saut#19 --><anchor type="19"/>
+               <l ana="#satire">Nous chassons aussi ces <rs type="invective">Sorciers</rs>,</l>
+               <l n="212" ana="#satire">Nourrissons d'espris familiers,</l>
+               <l ana="#sat_rel">Permutations <app>
+                     <lem wit="#Ye-29600">clericalles</lem>
+                     <rdg wit="#Bigarures">Claricalles</rdg>
+                  </app></l>
+               <l ana="#sat_rel"><reg>Bigamies</reg> Sacerdotalles</l>
+               <l ana="#sat_rel">Ses alliances de Nonnains,</l>
+               <l ana="#satire" n="216"><rs type="occupation" subtype="avocat">Advocats</rs> prenans
+                  des deux mains,</l>
+               <l ana="#satire"><rs type="occupation">Procureurs</rs> qui sont sans malices,</l>
+               <l ana="#satire"><rs type="occupation" subtype="sergent">Sergens</rs> qui doivent
+                  leurs offices,</l>
+               <l ana="#satire"><rs type="occupation">Greffiers</rs> qui babillent souvent,</l>
+               <l n="220" ana="#satire">Les <rs type="occupation" subtype="commis">Commis</rs> qui
+                  n'ont point d'argent,</l>
+               <l ana="#injustice">Le <rs type="occupation" subtype="juge">Juge</rs> qui n'a qu'une
+                  oreille,</l>
+               <l ana="#satire">Celuy qui dit à la pareille,<note resp="editor" type="ling"><hi
+                        rend="italic">À la pareille</hi>: "À charge de revanche", Di
+                  Stefano.</note></l>
+               <l ana="#satire">Le <rs type="occupation">Regent</rs> qui ne fesse pas</l>
+               <l n="224" ana="#satire"><app>
+                     <lem wit="#Bigarures"><rs type="occupation">Valets</rs> trop long temps</lem>
+                     <rdg wit="#Ye-29600">Les valets trop longs</rdg>
+                  </app> au repas,</l>
+               <l ana="#satire"><rs type="occupation">Laquets</rs> cheminans des machoires,</l>
+               <l ana="#satire"><rs type="occupation">Tabellions</rs> sans escritoires,<note
+                     resp="editor" type="ling"><hi rend="italic">Tabellions</hi>: "Tabellions sont
+                     dits ceux qui passent és villes de moindre importance, et és bourgs et
+                     villages, les actes d'entre personnes priuées, nous seruants en cela du
+                     diminutif <hi rend="italic">Tabella</hi>, dont ce vocable est tiré, ne
+                     daignants du nom de <hi rend="italic">Notaires</hi>, que ceux qui sont establis
+                     és villes de respect.", Nicot, 1606.</note></l>
+               <l ana="#satire">Le <rs type="occupation" subtype="receveur">Receveur</rs> qui
+                  s'appauvrit,</l>
+               <l n="228" ana="#satire">Le <rs type="occupation" subtype="financier">Financier</rs>
+                  qui s'enrichit,</l>
+               <l ana="#satire">Le <rs type="occupation" subtype="poète">Poëte</rs> qui <rs
+                     type="locution">tient de la Lune</rs>,<note resp="editor" type="ling"><hi
+                        rend="italic">Tenir de la lune</hi>: "être lunatique, fantastique", Di
+                     Stefano.</note></l>
+               <l ana="#satire">Le <rs type="occupation">Chantre</rs> qui tient de <persName
+                     type="mythologie" key="Saturne">Saturne</persName>,</l>
+               <l>Le <app>
+                     <lem wit="#Bigarures">barquigneur</lem>
+                     <rdg wit="#Ye-29600">barguigneur</rdg>
+                  </app> Mercurial,<note resp="editor" type="ling"><hi rend="italic"
+                        >Barguigneur</hi>: "Qui barguigne, qui marchande trop, qui est irresolu et
+                     indeterminé.", Furetière, 1690.</note></l>
+               <l n="232" ana="#satire">Le contemplatif jovial</l>
+               <l ana="#satire">Les <rs type="occupation">Eunucques</rs> qui veulent frire:</l>
+               <l ana="#cocuage">Cocus qui veulent d'autres rire,</l>
+               <l ana="#satire">Begues qui veulent discourir,</l>
+               <l n="236" ana="#satire">Les boiteux qui veulent courir,</l>
+               <l ana="#satire">Aveugle juger du visible,</l>
+               <l ana="#satire"><rs type="occupation" subtype="savetier">Savetiers</rs> qui lisent
+                  la Bible,</l><!-- Réf. -->
+               <pb n="10"/>
+               <fw type="pageNum" place="top-center"/>
+               <l ana="#misogynie">Les femmes qui veulent prescher,</l>
+               <l n="240" ana="#maladie"><rs type="maladie" subtype="lèpre">Ladre</rs> qui craint
+                  l'autre toucher,</l>
+               <l ana="#satire"><rs type="occupation" subtype="coordonnier">Cordonniers</rs> passans
+                  les pentoufles,</l>
+               <l ana="#satire">Les <rs type="locution"><rs type="animal" key="chat">chats</rs> qui
+                     veulent porter moufles</rs>;</l>
+               <!-- Saut#20 --><anchor type="saut#20"/>
+               <!-- Contre l'hypocrisie -->
+               <l>Sur tout <rs type="injonction" subtype="conseil">gardons nous</rs>
+                  aujourd'huy,</l>
+               <l n="244" ana="#hypocrisie">De l'envieux qui louë autruy,</l>
+               <l ana="#hypocrisie">Du <rs type="animal" subtype="canidé" key="loup">loup</rs> qui
+                  fait du charitable,</l>
+               <l ana="#satire">Du <rs type="animal" key="cochon">pourceau</rs> qui dort sous la
+                  table,</l>
+               <l ana="#satire">De la <rs type="animal" subtype="insecte" key="mouche">mouche</rs>
+                  sur l'<rs type="animal" key="éléphant">elephant</rs>,</l>
+               <l n="248" ana="#satire">Du <rs type="animal" key="singe">singe</rs> qui berce
+                  l'enfant,</l>
+               <l ana="#hypocrisie">De l'<rs type="animal" key="ours">ours</rs> qui nous montre sa
+                  patte,</l>
+               <l ana="#hypocrisie">Du <rs type="animal" key="renard">renard</rs> qui les <rs
+                     type="animal" key="poule">poulles</rs> flatte,</l>
+               <l ana="#satire">Du <rs type="animal" key="lion">Lyon</rs> qui a beu du vin,</l>
+               <l n="252" ana="#satire">Des Sirenes, du <placeName>fart Messin</placeName>,</l>
+               <l ana="#satire">Du cancre qui hume les huistres,</l>
+               <l ana="#satire">Et des <rs type="animal" subtype="équidé" key="âne">asnes</rs> de
+                  franc arbitres:</l>
+               <l><rs type="injonction" subtype="impersonnelle">Il se faut</rs> conserver aussi,</l>
+               <l n="256" ana="#hypocrisie">Du ris <app>
+                     <lem>du tiran</lem>
+                     <rdg wit="#Bigarures">de Tyrant</rdg>
+                  </app> endurcy,</l>
+               <l ana="#hypocrisie">Des larmes d'une <rs type="occupation" subtype="courtisane"
+                     >Courtisane</rs>,</l>
+               <l ana="#hypocrisie">Des finesses de la chicane,</l>
+               <l ana="#satire">De la baguette d'un <rs type="occupation" subtype="huissier"
+                     >Huyssier</rs>,</l>
+               <l n="260" ana="#satire">De la navette d'un <app>
+                     <lem wit="#Bigarures"><rs type="métier" subtype="tisserand">Tessier</rs></lem>
+                     <rdg wit="#Ye-29600">telier</rdg>
+                  </app>,</l>
+               <l ana="#satire">D'un <hi rend="italic">&amp;c.</hi> de <rs type="occupation"
+                     subtype="notaire">Notaire</rs>,</l>
+               <l ana="#satire">D'un <hi rend="italic">qui pro co</hi> d'<rs type="occupation"
+                     >Apotiquaire</rs>,</l>
+               <l ana="#satire">Des blandices d'un Maquereau,<note resp="editor" type="ling"><hi
+                        rend="italic">Blandices</hi>: flatteries et autres cajoleries pour tromper
+                     quelqu'un.</note></l>
+               <l n="264" ana="#hypocrisie">Des accolades d'un <rs type="occupation"
+                     subtype="bourreau">Bourreau</rs>,</l>
+               <l ana="#satire">De l'Inquisition d'<placeName type="country" key="Espagne"
+                     >Espagne</placeName>,</l>
+               <l ana="#satire">Des coupe bources de <placeName type="region" key="Bretagne"
+                     >Bretagne</placeName>,</l>
+               <l ana="#satire">D'un <app>
+                     <lem wit="#Bigarures">sé</lem>
+                     <rdg wit="#Ye-29600">fé</rdg>
+                  </app> dé dé Italien,<note resp="editor" type="glose">"Par ma foi".</note></l>
+               <l n="268" ana="#satire">Et d'un <hi rend="italic">certes</hi> à bon escien,</l>
+               <l ana="#trahison">D'un <hi rend="italic">veritablement</hi> de traistre,</l>
+               <fw type="sig" place="bottom-right">B ij</fw>
+               <pb n="12"/><fw type="pageNum" place="top-center">12</fw>
+               <l ana="#satire">Et d'un <rs type="animal" subtype="canidé" key="chien">chien</rs>
+                  qui n'a point de maistre,</l>
+               <l ana="#satire">De la main d'un Escrivain,</l>
+               <l n="272" ana="#satire">De la cuisine d'un vilain,</l>
+               <l ana="#satire">Du couteau du <orgName type="peuple" subtype="flamand"
+                     >Flamand</orgName> yvrogne,</l>
+               <l ana="#satire"><app>
+                     <lem>Et d'un <hi rend="italic">cap de dious</hi></lem>
+                     <rdg wit="#Bigarures">D'un cap de jou</rdg>
+                  </app> de <placeName type="region" key="Gascogne">Gascogne</placeName>,</l>
+               <l ana="#satire">Du <hi rend="italic">sacremente</hi> d'<orgName type="peuple"
+                     key="allemand">Allemand</orgName>,</l>
+               <l n="276" ana="#satire">Et de la fureur du <orgName type="peuple" subtype="normand"
+                     >Normand</orgName>,</l>
+               <l ana="#satire">De la goittre savoisienne,</l>
+               <l ana="#satire">De la crotte parisienne,</l><!-- Cf. Les crottes de Paris -->
+               <l ana="#maladie">De la <rs type="maladie" key="vérole">verolle</rs> de <placeName
+                     type="city" key="Rouen">Rouën</placeName>:</l>
+               <!-- Saut#21 --><anchor type="saut#21"/>
+               <l n="280" ana="#mtd">Mais nous voicy <app>
+                     <lem wit="#Bigarures">à</lem>
+                     <rdg wit="#Ye-29600">vers</rdg>
+                  </app>
+                  <placeName type="city" key="Saint-Aignan">sainct Aignen</placeName></l>
+               <l ana="#satire"><reg>Ô</reg> Dieux que d'ordures estranges,</l>
+               <l ana="#satire">Que de culs cachez dans les granges,</l>
+               <l ana="#satire">Que de bouteilles, de flacons,</l>
+               <l n="284" ana="#satire">Que de bons Jans, que de jambons,</l>
+               <l ana="#satire">Que de fleurettes refoulées,</l>
+               <l ana="#motifs_sexuels">Que de filles despucelées,</l>
+               <l ana="#satire">Que de beaux collets d'efraisez,</l>
+               <l n="288" ana="#satire">De buscqs rompus, de ceints brisez,</l>
+               <l ana="#motifs_sexuels">Que de mains sous les vertugades,</l>
+               <l ana="#satire">Que d'andoüilles, que de sallades,</l>
+               <l ana="#satire">De <reg>jonchée</reg>, de <reg>cervelats</reg>,</l>
+               <l n="292" ana="#satire">De tables, de pots, &amp; de plats,</l>
+               <l ana="#motifs_sexuels">Que de fringantes Damoiselles,</l>
+               <l ana="#satire">Quel tintamarre de <app>
+                     <lem wit="#Bigarures">vielles</lem>
+                     <rdg wit="#Ye-29600">vieilles</rdg>
+                  </app>,</l>
+               <l ana="#satire">De viollons, &amp; de haut bois,</l>
+               <l n="296" ana="#satire">Que de putains dedans les bois,</l>
+               <l ana="#motifs_sexuels">Que de colerettes rompuës,</l>
+               <l ana="#motifs_sexuels">Et que de fesses toutes nuës,</l>
+               <l ana="#motifs_sexuels">Que de beaux tetins descouverts,</l>
+               <l n="300">Que d'enfans auront les yeux vers,</l>
+               <l ana="#satire">Qu'il faudra eslargir de robbes,</l>
+               <pb n="13"/><fw type="pageNum" place="top-center">13</fw>
+               <l ana="#satire">Et desplisser de garde robbes,</l>
+               <l ana="#satire">Que de matrones empeschées,</l>
+               <l n="304" ana="#satire">Que de gardes, que d'acouchées,</l><note resp="editor"
+                  type="philo">Ces deux vers sont absents du <title>Donnez-vous
+                  garde</title>.</note>
+               <l ana="#satire">Que de baptesmes clandestins,</l>
+               <l ana="#satire">Et que de peres, &amp; parrains:</l>
+               <!-- Saut#22 --><anchor type="saut#22"/>
+               <!-- Jeux et divertissements -->
+               <l ana="#satire"><rs type="injonction" subtype="impératif">Ballions</rs> donc ces
+                  vilennies,</l>
+               <l n="308" ana="#mode">Ces dances, ces follastreries,</l>
+               <l ana="#satire">Ces <rs type="jeu" subtype="blanque">blancques</rs>, ces <rs
+                     type="jeu">jeux de hazart</rs></l>
+               <!-- Saut#23 --><anchor type="saut#23"/><!-- Pêle-mêle -->
+               <l ana="#satire">Ces discoureurs d'amour à part,</l>
+               <l ana="#satire">Ces <rs type="occupation">vivandiers</rs> de foires franches,</l>
+               <l n="312" ana="#satire"><rs type="occupation" subtype="tavernier">Taverniers</rs>
+                  pour quatre Dimanches:</l>
+               <l ana="#satire">Et <rs type="injonction" subtype="impératif">chassons</rs> encore au
+                  balay</l>
+               <l ana="#satire">Ces <rs type="invective">beaux tireurs de pape-Gay</rs>,</l>
+               <l ana="#satire">Que leurs arcs, &amp; leurs cordes roides</l>
+               <l n="316" ana="#satire">Abattent les roupies froides,</l>
+               <l ana="#satire">Qui pendent au nez morfondus,</l>
+               <l ana="#satire">Des enfans de Caulx refondus.</l>
+               <!-- Saut#24 --><!-- Conclusion --><anchor type="saut#24"/>
+               <l rend="indent" ana="#satire">Or voyla bien des places nettes,</l>
+               <l n="320" ana="#mtd">Nos tasches seront bien tost faites,</l>
+               <l ana="#mtd">Il ne reste qu'à baloyer,</l>
+               <l ana="#ironie">La loyauté du <rs type="occupation">Couturier</rs>,</l>
+               <l ana="#satire">la paresse du <rs type="occupation">Laquays</rs> Basque,</l>
+               <l n="324" ana="#lâcheté">Le trop grand courage d'un flasque,</l>
+               <l ana="#ironie">Les gouttes d'un jeune sauteur,</l>
+               <l ana="#satire">La grand blancheur <app>
+                     <lem wit="#Bigarures">du</lem>
+                     <rdg wit="#Ye-29600">d'un</rdg>
+                  </app>
+                  <rs type="occupation">Ramonneur</rs><note resp="editor" type="crit">La tentation
+                     est grande de voir dans le titre d'une réédition de 1616 une forme
+                     d'auto-dérision mais il manque précisément cette fin du texte dans l'unique
+                     exemplaire du <title>Ramon ou coq-à-l'ane de Maistre Guillaume, ramoneur de la
+                        ville de Paris</title> de la Houghton Library (*FC6 G9454 616r).</note>,</l>
+               <l ana="#misogynie">Le trop grand silence des femmes,</l>
+               <l n="328" ana="#satire">Les <rs type="invective">bastards des chastrez
+                  infammes</rs>:</l>
+               <!-- Saut#25 --><anchor type="saut#25"/>
+               <l ana="#satire">Mais du tout <rs type="injonction" subtype="impératif"
+                     >dechassons</rs>
+                  <reg>ailleurs</reg></l>
+               <l ana="#satire">Ces <rs type="invective">fols Poëtastres rimailleurs</rs>,</l>
+               <l ana="#satire">Dont la rithme est si mal <reg>limée</reg>,</l>
+               <l n="332" ana="#satire">Et la lime si mal rithmée,</l><!-- Chiasme -->
+               <l ana="#intertexte">Qu'un bon rithmeur rime limant,<note resp="editor" type="crit"
+                     >On ne compte plus les imitations des célèbres vers de la "petite épître au
+                     Roi" de <persName ref="ind:Marot" key="Marot, Clément"
+                  >Marot</persName>.</note></l>
+               <fw type="sig" place="bottom-right">B iij</fw>
+               <pb n="14"/><fw type="pageNum" place="top-center">14</fw>
+               <l ana="#intertexte">Leur rithme relime en rithmant:</l><!-- Chiasme -->
+               <l ana="mtd">C'est fait <rs type="injonction" subtype="impératif">allons</rs>
+                  <rs type="injonction" subtype="impératif">quittons</rs> l'ouvrage,</l>
+               <l n="336" ana="#ethos"><rs type="injonction" subtype="défense">Ne nous lassons
+                     point</rs> davantage</l>
+               <l ana="#satire"><persName type="mythologie" key="Hercule">Hercul'</persName> bien
+                  empesché seroit</l>
+               <l ana="#satire">Si toute la terre il vouloit</l>
+               <l ana="#satire">Rendre d'ordure <reg>repurgée</reg>,</l>
+               <l n="340" ana="#réf_litt">Comme il fist l'estable d'<persName type="mythologie"
+                     key="Augias">Augée</persName>.</l>
+               <fw place="center"><app>
+                     <lem wit="#Bigarures">FIN</lem>
+                     <rdg wit="#Ye-29600">Fin du dicton</rdg>
+                  </app>.</fw>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

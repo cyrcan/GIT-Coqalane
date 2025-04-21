@@ -6,7 +6,7 @@
 <?xml-stylesheet type="text/xsl" href="../../../../Users/c.ca/Downloads/tei2latex_final.xslt"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
-      <fileDesc>
+      <fileDesc xml:id="Albenas">
          <titleStmt>
             <title>A Ysnard, du Coq en l'Asne.</title>
             <author ref="https://data.bnf.fr/ark:/12148/cb12168322x">Béranger de La Tour

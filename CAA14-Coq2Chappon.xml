@@ -5,7 +5,8 @@
    <teiHeader>
       <fileDesc xml:id="Coq2chappon">
          <titleStmt>
-            <title>Epistre du coq au chappon [CAA#14]</title>
+            <title>Réf. n°14: </title>
+            <title>Epistre du coq au chappon</title>
          </titleStmt>
          <publicationStmt>
             <p/>
@@ -221,7 +222,7 @@
             <l><persName ref="ind:Marot" key="Marot">Marot</persName> respond: Ô parolle dorée</l>
             <l n="28" ana="#violences">Bran du fagot merde pour la bourrée.</l>
             <l>Vive le <persName ref="ind:François_Ier">Roy</persName>, Vive la fleur de liz,</l>
-            <l>Vive <persName key="Marguerite de Navarre">la seur</persName> maulgré ses
+            <l>Vive <persName ref="ind:Marguerite_de_Navarre" key="Marguerite de Navarre">la seur</persName> maulgré ses
                ennemys,</l><note resp="editor" type="glose">Marguerite de Navarre, sœur du roi,
                était la protectrice de Marot et des évangéliques contre les ennemis de la
                Sorbonne.</note>
@@ -369,7 +370,7 @@
                   ref="ind:Jésus" key="Jésus">Jesus</persName></l>
             <l ana="#sat_rel"><persName>Dieu</persName> et le monde ont chevauché dessus</l>
             <l>Du grant palais <rs type="injonction" subtype="défense">ne parle sinon peu</rs></l>
-            <l n="124">Ne du disner que les <rs type="animal" subtype="canidé">chiens</rs> ont
+            <l n="124">Ne du disner que les <rs type="animal" subtype="canidé" key="chien">chiens</rs> ont
                receu</l>
             <l><rs type="injonction" subtype="impératif">Ferme le bec</rs> au borgne qui se
                fonde</l>

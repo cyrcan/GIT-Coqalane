@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc xml:id="Bern1536">
          <titleStmt>
-            <title>(Sanst titre)</title>
+            <title>(Sans titre)</title>
          </titleStmt>
          <publicationStmt>
             <p>Ce coq-à-l'âne ne porte de titre</p>
@@ -169,7 +169,7 @@
             <!-- Saut#1 --><anchor type="saut#1"/>
             <l>Mais fault il <expan>que</expan> l'on se courrousse</l>
             <l>Pour cy peu faire amairement</l>
-            <l>En celle <rs type="invective">grand vielle <rs type="animal" subtype="équidé">jument</rs></rs></l>
+            <l>En celle <rs type="invective">grand vielle <rs type="animal" subtype="équidé" key="jument">jument</rs></rs></l>
             <l n="8">Elle a tout faict à sec et verd</l>
             <l>Qu'elle a ung mary recouvert</l>
             <l>Je croy qu'elle en sera reprise</l>
@@ -224,46 +224,52 @@
             <l>En ce temps là d'avant <placeName type="city" key="Turin">Thurin</placeName></l>
             <l n="48">Je ne croy pas qu'ung tabourin</l>
             <l>Puisse <reg>à</reg> ung sourt faire peur</l>
-            <l>Et puis vouluntiers ung trompeur</l>
-            <l>Tousjours trompé se trouvera</l>
-            <l n="52">Et qui des coups grand crainte aura</l>
-            <l>N'alle pas se battre <reg>à</reg> la guerre</l>
+            <!-- Saut# -->
+            <l ana="#gnomique">Et puis vouluntiers ung trompeur</l>
+            <l ana="#gnomique">Tousjours trompé se trouvera</l>
+            <l n="52" ana="#lâcheté">Et qui des coups grand crainte aura</l>
+            <l ana="#lâcheté">N'alle pas se battre <reg>à</reg> la guerre</l>
+            <!-- Saut# -->
             <l>Il faict bon avoir de la terre</l>
             <l>Sy au seigneur ame ne nuyt</l>
+            
             <l n="56">L'Admirande a faict ung tel bruyt</l>
             <l>Que <unclear>Brodes</unclear> ont <expan>perdu</expan> leurs peines</l>
+            
             <l>On aura a vil pris la laine</l>
             <l>En <placeName type="region" key="Berry">Berry</placeName> sy a bon marché</l>
-            <l n="60">Sont les <rs type="animal">mouthons</rs>, a bon marché</l>
+            <l n="60">Sont les <rs type="animal" key="mouton">mouthons</rs>, a bon marché</l>
             <l>On aura assez de soudars</l>
             <l>D'enseignes aussy d'estandars</l>
-            <l>Mais <expan>que</expan> l'argent ne faille point</l>
+            <l ana="#argent">Mais <expan>que</expan> l'argent ne faille point</l>
+            
             <l n="64">Il vault myeulx se mectre en <expan>pourpoinct</expan></l>
             <l>Que d'estouffer de trop grand chauld</l>
             <l>Si <persName>Barbe Rousse</persName> est a <placeName type="region" key="Calabre"
                   >Calabre</placeName></l>
             <!-- Vers manquant -->
-            <l>Maulgré bieu <expan>et</expan> teste d'alabre</l>
+            <l><rs type="interjection" subtype="juron">Maulgré bieu</rs> <expan>et</expan> <rs type="interjection">teste d'alabre</rs></l>
             <l n="68">Ne sommes nous pas gens <expan>pour</expan> luy</l>
             <l>Les <roleName>Cardinaulx</roleName> sont sans ennuy</l>
             <l>Lesdits <expan>seigneurs sont en soulas</expan></l>
             <l>Et vouluntiers s'ilz ne sont las</l>
-            <l n="72">A leurs soulas ilz ont compaignes</l>
+            <l n="72"><reg>À</reg> leurs soulas ilz ont compaignes</l>
+            
             <l>Puys <persName>Dieu</persName> scayt si du cas espargnent</l>
             <l>Et les richesses de l'Eglise</l>
             <l><persName>Dieu</persName> est servy <expan>par</expan> grand faintyse</l>
-            <l n="76">Aujourd'huy n'est qu'iprocrisie</l>
+            <l n="76" ana="#hypocrisie">Aujourd'huy n'est qu'iprocrisie</l>
             <l><roleName>Prelatz</roleName> n'ont point de fantasie</l>
-            <l>A servir <persName>Dieu</persName> ouy bien le monde</l>
-            <l>La mer sera tousjours <expan>profunde</expan></l>
+            <l><reg>À</reg> servir <persName>Dieu</persName> ouy bien le monde</l>
+            <l ana="#gnomique">La mer sera tousjours <expan>profunde</expan></l>
             <pb n="106"/>
-            <l n="80">Les grands <rs type="animal">poissons</rs> y ont bon temps</l>
+            <l n="80">Les grands <rs type="animal" subtype="poisson" key="poisson">poissons</rs> y ont bon temps</l>
             <l><expan>Chascun</expan> verra comme j'entendz</l>
             <l>Les pauvres seront tousjours sans confort</l>
             <l>Maintenant qui est le plus fort</l>
             <l n="84">C'est celuy qui a le plus de bien</l>
             <l>le foible aujourd'huy n'a rien</l>
-            <l>Tout est <expan>par</expan> le temps fort pillé</l>
+            <l ana="#pillage-s">Tout est <expan>par</expan> le temps fort pillé</l>
             <l>En <placeName type="region" key="Savoie">Savoye</placeName> tout est baillé</l>
             <l n="88">Ceulx de <placeName type="region" key="Bourgogne">Bourgongne</placeName> en
                ont le tiers</l>
@@ -275,11 +281,11 @@
             <l>De faire plus de sacrifice</l>
             <l>Adieu, c'est au Vieil Testament</l>
             <l>Mais on veult bien fere autrement</l>
-            <l n="96">On veult le corps de <persName>Dieu</persName> tollir</l>
+            <l n="96">On veult le corps de <persName>Dieu</persName> tollir<note resp="editor" type="ling"><hi rend="italic">Tollir</hi>:</note></l>
             <l>Et toutes messes abolir</l>
             <l>Cela ne se fera jamais</l>
-            <l>Mon compaignon je le <expan>promectz</expan></l>
-            <l n="100">Que sy vivons encor <expan>nostre</expan> eage</l>
+            <l ana="#ethos"><persName type="destinataire">Mon compaignon</persName> je le <expan>promectz</expan></l>
+            <l n="100" ana="#leitmotiv">Que sy vivons encor <expan>nostre</expan> eage</l>
             <l>Que nous verrons de tripotaige</l><!-- cf. CAA79-80 -->
             <l>Entre les ecclesiasticques</l>
             <l>Ce sont de merveilleuses practiques</l>
@@ -294,9 +300,9 @@
             <l>Et de ne porter plus aussy</l>
             <l n="112">De cappes et habitz d'<placeName type="country" key="Italie"
                   >Ytalie</placeName></l>
-            <l>Par <persName>Dieu</persName> c'est une mocquerie</l>
+            <l><rs type="interjection">Par <persName>Dieu</persName></rs> c'est une mocquerie</l>
             <l>Que veult on donc <expan>qu'</expan>on porte</l>
-            <l>La peau d'une grand chevre morte</l>
+            <l>La peau d'une grand chevre morte<add type="ponctuation">?</add></l>
             <l n="116">Ainsy qu'ung grand <persName><expan>Saint</expan>
                   <expan>Jean</expan>
                   <expan>Baptiste</expan></persName></l>
@@ -367,11 +373,13 @@
             <l n="172">Il en y a plus de cinq cens</l>
             <l>Tousjours le jour des Innocens</l>
             <l>Est par les femmes bien aymé</l>
+            
             <l>Maistre Frapart <expan>maistre</expan> Enrymé</l>
             <l n="176">Nous feront ilz tousjours acroire</l>
-            <l ana="#Plmq">Qu'il n'y a point de <placeName>purgatoire</placeName></l>
+            <l ana="#Plmq">Qu'il n'y a point de <placeName type="purgatoire">purgatoire</placeName></l>
             <l>Qui priroit pour les trespassez</l>
             <l>Compaignons serons nous cassez</l>
+            
             <l n="180">L'on se rue fort sur noz practiques</l>
             <l>Puis qu'il en est de sy inicques</l>
             <l>Et sy meschans &amp; corrompuz</l>
@@ -383,7 +391,7 @@
             <l n="188">Et luy mesme en toute place</l>
             <l>Te donnera sa saincte grace</l>
             <l>Je le prie qu'il ne te clame</l>
-            <l>Si je l'escrips du coq en l'asne</l>
+            <l ana="#mtd">Si je l'escrips du coq en l'asne</l>
             <fw>Fin</fw>
          </p>
       </body>

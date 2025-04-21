@@ -21,7 +21,7 @@
    </teiHeader>
    <text>
       <body>
-         <l>Tes <choice>
+         <p><l>Tes <choice>
                <orig>beau</orig>
                <reg>beaux</reg>
             </choice> escriptz &amp; bons devis</l>
@@ -152,14 +152,14 @@
                <reg>aux</reg>
             </choice> bonnetz <reg>à</reg> troys cornes</l>
          <!--Saut#21-->
-         <l>Ayons de <reg>l’eaue</reg> de ses <rs type="animal" subtype="mythologie"
+         <l>Ayons de <reg>l’eaue</reg> de ses <rs type="animal" subtype="mythologie" key="licorne"
             >lycornes</rs></l>
          <l>Qui sert fort contre la poyson</l>
          <!--Saut#22-->
          <l n="64">Et sur ma foy <reg>c’est</reg> bien rayson</l>
          <l>Que monsieur passe le premier</l>
          <l>— On faict grand feste <reg>d’ung</reg>
-            <rs type="animal" subtype="oiseau">lanier</rs><note type="editor" subtype="ling">Sorte
+            <rs type="animal" subtype="oiseau" key="faucon">lanier</rs><note type="editor" subtype="ling">Sorte
                d'oiseau de proie qui a le bec et les piez bleus, les plumes de l'estomac mêlées de
                noir, et de blanc, qui est plus petit que le faucon et qui est la femelle du laneret.
                (Richelet)</note></l>
@@ -204,7 +204,7 @@
          <l>Et <rs type="injonction" subtype="impératif">metons fin</rs> <reg>à</reg> noz escripz.</l>
 
          <l>Tout par esgard.</l>
-         <l>FINIS.</l>
+         <l>FINIS.</l></p>
       </body>
    </text>
 </TEI>

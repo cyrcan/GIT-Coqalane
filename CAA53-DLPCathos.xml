@@ -1,36 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
-<?xml-model href="../../../../Users/c.ca/Downloads/tei_Corpus_CAA.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../../../Users/c.ca/Downloads/tei_Corpus_CAA.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:id="DLPCathos">
       <fileDesc>
          <titleStmt>
-            <title>L'asne au coq</title>
+            <title>Réf n°53: L'asne au coq. "Salut à toy, mon grand amy"</title>
          </titleStmt>
          <publicationStmt>
             <p/>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p><listWit>
+            <witness>
+               <msDesc>
+                  <msIdentifier xml:id="NAF1870">
+                     <settlement>Paris, </settlement>
+                     <repository>Bibliothèque nationale de France, </repository>
+                     <idno>NAF 1870, </idno>
+                  </msIdentifier>
+               </msDesc> f°. XXXIIIv-XXXVIIIv</witness>
+               </listWit></p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <p>Transcription du seul témoin de ce coq-à-l'âne qui présente de nombreuses irrégularités
             et se distingue en premier lieu par ses propos violents contre les huguenots souvent
             désignés par le termes "hurgnes". </p>
-         <p><listPerson>
-               <person xml:id="Anne_de_Montmorency"
-                  corresp="https://data.bnf.fr/ark:/12148/cb121165804">
-                  <idno type="ISNI">0000 0001 2118 2438</idno>
-                  <persName xml:lang="fr"><forename type="first">Anne</forename><surname> de
-                        Montmorency</surname></persName>
-               </person>
-               <person xml:id="Charles_IX" corresp="https://data.bnf.fr/12463140/charles_9/">
-                  <idno type="ISNI">0000 0001 2142 8995</idno>
-                  <persName xml:lang="fr"><forename type="first">Charles</forename><surname>
-                        IX</surname></persName>
-               </person>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p>
+            <interpGrp>
+               <!-- A -->
+               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="actu" ana="actualité">actualité commentée</interp>
+               <interp xml:id="adr" ana="adresse">adresse</interp>
+               <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+               <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="amour" ana="amour">amour</interp>
+               <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+               
+               <!-- B -->
+               <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
+               <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
+               
+               <!-- C -->
+               <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
+               <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de
+                  l'épître</interp>
+               <interp xml:id="corruption" ana="corruption">corruption</interp>
+               <interp xml:id="corps" ana="corps">corps</interp>
+               <interp xml:id="cour" ana="court">vie de la cour</interp>
+               <interp xml:id="cri" ana="cri">cris des marchands</interp>
+               <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+               
+               <!-- D -->
+               <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+               <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+               
+               <!-- E -->
+               <interp xml:id="éloge" ana="éloge">éloge</interp>
+               <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+               <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
+               <interp xml:id="exhortation" ana="exhortation">exhortations et
+                  encouragements</interp>
+               
+               <!-- F -->
+               <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
+               <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+               <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+               
+               <!-- G -->
+               <interp xml:id="gén" ana="généralisation">généralisation</interp>
+               <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                  gnomique</interp>
+               <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
+               
+               <!-- H -->
+               <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+               <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+               
+               
+               <!-- I -->
+               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
+                  l'adversaire</interp>
+               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+               <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+               <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
+               <interp xml:id="ironie" ana="ironie">ironie</interp>
+               
+               <!-- L -->
+               <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+               <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+               <interp xml:id="topos" ana="topos">lieu commun</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+               
+               <!-- M -->
+               <interp xml:id="maladie" ana="maladie">maladie</interp>
+               <interp xml:id="massacre" ana="massacre">massacre</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:id="météo" ana="météo">météorologie</interp>
+               <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+               <interp xml:id="misères" ana="misères">misères du temps</interp>
+               <interp xml:id="misogynie" ana="misogynie">misogynie</interp>
+               <interp xml:id="mode" ana="mode">mode</interp>
+               <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                  valeurs</interp>
+               <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+               
+               
+               <!-- P -->
+               <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
+               <interp xml:id="persona" ana="persona">persona de Marot</interp>
+               <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+               <interp xml:id="pillage-s" ana="pillages">vols, pillages</interp>
+               <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
+               <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+               <interp xml:id="practiques" ana="practiques">practiques</interp>
+               <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+               <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+               <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                  nécessaire</interp>
+               
+               <!-- R -->
+               <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+               <interp xml:id="rébus" ana="rébus">rébus</interp>
+               <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="révélations" ana="révélations">révélation(s)</interp>
+               <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+               <interp xml:id="rire" ana="rire">rire</interp>
+               <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
+               <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+               
+               <!-- S -->
+               
+               <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+               <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+               <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+               <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+               <interp xml:id="syllepse" ana="syllepse">syllepse</interp>
+               
+               <!-- T -->
+               <interp xml:id="tauto" ana="tauto">tautologie</interp>
+               <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+               <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               
+               <!-- V -->
+               <interp xml:id="vanité" ana="vanité">vanité</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="violences" ana="violences">violences</interp>
+            </interpGrp>
+         </p><p><listPerson>
+               
                <person xml:id="Pie_V" corresp="https://data.bnf.fr/ark:/12148/cb11919954n">
                   <idno type="ISNI">0000 0001 2096 6134</idno>
                   <persName xml:lang="fr"><forename type="first"
@@ -178,17 +326,8 @@
                   <persName xml:lang="fr"><forename type="first">Henry</forename><surname>
                         Millouet</surname></persName>
                </person>
-               <person xml:id="Bourdillon" corresp="http://viaf.org/viaf/279862870">
-                  <idno type="VIAF">279862870</idno>
-                  <persName xml:lang="fr"><forename type="first">Imbert</forename><surname> de la
-                        Plâtière</surname></persName>
-               </person>
-               <person xml:id="Martigues" corresp="https://data.bnf.fr/ark:/12148/cb17850243c">
-                  <idno type="ISNI">0000 0004 7973 5682</idno>
-                  <persName xml:lang="fr"><forename type="first">Sébastien</forename><surname> de
-                        Luxembourg-Martigues</surname></persName>
-                  <death><date>1569-11-19</date><settlement>Saint-Jean d'Angely</settlement></death>
-               </person>
+               
+               
                <person xml:id="Nez_d_argent">
                   <idno/>
                   <persName xml:lang="fr"><forename type="first">Pierre
@@ -245,26 +384,26 @@
                <msIdentifier>
                   <settlement>Paris, </settlement>
                   <repository>Bibliothèque nationale de France, </repository>
-                  <idno>NAF 1870 (f. 33v°-38v°)</idno>
+                  <idno>NAF 1870 ()</idno>
                </msIdentifier>
             </msDesc>
          </listBibl>
          <p>
-            <l>Salut <reg>à</reg> toy mon grand amy</l>
+            <l ana="#adr">Salut <reg>à</reg> toy mon grand amy</l>
             <note resp="scriptor">Dans la marge gauche, d'une seconde main : <quote>De la part des
                Catholicques</quote>.</note>
             <l>Que je ne voys pas <reg>à</reg> demy</l>
-            <l>Dont mon cueur treffort <choice>
+            <l ana="#ethos">Dont mon cueur treffort <choice>
                   <orig>ce</orig>
                   <reg>se</reg>
                </choice> travaille</l>
-            <l n="4"><reg>Reçois</reg> ce petit intervalle</l>
-            <l>Et supporte les faultes nostres</l>
-            <!-- Saut#1 -->
-            <l>Car ce <rs type="invective">diseur de patenostres</rs></l>
-            <l>En ses vieulx ans nous faict grands maulx</l>
+            <l n="4"><rs type="injonction" subtype="impératif"><reg>Reçois</reg></rs> ce petit intervalle</l>
+            <l>Et <rs type="injonction" subtype="impératif">supporte</rs> les faultes nostres</l>
+            <!-- Saut#1 --><anchor type="saut#1"/>
+            <l ana="#sat_pers">Car ce <rs type="invective">diseur de patenostres</rs></l>
+            <l ana="#sat_pers">En ses vieulx ans nous faict grands maulx</l>
             <note resp="editor" type="crit">Première attaque contre le connétable <persName
-                  ref="#Anne_de_Montmorency">Anne de Montmorency</persName>, cible principale de ce
+                  ref="ind:Anne_de_Montmorency">Anne de Montmorency</persName>, cible principale de ce
                coq-à-l'âne.</note>
             <!-- Saut#2 -->
             <l n="8">Les <expan>prebstres</expan> ne sont hors des maulx</l>
@@ -381,8 +520,8 @@
             <!-- Saut#12 -->
             <l n="48">Elle alloit souvent <reg>à</reg> la <placeName>court</placeName></l>
             <l>La pute femme au rouge <rs type="animal">veau</rs></l>
-            <note resp="editor" type="glose">Est visée ici Isabelle de Hauteville, dame de Loré,
-               mariée depuis décembre 1564 à Odet de Châtillon, le <q>rouge veau</q> en référence à la
+            <note resp="editor" type="glose">Est visée ici <persName key="Isabelle de Hauteville">Isabelle de Hauteville</persName>, dame de Loré,
+               mariée depuis décembre 1564 à <persName ref="ind:'Odet_de_Chatillon" key="Odet de Chatillon">Odet de Châtillon</persName>, le <q>rouge veau</q> en référence à la
                couleur de son habit de cardinal.</note>
             <l>Cela luy semble estre fort beau</l>
             <l>De <choice>
@@ -390,12 +529,12 @@
                   <reg>se</reg>
                </choice> faire nommer contesse</l>
             <!-- Saut#13-->
-            <l n="52">Ventre sainct gris <reg>et</reg> quel compte esse</l>
+            <l n="52"><rs type="interjection" subtype="juron">Ventre sainct gris</rs> <reg>et</reg> quel compte esse</l>
             <l>Nous sommes quasy en balance</l>
             <!-- Saut#14 -->
-            <l>J’ay veu <rs type="invective"><roleName ref="#Jean_de_Monluc">l’apostat</roleName> de
+            <l>J’ay veu <rs type="invective"><roleName ref="ind:Jean_de_Monluc" key="Jean de Monluc">l’apostat</roleName> de
                         <placeName type="city" key="Valence">Valence</placeName></rs></l>
-            <note resp="editor" type="glose">Il s'agit ici de Jean de Monluc, conseiller du roi et
+            <note resp="editor" type="glose">Il s'agit ici de <persName>Jean de Monluc</persName>, conseiller du roi et
                de la reine-mère. On trouve le pasquil suivant à la suite des <title>Mémoires d'un
                   curé de Paris</title>, Jehan de la Fosse : <quote>À l'evesque de Valence / Sub pelle
                ovina latet mens vulpina</quote>, <quote>Sous une peau de mouton se cache un cœur de loup</quote>, éd. M.
@@ -450,7 +589,7 @@
             <l><persName ref="#Henri_de_Guise" key="Henri de Guise">Guyse</persName> n’eust pas esté tué</l>
             <note resp="editor" type="glose">Poltrot de Méré est considéré comme un agent de
                Coligny.</note>
-            <!-- Saut#19 -->
+            <!-- Saut#19 --><anchor type="saut#19"/>
             <l n="80">Ilz se sont bien esvertué[s]</l>
             <l>Pour faire venir <orgName type="peuple" key="turc">Turcs</orgName> en <placeName type="country" key="France">France</placeName></l>
             <l>Ilz en auront ung jour souffrance</l>
@@ -463,7 +602,7 @@
             <note resp="editor" type="glose">À nouveau Montmorency, oncle des
                Châtillon-Coligny.</note>
             <l>Leur meschante cause a faict bonne</l>
-            <!-- Saut#20 -->
+            <!-- Saut#20 --><anchor type="saut#20"/>
             <l n="88">Je scay maulvais gré <reg>à</reg>
                <orgName>Sorbonne</orgName></l>
             <l><reg>Qu’il</reg>
@@ -476,18 +615,18 @@
             <l>Les <orgName type="secte">crestiens</orgName> ne gaignent jamays</l>
             <l n="96">Le <rs type="animal">mouton</rs> crye je <reg>n’en</reg> puys mais</l>
             <l>Ce neanlmoingts on le tue et <reg>l’escorche</reg></l>
-            <!-- Saut#21 -->
+            <!-- Saut#21 --><anchor type="saut#22"/>
             <l>Il porta une belle torche</l>
             <l>Ce mosnyer jusques au pillory</l>
-            <!-- Saut#22 -->
+            <!-- Saut#22 --><anchor type="saut#22"/>
             <l n="100">Prins fut <placeName>au carrefour Guillory</placeName></l>
             <note resp="editor" type="glose">Un des principaux carrefours parisiens, près de la
                place de Grève.</note>
             <l>L’orfebvre qui perdit sa barbe</l>
             <l>Et maincts aultres par <persName type="saint">saincte Barbe</persName></l>
             <l>Qu’il a faict de maulx en son temps</l>
-            <!-- Saut#23 -->
-            <l n="104">Apportez de l’argent content</l>
+            <!-- Saut#23 --><anchor type="saut#23"/>
+            <l n="104"><rs type="impératif" subtype="injonction">Apportez</rs> de l’argent content</l>
             <fw type="sig" place="bottom-right">Pour bastir</fw>
             <pb n="35r"/>
             <fw type="pageNum" place="top-right">Fol°xxxv</fw>
@@ -499,7 +638,7 @@
             <l>De récompense leur fera</l>
             <l>Et scavez vous <reg>où</reg> se fera</l>
             <l><placeName>Au tertre Montvalérien</placeName></l>
-            <!-- Saut#24 -->
+            <!-- Saut#24 --><anchor type="saut#24"/>
             <l n="112"><persName ref="#Bobigny">Bobigny</persName> est ung vray voiryen</l>
             <note resp="editor" type="glose">Voir Stuart Carroll, <title>Vengeance, Kinship
                   Solidarity and Affinity in Late-medieval and Early Modern France</title>, 2006, p.
@@ -523,7 +662,7 @@
                roux. <quote>Le mauvais sort voulut qu'il tomba aux mains d'un individu de haute stature,
                portant une petite barbe blonde ou rousse qu'il reconnut sans doute avec effroi.</quote>,
                Lucien Romier, <hi rend="italic">ibid.</hi></note>
-            <!-- Saut#25 -->
+            <!-- Saut#25 --><anchor type="saut#25"/>
             <l n="120"><rs type="injonction" subtype="impératif">Mande</rs> moy ung peu par
                escript</l>
             <l>Pour me mieulx réconcillier</l>
@@ -547,7 +686,7 @@
                "Prières, oraisons" (Huguet).</note>
             <l>Lors qu’il meit feu à <placeName type="street">Popincourt</placeName></l>
             <note resp="editor" type="crit">Voir Jehan de La Fosse pour le mois d'avril 1562 : <quote>En ung
-               samedy 5e, Anne de Memorensy, connestable de Franche, fut devant Brasque en la maison
+               samedy 5<hi rend="sup">e</hi>, Anne de Memorensy, connestable de Franche, fut devant Brasque en la maison
                où pendoit pour enseigne la ville de Jherusalem, où preschoyent les huguenotz, et
                feit mettre le feu dedans la maison de là, et fut à Popincourt où il feit mettre
                pareillement le feu ; et ce mesme jour furent pris prisonniers aucuns predicants et
@@ -556,7 +695,7 @@
             <l>Pour le brusler rompre et abbatre</l>
             <l n="140">C’est morguer pour les coups rabatre</l>
             <l>Et pour dissimuller un monde</l>
-            <!-- Saut#27-->
+            <!-- Saut#27--><anchor type="saut#27"/>
             <l><persName>L’hospital</persName> est pour tout le monde</l>
             <note>Probable jeu de mots sur le nom du <roleName ref="#L_Hospital"
                   >chancelier</roleName> critiqué pour sa politique de conciliation.</note>
@@ -594,7 +733,7 @@
             <l>Se <choice><orig>récente</orig><reg>ressente</reg></choice> des traicts de <reg>l’<rs type="animal" subtype="équidé"
                >asne</rs></reg></l>
             <note type="resp" subtype="glose">Tel père, tel fils : si l'<quote>asne</quote> est Anne, son fils
-               François est l'asnon.</note>
+               <persName ref="ind:François_de_Montmorency">François</persName> est l'asnon.</note>
             <!-- Saut#32 -->
             <l n="160">Je vous promects que <persName ref="#Anne_de_Montmorency">ce gris <rs
                      type="animal" subtype="équidé">asne</rs></persName></l>
@@ -730,7 +869,7 @@
             <l>Beuvant sa cire il est trop rogue</l>
             <!-- Saut#45 -->
             <l>As tu poinct veu le catalogue</l>
-            <l>De ces martirs de <persName key="antéchrist">l’anthecrist</persName></l>
+            <l>De ces martirs de <persName key="Antéchrist">l’anthecrist</persName></l>
             <l n="240">Je t’en ay réduict par escript</l>
             <l>Ce sont tixerrans savetiers</l>
             <l>Orphevre painctres <reg>et</reg> plusieurs mestiers</l>
@@ -898,16 +1037,16 @@
             <!-- Saut#56 -->
             <l><reg>C’estoit</reg> ung homme plain de raige</l>
             <l>Ce malheureux villain <persName>Brouillon</persName></l>
-            <l>Qui le mareschal <persName ref="#Bourdillon">Bourdillon</persName></l>
+            <l>Qui le mareschal <persName ref="ind:Bourdillon">Bourdillon</persName></l>
             <note resp="editor" type="glose">Le maréchal meurt le 4 avril 1567. cf. Jehan de la
                Fosse : "Monsr de Bordillon, maressal de France, morut au mois d’avril ; Monsr de
                Gonor eust sa place ; on dict que led. sr de Bordillon fut empoisonné."</note>
             <l n="340">Empoisonna par ung bruvaige</l>
             <l>Est ce bien faict sa malle raige</l>
-            <l>Ce sont traicts de leur religion</l>
+            <l ana="#adv_rel">Ce sont traicts de leur religion</l>
             <l>Il en est plusieur légion</l>
             <l n="344">De ses marchans de vye humaine</l>
-            <!-- Saut#57 -->
+            <!-- Saut#57 --><anchor type="saut#57"/>
             <l>Le roy <persName ref="#Philippe_II" key="Philippe II">Philippes</persName> rudesse meyne</l>
             <l>Aux <orgName>gueulx</orgName> de <placeName type="region" key="Flandre"
                      >Flandre</placeName> et c’est raison</l>
@@ -956,7 +1095,7 @@
                Lorraine trois ans plus tard, le 4 octobre 1570.</note>
             <!-- Saut#62 -->
             <l>Je croy que bien tost reviendra</l>
-            <l n="376"><persName ref="#Martigues">Martigues</persName> avec force
+            <l n="376"><persName ref="ind:Martigues">Martigues</persName> avec force
                   <orgName>Bretons</orgName></l>
             <note resp="editor" type="glose">Héros des catholiques intransigeants, Sébastien de
                Luxembourg-Martigues est gouverneur de Bretagne depuis le 2 juin 1565.</note>
@@ -1033,7 +1172,7 @@
             <l n="408">Du grand orphevre trompé estre</l>
             <l>Promys luy avoit foy de maistre</l>
             <l><reg>Qu’il</reg> le merroit <reg>et</reg> remerroit</l>
-            <note resp="editor" type="ling">Marrir : "affliger".</note>
+            <note resp="editor" type="ling"><hi rend="italic">Marrir</hi> : "affliger".</note>
             <l>Et qu’au <placeName>Louvre</placeName> ne le lairroit</l>
             <l n="412">Mais failly luy a de promesse</l>
             <!-- Saut#69 -->
@@ -1080,7 +1219,7 @@
                <reg>l’appétit</reg>
                <rs type="invective">des vielz flateurs</rs></l>
             <l n="436">Qui dissimulent en ce royaulme</l>
-            <l>A Dieu mon <roleName ref="#Charles_IX">Roy</roleName> qui pour heaulme</l>
+            <l ana="#conclusio">A Dieu mon <roleName ref="#Charles_IX">Roy</roleName> qui pour heaulme</l>
             <l>Vous doinct sa tressaincte puissance</l>
             <l>Et de vos ennemys jouyssance</l>
             <l n="440">Pour les punir ainsy que de raison</l>

@@ -264,7 +264,7 @@
                   >Barbacane</hi>: "souterrain, caverne", Huguet.</note>
             <pb/>
             <!-- Saut#21 --><anchor type="saut#21"/>
-            <l n="72">Le <rs type="animal">Canard</rs> vault mieulx que la <rs type="animal"
+            <l n="72">Le <rs type="animal" subtype="palmipède" key="canard">Canard</rs> vault mieulx que la <rs type="animal" subtype="palmipède" key="cane"
                   >Cane</rs></l><note resp="editor" type="glose">Mieux vaut fuir devant le danger
                qu'en rester pétrifié?</note>
             <l>Tesmoings tous ceulx du petit Pont,</l><note resp="editor" type="glose">Épisode non

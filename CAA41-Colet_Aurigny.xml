@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
-      <fileDesc>
+      <fileDesc xml:id="Colet">
          <titleStmt>
             <title>Epistre du Coq a L'asne A. G. D'AUrigny dict le Pamphile</title>
             <author ref="https://data.bnf.fr/ark:/12148/cb122535018">Claude Colet de
@@ -13,11 +12,19 @@
          </titleStmt>
          <publicationStmt>
             <p>Transcription de la seule épître du coq-à-l'âne connue de Claude Colet parue dans la
-               seconde édition de L'Oraison de Mars aux Dames de la Court (1548).</p>
+               seconde édition de <title>L'Oraison de Mars aux Dames de la Court</title> (1548).</p>
          </publicationStmt>
          <sourceDesc>
+            <p><listWit><witness><msDesc>
+                        <msIdentifier><settlement>Paris, </settlement>
+                                 <repository>Bibliothèque de l'Arsenal, </repository>
+                                 <idno>8-BL-15492</idno>
+                                 <!-- p. 110-119 -->
+                           </msIdentifier>
+            </msDesc></witness></listWit></p>
             <p>Texte imprimé et numérisé par la Bibliothèque nationale de France</p>
             <p>https://data.bnf.fr/ark:/12148/cb122535018</p>
+            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -79,16 +86,7 @@
    </teiHeader>
    <text>
       <body>
-         <listBibl>
-            <msDesc>
-               <msIdentifier>
-                  <settlement>Paris</settlement>
-                  <repository>Bibliothèque de l'Arsenal</repository>
-                  <idno>8-BL-15492</idno>
-               </msIdentifier>
-            </msDesc>
-         </listBibl>
-         <div>
+         <p>
             <l><persName type="destinataire">Pamphile</persName>, je ne sçay pour<lb break="no"
                />quoy</l>
             <l>Tu es si long temps a requoy</l>
@@ -378,7 +376,7 @@
             <l n="176">Quant <reg>à</reg> moy, ma foy je proteste</l>
             <l>De m’en aller le grand chemin.</l>
             <note resp="editor" type="crit">Peut-être un souvenir du "grand chemin" qui mène à la
-               Cour royale dans "Discours de la Court" de Claude Chappuys.</note>
+               Cour royale dans le <title>Discours de la Court</title> de Claude Chappuys.</note>
             <!--<note resp="editor" type="ling">S'en aller le grand chemin : prendre la grand-route (Di
             Stefano).</note> A corriger à l'aide du paragraphe sur le chemin de la Court dans le DC.-->
             <l>Icy, <persName type="destinataire">Pamphile</persName>, feray fin,</l>
@@ -386,7 +384,7 @@
             <l n="180">Est plus pesante qu’une enclume:</l>
             <l>Puis j’espere, de bref, te dire</l>
             <l>Ce, que je ne te veulx rescripre.</l>
-         </div>
+         </p>
       </body>
    </text>
 </TEI>

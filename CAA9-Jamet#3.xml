@@ -5,6 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <title>Réf. n°9: </title>
             <title>Title</title>
          </titleStmt>
          <publicationStmt>
@@ -111,7 +112,7 @@
                </msIdentifier>
             </msDesc>
          </listBibl>
-         <l>Or ça <persName ref="ind:Marot" key="Marot Clément">Marot</persName> que diras-tu</l>
+         <l ana="#adr">Or ça <persName ref="ind:Marot" key="Marot Clément">Marot</persName> que diras-tu</l>
          <l ana="#topos">De moy qui n’ay nulle vertu</l>
          <l ana="#intertexte">Et entreprens de te respondre</l>
          <l n="4">C’est tout ainsi que on se faict tondre</l>

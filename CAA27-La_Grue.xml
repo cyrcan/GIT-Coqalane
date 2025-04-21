@@ -6,13 +6,21 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>La grue</title>
+            <title xml:id="Grue">La grue</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p><listWit>
+                  <witness><msDesc>
+                        <msIdentifier>
+                           <settlement>Soissons, </settlement>
+                           <repository>Bibliothèque municipale, </repository>
+                           <idno>ms. 0201(189A)</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+               </listWit></p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -160,448 +168,449 @@
    </teiHeader>
    <text>
       <body>
-         <listBibl>
-            <msDesc>
-               <msIdentifier>
-                  <settlement>Soissons</settlement>
-                  <repository>repository name</repository>
-                  <idno>ms.201</idno>
-               </msIdentifier>
-            </msDesc>
-         </listBibl>
-         <l><rs type="interjection" subtype="cri">Grup grup</rs>
-            <reg>à</reg> la ville et aux champs</l>
-         <l ana="#sat_rel"><rs type="interjection" subtype="cri">Grup grup</rs> sur prestres et
-            marchans</l>
-         <l><rs type="interjection" subtype="cri">Grup grup</rs> sur ces gens de villaiges</l>
-         <!-- Saut#1 -->
-         <anchor type="saut#1"/>
-         <l n="4">Tu chantes tousjours quant il naige</l>
-         <l>Tu aymez l’hyver de ta nature</l>
-         <l><rs type="injonction" subtype="impératif">Va t’en</rs> au loing chercher pasture</l>
-         <l><rs type="injonction" subtype="impératif">Va</rs> paistre en quelque beau fourment</l>
-         <!-- Saut#2 -->
-         <anchor type="saut#2"/>
-         <l n="8"><rs type="interjection" subtype="cri">Grup grup</rs> dessus ce parlement</l>
-         <l><rs type="interjection" subtype="cri">Grup</rs> sus ces robbes d’escarlatte</l>
-         <!-- Saut#3 -->
-         <anchor type="saut#3"/>
-         <l><rs type="injonction" subtype="impératif">Prens</rs> ton espée mectz une latte</l>
-         <l>Pour combatre <persName ref="ind:Charles_Quint" key="Charles-Quint">Charles
-               d’Autriche</persName></l>
-         <!-- Saut#4 -->
-         <anchor type="saut#4"/>
-         <l n="12">Ma vigne est demourée en friche</l>
-         <l>La preste l’on plus à usure</l>
-         <l>Çà de l’argent <rs type="injonction" subtype="impératif">prens</rs> ma ceincture</l>
-         <l><rs type="interjection" subtype="juron">Que diable</rs> veux tu que je face</l>
-         <!-- Saut#5 -->
-         <anchor type="saut#5"/>
-         <l n="16">As tu veu la grant <persName>Chiche face</persName></l>
-         <l>Qui devore tout le royaulme</l>
-         <!-- Saut#6 -->
-         <anchor type="saut#6"/>
-         <l ana="#cour"><rs type="interjection" subtype="juron">Mort bieu</rs> ilz fleurent comme
-            baulme</l>
-         <l ana="#cour">Ces courtisans nouveaulx venuz</l>
-         <!-- Saut#7 -->
-         <anchor type="saut#7"/>
-         <l n="20">Dames qui tenez vous de Venus</l>
-         <l><rs type="injonction" subtype="impératif">Faictes</rs> retendre la courtine</l>
-         <!-- Saut#8 -->
-         <anchor type="saut#8"/>
-         <l><rs type="interjection" subtype="juron">À tous les diables</rs> la mastine</l>
-         <l>Elle m’a faict chasser de la <placeName>court</placeName></l>
-         <!-- Saut#9 -->
-         <anchor type="saut#9"/>
-         <l n="24"><rs type="injonction" subtype="impératif">Voy</rs>
-            <persName>Montelon</persName> comment il court</l>
-         <l>Il ne marche que sur espines</l>
-         <!-- Saut#10 -->
-         <anchor type="saut#10"/>
-         <l>Comment <persName type="destinataire">vieille grue</persName> tu declines</l>
-         <l>Oultre les mettes de raison</l>
-         <l n="28">Sçais tu poinct la belle oraison</l>
-         <l><reg>À</reg> toy Royne de hault parage</l>
-         <!-- Saut#11 -->
-         <anchor type="saut#11"/>
-         <cb n="2"/>
-         <l>Je suis en debte que c’est raige</l>
-         <l>Tout mon bien n’y fournira pas</l>
-         <!-- Saut#12 -->
-         <anchor type="saut#12"/>
-         <l n="32">Tout beau tout beau <rs type="locution">allons le pas</rs></l>
-         <l>Il fault abaisser l’ordinaire</l>
-         <!-- Saut#13 -->
-         <anchor type="saut#13"/>
-         <l><rs type="interjection" subtype="juron">Sang bieu</rs> qu’on veoit de luminaire</l>
-         <l>Quant on enterre un trespassé</l>
-         <l n="36">Un <rs type="locution" subtype="latine">requiescant in pace</rs></l>
-         <l>Mect deux ames en <placeName>paradis</placeName></l>
-         <!-- Saut#14 -->
-         <anchor type="saut#14"/>
-         <l><rs type="interjection">Dieu</rs> tant il avoit de beaulx ditz</l>
-         <l ana="#sat_pers">Le bon <persName key="Beda Noël">Beda</persName> qui fut chassé</l>
-         <l n="40">Aussi son corps fut enchassé</l>
-         <l ana="#ironie">Les <rs type="animal" subtype="rongeur">souriz</rs> n’ont garde d’y
-            mordre</l>
-         <!-- Saut#15 -->
-         <anchor type="saut#15"/>
-         <l><rs type="interjection">Mon dieu</rs> qu’il y avoit bel ordre</l>
-         <l>Quant l’<persName ref="ind:Charles-Quint" key="Charles-Quint">Empereur</persName> vint à
-               <placeName type="city" key="Paris">Paris</placeName></l>
-         <l n="44">Il cousta des <rs type="monnaie">francs</rs> plus de dix</l>
-         <l>Voire plus de dix et ung double </l>
-         <l>Aussi il a rendu au double</l>
-         <l>Ne veois tu pas la recompense</l>
-         <!-- Saut#16 -->
-         <anchor type="saut#16"/>
-         <l n="48"><rs type="interjection">Ventre Sainct Jehan</rs> mays quant je y pense</l>
-         <l><persName ref="ind:Anne_de_Montmorency" key="Montmorency Anne de">Montmorancy</persName>
-            le secondoit</l>
-         <!-- Saut#17 -->
-         <anchor type="saut#17"/>
-         <l ana="#gnomique"><rs type="locution">Qui monte plus hault qu’il ne doit</rs></l>
-         <l ana="#intertexte">Il veoit un clocher de deux lieues</l>
-         <note resp="editor" type="crit">Écho des vers de Jamet</note>
-         <!-- Saut#18 -->
-         <anchor type="saut#18"/>
-         <l n="52">J’ay esté en maintz divers lieux</l>
-         <l>Mays Dieu doict bonne vie au <roleName>pape</roleName></l>
-         <l ana="#sat_rel">Veulx tu poinct achepter sa chappe</l>
-         <l ana="#abus">Tu y feroys bien trois habitz</l>
-         <l n="56">Il a ung trouppeau de <rs type="animal">brebis</rs></l>
-         <l>Qui sont en grand danger de <rs type="animal">loup</rs></l>
-         <l ana="#ethos">Je ne m’en soucye pas d’un clou</l>
-         <l ana="#abus">Puis que <persName>dieu</persName> veult estre marchant</l>
-         <!-- Saut#19-->
-         <anchor type="saut#19"/>
-         <l n="60" ana="#persécutions">Ha tu seras bruslé meschant</l>
-         <l ana="#persécutions">Ta chair ne sent que la bourrée</l>
-         <!-- Saut#20 -->
-         <anchor type="saut#20"/>
-         <l>Une terre bien labourée</l>
-         <l>Rend tousjours le double à son maistre</l>
-         <!-- Saut#21 -->
-         <anchor type="saut#21"/>
-         <l n="64">Si ung jour je puys estre prebstre</l>
-         <l>Je seray cousin de <persName ref="ind:Jésus" key="Jésus">Jesus Christ</persName></l>
-         <!-- Saut#22 -->
-         <anchor type="saut#22"/>
-         <l>Il nomme le <roleName>pape</roleName>
-            <rs type="invective">antechrist</rs></l>
-         <l>Ce malheureulx <persName ref="ind:Luther" key="Luther Martin">Martin
-            Luther</persName></l>
-         <!-- Saut#23 -->
-         <anchor type="saut#23"/>
-         <l n="68">Si je me metz à disputer</l>
-         <l>Je <rs type="locution">parleray des grosses dens</rs><note resp="editor" type="ling"><hi
-                  rend="italic">Parler de grosses dents</hi>: se fâcher, menacer" (Di
-               Stefano).</note></l>
-         <!-- Saut#24 -->
-         <anchor type="saut#24"/>
-         <l>Tout est <reg>à</reg> sac dedans dedans</l>
-         <l><rs type="injonction" subtype="impératif">Faictes vous</rs> gentilz compaignons</l>
-         <!-- Saut#25 -->
-         <anchor type="saut#25"/>
-         <l n="72">Si tu <reg>manges</reg> des champignons</l>
-         <l><rs type="injonction" subtype="conseil">Donne toy garde</rs> du boucon</l>
-         <!-- Saut#26 -->
-         <anchor type="saut#26"/>
-         <l>Mays voy tu ce <rs type="invective">dyable de con</rs></l>
-         <l>Il a bien faict de cardinaulx</l>
-         <l n="76">Forces evesques abbés nouveaulx</l>
-         <l>Jamays un tel con ne cona</l>
-         <l>Celluy qui premier l’encona</l>
-         <l>Le trouva con de connerye</l>
-         <l n="80"><rs type="injonction" subtype="impératif">Tays toy</rs> follastre qu’on ne
-            rie</l>
-         <l>Que tu y fusses enconné</l>
-         <l>C’est ung grant con rataconné</l>
-         <l>L’on joueroit dedans à la paulme</l>
-         <l n="84">Il mange le tiers du royaulme</l>
-         <l>Dampné soit il qui le conna</l>
-         <l>Et celle avec qui le con a</l>
-         <l>En <placeName>enfer</placeName> soit il confondu</l>
-         <l n="88">L’argent est en ce con fondu</l>
-         <l>Puys le peuple le recompense</l>
-         <l>Ung con n’est pas tout ce qu’on pense</l>
-         <l>Tel n’en a poinct qui en a trop</l>
-         <!-- Saut#27 -->
-         <anchor type="saut#27"/>
-         <l n="92">Un <rs type="animal">chat</rs> qui va bien le trot</l>
-         <!-- Saut#28 -->
-         <anchor type="saut#28"/>
-         <l>As tu point veu la Peronnelle</l>
-         <!-- Cf. Coq au chappon -->
-         <l>Si tu chasses à la tonnelle</l>
-         <pb n="32v"/>
-         <cb n="1"/>
-         <l>Tu feras contre l’ordonnance</l>
-         <!-- Saut#29 -->
-         <anchor type="saut#29"/>
-         <l n="96"><persName>Guillaume Poyet</persName> a faict en <placeName><settlement
-                  type="country">France</settlement></placeName></l>
-         <l>Prouffit de cent mille <rs type="monnaie">ducatz</rs></l>
-         <l>Moy estant informé du cas</l>
-         <l>Je y pourvoyray qu’on s’en deporte</l>
-         <!-- Saut#30 -->
-         <anchor type="saut#30"/>
-         <l n="100">Es tu dedans Bucque à la porte</l>
-         <l>Je suis chassé qui est en ton lieu</l>
-         <!-- Saut#31 -->
-         <anchor type="saut#31"/>
-         <l><persName key="destinataire">Mon amy</persName> va t'en prier
-            <persName>Dieu</persName></l>
-         <l>Je te remectray si je puys</l>
-         <!-- Saut#32 -->
-         <anchor type="saut#32"/>
-         <l n="104">Noz grands seigneurs jouent à j’en suys</l>
-         <l>Chacun ne faict que ces troys moys</l>
-         <!-- Saut#33 -->
-         <anchor type="saut#33"/>
-         <l>Encor n’est il que plumes d’oyes</l>
-         <l>Pour escripre un proces verbal</l>
-         <!-- Saut#34 -->
-         <anchor type="saut#34"/>
-         <l n="108"><rs type="interjection" subtype="juron">Vertu bieu</rs> on luy eust faict
-            mal</l>
-         <l>[Illisible] l’eust pendu comme une serpe</l>
-         <!-- Saut#35 -->
-         <anchor type="saut#35"/>
-         <l><persName type="bible">David</persName> qui jouoit de la herpe</l>
-         <l>Dict à <persName>Dieu</persName>
-            <rs type="locution" subtype="latine">sum tibi soli</rs></l>
-         <l n="112">Mays entre nous <rs type="locution" subtype="latine">noli noli</rs></l>
-         <l><rs type="locution" subtype="latine">Beati qui faciunt</rs> Grup</l>
-         <l>Voire mays <rs type="locution" subtype="latine">non custodiunt illud</rs></l>
-         <!-- Saut#36 -->
-         <anchor type="saut#36"/>
-         <l>Tout ce que clerc gaigne avec penne</l>
-         <l n="116">Il le despend avec C,O,N</l>
-         <l>Ce dient les <rs type="invective">vieulx macquereaulx</rs></l>
-         <!-- Saut#37 -->
-         <anchor type="saut#37"/>
-         <l>Deux ruffians sur les carreaulx</l>
-         <l>Et ung sergent ô quel dommage</l>
-         <!-- Saut#38 -->
-         <l n="120">Je m’en voys en pelerinaige</l>
-         <l>Je <rs type="louction">feray le diable sur les champs</rs></l>
-         <!-- Saut#39 -->
-         <l>C’est bien mal faict à ces marchans</l>
-         <!-- A vérifier -->
-         <l>De laisser besongner leurs femmes</l>
-         <!-- Saut#40 -->
-         <l n="124">Prions <persName>Dieu</persName> pour ces pouvres ames</l>
-         <l>Qui sont au feu de <placeName key="purgatoire">purgatoire</placeName></l>
-         <l>Ne m’en parle plus allons boire</l>
-         <l>Il n’y gist qu’un bon requiem</l>
-         <!-- Saut#41 -->
-         <l n="128">Qui <rs type="interjection" subtype="juron">diable</rs> fist ce courtisan</l>
-         <l>De cest amoureux de <placeName type="city" key="Paris">Pazis</placeName></l>
-         <l>Il en desplaist à noz mazis</l>
-         <l>Nous sommes de bonne maison</l>
-         <!-- Saut#42 -->
-         <l n="132">On le pendra s’il est larron</l>
-         <l>Le curé de <placeName type="city" key="Aubervilliers">Haultz Barvilliers</placeName></l>
-         <!-- Saut#43 -->
-         <l>Mays à propoz <persName>Badouvilliers</persName><note resp="editor" type="crit">cf.
-               Guiffrey, II, p. 460 : "Les Badouiller ou Badovillier formaient à cette époque une
-               nombreuse famille, dont les membres tenaient pour la plupart des emplois dans les
-               finances de l'État.</note></l>
-         <l>Est aux emprunctz jusqu'aux oreilles</l>
-         <!-- Saut#44 -->
-         <l n="136" ana="#souffrances">C’est ung bon manger que <rs type="animal" subtype="oiseau"
-               >corneilles</rs></l>
-         <l ana="#souffrances">À gens qui n’ont aultre viande</l>
-         <!-- Saut#45 -->
-         <l>Et mon dieu qu'elle en est friande</l>
-         <l>Elle en a la pasle couleur</l>
-         <!-- Saut#46 -->
-         <l n="140">J’ay veu que j’estoys bon boulleur</l>
-         <l>J’en croy ces donneurs d’eaue beniste</l>
-         <!-- Saut#47 -->
-         <l>Mais je oublyoys la chattemitte</l>
-         <l>Qu'il n’en veult point s’ils ne sont braves</l>
-         <!-- Saut#48 -->
-         <l n="144"><rs type="interjection" subtype="juron">Par Dieu</rs> tous ces crieurs de
-            raves</l>
-         <l>Je croy moy qu’ilz sont macquereaulx</l>
-         <!-- Saut#49 -->
-         <l>Et qu'en sçez tu tes malles eaues</l>
-         <!-- Saut#50 -->
-         <l>Chacun se vit de son mestier</l>
-         <l n="148">Qu’on me brusle ce savetier<note resp="editor" type="crit" place="bottom">Une
-               des premières victimes de la répression du Parlement en l'absence du roi le 13
-               novembre 1534 fut un paralytique converti à l'Evangile, fils d'un cordonnier, chez
-               qui l'on aurait découvert un placard; Voir D. Crouzet, 1996.</note></l>
-         <l>Il a pissé au <placeName>cymetiere</placeName></l>
-         <!-- Saut#51 -->
-         <l><rs type="injonction" subtype="impératif">Passe</rs> delà <rs type="invective">vielle
-               crouppiere</rs></l>
-         <l>Tiens tu le rencg des damoyselles</l>
-         <!-- Saut#52 -->
-         <l n="152">Mays que ne faict on des escuelles</l>
-         <l>Des testes de <placeName>Sainct Innocent</placeName></l>
-         <l>On les vendroit toutes à cent</l>
-         <l>À ces gueulx qui sont par les rues</l>
-         <!-- Saut#53 -->
-         <l n="156">Les pensions sont abbatues</l>
-         <l>Que feront plus noz presidens</l>
-         <!-- Saut#54 -->
-         <l><rs type="interjection" subtype="juron">Pardieu</rs> nous prandrons des presens</l>
-         <l>Puisque le Roy nous est ingrat</l>
-         <l n="160">Gaigne le hault au grat au grat</l>
-         <cb n="2"/>
-         <l>Grippeminaud vous renifflez</l>
-         <l>Non faictz monsieur villain enflez</l>
-         <l>Fault il parler de la couronne</l>
-         <!-- Saut#55 -->
-         <l n="164">A dieu donc je m’en veoys à <placeName type="city" key="Rome"
-            >Romme</placeName></l>
-         <l>Veoir si le plomb est à marché</l>
-         <!-- Saut#56 -->
-         <l>Les <rs type="invective"><rs type="animal">veaulx</rs></rs> ne sont tous au marché</l>
-         <l ana="#cocuage">Ny les coquuz au <placeName>verd bocaige</placeName></l>
-         <!-- Saut#57 -->
-         <l n="168" ana="#persécutions">L'on te pourroit bien mectre en caige</l>
-         <l ana="#persécutions">Pour te faire parler plus bas</l>
-         <!-- Saut#58 -->
-         <l>Mays embourre l’on plus le bas</l>
-         <l ana="#misogynie">De ses <persName>lingeres du pallays</persName></l>
-         <!-- Saut#59 -->
-         <l n="172" ana="#corps">Il a une emplastre au pallays</l>
-         <l ana="#sat_pers">Il ne sçauroit dire regnault</l>
-         <!-- Saut#60 -->
-         <l>Cuides vous qu’un homme est penault</l>
-         <l>Quant il a ung chappeau de roses</l>
-         <!-- Saut#61 -->
-         <l n="176">Il n’estudie plus que les proses</l>
-         <l><persName>Ce bon Pierre</persName> vestu de rouge</l>
-         <!-- Saut#62 -->
-         <l><rs type="injonction" subtype="impératif">Parlons</rs> tout beau homme ne bouge</l>
-         <l>Il a esté pinse sans rire</l>
-         <!-- Saut#63 -->
-         <l n="180">Il fault casser la tyrelire</l>
-         <l>L’argent du <persName key="François Ier">Roy</persName> ne viendra plus</l>
-         <!-- Saut#64 -->
-         <l><rs type="injonction" subtype="impératif">Regardes</rs> ces <rs type="invective">pattes
-               pellues</rs></l>
-         <l>Ilz tiennent <persName>Dieu</persName> dedans leurs manches</l>
-         <l n="184">C’est raison, tu diz vray, emmanches<note resp="editor" type="ling">Dire des
-               mensonges. On notera le glissement opéré par les manuscrits Rasse des Neux et suivi
-               des éditeurs modernes vers "dimanche".</note></l>
-         <l ana="#maladie #sat_rel">Ilz meurent tous de la <rs type="maladie" subtype="vérolle"
-               >verolle</rs></l>
-         <l ana="#sat_rel">Voyre mays s'ilz perdent la parolle</l>
-         <l ana="#sat_rel">Qui nous mectra en <placeName>paradis</placeName></l>
-         <!-- Saut#65 -->
-         <l n="188">As tu veu ces jambes rosties</l>
-         <l>Sur l’huys du <orgName type="couvent">petit St Anthoine</orgName></l>
-         <!-- Saut#66 -->
-         <l>Tout viz à viz ce dict le moyne</l>
-         <l>Bien loing plus bas du costé mesme</l>
-         <l n="192">Ung peu plus hault elle est bien blesme</l>
-         <l><reg>À</reg> cheval qu’on n’en parle plus</l>
-         <!-- Saut#67 -->
-         <l>De six de neuf monsieur j’ay flux</l>
-         <l>Passe de <rs type="jeu">flux</rs> je le renvy</l>
-         <!-- Saut#68 -->
-         <l n="196"><rs type="injonction" subtype="impératif">Diz moy</rs> le pauvre <persName>St
-               Ravy</persName><note resp="editor" type="crit" place="foot">Cf. Guiffrey</note></l>
-         <l>Feist il son maistre cardinal</l>
-         <l>Tout homme qui en dira mal</l>
-         <l>Ou murmurera au contraire</l>
-         <l n="200">De l’auctorité du <persName>st pere</persName></l>
-         <l>Est abismé jusques aux <placeName>enfers</placeName></l>
-         <!-- Saut#69 -->
-         <l>Je m’en voys estre portefaiz</l>
-         <l ana="#argent">Pour prester de l’argent au <persName>Roy</persName></l>
-         <!-- Saut#70 -->
-         <l n="204"><rs type="locution" subtype="dieu_gard">Dieu gard</rs> le seigneur
-               <persName>Villeroy</persName></l>
-         <l>Mon Dieu que c’est ung fin varlet</l>
-         <!-- Saut#71 -->
-         <l>Les prisonniers de <orgName>Chastellet</orgName></l>
-         <l>Ont leurs <placeName>paradis</placeName> en ce monde</l>
-         <!-- Saut#72 -->
-         <l n="208">C’est ung bon baston qu’une fonde<note resp="editor" type="ling"
-            >Fronde</note></l>
-         <l>Pour tirer une <rs type="animal" subtype="oiseau">grue</rs> en l’air</l>
-         <!-- Saut#73 -->
-         <l><rs type="interjection">Mays quoy</rs> on n’en oyt plus parler</l>
-         <l>Est il en ung sac aval l’eau</l>
-         <l n="212">Ce president ho <rs type="invective"><persName ref="ind:Gentils"
-                  key="René Gentils">gentil</persName> veau</rs></l>
-         <!-- Saut#74 -->
-         <l>Il a des amys à la <placeName>cour</placeName>t</l>
-         <l>Il n’y est pas mays il y court</l>
-         <l>Il sera prevost des marchans</l>
-         <!-- Saut#75 -->
-         <l n="216">Partout y en a de meschans</l>
-         <l><rs type="proverbe">Le mortier sent tousjours les aulx</rs></l>
-         <!-- Saut#76 -->
-         <l>Vieulx drappeaulx çà ses vieulx drappeaulx</l>
-         <l>Ça ces vieulx devans de chemise</l>
-         <l n="220">Elle s’en va de la chemise</l>
-         <l>Ceste grant <persName>Margot la Normande</persName></l>
-         <l>Pour bien danser une <rs type="danse">allemande</rs></l>
-         <l>Je croy qu’elle soit assez fendue</l>
-         <l n="224" ana="#satire">Pourtant s'elle est nonnain rendue</l>
-         <l ana="#abus">S'elle a deux ou trois abbayez</l>
-         <!-- Saut#77 -->
-         <l>Si est ce que je m’esbahiz</l>
-         <l>Veu le credit là où nous sommes</l>
-         <!-- Saut#78 -->
-         <l n="228">Comment sont tant osez ces hommes</l>
-         <l>De renverser nostre proces</l>
-         <l ana="#argent">C'est tout ung j'ay argent assez</l>
-         <l>Il convient proposer erreur</l>
-         <!-- Saut#79 -->
-         <l n="232">Si ce malheureulx <persName ref="ind:Charles-Quint" key="Charles-Quint"
-               >empereur</persName></l>
-         <l>Prend alliance avec <addName key="Henri VIII">l’Angloys</addName></l>
-         <l>Les <rs type="animal">anguilles</rs> deviendront <rs type="animal">oyes</rs></l>
-         <l>Et <rs type="animal">brochetz</rs> deviendront <rs type="animal">moutons</rs></l>
-         <!-- Saut#80 -->
-         <l n="236">Et puys dictes que les <orgName type="peuple">Bretons</orgName></l>
-         <l>N’auront plus ne sel ne gabelles</l>
-         <l>L'on ne vendra plus de cannelles</l>
-         <l>Puisque les vins ferment à clef</l>
-         <!-- Saut#81 -->
-         <l n="240">Il sera lyé et basclé</l>
-         <l>Et ne verra soleil ne lune</l>
-         <!-- Saut#82 -->
-         <l>C'est grand viande qu'une enclume</l>
-         <l>Pour gens qui n'ont dens en gueulle</l>
-         <!-- Saut#83 -->
-         <l n="244">Qui est leans, madame est seulle</l>
-         <l>Monsieur vous pouvez bien monter</l>
-         <!-- Saut#84 -->
-         <l>Mon dieu que j'ay bien ouy chanter</l>
-         <l><rs type="locution" subtype="latine">Ave Regina celorum</rs></l>
-         <l n="248"><rs type="locution" subtype="latine">In secula seculorum</rs></l>
-         <!-- Saut#85 -->
-         <l>Nous nous trouverons tous ensemble</l>
-         <l>Dictes monsieur que vous en semble</l>
-         <l>S’entreveoit on en l’autre monde</l>
-         <l n="252">S’il est ainsi que l’on me tonde</l>
-         <!-- Saut#86 -->
-         <l>L’on y rist à troys pas ung sault</l>
-         <l>A l’assault palays à l’assault</l>
-         <l><rs type="injonction" subtype="impératif">Mectez</rs> ces Normans à la poincte<note
-               resp="editor" type="ling" place="foot">Dans une position avancée.</note></l>
-         <!-- Saut#87 -->
-         <l n="256">As tu jamays veu la complaincte</l>
-         <l>Que faictt <persName>Flammette</persName> à son amy</l>
-         <l>Il ne l’aymoit pas à demy</l>
-         <l>Veu le grief mal qu’il enduroit</l>
-         <!-- Saut#88 -->
-         <l n="260" ana="#mtd">Si feray fin en cest endroit</l>
-         <l>C’est assez chanté pour vin boire</l>
-         <l>Escript à <placeName type="city" key="Orléans">Orleans sur Loyre</placeName></l>
-         <l ana="#corps">Aupres du feu chauffant ma fesse</l>
-         <l n="264" ana="#motifs_sexuels">Apres avoir fringué l’hostesse</l>
+         <p>
+            <l><rs type="interjection" subtype="cri">Grup grup</rs>
+               <reg>à</reg> la ville et aux champs</l>
+            <l ana="#sat_rel"><rs type="interjection" subtype="cri">Grup grup</rs> sur prestres et
+               marchans</l>
+            <l><rs type="interjection" subtype="cri">Grup grup</rs> sur ces gens de villaiges</l>
+            <!-- Saut#1 -->
+            <anchor type="saut#1"/>
+            <l n="4">Tu chantes tousjours quant il naige</l>
+            <l>Tu aymez l’hyver de ta nature</l>
+            <l><rs type="injonction" subtype="impératif">Va t’en</rs> au loing chercher pasture</l>
+            <l><rs type="injonction" subtype="impératif">Va</rs> paistre en quelque beau
+               fourment</l>
+            <!-- Saut#2 -->
+            <anchor type="saut#2"/>
+            <l n="8"><rs type="interjection" subtype="cri">Grup grup</rs> dessus ce parlement</l>
+            <l><rs type="interjection" subtype="cri">Grup</rs> sus ces robbes d’escarlatte</l>
+            <!-- Saut#3 -->
+            <anchor type="saut#3"/>
+            <l><rs type="injonction" subtype="impératif">Prens</rs> ton espée mectz une latte</l>
+            <l>Pour combatre <persName ref="ind:Charles_Quint" key="Charles-Quint">Charles
+                  d’Autriche</persName></l>
+            <!-- Saut#4 -->
+            <anchor type="saut#4"/>
+            <l n="12">Ma <rs type="vin">vigne</rs> est demourée en friche</l>
+            <l ana="#argent">La preste l’on plus à usure</l>
+            <l ana="#argent">Çà de l’argent <rs type="injonction" subtype="impératif">prens</rs> ma
+               ceincture</l>
+            <l><rs type="interjection" subtype="juron">Que diable</rs> veux tu que je face</l>
+            <!-- Saut#5 -->
+            <anchor type="saut#5"/>
+            <l n="16">As tu veu la grant <persName>Chiche face</persName></l>
+            <l>Qui devore tout le royaulme</l>
+            <!-- Saut#6 -->
+            <anchor type="saut#6"/>
+            <l ana="#cour"><rs type="interjection" subtype="juron">Mort bieu</rs> ilz fleurent comme
+               baulme</l>
+            <l ana="#cour">Ces courtisans nouveaulx venuz</l>
+            <!-- Saut#7 -->
+            <anchor type="saut#7"/>
+            <l n="20">Dames qui tenez vous de Venus</l>
+            <l><rs type="injonction" subtype="impératif">Faictes</rs> retendre la courtine</l>
+            <!-- Saut#8 -->
+            <anchor type="saut#8"/>
+            <l><rs type="interjection" subtype="juron">À tous les diables</rs> la mastine</l>
+            <l ana="#intertexte">Elle m’a faict chasser de la <placeName>court</placeName></l>
+            <!-- Saut#9 -->
+            <anchor type="saut#9"/>
+            <l n="24"><rs type="injonction" subtype="impératif">Voy</rs>
+               <persName>Montelon</persName> comment il court</l>
+            <l ana="#">Il ne marche que sur espines<note resp="editor" type="crit">Echo du deuxième
+                  coq-à-l'âne de Marot (réf. n°5): "Est il vray que ce vieux mesrien / Marche
+                  encores dessus espines", v. 72-73.</note></l>
+            <!-- Saut#10 -->
+            <anchor type="saut#10"/>
+            <l>Comment <persName type="destinataire">vieille grue</persName> tu declines</l>
+            <l>Oultre les mettes de raison</l>
+            <l n="28">Sçais tu poinct la belle oraison</l>
+            <l><reg>À</reg> toy Royne de hault parage</l>
+            <!-- Saut#11 -->
+            <anchor type="saut#11"/>
+            <cb n="2"/>
+            <l ana="#argent">Je suis en debte que c’est raige</l>
+            <l ana="#argent">Tout mon bien n’y fournira pas</l>
+            <!-- Saut#12 -->
+            <anchor type="saut#12"/>
+            <l n="32">Tout beau tout beau <rs type="locution">allons le pas</rs></l>
+            <l>Il fault abaisser l’ordinaire</l>
+            <!-- Saut#13 -->
+            <anchor type="saut#13"/>
+            <l ana="#abus"><rs type="interjection" subtype="juron">Sang bieu</rs> qu’on veoit de
+               luminaire</l>
+            <l ana="#sat_rel">Quant on enterre un trespassé</l>
+            <l n="36">Un <rs type="locution" subtype="latine">requiescant in pace</rs></l>
+            <l>Mect deux ames en <placeName>paradis</placeName></l>
+            <!-- Saut#14 -->
+            <anchor type="saut#14"/>
+            <l><rs type="interjection">Dieu</rs> tant il avoit de beaulx ditz</l>
+            <l ana="#sat_pers">Le bon <persName key="Beda Noël">Beda</persName> qui fut chassé</l>
+            <l n="40" ana="#sat_pers">Aussi son corps fut enchassé</l>
+            <l ana="#ironie">Les <rs type="animal" subtype="rongeur" key="souris">souriz</rs> n’ont garde d’y
+               mordre</l>
+            <!-- Saut#15 -->
+            <anchor type="saut#15"/>
+            <l><rs type="interjection">Mon dieu</rs> qu’il y avoit bel ordre</l>
+            <l>Quant l’<persName ref="ind:Charles-Quint" key="Charles-Quint">Empereur</persName>
+               vint à <placeName type="city" key="Paris">Paris</placeName></l>
+            <l n="44" ana="#argent">Il cousta des <rs type="monnaie">francs</rs> plus de dix</l>
+            <l ana="#argent">Voire plus de dix et ung double</l>
+            <l ana="#équivoque">Aussi il a rendu au double</l>
+            <l ana="#ironie">Ne veois tu pas la recompense</l>
+            <!-- Saut#16 -->
+            <anchor type="saut#16"/>
+            <l n="48"><rs type="interjection">Ventre Sainct Jehan</rs> mays quant je y pense</l>
+            <l><persName ref="ind:Anne_de_Montmorency" key="Montmorency Anne de"
+                  >Montmorancy</persName> le secondoit</l>
+            <!-- Saut#17 -->
+            <anchor type="saut#17"/>
+            <l ana="#gnomique"><rs type="locution">Qui monte plus hault qu’il ne doit</rs></l>
+            <l ana="#intertexte">Il veoit un clocher de deux lieues</l>
+            <note resp="editor" type="crit">Écho des vers de Jamet</note>
+            <!-- Saut#18 -->
+            <anchor type="saut#18"/>
+            <l n="52">J’ay esté en maintz divers lieux</l>
+            <l>Mays <persName>Dieu</persName> doict bonne vie au <roleName>pape</roleName></l>
+            <l ana="#sat_rel">Veulx tu poinct achepter sa chappe</l>
+            <l ana="#abus">Tu y feroys bien trois habitz</l>
+            <l n="56">Il a ung trouppeau de <rs type="animal" key="brebis">brebis</rs></l>
+            <l>Qui sont en grand danger de <rs type="animal" subtype="canidé" key="loup">loup</rs></l>
+            <l ana="#ethos">Je ne m’en soucye pas d’un clou</l>
+            <l ana="#abus">Puis que <persName>dieu</persName> veult estre marchant</l>
+            <!-- Saut#19-->
+            <anchor type="saut#19"/>
+            <l n="60" ana="#persécutions">Ha tu seras bruslé meschant</l>
+            <l ana="#persécutions">Ta chair ne sent que la bourrée</l>
+            <!-- Saut#20 -->
+            <anchor type="saut#20"/>
+            <l ana="#équivoque">Une terre bien <rs type="équivoque">labourée</rs></l>
+            <l>Rend tousjours le double à son maistre</l>
+            <!-- Saut#21 -->
+            <anchor type="saut#21"/>
+            <l n="64">Si ung jour je puys estre prebstre</l>
+            <l>Je seray cousin de <persName ref="ind:Jésus" key="Jésus">Jesus Christ</persName></l>
+            <!-- Saut#22 -->
+            <anchor type="saut#22"/>
+            <l>Il nomme le <roleName>pape</roleName>
+               <rs type="invective"><persName key="Antéchrist">antechrist</persName></rs></l>
+            <l>Ce malheureulx <persName ref="ind:Luther" key="Luther Martin">Martin
+                  Luther</persName></l>
+            <!-- Saut#23 -->
+            <anchor type="saut#23"/>
+            <l n="68">Si je me metz à disputer</l>
+            <l>Je <rs type="locution">parleray des grosses dens</rs><note resp="editor" type="ling"
+                     ><hi rend="italic">Parler de grosses dents</hi>: se fâcher, menacer" (Di
+                  Stefano).</note></l>
+            <!-- Saut#24 -->
+            <anchor type="saut#24"/>
+            <l>Tout est <reg>à</reg> sac dedans dedans</l>
+            <l><rs type="injonction" subtype="impératif">Faictes vous</rs> gentilz compaignons</l>
+            <!-- Saut#25 -->
+            <anchor type="saut#25"/>
+            <l n="72">Si tu <reg>manges</reg> des champignons</l>
+            <l><rs type="injonction" subtype="conseil">Donne toy garde</rs> du boucon</l>
+            <!-- Saut#26 -->
+            <anchor type="saut#26"/>
+            <l>Mays voy tu ce <rs type="invective">dyable de con</rs></l>
+            <l>Il a bien faict de cardinaulx</l>
+            <l n="76">Forces evesques abbés nouveaulx</l>
+            <l>Jamays un tel con ne cona</l>
+            <l>Celluy qui premier l’encona</l>
+            <l>Le trouva con de connerye</l>
+            <l n="80"><rs type="injonction" subtype="impératif">Tays toy</rs> follastre qu’on ne
+               rie</l>
+            <l>Que tu y fusses enconné</l>
+            <l>C’est ung grant con rataconné</l>
+            <l>L’on joueroit dedans à la paulme</l>
+            <l n="84">Il mange le tiers du royaulme</l>
+            <l>Dampné soit il qui le conna</l>
+            <l>Et celle avec qui le con a</l>
+            <l>En <placeName>enfer</placeName> soit il confondu</l>
+            <l n="88">L’argent est en ce con fondu</l>
+            <l>Puys le peuple le recompense</l>
+            <l>Ung con n’est pas tout ce qu’on pense</l>
+            <l>Tel n’en a poinct qui en a trop</l>
+            <!-- Saut#27 -->
+            <anchor type="saut#27"/>
+            <l n="92">Un <rs type="animal" key="chat">chat</rs> qui va bien le trot</l>
+            <!-- Saut#28 -->
+            <anchor type="saut#28"/>
+            <l>As tu point veu la Peronnelle</l>
+            <!-- Cf. Coq au chappon -->
+            <l>Si tu chasses à la tonnelle</l>
+            <pb n="32v"/>
+            <cb n="1"/>
+            <l>Tu feras contre l’ordonnance</l>
+            <!-- Saut#29 -->
+            <anchor type="saut#29"/>
+            <l n="96"><persName>Guillaume Poyet</persName> a faict en <placeName><settlement
+                     type="country">France</settlement></placeName></l>
+            <l>Prouffit de cent mille <rs type="monnaie">ducatz</rs></l>
+            <l>Moy estant informé du cas</l>
+            <l>Je y pourvoyray qu’on s’en deporte</l>
+            <!-- Saut#30 -->
+            <anchor type="saut#30"/>
+            <l n="100">Es tu dedans Bucque à la porte</l>
+            <l>Je suis chassé qui est en ton lieu</l>
+            <!-- Saut#31 -->
+            <anchor type="saut#31"/>
+            <l><persName key="destinataire">Mon amy</persName> va t'en prier
+                  <persName>Dieu</persName></l>
+            <l>Je te remectray si je puys</l>
+            <!-- Saut#32 -->
+            <anchor type="saut#32"/>
+            <l n="104">Noz grands seigneurs jouent à j’en suys</l>
+            <l>Chacun ne faict que ces troys moys</l>
+            <!-- Saut#33 -->
+            <anchor type="saut#33"/>
+            <l>Encor n’est il que plumes d’oyes</l>
+            <l>Pour escripre un proces verbal</l>
+            <!-- Saut#34 -->
+            <anchor type="saut#34"/>
+            <l n="108"><rs type="interjection" subtype="juron">Vertu bieu</rs> on luy eust faict
+               mal</l>
+            <l>[Illisible] l’eust pendu comme une serpe</l>
+            <!-- Saut#35 -->
+            <anchor type="saut#35"/>
+            <l><persName type="bible">David</persName> qui jouoit de la herpe</l>
+            <l>Dict à <persName>Dieu</persName>
+               <rs type="locution" subtype="latine">sum tibi soli</rs></l>
+            <l n="112">Mays entre nous <rs type="locution" subtype="latine">noli noli</rs></l>
+            <l><rs type="locution" subtype="latine">Beati qui faciunt</rs> Grup</l>
+            <l>Voire mays <rs type="locution" subtype="latine">non custodiunt illud</rs></l>
+            <!-- Saut#36 -->
+            <anchor type="saut#36"/>
+            <l>Tout ce que clerc gaigne avec penne</l>
+            <l n="116">Il le despend avec C,O,N</l>
+            <l>Ce dient les <rs type="invective">vieulx macquereaulx</rs></l>
+            <!-- Saut#37 -->
+            <anchor type="saut#37"/>
+            <l>Deux ruffians sur les carreaulx</l>
+            <l>Et ung sergent ô quel dommage</l>
+            <!-- Saut#38 -->
+            <l n="120">Je m’en voys en pelerinaige</l>
+            <l>Je <rs type="louction">feray le diable sur les champs</rs></l>
+            <!-- Saut#39 -->
+            <l>C’est bien mal faict à ces marchans</l>
+            <!-- A vérifier -->
+            <l>De laisser besongner leurs femmes</l>
+            <!-- Saut#40 -->
+            <l n="124">Prions <persName>Dieu</persName> pour ces pouvres ames</l>
+            <l>Qui sont au feu de <placeName key="purgatoire">purgatoire</placeName></l>
+            <l>Ne m’en parle plus allons boire</l>
+            <l>Il n’y gist qu’un bon requiem</l>
+            <!-- Saut#41 -->
+            <l n="128">Qui <rs type="interjection" subtype="juron">diable</rs> fist ce courtisan</l>
+            <l>De cest amoureux de <placeName type="city" key="Paris">Pazis</placeName></l>
+            <l>Il en desplaist à noz mazis</l>
+            <l>Nous sommes de bonne maison</l>
+            <!-- Saut#42 -->
+            <l n="132">On le pendra s’il est larron</l>
+            <l>Le curé de <placeName type="city" key="Aubervilliers">Haultz
+               Barvilliers</placeName></l>
+            <!-- Saut#43 -->
+            <l>Mays à propoz <persName>Badouvilliers</persName><note resp="editor" type="crit">cf.
+                  Guiffrey, II, p. 460 : "Les Badouiller ou Badovillier formaient à cette époque une
+                  nombreuse famille, dont les membres tenaient pour la plupart des emplois dans les
+                  finances de l'État.</note></l>
+            <l>Est aux emprunctz jusqu'aux oreilles</l>
+            <!-- Saut#44 -->
+            <l n="136" ana="#souffrances">C’est ung bon manger que <rs type="animal"
+                  subtype="oiseau" key="corneille">corneilles</rs></l>
+            <l ana="#souffrances">À gens qui n’ont aultre viande</l>
+            <!-- Saut#45 -->
+            <l>Et mon dieu qu'elle en est friande</l>
+            <l>Elle en a la pasle couleur</l>
+            <!-- Saut#46 -->
+            <l n="140">J’ay veu que j’estoys bon boulleur</l>
+            <l>J’en croy ces donneurs d’eaue beniste</l>
+            <!-- Saut#47 -->
+            <l>Mais je oublyoys la chattemitte</l>
+            <l>Qu'il n’en veult point s’ils ne sont braves</l>
+            <!-- Saut#48 -->
+            <l n="144"><rs type="interjection" subtype="juron">Par Dieu</rs> tous ces crieurs de
+               raves</l>
+            <l>Je croy moy qu’ilz sont macquereaulx</l>
+            <!-- Saut#49 -->
+            <l>Et qu'en sçez tu tes malles eaues</l>
+            <!-- Saut#50 -->
+            <l>Chacun se vit de son mestier</l>
+            <l n="148">Qu’on me brusle ce savetier<note resp="editor" type="crit" place="bottom">Une
+                  des premières victimes de la répression du Parlement en l'absence du roi le 13
+                  novembre 1534 fut un paralytique converti à l'Evangile, fils d'un cordonnier, chez
+                  qui l'on aurait découvert un placard; Voir D. Crouzet, 1996.</note></l>
+            <l>Il a pissé au <placeName>cymetiere</placeName></l>
+            <!-- Saut#51 -->
+            <l><rs type="injonction" subtype="impératif">Passe</rs> delà <rs type="invective">vielle
+                  crouppiere</rs></l>
+            <l>Tiens tu le rencg des damoyselles</l>
+            <!-- Saut#52 -->
+            <l n="152">Mays que ne faict on des escuelles</l>
+            <l>Des testes de <placeName>Sainct Innocent</placeName></l>
+            <l>On les vendroit toutes à cent</l>
+            <l>À ces gueulx qui sont par les rues</l>
+            <!-- Saut#53 -->
+            <l n="156">Les pensions sont abbatues</l>
+            <l>Que feront plus noz presidens</l>
+            <!-- Saut#54 -->
+            <l><rs type="interjection" subtype="juron">Pardieu</rs> nous prandrons des presens</l>
+            <l>Puisque le Roy nous est ingrat</l>
+            <l n="160">Gaigne le hault au grat au grat</l>
+            <cb n="2"/>
+            <l><rs type="invective">Grippeminaud</rs> vous renifflez</l>
+            <l>Non faictz monsieur villain enflez</l>
+            <l>Fault il parler de la couronne</l>
+            <!-- Saut#55 -->
+            <l n="164">A dieu donc je m’en veoys à <placeName type="city" key="Rome"
+                  >Romme</placeName></l>
+            <l>Veoir si le plomb est à marché</l>
+            <!-- Saut#56 -->
+            <l>Les <rs type="invective"><rs type="animal">veaulx</rs></rs> ne sont tous au
+               marché</l>
+            <l ana="#cocuage">Ny les coquuz au <placeName>verd bocaige</placeName></l>
+            <!-- Saut#57 -->
+            <l n="168" ana="#persécutions">L'on te pourroit bien mectre en caige</l>
+            <l ana="#persécutions">Pour te faire parler plus bas</l>
+            <!-- Saut#58 -->
+            <l>Mays embourre l’on plus le bas</l>
+            <l ana="#misogynie">De ses <persName>lingeres du pallays</persName></l>
+            <!-- Saut#59 -->
+            <l n="172" ana="#corps">Il a une emplastre au pallays</l>
+            <l ana="#sat_pers">Il ne sçauroit dire regnault</l>
+            <!-- Saut#60 -->
+            <l>Cuides vous qu’un homme est penault</l>
+            <l>Quant il a ung chappeau de roses</l>
+            <!-- Saut#61 -->
+            <l n="176">Il n’estudie plus que les proses</l>
+            <l><persName>Ce bon Pierre</persName> vestu de rouge</l>
+            <!-- Saut#62 -->
+            <l><rs type="injonction" subtype="impératif">Parlons</rs> tout beau homme ne bouge</l>
+            <l>Il a esté pinse sans rire</l>
+            <!-- Saut#63 -->
+            <l n="180">Il fault casser la tyrelire</l>
+            <l>L’argent du <persName key="François Ier">Roy</persName> ne viendra plus</l>
+            <!-- Saut#64 -->
+            <l><rs type="injonction" subtype="impératif">Regardes</rs> ces <rs type="invective"
+                  >pattes pellues</rs></l>
+            <l>Ilz tiennent <persName>Dieu</persName> dedans leurs manches</l>
+            <l n="184">C’est raison, tu diz vray, emmanches<note resp="editor" type="ling">Dire des
+                  mensonges. On notera le glissement opéré par les manuscrits Rasse des Neux et
+                  suivi des éditeurs modernes vers "dimanche".</note></l>
+            <l ana="#maladie #sat_rel">Ilz meurent tous de la <rs type="maladie" subtype="vérolle"
+                  >verolle</rs></l>
+            <l ana="#sat_rel">Voyre mays s'ilz perdent la parolle</l>
+            <l ana="#sat_rel">Qui nous mectra en <placeName>paradis</placeName></l>
+            <!-- Saut#65 -->
+            <l n="188">As tu veu ces jambes rosties</l>
+            <l>Sur l’huys du <orgName type="couvent">petit St Anthoine</orgName></l>
+            <!-- Saut#66 -->
+            <l>Tout viz à viz ce dict le moyne</l>
+            <l>Bien loing plus bas du costé mesme</l>
+            <l n="192">Ung peu plus hault elle est bien blesme</l>
+            <l><reg>À</reg> cheval qu’on n’en parle plus</l>
+            <!-- Saut#67 -->
+            <l>De six de neuf monsieur j’ay flux</l>
+            <l>Passe de <rs type="jeu">flux</rs> je le renvy</l>
+            <!-- Saut#68 -->
+            <l n="196"><rs type="injonction" subtype="impératif">Diz moy</rs> le pauvre <persName>St
+                  Ravy</persName><note resp="editor" type="crit" place="foot">Cf.
+               Guiffrey</note></l>
+            <l>Feist il son maistre cardinal</l>
+            <l>Tout homme qui en dira mal</l>
+            <l>Ou murmurera au contraire</l>
+            <l n="200">De l’auctorité du <persName>st pere</persName></l>
+            <l>Est abismé jusques aux <placeName>enfers</placeName></l>
+            <!-- Saut#69 -->
+            <l>Je m’en voys estre portefaiz</l>
+            <l ana="#argent">Pour prester de l’argent au <persName>Roy</persName></l>
+            <!-- Saut#70 -->
+            <l n="204"><rs type="locution" subtype="dieu_gard">Dieu gard</rs> le seigneur
+                  <persName>Villeroy</persName></l>
+            <l>Mon Dieu que c’est ung fin varlet</l>
+            <!-- Saut#71 -->
+            <l>Les prisonniers de <orgName>Chastellet</orgName></l>
+            <l>Ont leurs <placeName>paradis</placeName> en ce monde</l>
+            <!-- Saut#72 -->
+            <l n="208">C’est ung bon baston qu’une fonde<note resp="editor" type="ling"
+                  >Fronde</note></l>
+            <l>Pour tirer une <rs type="animal" subtype="oiseau" key="grue">grue</rs> en l’air</l>
+            <!-- Saut#73 -->
+            <l><rs type="interjection">Mays quoy</rs> on n’en oyt plus parler</l>
+            <l>Est il en ung sac aval l’eau</l>
+            <l n="212">Ce president ho <rs type="invective"><persName ref="ind:Gentils"
+                     key="René Gentils">gentil</persName> veau</rs></l>
+            <!-- Saut#74 -->
+            <l>Il a des amys à la <placeName>cour</placeName>t</l>
+            <l>Il n’y est pas mays il y court</l>
+            <l>Il sera prevost des marchans</l>
+            <!-- Saut#75 -->
+            <l n="216">Partout y en a de meschans</l>
+            <l><rs type="proverbe">Le mortier sent tousjours les aulx</rs></l>
+            <!-- Saut#76 -->
+            <l>Vieulx drappeaulx çà ses vieulx drappeaulx</l>
+            <l>Ça ces vieulx devans de chemise</l>
+            <l n="220">Elle s’en va de la chemise</l>
+            <l>Ceste grant <persName>Margot la Normande</persName></l>
+            <l>Pour bien danser une <rs type="danse">allemande</rs></l>
+            <l>Je croy qu’elle soit assez fendue</l>
+            <l n="224" ana="#satire">Pourtant s'elle est nonnain rendue</l>
+            <l ana="#abus">S'elle a deux ou trois abbayez</l>
+            <!-- Saut#77 -->
+            <l>Si est ce que je m’esbahiz</l>
+            <l>Veu le credit là où nous sommes</l>
+            <!-- Saut#78 -->
+            <l n="228">Comment sont tant osez ces hommes</l>
+            <l>De renverser nostre proces</l>
+            <l ana="#argent">C'est tout ung j'ay argent assez</l>
+            <l>Il convient proposer erreur</l>
+            <!-- Saut#79 -->
+            <l n="232">Si ce malheureulx <persName ref="ind:Charles-Quint" key="Charles-Quint"
+                  >empereur</persName></l>
+            <l>Prend alliance avec <addName key="Henri VIII">l’Angloys</addName></l>
+            <l>Les <rs type="animal" key="anguille">anguilles</rs> deviendront <rs type="animal" key="oie">oyes</rs></l>
+            <l>Et <rs type="animal" subtype="poisson" key="brochet">brochetz</rs> deviendront <rs type="animal" key="mouton">moutons</rs></l>
+            <!-- Saut#80 -->
+            <l n="236">Et puys dictes que les <orgName type="peuple">Bretons</orgName></l>
+            <l>N’auront plus ne sel ne gabelles</l>
+            <l>L'on ne vendra plus de cannelles</l>
+            <l>Puisque les vins ferment à clef</l>
+            <!-- Saut#81 -->
+            <l n="240">Il sera lyé et basclé</l>
+            <l>Et ne verra soleil ne lune</l>
+            <!-- Saut#82 -->
+            <l>C'est grand viande qu'une enclume</l>
+            <l>Pour gens qui n'ont dens en gueulle</l>
+            <!-- Saut#83 -->
+            <l n="244">Qui est leans, madame est seulle</l>
+            <l>Monsieur vous pouvez bien monter</l>
+            <!-- Saut#84 -->
+            <l>Mon dieu que j'ay bien ouy chanter</l>
+            <l><rs type="locution" subtype="latine">Ave Regina celorum</rs></l>
+            <l n="248"><rs type="locution" subtype="latine">In secula seculorum</rs></l>
+            <!-- Saut#85 -->
+            <l>Nous nous trouverons tous ensemble</l>
+            <l><rs type="injonction" subtype="impératif">Dictes</rs> monsieur que vous en semble</l>
+            <l>S’entreveoit on en l’autre monde</l>
+            <l n="252">S’il est ainsi que l’on me tonde</l>
+            <!-- Saut#86 -->
+            <l>L’on y rist à troys pas ung sault</l>
+            <l>A l’assault palays à l’assault</l>
+            <l><rs type="injonction" subtype="impératif">Mectez</rs> ces Normans à la poincte<note
+                  resp="editor" type="ling" place="foot">Dans une position avancée.</note></l>
+            <!-- Saut#87 -->
+            <l n="256">As tu jamays veu la complaincte</l>
+            <l>Que faict <persName>Flammette</persName> à son amy</l>
+            <l>Il ne l’aymoit pas à demy</l>
+            <l>Veu le grief mal qu’il enduroit</l>
+            <!-- Saut#88 -->
+            <l n="260" ana="#mtd">Si feray fin en cest endroit</l>
+            <l>C’est assez chanté pour vin boire</l>
+            <l>Escript à <placeName type="city" key="Orléans">Orleans sur Loyre</placeName></l>
+            <l ana="#corps">Aupres du feu chauffant ma fesse</l>
+            <l n="264" ana="#motifs_sexuels">Apres avoir fringué l’hostesse</l>
+         </p>
       </body>
    </text>
 </TEI>

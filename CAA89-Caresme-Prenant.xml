@@ -28,6 +28,15 @@
                      touchant plusieurs abus de ce temps.</title><pubPlace>A Aix en
                      Provence</pubPlace><publisher>Par Jean Courraud. Imprimeur de la
                      ville.</publisher><date when="1595">1595</date></bibl></p>
+            <p><listWit>
+                  <witness><msDesc>
+                        <msIdentifier>
+                           <settlement>Aix-en-Provence, </settlement>
+                           <repository>Bibliothèque Méjanes, </repository>
+                           <idno>Rés. D.105.</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+               </listWit></p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -133,15 +142,6 @@
    </teiHeader>
    <text>
       <body>
-         <listBibl>
-            <msDesc>
-               <msIdentifier>
-                  <settlement>Aix-en-Provence</settlement>
-                  <repository>Bibliothèque Méjanes Patrimoine</repository>
-                  <idno>Rés. D.105</idno>
-               </msIdentifier>
-            </msDesc>
-         </listBibl>
          <fw type="pageNum" place="top-left">84</fw>
          <fw type="header" place="center">Caresme-prenant</fw>
          <cb n="2"/>
@@ -224,14 +224,14 @@
             <!-- Saut#4 -->
             <anchor type="saut#4"/>
             <l rend="indent">Sçavoir mon s'<reg>une</reg> Damoiselle</l>
-            <l>Pisse tout de mesme façon,</l>
+            <l ana="#corps">Pisse tout de mesme façon,</l>
             <l n="44">Que faict la fille d'un masson,</l>
             <l>Ou quelque lourde paysane:</l>
             <!-- Saut#5 -->
             <anchor type="saut#5"/>
             <l ana="#bêtise">Puis l'ignare Docteur, &amp; l'<rs type="animal" subtype="équidé"
-                  >asne</rs></l>
-            <l>Ne sont differens nullement</l>
+                  key="âne">asne</rs></l>
+            <l ana="#satire">Ne sont differens nullement</l>
             <l n="48">Que des oreilles seulement.</l>
             <!-- Saut#6 -->
             <anchor type="saut#6"/>
@@ -252,7 +252,7 @@
             <!-- Saut#9 -->
             <anchor type="saut#9"/>
             <l ana="#cocuage">Non, car volontiers le coucu,</l>
-            <l n="60">A <reg>tousjours</reg> le cou pres du cu:</l>
+            <l n="60" ana="#corps">A <reg>tousjours</reg> le cou pres du cu:</l>
             <!-- Saut#10 -->
             <anchor type="saut#10"/>
             <l>Parquoy <reg>vive</reg> les mascarades,</l>
@@ -265,13 +265,13 @@
             <!-- Saut#12 -->
             <anchor type="saut#12"/>
             <cb n="2"/>
-            <l>Tousjours dessous la cheminée,</l>
-            <l>Vous <reg>trouveriez</reg>, les vieilles gens,</l>
+            <l ana="#topos">Tousjours dessous la cheminée,</l>
+            <l ana="#topos">Vous <reg>trouveriez</reg>, les vieilles gens,</l>
             <l n="68" ana="#satire"><reg>À</reg> la <reg>taverne</reg> les Sergens,</l>
             <l ana="#sat_rel">Et le Curé chez sa commere.</l>
             <!-- Saut#13 -->
             <anchor type="saut#13"/>
-            <l><reg>Chacun</reg> cognoit fort bien sa mere:</l>
+            <l ana="#bÂtardise"><reg>Chacun</reg> cognoit fort bien sa mere:</l>
             <l ana="#bâtardise">Mais du pere on doute <reg>bien</reg>
                <reg>souvent</reg></l>
             <!-- Saut#14 -->
@@ -293,7 +293,7 @@
             <!-- Saut#16 -->
             <anchor type="saut#16"/>
             <l rend="indent" ana="#folie">On dit qu'<reg>un</reg> fol ne doit paroistre</l>
-            <l>Parmy les gens de qualité.</l>
+            <l ana="#satire">Parmy les gens de qualité.</l>
             <l n="80" rend="indent">Il ne faut que d'habilité,</l>
             <l><reg>Jouant</reg> à la harpe, &amp; la pille.</l>
             <note>Cf. "L'epistre de Thenot à Robin" (CAA#37): "Et sy maintenant à la court / On ne
@@ -450,7 +450,7 @@
             <!-- Saut#42 -->
             <anchor type="saut#42"/>
             <l>De tant parler <reg>je</reg> m'esgargate,</l>
-            <l ana="#cocuage">Et fachimarre les cocus,</l>
+            <l ana="#cocuage">Et <rs type="interjection">fachimarre</rs> les cocus,</l>
             <l n="152">La medecine de <persName type="mythologie" subtype="divinité" key="Bacchus"
                   >Bacchus</persName>.</l>
             <l>Avec l'onguent de Gloutonnie,</l>

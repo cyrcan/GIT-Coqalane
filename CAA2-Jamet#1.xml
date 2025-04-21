@@ -5,6 +5,7 @@
    <teiHeader>
       <fileDesc xml:id="Jamet_1">
          <titleStmt>
+            <title>Réf. n°2: </title>
             <title>L'epistre de l'Asne au Coq, responsive à celle du Coq en l'Asne, Lyon
                Jamet</title>
          </titleStmt>
@@ -163,7 +164,7 @@
             <l><emph>Pu</emph>is que ma plume est en sa voye,<note type="editor" subtype="crit">Jeu
                   sur l'équivoque conforme à l'esthétique de l'épître-source.</note></l>
             <l ana="#équivoque">Autant de salutz <reg>je</reg> t’<reg>envoye</reg>,</l>
-            <l>Coq, mon amy, sur tous admis,<note type="editor" subtype="crit">Jamet est donc le
+            <l ana="#adr"><addName type="destinataire">Coq</addName>, mon amy, sur tous admis,<note type="editor" subtype="crit">Jamet serait donc le
                   premier à opérer l'inversion entre les deux animaux en jouant sur le sens littéral
                   de l'expression.</note></l>
             <l n="4">Que puys nagueres m’as transmis</l>
@@ -289,13 +290,13 @@
             <l>Quant dedans est le paté creux</l>
             <l>Est il vray que dict <persName>Songecreux</persName></l>
             <l>Que les femmes qui portent linge</l>
-            <l n="100">Sont semblables <reg/>à ung vieulx <rs type="animal">cinge</rs></l>
+            <l n="100">Sont semblables <reg/>à ung vieulx <rs type="animal" key="singe">cinge</rs></l>
             <l>Au moins les nostres par deça</l>
             <l>Car faillit peu de temps en ça,</l>
             <l>Qu’elles ne soient tout <reg>escouées</reg></l>
             <l n="104">Depuys que sont <reg>tres bien</reg>
                <reg>couvées</reg></l>
-            <l>Par <reg>ung</reg> tas de gourtz <rs type="animal">babouyns</rs></l>
+            <l>Par <reg>ung</reg> tas de gourtz <rs type="animal" key="singe">babouyns</rs></l>
             <l>Qui supplient pour les touyns</l>
             <l>De queues <reg>à</reg> telles friandes</l>
             <l n="108">Laissons <reg>à</reg> part celles viandes</l>

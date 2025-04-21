@@ -98,8 +98,9 @@
 
   <!-- do you want to print the list of witnesses? Yes if value is different from 0 -->
   <xsl:param name="printListWit">2</xsl:param>
-
-
+  <!-- do you want to print the list of bibliography? Yes if value is different from 0 -->
+  <xsl:param name="printListBibl">2</xsl:param>
+  
 
   <!-- separator between apparatus entries on the same line; leave empty if you don't want to add one -->
   <xsl:param name="separatorAppEntries"/>
@@ -314,6 +315,13 @@
         <xsl:apply-templates select="//tei:listWit"/>
       </xsl:if>
     </xsl:if>
+    
+    <xsl:if test="$printListBibl != '0'">
+      <xsl:if test="//tei:listBibl">
+        <xsl:apply-templates select="//tei:listBibl"/>
+      </xsl:if>
+    </xsl:if>
+    
     <xsl:text>
       \beginnumbering </xsl:text>
     <xsl:apply-templates select="/tei:TEI/tei:text/tei:body"/>
@@ -1499,7 +1507,6 @@
     <xsl:apply-templates/>
   </xsl:template>
   <xsl:template match="tei:bibl"/>
-  
 
   <xsl:template match="tei:title">
     <xsl:text>\emph{</xsl:text>
@@ -1627,6 +1634,19 @@
       \vspace{0.8cm}</xsl:text>
   </xsl:template>
   <xsl:template match="tei:witness">
+    <xsl:text>
+      \par \textbf{</xsl:text>
+    <xsl:value-of select="@xml:id"/>
+    <xsl:text>} - </xsl:text>
+    <xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="tei:listBibl">
+    <xsl:apply-templates/>
+    <xsl:text>
+      \vspace{0.8cm}</xsl:text>
+  </xsl:template>
+  <xsl:template match="tei:bibl">
     <xsl:text>
       \par \textbf{</xsl:text>
     <xsl:value-of select="@xml:id"/>
@@ -1769,11 +1789,6 @@
 
   <!-- Invisibilise les éléments de géolocalisation ajout du 17/08/2024-->
   <xsl:template match="tei:geo"/>
-  
-  <!-- Print ListBibl -->
-  <xsl:template match="tei:listBibl">
-    <xsl:apply-templates/>
-  </xsl:template>
   
   
 </xsl:stylesheet>

@@ -16,6 +16,20 @@
 
                   </publicationStmt>
                   <sourceDesc>
+                        
+                        <p><listWit>
+                                    <witness>
+                                          <msDesc>
+                                                <msIdentifier>
+                                                      <settlement>Soissons, </settlement>
+                                                      <repository>Bibliothèque municipale, </repository>
+                                                      <idno>ms. 0203(189C)</idno>
+                                                </msIdentifier>
+                                                
+                                          </msDesc></witness>
+                        </listWit></p>
+                  </sourceDesc>
+                  <sourceDesc>
                         <p>cf. Base Jonas <ref>http://jonas.irht.cnrs.fr/oeuvre/26129</ref>.</p>
                   </sourceDesc>
             </fileDesc>
@@ -192,15 +206,7 @@
       </teiHeader>
       <text>
             <body>
-                  <listBibl>
-                        <msDesc>
-                              <msIdentifier>
-                                    <settlement>Soissons</settlement>
-                                    <repository>Bibliothèque municipale</repository>
-                                    <idno>ms. 203</idno>
-                              </msIdentifier>
-                        </msDesc>
-                  </listBibl>
+                 
                   <p>
                         <pb n="125r(46)"/>
                         <fw type="pageNum" place="top-right">125</fw>
@@ -292,18 +298,18 @@
                         <note resp="editor" type="ling">Sa part.</note>
                         <!-- Saut#9 -->
                         <anchor type="saut#9"/>
-                        <l n="28">Quoi que aujourd'huy beaucoup de <rs type="animal">coqs</rs></l>
+                        <l n="28">Quoi que aujourd'huy beaucoup de <rs type="animal" key="coq">coqs</rs></l>
                         <pb n="125v"/>
                         <l>Vont <reg>à</reg>
-                              <rs type="animal" subtype="équidé">cheval</rs> dessus ung <rs
-                                    type="animal" subtype="équidé">asne</rs></l>
+                              <rs type="animal" subtype="équidé" key="cheval">cheval</rs> dessus ung <rs
+                                    type="animal" subtype="équidé" key="âne">asne</rs></l>
                         <note>Peut-être une allusion à la mode des coq-à-l'âne qui fleurissent en
                               cette période.</note>
                         <l>Si leur peau vault myeulx que bazane<note type="editor" subtype="ling"
                                     >"Sheepes leather dressed like Spanish leather, and coloured
                                     red, greene, or yellow, etc, for shoes, or the couerings of
                                     bookes."(Cotgrave)</note></l>
-                        <l>Elle vault donc celle d'un <rs type="animal">veau</rs></l>
+                        <l>Elle vault donc celle d'un <rs type="animal" key="veau">veau</rs></l>
                         <l n="32">Voyla ung argument nouveau</l>
                         <l><rs type="injonction" subtype="défense">Ne prenez ja penne</rs> de
                               l'apprendre</l>
@@ -333,7 +339,7 @@
                               >Bretaigne</placeName></l>
                         <!-- Saut#12 -->
                         <anchor type="saut#12"/>
-                        <l>Ma <rs type="animal">truye</rs> a bien espais la
+                        <l>Ma <rs type="animal" key="truie">truye</rs> a bien espais la
                                     taigne<note>"Quelques-uns écrivent et prononcent teigne, mais la
                                     plupart disent et écrivent tigne qui veut dire une sorte de gale
                                     qui vient à la tête. On dit. [Tigne séche, humide, mauvaise,
@@ -357,7 +363,7 @@
                         <anchor type="saut#15"/>
                         <l n="44">Nous <reg>parlerons</reg>
                               <reg>à</reg>
-                              <persName ref="ind:Charles_V">l'empereur</persName></l>
+                              <persName ref="ind:Charles-Quint" key="Charles-Quint">l'empereur</persName></l>
                         <l>S'il nous faict <rs type="locution">avoir fain aux
                                     dens</rs><note>Locution signalée par Di Stefano, p.
                               234.</note></l>
@@ -365,7 +371,7 @@
                         <l>Le <placeName key="Châtelet">chastellet</placeName> de loyaulté et
                               cruaulté</l>
                         <l n="48">Car rien ne vault la loyaulté</l>
-                        <l><reg>Où</reg> fut l'<rs type="animal">oyseau</rs> trouvé sans aesle</l>
+                        <l><reg>Où</reg> fut l'<rs type="animal" key="oiseau">oyseau</rs> trouvé sans aesle</l>
                         <!-- Saut#16 -->
                         <anchor type="saut#16"/>
                         <l>Mais <rs type="injonction" subtype="impératif">diz moy</rs> comme se
@@ -425,7 +431,7 @@
                         <l ana="#sat_rel">Scavoir si coquuz sont saulvez</l>
                         <note resp="editor" type="crit">Ironie à propos de la doctrine du
                               salut.</note>
-                        <l n="68" ana="#sat_pers">Car la <rs type="animal" ref="#Anne_de_Pisseleu"
+                        <l n="68" ana="#sat_pers">Car la <rs type="animal" key="poule" ref="#Anne_de_Pisseleu"
                                     >poulle</rs> nous a couvez</l>
                         <l ana="#sat_rel">Une montjoye de <roleName>prelats</roleName></l>
                         <note>Allusion à la duchesse d'Étampes, visée pour son népotisme. cf. C.
@@ -533,7 +539,7 @@
                         <!--Saut#34-->
                         <l n="108">Fy du derriere <unclear><rs type="animal" subtype="équidé"
                                           >moreau</rs> rue</unclear></l>
-                        <l>Et ma <rs type="animal">truye</rs> tant sonnant gronde</l>
+                        <l>Et ma <rs type="animal" key="truie">truye</rs> tant sonnant gronde</l>
                         <l>Que de cent lieues long <reg>à</reg> la ronde</l>
                         <l ana="#sat_rel">J'ouys parler de la pantoufle</l>
                         <note resp="editor" type="crit">cf. le cinquième coq-à-l'âne de Marot
@@ -590,7 +596,7 @@
                         <l n="124">Quen <reg>à</reg> noz vignes labourées</l>
                         <l><rs type="interjection" subtype="cri">Augrat augrat</rs> chasse
                               marees</l>
-                        <l>Qui vandent les <rs type="animal" subtype="poisson">rayes</rs>
+                        <l>Qui vandent les <rs type="animal" subtype="poisson" key="raie">rayes</rs>
                               puantes</l>
                         <!-- Saut#39 -->
                         <l>Si je n'avoys les mains suyantes</l>
@@ -639,7 +645,7 @@
                               Orchesographie. Elle est suivie ordinairement de la gaillarde. Ce mot
                               est commun aux Langues Italienne, Espagnole et Françoise."</note>
                         <l n="140">Tousjours revient dessus ses pas</l>
-                        <l ana="#prudence">Mais ma <rs type="animal">truye</rs>
+                        <l ana="#prudence">Mais ma <rs type="animal" key="truie">truye</rs>
                               <rs type="injonction" subtype="défense">n'en parle pas</rs></l>
                         <l ana="#persécutions">Tu aurais le museau cassé</l>
                         <note type="crit" resp="editor">Appel à la prudence renouvelé.</note>
@@ -728,7 +734,7 @@
                         <fw type="pageNum" place="top-right">128</fw>
                         <l>Mais que dict on de <persName ref="#Henri_VIII">cest
                               anglois</persName></l>
-                        <l n="180">Veult il chevaucher les <rs type="animal" subtype="poisson"
+                        <l n="180">Veult il chevaucher les <rs type="animal" subtype="poisson" key="poisson"
                                     >poissons</rs></l>
                         <note resp="editor" type="crit">C'est-à-dire traverser la Manche.</note>
                         <l>S'il est ainsi adieu moyssons</l>
@@ -908,7 +914,7 @@
                         <l n="288">Pour les nonnains de <placeName key="Fontevraud"
                                     >Fontevaulx</placeName></l>
                         <!-- Saut#88 -->
-                        <l>Et au descendre des <rs type="animal" subtype="équidé">chevaulx</rs></l>
+                        <l>Et au descendre des <rs type="animal" subtype="équidé" key="cheval">chevaulx</rs></l>
                         <l>Nous chevaucherons tous sans celles</l>
                         <l>Tant grassement vivent pucelles</l>
                         <l n="292">Qui sont soubz madame du trou</l>
@@ -942,7 +948,7 @@
                         <l n="308">Sinon aux <reg>asseurés</reg> menteurs</l>
                         <!-- Saut#94 -->
                         <l>La bonne myne est aux docteurs</l>
-                        <l>Et à <placeName><settlement type="city">Paris</settlement></placeName>
+                        <l>Et à <placeName type="city" key="Paris">Paris</placeName>
                               les fines crottes<note type="editor" subtype="crit">cf. dans le même
                                     ms. 203 la pièce intitulée "les Crottes de Paris"</note></l>
                         <!-- Saut#95 -->
@@ -1028,9 +1034,9 @@
                         <!-- Saut#108 -->
                         <l><rs type="injonction" subtype="impératif">Mande moy</rs> si plus l'on te
                               traicte</l>
-                        <l>À ton <reg>mangé</reg> de poys au <rs type="animal">veau</rs></l>
+                        <l>À ton <reg>mangé</reg> de poys au <rs type="animal" key="veau">veau</rs></l>
                         <!-- Saut#109 -->
-                        <l>Car ce pendant <reg>à</reg> mon <rs type="animal">chevreau</rs></l>
+                        <l>Car ce pendant <reg>à</reg> mon <rs type="animal" key="chevreau">chevreau</rs></l>
                         <l n="360">Je m'en voys luy coupper la teste</l>
                         <l ana="#mtd">Et plus n'en dicts je suis de feste</l>
                   </p>

@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc xml:id="Tronchin_Gen">
          <titleStmt>
-            <title>Coq à L'Asne.</title>
+            <title>Coq à L'Asne. [Réf. 84]</title>
          </titleStmt>
          <publicationStmt>
             <p>Coq à l'âne conservé dans deux manuscrits de la bibliothèque de Genève, le manuscrit
@@ -162,7 +162,7 @@
             <l n="4">Et rendra ses amys contens.</l>
             <!-- Saut#1 --><anchor type="saut#1"/>
             <l ana="#sit_mil">Il se fait bien grande entreprise</l>
-            <l ana="#mét_animale">Garde que la ruche ne soit prise</l><note resp="editor"
+            <l ana="#mét_animale"><rs type="injonction" subtype="impératif">Garde</rs> que la ruche ne soit prise</l><note resp="editor"
                type="crit">Vers hypermétrique. Jeu possible entre "La Ruche" et "La Roch[elle]". Cf.
                   <hi rend="italic">infra</hi> les vers 125-126.</note>
             <!-- Saut#2 --><anchor type="saut#2"/>
@@ -336,8 +336,8 @@
                temps le trône du royaume.</note>
             <l>Y fera planter la croix blanche</l><note resp="editor" type="glose">Celle des ducs de
                Savoie.</note>
-            <l n="68">Et lors dira Petter à <unclear>Lanche</unclear></l><note resp="editor"
-               type="crit">Vers particulièrement obscur.</note>
+            <l n="68">Et lors dira Petter à <unclear>gauche</unclear></l><note resp="editor"
+               type="crit">Ce dernier mot est incertain.</note>
             <l>Et <reg>d'asticots</reg> et <reg>d'astipoche</reg></l>
             <note type="ling" resp="editor"><hi rend="italic">D'asticots</hi>: "Avec provocation",
                selon Huguet qui cite en exemple d'Aubigné.</note>
@@ -401,7 +401,7 @@
                   <rdg wit="#BGE376">là</rdg>
                </app>
                <reg>l'autre</reg> chante</l>
-            <l ana="#folie">Le monde va en escrevisse</l><note resp="editor" type="crit"><hi
+            <l ana="#folie">Le monde va en <rs type="animal" subtype="crustacé" key="écrevisse">escrevisse</rs></l><note resp="editor" type="crit"><hi
                   rend="italic">Cf</hi>. le coq-à-l'âne de "Brusquet à Ronsard": "Car le monde va au
                rebours / Aussy faict bien une escrevisse", v. 214-215.</note><!-- Cf. Pronostications joyeuses -->
             <!-- Saut#29 --><anchor type="saut#29"/>

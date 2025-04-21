@@ -5,7 +5,7 @@
 <?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
-      <fileDesc>
+      <fileDesc xml:id="Veaulx">
          <titleStmt>
             <title>Le coq aux asnes et aux veaulx faict L'an mil Vc <del>XX</del> XLVII<note
                   resp="editor" type="variante">Variante 201: "faict l'an 1548

@@ -378,7 +378,7 @@
                (Di Stefano). L'association des deux séquences s'effectue ainsi par la polysémie
                plaisante du terme.</note>
             <!-- Saut#20 --><anchor type="saut#20"/>
-            <l>Mon amy <rs type="injonction" subtype="conseil">garde toy</rs> des <rs type="animal"
+            <l>Mon amy <rs type="injonction" subtype="conseil">garde toy</rs> des <rs type="animal" key="chat"
                   >chatz</rs></l>
             <l ana="#misogynie">Que ta femme ne t'esgratigne</l>
             <!-- Saut#21 --><anchor type="saut#21"/>
@@ -452,9 +452,9 @@
             <l n="140">Mais <reg>j'ay</reg> tousjours assez <rs type="locution">bon bec</rs><note
                   resp="editor" type="ling"><hi rend="italic">Bon bec</hi>: "bon parleur", Di
                   Stefano.</note></l>
-            <l>Ung <rs type="animal" subtype="canidé">chien</rs> courtault a longue queue</l>
+            <l>Ung <rs type="animal" subtype="canidé" key="chien">chien</rs> courtault a longue queue</l>
             <l>Ung borgne qui a bonne veue</l>
-            <l>Allant <reg>à</reg> pied sur une <rs type="animal" subtype="équidé">mulle</rs></l>
+            <l>Allant <reg>à</reg> pied sur une <rs type="animal" subtype="équidé" key="mule">mulle</rs></l>
             <l n="144"><reg>Voilà</reg> mon train sans faulte nulle</l>
             <l>Pour aller veoir ses <app>
                   <lem wit="#ms203">beaulx</lem>
@@ -504,11 +504,11 @@
             <l>Qui faict cela ? et qui<add resp="editor" type="ponctuation">,</add> voz caiges</l>
             <l><reg>Où</reg> sont enfermez morts et <del resp="scriptor">vis</del> viz</l>
             <l n="176" ana="#motifs_sexuels">Affin que faulx cons et maulx viz</l>
-            <l><rs type="animal" subtype="oiseau">Corbeaulx</rs>
-               <rs type="animal" subtype="oiseau">beccasses</rs>
-               <rs type="animal" subtype="oiseau">cormorans</rs></l>
-            <l><rs type="animal" subtype="oiseau">Autruches</rs> et <rs type="animal"
-                  subtype="oiseau">oyseaulx rampans</rs></l>
+            <l><rs type="animal" subtype="oiseau" key="corbeau">Corbeaulx</rs>
+               <rs type="animal" subtype="oiseau" key="becasse">beccasses</rs>
+               <rs type="animal" subtype="oiseau" key="cormoran">cormorans</rs></l>
+            <l><rs type="animal" subtype="oiseau" key="autruche">Autruches</rs> et <rs type="animal"
+                  subtype="oiseau" key="oiseau">oyseaulx rampans</rs></l>
             <l>Vivent tousjours de leurs chairongnes</l>
             <!-- Saut#35 -->
             <anchor type="saut#35"/>
@@ -562,8 +562,8 @@
             <!-- Saut#36 -->
             <anchor type="saut#36"/>
             <l>Puys nous voyons la tricherie</l>
-            <l>Que ces <rs type="animal" subtype="équidé">asnes</rs> font aux <rs type="animal"
-                  subtype="équidé">chevaulx</rs></l>
+            <l>Que ces <rs type="animal" subtype="équidé" key="âne">asnes</rs> font aux <rs type="animal"
+                  subtype="équidé" key="cheval">chevaulx</rs></l>
             <!-- Saut#37 -->
             <anchor type="saut#37"/>
             <l n="208">Mais quant au faict des <roleName>admiraulx</roleName></l>
@@ -592,8 +592,8 @@
             <!-- Saut#42 -->
             <anchor type="saut#42"/>
             <l>Mais pour chanter au grant <del>hostel</del> autel</l>
-            <l>C'est aux <rs type="animal" subtype="insecte">caphars</rs> et <rs type="animal"
-                  subtype="insecte">papillons</rs></l>
+            <l>C'est aux <rs type="animal" subtype="insecte" key="cafard">caphars</rs> et <rs type="animal"
+                  subtype="insecte" key="papillon">papillons</rs></l>
             <l n="224"><rs type="injonction" subtype="impératif">Apportez moy</rs> ses
                goupillons</l>
             <l ana="#sat_rel">Pour abreuver les trespassez</l>
@@ -681,7 +681,7 @@
             <l n="268">Parquoy je suys de cest advis</l>
             <l ana="#folie">Que <persName>dieu</persName>laisse les folz regner</l>
             <l>Et ce pendant seuffrent trayner</l>
-            <l>La charette devant les <rs type="animal">beufz</rs></l>
+            <l>La charette devant les <rs type="animal" subtype="bovidé" key="bœuf">beufz</rs></l>
             <!-- Saut#54 -->
             <anchor type="saut#54"/>
             <l n="272" ana="#sat_pol">User souvent de propos neufs</l>
@@ -703,13 +703,13 @@
                   <lem wit="#ms203">de</lem>
                   <rdg wit="#NAF1870">des</rdg>
                </app> quenoilles</l>
-            <l><reg>Où</reg> l'on prise beaucoup <rs type="animal">grenoilles</rs></l>
+            <l><reg>Où</reg> l'on prise beaucoup <rs type="animal" subtype="batracien" key="grenouille">grenoilles</rs></l>
             <l>Qui scavent leurs cuysses ouvrir</l>
             <!-- Saut#57 --><anchor type="saut#57"/>
             <l n="284">Mais dequoy sert nonnains couvrir</l>
             <l>Ses belles seurs en <persName key="Jésus">Jesucrist</persName></l>
             <l>Sinon affin qu'un <persName key="Antéchrist">antecrist</persName></l>
-            <l>Vienne oster l'aultre de sa place</l>
+            <l>Vienne oster <addName>l'aultre</addName> de sa place</l>
             <!-- Saut#58 --><anchor type="saut#58"/>
             <l n="288">Car de coucher sur la pallace</l>
             <l>C'est le chaut des <orgName type="habitant">Parisiens</orgName></l>
