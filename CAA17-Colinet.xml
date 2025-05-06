@@ -5,7 +5,10 @@
    <teiHeader>
       <fileDesc xml:id="Colinet">
          <titleStmt>
-            <title>Le coq a l'asne fait le jeudi IXe jour d'aout l'an mil cinq cens XXXVII</title>
+            <title>Réf. n°17: </title>
+            <title>Le coq a l'asne fait le jeudi IX<hi rend="sup">e</hi> jour d'aout l'an mil cinq
+               cens XXXVII<note resp="editor" type="crit">Date erronée ou fictive car le 9 août
+                  tombait un lundi en 1537.</note></title>
          </titleStmt>
          <publicationStmt>
             <p>Transcription à partir de l'unique témoin du manuscrit 0203 de Soissons. L'édition
@@ -205,173 +208,300 @@
             <!-- Saut#3 --><anchor type="saut#3"/>
             <l n="16">Je fais tryumphe de la picque</l>
             <l>Je frappe, je tue, j'assomme,</l>
+            <l>Noz ennemys sur le bon homme</l>
             <l>Et vaulx plus qu'un tirant d'un quart</l>
             <!-- Saut#4 --><anchor type="saut#4"/>
-            <l rend="indent"><rs type="injonction" subtype="impératif">Allons</rs> nous tirer
+            <l  n="20" rend="indent"><rs type="injonction" subtype="impératif">Allons</rs> nous tirer
                   <reg>à</reg> l'escart</l>
-            <l n="20">Garder les coups, il fault choquer</l>
+            <l>Garder les coups, il fault choquer</l>
             <l>Encores vault il myeulx choper</l>
             <l>Que de se rompre bras, jambes ou col</l>
             <!-- Saut#5 --><anchor type="saut#5"/>
             <!-- A vérifier -->
-            <l rend="indent"><rs type="injonction" subtype="impératif">Mectez</rs> un chevestre ou
+            <l n="24" rend="indent"><rs type="injonction" subtype="impératif">Mectez</rs> un chevestre ou
                licol</l>
-            <l n="24"><reg>À</reg>
+            <l><reg>À</reg>
                <persName>Sagon</persName> et <persName>La Hueterye</persName>,</l>
             <l>Et puys dedans l'escorcherye</l><!-- note -->
             <pb n="25v"/>
             <l><rs type="injonction" subtype="impératif">Assommez</rs> les sans dire mot</l>
-            <l>Lors vous aurez ung vieulx marmot</l>
-            <l n="28">Et un gros <unclear>beuf</unclear> bien assommez</l>
+            <l n="28">Lors vous aurez ung vieulx marmot</l>
+            <l>Et un gros <unclear>beuf</unclear> bien assommez</l>
             <l rend="indent">Aussi quant on les a sommés</l>
             <l>C'est une grant peur qu'on leur <del resp="scriptor" type="correction"
                >faict</del>feit</l>
             <!-- Saut#6 --><anchor type="saut#6"/>
-            <l rend="indent">Ou que <expan>particulliers</expan> prouffict</l>
-            <l n="32">Au general faict grant nuysance</l>
+            <l n="32" rend="indent">Ou que <expan>particulliers</expan> prouffict</l>
+            <l>Au general faict grant nuysance</l>
             <!-- Saut#7 --><anchor type="saut#7"/>
             <l rend="indent">Scez tu qui vit <reg>à</reg> sa plaisance?</l>
             <l>Qui a le temps et les escus</l>
-            <l>Ce sont <rs type="invective">ces gros et gras coquus</rs></l>
-            <l n="36">Dont les femmes ont les fessiers</l>
+            <l n="36">Ce sont <rs type="invective">ces gros et gras coquus</rs></l>
+            <l>Dont les femmes ont les fessiers</l>
             <l>Du long et les benefficiers</l>
             <l>Qui font si bonne morgue et masque.</l>
             <!-- Saut#8 --><anchor type="saut#8"/>
-            <l rend="indent">On bailla lourdement la basque</l>
-            <l n="40"><reg>À</reg> ceulx qui furent dans <placeName>Sainct Pol</placeName></l>
+            <l n="40" rend="indent">On bailla lourdement la basque</l>
+            <l><reg>À</reg> ceulx qui furent dans <placeName>Sainct Pol</placeName></l>
             <!-- Saut#9 --><anchor type="saut#9"/>
             <l rend="indent" ana="#folie"><rs type="interjection">Par mon âme</rs>, tu es bien
                fol</l>
             <l>De t'amuser en cest endroict</l>
-            <l>Au moys <reg>à</reg> produire et en droict</l>
-            <l n="44">Et <rs type="injonction" subtype="impératif">tiens</rs> tout prest pour le
+            <l n="44">Au moys <reg>à</reg> produire et en droict</l>
+            <l>Et <rs type="injonction" subtype="impératif">tiens</rs> tout prest pour le
                potaige</l>
             <!-- Saut#10 --><anchor type="saut#10"/>
             <l>Les <unclear>espices</unclear> du trypotaige</l>
             <l>Qui est si tresbien languayé </l>
             <!-- Saut#11 --><anchor type="saut#11"/>
-            <l rend="indent">Quant un cheval sera guayé</l>
-            <l n="48">Au temps d'<unclear>iver</unclear> myeulx il n'en vault</l>
+            <l n="48" rend="indent">Quant un cheval sera guayé</l>
+            <l>Au temps d'<unclear>iver</unclear> myeulx il n'en vault</l>
             <!-- Saut#12 --><anchor type="saut#12"/>
             <l rend="indent">Et quant le vaillant d'<persName>Annebault</persName></l>
             <l>Fut prins cela ne fut pas bon</l>
             <!-- Saut#13 --><anchor type="saut#13"/>
-            <l rend="indent">Je ne dy pas que <persName>Villebon</persName></l>
-            <l n="52">N'ayt fait tout du myeulx qu'il a peu</l>
+            <l  n="52" rend="indent">Je ne dy pas que <persName>Villebon</persName></l>
+            <l>N'ayt fait tout du myeulx qu'il a peu</l>
             <l rend="indent">Ung homme qui a bien repeu</l>
             <l><reg>À</reg> frapper a meilleur couraige</l>
             <!-- Saut#14 --><anchor type="saut#14"/><!-- Guerriers du temps -->
-            <l rend="indent"><rs type="interjection" subtype="juron">Sang bieu</rs> quand je y pense
+            <l n="56" rend="indent"><rs type="interjection" subtype="juron">Sang bieu</rs> quand je y pense
                j'enraige</l>
-            <l n="56">Fault il qu'<rs type="invective">un tas de valletons</rs><note resp="editor"
+            <l>Fault il qu'<rs type="invective">un tas de valletons</rs><note resp="editor"
                   type="ling"><hi rend="italic">Valeton</hi>: diminutif péjoratif de <hi
                      rend="italic">valet</hi>, au sens de "niais, maladroit", Huguet.</note></l>
             <fw type="réclame" place="bottom-right">Ung tas d'estourdis</fw>
-            <pb n="26r"/><fw type="pageNum" place="top-right">26</fw>
+            <pb n="25(bis)r"/><fw type="pageNum" place="top-right">26</fw>
             <l><rs type="invective">Ung tas d'estourdiz</rs>
                <rs type="animal" subtype="insecte" key="hanneton">hanetons</rs></l>
             <l>Ung tas de jeunes <rs type="animal" key="chapon">estoudeaulx</rs><note resp="editor"
                   type="ling"><hi rend="italic">Estoudeau ou Hetoudeau</hi>: "jeune chapon",
                   Huguet.</note></l>
-            <l>Voisent en guerre sans cousteaulx</l>
-            <l n="60">Et que le monde en soit pillé</l>
+            <l n="60">Voisent en guerre sans cousteaulx</l>
+            <l>Et que le monde en soit pillé</l>
             <l rend="indent"><rs type="invective">Quelque rustre bien habillé</rs></l>
             <l><rs type="invective">Quelque adventurier de villaige</rs></l>
-            <l><rs type="invective">Quelque soudart bon au pillaige</rs></l>
-            <l n="64"><rs type="invective">Quelque ruffien <reg>à</reg> oultrance</rs></l>
+            <l n="64"><rs type="invective">Quelque soudart bon au pillaige</rs></l>
+            <l><rs type="invective">Quelque ruffien <reg>à</reg> oultrance</rs></l>
             <l>Trancheront ung <persName type="mythologie" key="Hector">Hector</persName> en
                   <placeName type="country" key="France">France</placeName></l>
             <l>Dans ung bordeau ou ung caignart<note resp="editor" type="ling"><hi rend="italic"
                      >Caignart</hi>: "Abri misérable", Huguet.</note></l>
-            <l ana="#lâcheté">Mais au chocq ils font le couart</l>
+            <l n="68" ana="#lâcheté">Mais au chocq ils font le couart</l>
             <!-- Saut#15 --><anchor type="saut#15"/>
-            <l n="68">Tellement que les daimoiselles</l>
+            <l>Tellement que les daimoiselles</l>
             <l>Se treuvent tousjours <rs type="locution">sur les aesles</rs><note>C'est-à-dire sur
                   les flancs.</note></l>
             <l ana="#cocuage">Et les mariz dessus les piedz.</l>
             <!-- Saut#16 --><anchor type="saut#16"/>
-            <l rend="indent"><rs type="injonction" subtype="interjection">Faictes</rs> bon guet et
+            <l n="72" rend="indent"><rs type="injonction" subtype="interjection">Faictes</rs> bon guet et
                espiez</l>
-            <l n="72">Vous trouverez qu'il y aura</l>
-            <l>De bref du <hi rend="italic">tara tantara</hi><note resp="editor" type="ling"
-               />Onomatopée.</l>
+            <l>Vous trouverez qu'il y aura</l>
+            <l>De bref du <hi rend="italic">tara tantara</hi><note resp="editor" type="ling"></note>Onomatopée.</l>
             <l>Et du hazart sur les ballays</l>
             <!-- Saut#17 --><anchor type="saut#17"/>
-            <l>J'entens si <rs type="occupation">paiges</rs> de palais</l>
-            <l n="76">Recommencent leur lymasson<note><hi rend="italic">Limasson</hi>: "Sorte de
+            <l n="76">J'entens si <rs type="occupation">paiges</rs> de palais</l>
+            <l>Recommencent leur lymasson<note><hi rend="italic">Limasson</hi>: "Sorte de
                   manœuvre militaire", Huguet.</note></l>
             <!-- Saut#18 --><anchor type="saut#18"/>
             <l rend="indent">Jamais je n'aymeray <persName>Masson</persName></l>
             <l ana="#mtd">C'est pour venir <reg>à</reg> mon propos</l>
             <!-- Saut#19 --><anchor type="saut#19"/>
-            <l>Il faict bon prandre son repos</l>
-            <l n="80">En esté avecques sa gouge</l>
+            <l n="80">Il faict bon prandre son repos</l>
+            <l>En esté avecques sa gouge</l>
             <!-- Saut#20 --><anchor type="saut#20"/>
             <l>Pour en gaig<add resp="editor" place="above">n</add>er de la plus rouge</l>
             <l rend="indent">Car les <orgName>prevotz des mareschaulx</orgName></l>
-            <l>S'ilz ne mengent des artichaulx</l>
-            <l n="84">Ils sont en danger d'eux morfondre</l>
+            <l n="84">S'ilz ne mengent des artichaulx</l>
+            <l>Ils sont en danger d'eux morfondre</l>
             <!-- Saut#21 --><anchor type="saut#21"/>
             <l>Or scetz tu bien pour y respondre</l>
             <l>De peur qu'ilz ne soient morfonduz</l>
-            <l>Ilz en feront quelques pendus</l>
-            <pb n="25v"/>
-            <l n="88">Qui du faict ne s'en ventent pas</l>
+            <l n="88">Ilz en feront quelques pendus</l>
+            <pb n="25(bis)v"/>
+            <l>Qui du faict ne s'en ventent pas</l>
             <l>Mais si paieront ilz leur repas</l>
             <l>En la saison de <rs type="animal" key="brebis">brebis</rs> tondre</l>
             <!-- Saut#22 --><anchor type="saut#22"/>
-            <l rend="indent">Au lieu de fonder on veoit fondre</l>
-            <l n="92">Et fy, fy, le <persName key="diable">diable</persName> y ait part</l>
+            <l n="92" rend="indent">Au lieu de fonder on veoit fondre</l>
+            <l>Et fy, fy, le <persName key="diable">diable</persName> y ait part</l>
             <!-- Saut#23 --><anchor type="saut#23"/>
             <l><rs type="injonction" subtype="impératif">Faictes</rs> icy ung fin rampart</l>
             <l>De terre moilléee et de saulx</l>
-            <l>C'est pour resister aux assaulx</l>
+            <l n="96">C'est pour resister aux assaulx</l>
             <!-- Saut#24 --><anchor type="saut#24"/>
-            <l n="96">Si les bestes sont estonnées</l>
+            <l>Si les bestes sont estonnées</l>
             <l>Puys que les treuves sont données</l>
             <!-- Saut#25 --><anchor type="saut#25"/>
             <l>Il ne fault plus avoir soucy</l>
-            <l>Si ce n'estoit qu'il feust ainsi</l>
-            <l n="100">Que de promesse on feist abus</l>
+            <l n="100">Si ce n'estoit qu'il feust ainsi</l>
+            <l>Que de promesse on feist abus</l>
             <!-- Saut#26 --><anchor type="saut#26"/>
             <l>Il faict bon manger choulx cabus</l>
             <l>Quant le <unclear>tonnerre</unclear> est esclarcy</l>
             <!-- Saut#27 --><anchor type="saut#27"/>
-            <l>Ilz pilleront <placeName>Montmorancy</placeName>,</l>
-            <l n="104">Tesmoing le seigneur <persName>d'Argenton</persName></l>
+            <l n="104">Ilz pilleront <placeName>Montmorancy</placeName>,</l>
+            <l>Tesmoing le seigneur <persName>d'Argenton</persName></l>
             <l>Et puys apres aux coups <persName key="Genton Claude"
                   >Genton</persName><note>Peut-être Claude Genton alors prévôt des maréchaux de
                   Paris.</note></l>
             <l><rs type="injonction" subtype="impératif">Garde bien</rs> d'en estre noircy</l>
             <!-- Saut#28 --><anchor type="saut#28"/>
-            <l ana="#mtd">Je faiz mon argument icy</l>
-            <l n="108">Que mes greniers soient tous comblez</l>
+            <l n="108" ana="#mtd">Je faiz mon argument icy</l>
+            <l>Que mes greniers soient tous comblez</l>
             <l>De vins, d'avoines et de blez,</l>
             <l>Et on les veult porter ailleurs</l>
             <!-- Saut#29 --><anchor type="saut#29"/>
-            <l>Assavoir mon, si les railleurs</l>
-            <l n="112">Feront au son des instrumens</l>
+            <l n="112">Assavoir mon, si les railleurs</l>
+            <l>Feront au son des instrumens</l>
             <l>Achever tant de bastymens</l>
             <l ana="#adr"><rs type="injonctin" subtype="impératif">Dys</rs> moy sur ce point ton
                advis</l>
             <!-- Saut#30 --><anchor type="saut#30"/>
-            <l>Je le dys pource que je vis</l>
-            <l n="116">Deux vielles puis deux jours passez</l>
+            <l n="116">Je le dys pource que je vis</l>
+            <l>Deux vielles puis deux jours passez</l>
             <l>Qui en avoient les reins cassez</l>
             <l>Au jeu de la serrecropière</l>
             <!-- Saut#31 --><anchor type="saut#31"/>
-            <l rend="indent">Sang bieu! Voylà belle <rs type="arme" subtype="épée">rapière</rs></l>
+            <l n="120" rend="indent">Sang bieu! Voylà belle <rs type="arme" subtype="épée">rapière</rs></l>
             <fw>Je la conquis</fw>
             <pb n="26r"/><fw type="pageNum" place="top-right">26</fw>
-            <l n="120">Je la conquis <reg>à</reg> force d'armes</l>
+            <l>Je la conquis <reg>à</reg> force d'armes</l>
             <l>Aux grans assaulx aupres des Carmes</l>
             <l>D'un Bourguignon né de Paris</l>
             <!-- Saut#32 --><anchor type="saut#32"/>
-            <l>Car c'est le lieu <reg>où</reg> les maris</l>
-            <l n="124">Reposent quant leurs femmes ve<corr resp="editor">y</corr>llent</l>
+            <l n="124">Car c'est le lieu <reg>où</reg> les maris</l>
+            <l>Reposent quant leurs femmes ve<corr resp="editor">y</corr>llent</l>
             <!-- Saut#33 --><anchor type="saut#33"/>
             <l rend="indent">Ceulx qui au bien public travaillent</l>
             <l>Ne sont encor guere eschauffez</l>
+            <l n="128" rend="indent">Quant leurs facez sont debiffez</l>
+            <l>Tant qu'on ne les veult regarder</l>
+            <!-- Saut#34 --><anchor type="saut#34"/>
+            <l>Incontinant fault par farder</l>
+            <l>Depuys les piedz <choice>
+                  <orig>jusques</orig>
+                  <reg resp="editor">jusqu'</reg>
+               </choice>
+               <reg>à</reg> la teste</l>
+            <l n="132">Renouveller la vielle beste</l>
+            <l>Autrement se seroit pityé</l>
+            <!-- Saut#35 --><anchor type="saut#35"/>
+            <l rend="indent">Verray je pour vraye amytié</l>
+            <l>Retourner si fera fera mon</l>
+            <!-- Saut#36 --><anchor type="saut#36"/>
+            <l n="136" rend="indent">Puys le temps du <persName>Roy Pharamon</persName></l>
+            <l><placeName type="city" key="Péronne">Peronne</placeName> a emporté le
+               pris</l>
+            <!-- Saut#37 --><anchor type="saut#37"/>
+            <l rend="indent">Or puis que le <rs type="animal" key="renard">regnard</rs> est pris</l>
+            <l>La bastille en est myeulx fermée</l>
+            <!-- Saut#38 --><anchor type="saut#38"/>
+            <l n="140">Tellement qu'une bonne armée</l>
+            <l>Ayans foison de vivre et vins</l>
+            <l>N'a plus que faire de devins</l>
+            <l>Si la saison n'estoit gellée</l>
+            <!-- Saut#39 --><anchor type="saut#39"/>
+            <l n="144">Dict on pas qu'un plat de gellée</l>
+            <l>Est bonne pour le pacient</l>
+            <!-- Saut#40 --><anchor type="saut#40"/>
+            <l rend="indent">On ne fait pas <reg>à</reg> son escient</l>
+            <l>Ce qu'on faict de guet <reg>à</reg> pensée</l>
+            <!-- Saut#41 --><anchor type="saut#41"/>
+            <l n="148" rend="indent">Bien vray qu'elle est oultre passée</l>
+            <l>Mais s'elle est allée <reg>à</reg> trespas</l>
+            <l><persName type="destinataire">Colinet</persName>, je ne le scay pas</l>
+            <pb n="26v"/>
+            <l>Est il vray qu'elle est trespassée</l>
+            <!-- Saut#42 --><anchor type="saut#42"/>
+            <l n="152" rend="indent">Nous n'eusmes point l'année passée</l>
+            <l>De jubilé. Quant l'aurons nous?</l>
+            <!-- Saut#43 --><anchor type="saut#43"/>
+            <l rend="indent">Les <rs type="animal" subtype="canidé" key="loup">loups</rs> sont
+               vestuz de veloulx</l>
+            <l>Et les <rs type="animal" key="brebis">brebis</rs> de belle laine</l>
+            <!-- Saut#44--><anchor type="saut#44"/>
+            <l n="156">Nous avons eu la Magdelaine</l>
+            <l>Les raisins viendront en saison</l>
+            <!-- Saut#45 --><anchor type="saut#45"/>
+            <l rend="indent">Or il fault parler de raison</l>
+            <l>Aux bourrelletz Sic jarguo</l>
+            <!-- Saut#46 --><anchor type="Saut#46"/>
+            <l n="160">Assavoir mon si Jarguau</l>
+            <l>Est aussi grant comme <placeName type="city" key="Orléans"
+                  >Orleans</placeName></l>
+            <!-- Saut#47 --><anchor type="saut#47"/>
+            <l rend="indent">Je ne voy gueres clerc leans</l>
+            <l>Sans des luneaulx ou des lunettes</l>
+            <!-- Saut#48 --><anchor type="saut#48"/>
+            <l n="164" rend="indent">Adieu vous <expan>commandz</expan> bergerettes</l>
+            <l >Adieu pasteurs et pastouraige</l>
+            <!-- Saut#49 --><anchor type="saut#49"/>
+            <l><reg>Ça</reg> de l'argent pour le fourraige</l>
+            <l>Pour le fourrier et la fourreure</l>
+            <!-- Saut#50 --><anchor type="saut#50"/>
+            <l n="168" rend="indent">La peine que pour vous j'endure</l>
+            <l>Monsieur soyez le bien venu</l>
+            <!-- Saut#51 --><anchor type="saut#51"/>
+            <l>Et puys <persName ref="ind:Marot" key="Marot Clément">Clement</persName> est
+               revenu</l>
+            <l>Bien habiilé <reg>à</reg> la françoise</l>
+            <!-- Saut#52 --><anchor type="saut#52"/>
+            <l n="172">Une belle et grosse turquoyse</l>
+            <l>Bien fine bien orientalle</l>
+            <l>Reluit beaucoup en belle salle</l>
+            <l>Plus qu'un dyamant ou ung rubys</l>
+            <!-- Saut#53 --><anchor type="saut#53"/>
+            <l n="176" rend="indent">Il vault myeulx manger du pain bis</l>
+            <l>Que mourir de fin en yver</l>
+            <!-- Saut#54 --><anchor type="saut#54"/>
+            <l>Tousjours sera le pauvre vert</l>
+            <l>Nud <unclear>desnué</unclear> dessoulz la <unclear>nue</unclear></l>
+            <!-- Saut#55 --><anchor type="saut#55"/>
+            <l n="180">J'ayme myeulx une grosse <unclear>nue</unclear></l>
+            <fw type="réclame" place="bottom-right"/>
+            <pb n="27r"/><fw type="pageNum" place="top-right">27</fw>
+            <l>Qui est bien grasse et en bon point</l>
+            <l>Qu'avoir le moulle du pourpoint<note resp="editor" type="ling"><hi rend="italic">Le
+                     moule du pourpoint</hi>: "Le corps, et particulièrement le haut du corps.",
+                  Huguet.</note></l>
+            <l>De quelque flasche bien typhée<note resp="editor" type="ling"><hi rend="italic"
+                     >Tiffée</hi>: "soignée, parée", Huguet.</note></l>
+            <l n="184">Raison s'elle estoit debyffiée</l>
+            <l>Pour ses afficquetz et brodure<note resp="editor" type="ling"
+                     ><hi>Affiquets</hi>: "Bijoux, ornements, parures.", Huguet.</note></l>
+            <l>On ne scauroit veoir son ordure</l>
+            <!-- Saut#56 --><anchor type="saut#56"/>
+            <l><rs type="injonction" subtype="impératif">Laissons</rs>
+               <reg>à</reg> part tel faguenas<note resp="editor" type="ling"><hi rend="italic"
+                     >Faguenas</hi>: "mauvaise odeur", Huguet.</note></l>
+            <l n="188" rend="indent">Et si congnoissance tu n'as</l>
+            <l>Que c'est que du <placeName key="Trou Saint Patrice">trou sainct
+                  Patrix</placeName><note resp="editor" type="ling"><hi rend="italic">Trou sainct
+                     Patrice</hi>: "Caverne d'Irlande que l'on considérait au moyen âge comme une
+                  entrée du purgatoire.", Huguet.</note></l>
+            <l><rs type="injonction" subtype="impératif">Va regarder</rs> le coquatrix<note
+                  resp="editor" type="ling"><hi rend="italic">Coquatris</hi>: "Sorte d'animal
+                  fantastique", Huguet.</note></l>
+            <l>Qui est dedans ung puys à <placeName type="city" key="Lutèce">Lutesse</placeName></l>
+            <!-- Saut#57 --><anchor type="saut#57"/>
+            <l n="192" rend="indent"><rs type="injonction" subtype="impératif">Allons</rs>
+               <rs type="interjection">ho</rs> tost ton con l'ostesse</l>
+            <l>C'est ryme comme de <placeName>Rouenne</placeName></l>
+            <!-- Saut#58 --><anchor type="saut#58"/>
+            <l>Y a bien loing <reg>à</reg>
+               <placeName>Therouenne</placeName></l>
+            <l>Et des gras oysons aux roisons</l>
+            <!-- Saut#59 --><anchor type="saut#59"/>
+            <l n="196" ana="#folie">Les folz s'amusent aux raisons</l>
+            <l>Et les nez rouges <reg>à</reg>
+               <persName type="mythologie" key="Bacchus">Bacchus</persName></l>
+            <l>Et les amoureulx aux bas culz</l>
+            <l rend="indent">Et les autres au maucontent<note resp="editor" type="ling"><hi
+                     rend="italic">Jouer au maucontent</hi>: "Être mécontent, agir en mécontent.",
+                  Huguet.</note></l>
+            <l n="200">Mais c'est grant peine que d'aymer tant.</l>
+            <fw>Finis coronat opus</fw>
          </p>
          <listBibl>
             <bibl>

@@ -18,7 +18,7 @@
       <body>
          <listWit>
             <!-- AUTRICHE -->
-            <witness xml:id="Cod_10203"><msDesc>
+            <witness xml:id="Cod10203"><msDesc>
                   <msIdentifier>
                      <settlement>Vienne</settlement>
                      <institution>Bibliothèque nationale d'Autriche</institution>
@@ -74,6 +74,19 @@
                      <idno>6678</idno>
                   </msIdentifier>
                </msDesc></witness>
+            
+            <witness xml:id="fr12795"><msDesc>
+                  <msIdentifier>
+                     <settlement>Paris</settlement>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <repository>Richelieu<geo>48.869233 2.340167</geo></repository>
+                     <collection>Recueil François I<hi rend="super">er</hi></collection>
+                     <idno>12795</idno>
+                  </msIdentifier>
+                  <physDesc><p>XVIe-XVIIe siècle
+                        Papier.623 feuillets.278 × 210 mm.Demi-reliure.
+                        Manuscrit en français</p></physDesc>
+            </msDesc></witness>
 
             <witness xml:id="NAF6888"><msDesc>
                   <msIdentifier>

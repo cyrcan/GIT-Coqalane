@@ -16,9 +16,9 @@
          <sourceDesc>
             <p>Copie qui est le seul témoin manuscrit de ce coq-à-l'âne publié par Henri Meylan en
                1956 d'après la version imprimée "Le coq aux lievres" (sic) qui présente des
-               coquilles et des oublis. Le ms. NAF 1870 vient la compléter et élucider certains
-               passages. Le pluriel ne se justifie pas au regard des références internes du
-               poème.</p>
+               coquilles, des oublis et plusieurs vers hypermétriques. Le ms. NAF 1870 vient la
+               compléter et élucider certains passages. Comme le précise Henri Meylan, le pluriel du
+               titre ne se justifie pas au regard des références internes du poème.</p>
             <p><listWit>
                   <witness>
                      <msDesc>
@@ -236,9 +236,12 @@
             </listPerson></p>
       </encodingDesc>
       <revisionDesc>
-         <change><date when="2025-02-19">Début de relecture avec nouveau schéma le 19 février
-               2025</date></change>
-         <change><date when="2025-03-06">Introduction des variantes de l'original de Londres</date></change>
+         <change><date when="2025-02-19">le 19 février 2025</date>:début de relecture avec nouveau
+            schéma.</change>
+         <change><date when="2025-03-06">Introduction des variantes de l'original de
+            Londres</date></change>
+         <change><date when="2025-05-06">Mardi 6 mai 2025</date>Enrichissement par balises @ana et
+            ajout des sauts jusqu'au vers 200.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -321,8 +324,8 @@
             <l ana="#sat_pers">On dict que <persName ref="ind:Jarnac"><app>
                      <lem wit="#NAF1870">Jarnac</lem>
                      <rdg wit="#Imp.11475.b.10">Garnat</rdg>
-                  </app></persName> et sa bande</l><note resp="editor" type="philo">La version du ms
-               1870 confirme ici l'hypothèse d'Henri Meylan, p. 72. Ce serait donc une nouvelle
+                  </app></persName> et sa bande</l><note resp="editor" type="philo">La version du
+               ms. 1870 confirme ici l'hypothèse d'Henri Meylan, p. 72. Ce serait donc une nouvelle
                allusion à la défaite du 10 août.</note>
             <l ana="#guerre">Triompherent <app>
                   <lem wit="#Imp.11475.b.10">en</lem>
@@ -510,8 +513,12 @@
                </app></l>
             <l ana="#adv_rel">Que ses sermons fascheux et tristes</l>
             <!-- Saut#18 --><anchor type="saut#18"/>
-            <l n="96"><reg>C'est</reg> <app><lem wit="#NAF1870">affaire</lem><rdg wit="#Imp.11475.b.10">à faire</rdg></app> aux <orgName type="secte" subtype="évangéliste">evangelistes</orgName></l>
-            <l><app>
+            <l n="96" ana="#persécutions"><reg>C'est</reg>
+               <app>
+                  <lem wit="#NAF1870">affaire</lem>
+                  <rdg wit="#Imp.11475.b.10">à faire</rdg>
+               </app> aux <orgName type="secte" subtype="évangéliste">evangelistes</orgName></l>
+            <l ana="#persécutions"><app>
                   <lem wit="#NAF1870">La croix de <persName key="Jésus-Christ"
                      >Jésuchrist</persName></lem>
                   <rdg>De Jesus Christ la croix</rdg>
@@ -519,128 +526,263 @@
             <!-- Saut#19 --><anchor type="saut#19"/>
             <l ana="#adr">Je te supplye me supporter</l>
             <l ana="#guerre">Je pensoys parler de la guerre</l>
-            <l n="100" ><app><lem wit="#NAF1870">Et tous furent ruez</lem><rdg wit="#Imp.11475.b.10">Tous furent rués mors</rdg></app> par terre</l>
-            <l>Faisans <app><lem wit="#NAF1870">leurs renvitaillemens</lem><rdg wit="#Imp.11475.b.10">le envictaillement</rdg></app></l>
+            <l n="100" ana="#guerre"><app>
+                  <lem wit="#NAF1870">Et tous furent ruez</lem>
+                  <rdg wit="#Imp.11475.b.10">Tous furent rués mors</rdg>
+               </app> par terre</l>
+            <l ana="#guerre">Faisans <app>
+                  <lem wit="#NAF1870">leurs renvitaillemens</lem>
+                  <rdg wit="#Imp.11475.b.10">le envictaillement</rdg>
+               </app></l><!-- Journée de St Quentin -->
+            <!-- Saut#20 --><anchor type="saut#20"/><!-- Contre Rome et l'Eglise -->
             <l>Puis tant de beaulx habillemens</l>
-            <l>Chasubles, tunicques et chappes</l>
-            <l n="104">Ung grand messel et ses satrappes</l><!-- A vérifier -->
-            
-            
-            
-            
-            <l>Je <reg>t'en</reg> ay bien voulu escripre</l>
-            <l>Veu <reg>qu'il</reg> y a trop de quoy rire</l>
-            <l>Voyant telles chasses adorer</l>
-            <l n="108">Quoy rire mais plustost plorer</l>
-            <l>Nous debvrions en oyant telz comptes</l>
-            <l>Car princes seigneurs ducs et contes</l>
-            <l>Les premiers de la fleur de lys</l>
-            <l n="112">Furent tous <reg>là</reg> ensévelys</l>
+            <l>Chasubles, tunicques et chappes <note resp="editor" type="crit">Cf. Réf. n°20, "Le
+                  coq à l'asne de frère Thomas de Tireloque":"Escutz, doreures ou carcans /
+                  Manchons, pastenostres ou gandz / Sont les fillets, tentes et lacz / D’abbez,
+                  d'evesques &amp; prelatz", v. 154-157.</note></l>
+            <l n="104"><app>
+                  <lem wit="#Imp.11475.b.10">Du grand messire</lem>
+                  <rdg wit="#NAF1870">Ung grand messel</rdg>
+               </app> et ses satrappes</l>
+            <l ana="#ethos">Je <reg>t'en</reg> ay bien voulu escripre</l>
+            <l ana="#satire">Veu <reg>qu'il</reg> y a trop de quoy rire</l>
+            <l ana="#sat_rel">Voyant <app>
+                  <lem wit="#NAF1870">telles chasses</lem>
+                  <rdg wit="#Imp.11475.b.10">telle chose</rdg>
+               </app> adorer</l>
+            <!-- Saut#21 --><anchor type="saut#21"/><!-- Retour à la guerre -->
+            <l n="108" ana="#misères"><app>
+                  <lem wit="#NAF1870">Quoy</lem>
+                  <rdg wit="#Imp.11475.b.10">Quel</rdg>
+               </app> rire! mais plustost plorer</l>
+            <l ana="#misères"><app>
+                  <lem>Nous devons d'oyr telz comptes,</lem>
+                  <rdg wit="#NAF1870">Nous debvrions en oyant</rdg>
+               </app> telz comptes</l>
+            <l><app>
+                  <lem wit="#NAF1870">Car princes, seigneurs,</lem>
+                  <rdg wit="#Imp.11475.b.10">Et oyr Princes,</rdg>
+               </app> ducs et contes</l>
+            <l><app>
+                  <lem wit="#NAF1870">Les premiers de la</lem>
+                  <rdg wit="#Imp.11475.b.10">Des plus vaillans du</rdg>
+               </app> fleur de lys</l>
+            <l n="112">Furent tous <reg>là</reg>
+               <reg>ensevelys</reg></l>
             <l>Par les chemyns et par les champs</l>
-            <!--  -->
-            <l>Ilz sont bien faschez ses marchans</l>
-            <l><reg>Qu'on</reg>
+            <!-- Saut#22 --><anchor type="saut#22"/><!-- Contre les marchands et le Purgatoire // Viret et Marcourt -->
+            <l ana="#abus">Ilz sont bien faschez ces <rs type="invective">marchans</rs></l>
+            <l ana="#abus"><reg>Qu'on</reg>
                <reg>n'achepte</reg> plus leurs chansons</l>
-            <l n="116">On ne peult trouver des maçons</l>
-            <l>Pour accoustrer leur <placeName>purgatoire</placeName></l>
-            <l>Qui leur servoit <reg>d'un</reg> oratoire</l>
-            <l>Que l'<persName key="Antéchrist">anthecrist</persName> avoict mys sus</l>
+            <l n="116" ana="#adv_rel">On ne peult trouver des maçons</l>
+            <l ana="#Plmq">Pour <app>
+                  <lem>racoustrer</lem>
+                  <rdg wit="#NAF1870">accoustrer</rdg>
+               </app> leur <placeName>purgatoire</placeName></l>
+            <l ana="#Plmq"><app>
+                  <lem wit="#NAF1870">Qui leur servoit <reg>d'un</reg> oratoire</lem>
+                  <rdg>C'est une erreur blasphematoire</rdg>
+               </app></l>
+            <l ana="#évangélique">Que l'<persName key="Antéchrist">anthecrist</persName> avoict mys
+               sus</l>
             <l n="120">Contraire <reg>à</reg> la mort de <persName key="Jésus">Jesus</persName></l>
-            <l>Parquoy il est force <reg>qu'il</reg> tombe</l>
-            <l>Il fault escripre sur sa tumbe</l>
-            <note>Vers manquant dans la version imprimée</note>
-            <l>Las o vos amici mei</l>
+            <l ana="#évangélique">Parquoy il est force <reg>qu'il</reg> tombe</l>
+            <l>Il fault escripre sur sa tumbe<note resp="editor" type="philo">Vers manquant dans la
+                  version imprimée de l'exemplaire de Londres.</note></l>
+            <l><app>
+                  <lem wit="#NAF1870">Las o vos amici mei</lem>
+                  <rdg wit="#Imp.11475.b.10">O vous amicis mei</rdg>
+               </app></l><!-- Cf. Viret I, p. 19 -->
             <l n="124"><rs type="injonction" subtype="impératif">Arrestez vous</rs> mater dei</l>
-            <l>Ung requiescant in pace</l>
+            <l ana="#leitmotiv">Ung requiescant in pace</l>
+            <!-- Saut#23 --><anchor type="saut#23"/>
             <l>Mieulx vauldroit <reg>qu'il</reg> feust trespassé</l>
             <l>Vingt ans y a le malheureux</l>
+            <!-- Saut#24 --><anchor type="saut#24"/>
             <l n="128">Ce sont actes fort rigoureux</l>
-            <l>Meurdrir ceulx qui confessent <persName>Dieu</persName></l>
+            <l><app>
+                  <lem wit="#NAF1870">Meurdrir</lem>
+                  <rdg wit="#Imp.11475.b.10">De meurtrir</rdg>
+               </app> ceulx qui confessent <persName>Dieu</persName></l>
             <l>Et aux blasphemes donner lieu</l>
             <l>Cela ne se veoit en <placeName><settlement type="country" key="Turquie"
                      >Turquye</settlement></placeName></l>
-            <l n="132">Puis <reg>qu'on</reg> ne veult que dieu <reg>l'on</reg> prye</l>
+            <l n="132">Puis <reg>qu'on</reg> ne veult que <persName>Dieu</persName>
+               <reg>l'on</reg> prye</l>
             <l>Nous <reg>n'en</reg> pouvons <expan>que</expan> mal attendre</l>
-            <l>Il en feit ja bien mettre en cendre</l>
-            <l>Tesmoing [les] quatorze de <placeName type="city" key="Meaux">Meaulx</placeName></l>
-            <!-- Saut# -->
+            <!-- Saut#25 --><anchor type="saut#25"/>
+            <l><app>
+                  <lem wit="#NAF1870">Il en feit ja</lem>
+                  <rdg wit="#Imp.11475.b.10">Jadis en fit</rdg>
+               </app> bien mettre en cendre</l>
+            <l>Tesmoing [les] quatorze de <placeName type="city" key="Meaux">Meaulx</placeName><note
+                  resp="editor" type="glose">En référence au supplice du 7 octobre 1546 des quatorze
+                  de Meaux.</note></l>
+            <!-- Saut#26 --><anchor type="saut#26"/>
             <l ana="#sat_rel" n="136"><placeName type="city" key="Paris">Paris</placeName> a deux
                places aux <rs type="animal">veaulx</rs></l>
             <l ana="#sat_rel">Dont la plus grande est la <placeName>Sorbonne</placeName></l>
-            <!--  -->
-            <l>La saincte evangille est tresbonne</l>
+            <!-- Saut#27--><anchor type="saut#27"/>
+            <l ana="#évangélique">La saincte evangille est tresbonne</l>
             <fw type="réclame" place="bottom-right">Il nous</fw>
             <pb n="20r"/>
             <fw type="pageNum" place="top-right">folio xx</fw>
-            <l>Il nous convient croire en icelle</l>
-            <l n="140">Trop mieulx en vault une estincelle</l>
-            <l>Que toutes les loix romanicques</l>
-            <l>Et les sermons pharisaiques</l>
-            <l>Qui preschent mais non pas souvent</l>
-            <l n="144">Excepté que dans leur couvent</l>
-            <l>Ilz font choses tant execrables</l>
-            <l><reg>Qu'il</reg> semble à veoir <expan>que</expan> tous les diables</l>
-            <l>Ayent pris ce lieu pour leur enfer</l>
+            <l ana="#évangélique">Il nous convient croire en icelle</l>
+            <l n="140" ana="#évangélique">Trop mieulx en vault une estincelle</l>
+            <l ana="#rome">Que toutes les loix romanicques</l><!-- Nouveau rapprochement avec Tireloque CAA20-->
+            <l ana="#adv_rel">Et les sermons pharisaiques</l>
+            <l ana="#adv_rel"><app>
+                  <lem wit="#Imp.11475.b.10">Qu'ilz</lem>
+                  <rdg wit="#NAF1870">Qui</rdg>
+               </app> preschent mais non pas souvent</l>
+            <l n="144" ana="#adv_rel">Excepté que <app>
+                  <lem wit="#NAF1870">dans leur</lem>
+                  <rdg wit="#Imp.11475.b.10">dedans le</rdg>
+               </app> couvent</l>
+            <l ana="#adv_rel">Ilz font choses <app>
+                  <lem wit="#NAF1870">tant</lem>
+                  <rdg wit="#Imp.11475.b.10">si</rdg>
+               </app> execrables</l>
+            <l ana="#adv_rel"><reg>Qu'il</reg> semble à veoir <expan>que</expan> tous les
+               diables</l>
+            <l ana="#sat_rel">Ayent pris ce lieu pour leur <placeName key="enfer"
+               >Enfer</placeName></l>
+            <!-- Saut#28 --><anchor type="saut#28"/>
             <l n="148">Plusieurs marchans gaignent en fer</l>
-            <l>Et le <roleName ref="#Paul_IV">pape</roleName> à vendre chappeaulx</l>
+            <l ana="#rome">Et le <roleName ref="#Paul_IV">pape</roleName> à vendre chappeaulx</l>
+            <!-- Saut#29 --><anchor type="saut#29"/>
             <l>Puis on trouve des maquereaulx</l>
             <l>Maintenant en plusieurs maisons</l>
             <l n="152" ana="#épanorthose">Je veulx dire en toutes saisons</l>
-            <!-- Saut -->
             <l>Comme <reg>l'on</reg> faict au moys <reg>d'avril</reg></l>
-            <l>Je seray roty sur le gril</l>
-            <l><reg>S'ilz</reg> me peulvent ung jour <expan>congnoistre</expan></l>
-            <l n="156"><reg>D'avoir</reg> parlé contre leur maistre</l>
-            <l>Des questions théologalles</l>
-            <l>On trouve force vertugalles</l>
-            <l>Dans les couvens de ses nonnettes</l>
-            <l n="160">Plusieurs <reg>d'icelles</reg> sont <rs type="équivoque">non nettes</rs></l>
-            <l>Donnent par tout de la <rs type="maladie" subtype="vérole">vérolle</rs></l>
-            <l>Sy tu parle [sic] de la parolle</l>
-            <l>Soys prudent sans rien desguiser</l>
-            <l n="164">La pluspart pour en deviser</l>
-            <l>Ont du scavoir jusques au bout</l>
-            <l>S'on leur parle de quicter tout</l>
-            <l>Et porter leur croix apres <persName>Dieu</persName></l>
-            <l n="168"><expan>Vostre</expan> parolle n'aura lieu</l>
-            <l>Ces freres ne le peulvent faire</l>
-            <l>Scays tu pas que <reg>l'on</reg> faict refaire</l>
-            <l>Les boullevers devant <placeName type="city" key="Bordeaux">Bordeaulx</placeName></l>
-            <l n="172">On verra jouer des cousteaulx</l>
-            <l>Avant que le proces se fyne</l>
-            <l><persName ref="ind:Charles_de_Lorraine">Le Cardinal de la Ruyne</persName></l>
-            <l>Mettra le feu de tous costez</l>
-            <l n="176">Sur ceulx lesquelz seront nottez</l>
-            <l>De pouldre <reg>à</reg> canon et fagots</l>
-            <l><reg>D'où</reg> vient que nul de ses <rs type="invective">cagots</rs></l>
-            <l>Pour leur loy ne souffrent martire</l>
-            <l n="180">Jamays <reg>à</reg> nul je <reg>n'oys</reg> dire</l>
-            <l><reg>Qu'on</reg> en soict mort par feu ou <expan>flamme</expan></l>
+            <!-- Saut#30 --><anchor type="saut#30"/>
+            <l ana="#persécutions">Je seray roty sur le gril</l>
+            <l ana="#persécutions"><reg>S'ilz</reg> me peulvent ung jour
+               <expan>congnoistre</expan></l>
+            <l n="156" ana="#persécutions"><reg>D'avoir</reg> parlé contre leur maistre</l>
+            <l ana="#persécutions">Des questions théologalles</l>
+            <!-- Saut#31 --><anchor type="saut#31/"/>
+            <l ana="#sat_rel"><app>
+                  <lem wit="#NAF1870">On trouve force vertugalles</lem>
+                  <rdg wit="#Imp.11475.b.10">Si est ce que les verdugales</rdg>
+               </app></l>
+            <l ana="#sat_rel"><app>
+                  <lem wit="#NAF1870">Dans les couvens de</lem>
+                  <rdg wit="#Imp.11475.b.10">Sont fort propres à</rdg>
+               </app> ses nonnettes</l>
+            <l n="160" ana="#sat_rel"><app>
+                  <lem wit="#NAF1870">Plusieurs <reg>d'icelles</reg></lem>
+                  <rdg wit="#Imp.11475.b.10">Aucunes d'elles</rdg>
+               </app> sont <rs type="équivoque">non nettes</rs></l>
+            <l ana="#sat_rel"><app>
+                  <lem wit="#NAF1870">Donnent par tout de</lem>
+                  <rdg wit="#Imp.11475.b.10">Bonnes pour avoir</rdg>
+               </app> la <rs type="maladie" subtype="vérole">vérolle</rs></l>
+            <!-- Saut#32 --><anchor type="saut#32"/>
+            <l ana="#évangélique">Sy tu parle [sic] de la parolle</l><!-- Rime à analyser du point de vue quantitatif dans le corpus -->
+            <l ana="#prudence"><rs type="injonction" subtype="impératif">Soys prudent</rs> sans rien
+               desguiser</l>
+            <l n="164" ana="#hypocrisie">La pluspart pour en deviser</l>
+            <l ana="#hypocrisie">Ont du scavoir jusques au bout</l>
+            <l ana="#évangélique">S'on leur parle de quicter tout</l>
+            <l ana="#évangélique">Et <app>
+                  <lem wit="#NAF1870">porter leur croix apres <persName>Dieu</persName></lem>
+                  <rdg wit="#Imp.11475.b.10">de Jesus la croix porter</rdg>
+               </app></l>
+            <l n="168" ana="#hypocrisie"><app>
+                  <lem wit="#NAF1870"><expan>Vostre</expan> parolle n'aura lieu</lem>
+                  <rdg wit="#Imp.11475.b.10">Je vous supplie me supporter</rdg>
+               </app></l>
+            <l ana="#hypocrisie"><app>
+                  <lem wit="#NAF1870">Ces freres ne le peulvent</lem>
+                  <rdg>Disant, je ne le peulx faire.</rdg>
+               </app> faire</l>
+            <!-- Saut#33 --><anchor type="saut#33"/>
+            <l ana="#actu">Scays tu pas <app>
+                  <lem wit="#NAF1870">que <reg>l'on</reg></lem>
+                  <rdg wit="#Imp.11475.b.10">qu'on</rdg>
+               </app> faict refaire</l>
+            <l ana="#actu">Les boullevers <app>
+                  <lem wit="#NAF1870">devant</lem>
+                  <rdg wit="#Imp.11475.b.10">de devant</rdg>
+               </app>
+               <placeName type="city" key="Bordeaux">Bordeaulx</placeName></l>
+            <!-- Saut#34 --><anchor type="saut#34"/>
+            <l n="172">On verra <app>
+                  <lem wit="#NAF1870">jouer</lem>
+                  <rdg wit="#Imp.11475.b.10">bien jouer</rdg>
+               </app> des cousteaulx<note resp="editor" type="ling"><hi rend="italic">Jouer des
+                     couteaux</hi>: "Se battre, attaquer", Di Stefano.</note></l>
+            <l>Avant que le proces se fyne</l><!-- Quel procès? -->
+            <!-- Saut#35 --><anchor type="saut#35"/>
+            <l ana="#sat_pers"><persName ref="ind:Charles_de_Lorraine" key="Charles de Lorraine">Le
+                  Cardinal de la Ruyne</persName></l>
+            <l ana="#sat_pers">Mettra le feu de tous costez</l>
+            <l n="176" ana="#persécutions"><app>
+                  <lem wit="#NAF1870">Sur ceulx lesquelz seront nottez</lem>
+                  <rdg>Puis tous leurs livres sont cottez</rdg>
+               </app></l>
+            <l ana="#persécutions">De pouldre <reg>à</reg> canon et fagots</l>
+            <l ana="#adv_rel"><reg>D'où</reg> vient que <reg>nul[z]</reg> de ses <rs
+                  type="invective">cagots</rs></l>
+            <l ana="#persécutions">Pour leur loy ne souffrent martire</l>
+            <l n="180" ana="#adv_rel">Jamays <reg>à</reg> nul je <reg>n'oys</reg> dire</l>
+            <l ana="#persécutions"><app>
+                  <lem wit="#NAF1870"><reg>Qu'on</reg> en soict mort</lem>
+                  <rdg wit="#Imp.11475.b.10">Qu'un d'eulx fust mort</rdg>
+               </app> par feu ou <expan>flamme</expan></l>
             <fw type="sig" place="bottom-right">E iiii</fw>
             <pb n="20v"/>
-            <l>Exepté pour <reg>l'amour</reg> des femmes</l>
-            <l>Souvent sont tant amoureux d'elles</l>
-            <l n="184"><reg>Qu'ilz</reg> bruslent vifs comme chandelles</l>
-            <l ana="#maladie">Plusieurs en sont borgnes <expan>et</expan> boitteux</l>
-            <l ana="#maladie">Vérollée chancreux et goutteux</l>
-            <l>Voilà la persécution</l>
-            <l n="188">De ceste génération</l>
+            <l ana="#sat_rel"><app>
+                  <lem wit="#NAF1870">Exepté pour <reg>l'amour</reg></lem>
+                  <rdg wit="#Imp.11475.b.10">Si ce n'est à parler</rdg>
+               </app> des femmes</l>
+            <l ana="#sat_rel"><app>
+                  <lem wit="#NAF1870">Souvent</lem>
+                  <rdg wit="#Imp.11475.b.10">Car ils</rdg>
+               </app> sont tant amoureux d'elles</l>
+            <l n="184" ana="#sat_rel"><reg>Qu'ilz</reg> bruslent vifs comme chandelles</l>
+            <l ana="#maladie">Plusieurs en sont borgnes <app>
+                  <lem wit="#Imp.11475.b.10">,</lem>
+                  <rdg wit="#NAF1870"><expan>et</expan></rdg>
+               </app> boitteux</l>
+            <l ana="#maladie">Vérollés, chancreux et goutteux</l>
+            <l ana="#adv_rel">Voilà la persécution</l>
+            <l n="188" ana="#adv_rel">De ceste génération</l>
             <l ana="#imprécation">Que mauldite soict la <rs type="invective">vermyne</rs></l>
-            <l>Elle est tousjours aussy maligne</l>
-            <l><reg>Qu'elle</reg> fut onq la vielle mulle</l>
+            <!-- Saut#36 --><anchor type="saut#36"/>
+            <l ana="#sat_pers">Elle est tousjours aussy maligne</l>
+            <l ana="#sat_pers"><app>
+                  <lem wit="#NAF1870"><reg>Qu'elle</reg> fut onq <rs type="invective">la vielle <rs
+                           type="animal" subtype="équidé" key="mule">mulle</rs></rs></lem>
+                  <rdg wit="#Imp.11475.b.10">Que onques jamais je l'ay veue.</rdg>
+               </app></l>
             <l n="192">Je ne scay sy par la bulle</l>
-            <l>Du <roleName ref="#Paul_IV">pere sainct</roleName> il la dispence</l>
-            
-            <l>Plusieurs pour remplir leur pence</l>
-            <l>Ont renoncé Dieu et la foy</l>
-            <l n="196">Et sont tombez en desarroy</l>
-            <l>Comme on dict ilz craignent la touche</l>
-            
-            <l>De jurer <persName>Dieu</persName>
+            <l ana="#rome">Du <roleName ref="#Paul_IV">pere sainct</roleName>
+               <app>
+                  <lem wit="#NAF1870">il la dispence</lem>
+                  <rdg wit="#Imp.11475.b.10">est dispensée</rdg>
+               </app></l>
+            <!-- Saut#37 --><anchor type="saut#37"/>
+            <l ana="#sat_rel">Plusieurs pour <app>
+                  <lem wit="#NAF1870">remplir leur pence</lem>
+                  <rdg ana="#Imp.11475.b.10">avoir la pensée</rdg>
+               </app></l>
+            <l ana="#sat_rel">Ont renoncé <persName>Dieu</persName> et sa loy</l>
+            <l n="196" ana="#sat_rel"><app>
+                  <lem wit="#NAF1870">Et sont tombez en desarroy</lem>
+                  <rdg wit="#Imp.11475.b.10">Monstrant qu'ilz sont de bas alloy</rdg>
+               </app></l>
+            <l ana="#lâcheté">Comme on dict ilz <rs type="locution">craignent la touche</rs><note
+                  resp="editor" type="ling"><hi rend="italic">Craindre la touche</hi>: "Avoir peur
+                  des coups", Di Stefano.</note></l>
+            <!-- Saut#38 --><anchor type="saut#38"/><!-- blasphème -->
+            <l ana="#sat_rel">De jurer <persName>Dieu</persName>
                <reg>à</reg> plaine bouche</l>
-            <l>On <reg>n'en</reg> est nullement repris</l>
+            <l ana="#sat_rel">On <reg>n'en</reg> est nullement repris</l>
+            <!-- Saut#39 --><anchor type="saut#39"/>
             <l n="200">Le <persName key="Jésus">filz de Dieu</persName> ont mys à pris</l>
-            <l>Et le vendent comme <persName>Judas</persName></l>
+            <l>Et le vendent comme <persName key="Judas">Judas</persName></l>
             <l ana="#sat_rel">Ilz sont serviteurs de <persName type="mythologie" key="Midas"
                   >Mydas</persName></l>
             <l ana="#corruption">Tous sont lyez <reg>à</reg> sa cordelle</l>
@@ -781,10 +923,8 @@
             <l>Comment peult il estre saulvé</l>
             <l>Veu qu'il ne dict pater ny avé</l>
             <l n="328">Pour l'ame d'un tel personnaige</l>
-            
             <l>Puis ung chascun selon son aage</l>
             <l><reg>N'a</reg> des biens tant <reg>qu'il</reg> en voudroict</l>
-            
             <l ana="#mtd">Je feray fin en cest endroict</l>
             <l n="332">Priant au seigneur tout puissant</l>
             <l>Qu'il face ung chascun jouyssant</l>

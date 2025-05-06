@@ -194,6 +194,8 @@
       <revisionDesc>
          <change><date when="2025-04-22">Mardi 22 avril 2025</date>Début de transcription -> v.
             100.</change>
+         <change><date when="2025-05-03">Samedi 3 mai 2025</date>Ajout des sauts logiques et de
+            balises @ana. Encodage de niveau 2.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -439,56 +441,59 @@
                   <lem wit="#fr12795">de fer</lem>
                   <rdg wit="#Cod10203">d’enfer</rdg>
                </app>.</l>
-            
-            
             <!-- Saut#18 --><anchor type="saut#18"/>
             <l ana="#Plmq">Si nous n’allons plus en <placeName type="enfer">enfer</placeName></l>
             <l><app>
                   <lem wit="#fr12795">Ce bien</lem>
                   <rdg wit="#Cod10203">Combien</rdg>
                </app> nous vient de noz merites</l>
+            <!-- Saut#19 --><anchor type="saut#19"/>
             <l n="104"><rs type="injonction" subtype="impératif">Garde toy</rs> bien que tu
                n’irrites</l>
             <l ana="#adv_rel">Les haulz bonnetz qui sont cornuz.</l>
-            <l>Ils voient les povres tous nudz</l>
-            <l>Mourir de faim, <app>
+            <l ana="#misères">Ils voient les povres tous nudz</l>
+            <l ana="#misères">Mourir de faim, <app>
                   <lem wit="#fr12795">ô cueur meschant</lem>
                   <rdg wit="#Cod10203">et si hont l’argent,</rdg>
                </app></l>
-            <l n="108"><app>
+            <l n="108" ana="#argent"><app>
                   <lem wit="#fr12795">Et si ont chandeliers d'argent</lem>
                   <rdg wit="#Cod10203">Lequel les damne par son art gent</rdg>
                </app></l>
-            <l>Et <app>
+            <l ana="#sat_rel">Et <app>
                   <lem wit="#fr12795">tant d'imaiges bien dorées</lem>
                   <rdg wit="#Cod10203">si ont tant d’images dorés</rdg>
                </app>.</l>
-            <l>Aussi <app>
+            <l ana="#sat_rel">Aussi <app>
                   <lem wit="#fr12795">sont elles adorées</lem>
                   <rdg wit="#Cod10203">sont ilz seulz adorés</rdg>
                </app></l>
-            <l>Des idolastres comme Dieu.</l>
+            <l ana="#sat_rel">Des <rs type="invective">idolastres</rs> comme
+                  <persName>Dieu</persName>.</l>
+            <!-- Saut#20 --><anchor type="saut#20"/>
             <l n="112">Mais quant au regard du meillieu</l>
             <l>Noz maystres veullent le hault bout</l>
-            <l>Et veullent estre <app>
+            <l ana="#sat_rel">Et veullent estre <app>
                   <lem wit="#fr12795">dictz</lem>
                   <rdg wit="#Cod10203">dieux</rdg>
                </app> partout</l>
-            <l>Grans inquisiteurs de la foy.</l>
-            <l n="116">Toutesfois à ce que je voy</l>
+            <l ana="#sat_rel">Grans inquisiteurs de la foy.</l>
+            <l n="116" ana="#ethos">Toutesfois à ce que je voy</l>
             <pb n="184v"/>
-            <l>Il n’en fault parler ne rien dire,</l>
-            <l>Si tu as <choice>
+            <l ana="#prudence">Il n’en fault parler ne rien dire,</l>
+            <l ana="#prudence">Si tu as <choice>
                   <reg>grand</reg>
                </choice> envye de rire.</l>
-            <l>Tu seras saige, si me croys.</l>
+            <l ana="#prudence">Tu seras saige, si me croys.</l>
+            <!-- Saut#21 --><anchor type="saut#21"/>
             <l n="120"><app>
                   <lem wit="#fr12795">Car</lem>
                   <rdg wit="#Cod10203">Et</rdg>
                </app> ce beau signe de la croix</l>
             <l>Est si plaisant, si le contemples,</l>
-            <l>Que <expan>prebstres</expan> &amp; moynes es temples</l>
-            <l>Chantent de joye en le voyant.</l>
+            <l ana="#sat_rel">Que <expan>prebstres</expan> &amp; moynes es temples</l>
+            <l ana="#sat_rel">Chantent de joye en le voyant.</l>
+            <!-- Saut#22 --><anchor type="saut#22"/>
             <l n="124">Pour cela <app>
                   <lem wit="#fr12795">non</lem>
                   <rdg wit="#Cod10203">on</rdg>
@@ -497,13 +502,15 @@
             <l>Ung tas de penthagruelistes</l>
             <l>Veullent corriger les grans clercz,</l>
             <l n="128">Disant qu’ilz sont semez bien clers,</l>
-            <l>Ceulx <reg>là</reg> qui prient Dieu sans rien prendre.</l>
-            <l>Regarde que c’est d’entreprendre</l>
+            <l>Ceulx <reg>là</reg> qui prient <persName>Dieu</persName> sans rien prendre.</l>
+            <!-- Saut#23 --><anchor type="saut#23"/>
+            <l><rs type="injonction" subtype="impératif">Regarde</rs> que c’est d’entreprendre</l>
             <l><app>
                   <lem wit="#fr12795">Faire</lem>
                   <rdg wit="#Cod10203">Lever</rdg>
-               </app> la guerre a noz pellez</l>
-            <l n="132">Ilz sont des ydiotz appellez</l>
+               </app> la guerre <reg>à</reg> noz pellez</l>
+            <!-- Saut#24 --><anchor type="saut#24"/>
+            <l n="132">Ilz sont des ydiotz appellez</l><!-- A vérifier -->
             <l><app>
                   <lem wit="#fr12795">Ces sainctz</lem>
                   <rdg wit="#Cod10203">Tressaincts</rdg>
@@ -512,9 +519,11 @@
                   <rdg wit="#Cod10203">terre</rdg>
                </app>.</l>
             <!-- Erreurs de Meylan -->
-            <l>Mais pour vray dire, que je n’erre,</l>
-            <l>Honneur <app>
-                  <lem>est du <reg>à</reg> saincte</lem>
+            <!-- Saut#25 --><anchor type="saut#25"/>
+            <l ana="#mtd">Mais pour vray dire, que je n’erre,</l>
+            <l ana="#sat_rel">Honneur <app>
+                  <lem>est <reg>dû</reg>
+                     <reg>à</reg> saincte</lem>
                   <rdg wit="#Cod10203">appertient à l’</rdg>
                </app>eglise,</l>
             <l n="136">Pourveu qu’un <rs type="animal" subtype="canidé" key="loup">loup</rs> ne se
@@ -531,15 +540,17 @@
             <pb n="185r"/>
             <fw type="pageNum" place="top-right">185</fw>
             <l n="144">Qui vouldroit envoyer aux champs</l>
-            <l>Hors de moustiers tous les marchans?</l>
+            <l>Hors de moustiers tous les marchans</l>
             <l><app>
-                  <lem wit="#fr12795">Qui chanteroit plus la grant messe?</lem>
+                  <lem wit="#fr12795">Qui chanteroit plus la grant messe</lem>
                   <rdg wit="#Cod10203">Qui ne chanteroit plus grand messe</rdg>
                </app>?<note resp="editor" type="philo">Contrairement à Henri Meylan, nous maintenons
                   la forme verbale originale au singulier et préférons lire une seconde
                   interrogation en écho à celle du vers 144.</note></l>
+            <!-- Saut#26 --><anchor type="saut#26"/>
             <l>Je diz pourtant qu'une promesse</l>
             <l n="148">Se faict souvent sans la tenir</l>
+            <!-- Saut#27 --><anchor type="saut#27"/>
             <l><app>
                   <lem wit="#fr12795">Qui ne soit vrai se</lem>
                   <rdg wit="#Cod10203">Et qu’il soit vray ne veulx</rdg>
@@ -548,11 +559,12 @@
                   <lem wit="#fr12795">Estant</lem>
                   <rdg wit="#Cod10203">A estre</rdg>
                </app> abbé, ou moyne, ou prestre.</l>
-            <l>C’est ung veau qu’on <app>
+            <l>C’est ung <rs type="animal" key="veau">veau</rs> qu’on <app>
                   <lem wit="#fr12795">doit</lem>
                   <rdg wit="#Cod10203">deust</rdg>
                </app> mener paistre,</l>
             <l n="152">S’il n’a quelque fille de joye.</l>
+            <!-- Saut#28 --><anchor type="saut#28"/>
             <l><app>
                   <lem wit="#fr12795">Au regard des robbes</lem>
                   <rdg wit="#Cod10203"><reg>À</reg> propos de robbe</rdg>
@@ -563,16 +575,19 @@
                   <lem wit="#fr12795">fillets</lem>
                   <rdg wit="#Cod10203">filles</rdg>
                </app>, tentes et lacz</l>
-            <l>>D’abbez, d'evesques &amp; prelatz.</l>
+            <l ana="#sat_rel">D’abbez, d'evesques &amp; prelatz.</l>
             <l ana="#mtd">Et puis quoy ? En faut il parler ?</l>
+            <!-- Saut#29 --><anchor type="saut#29"/>
             <l>Nenny, <expan>Monsieur</expan>, ce fust par l’aer</l>
             <l n="160">Qu’on veit lors les mouches <persName><expan>sainct</expan>
                Marc</persName>.</l>
+            <!-- Saut#30 --><anchor type="saut#30"/>
             <l><app>
                   <lem wit="#fr12795">Et qui plus est</lem>
                   <rdg wit="#Cod10203">Et qu’ainsi soit</rdg>
                </app> dedans ung parc</l>
             <l>Bien fermé l’on veoit prou de bestes.</l>
+            <!-- Saut#31 --><anchor type="saut#31"/>
             <l>Or <app>
                   <lem wit="#fr12795">sus <rs type="injonction" subtype="impératif"
                      >baissez</rs></lem>
@@ -587,51 +602,60 @@
                   <lem wit="#fr12795">est au grand</lem>
                   <rdg wit="#Cod10203">soit au</rdg>
                </app> grenier du <persName>pappe</persName>,</l>
-            <l><expan>Vous</expan> en aurez pourveu qu’il happe,</l>
+            <l ana="#rome"><expan>Vous</expan> en aurez pourveu qu’il happe,</l>
             <pb n="185v"/>
-            <l n="168">Tant que vouldrez pour des ducatz.</l>
-            <l><app>
+            <l n="168" ana="#abus">Tant que vouldrez pour des ducatz.</l>
+            <l ana="#mtd"><app>
                   <lem wit="#fr12795">Mais</lem>
                   <rdg wit="#Cod10203">Et</rdg>
                </app> pour <app>
                   <lem wit="#fr12795">bien</lem>
                   <rdg wit="#Cod10203">mieulx</rdg>
                </app> entendre le cas,</l>
-            <l><rs type="injonction" subtype="impératif">Parlons</rs> ung peu des beaulx
+            <l ana="#Plmq"><rs type="injonction" subtype="impératif">Parlons</rs> ung peu des beaulx
                pardons,</l>
-            <l>[Car] il les fault gaigner par dons,</l>
-            <l n="172">Ou le marchant trop y perdroit.</l>
-            <l>Boyteux, <rs type="injonction" subtype="impératif">apprens</rs>
+            <l ana="#abus">[Car] il les fault gaigner par dons,</l>
+            <l n="172" ana="#abus">Ou le marchant trop y perdroit.</l>
+            <!-- Saut#32 -->
+            <l ana="#corps">Boyteux, <rs type="injonction" subtype="impératif">apprens</rs>
                <reg>à</reg> marcher droict</l>
             <l>Et <app>
                   <lem wit="#fr12795">je te suivray</lem>
                   <rdg wit="#Cod10203">on te suivra</rdg>
                </app> pas <reg>à</reg> pas.</l>
+            <!-- Saut#33 --><anchor type="saut#33"/>
             <l>Il fault manger pour deux repas,</l>
             <l n="176">Puisqu'il est jeusne, <rs type="injonction" subtype="impératif">avalle</rs>,
                   <rs type="injonction" subtype="impératif">avalle</rs>.</l>
             <!-- erreur de Meylan cf. f°5(15) cod 10203 -->
+            <!-- Saut#34 --><anchor type="saut#34"/>
             <l>La donaison, dist <persName>Laurens Valle</persName>,</l>
             <l>De <persName>Constantin</persName> est mensongiere.</l>
+            <!-- Saut#35 --><anchor type="saut#35"/>
             <l>Tant <app>
                   <lem wit="#fr12795">qu'une fine messaigiere</lem>
                   <rdg wit="#Cod10203">comme femme mesnagiere</rdg>
                </app>,</l>
             <l n="180">Bien matin se trouve <reg>à</reg> la messe.</l>
+            <!-- Saut#36 --><anchor type="saut#36"/>
             <!-- vers absents du codex 10203 -->
-            <l>Mais je te pry diz moy <expan>comme</expan> est-ce <note resp="editor" type="philo"
-               /></l>
+            <l>Mais je te pry <rs type="injonction" subtype="impératif">diz moy</rs>
+               <expan>comme</expan> est-ce <note resp="editor" type="philo"/></l>
             <l>Que nous <unclear>aurons</unclear> veu tant de monde</l>
+            <!-- Saut#37 --><anchor type="saut#37"/>
             <l>Par la raison <reg>où</reg> je me fonde</l>
             <l n="184">Miracles ont encores le temps</l>
+            <!-- Saut#38 --><anchor type="saut#38"/>
             <l>Si ce n'estoit le mal de dentz</l>
             <l><persName>Sainct Laurent</persName> n'auroit pas grant presse</l>
+            <!-- Saut#39 --><anchor type="saut#39"/>
             <!-- reprise du codex 10203 -->
             <l>Encores dict <app>
                   <lem wit="#fr12795">on</lem>
                   <rdg wit="#Cod10203">il</rdg>
                </app> que c’est promesse</l>
             <l n="188">De jurer <persName>Dieu</persName> comme un saulnier.</l>
+            <!-- Saut#40 --><anchor type="saut#40"/>
             <l>Vrayement je ne veulx pas nyer</l>
             <l>Que si les femmes estudient,</l>
             <l>Que les gens de scavoir ne dient</l>
@@ -640,10 +664,10 @@
             <l n="192">Qu’elles ont <app>
                   <lem wit="#fr12795">l'esperit bien</lem>
                   <rdg wit="#Cod10203">l’esprit bon et</rdg>
-               </app> agille.</l>
-            <!-- Saut# -->
-            <l>Pourquoy lisons nous l’evangille,</l>
-            <l>Puisque le <persName>pape</persName> en est marry ?</l>
+               </app> agille.</l><!-- Voir Erasme et Marot -->
+            <!-- Saut#41 --><anchor type="saut#41"/>
+            <l ana="#Plmq">Pourquoy lisons nous l’evangille,</l>
+            <l ana="#rome">Puisque le <persName>pape</persName> en est marry?</l>
             <l>Il vauldroit mieulx, par <app>
                   <lem wit="#fr12795">Jarry</lem>
                   <rdg wit="#Cod10203">sainct Marry</rdg>
@@ -655,13 +679,15 @@
                   <rdg wit="#fr12795">tout amour est</rdg>
                </app> enclose,</l>
             <l>Ou bien les epistres d’<persName key="Ovide">Ovide</persName>.</l>
+            <!-- Saut#42 --><anchor type="saut#42"/>
             <l>N'a il pas le cerveau bien vuyde,</l>
             <l n="200">N’est il pas contraire <reg>à</reg> son bien</l>
             <l>Qui se marie &amp; si n’a riens,</l>
             <l>Ou s’il en a, c’est peu de chose.</l>
+            <!-- Saut#43 --><anchor type="saut#43"/>
             <l>Tu diz ainsi, affermer j’ose,</l>
             <l n="204">Que <persName>Dieu</persName> n’oublye ses enfans.</l>
-            <l>Homme mondain, je te deffendz</l>
+            <l><rs type="invective">Homme mondain</rs>, je te deffendz</l>
             <l>Que tu n’y mectes ta <app>
                   <lem wit="#fr12795">fiance</lem>
                   <rdg wit="#Cod10203">sciense</rdg>
@@ -671,10 +697,11 @@
                   <lem wit="#Cod10203">La desprisant se</lem>
                   <rdg wit="#fr12795">En la desprisant</rdg>
                </app> dict fidelle,</l>
-            <l><reg>Ô</reg> le malheureux infidelle</l>
+            <l><reg>Ô</reg>
+               <rs type="invective">le malheureux infidelle</rs></l>
             <l>Qui ne croyt pas en <persName key="Jésus">Jesus Christ</persName>!</l>
-            <l>Ceste doctrine d’<persName type="antéchrist" key="antéchrist"
-               >Antechrist</persName></l>
+            <l ana="#adv_rel">Ceste doctrine d’<persName type="antéchrist" key="antéchrist"
+                  >Antechrist</persName></l>
             <l n="212">Sera elle plus gueres en regne?</l>
             <l>Car une forte bride <app>
                   <lem wit="#fr12795">ou resne</lem>
@@ -684,6 +711,7 @@
                   <lem wit="#fr12795">Dompte</lem>
                   <rdg wit="#Cod10203">Donde</rdg>
                </app> ung poulain plain de fureur.</l>
+            <!-- Saut#44 --><anchor type="saut#44"/>
             <pb n="186v"/>
             <l>Mais quoy, on <app>
                   <lem wit="#fr12795">fait</lem>
@@ -717,10 +745,11 @@
                   <rdg wit="#fr12795">avoir</rdg>
                </app> espouse,</l>
             <l n="228">J’entendz de <expan>messieurs</expan> de l’esglise.</l>
-            <l>Bien peu s’en fault que je ne lyse</l>
-            <l>Au cueur de quelque bon papiste:</l>
-            <l><rs type="interjection">Mere de Dieu</rs>, quel lhuteriste!</l>
-            <l n="232">Dist il en voiant mon escript.</l>
+            <!-- Saut#45 --><anchor type="saut#45"/>
+            <l ana="#adv_rel">Bien peu s’en fault que je ne lyse</l>
+            <l ana="#adv_rel">Au cueur de quelque bon <rs type="invective">papiste</rs>:</l>
+            <l ana="#ironie"><rs type="interjection">Mere de Dieu</rs>, quel lhuteriste!</l>
+            <l n="232" ana="#ethos">Dist il en voiant mon escript.</l>
             <l><app>
                   <lem wit="#fr12795">Mais</lem>
                   <rdg wit="#Cod10203">Or</rdg>
@@ -732,21 +761,25 @@
                   <lem wit="#fr12795">prouvent par</lem>
                   <rdg wit="#Cod10203">prennent pas</rdg>
                </app> l’evangille.</l>
+            <!-- Saut#46 --><anchor type="saut#46"/>
             <l>C’est le cousteau qui adnichille</l>
-            <l>Et qui destruict tout bien &amp; mal</l>
-            <l>Quant tout est dict povoir esgal.</l>
+            <l>Et qui destruict tout bien &amp; mal</l><!-- Probable référence biblique -> rech. dans Ps. -->
+            <!-- Saut#47 --><anchor type="saut#47"/>
+            <l ana="#gnomique">Quant tout est dict povoir esgal.</l>
             <pb n="187r"/>
             <fw type="pageNum" place="top-right">187</fw>
-            <l n="240">Au bon vouloir est un grand heur.</l>
-            <l>Qu’ainsi soit <persName>Dieu</persName> le createur</l>
-            <l>Veult estre servy en latin.</l>
-            <l>Mais ma cousine <reg>à</reg> ce matin</l>
-            <l n="244">Disoit ses heures en francois.</l>
-            <l><app>
+            <l n="240" ana="#gnomique">Au bon vouloir est un grand heur.</l>
+            <!-- Saut#48 --><anchor type="saut#48"/>
+            <l ana="#Plmq">Qu’ainsi soit <persName>Dieu</persName> le createur</l>
+            <l ana="#Plmq">Veult estre servy en latin.</l>
+            <l ana="#ironie">Mais ma cousine <reg>à</reg> ce matin</l>
+            <l n="244" ana="#ironie">Disoit ses heures en francois.</l>
+            <l ana="#ironie"><app>
                   <lem wit="#Cod10203">Ma foy</lem>
                   <rdg wit="#fr12795">Par mon</rdg>
                </app>, dist elle, je pensoys</l>
-            <l>Que <persName>Dieu</persName> entendist toutes langues.</l>
+            <l ana="#ironie">Que <persName>Dieu</persName> entendist toutes langues.</l>
+            <!-- Saut#49 --><anchor type="saut#49"/>
             <l><reg>À</reg> propos des longues harengues,</l>
             <l n="248">Veulx tu congnoistre ung hypocrite?</l>
             <l>C’est celuy qui quiert merite</l>
@@ -759,11 +792,11 @@
             <l n="252">Sans <app>
                   <lem wit="#fr12795">y penser</lem>
                   <rdg wit="#Cod10203">en gouster</rdg>
-               </app> n’entendre ung mot.</l>
-            <!-- Saut#-->
+               </app> n’entendre ung mot.</l><!-- Cf. Frère Jean -->
             <anchor type="saut#"/>
             <l>Vouldroys-tu ung plus vray marmot</l>
             <l>Qui trote ainsi meme des levres.</l>
+            <!-- Saut#50--><anchor type="saut#50"/>
             <l>Soit <expan>pour</expan>
                <app>
                   <lem>
@@ -772,38 +805,44 @@
                   <rdg wit="#Cod10203">conins perdrix</rdg>
                </app> ou <rs type="animal" subtype="lagomorphe" key="lièvre">lievres</rs>,</l>
             <l n="256"><expan>Monsieur</expan> a droict d’aller partout.</l>
+            <!-- Saut#51 --><anchor type="saut#51"/>
             <l>Il fault les mener jusqu’au bout</l>
-            <l>Ces villains qui groignent tousjours.</l>
+            <l>Ces <rs type="invective">villains</rs> qui groignent tousjours.</l>
+            <!-- Saut#52 --><anchor type="saut#52"/>
             <l>Prestres sont semblables <app>
                   <lem wit="#fr12795">à lours</lem>
                   <rdg wit="#Cod10203">aux sourts</rdg>
                </app><note resp="editor" type="ling"><hi rend="italic">Lourd</hi>: "idiot, sot",
                   Huguet.</note></l>
             <l n="260">Qui pour ung liart font troys pas.</l>
-            <l><app>
+            <!-- Saut#53 --><anchor type="saut#53"/>
+            <l ana="#persécutions"><app>
                   <lem wit="#fr12795">Toutes foys</lem>
                   <rdg wit="#Cod10203">Quant a moy</rdg>
                </app>, je n’en parle pas,</l>
-            <l>Je serois excommunié.</l>
-            <l>Quant on est prins &amp; bien lyé,</l>
-            <l n="264">Que sert il <app>
+            <l ana="#persécutions">Je serois excommunié.</l>
+            <!-- Saut#54 --><anchor type="saut#54"/>
+            <l ana="#persécutions">Quant on est prins &amp; bien lyé,</l>
+            <l n="264" ana="#persécutions">Que sert il <app>
                   <lem wit="#fr12795">de</lem>
                   <rdg wit="#Cod10203">a</rdg>
                </app> son repentir?</l>
-            <l>Je te veulx d’ung cas advertir,</l>
-            <l>Tu pleureras en lieu de rire,</l>
-            <l>Si tu veulx bien gouster et <app>
+            <!-- Saut#55 --><anchor type="saut#55"/>
+            <l ana="#mtd">Je te veulx d’ung cas advertir,</l>
+            <l ana="#misères">Tu pleureras en lieu de rire,</l>
+            <l ana="#abus">Si tu veulx bien gouster et <app>
                   <lem wit="#fr12795">lyre</lem>
                   <rdg wit="#Cod10203">dire</rdg>
                </app></l>
             <l n="268" ana="#abus">Les abbuz qui sont aujourdhuy.</l>
-            <l>Qui les faict congnoistre ? c’est luy.</l>
-            <l>Qui <app>
+            <l ana="#évangélique">Qui les faict congnoistre ? c’est luy.</l>
+            <l ana="#évangélique">Qui <app>
                   <lem wit="#fr12795">luy? c'est <persName>Dieu</persName>, </lem>
                   <rdg wit="#Cod10203">est ce luy?</rdg>
                </app> c’est <persName key="Jésus">Jesus-christ</persName>,</l>
-            <l>Qui nous a laissé par escript</l>
-            <l n="272">Sa saincte &amp; divine parolle.</l>
+            <l ana="#évangélique">Qui nous a laissé par escript</l>
+            <l n="272" ana="#évangélique">Sa saincte &amp; divine parolle.</l>
+            <!-- Saut#56 --><anchor type="saut#56"/>
             <l><app>
                   <lem wit="#fr12795">Ô la</lem>
                   <rdg wit="#Cod10203">Helas</rdg>
@@ -811,48 +850,55 @@
             <l>Tiendras tu plus gueres de jours</l>
             <l>Tant d’aveugles, muetz &amp; sourdz</l>
             <l>Prins &amp; liez dedans les lacqz?</l>
+            <!-- Saut#57 --><anchor type="saut#57"/>
             <l n="276" ana="#ethos">Or c’est assez, car je suis las,</l>
             <l ana="#mtd">Escripre en ryme sans propos.</l>
-            <l>Vivre a plaisir, estre en repoz</l>
-            <l>Sans <app>
+            <!-- Saut#58 --><anchor type="saut#58"/>
+            <l ana="#sat_rel">Vivre <reg>à</reg> plaisir, estre en repoz</l>
+            <l ana="#sat_rel">Sans <app>
                   <lem wit="#fr12795">faire rien</lem>
                   <rdg wit="#Cod10203">riens faire</rdg>
                </app> dedans ung cloistre,</l>
-            <l n="280">L'autruy gripper, le sien acroistre<note>À nouveau, ce vers est absent du
-                  codex 10203 de Vienne.</note></l>
+            <l n="280" ana="#sat_rel">L'autruy gripper, le sien acroistre<note>À nouveau, ce vers
+                  est absent du codex 10203 de Vienne.</note></l>
             <!-- Gripper! -->
-            <l>C’est l’observance <app>
+            <l ana="#rome">C’est l’observance <app>
                   <lem wit="#fr12795">des troys veulx</lem>
                   <rdg wit="#Cod10203">du grand prebstre</rdg>
                </app>.</l>
-            <l>Or pour la fin viser je veulx,<note resp="editor" type="philo">Le codex 10203 ajoute
-                  ici le vers: "Mais sans faire offrande &amp; veulx".</note></l>
+            <!-- Saut#59 --><anchor type="saut#59"/>
+            <l ana="#mtd">Or pour la fin viser je veulx,<note resp="editor" type="philo">Le codex
+                  10203 ajoute ici le vers: "Mais sans faire offrande &amp; veulx".</note></l>
             <l><app>
                   <lem wit="#fr12795">Et frapper <reg>à</reg></lem>
                   <rdg wit="#Cod10203">Frapper tout de</rdg>
                </app> ce coup au blanc.</l>
-            <l n="284">Quant le pasteur vestu de blanc</l>
-            <pb n=""/>
-            <l>Et gens portans rouges habitz</l>
-            <l>Donneront pasture aux <rs type="animal" key="brebis">brebiz</rs></l>
-            <l>Qui <app>
+            
+            
+            <!-- Saut#60 --><anchor type="saut#60"/>
+            <l n="284" ana="#sat_rel">Quant le pasteur vestu de blanc</l>
+            <pb n="187v"/><!-- A vérifier -->
+            <l ana="#sat_rel">Et gens portans rouges habitz</l>
+            <l ana="#évangélique">Donneront pasture aux <rs type="animal" key="brebis">brebiz</rs></l>
+            <l ana="#évangélique">Qui <app>
                   <lem wit="#fr12795">pour bien</lem>
                   <rdg wit="#Cod10203">sera</rdg>
                </app> nourrissante &amp; bonne,</l>
-            <l n="288">Quant les <rs type="occupation">theologiens</rs> de <placeName key="Sorbonne"
+            <l n="288" ana="#sat_rel">Quant les <rs type="occupation">theologiens</rs> de <placeName key="Sorbonne"
                   >Sorbonne</placeName></l>
-            <l>Prescheront la saincte Escripture,</l>
-            <l>Quant d’argent l’ardente pointure</l>
-            <l>En l’esglise n’aura plus lieu,</l>
-            <l n="292">Quant <app>
+            <l ana="#évangélique">Prescheront la saincte Escripture,</l>
+            <l ana="#corruption">Quant d’argent l’ardente pointure</l>
+            <l ana="#corruption">En l’esglise n’aura plus lieu,</l>
+            <l n="292" ana="#sat_rel">Quant <app>
                   <lem wit="#fr12795">nous guerrons</lem>
                   <rdg wit="#Cod10203">on querra</rdg>
                </app> l’honeur de <persName>Dieu</persName>,</l>
-            <l>Lors <app>
+            <l ana="#sat_rel">Lors <app>
                   <lem wit="#fr12795">maint bon <expan>chrestien</expan> pourra</lem>
                   <rdg wit="#Cod10203">mainctz chrestiens on poura</rdg>
                </app> veoir.</l>
-            <l>Adieu <app>
+            
+            <l ana="#conclusio">Adieu <app>
                   <lem wit="#fr12795">te</lem>
                   <rdg wit="#Cod10203">vous</rdg>
                </app> diz jusqu'au reveoir.</l>

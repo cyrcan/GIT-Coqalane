@@ -567,7 +567,9 @@
                <l ana="#satire"><rs type="invective">Soliciteurs faiseurs de clauses</rs>,</l>
                <l ana="#satire"><rs type="invective">Bailleurs d'avis</rs>, <rs type="invective"
                      >vendeurs de causes</rs>,</l>
-               <l ana="#satire">Les Sizamnes, les Arabins,</l>
+               <l ana="#satire">Les <orgName type="peuple" subtype="Tzigane">Sizamnes</orgName><note
+                     resp="editor" type="glose">Tziganes.</note>, les <orgName type="peuple"
+                     subtype="Arabe">Arabins</orgName>,</l>
                <l n="160" ana="#satire">Les <rs type="invective">grands babillards aux
                   festins</rs>,</l>
                <l ana="#satire">Les <persName ref="ind:Carnéade" key="Carnéade"
