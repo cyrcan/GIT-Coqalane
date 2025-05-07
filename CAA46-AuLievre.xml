@@ -786,7 +786,7 @@
             <l ana="#sat_rel">Ilz sont serviteurs de <persName type="mythologie" key="Midas"
                   >Mydas</persName></l>
             <l ana="#corruption">Tous sont lyez <reg>à</reg> sa cordelle</l>
-            <!-- Saut -->
+            <!-- Saut#40 --><anchor type="saut#40"\>
             <l n="204">Bon faict avoir prince fidelle</l>
             <l><reg>C'est</reg> ung grand heur pour le pays</l>
             <l>Plusieurs en sont moult esbahys</l>
@@ -800,21 +800,24 @@
             <l>Je prye <persName>Dieu</persName>
                <reg>qu'il</reg> les benye</l>
             <l>Et les maintienne en la foy <reg>ferme</reg></l>
-            <!-- Saut -->
+            <!-- Saut#41-->
             <l n="216">On dict que le <persName ref="#Termes">seigneur de Termes</persName></l>
             <l>A triomphé <reg>à</reg> son retour</l>
             <l>Aux ennemys feit un bon tour</l>
             <l>Il leur rendit bien la pareille</l>
+
             <l n="220"><reg>Ô</reg> Dieu de vertu nonpareille</l>
             <l>Est il aussy grand animal</l>
             <l><reg>Qu'estoit</reg> pour lors ce cardinal</l>
             <l>Qui vouloit aller à <placeName type="city" key="Genève">Genesve</placeName></l>
+
             <l n="224">Il est certain que la senéve</l>
             <l>Est plus petite qu'aultre graine</l>
             <l>Mais quant on la pille et esgraine</l>
             <l>Elle a une grande vertu</l>
             <fw type="réclame" place="bottom-right">C'est</fw>
             <pb n="21r"/>
+
             <fw type="pageNum" place="top-right">folio xxi</fw>
             <l n="228">Cest evesque de fer vestu</l>
             <l>Voulloit il poinct chasser aux loups</l>
@@ -832,7 +835,8 @@
             <l>Tesmoings en sont les tresoriers</l>
             <l>Excepté que les conseillers</l>
             <l>Peschent dans la fosse Sainct Jehan</l>
-            <l n="244">Puisqu'il tient Sainct Quentin et han</l>
+
+            <l n="244">Puisqu'il tient <placeName>Sainct Quentin</placeName> et <placeName>Han</placeName></l>
             <l>Il a beau venir <reg>à</reg>
                <placeName type="city" key="Paris">Paris</placeName></l>
             <l>Ha messieurs ce ne sont <rs type="équivoque">pas ris</rs></l>
@@ -842,8 +846,9 @@
             <l>Dieu le viendra exterminer</l>
             <l>S'il poursuyt de les mectre à mort</l>
             <l n="252">Les chrestiens <reg>n'ont</reg> poinct de support</l>
-            <l>Il fault qu'ils passent tous pas <reg>là</reg></l><note>Le vers suivant est
+            <l>Il fault qu'ils passent tous par <reg>là</reg></l><note>Le vers suivant est
                manquant.</note>
+
             <l>Qu'il se trouva fort estonné</l>
             <l>Aultant comme s'il eust tonné</l>
             <l n="256">Et se monstra fort amyable</l>
@@ -853,6 +858,7 @@
             <l n="260">Suyvant le mail qu'ils ont pensé</l>
             <l>Est il par le Roy dispencé</l>
             <l>D'inventer ses tourmens nouveaulx</l>
+
             <l>Il faict bon estre asnes ou veaulx</l>
             <l n="264">En court ilz sont les biens venuz</l>
             <l>Que ne prend on leurs revenus</l>
@@ -861,6 +867,7 @@
             <l n="268">Et l'habit de dessus leur dos</l>
             <fw type="sig" place="bottom-right">f i</fw>
             <pb n="21v"/>
+
             <l>Nous sommes tous de chair et <reg>d'os</reg></l>
             <l>Et envers le dieu souverain</l>
             <l>N'est différence de l'humain</l>
@@ -871,6 +878,7 @@
             <l n="276">Et plusieurs sans en rien dire</l>
             <l>Ilz besongnent bien <reg>à</reg> la tire</l>
             <l>C'est ung mestier qui leur plaist fort</l>
+
             <l>L'empereur faict tout son effort</l>
             <l n="280">De se venger ses maulx passés</l>
             <l>Apres pour les trespassez</l>
@@ -879,10 +887,12 @@
             <l n="284">N'en faict aulcune mention</l>
             <l>Mais par tresdure passion</l>
             <l>Christ a nos ames delivrées</l>
+
             <l><reg>À</reg> ceulx qui portent les livrées</l>
             <l n="288">De ton ennemy ne te fye</l>
             <l>Les serviteurs du vray messye</l>
             <l>N'ont rien que faire avec le <roleName>pape</roleName></l>
+
             <l>Je vouldrois bien avoir la chappe</l>
             <l n="292">Le jour de Caresme-prenant</l>
             <l>C'est ung habit bien advenant</l>
@@ -895,6 +905,7 @@
             <l n="300"><reg>À</reg> courir tous de franc couraige</l>
             <l>Contre ceste beste saulvaige</l>
             <l>Qui faict mourir et corps et ame</l>
+
             <l>Dieu maintienne la bonne dame</l>
             <l n="304">Et la veuille fortiffier</l>
             <l>Si quelle puisse ediffier</l>
