@@ -16,9 +16,10 @@
          <sourceDesc>
             <p>Copie qui est le seul témoin manuscrit de ce coq-à-l'âne publié par Henri Meylan en
                1956 d'après la version imprimée "Le coq aux lievres" (sic) qui présente des
-               coquilles, des oublis et plusieurs vers hypermétriques. Le ms. NAF 1870 vient la
-               compléter et élucider certains passages. Comme le précise Henri Meylan, le pluriel du
-               titre ne se justifie pas au regard des références internes du poème.</p>
+               coquilles, des oublis (le vers 255) et plusieurs vers hypermétriques (254). Le ms.
+               NAF 1870 vient la compléter et élucider certains passages. Comme le précise Henri
+               Meylan, le pluriel du titre ne se justifie pas au regard des références internes du
+               poème.</p>
             <p><listWit>
                   <witness>
                      <msDesc>
@@ -153,6 +154,7 @@
                <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
                <interp xml:id="practiques" ana="practiques">practiques</interp>
                <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="prière" ana="prière">prière</interp>
                <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
                <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
                <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
@@ -184,6 +186,7 @@
                <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
                <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
                <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
 
                <!-- V -->
                <interp xml:id="vanité" ana="vanité">vanité</interp>
@@ -781,170 +784,324 @@
                <reg>à</reg> plaine bouche</l>
             <l ana="#sat_rel">On <reg>n'en</reg> est nullement repris</l>
             <!-- Saut#39 --><anchor type="saut#39"/>
-            <l n="200">Le <persName key="Jésus">filz de Dieu</persName> ont mys à pris</l>
-            <l>Et le vendent comme <persName key="Judas">Judas</persName></l>
+            <l n="200" ana="#évangélique">Le <persName key="Jésus">filz de Dieu</persName> ont mys à
+               pris</l>
+            <l ana="#évangélique">Et le vendent comme <persName key="Judas">Judas</persName></l>
             <l ana="#sat_rel">Ilz sont serviteurs de <persName type="mythologie" key="Midas"
                   >Mydas</persName></l>
             <l ana="#corruption">Tous sont lyez <reg>à</reg> sa cordelle</l>
-            <!-- Saut#40 --><anchor type="saut#40"\>
-            <l n="204">Bon faict avoir prince fidelle</l>
-            <l><reg>C'est</reg> ung grand heur pour le pays</l>
-            <l>Plusieurs en sont moult esbahys</l>
-            <l>De la promesse <reg>qu'il</reg> luy feit</l>
-            <l n="208">Il en parloict <reg>à</reg> son proffict</l>
-            <l>Quant au <roleName ref="#François_II">Roy</roleName> demanda du moings</l>
-            <l>Cinquante mil hommes tesmoings</l>
-            <l>Pour prendre la possession</l>
-            <l n="212">De l'evesché du <placeName>mont Syon</placeName></l>
-            <l>Ilz sont fort belle compagnye</l>
-            <l>Je prye <persName>Dieu</persName>
-               <reg>qu'il</reg> les benye</l>
-            <l>Et les maintienne en la foy <reg>ferme</reg></l>
-            <!-- Saut#41-->
-            <l n="216">On dict que le <persName ref="#Termes">seigneur de Termes</persName></l>
+            <!-- Saut#40 --><anchor type="saut#40"/>
+            <l n="204" ana="#ironie">Bon faict avoir prince fidelle</l>
+            <l ana="#ironie"><reg>C'est</reg> ung grand heur pour le pays</l>
+            <l ana="#satire">Plusieurs en sont moult esbahys</l>
+            <l ana="#satire">De la promesse <reg>qu'il</reg> luy feit</l>
+            <l n="208" ana="#sat_pers">Il en parloict <reg>à</reg> son proffict</l>
+            <l ana="#sit_mil">Quant au <roleName ref="ind:Henri_II" key="Henri II">Roy</roleName>
+               demanda du moings</l>
+            <l ana="#sit_mil">Cinquante mil hommes tesmoings</l>
+            <l ana="#sit_mil">Pour prendre la <app>
+                  <lem wit="#NAF1870">possession</lem>
+                  <rdg wit="#Imp.11475.b.10">procession</rdg>
+               </app></l>
+            <l n="212" ana="#sit_mil">De l'evesché du <placeName key="Mont Sion (Genève?)">mont
+                  Syon</placeName></l>
+            <l ana="#ironie"><app>
+                  <lem wit="#NAF1870">Ilz sont fort</lem>
+                  <rdg wit="#Imp.11475.b.10">Il y a</rdg>
+               </app> belle compagnye</l>
+            <l ana="#ironie">Je prye <persName>Dieu</persName>
+               <reg>qu'il</reg>
+               <app>
+                  <lem wit="#NAF1870">les</lem>
+                  <rdg wit="#Imp.11475.b.10">la</rdg>
+               </app> benye</l>
+            <l ana="#ironie">Et <app>
+                  <lem wit="#NAF1870">les</lem>
+                  <rdg wit="#Imp.11475.b.10">la</rdg>
+               </app> maintienne en la foy <reg>ferme</reg></l>
+            <!-- Saut#41--><anchor type="saut#41"/>
+            <l n="216">On dict que le <persName ref="ind:Termes">seigneur de Termes</persName></l>
             <l>A triomphé <reg>à</reg> son retour</l>
             <l>Aux ennemys feit un bon tour</l>
             <l>Il leur rendit bien la pareille</l>
-
-            <l n="220"><reg>Ô</reg> Dieu de vertu nonpareille</l>
-            <l>Est il aussy grand animal</l>
-            <l><reg>Qu'estoit</reg> pour lors ce cardinal</l>
-            <l>Qui vouloit aller à <placeName type="city" key="Genève">Genesve</placeName></l>
-
-            <l n="224">Il est certain que la senéve</l>
-            <l>Est plus petite qu'aultre graine</l>
+            <!-- Saut#42 --><anchor type="saut#42"/>
+            <l n="220"><app>
+                  <lem wit="#NAF1870"><reg>Ô</reg> Dieu de vertu nonpareille</lem>
+                  <rdg wit="#Imp.11475.b.10">Il rogne, il taille, il faict merveille:</rdg>
+               </app></l>
+            <l ana="#sat_pers"><app>
+                  <lem wit="#NAF1870">Est il aussy grand animal</lem>
+                  <rdg wit="#Imp.11475.b.10">Hà ce gentil veau de Cardinal</rdg>
+               </app></l>
+            <l ana="#sat_pers"><app>
+                  <lem wit="#NAF1870"><reg>Qu'estoit</reg> pour lors ce cardinal</lem>
+                  <rdg wit="#Imp.11475.b.10">C'est un fort plaisant animal,</rdg>
+               </app></l>
+            <l ana="#sat_pers"><app>
+                  <lem wit="#NAF1870">Qui vouloit aller</lem>
+                  <rdg wit="#Imp.11475.b.10">Pour aller prescher</rdg>
+               </app> à <placeName type="city" key="Genève">Genesve</placeName></l>
+            <!-- Saut#43 --><anchor type="saut#43"/>
+            <l n="224"><app>
+                  <lem wit="#NAF1870">Il</lem>
+                  <rdg wit="#Imp.11475.b.10">Bien</rdg>
+               </app> est certain que la senéve</l>
+            <l>Est plus petite <app>
+                  <lem wit="#NAF1870">qu'aultre graine</lem>
+                  <rdg wit="#Imp.11475.b.10">que nulles gens</rdg>
+               </app></l>
             <l>Mais quant on la pille et esgraine</l>
-            <l>Elle a une grande vertu</l>
+            <l>Elle a <app>
+                  <lem wit="#NAF1870">une grande</lem>
+                  <rdg wit="#Imp.11475.b.10">une fort grand</rdg>
+               </app> vertu</l>
             <fw type="réclame" place="bottom-right">C'est</fw>
             <pb n="21r"/>
-
+            <!-- Saut#44 --><anchor type="saut#44"/>
             <fw type="pageNum" place="top-right">folio xxi</fw>
-            <l n="228">Cest evesque de fer vestu</l>
-            <l>Voulloit il poinct chasser aux loups</l>
-            <l>Non mais vouloit meurdrir de coups</l>
-            <l>L'espouse de crist et l'ancelle</l>
-            <l n="232">Je vis fy de luy et de celle</l>
-            <l>Grande putain Babilonicque</l>
-            <l>Qui met le peuple en desarroy</l>
-            <l>Mais sy dieu permet que le Roy</l>
-            <l n="236">Vienne a congnoistre les abus</l>
-            <l>Ils n'auront plus tant de quibus</l>
-            <l>Messieurs les Révérendissimes</l>
-            <l>Ilz ne servent qu'<reg>à</reg> faire scismes</l>
-            <l n="240">Et mectre tout le monde en trouble</l>
-            <l>Tesmoings en sont les tresoriers</l>
-            <l>Excepté que les conseillers</l>
-            <l>Peschent dans la fosse Sainct Jehan</l>
-
-            <l n="244">Puisqu'il tient <placeName>Sainct Quentin</placeName> et <placeName>Han</placeName></l>
-            <l>Il a beau venir <reg>à</reg>
+            <l n="228" ana="#sat_pers">Cest evesque de fer vestu</l>
+            <l ana="#sat_pers">Voulloit il poinct <rs type="locution">chasser aux <rs type="animal"
+                     subtype="canidé" key="loup">loups</rs></rs></l>
+            <l ana="#sat_pers">Non<add resp="editor" type="ponctuation">,</add> mais vouloit
+               meurdrir de coups<note resp="editor" type="philo">Vers manquant de la version
+                  imprimée.</note></l>
+            <l ana="#sat_pers">L'espouse de Crist et l'ancelle</l>
+            <l n="232" ana="#satire"><app>
+                  <lem wit="#NAF1870">Je dis</lem>
+                  <rdg wit="#Imp.11475.b.10">Leur dit</rdg>
+               </app> fy de luy et <app>
+                  <lem wit="#NAF1870">de celle</lem>
+                  <rdg wit="#Imp.11475.b.10">et d'elle</rdg>
+               </app></l>
+            <l ana="#adv_rel"><rs type="invective">Grande putain Babilonicque</rs></l>
+            <l ana="#Plmq">Mere de la loy sathanicque</l>
+            <l ana="#Plmq">Qui met le <app>
+                  <lem wit="#NAF1870">peuple</lem>
+                  <rdg wit="#Imp.11475.b.10">monde</rdg>
+               </app> en desarroy</l>
+            <l n="236" ana="#colère_divine"><app>
+                  <lem wit="#NAF1870">Mais sy</lem>
+                  <rdg>Si</rdg>
+               </app>
+               <persName>Dieu</persName> permet que <app>
+                  <lem wit="#NAF1870">le</lem>
+                  <rdg wit="#Imp.11475.b.10">nostre</rdg>
+               </app>
+               <persName ref="ind:Henri_II" key="Henri II">Roy</persName></l>
+            <l ana="#abus">Vienne <reg>à</reg> congnoistre les abus</l>
+            <l ana="#colère_divine">Ils n'auront plus tant de quibus</l>
+            <l ana="#sat_rel">Messieurs les Révérendissimes</l>
+            <l n="240" ana="#sat_rel">Ilz ne servent qu'<reg>à</reg> faire scismes</l>
+            <l ana="#sat_rel">Et <app>
+                  <lem ana="#NAF1870">mectre tout</lem>
+                  <rdg wit="#Imp.11475.b.10">à mettre</rdg>
+               </app> le monde en trouble</l>
+            <l ana="#argent">Tesmoings en sont les <rs type="occupation" key="trésorier"
+                  >tresoriers</rs></l>
+            <l ana="#sit_pol">Excepté que les <rs type="occupation" key="conseiller"
+                  >conseillers</rs></l>
+            <l n="244" ana="#sit_pol"><app>
+                  <lem wit="#NAF1870">Peschent</lem>
+                  <rdg wit="#Imp.11475.b.10">Preschent</rdg>
+               </app> dans la fosse Sainct Jehan</l>
+            <!-- Saut#45 --><anchor type="saut#45"/>
+            <l>Puisqu'<persName ref="ind:Philippe_II" key="Philippe II">il</persName> tient
+                  <placeName type="city" key="Saint-Quentin">Sainct Quentin</placeName> et
+                  <placeName type="city" key="Han">Han</placeName></l><!-- datation -->
+            <l><app>
+                  <lem wit="#NAF1870">Il a beau</lem>
+                  <rdg>Pourra bien</rdg>
+               </app> venir <reg>à</reg>
                <placeName type="city" key="Paris">Paris</placeName></l>
-            <l>Ha messieurs ce ne sont <rs type="équivoque">pas ris</rs></l>
-            <l ana="#ethos">Quant j'y pense le cueur me fend</l>
-            <l n="248">Ung bon pasteur les siens deffend</l>
-            <l>Et celuy les veult ruyner</l>
-            <l>Dieu le viendra exterminer</l>
-            <l>S'il poursuyt de les mectre à mort</l>
-            <l n="252">Les chrestiens <reg>n'ont</reg> poinct de support</l>
-            <l>Il fault qu'ils passent tous par <reg>là</reg></l><note>Le vers suivant est
-               manquant.</note>
-
-            <l>Qu'il se trouva fort estonné</l>
-            <l>Aultant comme s'il eust tonné</l>
-            <l n="256">Et se monstra fort amyable</l>
+            <!-- Saut#46 --><anchor type="saut#46"/>
+            <l ana="#ethos">Ha messieurs ce ne sont <rs type="équivoque">pas ris</rs></l>
+            <l n="248" ana="#ethos">Quant j'y pense le cueur me fend</l>
+            <l ana="#évangélique">Ung bon pasteur les siens deffend<note resp="editor" type="glose"
+                     ><hi rend="italic">Jean</hi>, 10.</note></l>
+            <l ana="#sat_pers">Et celuy les veult ruyner</l>
+            <l ana="#colère_divine"><persName>Dieu</persName>
+               <app>
+                  <lem wit="#NAF1870">le</lem>
+                  <rdg wit="#Imp.11475.b.10">les</rdg>
+               </app> viendra exterminer</l>
+            <l n="252" ana="#persécutions">S'il poursuyt <app>
+                  <lem wit="#NAF1870">de</lem>
+                  <rdg>à</rdg>
+               </app> les mectre à mort</l>
+            <l ana="#persécutions">Les <orgName type="secte" subtype="chrétien">chrestiens</orgName>
+               <reg>n'ont</reg> poinct de support</l>
+            <l ana="#persécutions"><app>
+                  <lem wit="#NAF1870">Il fault qu'ils passent tous</lem>
+                  <rdg wit="#Imp.11475.b.10">On leur dict qu'il fault passer</rdg>
+               </app> par <reg>là</reg></l>
+            <!-- Saut#46 --><anchor type="saut#46"/>
+            <l>Vray est quant on luy en parla<note resp="editor" type="philo">Le vers est manquant
+                  dans l'exemplaire londonien.</note></l>
+            <l n="256">Qu'il se trouva fort estonné</l>
+            <l>Aultant comme s'il eust <app>
+                  <lem wit="#NAF1870">tonné</lem>
+                  <rdg wit="#Imp.11475.b.10">trouvé</rdg>
+               </app></l>
+            <l>Et se monstra fort amyable</l>
             <l>Bon dieu &amp; pere pitoyable</l>
-            <l>Ne permets <reg>à</reg> noz ennemys</l>
+            <l n="260"><app>
+                  <lem wit="#NAF1870">Ne permets <reg>à</reg> noz</lem>
+                  <rdg wit="#Imp.11475.b.10">Ne permet point aux</rdg>
+               </app> ennemys</l>
             <l>De nous veoir en ruyne mys</l>
-            <l n="260">Suyvant le mail qu'ils ont pensé</l>
-            <l>Est il par le Roy dispencé</l>
-            <l>D'inventer ses tourmens nouveaulx</l>
-
-            <l>Il faict bon estre asnes ou veaulx</l>
-            <l n="264">En court ilz sont les biens venuz</l>
-            <l>Que ne prend on leurs revenus</l>
-            <l>Sans tant fouler le pauvre peuple</l>
-            <l>Las ils <reg>n'ont</reg> rien plus <expan>que</expan> le meuble</l>
-            <l n="268">Et l'habit de dessus leur dos</l>
+            <l>Suyvant le mal qu'ils ont pensé</l>
+            <l ana="#persécutions">Est il par le <persName ref="ind:Henri_II" key="Henri II"
+                  >Roy</persName> dispencé</l>
+            <l n="264" ana="#persécutions">D'inventer ses tourmens nouveaulx</l>
+            <!-- Saut#47 --><anchor type="saut#47"/>
+            <l ana="#cour">Il faict bon estre <rs type="animal" subtype="équidé" key="âne"
+                  >asnes</rs> ou <rs type="animal" key="veau">veaulx</rs></l>
+            <l ana="#cour">En <placeName type="cour">court</placeName> ilz sont les biens venuz</l>
+            <l ana="#argent">Que ne prend on leurs revenus</l>
+            <l n="268" ana="#misères">Sans tant fouler le pauvre peuple</l>
+            <l><app>
+                  <lem wit="#NAF1870">Las ils <reg>n'ont</reg> rien plus <expan>que</expan> le</lem>
+                  <rdg wit="#Imp.11475.b.10">Plus ne leur reste que leur</rdg>
+               </app> meuble</l>
+            <l ana="#misères">Et l'habit de dessus leur dos</l>
             <fw type="sig" place="bottom-right">f i</fw>
             <pb n="21v"/>
-
-            <l>Nous sommes tous de chair et <reg>d'os</reg></l>
-            <l>Et envers le dieu souverain</l>
-            <l>N'est différence de l'humain</l>
-            <l n="272">Vray est qu'en se monde icy bas</l>
-            <l>Les hommes ont guerre et debats</l>
-            <l>Chascun appette avoir richesses</l>
-            <l>Tesmoing madame la duchesse</l>
-            <l n="276">Et plusieurs sans en rien dire</l>
-            <l>Ilz besongnent bien <reg>à</reg> la tire</l>
-            <l>C'est ung mestier qui leur plaist fort</l>
-
-            <l>L'empereur faict tout son effort</l>
-            <l n="280">De se venger ses maulx passés</l>
-            <l>Apres pour les trespassez</l>
-            <l>C'est ung oeuvre diabolicque</l>
-            <l>La saincte loy evangélicque</l>
-            <l n="284">N'en faict aulcune mention</l>
-            <l>Mais par tresdure passion</l>
-            <l>Christ a nos ames delivrées</l>
-
-            <l><reg>À</reg> ceulx qui portent les livrées</l>
-            <l n="288">De ton ennemy ne te fye</l>
-            <l>Les serviteurs du vray messye</l>
-            <l>N'ont rien que faire avec le <roleName>pape</roleName></l>
-
-            <l>Je vouldrois bien avoir la chappe</l>
-            <l n="292">Le jour de Caresme-prenant</l>
-            <l>C'est ung habit bien advenant</l>
-            <l>Pour vestir en mommons et farces</l>
-            <l>Sy ung jour les bestes sont arces</l>
-            <l n="296">Cestuy <reg>là</reg> menera la dance</l>
-            <l>Plusieurs entendent la cadence</l>
-            <l>Qui pourtant ne veullent dancer</l>
-            <l>Nous nous debvrions bien advancer</l>
-            <l n="300"><reg>À</reg> courir tous de franc couraige</l>
-            <l>Contre ceste beste saulvaige</l>
-            <l>Qui faict mourir et corps et ame</l>
-
-            <l>Dieu maintienne la bonne dame</l>
-            <l n="304">Et la veuille fortiffier</l>
-            <l>Si quelle puisse ediffier</l>
-            <l>Celuy qui a pouvoir sur elle</l>
-            <l>Car elle est d'amour naturelle</l>
-            <l n="308">Et aussy ses nobles enffans</l>
-            <l>Ce sont des actes triomphans</l>
-            <l>Prier dieu de voix et de cueur</l>
-            <l>Si sera il en fut vaincueur</l>
+            <!-- Saut#48 --><anchor type="saut#48"/>
+            <l ana="#évangélique">Nous sommes tous de chair et <reg>d'os</reg></l><!-- Réf? -->
+            <l n="272" ana="#évangélique">Et envers le Dieu souverain</l>
+            <l ana="#évangélique">N'est différence de l'humain</l>
+            <l>Vray est qu'en se monde icy bas</l>
+            <l><app>
+                  <lem wit="#NAF1870">Les hommes ont guerre et</lem>
+                  <rdg wit="#Imp.11475.b.10">Les plus grans font guerre,</rdg>
+               </app> debats</l>
+            <l n="276" ana="#ambition">Chascun appette avoir richesses</l>
+            <l ana="#sat_pers">Tesmoing <persName ref="ind:Diane_de_Poitiers"
+                  key="Diane de Poitiers">madame la duchesse</persName></l>
+            <l ana="#satire">Et plusieurs <app>
+                  <lem wit="#NAF1870">sans en rien</lem>
+                  <rdg wit="#Imp.11475.b.10">autres sans mot</rdg>
+               </app> dire</l>
+            <l ana="#satire"><app>
+                  <lem wit="#NAF1870">Ilz besongnent</lem>
+                  <rdg wit="#Imp.11475.b.10">De besoigner</rdg>
+               </app> bien <reg>à</reg> la tire</l>
+            <l n="280" ana="#satire">C'est ung mestier qui leur plaist fort</l>
+            <!-- Saut#49 --><anchor type="saut#49"/>
+            <l ana="#sit_pol"><persName ref="ind:Charles-Quint" key="Charles-Quint"
+                  >L'Empereur</persName> faict tout son effort</l>
+            <l ana="#sit_pol">De se venger ses maulx passés</l>
+            <!-- Saut#50 --><anchor type="saut#50"/>
+            <l ana="#Plmq"><app>
+                  <lem wit="#NAF1870">Apres</lem>
+                  <rdg wit="#Imp.11475.b.10">De prier</rdg>
+               </app> pour les trespassez</l>
+            <l n="284" ana="#Plmq">C'est ung œuvre diabolicque</l>
+            <l ana="#évangélique">La saincte loy evangélicque</l>
+            <l ana="#Plmq">N'en faict aulcune mention</l>
+            <l ana="#évangélique">Mais par tresdure passion</l>
+            <l n="288" ana="#évangélique"><persName key="Jésus">Christ</persName> a nos ames
+               delivrées</l>
+            <!-- Saut#51 --><anchor type="saut#51"/>
+            <l ana="#évangélique"><reg>À</reg> ceulx qui portent les livrées</l>
+            <l ana="#évangélique">De ton ennemy <rs type="injonction" subtype="défense">ne te
+                  fye</rs></l>
+            <l ana="#évangélique">Les serviteurs du vray messye</l>
+            <l n="292" ana="rome">N'ont rien que faire avec le <roleName>pape</roleName></l>
+            <!-- Saut#52 --><anchor type="saut#52"/>
+            <l><app>
+                  <lem wit="#NAF1870">Je vouldrois bien avoir</lem>
+                  <rdg wit="#Imp.11475.b.10">Pleut à Dieu que j'eusse</rdg>
+               </app> la chappe</l>
+            <l>Le jour de Caresme-prenant</l>
+            <l ana="#sat_rel">C'est ung habit bien advenant</l>
+            <l n="296" ana="#satire">Pour <app>
+                  <lem wit="#NAF1870">vestir en</lem>
+                  <rdg wit="#Imp.11475.b.10">aller jouer</rdg>
+               </app> mommons et farces</l>
+            <!-- Saut#53 --><anchor type="saut#53"/>
+            <l ana="#sat_rel"><app>
+                  <lem wit="#NAF1870">Sy ung jour</lem>
+                  <rdg wit="#Imp.11475.b.10">Si une fois</rdg>
+               </app> les bestes sont arces</l>
+            <l ana="#sat_rel">Cestuy <reg>là</reg> menera la dance</l>
+            <l ana="#sat_rel">Plusieurs entendent la cadence</l>
+            <l n="300" ana="#sat_rel">Qui pourtant ne veullent dancer</l>
+            <l ana="#sat_rel">Nous nous debvrions bien advancer</l>
+            <l ana="#évangélique"><reg>À</reg> courir tous de franc couraige</l>
+            <l ana="#sat_rel">Contre ceste <rs type="invective">beste saulvaige</rs></l>
+            <l n="304" ana="#évangélique">Qui faict mourir et corps et ame</l>
+            <!-- Saut#54 --><anchor type="saut#54"/>
+            <l ana="#prière"><persName>Dieu</persName> maintienne <persName
+                  ref="ind:Catherine_de_Médicis">la bonne dame</persName></l>
+            <l ana="#prière">Et la veuille fortiffier</l>
+            <l ana="#prière">Si <reg>qu'elle</reg> puisse ediffier</l>
+            <l n="308" ana="#prière">Celuy qui a pouvoir sur elle</l>
+            <l ana="#éloge">Car elle est d'amour naturelle</l>
+            <l ana="#éloge">Et aussy ses nobles enffans</l>
+            <!-- Saut#55 --><anchor type="saut#55"/>
+            <l ana="#évangélique">Ce sont des actes triomphans</l>
+            <l n="312" ana="#évangélique">Prier <persName>Dieu</persName> de voix et de cueur</l>
+            <l ana="#prophétie">Si sera Il en fin vaincueur</l>
             <fw type="réclame" place="bottom-right">Et fera</fw>
             <pb n="22v"/><fw type="pageNum" place="top-right">Folio xxii</fw>
-            <l n="312">Et fera cesser ses discords</l>
-            <l>Suyvant les celestes accords</l>
-            <l>Des peres saincts et des prophettes</l>
-            <l>Chascun scays qu'il y a prou festes</l>
-            <l n="316">Ausquelles ne debvons viser</l>
-            <l><rs type="injonction" subtype="impératif">Gardons nous</rs> bien de diviser</l>
-            <l>La saincte loy tant précieuse</l>
-            <l>Pour y mectre l'ambitieuse</l>
-            <l n="320">Qu'a inventé le loup romain</l>
-            <l>Dieu a desja le glaive en main</l>
-            <l>Pour le destruire et sa béquille</l>
-            <l>Las seigneur tu voys &amp; scays quelle</l>
-            <l n="324">Est la doctrine qu'il leur baille</l>
-            <l>Celluy qui <reg>n'a</reg> denier ne maille</l>
-            <l>Comment peult il estre saulvé</l>
-            <l>Veu qu'il ne dict pater ny avé</l>
-            <l n="328">Pour l'ame d'un tel personnaige</l>
-            <l>Puis ung chascun selon son aage</l>
-            <l><reg>N'a</reg> des biens tant <reg>qu'il</reg> en voudroict</l>
+            <l ana="#troubles">Et fera cesser ses discords</l>
+            <l ana="#évangélique"><app>
+                  <lem wit="#NAF1870">Suyvant</lem>
+                  <rdg wit="#Imp.11475.b.10">Suyvons</rdg>
+               </app> les celestes accords</l>
+            <l n="316" ana="#prophétie">Des peres saincts et des prophettes</l>
+            <l ana="#Plmq"><app>
+                  <lem wit="#NAF1870">Chascun scays qu'il y a prou</lem>
+                  <rdg wit="#Imp.11475.b.10">On scait assez qu'avons des</rdg>
+               </app> festes</l>
+            <l ana="#Plmq">Ausquelles ne debvons viser</l>
+            <!-- Saut#56 --><anchor type="saut#56"/>
+            <l ana="#évangélique"><rs type="injonction" subtype="impératif">Gardons nous</rs> bien
+               de diviser</l>
+            <l n="320" ana="#évangélique">La saincte loy tant précieuse</l>
+            <l ana="#sat_rel">Pour <app>
+                  <lem wit="#NAF1870">y mectre l'</lem>
+                  <rdg wit="#Imp.11475.b.10">une loy</rdg>
+               </app>ambitieuse</l>
+            <l ana="#rome">Qu'a inventé <app>
+                  <lem wit="#NAF1870">le</lem>
+                  <rdg wit="#Imp.11475.b.10">ce</rdg>
+               </app>
+               <rs type="invective"><rs type="animal" subtype="canidé" key="loup">loup</rs>
+                  romain</rs></l>
+            <l ana="#colère_divine"><persName>Dieu</persName> a desja le glaive en main</l>
+            <l n="324" ana="#colère_divine">Pour le destruire et sa séquelle</l>
+            <l ana="#Plmq">Las<add resp="editor" type="ponctuation">!</add> seigneur<add
+                  resp="editor" type="ponctuation">,</add> tu voys &amp; scays quelle</l>
+            <l ana="#Plmq">Est la doctrine qu'il leur baille</l>
+            <l ana="#souffrances">Celluy qui <reg>n'a</reg> denier ne maille</l>
+            <l n="328" ana="#abus">Comment peult il estre saulvé</l>
+            <l ana="#sat_rel">Veu qu'<app>
+                  <lem wit="#NAF1870">il</lem>
+                  <rdg wit="#Imp.11475.b.10">on</rdg>
+               </app> ne dict <hi rend="italic">pater</hi> ny <hi rend="italic">avé</hi></l>
+            <l ana="#sat_rel">Pour l'ame d'un tel personnaige</l>
+            <l ana="#sat_rel">Puis ung chascun selon son aage</l>
+            <l n="332" ana="#sat_rel"><reg>N'a</reg> des biens tant <reg>qu'il</reg> en
+               voudroict</l>
+            <!-- Saut#57 --><anchor type="saut#57"/>
             <l ana="#mtd">Je feray fin en cest endroict</l>
-            <l n="332">Priant au seigneur tout puissant</l>
-            <l>Qu'il face ung chascun jouyssant</l>
-            <l>De ses sainctes graces exquises</l>
-            <l>Qu'il nous a par son fils acquises</l>
-            <l n="336">[Nous delivrant des durs assaultz</l>
-            <l>Tentations, peines, travaulx]</l>
-            <l>Nous gardant de <persName>Sathan</persName> subtil</l>
-            <l><rs type="interjection">Par Jésuchrist</rs> ainsy soict il</l>
+            <l ana="#prière">Priant au <app>
+                  <lem wit="#NAF1870">seigneur</lem>
+                  <rdg wit="#Imp.11475.b.10">pere</rdg>
+               </app> tout puissant</l>
+            <l ana="#prière">Qu'<app>
+                  <lem wit="#NAF1870">il face ung chascun jouyssant</lem>
+                  <rdg wit="#Imp.11475.b.10">un chascun face jouissance</rdg>
+               </app></l>
+            <l n="336" ana="#prière"><app><lem wit="#NAF1870">De ses sainctes graces</lem><rdg wit="#Imp.11475.b.10">Des grandes graces tant</rdg></app> exquises</l>
+            <l ana="#évangélique">Qu'il nous a par son fils acquises</l>
+            <l resp="#évangélique"><add resp="editor" type="complément">[Nous delivrant des durs assaultz</add></l>
+            <l resp="#évangélique"><add resp="editor" type="complément">Tentations, peines, travaulx]</add><note resp="editor" type="philo">Ces deux vers sont absents du ms. NAF 1870.</note></l>
+            <l n="340" ana="#évangélique"><app><lem wit="#NAF1870">Nous gardant de <persName key="Satan">Sathan</persName></lem><rdg wit="#Imp.11475.b.10">Du fier Saan caut et</rdg></app> subtil</l>
+            <l ana="#évangélique"><rs type="interjection">Par <persName key="Jésus">Jésuchrist</persName></rs> ainsy
+               soict il</l>
             <fw place="middle">Fin</fw>
          </p>
       </body>
