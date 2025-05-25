@@ -147,6 +147,7 @@
                         <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
                         <interp xml:id="practiques" ana="practiques">practiques</interp>
                         <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+                        <interp xml:id="prière" ana="prière">prière</interp>
                         <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
                         <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
                         <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
@@ -179,6 +180,7 @@
                         <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
                         <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
                         <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+                        <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
                         
                         <!-- V -->
                         <interp xml:id="vanité" ana="vanité">vanité</interp>

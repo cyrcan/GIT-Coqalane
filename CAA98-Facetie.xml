@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc xml:id="Facetie1617">
          <titleStmt>
-            <title>Coq à l'asne à la suite du <title>Rapport fait des pucellages estropiez
-                  de la plus part des Chambrieres de Paris</title>, Paris, 1617.  [Réf. 97]</title>
+            <title>Coq à l'asne à la suite du <title>Rapport fait des pucellages estropiez de la
+                  plus part des Chambrieres de Paris</title>, Paris, 1617. [Réf. 97]</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -165,7 +165,11 @@
       <body>
          <p><l ana="#adr"><persName type="destinataire">Ma fille</persName> il faut que vous
                soyez</l>
-            <l><corr resp="editor">Assise</corr> debout &amp; voyez,</l>
+            <l><corr resp="editor">Assise</corr> debout &amp; voyez,<note resp="editor" type="crit"
+                  >Cf. L'envoi satyrique de la première balade du <title>L'Amoureux
+                     passetems</title> publié par François Gomain chez Benoist Rigaud à Lyon en 1570
+                  puis 1582: "Prince à ta devise, / Soit droicte ou assise, / Mets luy le cul bas, /
+                  Leve sa chemise, / Rembourre son bas.", BnF, Ye-2721, f°7.</note></l>
             <l ana="#actu">Tout ce qui au monde ce passe,</l>
             <l n="4" ana="#motifs_sexuels">Et comme un vy en outre passe</l><note resp="editor"
                type="crit">Jeu de mots entre le sens sexuel évident et le passage de vie à
@@ -203,9 +207,9 @@
                (CAA#23): "Messieurs appreignent à pourtraire / Ils sçavent desjà bien noircir / On
                veoit trop souvent amortir / Par fard le tain des damoiselles", v. 48-51.</note>
             <!-- Saut#3 --><anchor type="saut#3"/>
-            <l>Le bon Hermite <persName type="saint" key="Alivergot">Alivergot</persName></l><note resp="editor"
-               type="glose">Nom celte qui signifie "décapité" et associé dans l'Aisne notamment à
-               Saint-Jean.</note>
+            <l>Le bon Hermite <persName type="saint" key="Alivergot">Alivergot</persName></l><note
+               resp="editor" type="glose">Nom celte qui signifie "décapité" et associé dans l'Aisne
+               notamment à Saint-Jean.</note>
             <l>Mit son frelaut dans un fagot,</l><note resp="editor" type="ling"><hi rend="italic"
                   >Frelaut</hi>: "frère", au sens chrétien. Cependant, le contexte invite à une
                acception plus large.</note>

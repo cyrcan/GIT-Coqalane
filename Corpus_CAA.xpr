@@ -58,11 +58,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>CAA101-Pot_aux_Roses.xml</String>
+                                    <String>../../../../../Users/c.ca/Downloads/L%27Hibiscus_pourpre.XML</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>4/tei/teip5.framework/TEI P5/TEI P5 XHTML</String>
+                                        <String>6/xmlspec/xmlspec.framework/XMLSpec/XML Spec PDF</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -78,7 +78,27 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>CAA22-Jamet%234.xml</String>
+                                    <String>CAA44-Hagard.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>4/tei/teip5.framework/TEI P5/TEI P5 PDF</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>CAA46-AuLievre.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -118,11 +138,31 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>CAA44-Hagard.xml</String>
+                                    <String>CAA101-Pot_aux_Roses.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>4/tei/teip5.framework/TEI P5/TEI P5 PDF</String>
+                                        <String>4/tei/teip5.framework/TEI P5/TEI P5 XHTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>CAA22-Jamet%234.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>4/tei/teip5.framework/TEI P5/TEI P5 XHTML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

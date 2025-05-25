@@ -604,7 +604,7 @@
                </app> grenier du <persName>pappe</persName>,</l>
             <l ana="#rome"><expan>Vous</expan> en aurez pourveu qu’il happe,</l>
             <pb n="185v"/>
-            <l n="168" ana="#abus">Tant que vouldrez pour des ducatz.</l>
+            <l n="168" ana="#abus">Tant que vouldrez pour des <rs type="monnaie" subtype="ducat">ducatz</rs>.</l>
             <l ana="#mtd"><app>
                   <lem wit="#fr12795">Mais</lem>
                   <rdg wit="#Cod10203">Et</rdg>

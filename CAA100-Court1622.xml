@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Le Coq à l'asne envoyé de la Court.</title>
+            <respStmt xml:id="CCA">
+               <persName>Cyril Cano Arnedo</persName>
+               <resp>éditeur scientifique et encodeur</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Projet d'élaboration d'un corpus des coq-à-l'âne de 1530 à 1649</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Anonyme</author>
+                  <title>LE COQ A L'ASNE ENVOYÉ DE LA COURT.</title>
+                  <imprint>
+                     <pubPlace>S.l.</pubPlace>
+                     <respStmt>
+                        <resp>Imprimeur</resp>
+                        <persName>Inconnu</persName>
+                     </respStmt>
+                     <date when="1622">1622</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <listBibl>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Paris</settlement>
+                     <repository>Bibliothèque Nationale de France</repository>
+                     <idno>NUMM-5440815</idno>
+                  </msIdentifier>
+               </msDesc>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projet d'édition universitaire. Transcription à partir de la seule édition connue de
+               1622.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Encodage semi-diplomatique</p>
+            <correction>
+               <p>Dissimilation i/j, u/v, ajout de l'apostrophe, de l'accent aigu et de l'accent
+                  grave en finale selon l'usage moderne.</p>
+            </correction>
+            <normalization>
+               <p/>
+            </normalization>
+            <hyphenation>
+               <p>Respect des sauts de lignes, des mots coupés, des majuscules et des
+                  esperluettes</p>
+            </hyphenation>
+            <punctuation>
+               <p>Ponctuation originale conservée.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="frm">Français de la Renaissance</language>
+            <language ident="fre">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#CCA" when="2022">Création du fichier en xml-tei</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart>Le Coq à l'Asne, envoyé de la Court.</titlePart>
+            </docTitle>
+            <docDate when="1622">M. DC. XXII.</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <p><l>C’est pour ce bon <persName>Duc d’<placeName><settlement type="city" key="Uzès"
+                        >Usais</settlement></placeName></persName>,</l>
+            <l>Mon Dieu le plaisant <persName>Rabelais</persName>,</l>
+            <l><reg>J’</reg>en faillis à mourir de rire,</l>
+            <l n="4">Mais quoy que l’on me puisse dire,</l>
+            <l>Il n’est que d’avoir des escus,</l>
+            <l>Il y en a de bien camus:</l>
+            <l>Car l’on dit que le Machefert</l>
+            <l n="8">Se resoud de passer la mer</l>
+            <l>Pour venir faire icy vendange.</l>
+            <l><reg>J’</reg>estime bien plus qu’une orange,</l>
+            <l><persName>Le secretaire du Moulin</persName></l>
+            <l n="12">Hyer ce n’estoit qu’un faquin</l>
+            <l><reg>Aujourd’huy </reg>c’est une belle <rs type="animal" subtype="oiseau"
+               >oye</rs></l>
+            <l><reg>Jusques</reg> au col dedans la soye,</l>
+            <l>Quoy qu’il aye sur le visage</l>
+            <l n="16">Un pied de nez, s’il estoit sage</l>
+            <fw type="sig" place="bot-right">Aij</fw>
+            <pb n="4"/>
+            <fw type="pageNum" place="center">4</fw>
+            <l>Les <rs type="animal" subtype="oiseau">Ortolans</rs> sont de saison:</l>
+            <l>Mais ce ne fut pas sans raison</l>
+            <l>Que dessous l’abit d’un vallet</l>
+            <l n="20">Un certain porta son paquet,</l>
+            <l>Non pas à <persName>Madame de Terme</persName></l>
+            <l>Mais à une que l’on afferme</l>
+            <l>Luy estre semblable en museau</l>
+            <l n="24">Tout ainsi que deux gouttes d’eau,</l>
+            <l>Prenons en gré l’esbattement</l>
+            <l>Tout est pour le contentement:</l>
+            <l>C’est pourquoy si dedans la <placeName>Cour</placeName></l>
+            <l n="28">Chacun se veut <reg>joüer</reg> d’un tour</l>
+            <l>Pour debusquer son compagnon,</l>
+            <l><reg>Je</reg> m’en raporte au champignon,</l>
+            <l>Qui vient au monde en une nuit</l>
+            <l n="32">Trop gratter cuit trop parler nuit:</l>
+            <l>Mais quoy si les Metempsicoses</l>
+            <l>De toutes les plus belles choses</l>
+            <l>Que nous voyons de nostre temps</l>
+            <l n="36">Ne nous servoient de passe-temps,</l>
+            <l>Un <rs type="animal">limaçon</rs> dans sa coquille</l>
+            <l>Dessus une <rs type="animal" key="âne">ase</rs> qui vous quille<note type="editor"
+                  subtype="ling">Imprécation selon Huguet</note>,</l>
+            <pb n="5"/>
+            <fw type="pageNum" place="center">5</fw>
+            <l>Ne feroit jamais un miracle</l>
+            <l n="40"><reg>Aujourd’huy</reg> l’on voit le basacle</l>
+            <l>Eslevé malgré la fortune</l>
+            <l>Par de là le ciel de la lune,</l>
+            <l>Pourtant ne faut il dire mot,</l>
+            <l n="44">Encor que ce soit le plus sot</l>
+            <l>Qui fut <reg>jamais</reg> dessus la terre</l>
+            <l>Chacun empoche, chacun serre</l>
+            <l>Et celuy là est le plus fin</l>
+            <l n="48">Qui a fait <rs type="jeu">la plus belle main</rs>,</l>
+            <l>Pourquoy ne verrions nous <reg>jamais</reg></l>
+            <l>La mandille<note type="editor" subtype="ling">Sorte de manteau court, propre aux
+                  laquais.</note> de ce Laquais</l>
+            <l><reg>Jadis</reg>, maintenant Gentilhomme,</l>
+            <l n="52">En despit de Dieu &amp; de l’homme.</l>
+            <l><persName>Desplan</persName> ce courageux Soldat</l>
+            <l>De plus ce grand homme d’Estat,</l>
+            <l>Grand serviteur de la Couronne</l>
+            <l n="56">Cela estant <reg>je</reg> ne m’estonne</l>
+            <l>De la <persName>de Vernet</persName><note type="editor" subtype="crit">Née Antoinette
+                  de Luynes et sœur du connétable, il avait épousé le sieur du Vernet, ancien page
+                  de Montmorency.</note> qui ressemble</l>
+            <l>A une <reg><rs type="animal" subtype="équidé">jument</rs></reg> qui va l’amble</l>
+            <l>Ou au manche d’un violon,</l>
+            <l n="60"><reg>Jamais</reg> dans <placeName>les sables d’Olon</placeName></l>
+            <pb n="6"/>
+            <fw type="pageNum" place="center">6</fw>
+            <l>Il ne s’est veu tant de fusee,</l>
+            <l>Qu’il en fut <reg>jetté</reg> la soiree</l>
+            <l>De la <persName>sainte Mere Terese</persName></l>
+            <l n="64">Ce n’est pas que <reg>je</reg> n’en sois aise.</l>
+            <l>Pensez vous que le bon Latin</l>
+            <l>Rende plus fort le parchemin</l>
+            <l>Non la <persName>Marquise de Montlor</persName></l>
+            <l n="68">A son mary ne fait point tor</l>
+            <l>D’aimer le jeu du <rs type="jeu">reversy</rs>,</l>
+            <l>C’est un maistre fol que <persName>Lancy</persName></l>
+            <l>Son coffre est plein d’argent contant</l>
+            <l n="72">Tous les autres n’en ont pas tant.</l>
+            <l>Mais vous pour vostre bien venuë?</l>
+            <l>Ditte-nous voir? qu’est devenuë?</l>
+            <l><persName>La Mony</persName> aux yeux pleins de glus?</l>
+            <l n="76">Car au <placeName>Louvre</placeName> on ne la voit plus</l>
+            <l>Deux chapeaux rouges ont bon <ex>temps</ex>,</l>
+            <l>L’un c’est fait en ce doux printemps</l>
+            <l><persName>Le Priape</persName> des <placeName>Tuillerie</placeName></l>
+            <l n="80">L’autre en a perdu la vie</l>
+            <l>A lire le <persName key="Machiavel">Machiavelle</persName></l>
+            <l>Ne <reg>m'achetez</reg> plus de chandelle</l>
+            <pb n="7"/>
+            <fw type="pageNum" place="center">7</fw>
+            <l>Car les <reg>jours</reg> sont devenus grands</l>
+            <l n="84">Plus que ne sont les Alemands,</l>
+            <l>A propos nostre <persName>Connestable</persName></l>
+            <l>Il n’est pas tant qu’on dit la fable</l>
+            <l> De ceux de la Religion</l>
+            <l n="88">C’est une bonne invention</l>
+            <l>Disent-ils, pour <reg>jetter</reg> par terre</l>
+            <l>Le Prince qui leur fait la guerre.</l>
+            <l>C’est grand cas qu’on dit à <placeName><settlement type="city"
+                  >Paris</settlement></placeName></l>
+            <l n="92">Que l’on voit des <rs type="animal">chauves-souris</rs>,</l>
+            <l><reg>Je</reg> vis l’autre <reg>jour</reg> un mausade</l>
+            <l>Qui est plus sot que n’est d’Estrade,</l>
+            <l>Il s’en vint me dire tout bas,</l>
+            <l n="96">Porchere ? tu ne le sçais pas</l>
+            <l>Je veux te dire une nouvelle</l>
+            <l>Sur le travers d’une escabelle,</l>
+            <l>A genoux sur un tabouret</l>
+            <l n="100">Que la <persName>Comtesse de Moret</persName></l>
+            <l><placeName>Des quinze-vingts</placeName> est revenuë,</l>
+            <l>O la bonne coquecigruë</l>
+            <l><placeName><settlement type="city">Troye</settlement></placeName> ne voulut croire
+                  <persName type="mythologie">Cassandre</persName></l>
+            <l n="104">Quand elle predisoit sa cendre</l>
+            <pb n="8"/>
+            <fw type="pageNum" place="center">8</fw>
+            <l>La gloire de la vérité</l>
+            <l>Dite sans animosité</l>
+            <l>Demeure a ce bon <persName>President</persName></l>
+            <l n="108">Pour eviter tout accident</l>
+            <l>On veut Messieurs les Rochelois,</l>
+            <l>Vous supplier à ceste fois</l>
+            <l>De rendre à <persName>Monsieur de Neverre</persName></l>
+            <l n="112">Ses vaisseaux pour aller en guerre</l>
+            <l>Contre le Turc, il y faict bon</l>
+            <l>Maintenant que c’est tout de bon</l>
+            <l>Qu’il <reg>jouë</reg> comme nous <rs type="jeu">à la mouche</rs></l>
+            <l n="116">Vous estes d’une humeur farouche,</l>
+            <l>La mode n’est plus croyez moy</l>
+            <l>D’estre Huguenot. Par vostre foy</l>
+            <l>N’est ce pas estre bien <rs type="animal" subtype="oiseau">oyson</rs></l>
+            <l n="120">Plus que <persName>Monsieur de Monbazon</persName></l>
+            <l>De mettre en son entendement</l>
+            <l>Que devant le vieux Testament</l>
+            <l>Il y avoit des Heretiques,</l>
+            <l n="124">Si dedans toutes les boutiques</l>
+            <l>Lon voyoit le beau passement</l>
+            <l>Que l’on y vent communement</l>
+            <fw type="sig" place="bot-right">Il</fw>
+            <pb n="9"/>
+            <fw type="pageNum" place="center">9</fw>
+            <l>Il n’y a homme qui ne <reg>juge</reg></l>
+            <l n="128">Que c’est se mocquer du Deluge</l>
+            <l>De ne faire entrer au Conseil</l>
+            <l>Ce <reg>jeune</reg> Prince nompareil,</l>
+            <l>Qui est la seconde esperance</l>
+            <l n="132">Qu’<reg>aujourd’huy</reg> nous <ex>ayons</ex> en
+                     <placeName><country>France</country></placeName></l>
+            <l>Et ce pendant son gouverneur</l>
+            <l>Couvre son <reg>jeu</reg> de sa froideur,</l>
+            <l>Et a sceu tellement bien faire</l>
+            <l n="136">Que de <placeName><region>Corse</region></placeName> il s’est fait
+               Corsaire,</l>
+            <l>Mais en fin quoy que <reg>je</reg> vous die</l>
+            <l><reg>Je</reg> ne veux pas que <reg>l’on</reg> publie</l>
+            <l>Que le <rs type="animal" subtype="oiseau">Coucou</rs> chante en ce mois</l>
+            <l n="140">Le bruit du tambour est sa vois,</l>
+            <l>Et commande sur les armees</l>
+            <l>Tout ainsi que les destinees</l>
+            <l>Sur le cuir d’un vieil escarpin:</l>
+            <l n="144">Or il n’est rien de plus certain</l>
+            <l>En ce monde que la devise</l>
+            <l>De <persName>Monseigneur le Duc de Guise</persName>,</l>
+            <l>Son galion sa galeace</l>
+            <l n="148">Ses galeres à milliace</l>
+            <fw type="sig" place="bot-right">B</fw>
+            <pb n="10"/>
+            <fw type="pageNum" place="center">10</fw>
+            <l>Du <placeName>port</placeName> de trois mille tonneaux</l>
+            <l>Ne vont pas prendre des <rs type="animal" subtype="oiseau">moyneaux</rs></l>
+            <l>La lune commande à la mer,</l>
+            <l n="152">Il ne m’est rien de si amer</l>
+            <l>Que quand <reg>je</reg> voy vostre calotte</l>
+            <l><reg>J’</reg>aymerois mieux porter la hotte</l>
+            <l>Que d’avoir sous un tel bonet</l>
+            <l n="156">La teste faicte en <persName>Simonet</persName>:</l>
+            <l>Autre fois <persName>le Roy Charlemagne</persName></l>
+            <l>Avoit conquesté l’<placeName><country>Allemagne</country></placeName>,</l>
+            <l>Et s’acquit bien le nom de grand</l>
+            <l n="160">Sans qu’il eu pere <persName>Siguerand</persName>,</l>
+            <l>Maintenant l’on entend les <rs type="animal">coqs</rs></l>
+            <l>De nos freres les Espagnols</l>
+            <l>Chanter dedans la <geogName><region>Valtoline</region></geogName></l>
+            <l n="164">Et bien tost sonneront Matine,</l>
+            <l>Pour reveiller les bonnes gens</l>
+            <l>Qui ne cognoistront leurs Regens</l>
+            <l>Que par les lingos du <placeName><country>Peru</country></placeName></l>
+            <l n="168">Nous avons bien du pied au cu.</l>
+            <l>Dans le <placeName>cloistre S. Honoré</placeName></l>
+            <l><reg>J’</reg>ouys dire à nostre Curé</l>
+            <pb n="11"/>
+            <fw type="pageNum" place="center">11</fw>
+            <l>Entre la poire &amp; le fromage</l>
+            <l n="172">Qu’on ne sçait pas le badinage</l>
+            <l>De celuy qui par sa menee</l>
+            <l><persName>Nostre Reyne</persName> tient esloignee,</l>
+            <l>Et qui l’empesche d’estre mere.</l>
+            <l n="176">Or sus Bergere mensongere</l>
+            <l>Vous me voudriez bien abuser</l>
+            <l>Sçachez que <reg>j’</reg>ayme mieux user</l>
+            <l>Mes <reg>jours</reg> en cette servitude</l>
+            <l n="180">Que d’aller en la solitude,</l>
+            <l>Où ses grands Chevaliers du monde,</l>
+            <l>Se disoient de la table Ronde</l>
+            <l>Il n’ayme point le vent de bize</l>
+            <l n="184">Pour ceste rime il faut <persName>Soubize</persName>,</l>
+            <l>Il n’est plus bon qu’à cette sausse</l>
+            <l>Pensez vous que quand on le gausse</l>
+            <l>Il s’en soucie ne moy non plus</l>
+            <l n="188">Il y <reg>a</reg> bien vingt ans &amp; plus</l>
+            <l>Que <reg>jamais</reg>
+               <reg>je</reg> n’eu la pensee</l>
+            <l>Des affaires d’Estat troublee,</l>
+            <l>Demain <persName type="destinataire">compere</persName> si tu veux</l>
+            <l n="192">J’<reg>iray chez toy, car <reg>j’</reg>ayme mieux</reg></l>
+            <pb n="12"/>
+            <fw type="pageNum" place="center">12</fw>
+            <l>Faire un bon repas à mon ayse</l>
+            <l>Que de complaire à la fadayse</l>
+            <l>D’un tas de petits glorieux</l>
+            <l n="196">Qui croyent le ciel indigne d’eux,</l>
+            <l>Parce qu’ils sont dedans le <placeName>Louvre</placeName></l>
+            <l>Et q’un habit de foye les couvre.</l>
+            <l>Adieu <reg>je</reg> m’en vais il est nuit</l>
+            <l n="200">Fais que demain devant minuit</l>
+            <l>Je puisse voir <persName>Mere-lusine</persName></l>
+            <l>Mais garde qu’on ne m’enfarine?</l></p>
+
+         <l>A M E N.</l>
+      </body>
+   </text>
+</TEI>

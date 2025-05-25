@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="Marot_3">
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><listWit><witness><msDesc>
+                        <msIdentifier><settlement>Soissons, </settlement><repository>Bibliothèque municipale, </repository> <idno>ms. 202</idno></msIdentifier>
+            </msDesc></witness></listWit> </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+            <l>De mon coq à l’asne dernier,</l>
+               <l><persName ref="ind:Jamet">Lyon</persName>, ce malheureux asnier,</l>
+               <l>Fol, foliant, imprudent, indiscret,</l>
+               <l n="4">Et moings sçavant q’ung docteur en decrect,</l>
+               <l>Ha, ha, dist il, c’est grand oultraige</l>
+               <l>De parler de tel personnaige</l>
+               <l>Que moy. En est il ung au monde</l>
+               <l n="8">En qui tant sçavoir habonde?</l>
+               <l>Et je responds: ouy, ouy vrayment,</l>
+               <l>Et n’y fust autre que <persName ref="ind:Marot">Clement</persName>.</l>
+               <l>Les latins, les grecs et hebreuz</l>
+               <l n="12">Luy sont langaiges tenebreux.</l>
+               <l>Mais en françoys de Heurepoix,</l>
+               <l>Et beaulx escuz d’or et de poix,</l>
+               <l>En quelque latin de marmite —</l>
+               <l n="16">Par nostre dame, je le quicte —</l>
+               <l>Pour vray il est le plus sçavant;</l> 
+               <l>C’est raison qu’il voyse devant.</l>
+               <l>Quant de sa proposition</l>
+               <l n="20">Touchant la fornication,</l>
+               <l>Il vauldroit mieulx la trouver bonne,</l>
+               <l>Qu’y besongner comme en Sorbonne.</l>
+               <l>Mais le maquart ne se contente,</l>
+               <l n="24">Et dit au gendre de sa tente,</l>
+               <l>S’il nous peult quelque jour avoir,</l>
+               <l>Il employra tout son povoir</l>
+               De nous faire brusler tous vifz.
+               De ma part, je n’en suis d’advis
+               Et n’y sçauroys prendre plaisir.
+               Toutefois, s’il en a desir,
+               Quand il sera prest qu’il me mande,
+               Et si je y voys, que l’on me pende.
+               Tu diras, mon amy Lyon, 
+               Pour moi quelque fidelium,
+               Ou quelque creux de profundis
+               Pour me tirer en paradis.
+               Mais, si trouvez qu’il soit ainsi,
+               Que au partir de ce monde icy
+               Nous soyons saulvez ou dampnez,
+               Ne dictes riens et me donnez
+               Ce petit mot en epitaphe,
+               Mais que soubz mon corps on le graphe : 
+               Cy pend ce fol qui s’est rendu
+               A Paris pour estre pendu.
+               Quant de celluy qui s’est fasché
+               Que me suis à lui ataché,
+               C’est ung meschant, faulx et flateur,
+               Insigne dissimulateur,
+               Et vindicatif à oultrance;
+               Mais je ne veulx que Lyon pense 
+               Que voulsisse de luy mentir;
+               Parquoy ne me puys repentir
+               D’en avoir dit ce qui est vray;
+               Et si me poingt, je descouvray
+               De plus grans cas qu’il a commis.
+               Qu’il ne face plus d’ennemys;
+               Il en a trop qui vivent bien;
+               Lors sera son amy, combien
+               Qu’il ne l’ayt en rien merité,
+               Le traistre plain de vanité;
+               Mais dieu vueille que l’on oublye
+               Ce que souffrons pour sa follye.
+               Je suys trop loing pour le luy dire,
+               Qui me contrainct de le rescripre.
+               Et si dit plus en duppliquant,
+               Pareillement et quant et quant,
+               Que savant est, il est bien pris;
+               Car encor qu’il en soit repris
+               De tous, mesmes de sa voysine,
+               Dont le mary faict bonne myne,
+               Il n’est possible qu’il s’en garde.
+               Chacun jour, quant il se regarde,
+               Il est tout certain qu’il se veoyt;
+               Je suis despit qu’il n’y pourveoit;
+               Mais il est bon, entendz icy;
+               J’en suys en merveilleux soucy.
+               Est ce de lui que j’ay escript?
+               Nenny non, c’est de l’antecrist.
+               Ce n’est pas luy, et si ne sçay,
+               Il en a faict son coup d’essay.
+               Nommez moy celluy qui s’en doubte!
+               Par mon nyda, je n’y veoys goutte!
+               Est ce point Judas ou Symon?
+               Non est, si est, c’est il, c’est mon!
+               Or me croyez, c’est Barrabas;
+               Prenez le, mettez le à bas!
+               Quel bruict, quelle pitié, quelle honte!
+               Voyla ce qu’on nous en racompte.
+               Venez ça, que respondez vous
+               A ce qu’il vous dit? Bran pour vous!
+               Je le congnoys, c’est ung grant prebstre.
+               Vous faillez, il le vouldroit estre,
+               Pourveu qu’il en eust acroché
+               Quelque abbaye ou evesché.
+               Mais, sans bonnet, sa teste nue
+               Est pour la mistre bien menue.
+               N’en parlez plus, parbieu, c’est il,
+               Tout ce qu’il sçayt n’est que babil;
+               Je n’en pourroys plus tant souffrir;
+               Voicy que je luy vueil offrir:
+               Luy bailler mon art et ma muse,
+               Pour en user comme j’en use,
+               En me resignant son office,
+               Car je sçay qu’elle m’est propice.
+               Faictes, si pouvez, qu’il s’i range;
+               Je suis trescontant de l’eschange.
+               L’estat est bon pour les affaires
+               De nous et noz petitz confreres.
+               Si de mon art ne peult chevir,
+               Voycy dont il pourra servir:
+               On m’a promis qu’il a renom
+               De salpêtre et poudre à canon
+               Avoir muni tout son cerveau;
+               Faites deux tappons de naveau
+               Et les luy mettez en la bouche,
+               Et puys après que l’on le couche
+               Tout de son long, et en l’oreille,
+               Tout doucement qu’il ne s’esveille,
+               Gectez y poudre pour l’emorche, 
+               Et gardez bien qu’on ne l’escorche,
+               Car ung homme bien empesché
+               Seroit d’un regnard escorché.
+               Et cela faict, qu’on le repute
+               Pour servir d’une haquebute.
+               Jamais homme n’en parla mieulx;
+               Les tappons sortiront des yeulx
+               Et feront ung merveilleux bruict;
+               Et si la fouldre les conduict,
+               Ilz fraperont deux tous d’un coup.
+               Cela leur servira beaucoup
+               Pour deschasser leurs ennemys;
+               Car s’ilz ne sont fort endormyz,
+               Tel canon leur donnera craincte.
+               Pleust à dieu qu’il feust à la poincte
+               Du premier chocq, ce gros marault
+               Qui a crié sur nous harault
+               Et nous a chassez du pays.
+               Nous estions assez esbahys,
+               Lyon, il t’en peult souvenir;
+               Il n’estoit temps de revenir;
+               Il failloit chercher seureté
+               Du paouvre Clement arresté,
+               Qui surprins estoit à Bordeaulx
+               Par vingt ou quarante bedeaulx
+               Des sergens dudict parlement.
+               Je diz que je n’estoys Clement
+               Ne Marot, mais ung bon Guillaume
+               Qui, pour le prouffict du Royaume,
+               Portoys en grande dilligence
+               Paquet et lettres de creance.
+               Je n’avoys encores souppé,
+               Mais si tost que fuz eschappé,
+               Je m’en allay ung peu plus loing;
+               Par dieu, il en estoit besoing;
+               Car pour ung tel pauvre souldart
+               Que Clement, qui n’est point pendart,
+               N’y fut faict plus grande grande poursuicte.
+               J’avoys chacun jour à ma suicte
+               Gens de pied et gens de cheval;
+               Et lors je prins le vent d’aval,
+               Et sur petitz chevaux legiers
+               Je me mis hors de tous dangiers,
+               J’entendz pourveu que je me tienne
+               Là où je suys en bonne estraine.
+               Si nous feussions demourez là?
+               Tel y estoit qui n’en parla
+               Jamais, depuis que j’en partis.
+               Ilz ont esté si bien rotys
+               Qu’ilz sont tous convertiz en cendre.
+               Or jamais ne vous laissez prendre,
+               S’il est possible de fouyr;
+               Car tousjours on vous peult ouyr
+               Tout à loysir et sans collere;
+               Mais en fureur de telle affaire
+               Il vault mieulx s’excuser d’absence
+               Qu’estre bruslé en sa presence.
+               Des nouvelles de par deça:
+               L’autre jour, quant il trespassa,
+               L’empereur, il ne l’estoit pas,
+               Et n’avoit pas passé le pas
+               Pour dire qu’il fust trespassé.
+               Il est bien gray qu’il est passé
+               De l’Ytalye en la Prouvence.
+               Les Françoys crient : vive France,
+               Les Espaignolz : vive l’empire,
+               Il n’y a pas pour tous à rire.
+               Le plus hardy n’est sans terreur.
+               N’est ce pas ung trop grant erreur,
+               Pour les biens qui ne sont que terre,
+               D’exciter si horrible guerre?
+               Les gensdarmes sont furieux,
+               Chocquans au visaige &amp; aux yeulx.
+               Il ne fault qu’une telle lorgne
+               Pour faire une gentilhomme borgne;
+               Il ne fault qu’un trait d’arbaleste,
+               Passant au travers de la teste,
+               Pour estonner ung bon cerveau.
+               J’aymeroys autant estre veau
+               Qui va droit à la boucherie
+               Que aller à telle tuerie.
+               C’est assez d’un petit boullet,
+               Qui poingt ung souldart au collet,
+               Pour empescher de jamais boire.
+               Fy, fy, de mourir pour la gloire,
+               Ou, pour se faire grant seigneur,
+               D’aller mourir au lict d’honneur,
+               D’un gros canon parmy le corps,
+               Qui passe tout oultre dehors.
+               Par ma foy, je ne vouldroys point
+               Qu’on gallast ainsi mon pourpoint
+               Et la livrée du cappitaine.
+               Hau, compaignon, levez l’enseigne;
+               Celluy qui la portait est bas!
+               Sangbieu, voila de beaulx esbas!
+               Voila comment on se gouverne
+               Dedans une bonne taverne.
+               J’oseroys entrer hardyment,
+               Mais où l’on frappe nullement;
+               <l>C’est ainsi que <persName ref="ind:Marot">Clement</persName> devise,</l>
+               <l>Vivant en paix dedans <placeName type="city" key="Venise">Venise</placeName>.</l>
+         </p>
+      </body>
+   </text>
+</TEI>

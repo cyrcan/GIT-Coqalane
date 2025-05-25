@@ -845,14 +845,21 @@
                   Condé-en-Brie</date></death>
             </person>
 
-
-            <person xml:id="Turenne1" corresp="https://data.bnf.fr/ark:/12148/cb13497122d">
-               <idno type="ISNI">0000 0000 8342 3551</idno>
-               <persName xml:lang="fr"><forename type="first">Henri</forename><surname> de La Tour
-                     d'Auvergne, vicomte de Turenne, duc de Bouillon</surname><roleName/></persName>
-               <birth><date>1555-09-28</date></birth>
-               <death><date>1623-03-25</date></death>
+            <person xml:id="Termes">
+               <idno type="ISNI"/>
+               <persName xml:lang="fr"><forename type="first">Paul</forename><surname> <nameLink>de</nameLink> Labarthe                    d'Auvergne, vicomte de Turenne, duc de Bouillon</surname><roleName/></persName>
+               <birth><date when="1482">Né en 1482</date></birth>
+               <death><date when="1562">Mort en 1562</date></death>
             </person>
+
+            <person xml:id="Turenne1"><ptr target="https://data.bnf.fr/ark:/12148/cb13497122d"/>
+               <idno type="ISNI">0000 0000 8342 3551</idno>
+               <persName xml:lang="fr"><forename type="first">Henri</forename><nameLink>de</nameLink><surname> La Tour
+                     d'Auvergne, vicomte de Turenne, duc de Bouillon</surname><roleName/></persName>
+               <birth><date when="1555-09-28">Né le 28 septembre 1555</date></birth>
+               <death><date when="1623-03-25">Mort le 25 mars 1623</date></death>
+            </person>
+            
             <person xml:id="Saint_Léger">
                <idno/>
                <persName xml:lang="fr"><forename type="first"/><surname>

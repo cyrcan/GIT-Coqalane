@@ -19,7 +19,9 @@
                         </msIdentifier>
                      </msDesc></witness>
 
-               </listWit></p>
+               </listWit>Texte établi à partir de l'édition de 1582 à Lyon chez Benoist Rigaud, qui
+               reprend l'originale de 1570. L'imprimeur Gay a réédité le texte à
+               cent-vingt-six exemplaires autour de 1900.</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -136,9 +138,9 @@
                <persName>Marion</persName> &amp; <reg>à</reg>
                <persName>Huguet</persName></l>
             <l>Au coing de l'<placeName>eglise saint Cosme</placeName>:</l><note resp="editor"
-               type="glose">On hésite entre <placeName><geo>48.5101 2.2032</geo>l'église anciennement
-                  située à Paris</placeName> à l’angle de la rue des Cordeliers (actuelle rue de
-               l’École-de-Médecine) et de la rue de la Harpe, et plus
+               type="glose">On hésite entre <placeName><geo>48.5101 2.2032</geo>l'église
+                  anciennement située à Paris</placeName> à l’angle de la rue des Cordeliers
+               (actuelle rue de l’École-de-Médecine) et de la rue de la Harpe, et plus
                      vraisemblablement<placeName><geo>49.0644 2.2543</geo> l'église
                   Saint-Cosme-Saint-Damiens de Luzarches</placeName></note>
             <!-- Saut#1 --><anchor type="saut#1"/>
@@ -149,7 +151,8 @@
             <l>Qui trenchoit fort de l'achepteur,</l>
             <l>Je ne scay s'il fut crocheteur</l>
             <l>De benefice ou de bouteille,</l>
-            <l n="16"><rs type="interjection" subtype="juron">Par Dieu</rs> s'on luy coupoit l'oreille</l>
+            <l n="16"><rs type="interjection" subtype="juron">Par Dieu</rs> s'on luy coupoit
+               l'oreille</l>
             <l>Ce ne seroit pas trop mal fait:</l>
             <l>Car je vous promets en effet</l>
             <l>Que c'est <rs type="invective">un tresmeschant larron</rs></l>
@@ -180,8 +183,10 @@
             <l>Fust ce à lors que tu t'asservi,</l>
             <l><reg>À</reg> recorder ainsi ton roulle.</l>
             <!-- Saut#5 --><anchor type="saut#5"/>
-            <l n="40" rend="indent" ana="#maladie">Ha que la meschante <rs type="maladie">verolle</rs></l>
-            <l ana="#maladie">Fait maintesfois crier <rs type="iinterjection" subtype="plainte">helas</rs>,</l>
+            <l n="40" rend="indent" ana="#maladie">Ha que la meschante <rs type="maladie"
+                  >verolle</rs></l>
+            <l ana="#maladie">Fait maintesfois crier <rs type="iinterjection" subtype="plainte"
+                  >helas</rs>,</l>
             <!-- Saut#6 --><anchor type="saut#6"/>
             <l>J'en ay veu que prenois soulas,</l>
             <l>Plaisir esbat, &amp; passetemps</l>
@@ -192,7 +197,8 @@
             <l ana="#misogynie">Et si sent tant le vieil cabas</l><note resp="editor" type="ling"
                   ><hi rend="italic">Vieil cabas</hi>: "Vieille femme" (Di Stefano, p. 93).</note><!-- Cf. faictz et dictz -->
             <!-- Saut#7 --><anchor type="saut#7"/>
-            <l n="48"><rs type="interjection" subtype="juron">Par <persName type="saint">Saint Jean</persName></rs> c'il descent cy bas</l>
+            <l n="48"><rs type="interjection" subtype="juron">Par <persName type="saint">Saint
+                     Jean</persName></rs> c'il descent cy bas</l>
             <l>En Marrabeth se fera tondre.</l><note resp="editor" type="ling"><hi rend="italic"
                   >Marrabais</hi>: Juif converti ou Espagnol descendu des Maures, Huguet.</note>
             <fw type="sig" place="bottom-right">Il ad</fw>
@@ -227,8 +233,8 @@
             <!-- Saut#15 --><anchor type="saut#15"/>
             <l rend="indent">Au diable toutes ces perruques</l>
             <l>Qui nous font rencherir les pignes,</l>
-            <l n="68" ana="#maladie">Que le <rs type="maladie">mal saint Job</rs> &amp; la
-               <rs type="maladie" subtype="teigne">tigne</rs>,</l>
+            <l n="68" ana="#maladie">Que le <rs type="maladie">mal saint Job</rs> &amp; la <rs
+                  type="maladie" subtype="teigne">tigne</rs>,</l>
             <l ana="#imprécation">Leur puist faire un jour reverence,</l>
             <l ana="#équivoque">Chacun seroit reverend en ce</l>
             <l>Voire s'il n'avoit mal au bras.</l>
@@ -304,7 +310,8 @@
             <l n="112">Il pert son sens, il est amant,</l>
             <l>Il est ravi en ses amours</l>
             <!-- Saut#30 --><anchor type="saut#30"/>
-            <l>Pource si tu <reg>passe[s]</reg> à <placeName type="city" key="Limours">Limours</placeName>,</l>
+            <l>Pource si tu <reg>passe[s]</reg> à <placeName type="city" key="Limours"
+                  >Limours</placeName>,</l>
             <l><rs type="invective" subtype="impératif">Garde toy</rs> de ceste damnnée,</l>
             <l n="116">Qui nous fut un jour admenée</l>
             <l>Pour avec nous prendre repos.</l>
@@ -342,7 +349,8 @@
             <l ana="#motifs_sexuels">Qui suit chacun jusqu'au grenier</l>
             <l>Et pour je ne scay quoy gaignier,</l>
             <l>Laisse brouiller son parchemin</l><note resp="editor" type="ling">Acception grivoise
-               du terme <hi rend="italic">parchemin</hi> pour désigner les parties sexuelles. Cf. Calvin, <title>Avertissement sur la censure</title></note>
+               du terme <hi rend="italic">parchemin</hi> pour désigner les parties sexuelles. Cf.
+               Calvin, <title>Avertissement sur la censure</title></note>
             <l n="144" ana="#équivoque">Se je la treuve par chemin,</l>
             <l ana="#imprécation">Je luy donray le mal encontre.</l>
             <!-- Saut#37 --><anchor type="saut#37"/>
@@ -358,7 +366,8 @@
             <l>Quand on <reg>a</reg> fait quelque promesse,</l>
             <l>De l'accomplir n'est de raison.</l>
             <!-- Saut#38 --><anchor type="saut#38"/>
-            <l n="156"><rs type="interjction" subtype="juron">Par Dieu</rs> <reg>c'est</reg> grande desraison</l>
+            <l n="156"><rs type="interjction" subtype="juron">Par Dieu</rs>
+               <reg>c'est</reg> grande desraison</l>
             <l>Fillette qu'on ne vous marie,</l>
             <l>Je croy que n'en seriez marrie,</l>
             <l>On le voit bien à vostre face.</l>

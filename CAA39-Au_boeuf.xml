@@ -27,8 +27,8 @@
             <listBibl>
                 <msDesc>
                     <msIdentifier>
-                        <settlement>Soissons</settlement>
-                        <repository>Bibliothèque Municipale de Soissons</repository>
+                        <settlement>Soissons, </settlement>
+                        <repository>Bibliothèque Municipale de Soissons, </repository>
                         <idno>ms. 203(189)</idno>
                     </msIdentifier>
                 </msDesc>
@@ -43,7 +43,7 @@
             <l>En as tu tué force Anglois<note type="editor" subtype="crit">Première mention du
                     conflit franco-britannique présent tout au long du poème.</note>
             </l>
-            <!--saut#1-->
+            <!--Saut#1--><anchor type="saut#1"/>
             <l n="4">C’est ung plaisir que d’estre <reg>à</reg>
                 <placeName><settlement type="city">Bloys</settlement></placeName></l>
             <l>A <placeName><settlement type="city">Chambourg</settlement></placeName> ou bien
