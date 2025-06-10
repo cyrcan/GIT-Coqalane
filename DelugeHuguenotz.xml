@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Deluge des Huguenotz, || avec leur tumb-||eau, &amp; les noms des Chefs || &amp;
+               principaux, punys à Paris || le xxiiij jour d'Aourt, || &amp; autres jours ||
+               ensuyvans, || 1572. || Par Jacq. Copp. de Vellay.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>A Paris, || Par Jean Dallier Libraire, demourant sur le pont || S. Michel, à
+               l'enseigne de la Rose blanche, M. D. LXXII. || Avec Privilege.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+            <p><listWit>
+                  <witness><msDesc>
+                        <msIdentifier>
+                           <settlement>Toulouse, </settlement>
+                           <repository>Bibliothèque de Patrimoine, </repository>
+                           <idno>Rés. D. XVI. 212 (2)</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+               </listWit></p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change><date when="2025-06-05">jeudi 5 juin 2025</date>Consultation et clichés</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+            <l>L'An mil cinq cens soixante douze</l>
+            <l>Le vingt deuxiesme jour d'Aoust</l>
+            <l>Fut tyré un coup d'arquebouze</l>
+            <l n="4">Contre <persName ref="ind:Coligny">le chef des Huguenotz</persName>,</l>
+            <l>Par cas fortuit ou autrement</l>
+            <l>Dont ses suppotz plains de vengeance</l>
+            <l>Conspirerent ensemblement</l>
+            <l n="8">Contre les majestez de <placeName type="country" key="France"
+                  >France</placeName>.</l>
+            <l>Mais <persName key="Dieu">l'Eternel Dieu veritable</persName></l>
+            <l>Qui descouvre tous les secretz,</l>
+            <l>A permis de droict equitable</l>
+            <l n="12">Ces perfide' estre massacrez.</l>
+            <l>Car le Dimenche vingt quatriesme</l>
+            <l>Du susdict moys sur la diane,</l>
+            <l>Furent tuez plus d'un centiesme</l>
+            <l n="16">Faulteurs de la Loy Calviniane.</l>
+            <l>Depuis l'on a continué</l>
+            <fw type="sig" place="bottom-right">A ij</fw>
+            <pb/>
+            <l>De punir les plus vicieux</l>
+            <l>De ceux qui avoient remué</l>
+            <l n="20">Toute la terre, voire les cieux,</l>
+            <l>Dont <persName>l'Amiral de Chastillon</persName></l>
+            <l>Servoit à tous d'eschantillon,</l>
+            <l>Et comme le plus fin &amp; plus cault,</l>
+            <l n="24">Fut suyvi de <persName ref="ind:Rochefoucauld">Rochefoucault</persName>,</l>
+            <l>Qui lors cogneurent que fortune</l>
+            <l>Ne favorise pas tousjours l'une</l>
+            <l>Partie, mais quand veult la trousse,</l>
+            <l n="28">Et devers l'autre se rebrousse.</l>
+            <l>Apres l'Ambassadeur <persName>Thelligny</persName></l>
+            <l>Gendre de ce grand <persName>Colligny</persName>,</l>
+            <l>Cria, O Dieu quelle menée</l>
+            <l n="32">Helas! la chance est bien tournée.<note>Cf. CAA#62</note></l>
+            <l><persName>Pons de Bretaigne</persName>, <persName>de Soubize</persName>,</l>
+            <l>Avec <persName>Pilles</persName> mis en chemise,</l>
+            <l>Se disoyent fort heureux si à <persName>Dieu</persName> pouvoyent plaire</l>
+            <l n="36">En <expan>endurant</expan> cela, qu'aux autres <expan>vouloyent</expan> faire.</l>
+            <l>Monin conducteur de brigandz,</l>
+            <l>Accompaigné des Perdeillans,</l>
+            <l>Allerent veoir un beau disner,</l>
+            <l n="40">A qui le faict sembloit amer,</l>
+            <l>Se lamentant contre son frere</l>
+            <l>Quant ne luy faisoit grace faire.</l>
+            <l>Est-ce pas beaucoup conquis</l>
+            <pb/>
+            <l n="44">D'avoir assommé un Marquis</l>
+            <l>(...)</l>
+            <l>Car si plus n'est le conseil divisé</l>
+            <l>Nostre bon <persName type="Charles_IX">Roy</persName>, à qui les astres,</l>
+            <l>Mestront <persName>le Vidasme de Chartres</persName></l>
+            <l>Entre ses mains, avec son compaignon</l>
+            <l><persName>Montgomery</persName> si vaillant champion,</l>
+            <l>Qui prindrent à fort grand'erre</l>
+            <l>La routte devers <placeName>Angleterre</placeName></l>
+            <l>Et que lieu n'aura en sa <placeName>France</placeName>,</l>
+            <l>Qui plus luy face resistance,</l>
+            
+         </p>
+      </body>
+   </text>
+</TEI>

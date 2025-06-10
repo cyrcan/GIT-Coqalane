@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Coq a l'asne ou discours mystique des affaires de ce temps</title>
+            <respStmt xml:id="CCA">
+               <persName>Cyril Cano Arnedo</persName>
+               <resp>éditeur scientifique et encodeur</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Projet d'élaboration d'un corpus des coq-à-l'âne de 1530 à 1649</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Anonyme</author>
+                  <title>COQ A L'ASNE OV DISCOURS MYSTIQUE SUR LES AFFAIRES DE CE TEMPS.</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <respStmt>
+                        <resp>Imprimeur</resp>
+                        <persName>Anthoine du Brueil</persName>
+                     </respStmt>
+                     <date when="1614">1614</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <listBibl>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Paris</settlement>
+                     <repository>Bibliothèque Nationale de France</repository>
+                     <idno>Ye-19041</idno>
+                  </msIdentifier>
+               </msDesc>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projet d'édition universitaire. Transcription à partir de la seule édition connue de
+               1614.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Encodage semi-diplomatique</p>
+            <correction>
+               <p>Dissimilation i/j, u/v, ajout de l'apostrophe, de la cédille, de l'accent aigu et
+                  de l'accent grave en finale selon l'usage moderne.</p>
+            </correction>
+            <normalization>
+               <p>Régularisation de qui/qu'il; ajout ponctuel de la désinence -s à la deuxième
+                  personne</p>
+            </normalization>
+            <hyphenation>
+               <p>Respect des sauts de lignes, des mots coupés, des majuscules et des
+                  esperluettes</p>
+            </hyphenation>
+            <punctuation>
+               <p>Ponctuation originale conservée.</p>
+            </punctuation>
+         </editorialDecl>
+         
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="frm">Français de la Renaissance</language>
+            <language ident="fre">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#CCA" when="2022">Création du fichier en xml-tei</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="mys-p3">
+         <graphic
+            url="../CORPUS-S/Sources_primaires/Imprimes/Plaquettes/CAA88_Mystique_1614/caa88_mystique_3.tif"
+            width="2128px" height="3520px"/>
+         <zone xml:id="Banniere" lry="507" lrx="1728" uly="74" ulx="175"/>
+         <note>frise décorative</note>
+         <zone xml:id="Lettrine" lry="2078" lrx="703" uly="1417" ulx="46"/>
+      </surface>
+   </facsimile>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart>COQ A L'ASNE OV DISCOURS MYSTIQUE SUR LES AFFAIRES DE CE
+                  TEMPS.</titlePart>
+            </docTitle>
+            <docDate when="1614">M. DC. XIV</docDate>
+            <docImprint><pubPlace>A PARIS</pubPlace><publisher>De l'imprimerie d'Anthoine du Brueil,
+                  ruë S. Iacques. au dessus de S. Be-noist, à la Couronne.</publisher></docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <pb facs="#mys-p3" n="3"/>
+         <div type="title">
+            <head facs="#Banniere"/>
+            <head rend="center">COQ A L'ASNE <lb/>OV <lb/>DISCOURS MY- <lb break="no"/>STIQUE SVR
+               LES <lb/>affaires de ce temps.</head>
+         </div>
+         <div type="strophe">
+            <pb n="3"/>
+            <fw type="pageNum" place="top-center">3</fw>
+            <l><hi rend="initiale" facs="#Lettrine">L</hi><hi>a</hi> nuict <reg>je</reg> songeay
+               l'au- <lb break="no"/>tre <reg>jour</reg></l>
+            <l>Que quelques uns faisoi<ex>en</ex>t <lb break="no"/>l'amour,</l>
+            <l>Avant minuit apres une <lb break="no"/>heure</l>
+            <l n="4">A l'enseigne de l'œil qui pleure,</l>
+            <l><reg>Où</reg> l'on vendoit des pois pillez<note type="editor" subtype="ling">Les pois
+                  pillez sont "sorte de sotie" (Huguet)</note>,</l>
+            <l>Lors me dict <persName>Colas</persName> reculez:</l>
+            <!--Saut#1-->
+            <l>Car on va les <rs type="animal">oysons</rs> combattre</l>
+            <l n="8">Tu <reg>joües</reg> bien à ta faire battre,</l>
+            <l>Lors <reg>je</reg> responds audit <persName>Colas</persName></l>
+            <fw type="sig" place="bot-right">A ij</fw>
+            <pb n="4"/>
+            <fw rend="center">4</fw>
+            <l>Par trop t'avencer tu <choice>
+                  <orig>est</orig>
+                  <reg>es</reg>
+               </choice> las,</l>
+            <l>D'avoir combatu la guerre</l>
+            <l n="12">Par Mananda<note type="editor" subtype="ling">"Sorte de juron ayant une valeur
+                  de renforcement. Il paraît avoir été le plus souvent employé par les femmes, mais
+                  il l'est aussi par les hommes. Il entre en composition avec diverses particules.
+                  Il est probablement lui-même un composé de 'en' et de 'da'."(Huguet)</note>
+               <reg>je</reg> croy qu'il erre</l>
+            <!--Jeu sur la divagation-->
+            <l>Et ne sçay bonnement qu'il dit</l>
+            <!--et les propos obscurs-->
+            <l>C'est qu'on ne luy faict point credit,</l>
+            <l>Qu'en baillant de l'argens contant</l>
+            <!--Saut#2-->
+            <l n="16"><persName>Robin</persName> en feroit bien autant,</l>
+            <l>Son <rs type="animal">Coq</rs> monté dessus son <rs type="animal">Asne</rs></l>
+            <!--Interprétation symbolique à éclaircir-->
+            <l>Ils sentent un peu plus fort que basme</l>
+            <l>Les maistres de ces bas fossez</l>
+            <l n="20">Parle bas n'est ce pas assez</l>
+            <l>Conté d'une telle matiere</l>
+            <!--Saut#3-->
+            <l>N'ayme tu plus la Charcuitiere,</l>
+            <l>Ce me dit un <reg>jour</reg>
+               <persName>Jean le <rs type="animal">veau</rs></persName></l>
+            <l n="24">Nenny pour l'amour du <rs type="animal">pourceau</rs></l>
+            <l>Dis je qu'elle <reg>m'a</reg> vendu ladre</l>
+            <l>Tu seras pendu en un arbre,</l>
+            <l><choice>
+                  <orig>Parle</orig>
+                  <reg>Parles</reg>
+               </choice> tu mal des Boudiniers</l>
+            <!--Saut#4-->
+            <l n="28"><choice>
+                  <orig>Il</orig>
+                  <reg>Ils</reg>
+               </choice> m'ont faict de mauvais souliers,</l>
+            <l>Ces meschans Cordonniers de <rs type="animal">veau</rs></l>
+            <!--Saut#5-->
+            <l>Dieu qu'il est verd ce vin nouveau</l>
+            <l>Tu en auras meilleur accez</l>
+            <!--Saut#6-->
+            <pb n="5"/>
+            <fw type="pageNum" place="center">5</fw>
+            <l n="32">Je gaigneray donc mon procez:</l>
+            <l>Car ma matiere sera claire</l>
+            <l>Et si <reg>je</reg> vivray en la Sphere</l>
+            <l>En despit de <persName><reg>N</reg>ostradamus</persName></l>
+            <!--Saut#7-->
+            <l n="36">De <persName type="inconnu">Moregrad</persName> ne parlons plus</l>
+            <l>Puis qu'il faict au <persName key="Louis XIII">Roy</persName> bon service</l>
+            <l><reg>Je</reg> croy qu'en cest art est novice,</l>
+            <l>Et mauvais Arithmeticien:</l>
+            <l n="40">Toutesfois il est ancien</l>
+            <l>Pour inventer de belles bourdes</l>
+            <l>Il a bien trompé des balourdes,</l>
+            <l>Qui pensoient ja estre <roleName>Empereurs</roleName></l>
+            <!--Saut#8-->
+            <l n="44">Bon Dieu qui<note type="editor" subtype="ling">qu'il</note> se void de
+               trompeurs,</l>
+            <l>A cest heure que <reg>je</reg> caquette</l>
+            <l><reg>Je</reg> gagnerois bien ma <reg>Jaquette,</reg></l>
+            <l>Que tout ira de pire en mieux,</l>
+            <!--Saut#9-->
+            <l n="48">Mon Dieu que tu es soucieux,</l>
+            <l>Ne nous veux tu dire autre chose</l>
+            <l>Et montre moy ton chose chose</l>
+            <l>Par ma foy <reg>je</reg> n'en vis jamais</l>
+            <!--Saut#10-->
+            <l n="52">Tu <choice>
+                  <orig>sera</orig>
+                  <reg>seras</reg>
+               </choice> maistre desormais,</l>
+            <l>Puis que ta femme est trespassee</l>
+            <!--Misogynie désormais traditionnelle du genre-->
+            <fw type="sig" place="bot-right">Aiij</fw>
+            <pb n="6"/>
+            <fw place="center">6</fw>
+            <l>Elle est requiescant in passe,</l>
+            <l>Dont <reg>je</reg> suis marry a demy,</l>
+            <!--Saut#11-->
+            <l n="56">Ma foy tu n'es plus mon amy,</l>
+            <l>Que diable dy-tu, tu te <choice>
+                  <orig>mocque</orig>
+                  <reg>mocques</reg>
+               </choice></l>
+            <!--Saut#12-->
+            <l>Non fais non, <reg>je</reg> dis que la cocque</l>
+            <l>D'un œuf ne vaut gueres de cas:</l>
+            <l n="60">Mais si <reg>j'</reg>avois force ducats,</l>
+            <l><reg>Je</reg> me ferois appeller Sire,</l>
+            <!--Saut#13-->
+            <l>Chacun n'a pas ce qu'il desire,</l>
+            <l>Ce me dit <reg>Jeudy</reg> un muet</l>
+            <!--Saut#14-->
+            <l n="64">Que ne gaignerons pas luet</l>
+            <l>Si les femmes ne s'entrebattent</l>
+            <!--Saut#15-->
+            <l>Voyez vous point comme ils se grattent,</l>
+            <l>Ces belles mulles du <placeName>Palais</placeName></l>
+            <l n="68">Dieu que maints <choice>
+                  <orig>il</orig>
+                  <reg>ils</reg>
+               </choice> font de pas lays,</l>
+            <l>Remplis de dueil &amp; facherie</l>
+            <!--Saut#16-->
+            <l>Et bien <reg type="erasure">si</reg> je me fache rie,</l>
+            <!--Equivoque-->
+            <l>Qui voudra ce m'en est tout un,</l>
+            <!--Saut#17-->
+            <l n="72">Cognois-tu Monsieur qui voy d'un,</l>
+            <l>Ouy ce me dit-il, c'est le borgne</l>
+            <l><reg>Je</reg> sçay le <reg>jeu</reg> de torche lorgne,</l>
+            <!--Jeu-->
+            <l>Quand tu voudras te l'apprendray</l>
+            <!--Saut#18-->
+            <pb n="7"/>
+            <fw place="center">7</fw>
+            <l n="76">Si elle veut <reg>je</reg> la prendray</l>
+            <l>Et s'elle ne veut, si le laisse</l>
+            <!--Saut#19-->
+            <l>Il les faudroit mener en laisse,</l>
+            <l>Pour les garder de tant courir.</l>
+            <!--Saut#20-->
+            <l n="80">A qui dois-je secours querir,</l>
+            <l>Puis que mon amy <reg>m'a</reg> laissee</l>
+            <!--Saut#21-->
+            <l>La querelle n'est pas cessee,</l>
+            <l>Des enfans &amp; petis pastez</l>
+            <l n="84">Il ne leur faut dire tastez,</l>
+            <l>Quand ils les tiennent en colere</l>
+            <!--Saut#22-->
+            <l>Dieu vous gard <roleName>Monsieur le Vicaire</roleName>,</l>
+            <l><reg>Je</reg> vous estois cy veoir venu</l>
+            <l n="88">Affin que me fissiez cornu:</l>
+            <l>Car Madame qui est en peine</l>
+            <l>Perdra son vent &amp; son haleine,</l>
+            <l>Tant par derriere que devant</l>
+            <!--Saut#23-->
+            <l n="92">Tu <choice>
+                  <orig>pense</orig>
+                  <reg>penses</reg>
+               </choice> devenir sçavant,</l>
+            <l>En t'escoutant tu me fais rire</l>
+            <!--Saut#24-->
+            <l>On fera tant de trippes cuire,</l>
+            <l>Que les crocheteurs y viendront</l>
+            <!--Faire une note sur crocheteurs-->
+            <!--Saut#25-->
+            <l n="96">Auquel mettray-<reg>je</reg> dans le rond,</l>
+            <!--Expression-->
+            <l>Dit un varlet d'Appoticaire:</l>
+            <pb n="8"/>
+            <fw place="center">8</fw>
+            <l>Car se voyant en tel affaire</l>
+            <l>Il demeura tout esperdu.</l>
+            <!--Saut#26-->
+            <l n="100">Ceux qui gaignent n'ont pas perdu,</l>
+            <l><reg>J'</reg>entens qui <reg>joüent</reg> au trou Madame</l>
+            <!--Saut#27-->
+            <l>Nous yrons veoir <persName>la belle Dame,</persName></l>
+            <l>Et puis nous serons bonnes gens</l>
+            <!--Saut#28-->
+            <l n="104"><reg>Je</reg> veis l'autre <choice>
+                  <orig>iours</orig>
+                  <reg>jour</reg>
+               </choice> trois Sergens,</l>
+            <l>Bien empeschez à ne rien faire</l>
+            <!--Saut#29-->
+            <!--Cf. Vers de Marot-->
+            <l>Elle n'a rien vallu la foire:</l>
+            <l>Mais au fort <reg>j'</reg>ay des soulliers neux,</l>
+            <!--Saut#30-->
+            <l n="108">Et <reg>je</reg> suis des bien heureux,</l>
+            <l>Car <reg>je</reg> prends les <rs type="animal" subtype="insecte">poux</rs> à
+               tatons</l>
+            <l>Or çà <reg>j'</reg>ay des <rs type="animal">bœufs</rs> combattons,</l>
+            <l>Qui gaignera ne payera rien</l>
+            <!--Saut#31-->
+            <l n="112">Car ma foy <reg>je</reg> m'en soucie bien</l>
+            <l>Qui mangera les harancs frais</l>
+            <l>Si en payeras-tu tous les frais,</l>
+            <!--Saut#32-->
+            <l>Entends-tu <persName>Colin</persName> de la couppe:</l>
+            <l n="116">Car quand il a humé sa souppe,</l>
+            <l>L'on ne peut plus durer à luy:</l>
+            <l>Mais si le sçauray <reg>je</reg>
+               <reg>aujourd'huy</reg>, </l>
+            <l>Qui a mangé ma <rs type="animal">poulle</rs> grasse</l>
+            <!--Saut#33-->
+            <fw type="sig" place="bot-right">Assez</fw>
+            <pb n="9"/>
+            <fw place="center">9</fw>
+            <l n="120">Assez va qui fortune passe:</l>
+            <l>C'est parler en Rethoricien</l>
+            <l>Si seray-<reg>je</reg> Musicien,</l>
+            <l>Car <reg>je</reg> sçay ma croix de par-Dieu</l>
+            <!--Saut#34-->
+            <l n="124">Il a tant faict qu'il a eu lieu,</l>
+            <!--Saut#35-->
+            <l>Tu es donc Monsieur passé maistre</l>
+            <l>Par <reg>où</reg>, &amp; par la grand fenestre,</l>
+            <l>Dessus la foy de <persName>maistre Allain</persName></l>
+            <l n="128">Qui ne peut moudre en un <placeName>moulin</placeName>,</l>
+            <!--Saut#36-->
+            <l>Hé! à l'autre disent les femmes,</l>
+            <l>Ils sçavent bien mieux que leurs gammes</l>
+            <l>Quand ils ont un petit humé</l>
+            <!--Saut#37-->
+            <l n="132">Porte luy tost ce chaudumé:</l>
+            <l>Car il se meurt si n'a la tette</l>
+            <!--Saut#38-->
+            <l>Elle n'a pas la raye trop nette</l>
+            <l>La fruittiere de <placeName>petit pont</placeName></l>
+            <!--Saut#39-->
+            <l n="136">Parbleu si ma <rs type="animal">poulle</rs> ne pond,</l>
+            <l><reg>Je</reg> luy feray fendre la creste,</l>
+            <!--Saut#40-->
+            <l>Helas! monsieur, <reg>je</reg>
+               <choice>
+                  <orig>devient</orig>
+                  <reg>deviens</reg>
+               </choice> beste,</l>
+            <l>Le poil me vient de tous costez</l>
+            <!--Saut#41-->
+            <l n="140">Bien fachee estoit n'en doutez,</l>
+            <l>Ceste pauvre fille veluë</l>
+            <!--Saut#42-->
+            <fw type="sig" place="bot-right">B</fw>
+            <pb n="10"/>
+            <fw place="center">10</fw>
+            <l><reg>Je</reg> croy que tu as la berluë</l>
+            <l>Tu ne peux voir les gens de bien</l>
+            <l n="144"><persName>Sainct <reg>Jean</reg></persName>, c'est toy qui ne vaut rien</l>
+            <l>Tu as dit <reg>injure</reg> à ta mere</l>
+            <!--Saut#43-->
+            <l>Elle mourut de mort amere</l>
+            <l>Sa <rs type="animal">vache</rs> de melancolie</l>
+            <!--Saut#44-->
+            <l n="148">Il dit vray, la corde le lie,</l>
+            <l>Avec un <rs type="animal">Asne</rs> &amp; un gros <rs type="animal">veau</rs></l>
+            <!--Saut#45-->
+            <l>Ce ne sera pas mot nouveau,</l>
+            <l>Quand on dira voyla trois bestes</l>
+            <!--Saut#46-->
+            <l n="152">Que diable ils ont mauvaises testes,</l>
+            <l>On n'en viendroit <reg>jamais</reg>
+               <reg>à</reg> bout,</l>
+            <!--Saut#47-->
+            <l>Ne verrons nous <reg>jamais</reg> le bout</l>
+            <l>De ses picoreurs miserables</l>
+            <l n="156">Que fussent-ils à tous les diables,</l>
+            <l>Au moins nous serions en repos:</l>
+            <!--Saut#48-->
+            <l>Mais revenons à nos propos.</l>
+            <l>Vrayment tu <reg>l'as</reg> belle baillee</l>
+            <l n="160">Bren tu <reg>l'as</reg> quasi esveillee,</l>
+            <l>Puis nous mengera de caquet</l>
+            <!--Saut#49-->
+            <l><reg>Jamais</reg> d'un Moulin le claquet,<note type="editor" subtype="ling">Ménage
+                  indique que le claquet désigne "une petite late dans un moulin, qui est sur la
+                  tremie et qui battant sur la meule fait du bruit."</note></l>
+            <l>N'alla d'une telle maniere</l>
+            <!--Saut#50-->
+            <pb n="11"/>
+            <fw place="center">11</fw>
+            <l n="164">D'un <rs type="animal">Mullet</rs> garde le derriere</l>
+            <l>Et d'une femme le devant</l>
+            <l>Ne t'y fourre pas si avant,</l>
+            <l><choice>
+                  <orig>Qui</orig>
+                  <reg>Qu'il</reg>
+               </choice> ne te faille une cliquette,<note type="editor" subtype="ling">Loquet
+                  (Huguet)</note></l>
+            <!--Saut#51-->
+            <l n="168"><persName>Margot</persName>, <persName>Perrichon</persName> &amp;
+                     <reg><persName>Jacquette</persName></reg>,</l>
+            <l>Sont marquées toutes en un endroit</l>
+            <!--Saut#52-->
+            <l>Et ma foy qui te feroit droit</l>
+            <l>On te mettroit ammy la ruë</l>
+            <l n="172">Garde de là mon cheval ruë</l>
+            <l>Sa fronde est serree de nouveau</l>
+            <!--Saut#53-->
+            <l>Il sent bien l'esvent ton cerveau,</l>
+            <l><reg>Je</reg> croy que c'est faute de boire</l>
+            <l n="176">Tu <choice>
+                  <orig>dit</orig>
+                  <reg>dis</reg>
+               </choice> vray voila bonne histoire,</l>
+            <l><reg>J'</reg>en ay le cœur tout <reg>resjouy:</reg></l>
+            <!--Saut#54-->
+            <l>Mais que <reg>je</reg> dissé <reg>tousjours</reg> ouy</l>
+            <l>Ne seray-<reg>je</reg> pas marié</l>
+            <!--Saut#55-->
+            <l n="180">Bien sçay que seray harié <note type="editor" subtype="ling">Tourmenté
+                  (Huguet)</note>:</l>
+            <l>Mais du moins l'on me dira Sire,</l>
+            <l>Tu ne sçay pas que <reg>je</reg> desire,</l>
+            <l>D'estre gouverneur, non Prelat</l>
+            <l n="184">De deux bouteilles &amp; d'un bon plat,</l>
+            <l><reg>J'</reg>entens bien garny, somme toute,</l>
+            <!--Saut#56-->
+            <fw type="sig" place="bot-right">B ij</fw>
+            <pb n="12"/>
+            <fw type="pageNum" place="center">12</fw>
+            <l>Tu verroy si <reg>j'</reg> avois la goutte,</l>
+            <l>Et si <reg>je</reg> ne m'employrois pas</l>
+            <l n="188">Une aulne de doubles ducats,</l>
+            <l>Des plus vieux combien voudroit elle</l>
+            <!--Saut#57-->
+            <l>Helas! Soustenez ma querelle,</l>
+            <l>Monsieur, <reg>je</reg> suis femme de bien</l>
+            <!--Saut#58-->
+            <l n="192"><reg>Je</reg> croy que ce ne sera rien,</l>
+            <l>De ce qu'on dit de ceste armee,</l>
+            <!--Saut#59-->
+            <l>Au <reg>joly</reg> bois sous la ramee,</l>
+            <l>L'on engendre des <rs type="animal" subtype="oiseau">perroquets</rs>,</l>
+            <!--Saut#60-->
+            <l n="196">Aux gens d'armes il n'est point d'aquets<note type="editor" subtype="ling"
+                  >Acquisitions</note></l>
+            <l>Tesmoing en est notre <placeName><region>champagne</region></placeName></l>
+            <l>Où ils ont tenu la campagne,</l>
+            <l>Plus de trois bons <reg>jours</reg> &amp; demy</l>
+            <l n="200">Là <reg>je</reg> fus traité en amy,</l>
+            <l>Par la morbleu <reg>j'</reg>y voudrois r'estre</l>
+            <l><reg>Je</reg> suis valet <reg>je</reg> serois maistre</l>
+            <l>En despit de ce viel lourdaut</l>
+            <l n="204"><reg>Je</reg> luy montrois qu'il ne m'en chaut,</l>
+            <l>Quel affaire va le devant</l>
+            <!--Saut#61-->
+            <l>Il ne faut aller si avant:</l>
+            <l>Car la musniere de <placeName><settlement type="city"
+               >Vernon</settlement></placeName></l>
+            <pb n="13"/>
+            <fw type="pageNum" place="center">13</fw>
+            <l n="208">Est propre à dire ouy &amp; non,</l>
+            <l>Vielle chanson du temps passé.</l>
+            <!--Saut#62-->
+            <l>Il s'en va rompu &amp; cassé,</l>
+            <l>D'avoir combattu en la guerre,</l>
+            <!--Saut#63-->
+            <l n="212">Quand du voyage dessous terre,</l>
+            <l>Les morts sont morts n'en parlons plus,</l>
+            <!--Saut#64-->
+            <l>Mon Dieu <choice>
+                  <orig>qui</orig>
+                  <reg>qu'il</reg>
+               </choice> se commet d'abus,</l>
+            <l>Doncq' ne suis gueres <reg>resjouy</reg></l>
+            <!--Saut#65-->
+            <l n="216"><reg>J'</reg>ay l'œil dextre tout esblouy,</l>
+            <l>De regarder ces faux visages,</l>
+            <!--Saut#66-->
+            <l>Pour emprunter faut avoir gages,</l>
+            <l>Où bien on tourne les tallons,</l>
+            <!--Saut#67-->
+            <l n="220">Lors m'esveillay a reculons</l>
+            <l>Environ les quatre, ou cinq heures</l>
+            <l>M'abillay, &amp; vins sans demeures,</l>
+            <l>Voir le <reg>jour</reg> comme il se portoit</l>
+            <l n="224">Puis m'en allay couché tout droit,</l>
+            <l>Dans la cave de mon voisin</l>
+            <l>Une pierre au lieu de coisin,</l>
+            <l>Estoit gisante sous ma teste</l>
+            <l n="228">Mes oreilles faisoient tempeste,</l>
+            <l>Frissonnant le chaut &amp; le froit</l>
+            <fw type="sig" place="bot-right">B iij</fw>
+            <pb n="14"/>
+            <fw type="pageNum" place="center">14</fw>
+            <l>Qu'aquis j'avois &amp; cest endroit</l>
+            <l>Ou ma cervelle fut gelée:</l>
+            <l n="232">Mais quand elle fut r'esveillee,</l>
+            <l><persName key="Maître Guillaume">Maistre Guillaume</persName> m'apparut</l>
+            <l>Je croy bien qu'il estoit en rut</l>
+            <l>Monté sur une grand <reg>jument</reg></l>
+            <l n="236">Dieu luy face pardon s'il ment,</l>
+            <l>Il se disoit auteur de paix</l>
+            <l>Il estoit nuds pieds sans laquais,</l>
+            <l>Et ne sçavoit plus <reg>où</reg> aller</l>
+            <l n="240"><reg>Je</reg> m'aproche pour luy parler:</l>
+            <l>Comme à homme rompu d'affaires</l>
+            <l>Lors me respond que necessaire,</l>
+            <l>Il n'estoit plus discourir,</l>
+            <l n="244">Allons car il me faut partir,</l>
+            <l>Me dit-il d'une voix cassee</l>
+            <l><reg>Je</reg> porte le cas à <reg><persName>Macee</persName></reg>,</l>
+            <l>Qui sera mariee demain,</l>
+            <l n="248"><reg>Je</reg> laisse là le parchemin,</l>
+            <l>Il est plus fort que le papier,</l>
+            <l><reg>Je</reg> ne me veux plus soucier,</l>
+            <l><reg>J'</reg>auray bon temps la paix est faicte,</l>
+            <pb n="15"/>
+            <fw type="pageNum" place="center">15</fw>
+            <l n="252">Desloger nous faut sans trompette</l>
+            <l>Et revandre tous nos harnois</l>
+            <!--Saut#68-->
+            <l><reg>Je</reg> ne donroy pas un tournois</l>
+            <l>De ceux là qui surpris serons,</l>
+            <l n="256">On les fera à reculons</l>
+            <l>Gaigner le ciel par escalade.</l>
+            <!--Saut#69-->
+            <l>De mourir sans estre malade,</l>
+            <l><reg>Je</reg> n'en ay encor grand desir,</l>
+            <!--Saut#70-->
+            <l n="260">Adieu <reg>je</reg> n'ay pas le loisir,</l>
+            <l>De t'en discourir d'avantage</l>
+            <l>Sers bien le Roy si tu es sage,</l>
+            <l>Voicy que s'aproche le soir,</l>
+            <l n="264">Adieu amy <reg>jusques</reg> revoir,</l>
+            <l/>
+            <l rend="center">FIN.</l>
+         </div>
+      </body>
+   </text>
+</TEI>

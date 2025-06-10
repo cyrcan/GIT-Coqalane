@@ -89,7 +89,8 @@
             <l>Mon Dieu le plaisant <persName>Rabelais</persName>,</l>
             <l><reg>J’</reg>en faillis à mourir de rire,</l>
             <l n="4">Mais quoy que l’on me puisse dire,</l>
-            <l>Il n’est que d’avoir des escus,</l>
+            <l>Il n’est que d’avoir des <rs type="monnaie" subtype="écu">escus</rs>,</l>
+            <!-- Saut# -->
             <l>Il y en a de bien camus:</l>
             <l>Car l’on dit que le Machefert</l>
             <l n="8">Se resoud de passer la mer</l>

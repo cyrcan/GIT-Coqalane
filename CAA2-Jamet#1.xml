@@ -161,7 +161,7 @@
    <text>
       <body>
          <p>
-            <l><emph>Pu</emph>is que ma plume est en sa voye,<note type="editor" subtype="crit">Jeu
+            <l ana="#mtd"><emph>Pu</emph>is que ma plume est en sa voye,<note type="editor" subtype="crit">Jeu
                   sur l'équivoque conforme à l'esthétique de l'épître-source.</note></l>
             <l ana="#équivoque">Autant de salutz <reg>je</reg> t’<reg>envoye</reg>,</l>
             <l ana="#adr"><addName type="destinataire">Coq</addName>, mon amy, sur tous admis,<note type="editor" subtype="crit">Jamet serait donc le
@@ -171,8 +171,8 @@
             <l>Te remerciant de ta lettre,</l>
             <l>Car, puis que me declaires l’estre</l>
             <l>De par delà, comme on peult veoir,</l>
-            <l n="8">De par deçà, te fais sçavoir</l>
-            <l>Que festes clost la sainct Hilaire<note type="editor" subtype="crit">le 14 janvier,
+            <l n="8" ana="#mtd">De par deçà, te fais sçavoir</l>
+            <l ana="#folie">Que festes clost la sainct Hilaire<note type="editor" subtype="crit">le 14 janvier,
                   après la fête de l'Âne, la fête des Fous et celle des Innocents.</note></l>
             <!--Saut#1--><anchor type="saut#1"/>
             <l>Voyla dont vint la grant cholere</l>
@@ -183,23 +183,23 @@
             <l>De troys doigtz despois sur le tymbre<note type="editor" subtype="ling">En argot, la
                   tête.</note></l>
             <l>Et si n’estoit que vint le tymbre</l>
-            <l>Aux cantines du Parion<note type="editor" subtype="ling">Compagnon</note> ,</l>
+            <l>Aux cantines du Parion<note type="editor" subtype="ling">Compagnon</note>,</l>
             <!-- Saut#2 --><anchor type="saut#2"/>
             <l n="16"><placeName type="country" key="Espagne">Espaigne</placeName> avoit son
                   horion<note type="editor" subtype="ling">Pluie, ravage attribué à l'influence de
                   la constellation Orion.(Huguet)</note></l>
             <l>Pour <reg>ung</reg> cartier de recompense,</l>
             <!-- Saut#3 --><anchor type="saut#3"/>
-            <l>Mais ce n’est pas ce que <reg>je</reg> pense</l>
+            <l ana="#ethos">Mais ce n’est pas ce que <reg>je</reg> pense</l>
             <l>Car <reg>à</reg> bon pied bon <reg>œil</reg> bon cueur</l>
-            <!-- Saut#4 --><anchor type="saut#4"/>
+            
             <l n="20">Alors disoit l’equivocqueur</l>
             <l>À sa femme, non pas sans ire,</l>
-            <l>Quant par esbat luy pensoit dire</l>
-            <l>Mon amy doulx, equivocons.</l>
-            <l n="24">Qui faict cela, &amp; qui voz cons</l>
+            <l ana="#motifs_sexuels">Quant par esbat luy pensoit dire</l>
+            <l ana="#motifs_sexuels">Mon amy doulx, equivocons.</l>
+            <l n="24">Qui faict cela, <rs type="équivoque">&amp; qui voz cons</rs></l>
             <l>Que nous soyons en <reg>Jalousie</reg></l>
-            <!-- Saut#5 --><anchor type="saut#5"/>
+            <!-- Saut#4 --><anchor type="saut#5"/>
             <l>Mauldict soit tant de fantaisie</l>
             <l>Qu’on a du gorgerin meschant,</l>
             <l n="28">Il couste bon <reg>à</reg> maint marchant</l>
@@ -214,8 +214,9 @@
             <l>Puys pour reparer les offences</l>
             <l><reg>L’on</reg>
                <reg>s’en</reg> venge par Atropos.</l>
-            <l n="36">Mais <reg>je</reg> reviens <reg>à</reg> mon propos</l>
-            <l>Affin <reg>qu’à</reg> m’entendre ne failles,</l>
+            <!-- Saut# --><anchor type="saut#"/>
+            <l n="36" ana="#mtd">Mais <reg>je</reg> reviens <reg>à</reg> mon propos</l>
+            <l ana="#mtd">Affin <reg>qu’à</reg> m’entendre ne failles,</l>
             <l>Puys que tu es hors des murailles</l>
             <l><reg>Je</reg> te veulx racompter de moy,</l>
             <l n="40">Si n’estoit qu’il y a de <reg>l’esmoy</reg></l>
@@ -226,8 +227,9 @@
             <l>C’est <reg>ung</reg> signe qu’on est bien pres</l>
             <l n="44"><reg>L’on</reg> crie bien apres apres</l>
             <l>Et cependant la proye eschappe,</l>
+            <!-- Saut# --><anchor type="saut#"/>
             <l>C’est assez puys qu’on a la chappe</l>
-            <l>Laisse trotter le chapperon</l>
+            <l><rs type="injonction" subtype="impératif">Laisse</rs> trotter le chapperon</l>
             <l n="48"><reg>Je</reg> croy que nous <reg>l’eschapperon</reg></l>
             <l>Si ne demourons au passaige,</l>
             <l>Au temps qui court, il n’est pas saige</l>
@@ -236,7 +238,7 @@
             <l>Si <reg>l’on</reg> ne fault <reg>à</reg> bien comprendre,</l>
             <l>Car, disent ceulx qui sçavent prendre</l>
             <l>Tout, fors esguilles par le bout</l>
-            <l n="56">Femmes de plat &amp; bois debout</l>
+            <l n="56" ana="#motifs_sexuels">Femmes de plat &amp; bois debout</l>
             <l>Durent comme tous les grans Diables,</l>
             <l>Ceulx qui trenchent des serviables,</l>
             <l>Auront part en Rochemelon.</l>

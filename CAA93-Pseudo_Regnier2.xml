@@ -3,7 +3,7 @@
 <?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
-      <fileDesc>
+      <fileDesc xml:id="APhilon">
          <titleStmt>
             <title>Title</title>
          </titleStmt>
@@ -12,20 +12,180 @@
          </publicationStmt>
          <sourceDesc>
             <p>Information about the source</p>
+            <p><listWit>
+               <witness><msDesc>
+                  <msIdentifier>
+                     <settlement>where is it</settlement>
+                     <repository>repository name</repository>
+                     <idno>identifier</idno>
+                  </msIdentifier>
+               </msDesc></witness>
+            </listWit></p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p>
+            <interpGrp>
+               <!-- A -->
+               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="actu" ana="actualité">actualité commentée</interp>
+               <interp xml:id="adr" ana="adresse">adresse</interp>
+               <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+               <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="amour" ana="amour">amour</interp>
+               <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+
+               <!-- B -->
+               <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
+               <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
+
+               <!-- C -->
+               <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
+               <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de
+                  l'épître</interp>
+               <interp xml:id="corruption" ana="corruption">corruption</interp>
+               <interp xml:id="corps" ana="corps">corps</interp>
+               <interp xml:id="cour" ana="court">vie de la cour</interp>
+               <interp xml:id="cri" ana="cri">cris des marchands</interp>
+               <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+
+               <!-- D -->
+               <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+               <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+
+               <!-- E -->
+               <interp xml:id="éloge" ana="éloge">éloge</interp>
+               <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+               <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="eschatologie" ana="eschatologie">conception eschatologique</interp>
+               <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
+               <interp xml:id="exhortation" ana="exhortation">exhortations et
+                  encouragements</interp>
+
+               <!-- F -->
+               <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
+               <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+               <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+
+               <!-- G -->
+               <interp xml:id="gén" ana="généralisation">généralisation</interp>
+               <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                  gnomique</interp>
+               <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
+
+               <!-- H -->
+               <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+               <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+
+
+               <!-- I -->
+               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
+                  l'adversaire</interp>
+               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+               <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+               <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
+               <interp xml:id="ironie" ana="ironie">ironie</interp>
+
+               <!-- L -->
+               <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+               <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+               <interp xml:id="topos" ana="topos">lieu commun</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+
+               <!-- M -->
+               <interp xml:id="maladie" ana="maladie">maladie</interp>
+               <interp xml:id="massacre" ana="massacre">massacre</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:id="météo" ana="météo">météorologie</interp>
+               <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+               <interp xml:id="misères" ana="misères">misères du temps</interp>
+               <interp xml:id="misogynie" ana="misogynie">misogynie</interp>
+               <interp xml:id="mode" ana="mode">mode</interp>
+               <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                  valeurs</interp>
+               <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+
+               <!-- N -->
+               <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
+
+
+               <!-- P -->
+               <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
+               <interp xml:id="persona" ana="persona">persona de Marot</interp>
+               <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+               <interp xml:id="pillage-s" ana="pillages">vols, pillages</interp>
+               <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
+               <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+               <interp xml:id="practiques" ana="practiques">practiques</interp>
+               <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="prière" ana="prière">prière</interp>
+               <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+               <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+               <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                  nécessaire</interp>
+
+               <!-- R -->
+               <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+               <interp xml:id="rébus" ana="rébus">rébus</interp>
+               <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="révélations" ana="révélations">révélation(s)</interp>
+               <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+               <interp xml:id="rire" ana="rire">rire</interp>
+               <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
+               <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+
+               <!-- S -->
+
+               <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+               <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="sergents" ana="sergents">contre les sergents</interp>
+               <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+               <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+               <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+               <interp xml:id="syllepse" ana="syllepse">syllepse</interp>
+
+               <!-- T -->
+               <interp xml:id="tauto" ana="tauto">tautologie</interp>
+               <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+               <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
+
+               <!-- V -->
+               <interp xml:id="vanité" ana="vanité">vanité</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="violences" ana="violences">violences</interp>
+            </interpGrp>
+         </p>
+      </encodingDesc>
    </teiHeader>
    <text>
       <body>
-         <listBibl>
-            <msDesc>
-               <msIdentifier>
-                  <settlement>where is it</settlement>
-                  <repository>repository name</repository>
-                  <idno>identifier</idno>
-               </msIdentifier>
-            </msDesc>
-         </listBibl>
+         
          <p>
             <l><persName>Philon</persName>, en t'ayant irrité</l>
             <l>Je m'en suis allé dépité,</l>
@@ -45,7 +205,7 @@
             <l n="16">Qu'à ce jour pour n'entrer en blâme</l>
             <l>Ce péché ne seroit commis;</l>
             <l>Mais vous estes de nos amis,</l>
-            <l>Parmanenda je vous le jure:</l>
+            <l><rs type="interjection">Parmanenda</rs> je vous le jure:</l>
             <l n="20">Il faut pour ne vous faire injure,</l>
             <l>Après mesme avoir eu le soin</l>
             <l>De venir chez nous de si loin,</l>
@@ -56,26 +216,38 @@
             <l>Que j'aime les hommes de plume,</l>
             <l n="28">Quand je les voys mon cœur s'allume.</l>
             <l>Autrefois je parlois latin,</l>
-            <l>Discourons un peu du destin,</l>
-            <l>Peut-il forcer les propheties?</l>
-            <l n="32">Les <rs type="animal">pourceaux</rs> ont-ils deux vessies?</l>
+            <!-- Début du propos discontinu -->
+            <l><rs type="injonction" subtype="impératif">Discourons</rs> un peu du destin,</l>
+            <l ana="#prophétie">Peut-il forcer les propheties?</l>
+            <!-- Saut#1 --><anchor type="saut#1"/>
+            <l n="32">Les <rs type="animal" key="pourceau">pourceaux</rs> ont-ils deux vessies?</l>
+            <!-- Saut#2 --><anchor type="saut#2"/>
             <l><rs type="injonction" subtype="impératif">Dites nous</rs> quel auteur écrit</l>
-            <l>La naissance de l'<persName ref="ind:Antéchrist" key="L'Antéchrist">Antechrist</persName>?</l>
+            <l>La naissance de l'<persName ref="ind:Antéchrist" key="L'Antéchrist"
+                  >Antechrist</persName>?</l>
+            <!-- Saut#3 --><anchor type="saut#3"/>
             <l>O! le grand homme que <persName>Virgile</persName>!</l>
+            <!-- Saut#4 --><anchor type="saut#4"/>
             <l n="36">Il me souvient de l'Evangile</l>
             <l>Que le Prestre a dit aujourd'huy.</l>
+            <!-- Saut#5 --><anchor type="saut#5"/>
+            <!-- Reprise du discours continu -->
             <l>Mais vous prenez beaucoup d'ennuy</l>
             <l>Ma servante est un peu tardive,</l>
             <l n="40">Si faut-il vrayment qu'elle arrive,</l>
             <l>Dans un bon quart d'heure d'icy,</l>
             <l>Elle me sert toujours ainsi.</l>
-            <l>En attendant prenez un siège,</l>
+            <l>En attendant <rs type="injonction" subtype="impératif">prenez</rs> un siège,</l>
             <l n="44">Vos escarpins n'ont point de liège,</l>
             <l>Votre collet fait un beau tour.</l>
-            <l><reg>À</reg> la guerre de Montcontour</l>
+            <!-- Saut#6 --><anchor type="saut#6"/>
+            <l><reg>À</reg> la guerre de <placeName type="city" key="Montcontour"
+                  >Montcontour</placeName></l>
             <l>On ne portoit point de rotonde,</l>
+            <!-- Saut#7 --><anchor type="saut#7"/>
             <l n="48">Vous ne voulez pas qu'on vous tonde,</l>
             <l>Les choses lons sont de saison.</l>
+            <!-- Reprise du discours autobiographique -->
             <l>Je fus autrefois de maison</l>
             <l>Docte, bien parlante &amp; habile,</l>
             <l n="52">Autant que fille de la ville:</l>
@@ -84,7 +256,7 @@
             <l>Que ce ne fust dedans ma chambre.</l>
             <l n="56">J'avois toujours un collier d'ambre,</l>
             <l>Des grands nœufs, des souliers noircis,</l>
-            <l>J'eusse pû captiver Narcis.</l>
+            <l>J'eusse pû captiver <persName type="Mythologie" key="Narcisse">Narcis</persName>.</l>
             <l>Mais helas! étant ainsi belle</l>
             <l n="60">Je ne fus pas long-temps pucelle,</l>
             <l>Un Chevalier d'autorité</l>
@@ -92,7 +264,8 @@
             <l>Et depuis avec une drogue</l>
             <l n="64">Ma mere, qui faisoit la rogue</l>
             <l>Quand on me parloit de cela,</l>
-            <l>En trois jours me renpucela.</l>
+            <l>En trois jours me renpucela.<note resp="editor" type="crit">Cf. La facétie de
+                  1617.</note></l>
             <l>J'étois faite à son badinage.</l>
             <l n="68">Après pour servir au ménage</l>
             <l>Un Prelat me voulut avoir,</l>
@@ -103,19 +276,19 @@
             <l>Mon pucelage tout refait,</l>
             <l>Ma mere en son métier sçavante</l>
             <l n="76">Me mit une autre fois en vente;</l>
-            <l>Si bien qu'un jeune Trésorier</l>
+            <l>Si bien qu'un jeune <rs type="occupation" subtype="trésorier">Trésorier</rs></l>
             <l>Fut le troisième avanturier</l>
-            <l>Qui fit bouillir notre marmite.</l>
+            <l>Qui <rs type="locution">fit bouillir notre marmite</rs>.</l>
             <l n="80">J'appris autrefois d'un Hermite</l>
             <l>Tenu pour un sçavant parleur,</l>
             <l>Qu'on peut dérober un voleur,</l>
             <l>Sans se charger la conscience.</l>
-            <l n="84">Dieu m'a donné cette science.</l>
+            <l n="84"><persName>Dieu</persName> m'a donné cette science.</l>
             <l>Cet homme aussi riche que laid</l>
             <l>Me fit épouser son valet,</l>
-            <l>Un bon sot qui se nommoit Blaise;</l>
+            <l>Un bon sot qui se nommoit <persName>Blaise</persName>;</l>
             <l n="88">Je ne fus onc tant à mon aise,</l>
-            <l>Qu'à l'heure que ce gros manant</l>
+            <l>Qu'à l'heure que ce <rs type="invective">gros manant</rs></l>
             <l>Alloit les restes butinant,</l>
             <l>Non pas seulement de son maistre,</l>
             <l n="92">Mais du Chevalier &amp; du Prestre.</l>
@@ -123,74 +296,78 @@
             <l>Et j'avois ja depuis deux ans</l>
             <l>Avec ma petite pratique</l>
             <l n="96">Gagné dequoy lever boutique,</l>
-            <l>De cabaret à Montléry,</l>
+            <l>De cabaret à <placeName type="city" key="Montléry">Montléry</placeName>,</l>
             <l>Où nasquit mon pauvre mary.</l>
             <l>Helas! que c'étoit un bon homme!</l>
             <l n="100">Il avoit été jusqu'à <placeName type="city" key="Rome">Rome</placeName>,</l>
-            <l>Il chantoit comme un rossignol:</l>
+            <l>Il chantoit comme un <rs type="animal" subtype="oiseau" key="rossignol"
+                  >rossignol</rs>:</l>
             <l>Il sçavoit parler Espagnol.</l>
             <l>Il ne recevoit point d'écornes,</l>
-            <l>Car il ne portoit pas les cornes</l>
+            <l n="104">Car il ne portoit pas les cornes</l>
             <l>Depuis qu'avecque luy je fus.</l>
-            <l>Il avoit les membres touffus:</l>
+            <l ana="#corps">Il avoit les membres touffus:</l>
             <l>Le poil est un signe de force,</l>
-            <l>Et ce signe a beaucoup d'amorce</l>
+            <l n="108">Et ce signe a beaucoup d'amorce</l>
             <l>Parmy les femmes du metier.</l>
-            <l>Il étoit bon arbalestier,</l>
-            <l>Sa cuisse étoit de belle marge,</l>
-            <l>Il avoit l'épaule bien large,</l>
-            <l>Il étoit ferme des roignons,</l>
-            <l>Non comme ces petits mignons</l>
-            <l>Qui font de la sainte Nitouche,</l>
-            <l>Aussi-tost que leur doigt vous touche,</l>
-            <l>Ils n'osent pousser qu'à demy:</l>
-            <l>Celuy-là poussoit en amy,</l>
-            <l>Et n'avoit ny muscle, ny veine</l>
-            <l>Qui ne poussat sans prendre haleine,</l>
-            <l>Mais tant &amp; tant il a poussé</l>
+            <l>Il étoit bon <rs type="occupation" subtype="arbalétier">arbalestier</rs>,</l>
+            <l ana="#corps">Sa cuisse étoit de belle marge,</l>
+            <l n="112" ana="#corps">Il avoit l'épaule bien large,</l>
+            <l ana="#corps">Il étoit ferme des roignons,</l>
+            <l ana="#satire">Non comme ces petits mignons</l>
+            <l ana="#satire">Qui <rs type="locution">font de la sainte Nitouche</rs>,</l>
+            <l n="116" ana="#satire">Aussi-tost que leur doigt vous touche,</l>
+            <l ana="#motifs_sexuels">Ils n'osent pousser qu'à demy:</l>
+            <l ana="#motifs_sexuels">Celuy-là poussoit en amy,</l>
+            <l ana="#motifs_sexuels">Et n'avoit ny muscle, ny veine</l>
+            <l n="120" ana="#motifs_sexuels">Qui ne poussat sans prendre haleine,</l>
+            <l ana="#motifs_sexuels">Mais tant &amp; tant il a poussé</l>
             <l>Qu'en poussant il est trépassé.</l>
             <l>Soudain que son corps fut en terre</l>
-            <l>L'enfant Amour me fit la guerre,</l>
+            <l n="124"><persName>L'enfant Amour</persName> me fit la guerre,</l>
             <l>De façon que pour mon amant</l>
-            <l>Je pris un basteleur Normant,</l>
-            <l>Lequel me donna la vérole;</l>
-            <l>Puis luy prestay sur sa parole,</l>
+            <l>Je pris un <rs type="occupation" subtype="bâteleur">basteleur</rs> Normant,</l>
+            <l>Lequel me donna la <rs type="maladie">vérole</rs>;</l>
+            <l n="128">Puis luy prestay sur sa parole,</l>
             <l>Avant que je connusse rien</l>
-            <l>A son mal, presque tout mon bien:</l>
-            <l>Maintenant nul de moy n'a cure,</l>
-            <l>Je fléchy aux loix de nature,</l>
-            <l>Je suis aussi sèche qu'un os,</l>
-            <l>Je ferois peur aux Huguenots</l>
-            <l>En me voyant ainsi ridée,</l>
-            <l>Sans dents &amp; la gorge bridée,</l>
+            <l><reg>À</reg> son mal, presque tout mon bien:</l>
+            <l ana="#misères">Maintenant nul de moy n'a cure,</l>
+            <l n="132">Je fléchy aux loix de nature,</l>
+            <l ana="#corps">Je suis aussi sèche qu'un os,</l>
+            <l ana="#satire">Je ferois peur aux <orgName type="secte" subtype="huguenot"
+                  >Huguenots</orgName></l>
+            <l ana="#corps">En me voyant ainsi ridée,</l>
+            <l n="136" ana="#corps">Sans dents &amp; la gorge bridée,</l>
             <l>S'ils ne mettoient nos visions</l>
             <l>Au rang de leurs dérisions.</l>
-            <l>Je suis vendeuse de chandelles,</l>
-            <l>Il ne s'en voit point de fidelles</l>
+            <l ana="#ethos">Je suis vendeuse de chandelles,</l>
+            <l n="140" ana="#satire">Il ne s'en voit point de fidelles</l>
             <l>En leur état, comme je suis,</l>
             <l>Je connois bien ce que je puis:</l>
             <l>Je ne puis aimer la jeunesse</l>
-            <l>Qui veut avoir trop de finesse,</l>
-            <l>Car les plus fines de la Cour</l>
+            <l n="144">Qui veut avoir trop de finesse,</l>
+            <l ana="#cour">Car les plus fines de la <placeName type="cour">Cour</placeName></l>
             <l>Ne me cachent point leur amour.</l>
             <l>Telle va souvent à l'Eglise,</l>
-            <l>De qui je connois la feintise;</l>
+            <l n="148">De qui je connois la feintise;</l>
             <l>Telle qui veut son fait nier,</l>
             <l>Dit que c'est pour communier;</l>
             <l>Mais la chose m'est indiquée,</l>
-            <l>C'est pour estre communiquée</l>
-            <l>A ses amis par mon moyen,</l>
-            <l>Comme Heleine fit au Troyen.</l>
+            <l n="152">C'est pour estre communiquée</l>
+            <l><reg>À</reg> ses amis par mon moyen,</l>
+            <l>Comme <persName type="mythologie" key="Hélène">Heleine</persName> fit au <addName type="mythologie" key="Pâris">Troyen</addName>.</l>
+            <!-- Retour au premier narrateur -->
             <l>Quand la vieille sans nulle honte</l>
-            <l>M'eut achevé son petit conte,</l>
+            <l n="156">M'eut achevé son petit conte,</l>
             <l>Un Commissaire illec passa,</l>
-            <l>Un sergent la porte poussa.</l>
-            <l>Sans attendre la chambrière</l>
-            <l>Je sortis par l'huis de derrière,</l>
+            <l>Un <rs type="occupation" subtype="sergent">sergent</rs> la porte poussa.</l>
+            <l>Sans attendre la <rs type="occupation" subtype="chambrière">chambrière</rs></l>
+            <l n="160">Je sortis par l'huis de derrière,</l>
             <l>Et m'en allay chez le voisin,</l>
-            <l>Moitié figue, moitié raisin,</l>
+            <l><rs type="locution">Moitié figue, moitié raisin,</rs></l>
             <l>N'ayant ny tristesse, ny joye</l>
-            <l>De n'avoir point trouvé la proye.</l> (CAA93-Régnier-Discours d'une vieille Macquerelle, Pos. 1-164)</p>
+            <l n="164">De n'avoir point trouvé la proye.</l>
+         </p>
       </body>
    </text>
 </TEI>

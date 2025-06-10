@@ -210,6 +210,18 @@
                <occupation>poète sous le pseudonyme de Muhibbî</occupation>
             </person>
 
+            <person>
+               <persName xml:id="Montgomery"><ptr
+                     target="https://data.bnf.fr/ark:/12148/cb12102654p"/>
+                  <idno type="ISNI">0000 0000 2971 6089</idno>
+                  <persName xml:lang="fr"><forename type="first"
+                        >Gabriel</forename><nameLink>de</nameLink><surname>
+                     Lorges</surname></persName>, comte de Montgommery</persName>
+               <occupation>Homme de guerre</occupation>
+               <birth when="1530">Né en 1530</birth>
+               <death when="1574-06-26">Mort à Paris le 26 juin 1574</death>
+            </person>
+
             <person xml:id="Rochefoucauld">
                <ptr target="http://viaf.org/viaf/57771494"/>
                <idno type="VIAF">57771494</idno>
@@ -217,6 +229,7 @@
                         <nameLink>de</nameLink> La Rochefoucauld</surname></persName>
             </person>
             <!-- CAA#51 -->
+            <!-- CAA#60 -->
 
             <!-- CAA#49 -->
 
@@ -701,6 +714,17 @@
                <occupation>Capitaine et lieutenant du roi en Guyenne</occupation>
             </person>
 
+            <person xml:id="Maligny">
+               <ptr target="https://isni.org/isni/0000000379996340"/>
+               <persName xml:lang="fr"><idno type="ISNI">0000 0003 7999 6340</idno><forename
+                     type="first">Jean </forename>II <nameLink>de </nameLink><surname>
+                     Ferrières</surname></persName>
+               <birth>
+                  <date when="1520">Né en 1520</date></birth>
+               <death><date when="1586">Mort en 1586</date></death>
+               <occupation>Compagnon d'armes du prince de Condé</occupation>
+               <occupation>Vidâme de Chartres</occupation>
+            </person>
 
             <person xml:id="Charles_IX">
                <ptr target="https://data.bnf.fr/12463140/charles_9/"/>
@@ -793,6 +817,19 @@
                <birth><date when="1517">Né en 1517</date></birth>
                <death><date when="1571">Mort en 1571</date></death>
             </person>
+            
+            <person xml:id="D_Andelot">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb17054049g"/>
+               <idno>0000 0004 5964 4927</idno>
+               <persName xml:lang="fr"><forename type="first">François</forename><surname>
+                     <nameLink>de</nameLink> Coligny d'Andelot</surname><roleName>
+                        </roleName></persName>
+               <birth><date when="1521-04-18">Né le 18 avril 1521</date></birth>
+               <death><date when="1569-05-27">Mort le 27 mai 1569</date></death>
+               <occupation>Chef huguenot</occupation>
+               <faith>protestant</faith>
+            </person>
+            
             <person xml:id="Pie_IV">
                <ptr target="https://data.bnf.fr/ark:/12148/cb11683138p"/>
                <idno type="ISNI">0000 0001 2140 0028</idno>
@@ -847,19 +884,23 @@
 
             <person xml:id="Termes">
                <idno type="ISNI"/>
-               <persName xml:lang="fr"><forename type="first">Paul</forename><surname> <nameLink>de</nameLink> Labarthe                    d'Auvergne, vicomte de Turenne, duc de Bouillon</surname><roleName/></persName>
+               <persName xml:lang="fr"><forename type="first">Paul</forename><surname>
+                     <nameLink>de</nameLink> Labarthe d'Auvergne, vicomte de Turenne, duc de
+                     Bouillon</surname><roleName/></persName>
                <birth><date when="1482">Né en 1482</date></birth>
                <death><date when="1562">Mort en 1562</date></death>
             </person>
 
-            <person xml:id="Turenne1"><ptr target="https://data.bnf.fr/ark:/12148/cb13497122d"/>
+            <person xml:id="Turenne1">
+               <ptr target="https://data.bnf.fr/ark:/12148/cb13497122d"/>
                <idno type="ISNI">0000 0000 8342 3551</idno>
-               <persName xml:lang="fr"><forename type="first">Henri</forename><nameLink>de</nameLink><surname> La Tour
-                     d'Auvergne, vicomte de Turenne, duc de Bouillon</surname><roleName/></persName>
+               <persName xml:lang="fr"><forename type="first"
+                     >Henri</forename><nameLink>de</nameLink><surname> La Tour d'Auvergne, vicomte
+                     de Turenne, duc de Bouillon</surname><roleName/></persName>
                <birth><date when="1555-09-28">Né le 28 septembre 1555</date></birth>
                <death><date when="1623-03-25">Mort le 25 mars 1623</date></death>
             </person>
-            
+
             <person xml:id="Saint_Léger">
                <idno/>
                <persName xml:lang="fr"><forename type="first"/><surname>
@@ -904,6 +945,31 @@
                <birth when="1548">Né en 1548</birth>
                <death when="1590-06-10">Mort le 10 juin 1590.</death>
             </person>
+
+            <person xml:id="Gastine">
+               <persName xml:lang="fr"><forename type="first">Philippe</forename><surname> de
+                     Gastine</surname></persName>
+               <death when="1571-07-30">Mort le 30 juillet 1569.</death>
+               <occupation>négociant</occupation>
+               <faith>protestant</faith>
+               <event>
+                  <desc>Condamné par le Parlement "pour avoir contrevenu aux Édits du Roy et avoir faict exercice de
+                     leur Prétendue Religion"</desc>
+               </event>
+            </person>
+            
+            <person xml:id="Croquet">
+               <persName xml:lang="fr"><forename type="first">Nicolas</forename><surname>
+                     Croquet</surname></persName>
+               <death when="1571-07-30">Mort le 30 juillet 1569.</death>
+               <faith>protestant</faith>
+               <event>
+                  <desc>Condamné par le Parlement "pour avoir contrevenu aux Édits du Roy et avoir faict exercice de
+                     leur Prétendue Religion".</desc>
+               </event>
+            </person>
+
+
             <person xml:id="Maurevert">
                <idno/>
                <persName xml:lang="fr"><forename type="first">Charles</forename><surname> de
@@ -1280,28 +1346,33 @@ Homme de guerre. - Prince de Mantoue, fils de Frédéric II, duc de Mantoue. - D
                <persName><roleName>Sainte </roleName><surname>Eustochie</surname></persName>
                <birth><date when="0368">Née en 368 à Rome</date></birth>
                <death><date when="0419-09-28">Morte le 28 septembre 419 à Bethléem</date></death>
-               <faith>Disciple de Saint Jérome</faith><!-- Fille de sainte Paule -->
+               <faith>Disciple de Saint Jérome</faith>
+               <!-- Fille de sainte Paule -->
             </person>
-            
+
             <person xml:id="Paule">
                <ptr target="https://data.bnf.fr/ark:/12148/cb124051447"/>
                <idno type="ISNI">0000 0001 2131 4867</idno>
                <persName><roleName>Sainte </roleName><surname>Paule</surname></persName>
                <birth><date when="0347-05-05">Née le 5 mai 347 à Rome</date></birth>
                <death><date when="0404-01-26">Morte le 26 janvier 404 à Bethléem</date></death>
-               <faith>Disciple de Saint Jérome</faith><!-- Mère du désert-->
+               <faith>Disciple de Saint Jérome</faith>
+               <!-- Mère du désert-->
             </person>
-            
+
             <person xml:id="Marcelle">
                <ptr target="https://data.bnf.fr/fr/ark:/12148/cb15019404q"/>
                <idno type="ISNI">0000 0000 9860 6449</idno>
                <persName><roleName>Sainte </roleName><surname>Marcelle</surname></persName>
                <birth><date when="0325">Née en 325</date></birth>
                <death><date when="0410">Morte en 410</date></death>
-               <event><desc>Veuve de saint Jérôme</desc></event>
-               <faith>Disciple de Saint-Jérome</faith><!-- Mère du désert-->
+               <event>
+                  <desc>Veuve de saint Jérôme</desc>
+               </event>
+               <faith>Disciple de Saint-Jérome</faith>
+               <!-- Mère du désert-->
             </person>
-            
+
             <person xml:id="Fabiole">
                <ptr target="https://data.bnf.fr/fr/ark:/12148/cb161929589"/>
                <idno/>

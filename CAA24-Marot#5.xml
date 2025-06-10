@@ -196,14 +196,22 @@
             <!-- Saut#1 -->
             <anchor type="saut#1"/>
             <l ana="#folie">Il est fol qui le col se casse</l>
-            <l>S'il n'en a deux comme le <rs type="animal" key="veau">veau</rs></l>
-            <l n="8">Et d'alleguer ung cas nouveau</l>
-            <l>La question n'en est plus bonne</l>
-            <l ana="#adv_rel">Pourquoy? <expan>nostre</expan> mere <orgName>Sorbonne</orgName></l>
-            <l ana="#adv_rel">Faict à tous <rs type="animal" key="veau">veaulx</rs> avoir deux testes</l>
-            <l n="12" ana="#bêtise">Et s'ilz sont sottes comme bestes</l>
+            <l ana="#actu">S'il n'en a deux comme le <rs type="animal" key="veau">veau</rs></l>
+            <l n="8" ana="#Plmq">Et d'alleguer ung cas nouveau</l>
+            <l ana="#Plmq">La question n'en est plus bonne</l>
+            <l ana="#sat_rel">Pourquoy? <expan>nostre</expan> mere <orgName>Sorbonne</orgName></l>
+            <l ana="#sat_rel">Faict à tous <rs type="animal" key="veau">veaulx</rs> avoir deux
+               testes</l>
+            <l n="12" ana="#bêtise">Et s'ilz sont sottes comme bestes</l><!-- Chap. fous et folie -->
             <l ana="#folie">Il fault aprendre les passaiges</l>
-            <l ana="#folie">Ung trois foys fol vault ung vray saige</l><!-- Cf. référence biblique Bonaventure des Périers St-Paul-->
+            <l ana="#folie">Ung trois foys fol vault ung vray saige<note>Par ces mesures de
+                  prudence, Marot semble ici faire écho au premier coq-à-l'âne de Jamet (réf. n°2):
+                  "Je croy que nous l'eschapperon / Si ne demeurons au passaige, / Au temps qui
+                  court, il n'est pas saige / Celluy qui n'a jambe de bois." (v. 48-51) en jouant
+                  sur la polysémie du terme "passaige". Connaître les <hi rend="italic"
+                     >passages</hi>, c'est savoir échapper aux dangers, savoir changer de sujet —le
+                  propre du coq-à-l'âne : "laissons ce passage" — ou encore maîtriser certains
+                  discours pour éviter les sanctions de la Sorbonne.</note></l><!-- Cf. référence biblique Bonaventure des Périers St-Paul-->
             <!-- A élucider -->
             <l ana="#adr">Or je te demande comment</l>
             <!-- Saut#2 -->
@@ -346,7 +354,8 @@
             <l>Quant les picques n'en peuvent plus</l>
             <l>Il fault cartes d'un cueur massif</l>
             <!-- Saut#26 -->
-            <l n="84">Ung vieil <rs type="animal" subtype="équidé" key="cheval">roussin</rs> devient poussif</l>
+            <l n="84">Ung vieil <rs type="animal" subtype="équidé" key="cheval">roussin</rs> devient
+               poussif</l>
             <pb n="151v"/>
             <l>Qui n'a souvent litiere fresche</l>
             <!-- Saut#27 -->
@@ -392,7 +401,8 @@
                Trepperel, Paris, 1458.</note>
             <!-- Saut#32 -->
             <l n="104">À <placeName type="city" key="Paris">Paris</placeName> a levé son groing</l>
-            <l>La <rs type="animal" subtype="canidé" key="louve">loupve</rs> aussi et ses <rs type="animal" subtype="canidé" key="louveteau">louvetons</rs></l>
+            <l>La <rs type="animal" subtype="canidé" key="louve">loupve</rs> aussi et ses <rs
+                  type="animal" subtype="canidé" key="louveteau">louvetons</rs></l>
             <l ana="#é">De peur qu'on ne vienne aux sermons</l>
             <!-- Saut#33 -->
             <l>Par le <placeName>passaige sainct Landry</placeName></l>
@@ -573,11 +583,13 @@
             <l n="212">Car ung homme qui n'a rien faict</l>
             <l>N'a que faire d'estre en prison</l>
             <!-- Saut#68 -->
-            <l>Il vit long temps ce vieil <rs type="animal" subtype="équidé" key="âne">grison</rs></l>
+            <l>Il vit long temps ce vieil <rs type="animal" subtype="équidé" key="âne"
+               >grison</rs></l>
             <l>La moictié plus qu'on ne pensoit</l>
             <!-- Saut#69 -->
             <l n="216">Mais il se taist quoy qu'il en soit</l>
-            <l>Ce grand <rs type="animal" subtype="oiseau" key="aigle">aigle</rs> qui faict le sour</l>
+            <l>Ce grand <rs type="animal" subtype="oiseau" key="aigle">aigle</rs> qui faict le
+               sour</l>
             <!-- Deux personnages à identifier-->
             <l>Je ne sçay s'il fera son tour</l>
             <l>Contre gens engrossez de froid</l>

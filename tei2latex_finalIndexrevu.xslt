@@ -826,17 +826,20 @@
             <xsl:apply-templates/>
             <xsl:text>\index[nominum]{</xsl:text>
             <xsl:value-of select="@key"/>
+            <!-- Ici, ajoutez un label LaTeX si besoin, par exemple : -->
+            <!-- <xsl:text>|lineref{\thelinenumber}</xsl:text> -->
             <xsl:text>} </xsl:text>
           </xsl:when>
           <xsl:when test="@ref">
             <xsl:variable name="nameRef">
               <xsl:value-of select="translate(@ref, '#', '')"/>
               <xsl:value-of select="translate(@ref, 'ind:', '')"/>
-              <!-- Ajouter pour test le 23 juin 2024 -->
             </xsl:variable>
             <xsl:apply-templates/>
             <xsl:text>\index[nominum]{</xsl:text>
             <xsl:value-of select="//tei:person[@xml:id = $nameRef]/tei:persName"/>
+            <!-- Ici aussi, ajoutez un label LaTeX si besoin -->
+            <!-- <xsl:text>|lineref{\thelinenumber}</xsl:text> -->
             <xsl:text>} </xsl:text>
           </xsl:when>
           <xsl:otherwise>

@@ -207,13 +207,13 @@
                   <persName ref="ind:Montmorency">Montmorency</persName> à partir de juillet 1536
                contre les troupes de l'empereur.</note>
             <!-- Saut#3 --><anchor type="saut#3"/>
-            <l n="8">Au bout de l'an la <rs type="animal" key="vache">vache</rs> velle</l><note resp="editor"
-               type="ling">La locution <hi rend="italic">ne vache ne veel!</hi> signifie: "rien du
-               tout", Di Stefano.</note>
+            <l n="8">Au bout de l'an la <rs type="animal" key="vache">vache</rs> velle<note resp="editor"
+                  type="ling">La locution <hi rend="italic">ne vache ne veel!</hi> signifie: "rien du
+                  tout", Di Stefano.</note></l>
             <l ana="#tauto">S'elle est malade el n'est point saine</l>
             <!-- Saut#4 --><anchor type="saut#4"/>
             <l>Quant <reg>on</reg> mengue de la laine</l>
-            <l ana="#maladie">C'est grant remede au fleux de ventre</l>
+            <l ana="#maladie">C'est grant remede au <rs type="maladie" subtype="maux-de-ventre">fleux de ventre</rs></l>
             <!-- Saut#5 --><anchor type="saut#5"/>
             <l n="12">Dont vient cela que quant je rentre</l>
             <l>C'est assez pour gaigner le jeu</l>
@@ -253,7 +253,7 @@
             <l>Pour passer ce temps de karesme</l>
             <!-- Saut#15 --><anchor type="saut#15"/>
             <l n="36">C'est ung doulx menger que de cresme</l>
-            <l>Pour les dames parisiennes</l>
+            <l ana="#satire">Pour les dames parisiennes</l>
             <!-- Saut#16 --><anchor type="saut#16"/>
             <l>Si tu veulx avoir les miennes</l>
             <l>Tu les auras mes pantoufflettes</l>
@@ -280,13 +280,13 @@
             <l><rs type="injonction" subtype="impératif">Attache moy</rs> une sonnette</l>
             <l><reg>À</reg> chascun poil de la barbette</l>
             <l>D'ung <rs type="invective">bouttecul</rs> ou d'ung <rs type="invective"
-               >cagot</rs></l><note resp="editor" type="ling"><hi rend="italic">Boutecul</hi>:
-               "moine convers", Huguet.</note>
+                  >cagot</rs><note resp="editor" type="ling"><hi rend="italic">Boutecul</hi>:
+                     "moine convers", Huguet.</note></l>
             <l n="52">Et vous verrez <persName>maistre Ragot</persName></l>
-            <l>Qui vous joura une morisque</l><note resp="editor" type="crit">Cf. Le deuxième
-               coq-à-l'âne de Marot (CAA#5): "Attachez moi une sonnette / Sur le front d'un Moyne
-               crotté, / Une oreille à chasque costé / Du capuchon de sa caboche, / Voilà ung sot de
-               la Bazoche / Aussi bien painct, qu'il est possible:", v. 80-85.</note>
+            <l>Qui vous joura une <rs type="danse" subtype="morisque">morisque</rs><note resp="editor" type="crit">Cf. Le deuxième
+                  coq-à-l'âne de Marot (CAA#5): "Attachez moi une sonnette / Sur le front d'un Moyne
+                  crotté, / Une oreille à chasque costé / Du capuchon de sa caboche, / Voilà ung sot de
+                  la Bazoche / Aussi bien painct, qu'il est possible:", v. 80-85.</note></l>
             <!-- Saut#23 --><anchor type="saut#23"/>
             <l><rs type="injonction" subtype="impératif">Soys moy</rs> tousjours joly &amp;
                frisque</l><note resp="editor" type="crit">La rime morisque:frisque se trouve dans le
@@ -303,11 +303,11 @@
             <l>Et fuyt le froid moys de Decembre</l>
             <!-- Saut#26 --><anchor type="saut#26"/>
             <l n="60">On y vend des chappeletz D'ambre</l>
-            <l><reg>À</reg> ceulx qui vont en garouage</l>
-            <!-- Saut#27 --><anchor type="saut#27"/><note resp="editor" type="ling"><hi
-                  rend="italic">Garouage</hi>: débauche.</note>
+            <l><reg>À</reg> ceulx qui vont en garouage<note resp="editor" type="ling"><hi
+                     rend="italic">Garouage</hi>: débauche.</note></l>
+            <!-- Saut#27 --><anchor type="saut#27"/>
             <!-- Saut#28 --><anchor type="saut#28"/>
-            <l ana="#maladie">Que la malle mort &amp; la rage</l>
+            <l ana="#maladie">Que la <rs type="maladie" subtype="male-mort">malle mort</rs> &amp; la <rs type="maladie" subtype="rage">rage</rs></l>
             <l ana="#imprécation">Puist endormir le mailloteur</l>
             <!-- Saut#29 --><anchor type="saut#29"/>
             <l n="64">Mais qui est ce fol barboteur</l>
@@ -331,12 +331,12 @@
             <l n="76" ana="#vp">Depuis deux ou trois moys en ça</l>
             <l ana="#violences">Troys furent menez au gibet</l>
             <!-- Saut#36 --><anchor type="saut#36"/>
-            <l ana="#vin"><placeName>À l'eschiquier</placeName> bon vin on boit</l><note
-               resp="editor" type="glose">On pense à une taverne.</note>
-            <l>C'est assez pres de <placeName>sainct Martin</placeName></l><note resp="editor"
-               type="glose">Toponyme particulièrement répandu. Dans la région, était connu
-               Saint-Martin aux Bois pour son abbatiale. Mais la saint-Martin, fêtée le 11 novembre,
-               est aussi le début de la période du règne des Sots, et des excès.</note>
+            <l ana="#vin"><placeName>À l'eschiquier</placeName> bon vin on boit<note
+                  resp="editor" type="glose">On pense à une taverne.</note></l>
+            <l>C'est assez pres de <placeName>sainct Martin</placeName><note resp="editor"
+                  type="glose">Toponyme particulièrement répandu. Dans la région, était connu
+                  Saint-Martin aux Bois pour son abbatiale. Mais la saint-Martin, fêtée le 11 novembre,
+                  est aussi le début de la période du règne des Sots, et des excès.</note></l>
             <!-- Saut#37 --><anchor type="saut#37"/>
             <l n="80">Je me levay hier au matin</l>
             <l>Encore lors luysoit la Lune</l>
@@ -344,8 +344,8 @@
             <l>Trouvay quelqung de <placeName type="city" key="Pampelune">Pampelune</placeName></l>
             <l>Qui me mist en tresgrant erreur</l>
             <l n="84">En me parlant de <persName ref="ind:Charles-Quint">L'empereur</persName></l>
-            <l>Et de sa glorieuse fuyte</l><note resp="editor" type="glose">Les Espagnols ne
-               quittent la France qu'en septembre 1536.</note>
+            <l>Et de sa glorieuse fuyte<note resp="editor" type="glose">Les Espagnols ne
+                  quittent la France qu'en septembre 1536.</note></l>
             <!-- Saut#38 --><anchor type="saut#38"/>
             <l>On faict icy grosse poursuyte</l>
             <l>Aux hannuyers que <persName>Dieu</persName> mauldie</l><!-- Cf. Resveries -->
@@ -374,8 +374,8 @@
             <!-- Saut#44 --><anchor type="saut#44"/>
             <!-- Passage absent de l'édition Arnoullet -->
             <l>Mon dieu que les sotz seront braves</l>
-            <l n="104">Dimenche au jeu jourdain de Blaves</l><note><title>Jourdain de Blaye</title>
-               est une chanson de geste remaniée.</note>
+            <l n="104">Dimenche au jeu jourdain de Blaves<note><title>Jourdain de Blaye</title>
+                  est une chanson de geste remaniée.</note></l>
             <!-- Saut#45 --><anchor type="saut#45"/>
             <l>On en fera raportz divers</l>
             <l>De ces moines vestus de vers</l>
@@ -384,29 +384,29 @@
             <l>Et notera en quatre livres</l>
             <!-- Reprise dans Arnoullet -->
             <!-- Saut#46 --><anchor type="saut#46"/>
-            <l>Amours m'ont bien coustez cent livres</l><note resp="editor" type="philo">L'édition
-               Arnoullet ajoute ici le vers "Comme tu verras par mes livres" pour restituer l'écho
-               de la rime précédente.</note>
+            <l>Amours m'ont bien coustez cent livres<note resp="editor" type="philo">L'édition
+                  Arnoullet ajoute ici le vers "Comme tu verras par mes livres" pour restituer l'écho
+                  de la rime précédente.</note></l>
             <l>Et si m'ont faict coucher dehors</l>
             <!-- Saut#47 --><anchor type="saut#47"/>
             <l n="112">Toutesffoys ce ne fust alors</l>
-            <l>Que ce pougault vint <reg>à</reg> jubé</l><note resp="editor" type="ling"><hi
-                  rend="italic">Faire venir à jubé</hi>:"Forcer à céder", Huguet. Cf. "Plus hault
-               que toy est a le fois tombé, / Cognois ton cas et si viens à jubé;", Jean Molinet,
-               "Le débat d'Apvril et de May".</note>
+            <l>Que ce pougault vint <reg>à</reg> jubé<note resp="editor" type="ling"><hi
+                     rend="italic">Faire venir à jubé</hi>:"Forcer à céder", Huguet. Cf. "Plus hault
+                  que toy est a le fois tombé, / Cognois ton cas et si viens à jubé;", Jean Molinet,
+                  "Le débat d'Apvril et de May".</note></l>
             <!-- Saut#48 --><anchor type="saut#48"/>
             <l>Le moyne parle <reg>à</reg> son abbé</l>
-            <l>Quant il veult avoir sa jacquette</l><note resp="editor" type="ling">Quand il veut
-               manger.</note>
+            <l>Quant il veult avoir sa jacquette<note resp="editor" type="ling">Quand il veut
+                  manger.</note></l>
             <!-- Saut#49 --><anchor type="saut#49"/>
             <l n="116">Dont vient cela que la bucquette</l>
-            <l>Eschet tousjours au malheureux</l><note resp="editor" type="ling">"Au malheureux
-               chiet toujours la bucquette" (Di Stefano): le tirage au sort est toujours défavorable
-               au malheureux. Même rime aux vers 7-8 du "Temple de Mars" de Jean Molinet: "Je fus de
-               dars perchiet, cotte et jacquette: / Au malheureux chiet tousjours la bucquette.",
-                  <title>Faictz et Dictz</title>.</note>
+            <l>Eschet tousjours au malheureux<note resp="editor" type="ling">"Au malheureux
+                  chiet toujours la bucquette" (Di Stefano): le tirage au sort est toujours défavorable
+                  au malheureux. Même rime aux vers 7-8 du "Temple de Mars" de Jean Molinet: "Je fus de
+                  dars perchiet, cotte et jacquette: / Au malheureux chiet tousjours la bucquette.",
+                  <title>Faictz et Dictz</title>.</note></l>
             <!-- Saut#50 --><anchor type="saut#50"/>
-            <l><rs type="injonction" subtype="impératif">Tais toy</rs> Normand qui es d'Evreux</l>
+            <l><rs type="injonction" subtype="impératif">Tais toy</rs> <orgName type="peuple" subtype="normand">Normand</orgName> qui es d'Evreux</l>
             <l>Et si porte honneur <reg>à</reg> ton maistre</l>
             <l n="120">Car je ne vueil cy plus rien mettre.</l>
             <l><app>
