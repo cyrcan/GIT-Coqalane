@@ -5,7 +5,7 @@
 <?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
-      <fileDesc>
+      <fileDesc xml:id="JandeBondys">
          <titleStmt>
             <title>Coq à l'ane d'un Parisien</title>
          </titleStmt>
