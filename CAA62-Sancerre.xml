@@ -14,11 +14,11 @@
                1582.
             <!-- qui suit la même typographie que celle de 1579 selon le catalogue de la BnF-->
             Cette chanson catholique intransigeante qui s'inscrit dans la série des "chansons à
-               massacrer" définies par Jean Vignes, présente plusieurs effets d'échos avec le <ref
+               massacrer" telles que définies par Jean Vignes, présente plusieurs effets d'échos avec le <ref
                   target="CAA49-Brusquet.xml">"Coq à l'asne de Brusquet à Ronsard" [1565] (réf.
                   n°49)</ref>. Les indices internes conduisent à émettre l'hypothèse d'une
-               composition entre la fin de 1571 et la mort de l'Amiral en août 1572. Celui-ci est
-               mentionné à quatre reprises au présent, sans qu'il s'agisse a priori d'une
+               composition au début de l'année 1570. Coligny est
+               mentionné à quatre reprises au présent, sans qu'il s'agisse <hi rend="italic">a priori</hi> d'une
                prosopopée.</p>
 
             <!-- Cf. Debbagi (2023, p. 142 , n. 38: "Coq à l’asne de Sancerre et de Charité (sièges de 1569), (« Tremblez, tremblez   Sancerre et Charité… »), Paris, Sommaire Bonfons 1576, fol.     Chanson du siège mis devant   la Charité (« Soldats de Cherité / Cessez vostre75 ; Le Recueil des chansons nouuelles   de diuers poëtes françois, Paris, Nicolas Bonfons, 1585, fol. 65 v°-67 ; Sommaire Rigaud   1574 et 1576, fol. 244-251 ; Sommaire Rigaud, 1579, p. 73 v°-76 v°. Cette chanson sert de   timbre à : 2. Chanson nouvelle contenant les derniers propos du Roy Charles IX (« Plorons   Chrestiens… »), dans Sommaire Bonfons 1576, fol. 87-88 v°; Sommaire L’Homme et Millot   1583, fol. 118 v°-120; Sommaire Rigaud 1574 et 1576, p. 3-7; 3. Chanson du siège mis devant   la Charité (« Soldats de Cherité / Cessez vostre rudesse »), voir la note 1576"  -->
@@ -253,8 +253,8 @@
                   Normand</orgName></l>
             <l>Engendré d'un <orgName type="peuple">Biscain</orgName>,</l>
             <!-- Saut#4 --><anchor type="saut#4"/>
-            <l><persName>Le chevalier du Boulet</persName> ce malheureux<note resp="editor"
-                  type="glose">Personnage que nous n'avons pu identifier.</note></l>
+            <l><persName key="Du Boulay>Le chevalier du Boulet</persName> ce malheureux<note resp="editor"
+                  type="glose"></note></l>
             <l>Dit qu'il pretend estre heureux</l>
             <l n="16">Comme <persName type="biblique" key="Judas">Judas</persName> &amp; <persName
                   type="biblique" key="Caïn">Cain</persName>,<note resp="editor" type="crit">Cf.
