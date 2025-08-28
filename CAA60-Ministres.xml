@@ -5,7 +5,10 @@
    <teiHeader>
       <fileDesc xml:id="Ch-Ministres">
          <titleStmt>
-            <title>Le Coq à l'Asne des Ministres de Geneve &amp; huguenots de France.</title>
+            <title type="idno">Réf. n°60: </title>
+            <title type="main">Le Coq à l'Asne des Ministres de Geneve &amp; huguenots de France.</title>
+            <title type="incipit">En revenant de Genève près le lac</title>
+            <author>Christophe de Bordeaulx?</author>
          </titleStmt>
          <publicationStmt>
             <p>Transcription à partir des deux témoins des bibliothèques nationale de France et
@@ -13,7 +16,7 @@
          </publicationStmt>
          <sourceDesc>
             <p><listWit>
-                  <witness xml:id="Rés-P-Ye241"><msDesc>
+                  <witness xml:id="RES-P-Ye241"><msDesc>
                         <msIdentifier>
                            <settlement>Paris,</settlement>
                            <institution>Bibliothèque nationale de France</institution>
@@ -34,50 +37,49 @@
          <listPrefixDef>
             <prefixDef ident="ind" matchPattern="([a-z]+)"
                replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
-                  Index du projet</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le
+                  Fichier Index du projet</p>
             </prefixDef>
             <prefixDef ident="plc" matchPattern="([0-9]+)"
                replacementPattern="https://www.geonames.org/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
-                  données géographiques GeoNames.</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la
+                  base de données géographiques GeoNames.</p>
             </prefixDef>
             <prefixDef ident="ms" matchPattern="([0-9]+)"
                replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
-                  Sources Manuscrites du projet.</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le
+                  Fichier des Sources Manuscrites du projet.</p>
             </prefixDef>
          </listPrefixDef>
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
                <interp xml:id="ambition" ana="ambition">ambition</interp>
                <interp xml:id="amour" ana="amour">amour</interp>
                <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
-
+               
                <!-- B -->
                <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
                <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
-
+               
                <!-- C -->
                <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
                <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
-               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de
-                  l'épître</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de l'épître</interp>
                <interp xml:id="corruption" ana="corruption">corruption</interp>
                <interp xml:id="corps" ana="corps">corps</interp>
                <interp xml:id="cour" ana="court">vie de la cour</interp>
                <interp xml:id="cri" ana="cri">cris des marchands</interp>
                <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
-
+               
                <!-- D -->
                <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
                <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
-
+               
                <!-- E -->
                <interp xml:id="éloge" ana="éloge">éloge</interp>
                <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
@@ -87,23 +89,24 @@
                <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
                <interp xml:id="exhortation" ana="exhortation">exhortations et
                   encouragements</interp>
-
+               
                <!-- F -->
                <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
                <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
                <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
-
+               
                <!-- G -->
                <interp xml:id="gén" ana="généralisation">généralisation</interp>
                <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
                   gnomique</interp>
+               <interp xml:id="gc" ana="gc">guerres civiles</interp>
                <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
-
+               
                <!-- H -->
                <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
                <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
-
-
+               
+               
                <!-- I -->
                <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
@@ -113,13 +116,13 @@
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
                <interp xml:id="ironie" ana="ironie">ironie</interp>
-
+               
                <!-- L -->
                <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
                <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
                <interp xml:id="topos" ana="topos">lieu commun</interp>
                <interp xml:id="ligue" ana="ligue">ligue</interp>
-
+               
                <!-- M -->
                <interp xml:id="maladie" ana="maladie">maladie</interp>
                <interp xml:id="massacre" ana="massacre">massacre</interp>
@@ -132,11 +135,11 @@
                <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
                   valeurs</interp>
                <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
-
+               
                <!-- N -->
                <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
-
-
+               
+               
                <!-- P -->
                <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
                <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
@@ -147,11 +150,12 @@
                <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
                <interp xml:id="practiques" ana="practiques">practiques</interp>
                <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="prière" ana="prière">prière</interp>
                <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
                <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
                <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
                   nécessaire</interp>
-
+               
                <!-- R -->
                <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
                <interp xml:id="rébus" ana="rébus">rébus</interp>
@@ -161,9 +165,9 @@
                <interp xml:id="rire" ana="rire">rire</interp>
                <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
                <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
-
+               
                <!-- S -->
-
+               
                <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
                <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
                <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
@@ -173,20 +177,28 @@
                <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
                <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
                <interp xml:id="syllepse" ana="syllepse">syllepse</interp>
-
+               
                <!-- T -->
                <interp xml:id="tauto" ana="tauto">tautologie</interp>
                <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
                <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
                <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
-
+               <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
+               
                <!-- V -->
                <interp xml:id="vanité" ana="vanité">vanité</interp>
                <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="vices" ana="vices">condamnation des vices</interp>
                <interp xml:id="violences" ana="violences">violences</interp>
             </interpGrp>
          </p>
       </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <creation><date when="1569">1569</date></creation>
+      </profileDesc>
       <revisionDesc>
          <change><date when="2024-03-02">2024-03-02</date>Correction</change>
          <change><date when="2024-08-12"/>Confrontation avec l'exemplaire de Basel</change>
@@ -206,7 +218,7 @@
             <l>En revenant de <placeName type="city" key="Genève">Geneve</placeName> pres le
                   <placeName>Lac,</placeName></l>
             <l>Par terre <app>
-                  <lem wit="#Rés-P-Ye241"><reg>trouvis</reg></lem>
+                  <lem wit="#RES-P-Ye241"><reg>trouvis</reg></lem>
                   <rdg wit="#Aleph-E-XI-12">trouvay</rdg>
                </app> un sac</l>
             <l>Tout plein de briborions,<note resp="editor" type="ling"><hi rend="italic"
@@ -214,20 +226,20 @@
             <l n="4" ana="#sat_pers">Si <persName ref="ind:Perrussel" key="Perrussel"
                   >Perucel</persName> eust esté enclos dedans</l>
             <l ana="#violences">Rompu luy <app>
-                  <lem wit="#Rés-P-Ye241">eussent</lem>
+                  <lem wit="#RES-P-Ye241">eussent</lem>
                   <rdg wit="#Aleph-E-XI-12">eusse</rdg>
                </app> les dents</l>
             <l ana="#violences"><reg>À</reg> grands coups de horions,</l>
             <!-- Saut#1 --><anchor type="saut#1"/>
             <l><app>
                   <lem wit="#Aleph-E-XI-12"><reg>Ô</reg></lem>
-                  <rdg wit="#Rés-P-Ye241"><reg>À</reg></rdg>
+                  <rdg wit="#RES-P-Ye241"><reg>À</reg></rdg>
                </app> quels beaux <app>
-                  <lem wit="#Rés-P-Ye241">trousseux</lem>
+                  <lem wit="#RES-P-Ye241">trousseux</lem>
                   <rdg wit="#Aleph-E-XI-12">trousseurs</rdg>
                </app></l>
             <l n="8"><app>
-                  <lem wit="#Rés-P-Ye241">Des</lem>
+                  <lem wit="#RES-P-Ye241">Des</lem>
                   <rdg wit="#Aleph-E-XI-12">De</rdg>
                </app> pots de vins carrousseux<note resp="editor" type="ling"><hi rend="italic"
                      >Faire carous</hi>: "Boire dans une réunion où l'on se provoque mutuellement à
@@ -236,7 +248,7 @@
             <!-- Saut#2 --><anchor type="saut2"/>
             <l>Halle <reg>levrier</reg></l>
             <l>Quand <reg>un</reg>
-               <rs type="animal" key="lièvre"><reg>lievre</reg></rs>
+               <rs type="animal" subtype="léporidé" key="lièvre"><reg>lievre</reg></rs>
                <rs type="locution">va du pied</rs></l>
             <l n="12">Il brouille bien du papier.</l>
             <!-- Saut#3 --><anchor type="saut#3"/>
@@ -266,7 +278,7 @@
             <l>Il rapportera</l>
             <l><app>
                   <lem wit="#Aleph-E-XI-12">Plein</lem>
-                  <rdg wit="#Rés-P-Ye241">Plain</rdg>
+                  <rdg wit="#RES-P-Ye241">Plain</rdg>
                </app> sa teste pour certain</l>
             <pb n="84"/>
             <l n="24">D'<reg>Hebreu</reg><reg>,</reg> bon Grec &amp; latin.<note resp="editor"
@@ -293,12 +305,12 @@
             <l ana="#sat_pers">Moue <persName type="inconnnu"><reg>Jean</reg> Babbeau</persName></l>
             <l ana="#adv_rel"><app>
                   <lem wit="#Aleph-E-XI-12">Qu'ilz torchent leur</lem>
-                  <rdg wit="#Rés-P-Ye241">Qui torche leurs</rdg>
+                  <rdg wit="#RES-P-Ye241">Qui torche leurs</rdg>
                </app>
                <rs type="invective">gros museau</rs></l>
             <l n="36" ana="#adv_rel"><reg>Jamais</reg> ne l'auront si beau.</l>
             <l rend="indent" ana="#violences">Si les ministres estoient <app>
-                  <lem wit="#Rés-P-Ye241">dans des fourchaux</lem>
+                  <lem wit="#RES-P-Ye241">dans des fourchaux</lem>
                   <rdg wit="#Aleph-E-XI-12"><expan>dedans un four chaut</expan></rdg>
                </app></l>
             <!--Alinéa-->
@@ -311,7 +323,7 @@
                      <reg>Samson</reg>
                   </choice></persName> le fort <app>
                   <lem wit="#Aleph-E-XI-12">occit</lem>
-                  <rdg wit="#Rés-P-Ye241">occis</rdg>
+                  <rdg wit="#RES-P-Ye241">occis</rdg>
                </app> mille <orgName type="peuple"><choice>
                      <orig>Filistins</orig>
                      <reg>Philistins</reg>
@@ -337,7 +349,7 @@
             <l ana="#sat_pers">Qui <reg>tousjours</reg> deux pots de vin</l>
             <l ana="#sat_pers">Vuidoit à son <app>
                   <lem wit="#Aleph-E-XI-12">desjeuner</lem>
-                  <rdg wit="#Rés-P-Ye241"><reg>desjuner</reg></rdg>
+                  <rdg wit="#RES-P-Ye241"><reg>desjuner</reg></rdg>
                </app></l>
             <pb n="84v"/>
             <fw type="sig" place="bottom-right">L iiij</fw>
@@ -347,11 +359,11 @@
                <expan>q</expan>
                <app>
                   <lem wit="#Aleph-E-XI-12">des</lem>
-                  <rdg wit="#Rés-P-Ye241">de</rdg>
+                  <rdg wit="#RES-P-Ye241">de</rdg>
                </app> cornes de <rs type="animal">pourceaux</rs></l>
             <l><app>
                   <lem wit="#Aleph-E-XI-12">Desracinent des naveaux</lem>
-                  <rdg wit="#Rés-P-Ye241">Derassinent leurs</rdg>
+                  <rdg wit="#RES-P-Ye241">Derassinent leurs</rdg>
                </app>
                <reg>naveaux</reg></l>
             <l>Dont <reg>je</reg> suis fort estonné</l>
@@ -374,7 +386,7 @@
             <l n="64"><reg>Je</reg> suis bien seur que le <reg>jour</reg>
                <app>
                   <lem wit="#Aleph-E-XI-12"/>
-                  <rdg wit="#Rés-P-Ye241">de</rdg>
+                  <rdg wit="#RES-P-Ye241">de</rdg>
                </app>
                <persName type="saint">S. Remy</persName>,</l>
             <l>Un homme bien endormy</l>
@@ -404,7 +416,7 @@
             <!-- Saut#21 --><anchor type="saut#21"/>
             <l><reg>Un</reg> hardy <app>
                   <lem wit="#Aleph-E-XI-12">maçon</lem>
-                  <rdg wit="#Rés-P-Ye241">masson</rdg>
+                  <rdg wit="#RES-P-Ye241">masson</rdg>
                </app></l>
             <pb n="85"/>
             <l n="80">Combattoit <reg>un</reg>
@@ -429,7 +441,7 @@
             <l ana="#mtd"><rs type="injonction" subtype="impératif">Changeons de propos</rs></l>
             <l n="92">Ce sont grands <app>
                   <lem wit="#Aleph-E-XI-12">rinsseux</lem>
-                  <rdg wit="#Rés-P-Ye241">rainfleux</rdg>
+                  <rdg wit="#RES-P-Ye241">rainfleux</rdg>
                </app> de pots</l>
             <l>Au pays de <placeName type="region">Picardie</placeName>,</l>
             <!-- Saut#25 --><anchor type="saut#25"/>
@@ -439,17 +451,17 @@
             <!-- Saut#26 --><anchor type="saut#26"/>
             <l rend="indent"><app>
                   <lem wit="#Aleph-E-XI-12">Peintre</lem>
-                  <rdg wit="#Rés-P-Ye241">Paintre</rdg>
+                  <rdg wit="#RES-P-Ye241">Paintre</rdg>
                </app>
                <reg>je</reg> suis qui veut tirer <app>
                   <lem wit="#Aleph-E-XI-12">un</lem>
-                  <rdg wit="#Rés-P-Ye241">en</rdg>
+                  <rdg wit="#RES-P-Ye241">en</rdg>
                </app> marmot</l>
             <l ana="#adv_rel">Le <persName ref="ind:Maligny" key="Maligny (Jean II de Ferrières)"
                      ><roleName type="religieux" subtype="vidâme">Vidasme</roleName>
                   huguenot</persName>,</l>
             <l>Bien plus qu'<reg>un</reg>
-               <rs type="animal" key="singe">singe</rs> mallin<note resp="editor" type="glose">Jeu
+               <rs type="animal" subtype="primate" key="singe">singe</rs> mallin<note resp="editor" type="glose">Jeu
                   sur le nom du vidame en question, probablement celui de Chartres, <persName
                      ref="ind:Maligny">Jean II de Ferrières</persName>, seigneur de Maligny.
                </note></l>
@@ -462,7 +474,7 @@
             <l>Dieu gard les <orgName type="peuple" subtype="breton">Bretons</orgName></l>
             <l n="104">Ils <app>
                   <lem wit="#Aleph-E-XI-12">prennent</lem>
-                  <rdg wit="#Rés-P-Ye241"><reg>preignent</reg></rdg>
+                  <rdg wit="#RES-P-Ye241"><reg>preignent</reg></rdg>
                </app> les <rs type="animal" subtype="insecte" key="hanneton">hannetons</rs></l>
             <!--écho 1572-->
             <l>En yver quand neige volle</l>
@@ -486,29 +498,29 @@
             <!-- Saut#32 --><anchor type="saut#32"/>
             <l><reg>J</reg>'ay veu de <reg>nouveau</reg></l>
             <l n="116">Vendre le laict d'<reg>un</reg>
-               <rs type="animal" key="taureau">toreau</rs></l>
+               <rs type="animal" subtype="bovidé" key="taureau">toreau</rs></l>
             <l>Pour blanchir une <app>
                   <lem wit="#Aleph-E-XI-12">moresque</lem>
-                  <rdg wit="#Rés-P-Ye241"><reg>moresse</reg></rdg>
+                  <rdg wit="#RES-P-Ye241"><reg>moresse</reg></rdg>
                </app></l>
             <!-- Saut#33 --><anchor type="saut#33"/>
             <l>Il <app>
                   <lem wit="#Aleph-E-XI-12">courroit</lem>
-                  <rdg wit="#Rés-P-Ye241">couroit</rdg>
+                  <rdg wit="#RES-P-Ye241">couroit</rdg>
                </app>
                <expan>bon</expan>
                <expan>temps</expan> si n'<app>
                   <lem wit="#Aleph-E-XI-12">estoient</lem>
-                  <rdg wit="#Rés-P-Ye241">estoit</rdg>
+                  <rdg wit="#RES-P-Ye241">estoit</rdg>
                </app>
                <orgName type="peuple" subtype="bourguignon">les Bourguignons</orgName></l>
             <l>Qui <app>
                   <lem wit="#Aleph-E-XI-12">mangent</lem>
-                  <rdg wit="#Rés-P-Ye241">mange</rdg>
+                  <rdg wit="#RES-P-Ye241">mange</rdg>
                </app>
                <app>
                   <lem wit="#Aleph-E-XI-12">tous noz</lem>
-                  <rdg wit="#Rés-P-Ye241">noz</rdg>
+                  <rdg wit="#RES-P-Ye241">noz</rdg>
                </app> oygnons.</l>
             <!-- Saut#34 --><anchor type="saut#34"/>
             <l n="120" rend="indent">Si <reg>je</reg> faisois ma residence en <placeName><settlement
@@ -537,7 +549,7 @@
                <reg>jamais</reg>
                <app>
                   <lem wit="#Aleph-E-XI-12">d'argent</lem>
-                  <rdg wit="#Rés-P-Ye241">argent</rdg>
+                  <rdg wit="#RES-P-Ye241">argent</rdg>
                </app>.</l>
             <lb/>
             <!-- Saut#38 --><anchor type="saut#38"/>
@@ -546,9 +558,9 @@
                   key="Angély">Angely</placeName></l>
             <l><app>
                   <lem wit="#Aleph-E-XI-12">Pensent</lem>
-                  <rdg wit="#Rés-P-Ye241">Penses</rdg>
+                  <rdg wit="#RES-P-Ye241">Penses</rdg>
                </app> contre <app>
-                  <lem wit="#Rés-P-Ye241">fleur</lem>
+                  <lem wit="#RES-P-Ye241">fleur</lem>
                   <rdg wit="#Aleph-E-XI-12">la fleur</rdg>
                </app> de lys</l>
             <pb n="86"/>
@@ -557,11 +569,11 @@
             <l><reg>J</reg>'ay entendu que les <orgName type="peuple" subtype="grec">Grecs</orgName>
                en <app>
                   <lem wit="#Aleph-E-XI-12">leur</lem>
-                  <rdg wit="#Rés-P-Ye241">leurs</rdg>
+                  <rdg wit="#RES-P-Ye241">leurs</rdg>
                </app> pays</l>
             <l n="136">Se <reg>treuvent</reg>
                <app>
-                  <lem wit="#Rés-P-Ye241">fort</lem>
+                  <lem wit="#RES-P-Ye241">fort</lem>
                   <rdg wit="#Aleph-E-XI-12">tout</rdg>
                </app> esbahis</l>
             <l>D'<reg>avoir</reg> en <reg>yver</reg> si chauld</l>
@@ -577,7 +589,7 @@
             <l><reg>Avaller</reg>
                <app>
                   <lem wit="#Aleph-E-XI-12">leur</lem>
-                  <rdg wit="#Rés-P-Ye241">leurs</rdg>
+                  <rdg wit="#RES-P-Ye241">leurs</rdg>
                </app> cildre doux.</l>
             <lb/>
             <!-- Saut#42 --><anchor type="saut#42"/>
@@ -588,10 +600,10 @@
             <!-- Saut#43 --><anchor type="saut#43"/>
             <l><app>
                   <lem wit="#Aleph-E-XI-12">J'ay</lem>
-                  <rdg wit="#Rés-P-Ye241">Je</rdg>
+                  <rdg wit="#RES-P-Ye241">Je</rdg>
                </app> quelque fois <app>
                   <lem wit="#Aleph-E-XI-12">nagé</lem>
-                  <rdg wit="#Rés-P-Ye241">naiger</rdg>
+                  <rdg wit="#RES-P-Ye241">naiger</rdg>
                </app> aux <reg>environs</reg></l>
             <l n="148">De la <geogName>mer</geogName> sans <reg>avirons</reg>,</l>
             <l>Sans batteaux en maints endroicts,</l>
@@ -599,7 +611,7 @@
             <l>M'<reg>avoient</reg> donné <reg>un</reg> sot nom</l>
             <l n="152">M'appellant <addName type="surnom">Raque-de-barbe</addName><app>
                   <lem wit="#Aleph-E-XI-12">?</lem>
-                  <rdg wit="#Rés-P-Ye241"/>
+                  <rdg wit="#RES-P-Ye241"/>
                </app></l>
             <l>Mais pour mon bon droict</l>
             <l>Ceux de <placeName type="city" key="Mantes">Mante</placeName> ont tant playdé</l>

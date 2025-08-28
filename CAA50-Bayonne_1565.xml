@@ -5,14 +5,13 @@
    <teiHeader>
       <fileDesc xml:id="Bayonne_1565">
          <titleStmt>
-            <title>Epistre du coq à l'asne</title>
+            <title type="idno">Réf. n°50: </title>
+            <title type="main">Epistre du coq à l'asne</title>
+            <title type="incipit">Amy y a desja longtemps</title>
+            <author>Anonyme</author>
          </titleStmt>
          <publicationStmt>
-            <p>En prenant en compte le manuscrit 14840, copie du 22561, il existe quatre témoins de
-               ce coq-à-l'âne réformé, particulièrement clair dans ses références à l'actualité par
-               la longueur de ses séquences qu'il n'hésite pas à étendre. Les cibles sont
-               identifiées: outre les Guise, le connétable de Montmorency et ses fils sont visés,
-               tout comme la reine-mère ou ses conseillers de la cour.</p>
+            <p>Texte établi à partie du ms. 25567, corrigé à l'aide des autres témoins.</p>
          </publicationStmt>
          <sourceDesc>
             <p><listWit>
@@ -45,6 +44,12 @@
                </listWit></p>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Les cibles sont identifiées: outre les Guise, le connétable de Montmorency et ses
+               fils sont visés, tout comme la reine-mère ou ses conseillers de la cour.</p>
+         </abstract>
+      </profileDesc>
       <encodingDesc>
          <listPrefixDef>
             <prefixDef ident="ind" matchPattern="([a-z]+)"
@@ -66,58 +71,59 @@
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
                <interp xml:id="ambition" ana="ambition">ambition</interp>
                <interp xml:id="amour" ana="amour">amour</interp>
                <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
-
+               
                <!-- B -->
                <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
                <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
-
+               
                <!-- C -->
                <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
                <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
-               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de
-                  l'épître</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de l'épître</interp>
                <interp xml:id="corruption" ana="corruption">corruption</interp>
                <interp xml:id="corps" ana="corps">corps</interp>
                <interp xml:id="cour" ana="court">vie de la cour</interp>
                <interp xml:id="cri" ana="cri">cris des marchands</interp>
                <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
-
+               
                <!-- D -->
                <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
                <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
-
+               
                <!-- E -->
                <interp xml:id="éloge" ana="éloge">éloge</interp>
                <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
                <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="eschatologie" ana="eschatologie">conception eschatologique</interp>
                <interp xml:id="ethos" ana="ethos">ethos</interp>
                <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
                <interp xml:id="exhortation" ana="exhortation">exhortations et
                   encouragements</interp>
-
+               
                <!-- F -->
                <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
                <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
                <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
-
+               
                <!-- G -->
                <interp xml:id="gén" ana="généralisation">généralisation</interp>
                <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
                   gnomique</interp>
+               <interp xml:id="gc" ana="gc">guerres civiles</interp>
                <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
-
+               
                <!-- H -->
                <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
                <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
-
-
+               
+               
                <!-- I -->
                <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
@@ -127,13 +133,13 @@
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
                <interp xml:id="ironie" ana="ironie">ironie</interp>
-
+               
                <!-- L -->
                <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
                <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
                <interp xml:id="topos" ana="topos">lieu commun</interp>
                <interp xml:id="ligue" ana="ligue">ligue</interp>
-
+               
                <!-- M -->
                <interp xml:id="maladie" ana="maladie">maladie</interp>
                <interp xml:id="massacre" ana="massacre">massacre</interp>
@@ -146,8 +152,11 @@
                <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
                   valeurs</interp>
                <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
-
-
+               
+               <!-- N -->
+               <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
+               
+               
                <!-- P -->
                <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
                <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
@@ -158,11 +167,12 @@
                <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
                <interp xml:id="practiques" ana="practiques">practiques</interp>
                <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="prière" ana="prière">prière</interp>
                <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
                <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
                <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
                   nécessaire</interp>
-
+               
                <!-- R -->
                <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
                <interp xml:id="rébus" ana="rébus">rébus</interp>
@@ -172,42 +182,56 @@
                <interp xml:id="rire" ana="rire">rire</interp>
                <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
                <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
-
+               
                <!-- S -->
-
+               
                <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
                <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
                <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
                <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="sergents" ana="sergents">contre les sergents</interp>
                <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
                <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
                <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
                <interp xml:id="syllepse" ana="syllepse">syllepse</interp>
-
+               
                <!-- T -->
                <interp xml:id="tauto" ana="tauto">tautologie</interp>
                <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
                <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
                <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
-
+               <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
+               
                <!-- V -->
                <interp xml:id="vanité" ana="vanité">vanité</interp>
                <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="vices" ana="vices">condamnation des vices</interp>
                <interp xml:id="violences" ana="violences">violences</interp>
             </interpGrp>
          </p>
       </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>En prenant en compte le manuscrit 14840, copie du 22561, il existe quatre témoins de
+               ce coq-à-l'âne réformé, particulièrement clair dans ses références à l'actualité par
+               la longueur de ses séquences qu'il n'hésite pas à étendre. Les cibles sont
+               identifiées: outre les Guise, le connétable de Montmorency et ses fils sont visés,
+               tout comme la reine-mère ou ses conseillers de la cour.</p>
+         </abstract>
+         <creation><date when="1565">1565</date></creation>
+      </profileDesc>
       <revisionDesc>
          <change>Encodage de niveau 4 <date when="2025-02-15">le 15 février 2025</date></change>
          <change>Ajout des sauts logiques et de notes complémentaires <date when="2025-02-17">le 17
                février 2025</date></change>
-
       </revisionDesc>
+
+
    </teiHeader>
    <text>
       <body>
          <p>
-            <l ana="#adr">Amy y a desja longtemps</l>
+            <l ana="#adr"><rs type="destinataire">Amy</rs> y a desja longtemps</l>
             <l ana="#adr">Qu'apres tes nouvelles j'attends</l>
             <l ana="#adr">Et puisque ne me veulx rescrire</l>
             <l n="4" ana="#rire">Il faut que je te fasse rire</l>
@@ -517,7 +541,8 @@
             <l n="152"><reg>À</reg> nostre <persName ref="ind:Charles_IX" key="Charles IX"
                   >Roy</persName> remonstreroit</l>
             <l ana="#tromperie">Qu'il ne devroit souffrir en somme</l>
-            <l ana="#tromperie">Que la Religion de <placeName type="city" key="Rome">Rome</placeName></l>
+            <l ana="#tromperie">Que la Religion de <placeName type="city" key="Rome"
+                  >Rome</placeName></l>
             <l>Mais il cherra <rs type="invective">l'asne doré</rs></l>
             <l n="156">Par l'esprit de <persName>Dieu</persName> rembarré</l>
             <l>Aussy bien comme a fait <persName ref="ind:François_de_Guise" key="François de Guise"
@@ -576,7 +601,7 @@
             <!-- Saut#23 --><anchor type="saut#23"/>
             <l n="188"><persName ref="ind:Nostradamus" key="Nostradamus">Nostradamus</persName> ce
                bon devin</l>
-            <l>Est <rs type="métier">medecin</rs> de nostre <persName ref="ind:Charles IX"
+            <l>Est <rs type="occupation">medecin</rs> de nostre <persName ref="ind:Charles IX"
                   key="Charles IX">Roy</persName></l>
             <l><app>
                   <lem wit="#fr25567">Y avoit il pas bien de quoy</lem>
@@ -605,7 +630,7 @@
                précepteur, est nommé grand aumonier depuis 1561.</note>
             <l ana="#sat_pers">Plus est digne d'estre musnier</l>
             <l ana="#sat_pers">Que d'estre du <persName>Roy</persName>
-               <rs type="métier" subtype="précepteur">precepteur</rs></l>
+               <rs type="occupation" subtype="précepteur">precepteur</rs></l>
             <l n="200" ana="#sat_pers">C'est un <app>
                   <lem wit="#NAF1870"><rs type="invective">caquetier</rs></lem>
                   <rdg wit="#fr25567">athée</rdg>
@@ -616,8 +641,8 @@
                </app> l'Evangile</l>
             <l ana="#ethos">Mais je te jure <rs type="interjection" subtype="juron">par <persName
                      key="Saint-Gilles">St Gille</persName></rs></l>
-            <l ana="#ethos">Qu'au <persName ref="ind:Charles_IX" key="Charles IX">Roy</persName> on le fera
-               connoistre</l>
+            <l ana="#ethos">Qu'au <persName ref="ind:Charles_IX" key="Charles IX">Roy</persName> on
+               le fera connoistre</l>
             <!-- Saut#26 --><anchor type="saut#26"/>
             <l n="204" ana="#adr">Je voudrois aupres de toy estre</l>
             <l ana="#mtd"><app>
@@ -634,7 +659,7 @@
                   point</rs></l>
             <l ana="#adr">À me mander de tes nouvelles</l>
             <l n="212" ana="#conclusio">A Dieu jusqu'aux Pesches nouvelles</l>
-            <fw>De Bayonne ce 20<hi rend="exp">e</hi> Juin 1565</fw></p>
+            <fw>De <placeName type="city" key="Bayonne">Bayonne</placeName> ce 20<hi rend="exp">e</hi> Juin 1565</fw></p>
       </body>
    </text>
 </TEI>

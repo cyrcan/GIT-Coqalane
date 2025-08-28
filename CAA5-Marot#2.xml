@@ -5,9 +5,11 @@
    <teiHeader>
       <fileDesc xml:id="Marot_2">
          <titleStmt>
-            <title>Réf. n°5: </title>
-            <title>Epistre envoyée par Clément Marot à Lyon Jamet en juillet Vc XXXVI (sic) (1535)
-               du coq a l'asne</title>
+            <title type="idno">Réf. n°5: </title>
+            <title type="main">Epistre envoyée par Clément Marot à Lyon Jamet en juillet Vc XXXVI
+               (sic) (1535) du coq a l'asne</title>
+            <title type="incipit">Puis que respondre tu ne veulx</title>
+            <author>Marot, Clément</author>
          </titleStmt>
          <publicationStmt>
             <p>L'édition Berthon-Monferran préfère également le ms. 202 en le corrigeant d'après BnF
@@ -28,16 +30,24 @@
                   <witness xml:id="NAF1870"><msDesc>
                         <msIdentifier>
                            <settlement>Paris, </settlement>
-                           <repository>Bibliothèque nationale, </repository>
+                           <repository>Bibliothèque nationale de France, </repository>
                            <idno>NAF 1870</idno>
                         </msIdentifier>
                      </msDesc></witness>
 
-                  <witness><msDesc>
+                  <witness xml:id="ms4967"><msDesc>
                         <msIdentifier>
-                           <settlement/>
-                           <repository/>
+                           <settlement>Paris, </settlement>
+                           <repository>Bibliothèque nationale de France, </repository>
                            <idno>ms. 4967</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+
+                  <witness xml:id="ms20025"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris, </settlement>
+                           <repository> Bibliothèque nationale de France, </repository>
+                           <idno>ms. 20025</idno>
                         </msIdentifier>
                      </msDesc></witness>
 
@@ -65,7 +75,7 @@
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
@@ -193,6 +203,8 @@
             </interpGrp>
          </p>
       </encodingDesc>
+      <profileDesc><abstract><p></p></abstract>
+      <creation><date when="1535">1535</date></creation></profileDesc>
    </teiHeader>
    <text>
       <body>
@@ -258,13 +270,13 @@
                </subst> faut</l>
             <l><reg>À</reg> cueur de bonne volunté.</l>
             <!-- Saut#12 --><anchor type="saut#12"/>
-            <l ana="#sat_rel" n="32" rend="indent">Puisque sçavez, <persName type="pape"><hi
+            <l n="32" rend="indent" ana="#sat_rel" >Puisque sçavez, <persName type="pape"><hi
                      rend="italic">Pater sancte</hi></persName>,</l>
             <l ana="#sat_rel">Que <expan>vostre</expan> grand pouvoir s’efface.</l>
             <l ana="#ironie">Mais que voulez vous que <reg>j'y</reg> face?</l>
             <l rend="indent" ana="#vp">Les financiers sont tous peris</l>
             <!-- Saut#13 --><anchor type="saut#13"/>
-            <l n="36">Et n’est <rs type="métier" subtype="bourreau">bourreau</rs> que de <placeName
+            <l n="36">Et n’est <rs type="occupation" subtype="bourreau">bourreau</rs> que de <placeName
                   type="city" key="Paris"><expan>Paris</expan></placeName>,</l>
             <l>Ne long proces que dudict lieu.</l>
             <!-- Saut#14 --><anchor type="saut#14"/>
@@ -575,7 +587,7 @@
             <!-- Saut#59 --><anchor type="saut#59"/>
             <l ana="#ethos">Et puis c’est tout, je suis tant las,</l>
             <l><unclear>Que quatorze</unclear>
-               <rs type="soldats" subtype="archer">archiers</rs> de la garde</l>
+               <rs type="soldat" subtype="archer">archiers</rs> de la garde</l>
             <l n="200">Me battroient <reg>à</reg> la hallebarde.</l>
             <!-- Saut#60 --><anchor type="saut#60"/>
             <l rend="indent" ana="#satire">Quant au <placeName>palais</placeName>, tousjours il

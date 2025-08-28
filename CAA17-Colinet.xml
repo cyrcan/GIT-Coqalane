@@ -5,15 +5,17 @@
    <teiHeader>
       <fileDesc xml:id="Colinet">
          <titleStmt>
-            <title>Réf. n°17: </title>
-            <title>Le coq a l'asne fait le jeudi IX<hi rend="sup">e</hi> jour d'aout l'an mil cinq
-               cens XXXVII<note resp="editor" type="crit">Date erronée ou fictive car le 9 août
-                  tombait un lundi en 1537.</note></title>
+            <title type="idno">Réf. n°17: </title>
+            <title type="main">Le coq a l'asne fait le jeudi IX<hi rend="sup">e</hi> jour d'aout l'an mil cinq
+               cens XXXVII</title>
+            <title type="incipit">Si j'eusse plus tost mis au net</title>
+            <author>Anonyme</author>
          </titleStmt>
          <publicationStmt>
             <p>Transcription à partir de l'unique témoin du manuscrit 0203 de Soissons. L'édition
                Mayer omet deux folios. Coq-à-l'âne particulièrement riche du point du lexique et qui
-               mentionne Sagon et La Hueterye. Langue influencée par Rabelais.</p>
+               mentionne Sagon et La Hueterye. Langue influencée par Rabelais. Date erronée ou fictive car le 9 août
+                  tombait un lundi en 1537.</p>
          </publicationStmt>
          <sourceDesc>
             <p><msDesc>
@@ -46,7 +48,7 @@
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
@@ -182,6 +184,12 @@
             </interpGrp>
          </p>
       </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <creation><date when="1537">1537</date></creation>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>
@@ -321,7 +329,7 @@
             <pb n="25(bis)v"/>
             <l>Qui du faict ne s'en ventent pas</l>
             <l>Mais si paieront ilz leur repas</l>
-            <l>En la saison de <rs type="animal" key="brebis">brebis</rs> tondre</l>
+            <l>En la saison de <rs type="animal" subtype="ovidé" key="brebis">brebis</rs> tondre</l>
             <!-- Saut#22 --><anchor type="saut#22"/>
             <l n="92" rend="indent">Au lieu de fonder on veoit fondre</l>
             <l>Et fy, fy, le <persName key="diable">diable</persName> y ait part</l>
@@ -419,7 +427,7 @@
             <!-- Saut#43 --><anchor type="saut#43"/>
             <l rend="indent">Les <rs type="animal" subtype="canidé" key="loup">loups</rs> sont
                vestuz de veloulx</l>
-            <l>Et les <rs type="animal" key="brebis">brebis</rs> de belle laine</l>
+            <l>Et les <rs type="animal" subtype="ovidé" key="brebis">brebis</rs> de belle laine</l>
             <!-- Saut#44--><anchor type="saut#44"/>
             <l n="156">Nous avons eu la Magdelaine</l>
             <l>Les raisins viendront en saison</l>

@@ -5,9 +5,12 @@
    <teiHeader>
       <fileDesc xml:id="Guischeus_1649">
          <titleStmt>
-            <title>Coq-à-l'asne ou lettre burlesque du Sieur Voiture ressuscité, au preux Chevalier
+            <title type="idno">Réf. n°104: </title>
+            <title type="main">Coq-à-l'asne ou lettre burlesque du Sieur Voiture ressuscité, au preux Chevalier
                Guischeus, aliàs le Mareschal de Grammont. Sur les affaires &amp; nouvelles du
                temps.</title>
+            <title type="incipit">Trouvez bon que je vous escrive</title>
+            <author>Sarrasin, François</author>
             <respStmt xml:id="CCA">
                <persName>Cyril Cano Arnedo</persName>
                <resp>éditeur scientifique et encodeur</resp>
@@ -89,7 +92,7 @@
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
@@ -219,6 +222,8 @@
          <langUsage>
             <language ident="fre">Français</language>
          </langUsage>
+         <abstract><p></p></abstract>
+         <creation><date when="1649">1649</date></creation>
       </profileDesc>
       <revisionDesc>
          <change who="#CCA" when="2022">Création du fichier en xml-tei</change>

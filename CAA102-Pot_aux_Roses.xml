@@ -5,9 +5,12 @@
    <teiHeader>
       <fileDesc xml:id="Pot_aux_Roses">
          <titleStmt>
-            <title>Réf. n°101: </title>
-            <title>Le Coq-à-l'asne ou Pot aux Roses descouvert. Addressé aux Financiers.</title>
+            <title type="idno">Réf. n°102: </title>
+            <title type="main">Le Coq-à-l'asne ou Pot aux Roses descouvert. Addressé aux Financiers.</title>
+            <title type="incipit">J'ayme le Roy, j'aime les Princes,</title>
+            <author>Anonyme</author>
          </titleStmt>
+         
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
@@ -65,7 +68,7 @@
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
@@ -201,6 +204,7 @@
             </interpGrp>
          </p>
       </encodingDesc>
+      <profileDesc><creation><date when="1623">1623</date></creation></profileDesc>
       <revisionDesc>
          <change><date when="2025-04-12">samedi 12 avril 2025</date> Transcription et consultation
             avec l'exemplaire de Toulouse.</change>
@@ -217,9 +221,9 @@
             <!-- Contre les courtisans et les ambitieux -->
             <l n="4" ana="#leitmotiv">Il faict bon pour le temps qui court</l>
             <l ana="#ambition">S'entremettre dans les affaires,</l>
-            <l ana="#sat_pol">Les <rs type="métier" subtype="intendant">Intendants</rs>, les <rs
-                  type="métier" subtype="secrétaire">Secretaires</rs>,</l>
-            <l ana="#sat_pol">Les <rs type="métier" subtype="financier">Financiers</rs>, les
+            <l ana="#sat_pol">Les <rs type="occupation" subtype="intendant">Intendants</rs>, les <rs
+                  type="occupation" subtype="secrétaire">Secretaires</rs>,</l>
+            <l ana="#sat_pol">Les <rs type="occupation" subtype="financier">Financiers</rs>, les
                Partizants,</l>
             <l n="8" ana="#sat_pol">Les gens d'Estat, les Courtizants,</l>
             <l ana="#sat_pol">Sont ceux maintenant qu'on destine</l>
@@ -271,7 +275,7 @@
             <l ana="#ironie">Et qui nous font vivre d'advance,</l>
             <l ana="#sat_pol">On en voit dans les Parlements,</l>
             <!-- Saut#2 --><anchor type="saut#2"/>
-            <l n="32" ana="#satire">Les <rs type="métier" subtype="conseiller">Conseillers</rs>, les
+            <l n="32" ana="#satire">Les <rs type="occupation" subtype="conseiller">Conseillers</rs>, les
                Presidents,</l>
             <l ana="#satire">S'esmeuvent souvent en collere,</l>
             <!-- Saut#3 --><anchor type="saut#3"/>

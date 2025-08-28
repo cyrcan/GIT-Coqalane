@@ -6,7 +6,10 @@
    <teiHeader xml:id="Grenoille">
       <fileDesc>
          <titleStmt>
-            <title>Réf. n°52: La Grenoille au crapault</title>
+            <title type="idno">Réf. n°52: </title>
+            <title type="main">La Grenoille au crapault</title>
+            <title type="incipit">Couac! Couac! Crapault, mon amy,</title>
+            <author>Anonyme</author>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -19,49 +22,50 @@
          <listPrefixDef>
             <prefixDef ident="ind" matchPattern="([a-z]+)"
                replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le
-                  Fichier Index du projet</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
             </prefixDef>
             <prefixDef ident="plc" matchPattern="([0-9]+)"
                replacementPattern="https://www.geonames.org/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la
-                  base de données géographiques GeoNames.</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
             </prefixDef>
             <prefixDef ident="ms" matchPattern="([0-9]+)"
                replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le
-                  Fichier des Sources Manuscrites du projet.</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
             </prefixDef>
          </listPrefixDef>
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
                <interp xml:id="ambition" ana="ambition">ambition</interp>
                <interp xml:id="amour" ana="amour">amour</interp>
                <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
-               
+
                <!-- B -->
                <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
                <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
-               
+
                <!-- C -->
                <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
                <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
-               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de l'épître</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de
+                  l'épître</interp>
                <interp xml:id="corruption" ana="corruption">corruption</interp>
                <interp xml:id="corps" ana="corps">corps</interp>
                <interp xml:id="cour" ana="court">vie de la cour</interp>
                <interp xml:id="cri" ana="cri">cris des marchands</interp>
                <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
-               
+
                <!-- D -->
                <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
                <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
-               
+
                <!-- E -->
                <interp xml:id="éloge" ana="éloge">éloge</interp>
                <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
@@ -71,23 +75,23 @@
                <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
                <interp xml:id="exhortation" ana="exhortation">exhortations et
                   encouragements</interp>
-               
+
                <!-- F -->
                <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
                <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
                <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
-               
+
                <!-- G -->
                <interp xml:id="gén" ana="généralisation">généralisation</interp>
                <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
                   gnomique</interp>
                <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
-               
+
                <!-- H -->
                <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
                <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
-               
-               
+
+
                <!-- I -->
                <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
@@ -97,13 +101,13 @@
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
                <interp xml:id="ironie" ana="ironie">ironie</interp>
-               
+
                <!-- L -->
                <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
                <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
                <interp xml:id="topos" ana="topos">lieu commun</interp>
                <interp xml:id="ligue" ana="ligue">ligue</interp>
-               
+
                <!-- M -->
                <interp xml:id="maladie" ana="maladie">maladie</interp>
                <interp xml:id="massacre" ana="massacre">massacre</interp>
@@ -116,11 +120,11 @@
                <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
                   valeurs</interp>
                <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
-               
+
                <!-- N -->
                <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
-               
-               
+
+
                <!-- P -->
                <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
                <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
@@ -131,11 +135,12 @@
                <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
                <interp xml:id="practiques" ana="practiques">practiques</interp>
                <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="prière" ana="prière">prière</interp>
                <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
                <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
                <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
                   nécessaire</interp>
-               
+
                <!-- R -->
                <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
                <interp xml:id="rébus" ana="rébus">rébus</interp>
@@ -145,9 +150,9 @@
                <interp xml:id="rire" ana="rire">rire</interp>
                <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
                <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
-               
+
                <!-- S -->
-               
+
                <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
                <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
                <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
@@ -157,20 +162,21 @@
                <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
                <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
                <interp xml:id="syllepse" ana="syllepse">syllepse</interp>
-               
+
                <!-- T -->
                <interp xml:id="tauto" ana="tauto">tautologie</interp>
                <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
                <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
                <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
-               
+               <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
+
                <!-- V -->
                <interp xml:id="vanité" ana="vanité">vanité</interp>
                <interp xml:id="vp" ana="pivot">vers pivot</interp>
                <interp xml:id="violences" ana="violences">violences</interp>
             </interpGrp>
          </p>
-      
+
          <p><listPerson>
                <person xml:id="Coligny" corresp="https://data.bnf.fr/ark:/12148/cb125977672">
                   <idno type="ISNI">0000 0001 1683 2336</idno>
@@ -260,6 +266,12 @@
                </person>
             </listPerson></p>
       </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>A confronter au coq-à-l'âne catholique n°53</p>
+         </abstract>
+         <creation><date when="1567">1567</date></creation>
+      </profileDesc>
       <revisionDesc>
          <change><date>17-09-2023</date>Encodage de niveau 0.</change>
          <change>Encodage de niveau 2.<date/>26-11-2023</change>
@@ -297,8 +309,7 @@
                </choice></l>
             <l n="8">Qu'<reg>à</reg> faire grand chose l'on tasche</l>
             <l>Pour abbatre la nouveaulté</l>
-            <l>Que l'<placeName type="country" key="Allemagne">Allemaigne</placeName> a
-               apporté</l>
+            <l>Que l'<placeName type="country" key="Allemagne">Allemaigne</placeName> a apporté</l>
             <note resp="editor" type="crit">Le luthéranisme. L'Allemagne et non pas Genève. L'auteur
                ne semble pas faire partie des réformés. On se souvient de l'"épître au Roy" de
                Calvin en 1541 qui précède l'<title>Institution de la religion chrétienne</title> :
@@ -348,11 +359,10 @@
             <!-- Saut#5 -->
             <l n="36">Mauldict de dieu soict le lignage</l>
             <l>Qu'ainsy nous vint de l'<placeName key="Austrasie" type="region"
-                     >ostrasye</placeName></l>
+               >ostrasye</placeName></l>
             <note resp="editor" type="glose">L'Austrasie, littéralement "le royaume de l'Est". C'est
                vraisemblablement la maison de Lorraine qui est ici visée.</note>
-            <l>Nostre <placeName key="France" type="country"
-                  >France</placeName> a l'épilepsye</l>
+            <l>Nostre <placeName key="France" type="country">France</placeName> a l'épilepsye</l>
             <l>Loing d'elle fault chasser le rouge</l>
             <note resp="editor" type="ling">C'est-à-dire le traître.</note>
             <l n="40"><roleName ref="#Charles_de_Lorraine">Le quart d'entre eulx</roleName> qui
@@ -380,8 +390,7 @@
             <pb n="61v"/>
             <l>Que la cueiller en est usée</l>
             <!-- Saut #9 -->
-            <l>La <placeName type="country" key="France">France</placeName> est
-               longtemps abusée</l>
+            <l>La <placeName type="country" key="France">France</placeName> est longtemps abusée</l>
             <l>Qui en la fin le cognoistra</l>
             <!-- Saut#10 -->
             <l n="56">Celluy qui le premier entra</l>
@@ -403,7 +412,8 @@
             <!-- Saut#14 -->
             <l n="68">Onques ne c'est evertué</l>
             <l>Qu'<reg>à</reg> jurer et morguer le monde</l>
-            <l><roleName ref="#François_de_Montmorency" key="François de Montmonerency">Le beau mareschal</roleName> le seconde</l>
+            <l><roleName ref="#François_de_Montmorency" key="François de Montmonerency">Le beau
+                  mareschal</roleName> le seconde</l>
             <note resp="editor" type="crit">Le maréchal de Montmorency qu'on accusait de favoriser
                ses cousins, les Coligny.</note>
             <l>Aussy est il de son party</l>
@@ -503,9 +513,9 @@
             <l>Et n'ont poinct de barbe au menton</l>
             <!-- Saut#32 -->
             <l n="132">La forte place qu'<placeName type="city" key="Aubenton"
-                  >Aubenton</placeName></l>
+               >Aubenton</placeName></l>
             <l>Elle deffend bien les <placeName type="region" key="Ardennes"
-                  >Ardennes</placeName></l><!-- note sur Aubenton -->
+               >Ardennes</placeName></l><!-- note sur Aubenton -->
             <fw type="sig" place="bottom-right">Q ii</fw>
             <pb n="62v"/>
             <l>On n'oseroit tirer aux <rs type="animal" subtype="oiseau">canes</rs></l>
@@ -536,8 +546,7 @@
             <l n="148">Il n'est que d'avoir des ducats</l>
             <l>On est pour cela gentilhomme</l>
             <!-- Saut#38 -->
-            <l>On n'amenda d'aller à <placeName type="city" key="Rome"
-                     >Romme</placeName></l>
+            <l>On n'amenda d'aller à <placeName type="city" key="Rome">Romme</placeName></l>
             <l><rs type="proverbe"><rs type="animal" subtype="équidé">Cheval</rs> ny homme
                   asseurément</rs></l><note resp="editor">"Jamais homme ni cheval n'amenda d'aller à
                Rome" est un proverbe relevé par Le Roux de Lincy, <title>Le livre des proverbes
@@ -556,7 +565,8 @@
                femme etique / Ne saurait être bonne bague" (v. 80-81).</note>
             <l>N'a pas le cul trop rebondy</l>
             <!-- Saut#41 -->
-            <l>Scay tu <reg>à</reg> quoy sert ung <persName ref="#Gondi" key="Gondi">Gondy</persName></l>
+            <l>Scay tu <reg>à</reg> quoy sert ung <persName ref="#Gondi" key="Gondi"
+                  >Gondy</persName></l>
             <l>Il sert <reg>à</reg> pendre en quelque endroict</l>
             <l n="160">Celluy qui pourchasse bon droict</l>
             <l>N'a il pas bonne occasion</l>
@@ -588,8 +598,8 @@
             <l>Tel est l'usaige de la <placeName>court</placeName></l>
             <l>Maintenant en ce temps qui court</l>
             <!-- Saut#46 -->
-            <l>Hors <placeName type="country" key="France">France</placeName> on a
-               chassé les anges</l>
+            <l>Hors <placeName type="country" key="France">France</placeName> on a chassé les
+               anges</l>
             <l n="184">Se sont nouvelles bien estranges</l>
             <l>Leur marchepied est demouré</l>
             <!-- Saut#47 -->

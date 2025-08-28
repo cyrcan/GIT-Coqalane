@@ -5,7 +5,10 @@
    <teiHeader xml:id="Arnault_85">
       <fileDesc>
          <titleStmt>
-            <title>Coq a l'asne sur la ligue 1585</title>
+            <title type="idno">Réf. n°71: </title>
+            <title type="main">Coq a l'asne sur la ligue 1585</title>
+            <title type="incipit">Thony, pour te donner plaisir</title>
+            <author>Desportes, Philippe?</author>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -41,7 +44,7 @@
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
@@ -178,6 +181,12 @@
             </interpGrp>
          </p>
       </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <creation><date when="1585">1585</date></creation>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>

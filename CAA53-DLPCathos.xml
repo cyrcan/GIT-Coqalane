@@ -6,7 +6,10 @@
    <teiHeader xml:id="DLPCathos">
       <fileDesc>
          <titleStmt>
-            <title>Réf n°53: L'asne au coq. "Salut à toy, mon grand amy"</title>
+            <title type="idno">Réf. n°53: </title>
+            <title type="main">L'asne au coq</title>
+            <title type="incipit">Salut à toy, mon grand amy</title>
+            <author>Anonyme</author>
          </titleStmt>
          <publicationStmt>
             <p/>
@@ -25,30 +28,27 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p>Transcription du seul témoin de ce coq-à-l'âne qui présente de nombreuses irrégularités
-            et se distingue en premier lieu par ses propos violents contre les huguenots souvent
-            désignés par le termes "hurgnes". </p>
          <listPrefixDef>
             <prefixDef ident="ind" matchPattern="([a-z]+)"
                replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
-                  Index du projet</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le
+                  Fichier Index du projet</p>
             </prefixDef>
             <prefixDef ident="plc" matchPattern="([0-9]+)"
                replacementPattern="https://www.geonames.org/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
-                  données géographiques GeoNames.</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la
+                  base de données géographiques GeoNames.</p>
             </prefixDef>
             <prefixDef ident="ms" matchPattern="([0-9]+)"
                replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
-                  Sources Manuscrites du projet.</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le
+                  Fichier des Sources Manuscrites du projet.</p>
             </prefixDef>
          </listPrefixDef>
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
@@ -63,8 +63,7 @@
                <!-- C -->
                <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
                <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
-               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de
-                  l'épître</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de l'épître</interp>
                <interp xml:id="corruption" ana="corruption">corruption</interp>
                <interp xml:id="corps" ana="corps">corps</interp>
                <interp xml:id="cour" ana="court">vie de la cour</interp>
@@ -79,6 +78,7 @@
                <interp xml:id="éloge" ana="éloge">éloge</interp>
                <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
                <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="eschatologie" ana="eschatologie">conception eschatologique</interp>
                <interp xml:id="ethos" ana="ethos">ethos</interp>
                <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
                <interp xml:id="exhortation" ana="exhortation">exhortations et
@@ -129,6 +129,9 @@
                   valeurs</interp>
                <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
                
+               <!-- N -->
+               <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
+               
                
                <!-- P -->
                <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
@@ -140,6 +143,7 @@
                <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
                <interp xml:id="practiques" ana="practiques">practiques</interp>
                <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="prière" ana="prière">prière</interp>
                <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
                <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
                <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
@@ -161,6 +165,7 @@
                <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
                <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
                <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="sergents" ana="sergents">contre les sergents</interp>
                <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
                <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
                <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
@@ -171,205 +176,21 @@
                <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
                <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
                <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
                
                <!-- V -->
                <interp xml:id="vanité" ana="vanité">vanité</interp>
                <interp xml:id="vp" ana="pivot">vers pivot</interp>
                <interp xml:id="violences" ana="violences">violences</interp>
             </interpGrp>
-         </p><p><listPerson>
-               
-               <person xml:id="Pie_V" corresp="https://data.bnf.fr/ark:/12148/cb11919954n">
-                  <idno type="ISNI">0000 0001 2096 6134</idno>
-                  <persName xml:lang="fr"><forename type="first"
-                        >Antonio</forename><surname>Ghislieri</surname></persName>
-                  <!--Pape de 1566 à 1572-->
-               </person>
-               <person xml:id="Coligny" corresp="https://data.bnf.fr/ark:/12148/cb125977672">
-                  <idno type="ISNI">0000 0001 1683 2336</idno>
-                  <persName xml:lang="fr"><forename type="first">Gaspard</forename><surname> de
-                        Coligny</surname></persName>
-               </person>
-               <person xml:id="François_de_Guise"
-                  corresp="https://data.bnf.fr/ark:/12148/cb12459930r">
-                  <idno type="ISNI">0000 0000 8151 3262</idno>
-                  <persName xml:lang="fr"><forename type="first">François</forename><surname> de
-                        Guise</surname></persName>
-               </person>
-               <person xml:id="Cèze">
-                  <idno/>
-                  <persName xml:lang="fr"><forename type="first">César</forename><surname> Brancho
-                        de Cèse</surname><addName> ou Cilas de Branche</addName></persName>
-               </person>
-
-               <person xml:id="Gabaston">
-                  <idno/>
-                  <persName xml:lang="fr"><forename type="first"/><surname>
-                     Gabaston</surname></persName>
-               </person>
-               <person xml:id="Jean_de_Monluc" corresp="https://data.bnf.fr/ark:/12148/cb12005546b">
-                  <idno type="ISNI">0000 0000 6138 1469</idno>
-                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname> de
-                        Monluc</surname></persName>
-                  <birth><date>1508</date></birth>
-                  <death><date>1579</date></death>
-               </person>
-               <person xml:id="Farel" corresp="https://data.bnf.fr/ark:/12148/cb12510808g">
-                  <idno type="ISNI">0000 0001 0654 6643</idno>
-                  <persName xml:lang="fr"><forename type="first">Guillaume</forename><surname>
-                        Farel</surname></persName>
-               </person>
-               <person xml:id="Catherine_de_Médicis"
-                  corresp="https://data.bnf.fr/ark:/12148/cb123351707">
-                  <idno type="ISNI">0000 0001 2095 7473</idno>
-                  <persName xml:lang="fr"><forename type="first">Catherine</forename><surname> de
-                        Médicis</surname></persName>
-               </person>
-               <person xml:id="Du_Perron">
-                  <idno/>
-                  <persName xml:lang="fr"><forename type="first">Marie-Catherine
-                        de</forename><surname> Pierrevive Du Perron</surname></persName>
-               </person>
-               <person xml:id="Bobigny">
-                  <idno/>
-                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname> Perdriel
-                        de Bobigny</surname></persName>
-               </person>
-               <person xml:id="Saint_André" corresp="https://data.bnf.fr/ark:/12148/cb10715817q">
-                  <idno type="ISNI">0000 0000 8070 0736</idno>
-                  <persName xml:lang="fr"><forename type="first">Jacques d'</forename><surname>Albon
-                        de Saint-André</surname></persName>
-               </person>
-               <person xml:id="Judas" corresp="https://data.bnf.fr/ark:/12148/cb16604390m">
-                  <idno/>
-                  <persName xml:lang="fr"><forename type="first">Judas</forename><surname>
-                        l'Iscariote</surname></persName>
-               </person>
-               <person xml:id="Condé" corresp="https://data.bnf.fr/ark:/12148/cb12564181m">
-                  <idno type="ISNI">0000 0004 5875 3670</idno>
-                  <persName xml:lang="fr"><forename type="first">Louis Ier</forename><surname> de
-                        Bourbon</surname></persName>
-               </person>
-               <person xml:id="Rochefoucauld" corresp="http://viaf.org/viaf/57771494">
-                  <idno type="VIAF">57771494</idno>
-                  <persName xml:lang="fr"><forename type="first">François</forename><surname> III de
-                        La Rochefoucauld</surname></persName>
-               </person>
-               <person xml:id="Porcien">
-                  <idno/>
-                  <persName xml:lang="fr"><forename type="first">Antoine III de</forename><surname>
-                        Croÿ prince de Porcien</surname></persName>
-               </person>
-               <person xml:id="Canaye">
-                  <idno/>
-                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname>
-                        Canaye</surname></persName>
-               </person>
-               <person xml:id="De_Bèze" corresp="https://data.bnf.fr/ark:/12148/cb11891892g">
-                  <idno type="ISNI">0000 0001 2137 1511</idno>
-                  <persName xml:lang="fr"><forename type="first">Théodore</forename><surname> de
-                        Bèze</surname></persName>
-               </person>
-               <person xml:id="François_Ier" corresp="https://data.bnf.fr/ark:/12148/cb120127827">
-                  <idno type="ISNI">0000 0001 2102 9337</idno>
-                  <persName xml:lang="fr"><forename type="first">François</forename><surname>
-                        Ier</surname></persName>
-               </person>
-               <person xml:id="Poltrot" corresp="https://data.bnf.fr/ark:/12148/cb15550683x">
-                  <idno type="ISNI">0000 0000 7911 3622</idno>
-                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname> Poltrot de
-                        Méré</surname></persName>
-               </person>
-               <person xml:id="Philippe_II" corresp="https://data.bnf.fr/ark:/12148/cb12170664z">
-                  <idno type="ISNI">0000 0001 0837 7767</idno>
-                  <persName xml:lang="fr"><forename type="first">Philippe</forename><surname> II
-                        d'Espagne</surname></persName>
-               </person>
-               <person xml:id="Henri_de_Lorraine"
-                  corresp="https://data.bnf.fr/ark:/12148/cb12569222k">
-                  <idno type="ISNI">0000 0001 2369 2597</idno>
-                  <persName xml:lang="fr"><forename type="first">Henri</forename><surname> de
-                        Lorraine</surname></persName>
-               </person>
-               <person xml:id="Anne_du_Bourg" corresp="https://data.bnf.fr/ark:/12148/cb155506294">
-                  <idno type="ISNI">0000 0000 5522 7254</idno>
-                  <persName xml:lang="fr"><forename type="first">Anne</forename><surname> du
-                        Bourg</surname></persName>
-                  <death><date>1559-12-23</date><settlement>Paris</settlement></death>
-               </person>
-               <person xml:id="Tanchou">
-                  <idno/>
-                  <persName xml:lang="fr"><forename type="first">Jean</forename><surname>
-                        Tanchou</surname></persName>
-               </person>
-               <person xml:id="L_Hospital" corresp="https://data.bnf.fr/ark:/12148/cb119971716">
-                  <idno type="ISNI">0000 0001 2145 1466</idno>
-                  <persName xml:lang="fr"><forename type="first">Michel</forename><surname> de
-                        L'Hospital</surname><roleName> (chancelier)</roleName></persName>
-               </person>
-               <person xml:id="Henri_II" corresp="https://data.bnf.fr/ark:/12148/cb12066759q">
-                  <idno type="ISNI">0000 0003 9500 1884</idno>
-                  <persName><forename type="first">Henri</forename><surname> II</surname><roleName>
-                        (Roi de France)</roleName></persName>
-                  <birth><date>1519-03-31</date></birth>
-                  <death><date>1559-07-10</date></death>
-               </person>
-               <person xml:id="François_II" corresp="https://data.bnf.fr/ark:/12148/cb12066759q">
-                  <idno type="ISNI">0000 0001 2142 8987</idno>
-                  <persName><forename type="first">François</forename><surname>
-                     II</surname></persName>
-                  <birth><date>1544-01-15</date><settlement>Fontainebleau</settlement></birth>
-                  <death><date>1560-12-05</date><settlement>Orléans</settlement></death>
-               </person>
-               <person xml:id="Millouet">
-                  <idno/>
-                  <persName xml:lang="fr"><forename type="first">Henry</forename><surname>
-                        Millouet</surname></persName>
-               </person>
-               
-               
-               <person xml:id="Nez_d_argent">
-                  <idno/>
-                  <persName xml:lang="fr"><forename type="first">Pierre
-                        Créon</forename><surname> </surname></persName>
-                  <death><date>1562-05-02</date><settlement>Paris</settlement></death>
-               </person>
-               <person xml:id="Montgommery" corresp="https://data.bnf.fr/ark:/12148/cb12102654p">
-                  <idno type="ISNI">0000 0000 2971 6089</idno>
-                  <persName xml:lang="fr"><forename type="first">Gabriel</forename><surname> de
-                        Montgommery</surname></persName>
-                  <death><date>1574-06-26</date><settlement>Paris</settlement></death>
-               </person>
-               <person xml:id="Broullat">
-                  <idno/>
-                  <persName xml:lang="fr"><forename type="first">Jacques</forename><surname> du
-                        Broullat</surname><roleName> (archevêque d'Arles et abbé de
-                        Lagny)</roleName></persName>
-                  <death><date>1575</date><settlement>Allemagne</settlement></death>
-               </person>
-               <person xml:id="La_Treille">
-                  <idno/>
-                  <persName xml:lang="fr"><forename type="first">François de La
-                        Treille</forename><surname> seigneur de Barouil</surname><roleName>
-                        (commissaire de l'artillerie)</roleName>
-                  </persName>
-               </person>
-               <person xml:id="Pienne" corresp="https://data.bnf.fr/ark:/12148/cb170435618">
-                  <idno type="ISNI">0000 0005 0410 0882</idno>
-                  <persName xml:lang="fr"><forename type="first">Jeanne</forename><surname> de
-                        Piennes Alluye</surname><roleName> (baronne d')</roleName></persName>
-                  <birth><date>1530</date></birth>
-               </person>
-               <person xml:id="Philippe_de_Hesse"
-                  corresp="https://data.bnf.fr/ark:/12148/cb121186383">
-                  <idno type="ISNI">0000 0001 1034 9538</idno>
-                  <persName xml:lang="fr"><forename type="first">Philippe</forename><surname> de
-                        Hesse</surname><roleName> (landgrave de Hesse)</roleName></persName>
-                  <birth><date>1504-11-13</date></birth>
-                  <death><date>1567-03-31</date></death>
-               </person>
-            </listPerson></p>
+         </p>
       </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>A confronter au coq-à-l'âne catholique n°53</p>
+         </abstract>
+         <creation><date when="1567">1567</date></creation>
+      </profileDesc>
       <revisionDesc>
          <change><date>2023-11-25</date>Encodage de niveau 4.</change>
          <change><date>2024-02-01</date>Correction du vers 67 à partir des clichés du manuscrit

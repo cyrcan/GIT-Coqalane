@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="Quidam1536">
+         <titleStmt>
+            <title type="idno">Réf. n°10: </title>
+            <title type="main">Epistre du Coq <reg>à</reg> l'asne Envoyée d'ung quidam <reg>à</reg>
+               son Compere. 1536.</title>
+            <title type="incipit">Si plus tost ne t'ay dict Dieu gard</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Transcription à partir du seul témoin retrouvé de la BnF.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><listWit>
+                  <witness><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris, </settlement>
+                           <repository>Bibliothèque nationale de France, </repository>
+                           <idno>fr. 1718</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+               </listWit></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p>
+            <interpGrp>
+               <!-- A -->
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
+               <interp xml:id="actu" ana="actualité">actualité commentée</interp>
+               <interp xml:id="adr" ana="adresse">adresse</interp>
+               <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+               <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="amour" ana="amour">amour</interp>
+               <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+
+               <!-- B -->
+               <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
+               <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
+
+               <!-- C -->
+               <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
+               <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de
+                  l'épître</interp>
+               <interp xml:id="corruption" ana="corruption">corruption</interp>
+               <interp xml:id="corps" ana="corps">corps</interp>
+               <interp xml:id="cour" ana="court">vie de la cour</interp>
+               <interp xml:id="cri" ana="cri">cris des marchands</interp>
+               <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+
+               <!-- D -->
+               <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+               <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+
+               <!-- E -->
+               <interp xml:id="éloge" ana="éloge">éloge</interp>
+               <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+               <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="eschatologie" ana="eschatologie">conception eschatologique</interp>
+               <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
+               <interp xml:id="exhortation" ana="exhortation">exhortations et
+                  encouragements</interp>
+
+               <!-- F -->
+               <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
+               <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+               <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+
+               <!-- G -->
+               <interp xml:id="gén" ana="généralisation">généralisation</interp>
+               <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                  gnomique</interp>
+               <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
+
+               <!-- H -->
+               <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+               <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+
+
+               <!-- I -->
+               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
+                  l'adversaire</interp>
+               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+               <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+               <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
+               <interp xml:id="ironie" ana="ironie">ironie</interp>
+
+               <!-- L -->
+               <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+               <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+               <interp xml:id="topos" ana="topos">lieu commun</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+
+               <!-- M -->
+               <interp xml:id="maladie" ana="maladie">maladie</interp>
+               <interp xml:id="massacre" ana="massacre">massacre</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:id="météo" ana="météo">météorologie</interp>
+               <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+               <interp xml:id="misères" ana="misères">misères du temps</interp>
+               <interp xml:id="misogynie" ana="misogynie">misogynie</interp>
+               <interp xml:id="mode" ana="mode">mode</interp>
+               <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                  valeurs</interp>
+               <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+
+               <!-- N -->
+               <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
+
+
+               <!-- P -->
+               <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
+               <interp xml:id="persona" ana="persona">persona de Marot</interp>
+               <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+               <interp xml:id="pillage-s" ana="pillages">vols, pillages</interp>
+               <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
+               <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+               <interp xml:id="practiques" ana="practiques">practiques</interp>
+               <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="prière" ana="prière">prière</interp>
+               <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+               <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+               <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                  nécessaire</interp>
+
+               <!-- R -->
+               <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+               <interp xml:id="rébus" ana="rébus">rébus</interp>
+               <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="révélations" ana="révélations">révélation(s)</interp>
+               <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+               <interp xml:id="rire" ana="rire">rire</interp>
+               <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
+               <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+
+               <!-- S -->
+
+               <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+               <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="sergents" ana="sergents">contre les sergents</interp>
+               <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+               <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+               <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+               <interp xml:id="syllepse" ana="syllepse">syllepse</interp>
+
+               <!-- T -->
+               <interp xml:id="tauto" ana="tauto">tautologie</interp>
+               <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+               <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
+
+               <!-- V -->
+               <interp xml:id="vanité" ana="vanité">vanité</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="violences" ana="violences">violences</interp>
+            </interpGrp>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <creation><date when="1536">1536</date></creation>
+      </profileDesc>
+      <revisionDesc>
+         <change><date when="2025-07-06">dimanche 6 juillet 2025</date>Transcription à partir du
+            seul témoin, ajout des sauts -> #17 et des notes.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <bibl>Henri Meylan<title>Épîtres du coq-à-l'âne, contribution à l'histoire de la satire,
+                  Genève, Droz, 1956, P. 28-34.</title></bibl>
+         </listBibl>
+         <p>
+            <lg>
+               <pb n="120"/>
+               <fw type="pageNum" place="top-right">120</fw>
+               <l ana="#adr">Si plus tost ne t'ay dict Dieu gard</l>
+               <l>Tu auras seulement regard</l>
+               <l><rs type="destinataire">Compere</rs><add resp="editor" type="ponctuation">,</add>
+                  que n'ay eu le loisir<add resp="editor" type="ponctuation">.</add></l>
+               <l n="4">Je commence avoir du plaisir</l>
+               <l>Plus que je n'eu il y a trois mois</l>
+               <!-- Note sur la guerre et les menaces de juillet 1536 -->
+               <l>Mais je t'advertis toutesfois</l>
+               <l>Que le <rs type="animal" key="poisson">poisson</rs> est a marché</l>
+               <l n="8">Si le grand fossé est pesché</l>
+               <l>Qu'on a faict <reg>à</reg> l'entour de <placeName type="city" key="Paris"
+                     >Paris</placeName><note resp="editor" type="glose">Voir <title>Le
+                           journal d'un bourgeois de Paris</title>: <quote>L'an 1536, le lundi trente
+                              et unième et dernier jour de juillet, furent, par la ville, commencés les
+                              fossés hors Paris, et furent commencés au bout des faubourgs Sainct-Honoré.
+                              Et fut ce fait par l'avis et opinions de certains habitants, et par monsieur
+                              de Paris, cardinal, qui était pour lors gouverneur de Paris. Et y furent
+                              grande multitude d'archers et le cardinal aussi.</quote>, <hi rend="italic"
+                                 >op. cit.</hi>, p. 188.</note></l>
+               <l ana="#ethos">Et par mon ame je m'en ris</l>
+               <l>C'est ung bel estang <reg>à</reg>
+                  <rs type="animal" subtype="batracien" key="grenouille">grenouilles</rs></l>
+               <l n="12">Que <persName type="saint" key="saint-Antoine">sainct Anthoine</persName>
+                  arde les couilles</l>
+               <l><reg>À</reg> qui dict mal des <roleName key="échevin">eschevins</roleName></l>
+               <!-- Saut#1 -->
+               <anchor type="saut#1"/>
+               <l>Je fais le deuil de ses bons vins</l>
+               <l>Que j'ay laissez bien loing de toy<add resp="editor" type="ponctuation"
+                  >.</add></l>
+               <!-- Saut#2 -->
+               <anchor type="saut#2"/>
+               <l n="16"><persName key="Rougé">Le Rouget</persName> a juré sa foy</l>
+               <l>Qu'il sera poste diligent</l>
+               <!-- Saut#3 -->
+               <anchor type="saut#3"/>
+               <l ana="#satire">Mais qu'ont ilz faict de tant d'argent</l>
+               <l ana="#satire">Tout le peuple s'en esmerveille</l>
+               <l n="20">Si le <roleName key="parlement">Parlement</roleName> se resveille</l>
+               <l>Bien tost sera la sainct Martin<note resp="editor" type="glose">H. Meylan rappelle
+                     que la Saint Martin du 11 novembre était "la date traditionnelle de rentrée du
+                     Parlement de Paris", <hi rend="italic">op. cit.</hi> p. 29.</note></l>
+               <!-- Saut#4 -->
+               <anchor type="saut#4"/>
+               <l>Il est deslogé bien matin</l>
+               <l>Celuy qu'on nomme <addName>Jehan Gippon</addName></l>
+               <l n="24">Cuidant plumer <rs type="animal" key="coq">coq</rs> ou <rs type="animal"
+                     key="chappon">chappon</rs></l>
+               <pb n="120v"/>
+               <l>On a faict une grosse aproche</l>
+               <l>S'il a trouvé <rs type="animal" subtype="léporidé" key="lapin">connin</rs> en
+                  broche</l>
+               <l>Ses dentz ne l'ont sceu assaillir</l>
+               <l n="28">Il luy faudra faire bouillir</l>
+               <l>Vingt ou trente gros champignons</l>
+               <!-- Saut#5 -->
+               <anchor type="saut#5"/>
+               <l>Et qui sont pelaulx ses mignons<note resp="editor" type="ling"><hi rend="italic"
+                        >Pelaut</hi>: <quote>Velu</quote>, Huguet.</note></l>
+               <l ana="#persécutions">Voyans ainsy brusler leur secte</l>
+               <!-- Saut#6 -->
+               <anchor type="saut#6"/>
+               <l n="32">Souffre<add resp="editor" type="ponctuation">,</add> c'est chose tres
+                  infecte</l>
+               <l>Quand on l'approche pres du feu</l>
+               <!-- Saut#7 -->
+               <anchor type="saut#7"/>
+               <l>Tousjours nous attendons ung peu</l>
+               <l>Compere voycy que regarde</l>
+               <l n="36" ana="#prudence">Chacun se tienne sur sa garde</l>
+               <l ana="#évangélique">Mectant son cœur du tout en <persName>Dieu</persName></l>
+               <l ana="#évangélique">Sans le mectre en aultre lieu</l>
+               <l ana="#adv_rel">Car ils sont traistres comme Dyables</l>
+               <!-- Saut#8 -->
+               <anchor type="saut#8"/>
+               <l n="40">Mais qu'ilz comptent de belles fables</l>
+               <l><reg>Où</reg> les meschans sont amusez</l>
+               <!-- Saut#9 -->
+               <anchor type="saut#9"/>
+               <l ana="#tromperie">Nous ne serons plus abusez</l>
+               <l ana="#tromperie">En croyant tousjours aux parolles</l>
+               <!-- Saut#10 -->
+               <anchor type="saut#10"/>
+               <l n="44"><rs type="injonction" subtype="impératif">Laissons</rs> toutes ses
+                  parolles</l>
+               <l>On verra qui aura l'honneur</l>
+               <!-- Saut#11 -->
+               <anchor type="saut#11"/>
+               <l>Mais c'est ung tres grand deshonneur</l>
+               <l>Au grand <rs type="animal" subtype="ovidé" key="mouton">mouton</rs> portant toison</l>
+               <l n="48">Ce voulant venger par poison</l>
+               <l>Sur ung simple <rs type="animal" key="agneau">aigneau</rs> c'est faut, mais<note
+                     resp="editor" type="glose">Charles-Quint était accusé d'avoir fait empoisonné
+                     le <persName ref="ind:François_III" key="François III, dauphin et duc de Bretagne">dauphin</persName>, mort le <eventName><date when="1536-08-10">10 août
+                        1536</date></eventName>. Sur les circonstances de la mort et ces rumeurs,
+                     voir Robert J. Knecht (1994), p. 339 et le quatrième coq-à-l'âne de Marot (réf.
+                     n°11): <quote>Dieu pardoint au françois Dauphin / On dict qu'il fut
+                        empoisonné</quote>, v. 36-37.</note></l>
+               <!-- Saut#12 -->
+               <anchor type="saut#12"/>
+               <l><rs type="locution">Tel compare qui n'en puis mais</rs></l>
+               <l ana="#Plmq"><persName>Dieu</persName> ayt l'ame des trespassez</l>
+               <pb n="121"/>
+               <fw type="pageNum" place="top-right">121</fw>
+               <!-- Saut#13 -->
+               <anchor type="saut#13"/>
+               <l n="52">Ceulx qui ont leur <rs type="équivoque">traictz passez</rs></l>
+               <l>Y ont plus de perte que nous</l>
+               <!-- Saut#14 -->
+               <anchor type="saut#14"/>
+               <l ana="#gnomique">Il n'est douleur que de courroux</l>
+               <l>Ne vaillans gens que de <placeName type="city" key="Péronne"
+                  >Peronne</placeName></l>
+               <l n="56">Par bieu le seigneur Quiquengronne</l>
+               <l>C'est tresvaillamment defendu</l>
+               <!-- Saut#15 -->
+               <anchor type="saut#15"/>
+               <l>Des nouvelles au residu<note resp="editor" type="ling"><hi rend="italic">Au
+                        résidu</hi>: <quote>au reste</quote>, Huguet.</note></l>
+               <l>Que dict on de nouveau <add resp="editor" type="omission">[en] </add>court<add
+                     resp="editor" type="ponctuation">?</add></l>
+               <!-- Saut#16 -->
+               <anchor type="saut#16"/>
+               <l n="60">Aux gens d'armes n'est plus court</l>
+               <l>De tenir champ pour cest yver</l>
+               <!-- Saut#17 -->
+               <anchor type="saut#17"/>
+               <l>Pour les dictz d'aucuns reprouver</l>
+               <l>Il faudra tenir ung concile</l>
+               <l n="64">Mais je trouve trop difficile</l>
+               <l>Tant de prelatz s'i assembler</l>
+               <l ana="#satire">Je crains. Je commence <reg>à</reg> trembler</l>
+               <l ana="#satire">En danger de perdre l'appetit</l>
+               <l n="68">Le nombre en est si petit</l>
+               <l ana="#abus">Consideré les benefices</l>
+               <l ana="#sat_rel">Ilz sont tant pleins de malices<add resp="editor"
+                     type="ponctuation">,</add></l>
+               <l ana="#sat_rel">D'avarice et de convoitise<del resp="scriptor">s</del></l>
+               <l n="72" ana="#sat_rel">Que pour le jourd'huy en l'eglise</l>
+               <l ana="#sat_rel">N'est plus trouvé de prelature</l>
+               <l ana="#sat_rel">De servir <persName>Dieu</persName> ilz n'en font cure</l>
+               <l ana="#abus">Ung tiendra six eveschez</l>
+               <l n="76" ana="#abus">Abbayes &amp; archeveschez</l>
+               <l ana="#abus">Prieurés<add resp="editor" type="ponctuation">,</add> prebendes &amp;
+                  cures</l>
+               <pb n="121v"/>
+               <l ana="#sat_rel">Au temporel chacun procure</l>
+               <!-- Saut#18 -->
+               <anchor type="saut#18"/>
+               <l ana="#misères">Las aujourd'huy tout ung pais</l>
+               <l n="80" ana="#ethos">Dont grandement je m'esbahis</l>
+               <l>Est gouverné d'ung <roleName>Prelat</roleName> seul</l>
+               <l>Auquel ne faudra que ung sercueil</l>
+               <l ana="#imprécation">Mais qu'il meure si le grand Diable</l>
+               <l n="84" ana="#imprécation">Ne l'emporte<add resp="editor" type="ponctuation"
+                     >!</add> Chose execrable<add resp="editor" type="ponctuation">,</add></l>
+               <!-- Saut#19 -->
+               <anchor type="saut#19"/>
+               <l>Encore aujourd'huy il se treuve</l>
+               <l>C'est que ung moyne qui est en preuve</l>
+               <l>Sçavoir s'il pourra acquerir</l>
+               <l n="88">Perfection &amp; s'enquerir</l>
+               <l>Des bons peres du temps passé</l>
+               <l>Sans plus <reg>à</reg> tout bien amassé</l>
+               <l>Du monde mectre son attente</l>
+               <l n="92">Se mect par chemin &amp; par sente</l>
+               <l>Laissant <reg>à</reg> faire son service</l>
+               <l>Il n'est content d'ung benefice</l>
+               <l>Mais deux<add resp="editor" type="ponctuation">,</add> trois<add resp="editor"
+                     type="ponctuation">,</add> quatre<add resp="editor" type="ponctuation">,</add>
+                  six accroche</l>
+               <l n="96"><persName>Le Diable</persName> en fera hanicroche<note resp="editor"
+                     type="crit">Il s'agit d'un hapax de notre corpus.</note></l>
+               <l>Ou les escriptz ne disent vray</l>
+               <!-- Saut#20 -->
+               <anchor type="saut#20"/>
+               <l>On n'y entend latin ne grec</l>
+               <l>Car curialistes s'efforcent</l>
+               <l n="100">Blasmer par ciseaux ou <add resp="editor">[par]</add> forces</l>
+               <l>L'honneur des gens devotieux</l>
+               <l>Puis en mengeant deux estroncs vieux</l>
+               <l>Ilz en ont chié ung nouveau</l>
+               <!-- Saut#21 -->
+               <anchor type="saut#21"/>
+               <l n="104">Mais ce <rs type="invective">folastique cervelau</rs><note resp="editor"
+                     type="glose">Henri Meylan croit reconnaître ici le docteur en théologie de
+                     Paris, Robert Ceneau, évêque d'Avranches depuis 1533.</note></l>
+               <!-- A vérifier -->
+               <pb n="122"/>
+               <fw type="pageNum" place="top-right">122</fw>
+               <l>Qui cuide par son escripture</l>
+               <l>Abollir raison et droicture</l>
+               <l>&amp; n'est <reg>à</reg> luy ne <reg>à</reg> toy ne <reg>à</reg> moy</l>
+               <l n="108"><reg>À</reg> nous mesler de tel esmoy</l>
+               <l>Que plus grandz que nous n'ont sceu faire</l>
+               <!-- Saut#22 -->
+               <anchor type="saut#22"/>
+               <l ana="#mtd">Or ça parlons d'ung aultre affaire</l>
+               <l ana="#Plmq">Que dict on de la trinité</l>
+               <l n="112">Trois persones en une unité</l>
+               <l ana="#Plmq">C'est <expan>nostre</expan> foy<add resp="editor" type="ponctuation"
+                     >,</add> ung point prefix<add resp="editor" type="ponctuation">.</add></l>
+               <l ana="#Plmq">Or sont mors le pere &amp; le filz</l>
+               <l ana="#Plmq">Ne reste que le sainct Esprit<add resp="editor" type="ponctuation"
+                     >.</add></l>
+               <!-- Saut#23 -->
+               <anchor type="saut#23"/>
+               <l n="116">Mais quel grand dyable l'a apprins</l>
+               <l><reg>À</reg> faire ci tost Injustice</l>
+               <!-- Saut#24 -->
+               <anchor type="saut#24"/>
+               <l>Ilz sont mortz<add resp="editor" type="ponctuation">,</add> j'en ay la notice<add
+                     resp="editor" type="ponctuation">,</add></l>
+               <l>Noz gensdarmes de quatre lieux</l>
+               <l n="120">&amp; croy qu'il leur vaudroit trop mieux</l>
+               <l>De ne demander de l'argent<note resp="editor" type="philo">L'absence d'écho laisse
+                     supposer l'absence d'au moins deux vers ici.</note></l>
+               <!-- Saut#25 -->
+               <anchor type="saut#25"/>
+               <l>De laisser passer le vert jus</l>
+               <l>Plains deux barils tant seulement</l>
+               <!-- Saut#26 -->
+               <anchor type="saut#26"/>
+               <l n="124">Hola<add resp="editor" type="ponctuation">!</add>
+                  <rs type="injonction" subtype="impératif">parlons</rs> tout bellement</l>
+               <l ana="#prudence">J'ay peur que soyons espiez</l>
+               <!-- Saut#27 -->
+               <anchor type="saut#27"/>
+               <l>Vrayement si on nous fend les piedz<note resp="editor" type="ling"><hi
+                        rend="italic">Fendre les pieds</hi>: <quote>quitter, s'en aller</quote>,
+                     Huguet.</note></l>
+               <l>On nous enverra bien tost paistre</l>
+               <l n="128">Est il point tant d'aller repaistre</l>
+               <l>C'est pour cela que je le dis</l>
+               <!-- Saut#28 -->
+               <anchor type="saut#28"/>
+               <l>Des nouvelles de <placeName>Paradis<add resp="editor" type="ponctuation"
+                     >:</add></placeName></l>
+               <l><placeName type="city" key="Saint-Maur">Sainct Mort</placeName> est devenu
+                  chanoine</l>
+               <pb/>
+               <l n="132">Combien que <persName>Dieu</persName>
+                  <reg>l'a</reg> rendu moyne</l>
+               <l>Il y a plus de cinq cens ans</l>
+               <l>Mais voila les faictz sont plaisans</l>
+               <l><reg>À</reg> ceux qui ayment le desduict</l>
+               <l n="136">Car liberté par trop mieux duict</l>
+               <l>Que ne faict pas la servitude.</l>
+               <!-- Saut#29 -->
+               <anchor type="saut#29"/>
+               <l>Est ce pas charitable estude</l>
+               <l>Que delivrer les prisonniers</l>
+               <l n="140">Les <rs type="occupation" subtype="couturier">cousturiers</rs> &amp;
+                  gaigniers</l>
+               <l>En sçavent bien que dire</l>
+               <!-- Saut#30 -->
+               <anchor type="saut#30"/>
+               <l>Hola<add resp="editor" type="ponctuation">!</add> est il point tant de rire<add
+                     resp="editor" type="ponctuation">?</add></l>
+               <l>Nenny<add resp="editor" type="ponctuation">,</add> ne nous debaischons point<add
+                     resp="editor" type="ponctuation">!</add></l>
+               <l n="144">C'est pour venir <reg>à</reg>
+                  <expan>nostre</expan> poinct</l>
+               <l>Que nous gensdarmes de villaiges</l>
+               <l>Avons vendu tous noz bagaiges</l>
+               <l>Pour aller destruire les <rs type="animal" key="poule">poulles</rs></l>
+               <!-- Saut#31 -->
+               <anchor type="saut#31"/>
+               <l n="148">J'ay dessoubz les pieds deux empoules</l>
+               <l>C'est d'avoir esté <reg>à</reg> cheval</l>
+               <!-- Saut#32 -->
+               <anchor type="saut#32"/>
+               <l>Ce nonobstant il me faict mal</l>
+               <l>Qu'on laisse l'hostel de la ville<add resp="editor" type="ponctuation">.</add></l>
+               <!-- Saut#33 -->
+               <anchor type="saut#33"/>
+               <l n="152">Pourquoy trouves tu cela vile<add resp="editor" type="ponctuation"
+                  >?</add></l>
+               <l>Il se fault bien du tout enquerre</l>
+               <l ana="#imprécation">Et que mauditte soit la guerre</l>
+               <!-- Saut#34 -->
+               <anchor type="saut#34"/>
+               <l>Et Dieu doinct <reg>à</reg> ceux que j'entens</l>
+               <l n="156">Heureuse vie avec bon temps</l>
+               <l>Et que de brief les ennemis</l>
+               <l>Soient accordez et bons amis</l>
+               <l>Afin que malheur s'efface</l>
+               <l n="160" ana="#conclusio">A Dieu vous dy ma plume est lasse.</l>
+            </lg>
+         </p>
+
+      </body>
+   </text>
+</TEI>

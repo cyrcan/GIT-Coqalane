@@ -5,16 +5,25 @@
    <teiHeader>
       <fileDesc xml:id="Sancerre">
          <titleStmt>
-            <title>Réf. n°61: </title>
-            <title>Coq à l'Asne de Sancerre &amp; de la Charité</title>
+            <title type="idno">Réf. n°61: </title>
+            <title type="main">Coq à l'Asne de Sancerre &amp; de La Charité</title>
+            <title type="incipit">Tremblez, tremblez Sancerre et La Charité</title>
+            <author>Christophe de Bordeaulx?</author>
          </titleStmt>
          <publicationStmt>
-            <p>Transcription à partir du <hi rend="italic">Sommaire de tous les recueils des
+            <ab>Transcription à partir du <hi rend="italic">Sommaire de tous les recueils des
                   chansons tant amoureuses, rustiques que musicales</hi>, Lyon, Benoist Rigaud,
-               1582.</p>
+               1582.</ab>
             <!-- qui suit la même typographie que celle de 1579 selon le catalogue de la BnF-->
-            <p>Cette chanson catholique intransigeante qui s'inscrit dans la série des "chansons à massacrer" telle que la démontrer Jean Vignes, présente plusieurs effets d'échos avec le "Coq à l'asne de Brusquet à Ronsard" [1565] (réf. n°49). Les indices internes conduisent à émettre l'hypothèse d'une composition entre juillet 1570, date de l'établissement de Coligny à Sancerre et la mort de l'Amiral en 1572. Celui-ci est mentionné à quatre reprises au présent, sans qu'il s'agisse a priori d'une prosopopée.</p>
-               
+            <ab>Cette chanson catholique intransigeante qui s'inscrit dans la série des
+                  <quote>chansons à massacrer</quote> définies par Jean Vignes, présente plusieurs
+               effets d'échos avec le <ref target="CAA49-Brusquet.xml"><quote>Coq à l'asne de
+                     Brusquet à Ronsard</quote> [1565] (réf. n°49)</ref>. Les indices internes
+               laissent supposer une composition dans la première moitié de 1570. Celui-ci est
+               mentionné à quatre reprises au présent, sans qu'il s'agisse <hi rend="italic">a
+                  priori</hi> d'une prosopopée.</ab>
+
+            <!-- Cf. Debbagi (2023, p. 142 , n. 38: "Coq à l’asne de Sancerre et de Charité (sièges de 1569), (« Tremblez, tremblez   Sancerre et Charité… »), Paris, Sommaire Bonfons 1576, fol.     Chanson du siège mis devant   la Charité (« Soldats de Cherité / Cessez vostre75 ; Le Recueil des chansons nouuelles   de diuers poëtes françois, Paris, Nicolas Bonfons, 1585, fol. 65 v°-67 ; Sommaire Rigaud   1574 et 1576, fol. 244-251 ; Sommaire Rigaud, 1579, p. 73 v°-76 v°. Cette chanson sert de   timbre à : 2. Chanson nouvelle contenant les derniers propos du Roy Charles IX (« Plorons   Chrestiens… »), dans Sommaire Bonfons 1576, fol. 87-88 v°; Sommaire L’Homme et Millot   1583, fol. 118 v°-120; Sommaire Rigaud 1574 et 1576, p. 3-7; 3. Chanson du siège mis devant   la Charité (« Soldats de Cherité / Cessez vostre rudesse »), voir la note 1576"  -->
          </publicationStmt>
          <sourceDesc>
             <p><listWit>
@@ -47,10 +56,11 @@
                   Sources Manuscrites du projet.</p>
             </prefixDef>
          </listPrefixDef>
+
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
@@ -187,272 +197,446 @@
                <interp xml:id="violences" ana="violences">violences</interp>
             </interpGrp>
          </p>
+
+         <p>
+            <listEvent>
+               <event xml:id="Gastine">
+                  <desc>30 juillet 1569: exécution de Ph. de Gastine et de N. Croquet</desc>
+               </event>
+               <event xml:id="VenisevsTurquie">
+                  <desc>1570-1573: guerre entre Vénise et la Turquie</desc>
+               </event>
+               <event xml:id="Bourges_1569">
+                  <desc>1569 : siège de la ville de Bourges par les troupes catholiques</desc>
+               </event>
+               <event xml:id="Hebraeorum_gens">
+                  <desc>26 février 1569: bulle pontificale <hi rend="italic">Hebraeorum
+                     gens</hi></desc>
+               </event>
+            </listEvent>
+         </p>
       </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <creation><date when="1570">1570</date></creation>
+      </profileDesc>
       <revisionDesc>
          <change><date when="2025-06-09">lundi 9 juin 2025</date>Transcription et recherche des
             indices temporels</change>
-         <change><date when="2025-06-10">mardi 10 juin 2025</date>Ajout de notes et de sauts -> #29</change>
+         <change><date when="2025-06-10">mardi 10 juin 2025</date>Ajout de notes et de sauts ->
+            #29</change>
+         <change><date>samedi 14 juin</date>Finalisation d'encodage du niveau 3.</change>
       </revisionDesc>
    </teiHeader>
 
    <text>
       <body>
-
-         <p><l ana="#intertexte"><rs type="injonction" subtype="impératif">Tremblez
-                     <expan>tremblez</expan></rs>
+         <p>
+            <l ana="#intertexte"><rs type="injonction" subtype="impératif">Tremblez <expan>tremblez
+                  </expan></rs>
                <placeName type="city" key="Sancerre">Sancerre</placeName> &amp; <placeName
-                  type="city" key="La Charité">la Charité</placeName></l>
-            <l>Car vous avez merité</l>
-            <l>D'estre rasée par le bas,</l>
-            <!-- Saut#1 --><anchor type="saut#1"/>
-            <l>Ces jours passez <persName ref="ind:Coligny" key="Coligny, Gaspard de"
-                  >l'Amiral</persName> nous a rescrit</l>
+                  type="city" key="La Charité">la Charité</placeName><note resp="editor" type="crit"
+                  >On trouve ce début dans une autre chanson catholique de 1572: <quote>Tremblez,
+                     tremblez huguenots</quote> dans le <hi rend="italic">Sommaire de tous les
+                     recueils des chansons tant amoureuses, rustiques que musicales</hi>, Lyon,
+                  Benoist Rigaud, 1582 ainsi que dans le <ref target="CAA64-T-Rochelois.xml"
+                        ><title>Coq a l’asne récréatif contre les huguenots de la Rochelle</title>
+                     (réf. n°64)</ref>: <quote>Tremblez, tremblez, vous,
+               Rochelois...</quote></note></l>
+            <l ana="#imprécation">Car vous avez merité</l>
+            <l ana="#imprécation">D'estre rasée par le bas,</l>
+            <!-- Saut#1 -->
+            <anchor type="saut#1"/>
+            <l n="4" ana="#sat_pers">Ces jours passez <persName ref="ind:Coligny"
+                  key="Coligny, Gaspard de">l'Amiral</persName> nous a rescrit<note resp="editor"
+                  type="crit">La première des quatre mentions de <persName ref="ind:Coligny"
+                     key="Coligny, Gaspard de">Gaspard de Coligny</persName> qui s'était établi à
+                     <placeName type="city" key="Sancerre">Sancerre</placeName> le <date
+                     when="1570-07-25">25 juillet 1570</date>.</note></l>
             <fw type="réclame" place="bottom-right">Qu'il</fw>
-            <pb n="74r"/><fw type="pageNum" place="top-right">74</fw>
-            <l>Qu'il avoit veu l'<persName key="Antéchrist">Antechrist</persName></l>
-            <l n="4">Assister à ses combats,</l>
-            <!-- Saut#2 --><anchor type="saut#2"/>
+            <pb n="74r"/>
+            <fw type="pageNum" place="top-right">74</fw>
+            <l ana="#sat_pers">Qu'il avoit veu l'<persName key="Antéchrist"
+               >Antechrist</persName></l>
+            <l ana="#sat_pers">Assister à ses combats,</l>
+            <!-- Saut#2 -->
+            <anchor type="saut#2"/>
             <l ana="#impossibilia">J'ay veu un <rs type="animal" key="chat">chat</rs> vert</l>
-            <l>Qui mangeoit à son desert</l>
-            <l>Une <rs type="animal" subtype="équidé" key="jument">jument</rs> grivelée</l>
-            <l n="8" ana="#adv_rel">Et un <rs type="animal" subtype="oiseau" key="perroquet"
+            <l n="8">Qui mangeoit à son desert</l>
+            <l>Une <rs type="animal" subtype="équidé" key="jument">jument</rs> grivelée<note
+                  resp="editor" type="crit">Énigme qui rappelle les <hi rend="italic">resveries</hi>
+                  du Moyen-Âge mais qui semble remotivée par la fonction satirique.</note></l>
+            <l ana="#adv_rel">Et un <rs type="animal" subtype="oiseau" key="perroquet"
                   >perroquet</rs></l>
             <l ana="#adv_rel">Qui gergonnoit le caquet</l>
-            <l ana="#adv_rel">De <persName ref="ind:Gastine" key="Gastine, Philippe de"
+            <l n="12" ana="#adv_rel">De <persName ref="ind:Gastine" key="Gastine, Philippe de"
                   >Gastine</persName> &amp; de <persName ref="ind:Croquet" key="Croquet, Nicolas"
                   >Croquet</persName>.<note resp="editor" type="glose">Philippe de Gastine, riche
                   négociant huguenot, son fils ainsi que son gendre Nicolas Croquet ont été
-                  condamnés par le Parlement "pour avoir contrevenu aux Édits du Roy et avoir faict
-                  exercice de leur Prétendue Religion". Ils ont été exécutés le <date
-                     when="1569-07-30">30 juillet 1569</date>.</note></l>
-            <!-- Saut#3 --><anchor type="saut#3"/>
-            <l rend="indent"><reg>À</reg>
-               <placeName type="city" key="Saint-Satur">S. Satheur sous Sancerre</placeName>
-               vrayement</l>
-            <l n="12" ana="#intertexte">Trouvay un <orgName type="peuple" subtype="anglais">Anglois
+                  condamnés par le Parlement <quote>pour avoir contrevenu aux Édits du Roy et avoir
+                     faict exercice de leur Prétendue Religion</quote>. <eventName ref="#Gastine"
+                     key="Exécution de Gastine et Croquet">Ils ont été exécutés le <date
+                        when="1569-07-30">30 juillet 1569</date></eventName>.</note></l>
+            <!-- Saut#3 -->
+            <anchor type="saut#3"/>
+            <l rend="indent2"><reg>À </reg>
+               <placeName type="city" key="Saint-Satur"><expan>Saint</expan> Satheur sous
+                  Sancerre</placeName> vrayement</l>
+            <l ana="#intertexte">Trouvay un <orgName type="peuple" subtype="anglais">Anglois
                   Normand</orgName></l>
-            <l>Engendré d'un <orgName type="peuple">Biscain</orgName>,</l>
-            <!-- Saut#4 --><anchor type="saut#4"/>
-            <l><persName>Le chevalier du Boulet</persName> ce malheureux<note resp="editor"
-                  type="glose">Personnage que nous n'avons pu identifier.</note></l>
-            <l>Dit qu'il pretend estre heureux</l>
-            <l n="16">Comme <persName type="biblique" key="Judas">Judas</persName> &amp; <persName
-                  type="biblique" key="Caïn">Cain</persName>,</l>
-            <!-- Saut#5 --><anchor type="saut#5"/>
-            <l>Un <rs type="animal" subtype="insecte" key="scorpion">Escorpion</rs></l>
-            <l>Combattoit un <rs type="animal" subtype="insecte" key="fourmi">Fremion</rs><note
-                  resp="editor" type="ling"><hi rend="italic">Fremion ou formion</hi>: "petite
-                  fourmi"</note></l>
-            <l><reg>À</reg> cheval sur une <rs type="animal" key="chèvre">chievre,</rs></l>
-            <!-- Saut#6 --><anchor type="saut#6"/>
-            <l n="20">Au fond de la mer</l>
-            <l>Il croist de fort gros melons</l>
-            <l>Plus jaunes que champignons.</l>
-            <!-- Saut#7 --><anchor type="saut#7"/>
-            <l rend="indent">Les <orgName type="habitant" subtype="sancerrois"
-                     ><expan>Sanserrois</expan></orgName>se sont tous armez de peaux</l>
-            <l n="24">De <rs type="animal" key="brebis">brebis</rs><add resp="editor"
+            <l>Engendré d'un <orgName type="peuple">Biscain</orgName>,<note resp="editor">Voir
+                  Jacques-Auguste De Thou <title>Histoire universelle</title>, tome 6, année 1569,
+                  p. 231:<quote>[...] on transporta le canon à une autre porte vers <placeName
+                        type="city" key="Saint-Satur">Saint Satur</placeName>, où les Chefs avoient
+                     appris qu'il y avoit moins de difficulté; &amp; l'on y fit une plus grande
+                     bréche qu'à l'autre endroit. D'Haiqueville donna là un autre assaut, mais ceux
+                     de dedans à qui le premier succés avoit donné du courage, le soustindrent,
+                     &amp; repousserent les assiegeans avec la mesme force
+                  qu'auparavant;</quote></note></l>
+            <!-- Saut#4 -->
+            <anchor type="saut#4"/>
+            <l n="16" ana="#sat_pers"><persName key="Chevalier du Boulay">Le chevalier du
+                  Boulet</persName> ce malheureux<note resp="editor" type="glose">Pendant le
+                     <eventName ref="#Bourges_1569" key="Siège de Bourges">siège de
+                     Bourges</eventName> en 1569, le Chevalier du Boulay feint d'aller chercher du
+                  secours, mais rejoint le camp adverse. De Thou, p. 312.</note></l>
+            <l ana="#sat_pers">Dit qu'il pretend estre heureux</l>
+            <l ana="#trahison">Comme <persName type="biblique" key="Judas">Judas</persName> &amp;
+                  <persName type="biblique" key="Caïn">Cain</persName>,<note resp="editor"
+                  type="crit">Voir également l'<quote>Autre chanson nouvelle, Sur le chant <hi
+                        rend="italic">Faudra il pour un amy que j'endure de peine</hi></quote> dans
+                  le <title>Recueil de plusieurs chansons nouvelles...</title>, Lyon, 1571, BnF
+                  RES-P-YE-2742, p. 23: <quote>Ils ont perdu leur credit / Et toute leur esperance,
+                     / Ils ressembleront Judas / Il faut qu'ils s'en voisent
+               pendre.</quote></note></l>
+            <!-- Saut#5 -->
+            <anchor type="saut#5"/>
+            <l ana="#impossibilia">Un <rs type="animal" subtype="insecte" key="scorpion"
+                  >Escorpion</rs></l>
+            <l n="20" ana="#impossibilia">Combattoit un <rs type="animal" subtype="insecte"
+                  key="fourmi">Fremion</rs><note resp="editor" type="ling"><hi rend="italic">Fremion
+                     ou formion</hi>: <quote>petite fourmi</quote>.</note></l>
+            <l ana="#impossibilia"><reg>À</reg> cheval sur une <rs type="animal" key="chèvre"
+                  >chievre,</rs></l>
+            <!-- Saut#6 -->
+            <anchor type="saut#6"/>
+            <l>Au fond de la <placeName type="mer" key="Mer Méditerranée">mer</placeName></l>
+            <l>Il croist de fort gros melons<note resp="editor" type="glose">Les <hi rend="italic"
+                     >melons turquins</hi> désignaient les <orgName type="peuple" subtype="turc"
+                     >Turcs</orgName>. Il peut s'agir d'une allusion à la <eventName ref="#Lépante"
+                     key="guerre vénéto-ottmane (1570-1573)">guerre
+                  vénéto-ottomane</eventName>.</note></l>
+            <l n="24">Plus jaunes que champignons.</l>
+            <!-- Saut#7 -->
+            <anchor type="saut#7"/>
+            <l rend="indent2" ana="#adv_rel">Les <orgName type="habitant" subtype="sancerrois"
+                     ><expan>Sanserrois</expan></orgName> se sont tous armez de peaux</l>
+            <l ana="#tromperie">De <rs type="animal" subtype="ovidé" key="brebis">brebis</rs><add resp="editor"
                   type="ponctuation">,</add>
-               <rs type="animal" key="vache">vaches</rs>, &amp; <rs type="animal" key="veau"
+               <rs type="animal" subtype="bovidé" key="vache">vaches</rs>, &amp; <rs type="animal" key="veau"
                   >veaux</rs></l>
             <l>Qu'ils ont payé sans argent,</l>
-            <!-- Saut#8 --><anchor type="saut#8"/>
-            <l>Si un mouchard pouvoit prendre l'<persName ref="ind:Coligny"
-                  key="Coligny, Gaspard de">Admiral</persName></l>
+            <!-- Saut#8 -->
+            <anchor type="saut#8"/>
+            <l n="28">Si un mouchard pouvoit prendre l'<persName ref="ind:Coligny"
+                  key="Coligny, Gaspard de">Admiral</persName><note resp="editor" type="crit">Cf. Le
+                     <ref target="CAA63-Huguenotz1572.xml"><hi rend="italic">Coq à l'asne des
+                        huguenotz tuez et massacrez</hi>de 1572</ref>(réf. n°63): <quote>J’ay
+                     rancontray pres Montfaucon un mouchart</quote>, v. 52.</note></l>
             <l><reg>À</reg> pied courant à cheval</l>
-            <l n="28"><rs type="interjection">Dieu qu'</rs>il seroit diligent:</l>
-            <l>C'est un fin <rs type="animal" key="renard">renard</rs></l>
-            <!-- Saut#9 --><anchor type="saut#9"/>
-            <l><reg>À</reg> propos d'un espinard</l>
+            <l><rs type="interjection">Dieu qu'</rs>il seroit diligent:</l>
+            <l ana="#sat_pers">C'est un fin <rs type="animal" key="renard">renard</rs><note
+                  resp="editor" type="glose"><hi rend="italic">Ibid.</hi>: <quote>Souvent en esté /
+                     Le vieil Regnard se morfont</quote>, v. 10-11.</note></l>
+            <!-- Saut#9 -->
+            <anchor type="saut#9"/>
+            <l n="32"><reg>À</reg> propos d'un espinard<note resp="editor" type="glose">Allusion
+                  obscure. Faut-il y lire un jeu avec le nom de <persName ref="ind:Espinac"
+                     key="Espinac, Pierre d'">Pierre d'Espinac</persName> qui deviendra archevêque
+                  de Lyon en 1573 et ligueur.</note></l>
             <l>La graine en est fort aigue</l>
             <fw type="sig" place="bottom-right">K 2</fw>
             <pb n="74v"/>
-            <l n="32">Les <rs type="animal" subtype="oiseau" key="oiseau">oyseaux</rs> des
-               champs</l>
+            <!-- saut#10 --><anchor type="saut#10"/>
+            <l>Les <rs type="animal" subtype="oiseau" key="oiseau">oyseaux</rs> des champs</l>
             <l>Voltigent par l'univers</l>
-            <l>Sans bouger des seuls deserts.</l>
-            <!-- Saut#10 --><anchor type="saut#11"/>
+            <l n="36">Sans bouger des seuls deserts.</l>
+            <!-- Saut#11 -->
+            <anchor type="saut#11"/>
             <l rend="indent">Les <orgName type="peuple" subtype="albanais">Albanois</orgName>
                avoyent promis à <persName>Malo</persName></l>
-            <l n="36">De soustenir <persName ref="ind:D_Andelot"
-                  key="Coligny d'Andelot, François de">Dandelot</persName></l>
+            <l>De soustenir <persName ref="ind:D_Andelot" key="Coligny d'Andelot, François de"
+                  >Dandelot</persName></l>
             <l>Jusques à la fin de ses jours,<note resp="editor" type="glose">Le frère de l'amiral
                   et chef huguenot est mort le <date when="1569-05-27">27 mai
                1569</date>.</note></l>
-            <!-- Saut#11 --><anchor type="saut#11"/>
-            <l><persName>Pantagruel</persName> fit croqueviller un vert</l>
-            <l>Qui rompoit un huis ouvert</l>
-            <l n="40">Il en sçait de vilains tours,</l>
-            <!-- Saut#12 --><anchor type="saut#12"/>
+            <!-- Saut#12 -->
+            <anchor type="saut#12"/>
+            <l n="40"><persName>Pantagruel</persName> fit croqueviller un vert</l>
+            <l ana="#impossibilia">Qui rompoit un huis ouvert</l>
+            <l>Il en sçait de vilains tours,</l>
+            <!-- Saut#13 -->
+            <anchor type="saut#13"/>
             <l ana="#ironie">Ce sont vaillans gens</l>
-            <l ana="#adv_rel"><reg>À</reg> la souppe diligens</l>
+            <l n="44" ana="#adv_rel"><reg>À</reg> la souppe diligens</l>
             <l ana="#adv_rel">Que les <orgName type="secte" subtype="protestant">huguenots</orgName>
                de <placeName type="country" key="France">France</placeName></l>
-            <!-- Saut#13 --><anchor type="saut#13"/>
-            <l n="44">Les <orgName type="peuple" subtype="juif">Juifs</orgName> d'<placeName
-                  type="city" key="Avignon">Avignon</placeName></l>
+            <!-- Saut#14 -->
+            <anchor type="saut#14"/>
+            <l>Les <orgName type="peuple" subtype="juif">Juifs</orgName> d'<placeName type="city"
+                  key="Avignon">Avignon</placeName></l>
             <l>Sont allez à <placeName type="city" key="Carpentras">Carpentras</placeName></l>
-            <l>Faire ensemble leurs jours gras.</l>
-            <!-- Saut#14 --><anchor type="saut#14"/>
-            <l rend="indent">Un jour passois à <placeName type="city" key="Sancerre"
-                  >Sancerre</placeName> par <placeName type="city" key="Vaugirard"
+            <l n="48">Faire ensemble leurs jours gras.<note resp="editor" type="glose">La bulle de
+                  Pie V du <date when="1569-02-26">26 février 1569</date>, <eventName type="bulle"
+                     ref="#Hebraeorum gens" key="Bulle Hebraeorum gens "><hi rend="italic"
+                        >Hebraeorum gens</hi></eventName> ordonne aux <orgName type="peuple"
+                     subtype="juig">Juifs</orgName> de quitter les villes des États pontificaux, à
+                  l'exception de <placeName type="city" key="Rome">Rome</placeName> et d'<placeName
+                     type="city" key="Ancône">Ancône</placeName>.</note></l>
+            <!-- Saut#15 -->
+            <anchor type="saut#15"/>
+            <l rend="indent" ana="#intertexte">Un jour passois à <placeName type="city"
+                  key="Sancerre">Sancerre</placeName> par <placeName type="city" key="Vaugirard"
                   >Vaugirard</placeName></l>
-            <l n="48">Trouvay un homme grisard</l>
+            <l ana="#satire">Trouvay un homme grisard<note resp="editor" type="crit">Voir le "Coq à
+                  l'asne des Ministres de Genève" (réf. n°60): <quote>En revenant de Geneve près le
+                     Lac, / Par terre trouvis / Un sac tout plein de briborions</quote>.</note></l>
             <l>Portant un <rs type="animal" key="lievre">lievre</rs> cornu</l>
-            <l>Un postillon sur un <rs type="animal" key="bœuf">bœuf</rs> fut attrapé</l>
-            <!-- Saut#15 --><anchor type="saut#15"/>
+            <l n="52">Un postillon sur un <rs type="animal" key="bœuf">bœuf</rs> fut attrapé</l>
+            <!-- Saut#16 -->
+            <anchor type="saut#16"/>
             <l><reg>À</reg> propos de mon souppé</l>
-            <l n="52"><rs type="interjection" subtype="juron">Vray Dieu</rs> qu'est il devenu,</l>
-            <!-- Saut#16 --><anchor type="saut#16"/>
+            <l><rs type="interjection" subtype="juron">Vray Dieu</rs> qu'est il devenu,</l>
+            <!-- Saut#17 -->
+            <anchor type="saut#17"/>
             <l>Si <addName>Roger bon temps</addName></l>
-            <l>Est en voyage long temps</l>
+            <l n="56">Est en voyage long temps</l>
             <l><placeName type="country" key="France">France</placeName> sera desolee,</l>
-            <!-- Saut#17 --><anchor type="saut#17"/>
-            <l n="56">On dit que l'on pend</l>
-            <l>Les huis du costé des gons</l>
-            <l><placeName type="imaginaire">Au pays des Panigons</placeName>.</l>
-            <!-- Saut#18 --><anchor type="saut#18"/>
-            <l rend="indent">Dans <placeName type="city" key="La Charité">la Charité</placeName> il
-               se disent gens de bien</l>
-            <l n="60">Toutesfois il n'en est rien,</l>
+            <!-- Saut#18 -->
+            <anchor type="saut#18"/>
+            <l>On dit que l'on pend</l>
+            <l ana="#monde_renversé">Les huis du costé des gons</l>
+            <l n="60"><placeName type="imaginaire">Au pays des <orgName type="peuple"
+                     subtype="Panigon">Panigons</orgName></placeName>.<note resp="editor"
+                  type="glose">Voir <persName type="auteur" ref="ind:Rabelais">Rabelais</persName>,
+                     <title>Quart-Livre</title>, chapitre X, p. 560-564. Le roi Panigon règne sur un
+                  payse de cocagne. <hi rend="italic">Panicone</hi> signifie en italien <quote>gros
+                     mangeur</quote>. et...</note></l>
+            <!-- Saut#19 -->
+            <anchor type="saut#19"/>
+            <l rend="indent" ana="#adv_rel">Dans <placeName type="city" key="La Charité">la
+                  Charité</placeName> il se disent gens de bien</l>
+            <l ana="#satire">Toutesfois il n'en est rien,</l>
             <fw>Ce</fw>
             <pb n="75r"/>
             <fw type="pageNum" place="top-right">75</fw>
-            <l>Ce sont vacabons Françoys,</l>
-            <!-- Saut#19 --><anchor type="saut#19"/>
-            <l>Ces <orgName type="peuple" subtype="italien">Italiens</orgName> de la basse
+            <l ana="#adv_rel">Ce sont vacabons Françoys,</l>
+            <!-- Saut#20 -->
+            <anchor type="saut#20"/>
+            <l n="64">Ces <orgName type="peuple" subtype="italien">Italiens</orgName> de la basse
                hepemé</l>
             <l>Sans sergent ont adjourné</l>
-            <l n="64">Une qui vent son empoix,</l>
+            <l>Une qui vent son empoix,</l>
             <l>Vere che ma fé</l>
-            <!-- Saut#20 --><anchor type="saut#20"/>
-            <l>Le galant est bien truffé</l>
-            <l>Quand il va voir la deesse,</l>
-            <!-- Saut#21 --><anchor type="saut#21"/>
-            <l n="68">Saute Quoquelin,</l>
+            <!-- Saut#21 -->
+            <anchor type="saut#21"/>
+            <l n="68">Le galant est bien truffé</l>
+            <l>Quand il va voir la deesse, </l>
+            <!-- Saut#22 -->
+            <anchor type="saut#22"/>
+            <l>Saute Quoquelin,</l>
             <l ana="#misogynie">Les femmes en maintes pars</l>
-            <l ana="#misogynie">Sont plus fines que <rs type="animal" key="renard">renards</rs>.</l>
-            <!-- Saut#22 --><anchor type="saut#22"/>
+            <l n="72" ana="#misogynie">Sont plus fines que <rs type="animal" key="renard"
+                  >renards</rs>.</l>
+            <!-- Saut#23 -->
+            <anchor type="saut#23"/>
             <l>Les <orgName type="habitant" subtype="sancerrois"><expan>Sancerrois</expan></orgName>
-               <expan>pensoient</expan> lever leur <expan>rampars</expan></l>
-            <l n="72">Hautement de toutes pars</l>
-            <l>Comme la <placeName type="monument" subtype="biblique">tour de Babel</placeName>,</l>
-            <l>Sont ils pas fols &amp; remplis de grand malheurs,</l>
-            <l>L'on dit que leurs gouverneurs</l>
-            <l n="76">S'appelle <persName key="Lucifer">Luciabel</persName>,</l>
+               <expan> pensoient</expan> lever leur <expan>rampars</expan></l>
+            <l>Hautement de toutes pars</l>
+            <l>Comme la <placeName type="monument" subtype="biblique">tour de
+                  Babel</placeName>,<note resp="editor" type="glose">Voir J.-A. De Thou, <title>Op.
+                     cit.</title>, tome 6, année 1569, p. 230: <quote>[...] l'on prit les armes de
+                     tous costez, &amp; les habitans prenant de là l'occasion travaillerent de
+                     toutes leurs forces à fortifier la place qui estoit desja forte par sa
+                     situation.</quote></note></l>
+            <l n="76" ana="#adv_rel">Sont ils pas fols &amp; remplis de grand malheurs,</l>
+            <l ana="#adv_rel">L'on dit que leurs gouverneurs</l>
+            <l ana="#sat_pers">S'appelle <persName key="Lucifer">Luciabel</persName>,</l>
             <l ana="#ironie">C'est un tresbeau nom,</l>
-            <!-- Saut#23 --><anchor type="saut#24"/>
-            <l>Je croy que le frais <rs type="animal" subtype="poisson" key="saumon"
-               >saulmon</rs></l>
+            <!-- Saut#24 -->
+            <anchor type="saut#24"/>
+            <l n="80">Je croy que le frais <rs type="animal" subtype="poisson" key="saumon"
+                  >saulmon</rs></l>
             <l>Vaut mieux que vieille <rs type="animal" subtype="poisson" key="morue"
                >mourue</rs>,</l>
-            <!-- Saut#24 --><anchor type="saut#24"/>
-            <l n="80"><rs type="injonction" subtype="impératif">Gardez</rs> de prester</l>
+            <!-- Saut#25 -->
+            <anchor type="saut#25"/>
+            <l><rs type="injonction" subtype="impératif">Gardez</rs> de prester</l>
             <l>Quelque argent à ceux de <placeName type="city" key="Dreux">Dreux</placeName></l>
-            <l>Car ils ont le pied poudreux.<note resp="editor" type="glose">Cf. Le "Coq a l'asne de
-                  Brusquet" (réf. n°49) qui use de la même rime Dreux:poudreux : "Moy je n'ay point
-                  les pieds poudreux / L'argent qu'on me baille est bien mys", v. 90-91.</note></l>
-            <!-- Saut#25 --><anchor type="saut#25"/>
+            <l n="84">Car ils ont le pied poudreux.<note resp="editor" type="glose">Cf. <ref
+                     target="CAA49-Brusquet.xml">Le <quote>Coq a l'asne de Brusquet</quote> (réf.
+                     n°49)</ref> qui use de la même rime Dreux: poudreux: <quote>Moy je n'ay point
+                     les pieds poudreux / L'argent qu'on me baille est bien mys</quote>, v.
+                  90-91.</note></l>
+            <!-- Saut#26 -->
+            <anchor type="saut#26"/>
             <l>Si l'<persName ref="ind:Coligny" key="Coligny, Gaspard de">Admiral</persName> avoit
                un chariot bien grand,</l>
-            <l n="84">Il seroit assez meschant</l>
-            <l>D'emporter la charité</l>
-            <!-- Saut#26 --><anchor type="saut#26"/>
-            <l>Mais à propos les barbares sont esmeuz,</l>
-            <l><persName>Parapharagaramus</persName><note resp="editor" type="crit">Ce personnage
-                  qui évoque de façon transparente <persName ref="ind:Nostradamus"
-                     >Nostradamus</persName> apparaît déjà dans les "Crottes de Paris" (réf.
-                  n°29).</note></l><!-- Nostradamus? -->
-            <l n="88">Nous l'a ainsi recité,</l>
+            <l>Il seroit assez meschant</l>
+            <l>D'emporter <placeName type="city" key="La Charité">La Charité</placeName></l>
+            <!-- Saut#27 -->
+            <anchor type="saut#27"/>
+            <l n="88" ana="#sit_mil">Mais à propos les <rs type="invective">barbares</rs> sont
+               esmeuz,</l>
+            <l ana="#prophétie"><persName>Parapharagaramus</persName><note resp="editor" type="crit"
+                  >Ce personnage qui évoque de façon transparente <persName ref="ind:Nostradamus"
+                     >Nostradamus</persName> apparaît déjà dans les <ref target="CAA29-CdParis.xml"
+                        ><quote>Crottes de Paris</quote> (réf. n°29)</ref>.</note></l>
+            <!-- Nostradamus? -->
+            <l ana="#prophétie">Nous l'a ainsi recité,</l>
             <fw type="sig" place="bottom-right">>K 3</fw>
             <pb n="75v"/>
             <l>Les moulins à vent,</l>
-            <l>Sont dans la mer bien avent</l>
-            <l>Dessus les monts pyrenées,</l>
-            <l n="92"><addName>Caresme prenant</addName></l><!-- A identifier -->
-            <l>En embassade s'en est allé,</l>
-            <l>Pour <rs type="invective">un <rs type="animal" key="singe">singe</rs> au cul
-                  pelé</rs>.</l>
-            <!-- Saut#27 --><anchor type="saut#27"/>
-            <l rend="indent">Les <orgName type="secte" subtype="protestant">huguenots</orgName> de
-                  <placeName type="city" key="Sancerre">Sancerre</placeName> sont marris</l>
-            <l n="96">Qu'on bannit ceux de <placeName type="city" key="Paris">Paris</placeName></l>
-            <l>Publiquement de rechef</l>
-            <!-- Saut#28 --><anchor type="saut#28"/>
-            <l>Deux <expan>bons</expan> frelots chantant plus haut qu'Allemans</l>
-            <l>Pretendant d'aller au Mans</l>
-            <l n="100">Vendre la Nymphe au beau chef,</l>
-            <l>Dieu qu'ils sont gentils</l>
-            <!-- Saut# -->
-            <l>Un homme <reg>a</reg> bon appetit</l>
-            <l>Quand il mange force trippes</l><!-- Rabelais -->
-            <l n="104">Si Colin tempon</l>
+            <l n="92">Sont dans la mer bien avent<note resp="editor" type="glose">Seconde allusion à
+                  la <eventName ref="#VenisevsTurquie" key="guerre vénéto-ottomane (1570-1573"
+                     >guerre qui oppose les Vénitiens et leurs alliés à la Sublime
+                  Porte</eventName>.</note></l>
+            <!-- Saut#28 -->
+            <anchor type="saut#28"/>
+            <l ana="#sit_pol">Dessus les monts pyrenées,</l>
+            <l ana="#sit_pol"><addName>Caresme prenant</addName></l>
+            <!-- A identifier -->
+            <l ana="#sit_pol">En embassade s'en est allé,</l>
+            <l n="96" ana="#sat_pers">Pour <rs type="invective">un <rs type="animal" subtype="primate" key="singe"
+                     >singe</rs> au cul pelé</rs>.</l>
+            <!-- Saut#29 -->
+            <anchor type="saut#29"/>
+            <l rend="indent" ana="#adv_rel">Les <orgName type="secte" subtype="protestant"
+                  >huguenots</orgName> de <placeName type="city" key="Sancerre">Sancerre</placeName>
+               sont marris</l>
+            <l ana="#sit_pol">Qu'on bannit ceux de <placeName type="city" key="Paris"
+                  >Paris</placeName></l>
+            <l ana="#sit_pol">Publiquement de rechef</l>
+            <!-- Saut#30 -->
+            <anchor type="saut#30"/>
+            <l n="100">Deux <expan>bons</expan> frelots chantant plus haut qu'<orgName type="peuple"
+                  subtype="allemand">Allemans</orgName></l>
+            <l>Pretendant d'aller au <placeName type="city" key="Le Mans">Mans</placeName></l>
+            <l>Vendre la <addName>Nymphe au beau chef</addName>,</l>
+            <l><rs type="interjection">Dieu qu'</rs>ils sont gentils</l>
+            <!-- Saut#31 -->
+            <anchor type="saut#31"/>
+            <l n="104">Un homme <reg>a</reg> bon appetit</l>
+            <l>Quand il mange force trippes</l>
+            <!-- Rabelais -->
+            <!-- Saut#32 -->
+            <anchor type="saut#32"/>
+            <l>Si Colin tempon</l>
             <l>Se lavoit dedans un being</l>
-            <l>Il ressusciteroit <persName>Robin</persName>.</l>
+            <l n="108">Il ressusciteroit <persName>Robin</persName>.</l>
+            <!-- Saut#33 -->
+            <anchor type="saut#33"/>
             <l rend="indent">Or que pensez vous que ceux de <placeName type="city" key="La Charité"
                   >la Charité</placeName></l>
-            <l n="108">Sont bien pleins de charité</l>
+            <l>Sont bien pleins de charité</l>
             <l>En vers les pauvres de <persName>Dieu</persName>,</l>
-            <l>L'un est cruel, voire bien plus que <persName>Neron</persName>,</l>
+            <l n="112">L'un est cruel, voire bien plus que <persName ref="ind:Néron" key="Néron"
+                  >Neron</persName>,</l>
             <l>Faisant acte de larron</l>
-            <l n="112" ana="#pillage-s">Et l'autre pille en tous lieux,</l>
-            <l>Voylà les gens de bien</l>
-            <l>De nouveau plus ne sçay rien,</l>
-            <l>Si non plus fin de mon roole,</l>
-            <l n="116">C'est un passetemps</l>
+            <l ana="#pillage-s">Et l'autre pille en tous lieux,</l>
+            <l ana="#ironie">Voylà les gens de bien</l>
+            <!-- Saut#34 -->
+            <anchor type="saut#34"/>
+            <l n="116" ana="#ethos">De nouveau plus ne sçay rien,</l>
+            <l ana="#ethos">Si non plus fin de mon roole,</l>
+            <!-- Saut#35 -->
+            <anchor type="saut#35"/>
+            <l>C'est un passetemps</l>
             <fw type="réclame" place="bottom-right">De</fw>
             <pb n="76r"/>
             <fw type="pageNum" place="top-right">76</fw>
             <l>De voir les <rs type="animal" key="chats">chats</rs> &amp; les <rs type="animal"
                   subtype="rongeurs" key="rats">rats</rs></l>
-            <l>Faire ensemble leurs sabats,</l>
+            <l n="120">Faire ensemble leurs sabats,</l>
+            <!-- Saut#36 -->
+            <anchor type="saut#36"/>
             <l>Les <orgName type="habitant" subtype="sancerrois">Sancerrois</orgName> disent que les
                   <orgName type="habitant" subtype="poitevin">Poitevins</orgName></l>
-            <l n="120">Sont devenus <orgName type="habitant" subtype="limousin"
-               >Lymosins</orgName></l>
+            <l>Sont devenus <orgName type="habitant" subtype="limousin">Lymosins</orgName></l>
             <l ana="#leitmotiv">Force de manger naveaux,</l>
-            <l>Dedans <placeName type="city" key="Rouen">Rouen</placeName> il y a de grands
+            <!-- Saut#37 -->
+            <anchor type="saut#37"/>
+            <l n="124">Dedans <placeName type="city" key="Rouen">Rouen</placeName> il y a de grands
                balleurs</l>
             <l>Qui contrefont les <rs type="occupatin" subtype="chanteur">chanteurs</rs></l>
-            <l n="124">En heurlant comme <rs type="animal" key="taureau">Taureaux</rs>,</l>
+            <l>En heurlant comme <rs type="animal" subtype="bovidé" key="taureau">Taureaux</rs>,</l>
             <l>Ce sont vrays <rs type="occupation" subtype="ânier">asniers</rs>,</l>
-            <l><rs type="injonction" subtype="impératif">Apportez moy</rs> deux paniers</l>
+            <!-- Saut#38 -->
+            <anchor type="saut#38"/>
+            <l n="128"><rs type="injonction" subtype="impératif">Apportez moy</rs> deux paniers</l>
             <l>Pour mettre le vent de bize,</l>
-            <l n="128">Las j'ay tout perdu,</l>
+            <l ana="#vp">Las j'ay tout perdu,</l>
+            <!-- Saut#39 -->
+            <anchor type="saut#39"/>
             <l><rs type="injonction" subtype="impératif">Allons nous en</rs> au <rs
                   type="occupation" subtype="devin">devin</rs></l>
-            <l>Porter un flascon de vin.</l>
+            <l n="132">Porter un flascon de vin.</l>
+            <!-- Saut#40 -->
+            <anchor type="saut#40"/>
             <l rend="indent">Si l'<persName ref="ind:Coligny" key="Coligny, Gaspard de"
                   >Amiral</persName> assisté d'un million</l>
-            <l n="132">Va pour assieger <placeName type="city" key="Lyon">Lyon</placeName></l>
-            <l>Il s'en pourra repentir,</l>
-            <!-- Saut# -->
-            <l>Un homme dit qu'il a surpris un <rs type="animal" subtype="oiseau">leuraut</rs></l>
+            <l>Va pour assieger <placeName type="city" key="Lyon">Lyon</placeName></l>
+            <l>Il s'en pourra repentir,<note resp="editor" type="crit">Quatrième et dernière mention
+                  de l'amiral qui laisse entendre que la troisième guerre n'est pas terminée. On
+                  sait qu'après Moncontour, l'Amiral surprend les troupes royales en remontant le
+                  Rhône en avril 1570 jusqu'à Saint-Etienne pour atteindre La Charité en
+                  juillet.</note></l>
+            <!-- Saut#41 -->
+            <anchor type="saut#41"/>
+            <l n="136">Un homme dit qu'il a surpris un <rs type="animal" subtype="léporidé"
+                  key="lièvre">levraut</rs></l>
             <l>Faisant son nid dans un broc</l>
-            <l n="136">Il advient bien à mentir,</l>
+            <l>Il advient bien à mentir,</l>
             <l><reg>À</reg> ces <rs type="invective">gens chastrez</rs></l>
-            <l>Point au doigt <rs type="injonction" subtype="défense">ne les monstrez</rs>,</l>
+            <l n="140">Point au doigt <rs type="injonction" subtype="défense">ne les
+               monstrez</rs>,</l>
             <l>Car <reg>il[s]</reg> sont bons <reg>à</reg> cognoistre</l>
-            <l n="140">D'<reg>où</reg> vient <persName>Madelon</persName></l>
-            <l>Elle respond dit Janot</l>
-            <l>D'estriper un <orgName type="secte" subtype="protestant">huguenot</orgName>.</l>
+            <!-- Saut#42 -->
+            <anchor type="saut#42"/>
+            <l>D'<reg>où</reg> vient <persName type="type">Madelon</persName></l>
+            <l>Elle respond dit <persName type="type">Janot</persName></l>
+            <l n="144">D'estriper un <orgName type="secte" subtype="protestant"
+               >huguenot</orgName>.</l>
+            <!-- Saut#43 -->
+            <anchor type="saut#43"/>
             <l rend="indent">Fy de <placeName type="city" key="Sancerre">Sancerre</placeName> &amp;
                fy de <placeName type="city" key="La Charité">la Charité</placeName></l>
-            <l n="144"><reg>À</reg> propos une Comté</l>
+            <!-- Saut#44 -->
+            <anchor type="saut#44"/>
+            <l><reg>À</reg> propos une Comté</l>
             <l>Vaut mieux qu'un simple Chasteau</l>
             <fw type="sig" place="bottom-right">K 4</fw>
             <pb n="76v"/>
-            <l>L'on m'a rescrit que les <orgName type="secte" subtype="protestant">grimaux</orgName>
-               de <placeName type="city" key="Lyon">Lyon</placeName>,</l>
+            <!-- Saut#45 -->
+            <anchor type="saut#45"/>
+            <l n="148">L'on m'a rescrit que les <orgName type="secte" subtype="protestant"
+                  >grimaux</orgName> de <placeName type="city" key="Lyon">Lyon</placeName>,</l>
             <l>Vont trestous en Avignon</l>
-            <l n="148">Par le <geogName type="fleuve" key="Rosne">Rosne</geogName> sans bateau</l>
-            <l>C'est terrible cas</l>
-            <l>Mais que dit on des combats,</l>
-            <l>Qu'ils se font en <placeName type="country" key="Angleterre"
-               >Angleterre</placeName>,</l>
-            <l n="152">Vivent les garçons</l>
+            <l>Par le <geogName type="fleuve" key="Rosne">Rosne</geogName> sans bateau</l>
+            <l ana="#ironie">C'est terrible cas</l>
+            <!-- Saut#46 -->
+            <anchor type="saut#46"/>
+            <l n="152" ana="#leitmotiv">Mais que dit on des combats,</l>
+            <l ana="#sit_mil">Qu'ils se font en <placeName type="country" key="Angleterre"
+                  >Angleterre</placeName>,</l>
+            <!-- Saut#47 -->
+            <anchor type="saut#47"/>
+            <l>Vivent les garçons</l>
             <l>Qui boyvent tousjours d'autant.</l>
-            <l>En attendant le bon temps.</l></p>
+            <l n="156" ana="#conclusio">En attendant le bon temps.</l>
+         </p>
       </body>
    </text>
 </TEI>

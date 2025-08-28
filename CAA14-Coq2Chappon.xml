@@ -5,15 +5,18 @@
    <teiHeader>
       <fileDesc xml:id="Coq2chappon">
          <titleStmt>
-            <title>Réf. n°14: </title>
-            <title>Epistre du coq au chappon</title>
+            <title type="idno">Réf. n°14: </title>
+            <title type="main">Epistre du coq au chappon</title>
+            <title type="incipit">Pour t'advertir, chappon, du cher amy</title>
+            <author>Anonyme</author>
          </titleStmt>
          <publicationStmt>
             <p/>
          </publicationStmt>
          <sourceDesc>
             <p>Le cahier du Codex 148 de la BurgerBibliotek de Bern contient l'unique copie de ce
-               coq-à-l'âne et de sa réponse.</p>
+               coq-à-l'âne et de sa réponse. Il reprend plusieurs références du quatrième
+               coq-à-l'âne de Marot (réf. n°11).</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -37,65 +40,74 @@
          <p>
             <interpGrp>
                <!-- A -->
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
                <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="amour" ana="amour">amour</interp>
                <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
-
+               
                <!-- B -->
                <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
                <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
-
+               
                <!-- C -->
                <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
                <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de l'épître</interp>
                <interp xml:id="corruption" ana="corruption">corruption</interp>
                <interp xml:id="corps" ana="corps">corps</interp>
                <interp xml:id="cour" ana="court">vie de la cour</interp>
                <interp xml:id="cri" ana="cri">cris des marchands</interp>
                <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
-
+               
                <!-- D -->
                <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
                <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
-
+               
                <!-- E -->
+               <interp xml:id="éloge" ana="éloge">éloge</interp>
                <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
                <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="eschatologie" ana="eschatologie">conception eschatologique</interp>
                <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
                <interp xml:id="exhortation" ana="exhortation">exhortations et
                   encouragements</interp>
-
+               
                <!-- F -->
+               <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
                <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
                <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
-
+               
                <!-- G -->
                <interp xml:id="gén" ana="généralisation">généralisation</interp>
                <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
                   gnomique</interp>
                <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
-
+               
                <!-- H -->
                <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
                <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
-
-
+               
+               
                <!-- I -->
+               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
+               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
                <interp xml:id="ironie" ana="ironie">ironie</interp>
-
+               
                <!-- L -->
                <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
                <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
                <interp xml:id="topos" ana="topos">lieu commun</interp>
                <interp xml:id="ligue" ana="ligue">ligue</interp>
-
+               
                <!-- M -->
                <interp xml:id="maladie" ana="maladie">maladie</interp>
                <interp xml:id="massacre" ana="massacre">massacre</interp>
@@ -104,49 +116,60 @@
                <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
                <interp xml:id="misères" ana="misères">misères du temps</interp>
                <interp xml:id="misogynie" ana="misogynie">misogynie</interp>
+               <interp xml:id="mode" ana="mode">mode</interp>
                <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
                   valeurs</interp>
                <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
-
-
+               
+               <!-- N -->
+               <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
+               
+               
                <!-- P -->
                <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
+               <interp xml:id="persona" ana="persona">persona de Marot</interp>
                <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
                <interp xml:id="pillage-s" ana="pillages">vols, pillages</interp>
                <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
                <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
                <interp xml:id="practiques" ana="practiques">practiques</interp>
                <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="prière" ana="prière">prière</interp>
                <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
                <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
                <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
                   nécessaire</interp>
-
+               
                <!-- R -->
                <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
                <interp xml:id="rébus" ana="rébus">rébus</interp>
                <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="révélations" ana="révélations">révélation(s)</interp>
                <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
                <interp xml:id="rire" ana="rire">rire</interp>
                <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
                <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
-
+               
                <!-- S -->
-
+               
                <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
                <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
                <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
                <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="sergents" ana="sergents">contre les sergents</interp>
                <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
                <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
                <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
-
+               <interp xml:id="syllepse" ana="syllepse">syllepse</interp>
+               
                <!-- T -->
                <interp xml:id="tauto" ana="tauto">tautologie</interp>
                <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
                <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
                <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
-
+               <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
+               
                <!-- V -->
                <interp xml:id="vanité" ana="vanité">vanité</interp>
                <interp xml:id="vp" ana="pivot">vers pivot</interp>
@@ -155,8 +178,17 @@
          </p>
 
       </encodingDesc>
-      <revisionDesc><change><date>2024-11-07</date>Transcription intégrale à partir du codex 148. Appui de l'édition Meylan. Encodage de niveau 1+.</change></revisionDesc>
-      <!-- A faire : Annotation / Sauts logiques -->
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <creation><date when="1537">1537</date></creation>
+      </profileDesc>
+      <revisionDesc>
+         <change><date>2024-11-07</date>Transcription intégrale à partir du codex 148. Appui de
+            l'édition Meylan. Encodage de niveau 1+.</change>
+      </revisionDesc>
+      <!-- A faire : Annotation / Sauts logiques / établir les liens avec Marot4 (réf. 11)-->
    </teiHeader>
    <facsimile>
       <surface xml:id="Cod.148_14a" n="107v">
@@ -204,7 +236,7 @@
             <l n="16">Mais en brief temps on <corr resp="editor">te</corr> rappellera</l><note
                resp="editor" type="philo">Nous corrigeons, à nouveau, le pronom "le" du texte en
                "te".</note>
-            <l>Pourtant, amy, surmonte ta colere</l>
+            <l>Pourtant, amy, <rs type="injonction" subtype="impératif">surmonte</rs> ta colere</l>
             <l>Congnois tu pas la lune toute noire?</l>
             <l><rs type="injonction" subtype="impératif">Va</rs> en <placeName type="city"
                   key="Ferrare">Ferraze</placeName>, et de <reg>là</reg> en <placeName type="city"
@@ -222,10 +254,11 @@
             <l><persName ref="ind:Marot" key="Marot">Marot</persName> respond: Ô parolle dorée</l>
             <l n="28" ana="#violences">Bran du fagot merde pour la bourrée.</l>
             <l>Vive le <persName ref="ind:François_Ier">Roy</persName>, Vive la fleur de liz,</l>
-            <l>Vive <persName ref="ind:Marguerite_de_Navarre" key="Marguerite de Navarre">la seur</persName> maulgré ses
-               ennemys,</l><note resp="editor" type="glose">Marguerite de Navarre, sœur du roi,
-               était la protectrice de Marot et des évangéliques contre les ennemis de la
-               Sorbonne.</note>
+            <l>Vive <persName ref="ind:Marguerite_de_Navarre" key="Marguerite de Navarre">la
+                  seur</persName> maulgré ses ennemys,</l><note resp="editor" type="glose"
+               >Marguerite de Navarre, sœur du roi, était la protectrice de Marot et des
+               évangéliques contre les ennemis de la Sorbonne. Ces vers peuvent être rapprochés des
+               vers du quatrième coq-à-l'âne de Marot qui constitue un intertexte probable.</note>
             <l>Vive la court, ma maistresse d'escolle</l><note resp="editor" type="crit">Écho de
                l'épître "Au tresvertueux prince, Françoys, Daulphin de France": "Aussy affin
                qu'encor un coup j'accolle / La Court du Roy, ma maistresse d'escolle.", v.
@@ -266,24 +299,26 @@
             <l><rs type="injonction" subtype="défense">Ne crains</rs> la court, ta mortelle
                ennemye,</l>
             <l><rs type="injonction" subtype="défense">Ne crains</rs> Sagon, car il est esguillé</l>
-            <l n="60">Ne <persName>St Ambroys</persName> qui a son temps passé</l>
+            <l n="60">Ne <persName ref="ind:Jacques_Colin" key="Colin, Jacques">St
+                  Ambroys</persName> qui a son temps passé<note resp="editor" type="crit">Jacques
+                  Colin, abbé de Saint-Ambroise, lecteur du roi.</note></l><!-- Cf. CAA11 -->
             <l><rs type="injonction" subtype="défense">Ne crains</rs>
                <persName>Mynos</persName> ne ce fol <persName>Rhadamas</persName></l><!-- L'Enfer -->
-            <l>Les bons pour toy font de gens grand amas</l>
-            <l>Or donc <persName ref="ind:Marot" key="Marot">Marot</persName> en diligence
+            <l met="décasyllabe">Les bons pour toy font de gens grand amas<note resp="editor">En France, Genevoys damas...</note></l>
+            <l met="décasyllabe">Or donc <persName ref="ind:Marot" key="Marot">Marot</persName> en diligence
                   <expan>apperte</expan></l>
-            <l n="64">Ta muse enflame <reg>et</reg> la langue diserte</l>
-            <l><reg>À</reg> composer de ta veine nayfve</l>
-            <l>Les faictz de <placeName type="country" key="France">France</placeName> et la
+            <l n="64" met="décasyllabe">Ta muse enflame <reg>et</reg> la langue diserte</l>
+            <l met="décasyllabe"><reg>À</reg> composer de ta veine nayfve</l>
+            <l met="décasyllabe">Les faictz de <placeName type="country" key="France">France</placeName> et la
                cronicque vive</l>
-            <l>Ton sens acquis entend fort bien tel cas</l>
-            <l n="68">Mais <rs type="injonction" subtype="impératif">garde toy</rs>, cher amy,
+            <l met="décasyllabe">Ton sens acquis entend fort bien tel cas</l>
+            <l n="68" met="décasyllabe">Mais <rs type="injonction" subtype="impératif">garde toy</rs>, cher amy,
                d'aultre cas.</l>
-            <l><rs type="injonction" subtype="impératif">Garde</rs> tousjours de ton prince le
+            <l met="décasyllabe"><rs type="injonction" subtype="impératif">Garde</rs> tousjours de ton prince le
                bruyt</l>
-            <l><rs type="injonction" subtype="impératif">Garde</rs> tousjours de la veigne le
+            <l met="décasyllabe"><rs type="injonction" subtype="impératif">Garde</rs> tousjours de la veigne le
                fruyct</l>
-            <l>Et puis apres, <rs type="injonction" subtype="impératif">garde</rs> de plus
+            <l met="décasyllabe">Et puis apres, <rs type="injonction" subtype="impératif">garde</rs> de plus
                picquer</l>
             <l n="72">Celuy qui peult <expan>par</expan> sus toy duplicquer</l>
             <l>Tu as assez <reg>à</reg> quoy ton sens induyre</l>
@@ -297,10 +332,10 @@
                credit</l>
             <l>Et <rs type="injonction" subtype="impératif">temporise</rs> sur
                   <expan>l'affere</expan> secrette</l>
-            <l n="80">De ce lourdault qui perdit sa cornette</l>
-            <l>Chez le voysin de ton frere <persName>Symon</persName></l>
+            <l n="80" met="décasyllabe">De ce lourdault qui perdit sa cornette</l>
+            <l met="décasyllabe">Chez le voysin de ton frere <persName>Symon</persName></l>
             <l><rs type="injonction" subtype="impératif">Laisse</rs> celuy qui a renom</l>
-            <l>De salpestre, il faict tous ses esbas</l><!-- Sagon. Vers faux -->
+            <l met="décasyllabe">De salpestre, il faict tous ses esbas</l><!-- Sagon. -->
             <l n="84"><rs type="injonction" subtype="défense">Ne parle plus</rs> de ce grand
                   <persName key="Barrabas">Barrabas</persName></l>
             <l><rs type="injonction" subtype="impératif">Pose</rs> ta muse de brocardz
@@ -370,8 +405,8 @@
                   ref="ind:Jésus" key="Jésus">Jesus</persName></l>
             <l ana="#sat_rel"><persName>Dieu</persName> et le monde ont chevauché dessus</l>
             <l>Du grant palais <rs type="injonction" subtype="défense">ne parle sinon peu</rs></l>
-            <l n="124">Ne du disner que les <rs type="animal" subtype="canidé" key="chien">chiens</rs> ont
-               receu</l>
+            <l n="124">Ne du disner que les <rs type="animal" subtype="canidé" key="chien"
+                  >chiens</rs> ont receu</l>
             <l><rs type="injonction" subtype="impératif">Ferme le bec</rs> au borgne qui se
                fonde</l>
             <l>De veoir ainsy son tombeau <expan>par</expan> le monde</l>
@@ -420,25 +455,31 @@
             <l>Qui fut <expan>perdue</expan> en disant la <reg>chançon</reg></l>
             <pb n="109v"/>
             <l n="156">Le Roy l'a dict c'est l'amy Baudichon</l>
-            <l ana="#gnomique">Tout vient à poiont qui peult attendre</l>
+            <l ana="#gnomique">Tout vient à point qui peult attendre</l>
             <l ana="#gnomique">Le jeune boys faict bonne cendre</l>
             <l><addName key="Jacques Stuart">L'Escossoys</addName> a maintenant son duis</l>
-            <l n="160">C'est pour la <placeName type="country" key="France">France</placeName> mes beaulx amys</l>
-            <l><rs type="injonction" subtype="impératif">Touche</rs> <persName ref="ind:Marot" key="Marot">Marot</persName> quelque chose nouvelle</l>
+            <l n="160">C'est pour la <placeName type="country" key="France">France</placeName> mes
+               beaulx amys</l>
+            <l><rs type="injonction" subtype="impératif">Touche</rs>
+               <persName ref="ind:Marot" key="Marot">Marot</persName> quelque chose nouvelle</l>
             <l><expan>Premierement</expan> de la mort sy cruelle</l>
-            <l>Qui a surpris le <persName>Daulphin</persName> à <placeName type="city" key="Tournon">Tournon</placeName></l>
+            <l>Qui a surpris le <persName>Daulphin</persName> à <placeName type="city" key="Tournon"
+                  >Tournon</placeName><note resp="editor" type="glose">La mort de François III de Bretagne est évoquée dans les coq-à-l'âne 10 et 11.</note></l>
             <l n="164">Ne celle point ce que nous espargnon</l>
             <l>Touchant la mort du seigneur <persName>de la Marche</persName></l>
-            <l>Et <persName>Dampmartin</persName> note bien la demarche</l>
-            <l>De l'empereur par luy  faicte à <placeName type="city" key="Marseille">Marseille</placeName></l>
+            <l>Et <persName ref="ind:Dammartin">Dampmartin</persName> note bien la demarche</l>
+            <l>De l'empereur par luy faicte à <placeName type="city" key="Marseille"
+                  >Marseille</placeName></l>
             <l n="168"><persName>André Dory</persName> congnut bien la merveille</l>
             <l>Et si le Turc <expan>paracheve</expan> son tour</l>
-            <l>L'<addName><rs type="animal" subtype="rapace">aigle</rs></addName> sera convertie en <rs type="invective"><rs type="animal" subtype="oiseau">butour</rs></rs></l>
+            <l>L'<addName><rs type="animal" subtype="rapace">aigle</rs></addName> sera convertie en
+                  <rs type="invective"><rs type="animal" subtype="oiseau">butour</rs></rs></l>
             <l>Le courageulx a douleur en son cueur</l>
             <l n="172">Quant celuy là qui veult batre est vaincqueur</l>
             <l>Escriptz au long l'amoureux accordance</l>
-            <l>Du mariage de la fille de <placeName type="country" key="France">France</placeName></l>
-            <l>Ne laisse rien qui nous puisse servir</l>
+            <l>Du mariage de la fille de <placeName type="country" key="France"
+               >France</placeName></l>
+            <l><rs type="injonction" subtype="défense">Ne laisse rien</rs> qui nous puisse servir</l>
             <l n="176">Pour honnorer la court de son desir</l>
             <l>Le Roy François amoureulx de ta muse</l>
             <l>Prandra plaisir sy à cela s'amuse</l>

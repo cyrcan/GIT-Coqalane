@@ -5,22 +5,19 @@
    <teiHeader>
       <fileDesc xml:id="Caresme_Prenant_1595">
          <titleStmt>
-            <title n="1">Réf. n°89: </title>
-            <title n="2">Caresme-Prenant</title>
+            <title type="idno">Réf. n°89: </title>
+            <title type="main">Caresme-Prenant (V, 1)</title>
+            <title type="incipit">Or sus il faut que je m'appreste</title>
             <author>Benoet du Lac</author>
-            <editor>Cyril Cano Arnedo</editor>
-            <respStmt>
-               <name>Cyril Cano Arnedo</name>
-               <resp>encodage</resp>
-            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>Texte établi d'après l'édition originale de 1595.</edition>
          </editionStmt>
          <publicationStmt>
-            <p>Transcription d'un corpus de coq-à-l'âne de 1530 à 1650.</p>
+            <p/>
          </publicationStmt>
          <sourceDesc>
+            <p>Imprimé</p>
             <p>Scène 1 de l'acte V aux pages 84 à 86.</p>
             <p><bibl><author>Benoet du Lac</author><title>Le desespere TRAGICOMEDIE pour exemplaire
                      d'obeissance. Poëme tres-remarquable aux peres, &amp; enfans de famille : A
@@ -34,15 +31,17 @@
                         <msIdentifier>
                            <settlement>Aix-en-Provence, </settlement>
                            <repository>Bibliothèque Méjanes, </repository>
+                           <collection>Patrimoine, </collection>
                            <idno>Rés. D.105.</idno>
                         </msIdentifier>
                      </msDesc></witness>
                </listWit></p>
             <p><listBibl>
-                  <bibl>Voir Estelle Doudet, "Le théâtre de Benoet du Lac à Aix-en-Provence. Moyen-Âge
-                     provincial ou spectacle d’actualité à la fin du XVI<hi rend="sup">e</hi> siècle?",
-                     <title>Littératures Classiques</title>, n°97, 3, 2018.</bibl>
-            </listBibl></p>
+                  <bibl>Voir Estelle Doudet, "Le théâtre de Benoet du Lac à Aix-en-Provence.
+                     Moyen-Âge provincial ou spectacle d’actualité à la fin du XVI<hi rend="sup"
+                        >e</hi> siècle?", <title>Littératures Classiques</title>, n°97, 3,
+                     2018.</bibl>
+               </listBibl></p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -66,7 +65,7 @@
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
@@ -112,6 +111,7 @@
                <interp xml:id="gén" ana="généralisation">généralisation</interp>
                <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
                   gnomique</interp>
+               <interp xml:id="gc" ana="gc">guerres civiles</interp>
                <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
 
                <!-- H -->
@@ -162,6 +162,7 @@
                <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
                <interp xml:id="practiques" ana="practiques">practiques</interp>
                <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="prière" ana="prière">prière</interp>
                <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
                <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
                <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
@@ -194,30 +195,42 @@
                <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
                <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
                <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
 
                <!-- V -->
                <interp xml:id="vanité" ana="vanité">vanité</interp>
                <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="vices" ana="vices">condamnation des vices</interp>
                <interp xml:id="violences" ana="violences">violences</interp>
             </interpGrp>
          </p>
       </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Il s'agit de la première scène de l'acte V de la tragi-comédie de Caresme-Prenant. Le
+               Mignon de Caresme-Prenant au début de ce monologue justifie le discours du
+               coq-à-l'âne parce qu' "un fol doit parler follement", v. 24</p>
+         </abstract>
+         <creation><date when="1595">1595</date></creation>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>
-        
+
          <fw type="pageNum" place="top-left">84</fw>
          <fw type="header" place="center">Caresme-prenant</fw>
          <cb n="2"/>
          <div n="5" type="acte">
+
             <head>Acte V. Scene I. Le mignon de Caresme-prenant</head>
          </div>
          <div n="1" type="scene">
             <p>
-               <l><emph>Or</emph> sus il faut que <reg>je</reg> m'appreste,</l>
-               <l>De ne manquer à ceste feste,</l>
+               <ptr target="108"/>
+               <l ana="#ethos">Or sus il faut que <reg>je</reg> m'appreste,</l>
+               <l ana="#ethos">De ne manquer à ceste feste,</l>
                <l ana="#ethos">Moy, qui de <persName>Caresme-prenant</persName></l>
-               <l n="4">Suis le Mignon bien <reg>advenant</reg>,</l>
+               <l n="4" ana="#ethos">Suis le Mignon bien <reg>advenant</reg>,</l>
                <l ana="#folie">Qui n'aime que fols, &amp; folies,</l>
                <l ana="#folie">Farces, farceurs, &amp; farceries.</l>
                <l rend="indent" ana="#folie">Enfarinez, <reg>escervelez</reg>,</l>
@@ -228,36 +241,38 @@
                <l n="12" ana="#folie">Et tous semblables tribouillets,</l>
                <l ana="#folie">Qui ont la trongne folle, &amp; sotte,</l>
                <l ana="#folie"><reg>Sont</reg> tous subjects de ma Marotte.</l>
-               <l rend="indent">J'ay freres, cousins, &amp; parens,</l>
-               <l n="16"><reg>Jeunes</reg>, &amp; vieux, petits, &amp; grands,</l>
-               <l>Par tout s'en <reg>trouve</reg>
+               <l rend="indent" ana="#folie">J'ay freres, cousins, &amp; parens,</l>
+               <l n="16" ana="#folie"><reg>Jeunes</reg>, &amp; vieux, petits, &amp; grands,</l>
+               <l ana="#folie">Par tout s'en <reg>trouve </reg>
                   <choice>
                      <orig>eu</orig>
-                     <reg>en</reg>
+                     <reg> en </reg>
                   </choice>
-                  <reg>abondance</reg>,</l>
-               <l>En Cour de <placeName type="city" key="Rome">Rome</placeName>, en cour de
-                     <placeName type="country" key="France">France</placeName>,</l>
-               <l>Et en <placeName type="country" key="Espagne">Espagne</placeName> les <rs
-                     type="invective">gros <rs type="animal">veaux</rs></rs>,</l>
-               <l n="20">Dans les palais, <reg>dans</reg> les barreaux,</l>
+                  <reg> abondance</reg>,</l>
+               <l ana="#cour">En Cour de <placeName type="city" key="Rome">Rome</placeName>,
+                  en cour de <placeName type="country" key="France">France</placeName>,</l>
+               <l ana="#cour">Et en <placeName type="country" key="Espagne">Espagne</placeName> les
+                     <rs type="invective">gros <rs type="animal">veaux</rs></rs>,</l>
+               <l n="20" ana="#satire">Dans les palais, <reg>dans</reg> les barreaux,</l>
                <l ana="#folie">On voit de fols, &amp; de folie,</l>
                <l ana="#folie">Par tout se voit de folastrie:</l>
                <l ana="#mtd">Mais <reg>je</reg> parle trop sagement,</l>
-               <l n="24"><reg>Un</reg> fol doit parler follement:</l>
-               <l>Dont faut pour <reg>amender</reg> ma faute,</l>
+               <l n="24" ana="#folie"><reg>Un</reg> fol doit parler follement:</l>
+               <l ana="#ethos">Dont faut pour <reg>amender</reg> ma faute,</l>
                <l ana="#mtd">Que du Coq à l'asne je saute:</l>
                <!-- Justification du discontinu comme parole folle -->
-               <l>Car il ne faut du premier coup</l>
-               <l n="28">Mourir de peur <rs type="locution">sans voir le <rs type="animal"
+               <l ana="#folie">Car il ne faut du premier coup</l>
+               <l n="28" ana="#folie">Mourir de peur <rs type="locution">sans voir le <rs type="animal"
                      >loup</rs></rs>,<note resp="editor" type="ling"><hi rend="italic">Voir le
-                        loup</hi>: "avoir de l'expérience", Di Stefano après Leroux.</note></l>
-               <l>Ny marchander la trippe grasse.</l>
+                        loup</hi>: <quote>avoir de l'expérience</quote>, Di Stefano après
+                     Leroux.</note></l>
+               <l ana="#hedo">Ny marchander la trippe grasse.</l>
                <!-- Saut#1 -->
                <anchor type="saut#1"/>
-               <l rend="indent">Il n'y a pas non plus d'espace,</l>
+               <l rend="indent" ana="#motifs_sexuels">Il n'y a pas non plus d'espace,</l>
                <l ana="#motifs_sexuels">Despuis le rond, <reg>jusque</reg> au fendu,</l>
                <pb n="85"/>
+               <ptr target="109"/>
                <fw type="pageNum" place="top-right">85</fw>
                <fw type="header" place="center">Tragicomedie</fw>
                <cb n="1"/>
@@ -266,27 +281,29 @@
                <!-- Saut#2 -->
                <anchor type="saut#2"/>
                <l rend="indent" ana="#imprécation">La male tigne<note type="editor" subtype="ling"
-                        ><hi rend="italic">La male tigne</hi>: "Le malheur".</note>, &amp;
-                     caquesangue<note type="editor" subtype="ling"><hi rend="italic"
-                        >Caquesangue</hi>: "Dysenterie".</note>,</l>
+                        ><hi rend="italic">La male tigne</hi>: <quote>Le malheur</quote>.</note>,
+                  &amp; caquesangue<note type="editor" subtype="ling"><hi rend="italic"
+                        >Caquesangue</hi>: <quote>Dysenterie</quote>.</note>,</l>
                <l ana="#satire">Vienne à ces <rs type="invective">picorieres gens</rs>,</l>
-               <l n="36" ana="#satire">Qui du travail des paysans,</l>
+               <l n="36" ana="#satire">Qui du travail des <rs type="occupation" subtype="paysan"
+                     >paysans</rs>,</l>
                <l ana="#pillage-s">Mènent tant de piaferie.<note resp="editor" type="ling"
-                        ><hi>piafferie</hi>: "Objet d'ostentation, de luxe.", Huguet.</note></l>
+                        ><hi>piafferie</hi>: <quote>Objet d'ostentation, de luxe</quote>,
+                     Huguet.</note></l>
                <!-- Saut#3 -->
                <anchor type="saut#3"/>
-               <l rend="indent" ana="#motifs_sexuels">Quand <persName key="Jeanne">Jane</persName> à
-                  la poissonnerie</l>
+               <l rend="indent" ana="#motifs_sexuels">Quand <persName type="populaire" key="Jeanne"
+                     >Jane</persName> à la poissonnerie</l>
                <l ana="#motifs_sexuels">Choisit, elle prend plustost lors</l>
                <l n="40" ana="#motifs_sexuels"><reg>Un</reg> gros vif, que deux petits mors</l>
                <l ana="#mtd">Mais, <reg>j'</reg>enten de <rs type="animal" subtype="poisson"
-                     >poissons</rs> la belle.</l>
+                     key="poisson">poissons</rs> la belle.</l>
                <!-- Saut#4 -->
                <anchor type="saut#4"/>
-               <l rend="indent">Sçavoir mon s'<reg>une</reg> Damoiselle</l>
+               <l rend="indent" ana="#satire">Sçavoir mon s'<reg>une</reg> Damoiselle</l>
                <l ana="#corps">Pisse tout de mesme façon,</l>
-               <l n="44">Que faict la fille d'un masson,</l>
-               <l>Ou quelque lourde paysane:</l>
+               <l n="44" ana="#satire">Que faict la fille d'un masson,</l>
+               <l ana="#satire">Ou quelque lourde paysane:</l>
                <!-- Saut#5 -->
                <anchor type="saut#5"/>
                <l ana="#bêtise">Puis l'ignare Docteur, &amp; l'<rs type="animal" subtype="équidé"
@@ -296,7 +313,7 @@
                <!-- Saut#6 -->
                <anchor type="saut#6"/>
                <l rend="indent" ana="#sat_rel">Las! (ainsi chantent les Nonnettes)</l>
-               <l>On ne voit <reg>que</reg> trop sans lunettes.</l>
+               <l ana="#sat_rel">On ne voit <reg>que</reg> trop sans lunettes.</l>
                <!-- Saut#7 -->
                <anchor type="saut#7"/>
                <l rend="indent" ana="#corps">Aussi mon ventre maintenant</l>
@@ -331,7 +348,7 @@
                <l ana="#sat_rel">Et le Curé chez sa commere.</l>
                <!-- Saut#13 -->
                <anchor type="saut#13"/>
-               <l ana="#bÂtardise"><reg>Chacun</reg> cognoit fort bien sa mere:</l>
+               <l ana="#bâtardise"><reg>Chacun</reg> cognoit fort bien sa mere:</l>
                <l ana="#bâtardise">Mais du pere on doute <reg>bien</reg>
                   <reg>souvent</reg></l>
                <!-- Saut#14 -->
@@ -343,34 +360,44 @@
                      changements de camps.</note></l>
                <!-- Saut#15 -->
                <anchor type="saut#15"/>
-               <l rend="indent">Or faut tomber sur la cadence,</l>
-               <l>Du traquenard de l'entrepas,<note resp="editor" type="ling"><hi rend="italic"
-                        >Traquenard</hi>: "Sorte de galop"; <hi rend="italic">Entrepas</hi>: "Allure
-                     douce intermédiaire entre le pas et l'amble.", Huguet.</note></l>
-               <l n="76"><reg>Un</reg> pas, deux pas, trois, quatre pas,</l>
-               <l>En voyla cinq, me voyla maistre.</l>
+               <l rend="indent" ana="#sit_mil">Or faut tomber sur la cadence,</l>
+               <l ana="#sit_mil">Du traquenard de l'entrepas,<note resp="editor" type="ling"><hi
+                        rend="italic">Traquenard</hi>: <quote>Sorte de galop</quote>; <hi
+                        rend="italic">Entrepas</hi>: <quote>Allure douce intermédiaire entre le pas
+                        et l'amble.</quote>, Huguet.</note></l>
+               <l n="76" ana="#sit_mil"><reg>Un</reg> pas, deux pas, trois, quatre pas,</l>
+               <l ana="#ethos">En voyla cinq, me voyla maistre.</l>
                <!-- Saut#16 -->
                <anchor type="saut#16"/>
                <l rend="indent" ana="#folie">On dit qu'<reg>un</reg> fol ne doit paroistre</l>
                <l ana="#satire">Parmy les gens de qualité.</l>
-               <l n="80" rend="indent">Il ne faut que d'habilité,</l>
-               <l><reg>Jouant</reg> à la harpe, &amp; la pille.<note>Cf. "L'epistre de Thenot à
-                     Robin" (réf. n°37): "Et sy maintenant à la court / On ne joue plus qu’à la
-                     pille / Adieu donques le jeu de bille / Puisque chascun court au pillaige", (v.
-                     70-73).</note></l>
+               <l n="80" rend="indent" ana="#satire">Il ne faut que d'habilité,</l>
+               <l ana="#satire"><reg>Jouant</reg> à la harpe, &amp; la pille.<note resp="editor" type="crit">Cf.
+                        <quote>L'epistre de Thenot à Robin</quote> (réf. n°37): <quote>Et sy
+                        maintenant à la court / On ne joue plus qu’à la pille / Adieu donques le jeu
+                        de bille / Puisque chascun court au pillaige</quote>, v. 70-73.</note></l>
                <!-- Saut#17 -->
                <anchor type="saut#17"/>
                <l rend="indent" ana="#ironie">Elle seroit honneste fille,</l>
                <l ana="#misogynie">Sans les <reg>talons</reg> qui luy sont cours<note type="editor"
-                     subtype="ling">Dit d'une femme qui se laisse facilement "cheoir à l'envers", Di
-                     Stefano.</note>.</l>
+                     subtype="ling">Dit d'une femme qui se laisse facilement <quote>cheoir à
+                        l'envers</quote>, Di Stefano.</note>.</l>
                <!-- Saut#18 -->
                <anchor type="saut#18"/>
-               <l n="84" rend="indent">Les <rs type="animal" subtype="rongeur">rables</rs>
-                  <reg>montent</reg> sur les fours</l>
+               <l n="84" rend="indent" ana="#motifs_sexuels">Les <rs type="animal" subtype="rongeur">rables </rs>
+                  <reg> montent</reg> sur les fours<note resp="editor" type="ling"><hi rend="italic"
+                        >Rable</hi>: <quote>Partie de l'animal qui est vers les reins entre le train
+                        de devant et celuy de derriere. Il ne se dit gueres que des liévres, lapins
+                        et autre gibier semblable, dont on sert le rable, comme la plus delicate
+                        partie. On le dit par extension des hommes forts et robustes qui sont forts
+                        de reins, capables de porter de grands fardeaux; et quelquefois on le dit
+                        des gens vigoureux en amour.</quote>, Furetière. L'expression <hi
+                     rend="italic">Monter sur les fours</hi> signifie <quote>croître</quote>. Le
+                     passage soutient la tonalité grivoise.</note></l>
                <!-- Cf Cotgrave < Di Stefano -->
-               <l ana="#motifs_sexuels">Et <persName key="Guillemin">Guillemin</persName> sur
-                     <persName key="Guillemette">Guillemette</persName>:</l>
+               <l ana="#motifs_sexuels">Et <persName type="populaire" key="Guillemin"
+                     >Guillemin</persName> sur <persName type="populaire" key="Guillemette"
+                     >Guillemette</persName>:</l>
                <!-- Saut#19 -->
                <anchor type="saut#19"/>
                <l ana="#satire">Si tant de peine faut qu'on mette</l>
@@ -384,51 +411,74 @@
                <l ana="#satire">Est maintenant tant en saison</l>
                <!-- Saut#21 -->
                <anchor type="saut#21"/>
-               <l n="92" rend="indent">Deslogez moy de garnison</l>
-               <l ana="#pillage-s">Ces <orgName type="soldat">soldats</orgName>, ceste
-                  picoraille.</l>
+               <l n="92" rend="indent" ana="#satire">Deslogez moy de garnison</l>
+               <l ana="#pillage-s">Ces <orgName type="soldat">soldats</orgName>, ceste <rs
+                     type="invective">picoraille</rs>.</l>
                <l ana="#satire">Vous les verrez dessus la paille,</l>
                <l ana="#satire">Prendre de <rs type="animal" subtype="insecte" key="pou">poux</rs>
-                  un un milion,</l>
-               <!-- Peut-être un jeu de mots entre poux un et poussin? -->
-               <l n="96" ana="#pillage-s">Ou de soldat maistre larron.</l>
+                  un un milion,<note resp="editor" type="glose">Peut-être un jeu de mots entre <hi
+                        rend="italic">poux un</hi> et <hi rend="italic">poussin</hi>?</note></l>
+               <l n="96" ana="#pillage-s">Ou de <rs type="invective">soldat maistre larron</rs>.</l>
                <!-- Saut#22 -->
                <anchor type="saut#22"/>
-               <l>C'est <reg>une</reg> regle de Grammaire,</l>
-               <l>Aux <orgName><reg>Advocats</reg></orgName> fort ordinaire,</l>
-               <l><hi rend="italic">Rectum persæpe tacemus</hi>.</l>
+               <l ana="#satire">C'est <reg>une</reg> regle de Grammaire,</l>
+               <l ana="#satire">Aux <rs type="occupation" subtype="avocat"><reg>Advocats</reg></rs>
+                  fort ordinaire,</l>
+               <l ana="#satire"><hi rend="italic">Rectum persæpe tacemus</hi>.<note resp="editor"
+                     type="glose">Détournement de la règle de la rhétorique latine en trait contre
+                     les avocats. On retrouve cette règle et les propos sur les vertugales dans une
+                     facétie de 1617 en forme d'éloge paradoxal du petit, <title>Le Diogène françois
+                        ou les facétieux discours du vray Anti-dotour comique blaisois</title>:
+                        <quote>M’objecteront davantage qu’elles portent de grandes vertugades. De
+                        rechef je leur respondray que c’est la verité ; mais Lycurgue appelle tels
+                        lève-culs cages de <hi rend="italic">Taurus</hi> et <hi rend="italic"
+                           >Geminj</hi>, où tous bons colliers peuvent aprendre la règle de <hi
+                           rend="italic">Rectum persæpe tacemus</hi>, joint que le naturel de la
+                        femme est tel, qu’il se passeroit plustôt de chemise que de bourrelet. Les
+                        masques et vertugades/ D’un tel crédit se sont ornez,/ Que les femmes
+                        seroient malades Sans leur culz et cachenez.</quote>. Voir A. Mercier [394
+                     [ex 199]], p. 685-686.</note></l>
                <!-- Saut#23 -->
                <anchor type="saut#23"/>
                <fw type="sig" place="bot-right">On en</fw>
                <pb n="86"/>
+               <ptr target="109"/>
                <fw type="PageNum" place="top-left">86</fw>
                <cb n="1"/>
                <l n="100" rend="indent" ana="#satire">On en verra bien de camus,</l>
                <l ana="#sit_mil">Quand viendra la paix generale:</l>
                <!-- Saut#24 -->
                <anchor type="saut#24"/>
-               <l ana="#mode">Aussi despuis la verdugale,<note type="editor" subtype="ling">Gros et
-                     large bourrelet que les Dames avoient accoustumé de porter au dessous de leur
-                     corps de robe. Vertugadin est son diminutif.</note></l>
+               <l ana="#mode">Aussi despuis la verdugale,<note type="editor" subtype="ling">Large
+                     bourrelet que les femmes portaient au-dessous de leur corps de robe. Vertugadin
+                     est son diminutif. Voir <hi rend="italic">infra</hi> v. 111.</note></l>
                <l ana="#mode">Engendra le verdugalin.</l>
                <!-- Saut#25 -->
                <anchor type="saut#25"/>
                <l n="104" rend="indent" ana="#motifs_sexuels">Les <reg>bons</reg> coups se font au
                      <placeName>molin</placeName><note resp="editor" type="ling">Jeu de mots entre
-                     le "moulin" qui peut désigner le sexe féminin et la locution <hi rend="italic"
-                        >Moudre de coups</hi>, "frapper", Di Stefano (2015), II, p.
-                     1129-1131.</note></l>
-               <l ana="#mtd"><reg>Je</reg> n'ose parler de Madame.</l>
+                     le <quote>moulin</quote> qui peut désigner le sexe féminin et la locution <hi
+                        rend="italic">Moudre de coups</hi>: <quote>frapper</quote>, Di Stefano
+                     (2015), II, p. 1129-1131.</note></l>
+               <l ana="#prétérition"><reg>Je</reg> n'ose parler de Madame.</l>
                <!-- Saut#26 -->
                <anchor type="saut#26"/>
                <l ana="#motifs_sexuels">Le droit, non le courbe la femme</l>
-               <l>Choisit, suivant de <persName key="Pelisson">Pelisson</persName></l>
-               <l n="108">La regle [<hi rend="italic">Ante caput rectum</hi>]</l>
-               <l>A la personne <reg>convenable</reg>.</l>
+               <l ana="#motifs_sexuels">Choisit, suivant de <persName ref="ind:Pellisson"
+                     key="Pelisson, Jean">Pelisson</persName><note resp="editor" type="glose">Jean
+                     Pellisson, pédagogue et grammairien, qui fut directeur du collège de Tournon.
+                  </note></l>
+               <l n="108" ana="#motifs_sexuels">La regle [<hi rend="italic">Ante caput
+                  rectum</hi>]</l>
+               <l ana="#motifs_sexuels">A la personne <reg>convenable</reg><note resp="editor"
+                     type="glose">Nouveau jeu d'équivoques grivoises.</note>.</l>
                <!-- Saut#27 -->
                <anchor type="saut#27"/>
-               <l rend="indent">Ha! qu'on a faict maint coup notable,</l>
-               <l>Despuis le port de haussecus,</l>
+               <l rend="indent" ana="#motifs_sexuels">Ha! qu'on a faict maint coup notable,</l>
+               <l ana="#mode">Despuis le port de haussecus,<note resp="editor" type="ling"><hi
+                        rend="italic">Hausse-cul</hi>: <quote>A French Vardingale; or (more
+                        properly) the kind of roll vsed by such women, as weare (or are to weare) no
+                        Vardingales</quote>, Cotgrave.</note></l>
                <!-- Saut#28 -->
                <anchor type="saut#28"/>
                <l n="112" ana="#cocuage">Car si les cornes des cocus,</l>
@@ -437,60 +487,65 @@
                <l ana="#cocuage"><reg>À</reg> cent centaines, &amp; miliers,</l>
                <!-- Saut#29 -->
                <anchor type="saut#29"/>
-               <l n="116">Quoy? faut-il chercher les paliers<note type="editor" subtype="ling"><hi
-                        rend="italic">Paliers</hi>: "Greniers à paille, à fourrage.",
-                  Huguet.</note></l>
-               <l> Pour <reg>jouer</reg> à la <reg><rs type="animal">chevre</rs></reg> morte,<note
-                     type="editor" subtype="ling"><hi rend="italic">Jouer à la chèvre morte</hi>:
-                     "Être sur le dos."</note></l>
+               <l n="116" ana="#motifs_sexuels">Quoy? faut-il chercher les paliers<note
+                     type="editor" subtype="ling"><hi rend="italic">Paliers</hi>: <quote>Greniers à
+                        paille, à fourrage</quote>, Huguet.</note></l>
+               <l ana="#motifs_sexuels"> Pour <reg>jouer</reg> à la <reg><rs type="animal"
+                        >chevre</rs></reg> morte,<note type="editor" subtype="ling"><hi
+                        rend="italic">Jouer à la chèvre morte</hi>: <quote>Être sur le
+                     dos.</quote></note></l>
                <!-- Saut#30 -->
                <anchor type="saut#30"/>
-               <l>S'il se faict bien derrier la porte,</l>
-               <l>Vous entendez le <hi rend="italic">Tu autem</hi><note type="editor" subtype="ling"
-                     >Le <hi rend="italic">tu autem</hi>: "L'essentiel, le principal, voire le
-                     tout", Huguet. L'<hi rend="italic">entendre</hi>, c'est être prompt à cerner la
-                     subtilité d'un propos. Cf. <title>La farce du pèlerin et de la pèlerine</title>
-                     dans le <title>Recueil général des sotties</title> d'Émile Picot, tome III, p.
-                     313, v. 170: "Le <hi rend="italic">tu autem</hi>? Ha! je t'entend;".</note></l>
+               <l ana="#motifs_sexuels">S'il se faict bien derrier la porte,</l>
+               <l ana="#motifs_sexuels">Vous entendez le <hi rend="italic">Tu autem</hi><note
+                     type="editor" subtype="ling">Le <hi rend="italic">tu autem</hi>:
+                        <quote>L'essentiel, le principal, voire le tout</quote>, Huguet. L'<hi
+                        rend="italic">entendre</hi>, c'est être prompt à cerner la subtilité d'un
+                     propos. Cf. <title>La farce du pèlerin et de la pèlerine</title> dans le
+                        <title>Recueil général des sotties</title> d'Émile Picot, tome III, p. 313,
+                     v. 170: <quote>Le <hi rend="italic">tu autem</hi>? Ha! je
+                     t'entend;</quote>.</note></l>
                <l n="120" ana="#mtd">Bien, qui ne m'enten, <reg>je</reg> m'enten,</l>
                <!-- Saut#31 -->
                <anchor type="saut#31"/>
-               <l>Car d'<reg>un</reg> village le premier,</l>
-               <l>C'est le vi le vi le <roleName>Viguier</roleName><note resp="editor" type="ling"
-                        ><hi rend="italic">Viguier</hi>: "Territoire soumis à la juridiction d'un
-                     viguier (titre de certains juges dans le midi de la France.)",
-                  Huguet.</note></l>
-               <l>Et le con le con le <roleName>Consul</roleName>,</l>
+               <l ana="#satire">Car d'<reg>un</reg> village le premier,</l>
+               <l ana="#satire">C'est le vi le vi le <roleName>Viguier</roleName><note resp="editor" type="ling"
+                        ><hi rend="italic">Viguier</hi>: <quote>Territoire soumis à la juridiction
+                        d'un viguier (titre de certains juges dans le midi de la France.)</quote>,
+                     Huguet.</note></l>
+               <l ana="#satire">Et le con le con le <roleName>Consul</roleName>,</l>
                <!-- Saut#32 -->
                <anchor type="saut#32"/>
-               <l n="124">Aussi despuis qu'il se voit seul,</l>
-               <l>Reduit aux abais il ne bouge,</l>
-               <l>Ains de douleur il <reg>devient</reg> rouge</l>
+               <l n="124" ana="#sat_pers">Aussi despuis qu'il se voit seul,</l>
+               <l ana="#sat_pers">Reduit aux abais il ne bouge,</l>
+               <l ana="#sat_pers">Ains de douleur il <reg>devient</reg> rouge</l>
                <!-- Saut#33 -->
                <anchor type="saut#33"/>
                <l ana="#corps">Les dens, la <reg>langue</reg>, les machoires,</l>
-               <l n="128">Ont maintenant beaucoup d'affaires,</l>
-               <l ana="#corps">Pour festoyer Monsieur le ventre.</l>
+               <l n="128" ana="#corps">Ont maintenant beaucoup d'affaires,</l>
+               <l ana="#hedo">Pour festoyer Monsieur le ventre.</l>
                <!-- Saut#34 -->
                <anchor type="saut#34"/>
-               <l>Qui va, qui vient, qui sort, qui entre,</l>
+               <l ana="#folie">Qui va, qui vient, qui sort, qui entre,<note resp="editor" type="crit">Cf. <quote>La Grue</quote>, réf.
+                     N°27: <quote>Es tu dedans? Bucque à la porte./ Je suis chassé. Qui est en ton
+                        lieu?</quote>, v. 100-101.</note></l>
                <cb n="2"/>
-               <l>Qui le faict mal, qui le faict bien.</l>
-               <l n="132">Qui dort, qui mord, qui ne dit <reg>rien</reg></l>
-               <l> Qui rit, qui <reg>chante</reg>, &amp; apres pleure.</l>
+               <l ana="#folie">Qui le faict mal, qui le faict bien.</l>
+               <l n="132" ana="#folie">Qui dort, qui mord, qui ne dit <reg>rien</reg></l>
+               <l ana="#folie"> Qui rit, qui <reg>chante</reg>, &amp; apres pleure.</l>
                <!-- Saut#35 -->
                <anchor type="saut#35"/>
-               <l rend="indent">Certes ce fut à la malheure,</l>
-               <l>Au Gas, achevez, Au Gas(con)</l>
-               <l n="136">Quand on luy apprint sa leçon.<note resp="editor" type="ling"><hi
-                        rend="italic">Apprendre sa leçon à qqn</hi>: "le corriger", Di Stefano,
-                     2015, II, p. 948.</note></l>
+               <l rend="indent" ana="#satire">Certes ce fut à la malheure,</l>
+               <l ana="#satire">Au Gas, achevez, Au Gas(con)</l>
+               <l n="136" ana="#satire">Quand on luy apprint sa leçon.<note resp="editor" type="ling"><hi
+                        rend="italic">Apprendre sa leçon à qqn</hi>: <quote>le corriger</quote>, Di
+                     Stefano, 2015, II, p. 948.</note></l>
                <!-- Saut#36 -->
                <anchor type="saut#36"/>
-               <l rend="indent">L'Italien docte en Grammaire,</l>
-               <l>Sçait comme la regle il faut faire,</l>
-               <l>Qui dict <hi rend="italic">Suorum post casum</hi>.<note type="editor"
-                     subtype="ling">Littéralement, "de son propre chef après la chute".</note></l>
+               <l rend="indent" ana="#satire"><orgName type="peuple" subtype="italien">L'Italien</orgName> docte en Grammaire,</l>
+               <l ana="#satire">Sçait comme la regle il faut faire,</l>
+               <l ana="#satire">Qui dict <hi rend="italic">Suorum post casum</hi>.<note type="editor"
+                     subtype="ling">Littéralement, <quote>après la chute des siens</quote>.</note></l>
                <!-- Saut#37 -->
                <anchor type="saut#37"/>
                <l n="140" rend="indent" ana="#motifs_sexuels">Il y aura demangeaison,</l>
@@ -499,21 +554,21 @@
                <anchor type="saut#38"/>
                <l ana="#rébus">Mesme que si on apparie,</l>
                <l ana="#rébus">La fleur de lis à <reg>un</reg> masson,</l>
-               <l n="l44" ana="#rébus">Il en naistra <reg>un</reg>
+               <l n="l44" ana="#rébus">Il en naistra <reg>un </reg>
                   <rs type="animal">limaçon</rs>.</l>
                <note resp="editor" type="crit">Dans la tradition du rébus.</note>
                <!-- Saut#39 -->
                <anchor type="saut#39"/>
-               <l rend="indent">Son tendre cœur ne veut qu'on compte,</l>
+               <l rend="indent" ana="#satire">Son tendre cœur ne veut qu'on compte,</l>
                <l ana="#motifs_sexuels">Qu'on vit le <reg>convi</reg> du Viconte</l>
-               <l>Ny mesme qu'on ait <reg>jamais</reg></l>
+               <l ana="#impossibilia">Ny mesme qu'on ait <reg>jamais</reg></l>
                <!-- Saut#40 -->
                <anchor type="saut#40"/>
                <l n="148" ana="#impossibilia">Vescu pres de la mer de <placeName type="city"
                      key="Metz">Metz</placeName>,</l>
                <!-- Saut#41 -->
                <anchor type="saut#41"/>
-               <l><hi rend="italic">La Delifriandicocate</hi>.</l>
+               <l><hi rend="italic" ana="#folie">La Delifriandicocate</hi>.<note resp="editor" type="glose">Mot inconnu, probablement valise.</note></l>
                <!-- Saut#42 -->
                <anchor type="saut#42"/>
                <l ana="#mtd">De tant parler <reg>je</reg> m'esgargate,</l>

@@ -5,241 +5,475 @@
    <teiHeader>
       <fileDesc xml:id="Marot_3">
          <titleStmt>
-            <title>Title</title>
+            <title type="idno">Réf. n°7: </title>
+            <title type="main">De Venise le dernier jour de Juillet l'an mil cinq cens trente six. Epistre envoyee par Clement Marot à Lyon Jamet</title>
+            <title type="incipit">De mon coq a l'asne dernier,</title>
+            <author>Marot, Clément</author>
          </titleStmt>
+         
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Transcription à partir du manuscrit 202(189B) de la bibliothèque municipale de Soissons.</p>
          </publicationStmt>
          <sourceDesc>
-            <p><listWit><witness><msDesc>
-                        <msIdentifier><settlement>Soissons, </settlement><repository>Bibliothèque municipale, </repository> <idno>ms. 202</idno></msIdentifier>
-            </msDesc></witness></listWit> </p>
+            <p><listWit>
+                  <witness xml:id="ms202"><msDesc>
+                        <msIdentifier>
+                           <settlement>Soissons, </settlement>
+                           <repository>Bibliothèque municipale, </repository>
+                           <idno>ms. 202(189B)</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness xml:id="fr4967"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris, </settlement>
+                           <repository>Bibliothèque nationale de France, </repository>
+                           <idno>fr. 4967</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness xml:id="fr2964"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris, </settlement>
+                           <repository>Bibliothèque nationale de France, </repository>
+                           <idno>fr. 2964</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+                  <witness xml:id="COL488"><msDesc>
+                        <msIdentifier>
+                           <settlement>Paris, </settlement>
+                           <repository>Bibliothèque nationale de France, </repository>
+                           <collection>Cinq cens de Colbert</collection>
+                           <idno>Volume 488</idno>
+                        </msIdentifier>
+                     </msDesc></witness>
+               </listWit>
+            </p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p>
+            <interpGrp>
+               <!-- A -->
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
+               <interp xml:id="actu" ana="actualité">actualité commentée</interp>
+               <interp xml:id="adr" ana="adresse">adresse</interp>
+               <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+               <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="amour" ana="amour">amour</interp>
+               <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+
+               <!-- B -->
+               <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
+               <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
+
+               <!-- C -->
+               <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
+               <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de
+                  l'épître</interp>
+               <interp xml:id="corruption" ana="corruption">corruption</interp>
+               <interp xml:id="corps" ana="corps">corps</interp>
+               <interp xml:id="cour" ana="court">vie de la cour</interp>
+               <interp xml:id="cri" ana="cri">cris des marchands</interp>
+               <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+
+               <!-- D -->
+               <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+               <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+
+               <!-- E -->
+               <interp xml:id="éloge" ana="éloge">éloge</interp>
+               <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+               <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="eschatologie" ana="eschatologie">conception eschatologique</interp>
+               <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
+               <interp xml:id="exhortation" ana="exhortation">exhortations et
+                  encouragements</interp>
+
+               <!-- F -->
+               <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
+               <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+               <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+
+               <!-- G -->
+               <interp xml:id="gén" ana="généralisation">généralisation</interp>
+               <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                  gnomique</interp>
+               <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
+
+               <!-- H -->
+               <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+               <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+
+
+               <!-- I -->
+               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
+                  l'adversaire</interp>
+               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+               <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+               <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
+               <interp xml:id="ironie" ana="ironie">ironie</interp>
+
+               <!-- L -->
+               <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+               <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+               <interp xml:id="topos" ana="topos">lieu commun</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+
+               <!-- M -->
+               <interp xml:id="maladie" ana="maladie">maladie</interp>
+               <interp xml:id="massacre" ana="massacre">massacre</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:id="météo" ana="météo">météorologie</interp>
+               <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+               <interp xml:id="misères" ana="misères">misères du temps</interp>
+               <interp xml:id="misogynie" ana="misogynie">misogynie</interp>
+               <interp xml:id="mode" ana="mode">mode</interp>
+               <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                  valeurs</interp>
+               <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+
+               <!-- N -->
+               <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
+
+
+               <!-- P -->
+               <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
+               <interp xml:id="persona" ana="persona">persona de Marot</interp>
+               <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+               <interp xml:id="pillage-s" ana="pillages">vols, pillages</interp>
+               <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
+               <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+               <interp xml:id="practiques" ana="practiques">practiques</interp>
+               <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="prière" ana="prière">prière</interp>
+               <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+               <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+               <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                  nécessaire</interp>
+
+               <!-- R -->
+               <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+               <interp xml:id="rébus" ana="rébus">rébus</interp>
+               <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="révélations" ana="révélations">révélation(s)</interp>
+               <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+               <interp xml:id="rire" ana="rire">rire</interp>
+               <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
+               <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+
+               <!-- S -->
+
+               <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+               <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="sergents" ana="sergents">contre les sergents</interp>
+               <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+               <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+               <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+               <interp xml:id="syllepse" ana="syllepse">syllepse</interp>
+
+               <!-- T -->
+               <interp xml:id="tauto" ana="tauto">tautologie</interp>
+               <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+               <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
+
+               <!-- V -->
+               <interp xml:id="vanité" ana="vanité">vanité</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="violences" ana="violences">violences</interp>
+            </interpGrp>
+         </p>
+      </encodingDesc>
+      <profileDesc><creation><date when="1536-07-31">1536-07</date></creation></profileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>
-            <l>De mon coq à l’asne dernier,</l>
-               <l><persName ref="ind:Jamet">Lyon</persName>, ce malheureux asnier,</l>
-               <l>Fol, foliant, imprudent, indiscret,</l>
-               <l n="4">Et moings sçavant q’ung docteur en decrect,</l>
-               <l>Ha, ha, dist il, c’est grand oultraige</l>
-               <l>De parler de tel personnaige</l>
-               <l>Que moy. En est il ung au monde</l>
-               <l n="8">En qui tant sçavoir habonde?</l>
-               <l>Et je responds: ouy, ouy vrayment,</l>
-               <l>Et n’y fust autre que <persName ref="ind:Marot">Clement</persName>.</l>
-               <l>Les latins, les grecs et hebreuz</l>
-               <l n="12">Luy sont langaiges tenebreux.</l>
-               <l>Mais en françoys de Heurepoix,</l>
-               <l>Et beaulx escuz d’or et de poix,</l>
-               <l>En quelque latin de marmite —</l>
-               <l n="16">Par nostre dame, je le quicte —</l>
-               <l>Pour vray il est le plus sçavant;</l> 
-               <l>C’est raison qu’il voyse devant.</l>
-               <l>Quant de sa proposition</l>
-               <l n="20">Touchant la fornication,</l>
-               <l>Il vauldroit mieulx la trouver bonne,</l>
-               <l>Qu’y besongner comme en Sorbonne.</l>
-               <l>Mais le maquart ne se contente,</l>
-               <l n="24">Et dit au gendre de sa tente,</l>
-               <l>S’il nous peult quelque jour avoir,</l>
-               <l>Il employra tout son povoir</l>
-               De nous faire brusler tous vifz.
-               De ma part, je n’en suis d’advis
-               Et n’y sçauroys prendre plaisir.
-               Toutefois, s’il en a desir,
-               Quand il sera prest qu’il me mande,
-               Et si je y voys, que l’on me pende.
-               Tu diras, mon amy Lyon, 
-               Pour moi quelque fidelium,
-               Ou quelque creux de profundis
-               Pour me tirer en paradis.
-               Mais, si trouvez qu’il soit ainsi,
-               Que au partir de ce monde icy
-               Nous soyons saulvez ou dampnez,
-               Ne dictes riens et me donnez
-               Ce petit mot en epitaphe,
-               Mais que soubz mon corps on le graphe : 
-               Cy pend ce fol qui s’est rendu
-               A Paris pour estre pendu.
-               Quant de celluy qui s’est fasché
-               Que me suis à lui ataché,
-               C’est ung meschant, faulx et flateur,
-               Insigne dissimulateur,
-               Et vindicatif à oultrance;
-               Mais je ne veulx que Lyon pense 
-               Que voulsisse de luy mentir;
-               Parquoy ne me puys repentir
-               D’en avoir dit ce qui est vray;
-               Et si me poingt, je descouvray
-               De plus grans cas qu’il a commis.
-               Qu’il ne face plus d’ennemys;
-               Il en a trop qui vivent bien;
-               Lors sera son amy, combien
-               Qu’il ne l’ayt en rien merité,
-               Le traistre plain de vanité;
-               Mais dieu vueille que l’on oublye
-               Ce que souffrons pour sa follye.
-               Je suys trop loing pour le luy dire,
-               Qui me contrainct de le rescripre.
-               Et si dit plus en duppliquant,
-               Pareillement et quant et quant,
-               Que savant est, il est bien pris;
-               Car encor qu’il en soit repris
-               De tous, mesmes de sa voysine,
-               Dont le mary faict bonne myne,
-               Il n’est possible qu’il s’en garde.
-               Chacun jour, quant il se regarde,
-               Il est tout certain qu’il se veoyt;
-               Je suis despit qu’il n’y pourveoit;
-               Mais il est bon, entendz icy;
-               J’en suys en merveilleux soucy.
-               Est ce de lui que j’ay escript?
-               Nenny non, c’est de l’antecrist.
-               Ce n’est pas luy, et si ne sçay,
-               Il en a faict son coup d’essay.
-               Nommez moy celluy qui s’en doubte!
-               Par mon nyda, je n’y veoys goutte!
-               Est ce point Judas ou Symon?
-               Non est, si est, c’est il, c’est mon!
-               Or me croyez, c’est Barrabas;
-               Prenez le, mettez le à bas!
-               Quel bruict, quelle pitié, quelle honte!
-               Voyla ce qu’on nous en racompte.
-               Venez ça, que respondez vous
-               A ce qu’il vous dit? Bran pour vous!
-               Je le congnoys, c’est ung grant prebstre.
-               Vous faillez, il le vouldroit estre,
-               Pourveu qu’il en eust acroché
-               Quelque abbaye ou evesché.
-               Mais, sans bonnet, sa teste nue
-               Est pour la mistre bien menue.
-               N’en parlez plus, parbieu, c’est il,
-               Tout ce qu’il sçayt n’est que babil;
-               Je n’en pourroys plus tant souffrir;
-               Voicy que je luy vueil offrir:
-               Luy bailler mon art et ma muse,
-               Pour en user comme j’en use,
-               En me resignant son office,
-               Car je sçay qu’elle m’est propice.
-               Faictes, si pouvez, qu’il s’i range;
-               Je suis trescontant de l’eschange.
-               L’estat est bon pour les affaires
-               De nous et noz petitz confreres.
-               Si de mon art ne peult chevir,
-               Voycy dont il pourra servir:
-               On m’a promis qu’il a renom
-               De salpêtre et poudre à canon
-               Avoir muni tout son cerveau;
-               Faites deux tappons de naveau
-               Et les luy mettez en la bouche,
-               Et puys après que l’on le couche
-               Tout de son long, et en l’oreille,
-               Tout doucement qu’il ne s’esveille,
-               Gectez y poudre pour l’emorche, 
-               Et gardez bien qu’on ne l’escorche,
-               Car ung homme bien empesché
-               Seroit d’un regnard escorché.
-               Et cela faict, qu’on le repute
-               Pour servir d’une haquebute.
-               Jamais homme n’en parla mieulx;
-               Les tappons sortiront des yeulx
-               Et feront ung merveilleux bruict;
-               Et si la fouldre les conduict,
-               Ilz fraperont deux tous d’un coup.
-               Cela leur servira beaucoup
-               Pour deschasser leurs ennemys;
-               Car s’ilz ne sont fort endormyz,
-               Tel canon leur donnera craincte.
-               Pleust à dieu qu’il feust à la poincte
-               Du premier chocq, ce gros marault
-               Qui a crié sur nous harault
-               Et nous a chassez du pays.
-               Nous estions assez esbahys,
-               Lyon, il t’en peult souvenir;
-               Il n’estoit temps de revenir;
-               Il failloit chercher seureté
-               Du paouvre Clement arresté,
-               Qui surprins estoit à Bordeaulx
-               Par vingt ou quarante bedeaulx
-               Des sergens dudict parlement.
-               Je diz que je n’estoys Clement
-               Ne Marot, mais ung bon Guillaume
-               Qui, pour le prouffict du Royaume,
-               Portoys en grande dilligence
-               Paquet et lettres de creance.
-               Je n’avoys encores souppé,
-               Mais si tost que fuz eschappé,
-               Je m’en allay ung peu plus loing;
-               Par dieu, il en estoit besoing;
-               Car pour ung tel pauvre souldart
-               Que Clement, qui n’est point pendart,
-               N’y fut faict plus grande grande poursuicte.
-               J’avoys chacun jour à ma suicte
-               Gens de pied et gens de cheval;
-               Et lors je prins le vent d’aval,
-               Et sur petitz chevaux legiers
-               Je me mis hors de tous dangiers,
-               J’entendz pourveu que je me tienne
-               Là où je suys en bonne estraine.
-               Si nous feussions demourez là?
-               Tel y estoit qui n’en parla
-               Jamais, depuis que j’en partis.
-               Ilz ont esté si bien rotys
-               Qu’ilz sont tous convertiz en cendre.
-               Or jamais ne vous laissez prendre,
-               S’il est possible de fouyr;
-               Car tousjours on vous peult ouyr
-               Tout à loysir et sans collere;
-               Mais en fureur de telle affaire
-               Il vault mieulx s’excuser d’absence
-               Qu’estre bruslé en sa presence.
-               Des nouvelles de par deça:
-               L’autre jour, quant il trespassa,
-               L’empereur, il ne l’estoit pas,
-               Et n’avoit pas passé le pas
-               Pour dire qu’il fust trespassé.
-               Il est bien gray qu’il est passé
-               De l’Ytalye en la Prouvence.
-               Les Françoys crient : vive France,
-               Les Espaignolz : vive l’empire,
-               Il n’y a pas pour tous à rire.
-               Le plus hardy n’est sans terreur.
-               N’est ce pas ung trop grant erreur,
-               Pour les biens qui ne sont que terre,
-               D’exciter si horrible guerre?
-               Les gensdarmes sont furieux,
-               Chocquans au visaige &amp; aux yeulx.
-               Il ne fault qu’une telle lorgne
-               Pour faire une gentilhomme borgne;
-               Il ne fault qu’un trait d’arbaleste,
-               Passant au travers de la teste,
-               Pour estonner ung bon cerveau.
-               J’aymeroys autant estre veau
-               Qui va droit à la boucherie
-               Que aller à telle tuerie.
-               C’est assez d’un petit boullet,
-               Qui poingt ung souldart au collet,
-               Pour empescher de jamais boire.
-               Fy, fy, de mourir pour la gloire,
-               Ou, pour se faire grant seigneur,
-               D’aller mourir au lict d’honneur,
-               D’un gros canon parmy le corps,
-               Qui passe tout oultre dehors.
-               Par ma foy, je ne vouldroys point
-               Qu’on gallast ainsi mon pourpoint
-               Et la livrée du cappitaine.
-               Hau, compaignon, levez l’enseigne;
-               Celluy qui la portait est bas!
-               Sangbieu, voila de beaulx esbas!
-               Voila comment on se gouverne
-               Dedans une bonne taverne.
-               J’oseroys entrer hardyment,
-               Mais où l’on frappe nullement;
-               <l>C’est ainsi que <persName ref="ind:Marot">Clement</persName> devise,</l>
-               <l>Vivant en paix dedans <placeName type="city" key="Venise">Venise</placeName>.</l>
+         <p><pb n="175v"/>
+            <l ana="#mtd">De mon coq à l’asne dernier<add resp="editor" type="ponctuation"
+               >,</add></l>
+            <l ana="#sat_pers"><persName ref="ind:Jamet" type="destinataire" key="Jamet, Lyon"
+                  >Lyon</persName><add resp="editor" type="ponctuation">,</add>
+               <rs type="invective">ce malheureux asnier</rs><add resp="editor" type="ponctuation"
+                  >,</add></l>
+            <l ana="#sat_pers"><app>
+                  <lem wit="#ms202">Follet</lem>
+                  <rdg wit="#fr4967 fr2964">Fol, foliant</rdg>
+               </app><add resp="editor" type="ponctuation">,</add> imprudent<add resp="editor"
+                  type="ponctuation">,</add> indiscret<add resp="editor" type="ponctuation"
+               >,</add></l>
+            <l n="4" ana="#sat_pers"><app>
+                  <lem>Ainsi qu'ung</lem>
+                  <rdg wit="#fr4967">Et moings sçavant</rdg>
+               </app> docteur en decret<add resp="editor" type="ponctuation">,</add></l>
+            <l><add resp="editor" type="ponctuation"
+                  >"</add>Ha, ha<add resp="editor" type="ponctuation"
+                     >,</add>, dist il, <reg>c’est</reg> grand oultraige</l>
+            <l>De <expan>parler</expan> de tel <expan>personnaige</expan></l>
+            <l>Que moy<add resp="editor" type="ponctuation">.</add> En est il ung au monde</l>
+            <l n="8">En qui tant sçavoir habonde<add resp="editor" type="ponctuation">?</add><add resp="editor" type="ponctuation"
+                  >"</add></l>
+            <l>Et je respons<add resp="editor" type="ponctuation">:</add> <add resp="editor" type="ponctuation"
+                  >"</add>ouy<add resp="editor"
+                  type="ponctuation">,</add> ouy vrayement<add resp="editor" type="ponctuation"
+                  >,</add></l>
+            <l ana="#persona">Et ne feust autre que <persName ref="ind:Marot" key="Marot, Clément"
+                  >Clement</persName><add resp="editor" type="ponctuation">.</add><add resp="editor" type="ponctuation"
+                     >"</add></l>
+            <l>Les latins<add resp="editor" type="ponctuation"
+                  >,</add> les grecs<add resp="editor" type="ponctuation"
+                     >,</add> les hebreuz</l>
+            <l n="12">Luy sont langaiges tenebreux<add resp="editor" type="ponctuation"
+                  >.</add></l>
+            <l>Mais en françois de Heurepoix</l>
+            <l>Et beaulx escuz <reg>d’or</reg> et de poix<add resp="editor" type="ponctuation"
+                  >,</add></l>
+            <l>En quelque latin de marmytte</l>
+            <l n="16"><rs type="interjection">Par <expan>Nostre</expan> Dame</rs><add resp="editor" type="ponctuation"
+                  >,</add> je le quicte</l>
+            <l ana="#ironie">Pour vray il est le plus sçavant<add resp="editor" type="ponctuation"
+                  >,</add></l>
+            <l>C’est raison qu’il voise devant<add resp="editor" type="ponctuation"
+                  >.</add></l>
+            <l rend="indent">Quant de sa proposition</l>
+            <l n="20">Touchant la <expan>fornication</expan><add resp="editor" type="ponctuation"
+                  >,</add></l>
+            <l>Il vauldroit mieulx la trouver bonne</l>
+            <l ana="#satire">Que d'y besongner en <placeName key="Sorbonne">Sorbonne</placeName><add resp="editor" type="ponctuation"
+                  >.</add></l>
+            <l>Mais le <rs type="invective">maquart</rs> ne se contente,</l>
+            <l n="24">Et dict au gendre de sa tante,</l>
+            <l><reg>S’il</reg> nous peult quelque jour avoir,</l>
+            <l>Il emploiera tout son povoir</l>
+            
+            
+            <pb n="176r"/>
+            <l ana="#persécutions">De nous faire brusler tous vifz.</l>
+            <l n="28" ana="#ironie">De ma part, je n’en suis d’avis</l>
+            <l ana="#ironie">Et n’y sçauroys prendre plaisir<add resp="editor" type="ponctuation">.</add></l>
+            <l>Toutesfois<add resp="editor" type="ponctuation">,</add><add resp="editor" type="ponctuation">,</add></l>
+            <l>Quant il sera prest <expan>qu’il</expan> me mande<add resp="editor" type="ponctuation">,</add></l>
+            <l n="32" ana="ethos">Et si je y veois que l’on me pende<add resp="editor" type="ponctuation">.</add></l>
+            <l ana="#Plmq #adr">Tu diras<add resp="editor" type="ponctuation">,</add> mon amy <persName ref="ind:Jamet" type="destinataire" key="Jamet, Lyon"
+                  >Lyon</persName><add resp="editor" type="ponctuation">,</add></l>
+            <l ana="#Plmq">Pour moy quelque <hi rend="italic">fidelium</hi><add resp="editor" type="ponctuation">,</add></l>
+            <l ana="#Plmq">Ou quelque creux <hi rend="italic">de profundis</hi></l>
+            <l n="36" ana="#Plmq">Pour me tirer en <placeName type="paradis">paradis</placeName>.</l>
+            <l>Mais, si trouvez qu’il soit ainsi,</l>
+            <l>Que au partir de ce monde icy</l>
+            <l>Nous soyons saulvez ou dampnez,</l>
+            <l n="40">Ne dictes riens et me donnez</l>
+            <l>Ce petit mot en epitaphe,</l>
+            <l>Mais que soubz mon corps on le graphe:</l>
+            <l>Cy pend ce fol qui s’est rendu</l>
+            <l n="44"><reg>À</reg>
+               <placeName type="city" key="Paris">Paris</placeName> pour estre pendu.</l>
+            <l>Quant de celluy qui s’est fasché</l>
+            <l>Que me suis à lui ataché,</l>
+            <l>C’est ung meschant, faulx et flateur,</l>
+            <l n="48">Insigne dissimulateur,</l>
+            <l>Et vindicatif à oultrance;</l>
+            <l>Mais je ne veulx que Lyon pense</l>
+            <l>Que voulsisse de luy mentir;</l>
+            <l n="52">Parquoy ne me puys repentir</l>
+            <l>D’en avoir dit ce qui est vray;</l>
+            <l>Et si me poingt, je descouvray</l>
+            <l>De plus grans cas qu’il a commis.</l>
+            <l n="56">Qu’il ne face plus d’ennemys;</l>
+            <l>Il en a trop qui vivent bien;</l>
+            <l>Lors sera son amy, combien</l>
+            <l>Qu’il ne l’ayt en rien merité,</l>
+            <l n="60">Le traistre plain de vanité;</l>
+            <l>Mais dieu vueille que l’on oublye</l>
+            <l ana="#persécutions">Ce que souffrons pour sa follye.</l>
+            <l>Je suys trop loing pour le luy dire,</l>
+            <l n="64" ana="#mtd">Qui me contrainct de le rescripre.</l>
+            <l>Et si dit plus en duppliquant,</l>
+            <l>Pareillement et quant et quant,</l>
+            <l>Que savant est, il est bien pris;</l>
+            <l n="68">Car encor qu’il en soit repris</l>
+            <l>De tous, mesmes de sa voysine,</l>
+            <l ana="#cocuage">Dont le mary faict bonne myne,</l>
+            <l>Il n’est possible qu’il s’en garde.</l>
+            <l n="72">Chacun jour, quant il se regarde,</l>
+            <l>Il est tout certain qu’il se veoyt;</l>
+            <l>Je suis despit qu’il n’y pourveoit;</l>
+            <l>Mais il est bon, entendz icy;</l>
+            <l n="76">J’en suys en merveilleux soucy.</l>
+            <l>Est ce de lui que j’ay escript?</l>
+            <l>Nenny non, c’est de l’<persName key="Antéchrist">antecrist</persName>.</l>
+            <l>Ce n’est pas luy, et si ne sçay,</l>
+            <l n="80">Il en a faict son coup d’essay.</l>
+            <l>Nommez moy celluy qui s’en doubte!</l>
+            <l>Par mon nyda, je n’y veoys goutte!</l>
+            <l>Est ce point <persName>Judas</persName> ou <persName>Symon</persName>?</l>
+            <l n="84">Non est, si est, c’est il, c’est mon!</l>
+            <l>Or me croyez, c’est <persName>Barrabas</persName>;</l>
+            <l>Prenez le, mettez le à bas!</l>
+            <l>Quel bruict, quelle pitié, quelle honte!</l>
+            <l n="88">Voyla ce qu’on nous en racompte.</l>
+            <l>V</l>enez ça, que respondez vous <l>A ce qu’il vous dit? Bran pour vous!</l>
+            <l>Je le congnoys, c’est ung grant prebstre.</l>
+            <l n="92">Vous faillez, il le vouldroit estre,</l>
+            <l>Pourveu qu’il en eust acroché</l>
+            <l>Quelque abbaye ou evesché.</l>
+            <l>Mais, sans bonnet, sa teste nue</l>
+            <l n="96">Est pour la mistre bien menue.</l>
+            <l>N’en parlez plus, parbieu, c’est il,</l>
+            <l>Tout ce qu’il sçayt n’est que babil;</l>
+            <l>Je n’en pourroys plus tant souffrir;</l>
+            <l n="100">Voicy que je luy vueil offrir:</l>
+            <l>Luy bailler mon art et ma muse,</l>
+            <l>Pour en user comme j’en use,</l>
+            <l>En me resignant son office,</l>
+            <l n="104">Car je sçay qu’elle m’est propice.</l>
+            <l><rs type="injonction" subtype="impératif">Faictes</rs>, si pouvez, qu’il s’i
+               range;</l>
+            <l>Je suis trescontant de l’eschange.</l>
+            <l>L’estat est bon pour les affaires</l>
+            <l n="108">De nous et noz petitz confreres.</l>
+            <l>Si de mon art ne peult chevir,</l>
+            <l>Voycy dont il pourra servir:</l>
+            <l>On m’a promis qu’il a renom</l>
+            <l n="112">De salpêtre et poudre à canon</l>
+            <l>Avoir muni tout son cerveau;</l>
+            <l>Faites deux tappons de naveau</l>
+            <l>Et les luy mettez en la bouche,</l>
+            <l n="116">Et puys après que l’on le couche</l>
+            <l>Tout de son long, et en l’oreille,</l>
+            <l>Tout doucement qu’il ne s’esveille,</l>
+            <l><rs type="injonction" subtype="impératif">Gectez</rs> y poudre pour l’emorche,</l>
+            <l n="120">Et <rs type="injonction" subtype="impératif">gardez</rs> bien qu’on ne
+               l’escorche</l>, <l>Car ung homme bien empesché</l>
+            <l>Seroit d’un <rs type="animal" key="renard">regnard</rs> escorché.</l>
+            <l>Et cela faict, qu’on le repute</l>
+            <l n="124">Pour servir d’une <rs type="arme" subtype="haquebute">haquebute</rs>.</l>
+            <l>Jamais homme n’en parla mieulx;</l>
+            <l>Les tappons sortiront des yeulx</l>
+            <l>Et feront ung merveilleux bruict;</l>
+            <l n="128">Et si la fouldre les conduict,</l>
+            <l>Ilz fraperont deux tous d’un coup.</l>
+            <l>Cela leur servira beaucoup</l>
+            <l>Pour deschasser leurs ennemys;</l>
+            <l n="132">Car s’ilz ne sont fort endormyz,</l>
+            <l>Tel canon leur donnera craincte.</l>
+            <l>Pleust à dieu qu’il feust à la poincte</l>
+            <l>Du premier chocq, <rs type="invective">ce gros marault</rs></l>
+            <l n="136">Qui a crié sur nous harault</l>
+            <l>Et nous a chassez du pays.</l>
+            <l>Nous estions assez esbahys,</l>
+            <l><persName ref="ind:Jamet" key="Jamet, Lyon">Lyon</persName>, il t’en peult
+               souvenir;</l>
+            <l n="140">Il n’estoit temps de revenir;</l>
+            <l>Il failloit chercher seureté</l>
+            <l ana="#persona">Du paouvre <persName ref="ind:Marot" key="Marot, Clément"
+                  >Clement</persName> arresté,</l>
+            <l>Qui surprins estoit à <placeName type="city" key="Bordeaux">Bordeaulx</placeName></l>
+            <l n="144">Par vingt ou quarante bedeaulx</l>
+            <l>Des sergens dudict parlement.</l>
+            <l>Je diz que je n’estoys Clement</l>
+            <l>Ne Marot, mais ung bon Guillaume</l>
+            <l n="148">Qui, pour le prouffict du Royaume,</l>
+            <l>Portoys en grande dilligence</l>
+            <l>Paquet et lettres de creance.</l>
+            <l>Je n’avoys encores souppé,</l>
+            <l n="152">Mais si tost que fuz eschappé,</l>
+            <l>Je m’en allay ung peu plus loing;</l>
+            <l>Par dieu, il en estoit besoing;</l>
+            <l>Car pour ung tel pauvre souldart</l>
+            <l n="156">Que Clement, qui n’est point pendart,</l>
+            <l>N’y fut faict plus grande grande poursuicte.</l>
+            <l>J’avoys chacun jour à ma suicte</l>
+            <l>Gens de pied et gens de cheval;</l>
+            <l n="160">Et lors je prins le vent d’aval,</l>
+            <l>Et sur petitz chevaux legiers</l>
+            <l>Je me mis hors de tous dangiers,</l>
+            <l>J’entendz pourveu que je me tienne</l>
+            <l n="164">Là où je suys en bonne estraine.</l>
+            <l>Si nous feussions demourez là?</l>
+            <l>Tel y estoit qui n’en parla</l>
+            <l>Jamais, depuis que j’en partis.</l>
+            <l n="168" ana="#persécutions">Ilz ont esté si bien rotys</l>
+            <l ana="#persécutions">Qu’ilz sont tous convertiz en cendre.</l>
+            <l>Or jamais ne vous laissez prendre,</l>
+            <l>S’il est possible de fouyr;</l>
+            <l n="172">Car tousjours on vous peult ouyr</l>
+            <l>Tout à loysir et sans collere;</l>
+            <l>Mais en fureur de telle affaire</l>
+            <l>Il vault mieulx s’excuser d’absence</l>
+            <l n="176">Qu’estre bruslé en sa presence.</l>
+            <l ana="#leitmotiv">Des nouvelles de par deça:</l>
+            <l>L’autre jour, quant il trespassa,</l>
+            <l><persName ref="ind:Charles-Quint" key="Charles-Quint">L’empereur</persName>, il ne
+               l’estoit pas,</l>
+            <l n="180">Et n’avoit pas passé le pas</l>
+            <l>Pour dire qu’il fust trespassé.</l>
+            <l>Il est bien gray qu’il est passé</l>
+            <l>De l’<placeName type="country" key="Italie">Ytalye</placeName> en la <placeName
+                  type="region" key="Provence">Prouvence</placeName>.</l>
+            <l n="184">Les <orgName type="peuple" subtype="françois">Françoys</orgName> crient :
+               vive <placeName type="country" key="France">France</placeName>,</l>
+            <l>Les <orgName type="peuple" subtype="espagnol">Espaignolz</orgName>: vive
+               l’empire,</l>
+            <l>Il n’y a pas pour tous à rire.</l>
+            <l>Le plus hardy n’est sans terreur.</l>
+            <l n="188">N’est ce pas ung trop grant erreur,</l>
+            <l>Pour les biens qui ne sont que terre,</l>
+            <l>D’exciter si horrible guerre?</l>
+            <l ana="#violences">Les gensdarmes sont furieux,</l>
+            <l n="192" ana="#violences">Chocquans au visaige &amp; aux yeulx.</l>
+            <l>Il ne fault qu’une telle lorgne</l>
+            <l>Pour faire une gentilhomme borgne;</l>
+            <l>Il ne fault qu’un trait d’<rs type="arme" subtype="arbalète">arbaleste</rs>,</l>
+            <l n="196">Passant au travers de la teste,</l>
+            <l>Pour estonner ung bon cerveau.</l>
+            <l>J’aymeroys autant estre <rs type="animal" subtype="ovidé" key="veau">veau</rs></l>
+            <l>Qui va droit à la boucherie</l>
+            <l n="200">Que aller à telle tuerie.</l>
+            <l>C’est assez d’un petit boullet,</l>
+            <l>Qui poingt ung souldart au collet,</l>
+            <l>Pour empescher de jamais boire.</l>
+            <l n="204">Fy, fy, de mourir pour la gloire,</l>
+            <l>Ou, pour se faire grant seigneur,</l>
+            <l>D’aller mourir au lict d’honneur,</l>
+            <l>D’un gros canon parmy le corps,</l>
+            <l n="208">Qui passe tout oultre dehors.</l>
+            <l>Par ma foy, je ne vouldroys point</l>
+            <l>Qu’on gallast ainsi mon pourpoint</l>
+            <l>Et la livrée du cappitaine.</l>
+            <l n="212">Hau, compaignon, levez l’enseigne;</l>
+            <l>Celluy qui la portait est bas!</l>
+            <l><rs type="interjection" subtype="juron">Sangbieu</rs>, voila de beaulx esbas!</l>
+            <l>Voila comment on se gouverne</l>
+            <l n="216">Dedans une bonne taverne.</l>
+            <l>J’oseroys entrer hardyment,</l>
+            <l>Mais où l’on frappe nullement;</l>
+            <l>C’est ainsi que <persName ref="ind:Marot">Clement</persName> devise,</l>
+            <l n="220">Vivant en paix dedans <placeName type="city" key="Venise"
+               >Venise</placeName>.</l>
          </p>
       </body>
    </text>

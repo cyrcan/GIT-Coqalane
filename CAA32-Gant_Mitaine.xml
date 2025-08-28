@@ -1,209 +1,440 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/xsl" href="SortieHtml.xsl"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD/tei_caa_ana-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
-      <fileDesc>
+      <fileDesc xml:id="Gan_Mitaine">
          <titleStmt>
-            <title xml:id="Gan_Mitaine">À l'un le gan et l'autre la mitaine</title>
+            <title type="idno">Réf. n°32: </title>
+            <title type="main">À l'un le gan et l'autre la mitaine</title>
+            <title type="incipit">Je me rens à vous cappitaine</title>
+            <author>Anonyme</author>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Transcription à partir de l'unique témoin. Cette épître est un coq-à-l'âne par sa
+               forme. Elle est un commentaire de l'actualité par un soldat durant la neuvième guerre
+               d'Italie, alors que Boulogne est menacée. Composition probable entre fin 1542 et
+               1543.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Unique témoin connnu à ce jour.</p>
+            <listWit>
+               <witness xml:id="ms2964"><msDesc>
+                     <msIdentifier>
+                        <settlement>Paris, </settlement>
+                        <repository> Bibliothèque nationale de France, </repository>
+                        <collection>manuscrit Gueffier, </collection>
+                        <idno>Rothschild 2964</idno>
+                     </msIdentifier>
+                  </msDesc></witness>
+            </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="ind" matchPattern="([a-z]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
+                  Index du projet</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="([0-9]+)"
+               replacementPattern="https://www.geonames.org/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
+                  données géographiques GeoNames.</p>
+            </prefixDef>
+            <prefixDef ident="ms" matchPattern="([0-9]+)"
+               replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
+                  Sources Manuscrites du projet.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <p>
+            <interpGrp>
+               <!-- A -->
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
+               <interp xml:id="actu" ana="actualité">actualité commentée</interp>
+               <interp xml:id="adr" ana="adresse">adresse</interp>
+               <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
+               <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="amour" ana="amour">amour</interp>
+               <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+
+               <!-- B -->
+               <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
+               <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
+
+               <!-- C -->
+               <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
+               <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de
+                  l'épître</interp>
+               <interp xml:id="corruption" ana="corruption">corruption</interp>
+               <interp xml:id="corps" ana="corps">corps</interp>
+               <interp xml:id="cour" ana="court">vie de la cour</interp>
+               <interp xml:id="cri" ana="cri">cris des marchands</interp>
+               <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
+
+               <!-- D -->
+               <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+               <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+
+               <!-- E -->
+               <interp xml:id="éloge" ana="éloge">éloge</interp>
+               <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
+               <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="eschatologie" ana="eschatologie">conception eschatologique</interp>
+               <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
+               <interp xml:id="exhortation" ana="exhortation">exhortations et
+                  encouragements</interp>
+
+               <!-- F -->
+               <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
+               <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+               <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
+
+               <!-- G -->
+               <interp xml:id="gén" ana="généralisation">généralisation</interp>
+               <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                  gnomique</interp>
+               <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
+
+               <!-- H -->
+               <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+               <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+
+
+               <!-- I -->
+               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
+                  l'adversaire</interp>
+               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+               <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+               <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
+               <interp xml:id="ironie" ana="ironie">ironie</interp>
+
+               <!-- L -->
+               <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+               <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+               <interp xml:id="topos" ana="topos">lieu commun</interp>
+               <interp xml:id="ligue" ana="ligue">ligue</interp>
+
+               <!-- M -->
+               <interp xml:id="maladie" ana="maladie">maladie</interp>
+               <interp xml:id="massacre" ana="massacre">massacre</interp>
+               <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+               <interp xml:id="météo" ana="météo">météorologie</interp>
+               <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+               <interp xml:id="misères" ana="misères">misères du temps</interp>
+               <interp xml:id="misogynie" ana="misogynie">misogynie</interp>
+               <interp xml:id="mode" ana="mode">mode</interp>
+               <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                  valeurs</interp>
+               <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+
+               <!-- N -->
+               <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
+
+
+               <!-- P -->
+               <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
+               <interp xml:id="persona" ana="persona">persona de Marot</interp>
+               <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+               <interp xml:id="pillage-s" ana="pillages">vols, pillages</interp>
+               <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
+               <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+               <interp xml:id="practiques" ana="practiques">practiques</interp>
+               <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="prière" ana="prière">prière</interp>
+               <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+               <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+               <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                  nécessaire</interp>
+
+               <!-- R -->
+               <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+               <interp xml:id="rébus" ana="rébus">rébus</interp>
+               <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="révélations" ana="révélations">révélation(s)</interp>
+               <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+               <interp xml:id="rire" ana="rire">rire</interp>
+               <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
+               <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+
+               <!-- S -->
+
+               <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+               <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+               <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+               <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="sergents" ana="sergents">contre les sergents</interp>
+               <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+               <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+               <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+               <interp xml:id="syllepse" ana="syllepse">syllepse</interp>
+
+               <!-- T -->
+               <interp xml:id="tauto" ana="tauto">tautologie</interp>
+               <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+               <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+               <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
+
+               <!-- V -->
+               <interp xml:id="vanité" ana="vanité">vanité</interp>
+               <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="violences" ana="violences">violences</interp>
+            </interpGrp>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <creation><date when="1543">1543</date></creation>
+      </profileDesc>
       <revisionDesc>
-         <change><date>14-09-2023</date>Encodage de type 1.</change>
-         <change><date>16-09-2023</date>Encodage de type 2. Correction et ajout des sauts
-            logiques.</change>
+         <change><date when="2023-09-14">14 septembre 2023: </date>Encodage de type 1.</change>
+         <change><date when="2023-09-23">23 septemebre 2023: </date>Encodage de type 2. Correction
+            et ajout des sauts logiques.</change>
+         <change><date when="2025-07-31">31 juillet 2025: </date>Ajout des balises 'anchor',
+            précision des sauts, amorce des balises 'ana'</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <listBibl>
-            <msDesc>
-               <msIdentifier>
-                  <settlement>Paris Bibliothèque nationale de France</settlement>
-                  <repository>Recueil Gueffier</repository>
-                  <idno>ms. 2964</idno>
-               </msIdentifier>
-            </msDesc>
-         </listBibl>
-         <pb n="114r"/>
-         <l>Je me rens <reg>à</reg> vous <roleName>cappitaine</roleName></l>
-         <l>Les dentz vous font il tousjours peine</l>
-         <!-- Saut#1 -->
-         <l>Incessamment jour <reg>et</reg> sepmaine</l>
-         <l n="4">Vous tenez tousjours la main haulte</l>
-         <note resp="editor" type="ling">Vous ne laissez que peu de liberté.</note>
-         <note resp="editor" type="ling"/>
-         <!-- Saut#2 -->
-         <l>Ilz chevaulchent en une hotte</l>
-         <l>Pource qu'ilz ont perdu leurs houzeaulx</l>
-         <note resp="editor" type="ling">"Laisser les houseaux" signifie "mourir" (Huguet).</note>
-         <!-- Saut#3 -->
-         <l>Les neiges acroistront les eaues</l>
-         <l n="8">Ceste année si le temps dure</l>
-         <!-- Saut#4 -->
-         <l>Si <expan>vostre</expan> matiere est trop dure</l>
-         <l><rs type="injonction" subtype="impératif">Faictes vous bailler</rs> ung clistere</l>
-         <!-- Saut#5 -->
-         <l>C'est ung merveilleux mistere</l>
-         <l n="12">De racompter <expan>nostre</expan> desduict</l>
-         <note resp="editor" type="crit">Ironie probable quant à la condition des soldats.</note>
-         <!-- Saut#6 -->
-         <l><persName>Maistre Pierre</persName> fait tousjours bruict</l>
-         <l>Allé <unclear>bene bave</unclear> chanté</l>
-         <l>Il a bien dancé que fleusté</l>
-         <l n="16">Troys cens chancons pour une nuyt</l>
-         <!-- Saut#7 -->
-         <l>En lieu de combatre il s'en fuyt</l>
-         <l>Ils sont bien loing si vont tousjours</l>
-         <!-- Saut#8 -->
-         <l>Il y aura mardi deux jours</l>
-         <l n="20">Que la poste fut despeschée</l>
-         <l><persName>Maistre Jehan</persName> je l'ay fort hastée</l>
-         <l>Pour envoyer votre paquet</l>
-         <!-- Saut#9 -->
-         <pb n="114v°"/>
-         <l>On dit qu'<orgName type="peuple">Espagnolz</orgName> font le guet</l>
-
-         <l n="24">Pour donner l'assault à <placeName><settlement type="city" key="Boulogne"
-                  >Boullongne</settlement></placeName></l>
-         <!-- Datation -->
-         <!-- Saut#10 -->
-         <l>Le doulx <persName><expan>Guillaume de </expan><placeName><settlement type="city"
-                     key="Colognes">Coullongne</settlement></placeName></persName></l>
-         <l>Est il pas <expan>vostre</expan> lieutenant</l>
-         <!-- Saut#11 -->
-         <l>Sera il tousjours si tenant</l>
-         <note resp="editor" type="ling">Ferme</note>
-         <l n="28">De casser les gens à la monstre</l>
-         <note resp="editor" type="ling">À la vue</note>
-         <note resp="editor" type="ling"/>
-         <!-- Saut#12 -->
-         <l>S'il advient que faciez rencontre</l>
-         <l>Pensez de retirer noz rentes</l>
-         <!-- Saut#13 -->
-         <l>On dit que <orgName type="peuple">Bretons</orgName> sont à <placeName><settlement
-                  type="city">Nantes</settlement></placeName></l>
-         <l n="32">Et <orgName type="peuple">Venissiens</orgName> sont à <placeName><settlement
-                  type="city">Bresse</settlement></placeName></l>
-         <!-- Saut#14 -->
-         <l><rs type="injonction" subtype="défense">Gardez vous</rs> de mectre en la presse</l>
-         <l><rs type="injonction" subtype="impératif">Tirez vous</rs> pres de la cuysine</l>
-         <!-- Saut#15 -->
-         <l>Je vous envoye une <rs type="animal" subtype="gallinacée">geline</rs></l>
-         <l n="36">Pour l'esbat de <expan>vostre</expan>
-            <rs type="animal">levrier</rs></l>
-         <!-- Saut#16 -->
-         <l><persName>Jaques Thonart</persName> perdit son bauldrier</l>
-         <l>L'autre jour aupres de croquaye</l>
-         <!-- Saut#17 -->
-         <note resp="editor" type="ling"/>
-         <l>L'argentier y fut despoille</l>
-         <l n="40">Et ilz laisserent leur monnoye</l>
-         <!-- Saut#18 -->
-         <l><expan>Vostre</expan> collet borde les <rs type="animal">martres</rs></l>
-         <note type="ling" resp="editor"/>
-         <l>Qu'on feist fourrer avec deux tartres</l>
-         <!-- Saut#19 -->
-         <l>Vous sera il tousjours si gros doz</l>
-         <note resp="editor" type="ling">On trouve chez Jehan Marot (Voyage de Venise) et Rabelais
-            l'expression "Gros bis" pour désigner un homme qui fait l'important.</note>
-         <l n="44">Nous aurons marche de sabotz</l>
-         <l>On dit que les <orgName type="peuple">Angloys</orgName> deffendent</l>
-         <!-- Saut#20 -->
-         <l>Ceulx qui nous doibvent <expan>nous</expan> demandent</l>
-         <pb n="115r"/>
-         <l>C'est tousjours à recommancer</l>
-         <!-- Saut#21 -->
-         <l n="48">Nous vouldriez vous point avancer</l>
-         <!-- Vers hypermétique -->
-         <l>Ung quartier sur l'année passée</l>
-         <l>Oncsque la guerre soit cessée</l>
-         <l>Dieux qu'il y en aura de cassez</l>
-         <!-- Saut#22 -->
-         <l n="52">Vos gens sont ils tous amassez</l>
-         <l>Quant ferez vous <expan>vostre</expan> reveue</l>
-         <!-- Saut#23 -->
-         <l>La fumée me gaste la veue</l>
-         <l>Pour dieu <rs type="injonction" subtype="impératif">fectes serrer</rs> la porte</l>
-         <l n="56">Et <rs type="injonction" subtype="impératif">gardez</rs> que nul ne l'emporte</l>
-         <!-- Saut#24 -->
-         <l>Il nous vient d'argent grosse somme</l>
-         <!-- Saut#25 -->
-         <!-- Séquence plus longue -->
-         <l>J'ay ouy chef de ville qui vous sonne</l>
-         <l>De par delà le <geogName key="Mont Cenys">mont Senys</geogName></l>
-         <l n="60"><rs type="injonction" subtype="impératif">Envoyez luy</rs> donc <persName>sainct
-               Denis</persName></l>
-         <l>Au devant pour luy faire escorte</l>
-         <l>C'est l'<expan>assignation</expan> qu'il apporte</l>
-         <l>Pour payer <expan>vostre</expan> compaignye</l>
-         <l n="64">Celle n'estoit toute fournye</l>
-         <l><rs type="injonction" subtype="impératif">Retenez</rs> l'argent des absens</l>
-         <l>Cez <persName>Guillaumes</persName> sont de grant sens</l>
-         <l>Le <persName>dyable</persName> les feist bien si saiges</l>
-         <l n="68">Il leur fault donner creue de gaiges</l>
-         <l>La fiebvre les puisse espouser</l>
-         <pb n="115v"/>
-         <l>Je m'en veoys ung peu reposer</l>
-         <l><rs type="injonction" subtype="impératif">Atendez</rs> a demain au matin</l>
-         <!-- Saut#26 -->
-         <!-- Seconde séquence plus longue -->
-         <l n="72">On dit pardeça que <persName>Tatin</persName></l>
-         <l>Est <roleName>ambassadeur</roleName> d'<placeName><settlement type="country"
-                  >Albanye</settlement></placeName></l>
-         <note resp="editor" type="crit">Ce surnom désigne peut-être Antoine de Rincon,
-            l'ambassadeur de France.</note>
-         <l><persName>Jehan Carre</persName> dit qu'il luy desnye</l>
-         <l>Son drap et argent pleinement</l>
-         <l n="76">Non pas desnyer proprement</l>
-         <l>Car le <persName>Gaultier</persName> luy feist entendre</l>
-         <l>Affin de mieulx la duppe prendre</l>
-         <l>Qu'on l'avoit envoyé prier</l>
-         <l n="80">Ce dit on pour le marier</l>
-         <l>Ainsi dont <persName>Tatin</persName> par art gent</l>
-         <l>Feist tant qu'il eut drap <reg>et</reg> argent</l>
-         <l>Or <rs type="injonction" subtype="impératif">devinez</rs> s'il estoit beste</l>
-         <l n="84">Pourtant s'il a petite teste</l>
-         <l>Il est de grant entendement</l>
-         <l>Parquoy merite vrayement</l>
-         <l>Que le mectez en <expan>vostre</expan> bende</l>
-         <l n="88"><persName>Guyot Vincent</persName> aussi demande</l>
-         <l>Qu'on luy donne place d'archer</l>
-         <l>Il est ja tout prest <reg>à</reg> marcher</l>
-         <l>On bataille soubz <expan>vostre</expan> enseigne</l>
-         <pb n="116r"/>
-         <fw type="pageNum" place="top-right">116</fw>
-         <l n="92">Et tueroit <reg>à</reg> tous coups ung peigne</l>
-         <l>Si se courrouce pour ung mercier</l>
-         <l>Je viens de veoir <expan>vostre</expan> courrier</l>
-         <l>Qui fait dieu mercy bonne chere</l>
-         <l n="96">Si l'avoyne estoit trop chaire</l>
-         <l>Fectes luy donner force foing</l>
-         <l><persName>Maistre Pierre</persName> a merveilleux soing</l>
-         <l>De bien garder <expan>vostre</expan> maison</l>
-         <l n="100">N'est il pas homme de raison</l>
-         <l>De ne voulloir point de proces</l>
-         <!-- Saut#27 -->
-         <l>Nous avons tousjours bon acces</l>
-         <l>De chez Baptiste des voysins</l>
-         <!-- Saut#28 -->
-         <l n="104">Trochon donne huict ambroysins</l>
-         <l>De ce que les autres ont <expan>pour</expan> quatre</l>
-         <l>Il est assez bon gros follastre</l>
-         <l><rs type="injonction" subtype="impératif">Fectes</rs> luy quelque petit de bien</l>
-         <!-- Saut#29 -->
-         <l n="108">Je vous pry si ne fectes rien</l>
-         <l><rs type="injonction" subtype="impératif">Mandez nous</rs> de voz nouvelles</l>
-         <l>Et nous vous escriprons de celles</l>
-         <l>Qui surviendront pardeça</l>
+         <p>
+            <pb n="114r"/>
+            <ptr target="103"/>
+            <l ana="#adr">Je me rens <reg>à</reg> vous <rs type="destinataire">cappitaine</rs></l>
+            <l ana="#corps"><rs type="maladie" subtype="Mal_de_dents">Les dentz</rs> vous font
+                  <reg>il[z]</reg> tousjours peine</l>
+            <!-- Saut#1 -->
+            <anchor type="saut#1"/>
+            <l>Incessamment jour <reg>et</reg> sepmaine</l>
+            <l n="4">Vous tenez tousjours la main haulte<note resp="editor" type="ling">Vous ne
+                  laissez que peu de liberté.</note></l>
+            <!-- Saut#2 -->
+            <anchor type="saut#2"/>
+            <l>Ilz chevaulchent en une hotte</l>
+            <l>Pource qu'ilz ont perdu leurs houzeaulx<note resp="editor" type="ling"><hi rend="italic">Laisser les houseaux</hi> signifie
+                  <quote>mourir</quote>, Huguet.</note></l>
+            
+            <!-- Saut#3 -->
+            <anchor type="saut#3"/>
+            <l ana="#météo">Les neiges acroistront les eaues</l>
+            <l n="8" ana="#météo">Ceste année si le temps dure</l>
+            <!-- Saut#4 -->
+            <anchor type="saut#4"/>
+            <l ana="#corps">Si <expan>vostre</expan> matiere est trop dure</l>
+            <l ana="#corps"><rs type="injonction" subtype="impératif">Faictes vous bailler</rs> ung
+               clistere</l>
+            <!-- Saut#5 -->
+            <anchor type="saut#5"/>
+            <l ana="#ironie">C'est ung merveilleux mistere</l>
+            <l n="12" ana="#ironie">De racompter <expan>nostre</expan> desduict<note resp="editor"
+                  type="crit">Ironie probable quant à la condition des soldats.</note></l>
+            <!-- Saut#6 -->
+            <anchor type="saut#6"/>
+            <l><persName>Maistre Pierre</persName> fait tousjours bruict</l>
+            <l>Allé <unclear>vene bave</unclear> chanté</l>
+            <l>Il a bien dancé que fleusté</l>
+            <l n="16">Troys cens chancons pour une nuyt</l>
+            <!-- Saut#7 -->
+            <anchor type="saut#7"/>
+            <l ana="#lâcheté">En lieu de combatre il s'en fuyt</l>
+            <l ana="#lâcheté">Ils sont bien loing si vont tousjours</l>
+            <!-- Saut#8 -->
+            <anchor type="saut#8"/>
+            <l>Il y aura mardi deux jours</l>
+            <l n="20">Que la poste fut despeschée</l>
+            <l><persName>Maistre Jehan</persName> je l'ay fort hastée</l>
+            <l>Pour envoyer <expan>vostre</expan> paquet</l>
+            <pb n="114v"/>
+            <ptr target="104"/>
+            <!-- Saut#9 -->
+            <anchor type="saut#9"/>
+            <l>On dit qu'<orgName type="peuple" subtype="espagnol">Espaignolz</orgName> font le
+               guet</l>
+            <l n="24">Pour donner l'assault à <placeName type="city" key="Boulogne"
+                  >Boullongne</placeName></l>
+            <!-- Datation -->
+            <!-- Saut#10 -->
+            <anchor type="saut#10"/>
+            <l>Le doulx <persName><expan>Guillaume de </expan><placeName type="city" key="Coulogne"
+                     >Coullongne</placeName></persName></l>
+            <l>Est il pas <expan>vostre</expan> lieutenant</l>
+            <!-- Saut#11 -->
+            <anchor type="saut#11"/>
+            <l>Sera il tousjours si tenant<note resp="editor" type="ling">Ferme.</note></l>
+            <l n="28">De casser les gens <reg>à</reg> la monstre<note resp="editor" type="ling">À la
+                  vue.</note></l>
+            <!-- Saut#12 -->
+            <anchor type="saut#12"/>
+            <l>S'il advient que faciez rencontre</l>
+            <l ana="#argent"><rs type="injonction" subtype="impératif">Pensez</rs> de retirer noz
+               rentes</l>
+            <!-- Saut#13 -->
+            <anchor type="saut#13"/>
+            <l>On dit que <orgName type="peuple" subtype="breton">Bretons</orgName> sont à
+                  <placeName type="city">Nantes</placeName></l>
+            <l n="32">Et <orgName type="peuple" subtype="vénitien">Venissiens</orgName> sont à
+                  <placeName type="city">Bresse</placeName></l>
+            <!-- Saut#14 -->
+            <anchor type="saut#14"/>
+            <l><rs type="injonction" subtype="défense">Gardez vous</rs> de mectre en la presse</l>
+            <l><rs type="injonction" subtype="impératif">Tirez vous</rs> pres de la cuysine</l>
+            <!-- Saut#15 -->
+            <anchor type="saut#15"/>
+            <l>Je vous envoye une <rs type="animal" subtype="gallinacée" key="poule">geline</rs></l>
+            <l n="36">Pour l'esbat de <expan>vostre</expan>
+               <rs type="animal" subtype="canidé" key="lévrier"> levrier</rs></l>
+            <!-- Saut#16 -->
+            <anchor type="saut#16"/>
+            <l><persName type="non_identifié" key="Thonart Jacques">Jaques Thonart</persName> perdit
+               son bauldrier</l>
+            <l>L'autre jour aupres de Croquaye<!-- À identifier --></l>
+            <!-- Saut#17 -->
+            <anchor type="saut17"/>
+            <l>L'<rs type="occupation" subtype="trésorier">argentier</rs> y fut despoille<note
+                  resp="editor" type="crit">Au moins un vers semble manquer ici.</note></l>
+            <l n="40">Et ilz laisserent leur monnoye</l>
+            <!-- Saut#18 -->
+            <anchor type="saut#18"/>
+            <l><expan>Vostre</expan> collet borde les <rs type="animal">martres</rs><note
+                  type="glose" resp="editor"/></l>
+            <l>Qu'on feist fourrer avec deux tartres</l>
+            <!-- Saut#19 -->
+            <anchor type="saut#19"/>
+            <l>Vous sera il tousjours si gros doz<note resp="editor" type="ling">On trouve chez
+                  Jehan Marot (<title>Voyage de Venise</title>) et Rabelais l'expression <hi
+                     rend="italic">Gros bis</hi> pour désigner un homme qui fait
+               l'important.</note></l>
+            <l n="44">Nous aurons marche de <rs type="animal" subtype="poisson" key="hadot"
+                  >hadotz</rs></l>
+            <l>On dit que les <orgName type="peuple" subtype="anglais">Angloys</orgName>
+               deffendent</l>
+            <!-- Saut#20 -->
+            <anchor type="saut#20"/>
+            <l ana="#gnomique"><rs type="locution">Ceulx qui nous doibvent <expan>nous</expan>
+                  demandent</rs></l>
+            <pb n="115r"/>
+            <ptr target="105"/>
+            <l>C'est tousjours à recommancer</l>
+            <!-- Saut#21 -->
+            <anchor type="saut#21"/>
+            <l n="48">Nous vouldriez vous point avancer</l>
+            <!-- Vers hypermétique -->
+            <l>Ung quartier sur l'année passée</l>
+            <l><unclear>Mesque</unclear> la guerre soit cessée</l>
+            <l>Dieux qu'il y en aura de cassez</l>
+            <!-- Saut#22 -->
+            <anchor type="saut#22"/>
+            <l n="52">Vos gens sont ils tous amassez</l>
+            <l>Quant ferez vous <expan>vostre</expan> reveue</l>
+            <!-- Saut#23 -->
+            <anchor type="saut#23"/>
+            <l>La fumée me gaste la veue</l>
+            <l>Pour dieu <rs type="injonction" subtype="impératif">fectes serrer</rs> la porte</l>
+            <l n="56">Et <rs type="injonction" subtype="impératif">gardez</rs> que nul ne
+               l'emporte</l>
+            <!-- Saut#24 -->
+            <anchor type="saut#24"/>
+            <l ana="#argent">Il nous vient d'argent grosse somme</l>
+            <!-- Saut#25 -->
+            <anchor type="saut#25"/>
+            <!-- Séquence plus longue -->
+            <l>J'ay ouy chef de ville qui vous sonne</l>
+            <l>De par delà le <geogName key="Mont Cenys">mont Senys</geogName></l>
+            <l n="60"><rs type="injonction" subtype="impératif">Envoyez luy</rs> donc
+                  <persName>sainct Denis</persName></l>
+            <l>Au devant pour luy faire escorte</l>
+            <l>C'est l'<expan>assignation</expan> qu'il apporte</l>
+            <l>Pour payer <expan>vostre</expan> compaignye</l>
+            <l n="64">Celle n'estoit toute fournye</l>
+            <l ana="#argent"><rs type="injonction" subtype="impératif">Retenez</rs> l'argent des
+               absens</l>
+            <!-- Saut#26 -->
+            <anchor type="saut#26"/>
+            <l>Cez <orgName>Guillaumes</orgName> sont de grant sens</l>
+            <l>Le <persName key="le diable">dyable</persName> les feist bien si saiges</l>
+            <l n="68" ana="#argent">Il leur fault donner creue de gaiges</l>
+            <l ana="#imprécation">La <rs type="maladie" subtype="fièvre">fiebvre</rs> les puisse
+               espouser</l>
+            <pb n="115v"/>
+            <ptr target="106"/>
+            <!-- Saut#27 -->
+            <anchor type="saut#27"/>
+            <l>Je m'en veoys ung peu reposer</l>
+            <l><rs type="injonction" subtype="impératif">Atendez</rs> a demain au matin</l>
+            <!-- Saut#28 -->
+            <anchor type="saut#28"/>
+            <!-- Seconde séquence plus longue -->
+            <l n="72">On dit pardeça que <persName>Tatin</persName></l>
+            <l>Est <roleName>ambassadeur</roleName> d'<placeName type="country"
+                  >Albanye</placeName><note resp="editor" type="crit">Ce surnom peut désigner
+                     <persName ref="ind:Paulin" key="Escalin des Aimars, Antoine dit 'Paulin'"
+                     >Antoine Escalin des Aimars</persName>, l'ambassadeur de France.</note></l>
+            <l><persName ref="ind:Jehan_Carré" key="Carré Jean">Jehan Carre</persName> dit qu'il luy
+                  desnye<note resp="editor" type="glose">Jehan Carré était alors receveur général
+                  des finances de Normandie et commis à l'extraordinaire des guerres.</note></l>
+            <l>Son drap et argent pleinement</l>
+            <l n="76">Non pas desnyer proprement</l>
+            <l>Car le <orgName>Gaultier</orgName> luy feist entendre</l>
+            <l>Affin de mieulx la duppe prendre</l>
+            <l>Qu'on l'avoit envoyé prier</l>
+            <l n="80">Ce dit on pour le marier</l>
+            <l ana="#équivoque">Ainsi dont <persName>Tatin</persName> par art gent</l>
+            <l>Feist tant qu'il eut drap <reg>et</reg> argent</l>
+            <l ana="#sat_pers">Or <rs type="injonction" subtype="impératif">devinez</rs> s'il estoit
+               beste</l>
+            <l n="84" ana="#sat_pers">Pourtant s'il a petite teste</l>
+            <l>Il est de grant entendement</l>
+            <l>Parquoy merite vrayement</l>
+            <l>Que le mectez en <expan>vostre</expan> bende</l>
+            <!-- Saut#29 -->
+            <anchor type="saut#29"/>
+            <l n="88"><persName key="Gouyot Vincent">Guyot Vincent</persName> aussi demande</l>
+            <l>Qu'on luy donne place d'<rs type="occupation" subtype="archer">archer</rs></l>
+            <l>Il est ja tout prest <reg>à</reg> marcher</l>
+            <l>En bataille soubz <expan>vostre</expan> enseigne</l>
+            <pb n="116r"/><ptr target="107"/>
+            <fw type="pageNum" place="top-right">116</fw>
+            <l n="92" ana="#ironie">Et tueroit <reg>à</reg> tous coups ung peigne</l>
+            <l ana="#ironie">Si se courrouce pour ung <rs type="occupation" subtype="mercier"
+                  >mercier</rs></l>
+            <!-- Saut#30 -->
+            <anchor type="saut#30"/>
+            <l>Je viens de veoir <expan>vostre</expan> courrier</l>
+            <l>Qui fait <rs type="interjection">dieu mercy</rs> bonne chere</l>
+            <l n="96">Si l'avoyne estoit trop chaire</l>
+            <l><rs type="injonction" subtype="impératif">Fectes</rs> luy donner force foing</l>
+            <!-- Saut#31 -->
+            <anchor type="saut#31"/>
+            <l><persName>Maistre Pierre</persName> a merveilleux soing</l>
+            <l>De bien garder <expan>vostre</expan> maison</l>
+            <l n="100">N'est il pas homme de raison</l>
+            <l>De ne voulloir point de proces</l>
+            <!-- Saut#32 -->
+            <anchor type="saut#32"/>
+            <l>Nous avons tousjours bon acces</l>
+            <l>De chez <persName>Baptiste</persName> des voysins</l>
+            <!-- Saut#33 -->
+            <anchor type="saut#33"/>
+            <l n="104"><persName>Trochon</persName> donne huict ambroysins</l>
+            <l>De ce que les autres ont <expan>pour</expan> quatre</l>
+            <l>Il est assez bon gros follastre</l>
+            <l><rs type="injonction" subtype="impératif">Fectes</rs> luy quelque petit de bien</l>
+            <!-- Saut#34 -->
+            <anchor type="saut34"/>
+            <l n="108" ana="#conclusio">Je vous pry si ne fectes rien</l>
+            <l ana="#adr"><rs type="injonction" subtype="impératif">Mandez nous</rs> de voz
+               nouvelles</l>
+            <l>Et nous vous escriprons de celles</l>
+            <l>Qui surviendront pardeça</l>
+         </p>
       </body>
    </text>
 </TEI>

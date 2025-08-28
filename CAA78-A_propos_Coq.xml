@@ -5,7 +5,10 @@
     <teiHeader>
         <fileDesc xml:id="A_propos_Coq_1585">
             <titleStmt>
-                <title>(Sanst titre). M.D.LXXXV.</title>
+                <title type="idno">Réf. n°78: </title>
+                <title type="main">Sans titre. M.D.LXXXV.</title>
+                <title type="incipit">A propos, Coq, il nous faut voir</title>
+                <author>Anonyme</author>
             </titleStmt>
             <publicationStmt>
                 <p>Ce coq-à-l'âne ne porte de titre dans aucun des deux manuscrits témoins. L'auteur
@@ -36,97 +39,166 @@
             <listPrefixDef>
                 <prefixDef ident="ind" matchPattern="([a-z]+)"
                     replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
-                    <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
-                        Index du projet</p>
+                    <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le
+                        Fichier Index du projet</p>
                 </prefixDef>
                 <prefixDef ident="plc" matchPattern="([0-9]+)"
                     replacementPattern="https://www.geonames.org/$1">
-                    <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
-                        données géographiques GeoNames.</p>
+                    <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la
+                        base de données géographiques GeoNames.</p>
                 </prefixDef>
                 <prefixDef ident="ms" matchPattern="([0-9]+)"
                     replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
-                    <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier
-                        des Sources Manuscrites du projet.</p>
+                    <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le
+                        Fichier des Sources Manuscrites du projet.</p>
                 </prefixDef>
             </listPrefixDef>
             <p>
                 <interpGrp>
+                    <!-- A -->
+                    <interp xml:id="abus" ana="abus">abus de l'église</interp>
+                    <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                     <interp xml:id="adr" ana="adresse">adresse</interp>
-                    <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
-                    <interp xml:id="topos" ana="topos">lieu commun</interp>
-                    <interp xml:id="gén" ana="généralisation">généralisation</interp>
-                    <interp xml:id="ironie" ana="ironie">ironie</interp>
-                    <interp xml:id="vp" ana="pivot">vers pivot</interp>
-                    <interp xml:id="actu" ana="actualité">actualité</interp>
-                    <interp xml:id="ligue" ana="ligue">ligue</interp>
-                    <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
-                    <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
-                    <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
-                    <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
-                    <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
-                    <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
-                    <interp xml:id="massacre" ana="massacre">massacre</interp>
-                    <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
-                    <interp xml:id="pol_ext" ana="politique_extérieure">politique
-                        extérieure</interp>
-                    <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
-                    <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
-                    <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
-                    <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
-                    <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+                    <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
                     <interp xml:id="ambition" ana="ambition">ambition</interp>
-                    <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
-                    <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
-                    <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
-                    <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
-                        nécessaire</interp>
-                    <interp xml:id="court" ana="court">vie de la court</interp>
-                    <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
-                    <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
-                    <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
-                    <interp xml:id="ethos" ana="ethos">ethos</interp>
+                    <interp xml:id="amour" ana="amour">amour</interp>
+                    <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
+                    
+                    <!-- B -->
+                    <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
+                    <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
+                    
+                    <!-- C -->
+                    <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
+                    <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+                    <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de l'épître</interp>
+                    <interp xml:id="corruption" ana="corruption">corruption</interp>
                     <interp xml:id="corps" ana="corps">corps</interp>
-                    <interp xml:id="violences" ana="violences">guerres civiles</interp>
-                    <interp xml:id="pillage-s" ana="pillages">Vol, pillages</interp>
-                    <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
-                    <interp xml:id="adv_rel" ana="adversaire religieux">adversaire
-                        religieux</interp>
-                    <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
-                    <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
-                    <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+                    <interp xml:id="cour" ana="court">vie de la cour</interp>
+                    <interp xml:id="cri" ana="cri">cris des marchands</interp>
                     <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
-                    <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
-                        gnomique</interp>
-                    <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
+                    
+                    <!-- D -->
+                    <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
+                    <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
+                    
+                    <!-- E -->
+                    <interp xml:id="éloge" ana="éloge">éloge</interp>
                     <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
-                    <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+                    <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+                    <interp xml:id="eschatologie" ana="eschatologie">conception eschatologique</interp>
+                    <interp xml:id="ethos" ana="ethos">ethos</interp>
+                    <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
                     <interp xml:id="exhortation" ana="exhortation">exhortations et
                         encouragements</interp>
-                    <interp xml:id="rire" ana="rire">rire</interp>
-                    <interp xml:id="maladie" ana="maladie">maladie</interp>
-                    <interp xml:id="misères" ana="misères">misères de ce temps</interp>
-                    <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
-                        valeurs</interp>
+                    
+                    <!-- F -->
+                    <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
+                    <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
                     <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
-                    <interp xml:id="rome" ana="contre_Rome">Contre Rome et la papauté</interp>
-                    <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
-                    <interp xml:id="practiques" ana="practiques">practiques</interp>
-                    <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
-                    <interp xml:id="misogynie" ana="misogynie">mysoginie</interp>
-                    <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
-                    <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
-                    <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
-                    <interp xml:id="météo" ana="météo">météorologie</interp>
-                    <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
-                    <interp xml:id="vanité" ana="vanité">vanité</interp>
+                    
+                    <!-- G -->
+                    <interp xml:id="gén" ana="généralisation">généralisation</interp>
+                    <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
+                        gnomique</interp>
+                    <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
+                    
+                    <!-- H -->
+                    <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
+                    <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
+                    
+                    
+                    <!-- I -->
+                    <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
                     <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                         l'adversaire</interp>
-                    <interp xml:id="PolitiqueS" ana="PolitiqueS">Contre les politiques</interp>
-
+                    <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+                    <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
+                    <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
+                    <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
+                    <interp xml:id="ironie" ana="ironie">ironie</interp>
+                    
+                    <!-- L -->
+                    <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
+                    <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
+                    <interp xml:id="topos" ana="topos">lieu commun</interp>
+                    <interp xml:id="ligue" ana="ligue">ligue</interp>
+                    
+                    <!-- M -->
+                    <interp xml:id="maladie" ana="maladie">maladie</interp>
+                    <interp xml:id="massacre" ana="massacre">massacre</interp>
+                    <interp xml:id="mtd" ana="métadiscours">métadiscours</interp>
+                    <interp xml:id="météo" ana="météo">météorologie</interp>
+                    <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
+                    <interp xml:id="misères" ana="misères">misères du temps</interp>
+                    <interp xml:id="misogynie" ana="misogynie">misogynie</interp>
+                    <interp xml:id="mode" ana="mode">mode</interp>
+                    <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
+                        valeurs</interp>
+                    <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
+                    
+                    <!-- N -->
+                    <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
+                    
+                    
+                    <!-- P -->
+                    <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+                    <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
+                    <interp xml:id="persona" ana="persona">persona de Marot</interp>
+                    <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
+                    <interp xml:id="pillage-s" ana="pillages">vols, pillages</interp>
+                    <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
+                    <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
+                    <interp xml:id="practiques" ana="practiques">practiques</interp>
+                    <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+                    <interp xml:id="prière" ana="prière">prière</interp>
+                    <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
+                    <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
+                    <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
+                        nécessaire</interp>
+                    
+                    <!-- R -->
+                    <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
+                    <interp xml:id="rébus" ana="rébus">rébus</interp>
+                    <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+                    <interp xml:id="révélations" ana="révélations">révélation(s)</interp>
+                    <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
+                    <interp xml:id="rire" ana="rire">rire</interp>
+                    <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
+                    <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
+                    
+                    <!-- S -->
+                    
+                    <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
+                    <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
+                    <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
+                    <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+                    <interp xml:id="sergents" ana="sergents">contre les sergents</interp>
+                    <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
+                    <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
+                    <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+                    <interp xml:id="syllepse" ana="syllepse">syllepse</interp>
+                    
+                    <!-- T -->
+                    <interp xml:id="tauto" ana="tauto">tautologie</interp>
+                    <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
+                    <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
+                    <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+                    <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
+                    
+                    <!-- V -->
+                    <interp xml:id="vanité" ana="vanité">vanité</interp>
+                    <interp xml:id="vp" ana="pivot">vers pivot</interp>
+                    <interp xml:id="violences" ana="violences">violences</interp>
                 </interpGrp>
             </p>
         </encodingDesc>
+        <profileDesc>
+            <abstract>
+                <p></p>
+            </abstract>
+            <creation><date when="1585">1585</date></creation>
+        </profileDesc>
     </teiHeader>
     <text>
         <body>
@@ -215,27 +287,27 @@
                 <l><rs type="injonction" subtype="défense">N’y fais</rs> plus rien <rs
                         type="injonction" subtype="impératif">quitte</rs> le jeu</l>
                 <!-- Saut#14 --><anchor type="saut#14"/>
-                <l>Car chacun se dit gentilhomme</l>
-                <l n="52">Ne feust il qu’un vallet en somme</l>
+                <l ana="#monde_renversé">Car chacun se dit gentilhomme</l>
+                <l n="52" ana="#monde_renversé">Ne feust il qu’un vallet en somme</l>
                 <!-- Saut#15 --><anchor type="saut#15"/>
                 <l ana="#misogynie">Jamais ne feust tant de Putains</l>
-                <l>Affollants les cœurs <app>
+                <l ana="#monde_renversé">Affollants les cœurs <app>
                         <lem wit="#fr.25567">des</lem>
                         <rdg wit="#fr.22564">de</rdg>
                     </app> Humains</l>
                 <l ana="#misogynie">Ny aussi tant de macquerelles</l>
-                <l n="56">Qu’il y a en <app>
+                <l n="56" ana="#court">Qu’il y a en <app>
                         <lem wit="#fr.22564"><placeName type="city" key="Rome"
                             >Rome</placeName></lem>
                         <rdg wit="#fr.25567">Court</rdg>
                     </app> de querelles</l>
-                <l>Ny jamais tant de passetemps</l>
-                <l>Qu’il est de jeunes courtisans.</l>
+                <l ana="#court">Ny jamais tant de passetemps</l>
+                <l ana="#court">Qu’il est de jeunes courtisans.</l>
                 <!-- Saut#16 --><anchor type="saut#16"/>
                 <l ana="#monde_renversé">Quand le conseil d’une jeunesse</l>
                 <l n="60" ana="#monde_renversé">Bande les yeux d’une vieillesse</l>
                 <l ana="#prudence">Il fait bon estre en sa maison</l>
-                <l>Pour attendre une autre saison</l>
+                <l ana="#prudence">Pour attendre une autre saison</l>
                 <!-- Saut#17 --><anchor type="saut#17"/>
                 <l ana="#sat_pol">Desja les <rs type="invective"><rs type="animal" subtype="oiseau"
                             >Gruës</rs></rs> d’<placeName type="country" key="Italie"
@@ -769,8 +841,8 @@
                 <l ana="#topos">L’esclair precede le tonnerre</l>
                 <l n="432">Les secrets <reg>changemens</reg> de guerre</l>
                 <l>Or pour mieux <expan>comprendre</expan> ce fait</l>
-                <l>Fol est qui aujourdhuy se taist</l>
-                <l ana="#monde_renversé">Car le vallet veult entre maistre</l><note resp="editor"
+                <l ana="#folie">Fol est qui aujourdhuy se taist</l>
+                <l ana="#monde_renversé">Car le vallet veult estre maistre</l><note resp="editor"
                     type="crit">Cf. Supra v. 56.</note>
                 <l n="436" ana="#monde_renversé">Toutes choses changent leur estre</l><!-- f°126 du ms. 25567 -->
                 <l>Toutes choses <expan>ayment</expan> le chauld</l>

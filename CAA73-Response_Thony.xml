@@ -5,12 +5,15 @@
    <teiHeader>
       <fileDesc xml:id="R_Thony">
          <titleStmt>
-            <title>Responce de Thoni</title>
+            <title type="idno"></title>
+            <title type="main">Responce de Thoni</title>
+            <title type="incipit">J'ay fort contenté mon esprit</title>
+            <author>Baïf, Jean-Antoine de?</author>
          </titleStmt>
          <publicationStmt>
             <p>La réponse de Thoni (que certains critiques ont voulu identifier à Baïf) est connue à
-               partir de quatre manuscrits. Les mss. 6678 et NAF 6888 des papiers de Pierre de L'Estoile
-               qui ont donné lieu à la publication de Gilbert Schrenck chez Droz en 2005 (Tome V du
+               partir de trois manuscrits. Le ms. 6678 des papiers de Pierre de L'Estoile
+               qui a donné lieu à la publication de Gilbert Schrenck chez Droz en 2005 (Tome V du
                registre-journal), le ms. 172 de la Bibliothèque du Protestantisme français et le ms.
                22564 de la BnF. Les variantes des premiers sont ici indiquées en notes, le ms. 172
                ne livre que les cent premiers vers. Notre exemplaire Rasse des Neux de 150 vers est ici le plus
@@ -74,6 +77,12 @@
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <creation><date when="1585">1585</date></creation>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>

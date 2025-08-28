@@ -5,9 +5,10 @@
    <teiHeader>
       <fileDesc xml:id="Esprit_Trouble_Beguin">
          <titleStmt>
-            <title>Réf. n°12: </title>
-            <title key="CAA#12">Epistre du Coq en l'asne à M. Jehan Beguin facteur.<fw type="numéro"
-                  >Lxxvij.</fw></title>
+            <title type="idno">Réf. n°12: </title>
+            <title type="main">Epistre du Coq en l'asne à M. Jehan Beguin facteur</title>
+            <title type="incipit">Amy sur tous amys, Beguin</title>
+            <author>Anonyme</author>
          </titleStmt>
          <publicationStmt>
             <p>Transcription à partir des deux exemplaires connus en privilégiant celui de la BnF
@@ -57,7 +58,7 @@
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
@@ -194,6 +195,12 @@
             </interpGrp>
          </p>
       </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <creation><date when="1536">1536</date></creation>
+      </profileDesc>
       <revisionDesc>
          <change><date>2024-08-19</date>Transcription de niveau 2.</change>
          <change><date>2024-08-20</date>Apport linguistique</change><!-- A compléter à l'aide de la chronologie de 1536 -->

@@ -5,7 +5,10 @@
     <teiHeader>
         <fileDesc xml:id="Chievres">
             <titleStmt>
-                <title>Le Coq aux Chievres.</title>
+                <title type="idno">Réf. n°47: </title>
+                <title type="main">Le Coq aux Chievres</title>
+                <title type="incipit">Ces jours passés, mon amy Lièvre</title>
+                <author>Anonyme</author>
             </titleStmt>
             <publicationStmt>
                 <p>Aucun témoin manuscrit. La pièce nous est parvenue par l'unique imprimé de la
@@ -47,7 +50,7 @@
             <p>
                 <interpGrp>
                     <!-- A -->
-                    <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+                    <interp xml:id="abus" ana="abus">abus de l'église</interp>
                     <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                     <interp xml:id="adr" ana="adresse">adresse</interp>
                     <interp xml:id="adv_rel" ana="adversaire religieux">adversaire
@@ -79,6 +82,8 @@
                     <interp xml:id="éloge" ana="éloge">éloge</interp>
                     <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
                     <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+                    <interp xml:id="eschatologie" ana="eschatologie">conception
+                        eschatologique</interp>
                     <interp xml:id="ethos" ana="ethos">ethos</interp>
                     <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
                     <interp xml:id="exhortation" ana="exhortation">exhortations et
@@ -129,6 +134,9 @@
                         valeurs</interp>
                     <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
 
+                    <!-- N -->
+                    <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
+
 
                     <!-- P -->
                     <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
@@ -141,6 +149,7 @@
                         extérieure</interp>
                     <interp xml:id="practiques" ana="practiques">practiques</interp>
                     <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+                    <interp xml:id="prière" ana="prière">prière</interp>
                     <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
                     <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
                     <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
@@ -162,6 +171,7 @@
                     <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
                     <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
                     <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+                    <interp xml:id="sergents" ana="sergents">contre les sergents</interp>
                     <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
                     <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
                     <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
@@ -172,13 +182,14 @@
                     <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
                     <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
                     <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+                    <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
 
                     <!-- V -->
                     <interp xml:id="vanité" ana="vanité">vanité</interp>
                     <interp xml:id="vp" ana="pivot">vers pivot</interp>
                     <interp xml:id="violences" ana="violences">violences</interp>
-                </interpGrp>
-            </p>
+                </interpGrp></p>
+
 
             <p><listPerson>
                     <person xml:id="François_II"
@@ -227,6 +238,12 @@
                     </person>
                 </listPerson></p>
         </encodingDesc>
+        <profileDesc>
+            <abstract>
+                <p/>
+            </abstract>
+            <creation><date when="1557">1557</date></creation>
+        </profileDesc>
         <revisionDesc>
             <change><date when="2025-03-01"/>Début de transcription depuis l'édition Meylan en
                 attendant la copie de la British Library</change>
@@ -245,8 +262,8 @@
                 <l>Qu'à nourry <addName>le grand Jupiter</addName>:</l>
                 <l n="4" ana="#ethos">Et me cuiday despiter</l>
                 <l>Contre le porteur de la lettre,</l>
-                <l>Pource qu'il se vouloit entremettre</l><note resp="editor" type="crit">Vers
-                    hypermétrique.</note>
+                <l>Pource qu'il se vouloit entremettre<note resp="editor" type="crit">Vers
+                        hypermétrique.</note></l>
                 <l>De mener le char du Soleil.</l>
                 <!-- Saut#1 --><anchor type="saut#1"/>
                 <l n="8">Si le Prince croit le conseil</l>
@@ -254,7 +271,7 @@
                 <l>Faudra que le prince des diables</l>
                 <l>Face augmenter son grand <placeName key="Enfer">Enfer</placeName>.</l>
                 <!-- Saut#2 --><anchor type="saut#2"/>
-                <l n="12">Les <rs type="métier">mareschaulx</rs> gagnent en fer</l>
+                <l n="12">Les <rs type="occupation">mareschaulx</rs> gagnent en fer</l>
                 <l>Et le <roleName type="pape">Pape</roleName> en plomb &amp; en cyre,</l>
                 <!-- Saut#3 --><anchor type="saut#3"/>
                 <l ana="#sat_rel">Et puis chascun scait que messire</l>
@@ -298,8 +315,9 @@
                 <!-- Saut#10 --><anchor type="saut#10"/>
                 <l n="40">Et voila pourquoi je te mande</l>
                 <l>Qu'il faict bon faire son cas seur:</l>
-                <l>Car le cerf chassé est chasseur</l><note resp="editor" type="glose">Henri II et
-                    Diane de Poitiers</note>
+                <l>Car le <rs type="animal" key="cerf">cerf</rs> chassé est chasseur<note
+                        resp="editor" type="glose"><persName>Henri II</persName> et <persName>Diane
+                            de Poitiers</persName></note></l>
                 <!-- Saut#11 --><anchor type="saut#11"/>
                 <l>Qu'est fascheuse metamorphose,</l>
                 <l n="44">Pour ceulx qui ont la porte close</l>
@@ -332,7 +350,8 @@
                 <l>Il estoit temps de plumer l'oye</l>
                 <l>Pource qu'estoit grasse devenue,</l>
                 <!-- Saut#18 --><anchor type="saut#18"/>
-                <l n="64">On dict que la beste cornue</l><note resp="editor" type="glose"><title>Apocalypse</title>, XVII, 3-7.</note>
+                <l n="64">On dict que la beste cornue<note resp="editor" type="glose"
+                            ><title>Apocalypse</title>, XVII, 3-7.</note></l>
                 <l>N'est plus tant crainte que souloit</l>
                 <!-- Saut#19 --><anchor type="saut#19"/>
                 <l>Si le Pater saincte volloit</l><!-- A vérifier Sancte-->
@@ -362,7 +381,7 @@
                 <!-- Saut#25 --><anchor type="saut#25"/>
                 <l>J'ay ouy dire des nouvelles</l>
                 <l>Que le grand prince <persName key="Lucifer">Lucifer</persName></l>
-                <l n="84">A faict paver tout son <placeName>Enfer</placeName></l>
+                <l n="84">A faict paver tout son <placeName type="Enfer">Enfer</placeName></l>
                 <l>De mittres &amp; de testes razes.</l>
                 <!-- Saut#26 --><anchor type="saut#26"/>
                 <l>Les colomnes qui sont sans vazes</l>
@@ -374,11 +393,11 @@
                 <l ana="#sat_pers"><persName ref="ind:Paulin"
                         key="Escalin des Aimars, Antoine (baron de la Garde), dit 'Capitaine Paulin'"
                         >Le Polin</persName>
-                    <reg>a</reg> changé d'estable</l><note resp="editor" type="glose">Antoine
-                    Escalin des Aimars, baron de la Garde (149.-1578) avait perdu en 1557 sa charge
-                    de général des galères au profit du frère du duc de Guise. Voir Brantôme
-                        <title>Vie des grands capitaines françois</title>, éd. L. Lalanne, 1868,
-                    tome IV, p. 140-150</note>
+                    <reg>a</reg> changé d'estable<note resp="editor" type="glose">Antoine Escalin
+                        des Aimars, baron de la Garde (149.-1578) avait perdu en 1557 sa charge de
+                        général des galères au profit du frère du duc de Guise. Voir Brantôme
+                            <title>Vie des grands capitaines françois</title>, éd. L. Lalanne, 1868,
+                        tome IV, p. 140-150</note></l>
                 <l ana="#sat_pers">Et dict on qu'il a les empas,</l><note resp="editor" type="ling"
                         ><hi rend="italic">Empas</hi>: "entraves", Huguet.</note>
                 <!-- Saut#29 --><anchor type="saut#29"/>

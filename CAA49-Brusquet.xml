@@ -6,14 +6,16 @@
    <teiHeader>
       <fileDesc xml:id="Brusquet">
          <titleStmt>
-            <title>réf. n°49: </title>
-            <title>Coq a l'asne de Brusquet envoyé à Pierre Ronsart gentilhomme vendosmoys</title>
+            <title type="idno">Réf. n°49: </title>
+            <title type="main">Coq a l'asne de Brusquet envoyé à Pierre Ronsart gentilhomme
+               vendosmoys</title>
+            <title type="incipit">C'est à Toy, Ronsart le Prime,</title>
+            <author>Brusquet*</author>
          </titleStmt>
          <publicationStmt>
-            <p>Coq-à-l'âne connu par une seule copie dans le ms. NAF 1870. Les allusions internes
-               laissent penser à une composition à l'été 1565, proche de celle du coq-à-l'âne
-               réformé du 20 juin 1565, "Amy y a desja longtemps", réf. n°50.</p>
+            <p/>
          </publicationStmt>
+
          <sourceDesc>
             <p><listWit>
                   <witness>
@@ -21,7 +23,7 @@
                         <msIdentifier xml:id="NAF1870">
                            <settlement>Paris, </settlement>
                            <repository>Bibliothèque nationale de France, </repository>
-                           <idno>NAF 1870</idno>
+                           <idno>NAF 1870 (f°30v-33v)</idno>
                         </msIdentifier>
                      </msDesc></witness>
                </listWit></p>
@@ -48,33 +50,32 @@
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
                <interp xml:id="ambition" ana="ambition">ambition</interp>
                <interp xml:id="amour" ana="amour">amour</interp>
                <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
-
+               
                <!-- B -->
                <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
                <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
-
+               
                <!-- C -->
                <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
                <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
-               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de
-                  l'épître</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de l'épître</interp>
                <interp xml:id="corruption" ana="corruption">corruption</interp>
                <interp xml:id="corps" ana="corps">corps</interp>
                <interp xml:id="cour" ana="court">vie de la cour</interp>
                <interp xml:id="cri" ana="cri">cris des marchands</interp>
                <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
-
+               
                <!-- D -->
                <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
                <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
-
+               
                <!-- E -->
                <interp xml:id="éloge" ana="éloge">éloge</interp>
                <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
@@ -84,23 +85,24 @@
                <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
                <interp xml:id="exhortation" ana="exhortation">exhortations et
                   encouragements</interp>
-
+               
                <!-- F -->
                <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
                <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
                <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
-
+               
                <!-- G -->
                <interp xml:id="gén" ana="généralisation">généralisation</interp>
                <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
                   gnomique</interp>
+               <interp xml:id="gc" ana="gc">guerres civiles</interp>
                <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
-
+               
                <!-- H -->
                <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
                <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
-
-
+               
+               
                <!-- I -->
                <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
@@ -110,13 +112,13 @@
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
                <interp xml:id="ironie" ana="ironie">ironie</interp>
-
+               
                <!-- L -->
                <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
                <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
                <interp xml:id="topos" ana="topos">lieu commun</interp>
                <interp xml:id="ligue" ana="ligue">ligue</interp>
-
+               
                <!-- M -->
                <interp xml:id="maladie" ana="maladie">maladie</interp>
                <interp xml:id="massacre" ana="massacre">massacre</interp>
@@ -129,8 +131,11 @@
                <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
                   valeurs</interp>
                <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
-
-
+               
+               <!-- N -->
+               <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
+               
+               
                <!-- P -->
                <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
                <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
@@ -141,11 +146,12 @@
                <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
                <interp xml:id="practiques" ana="practiques">practiques</interp>
                <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="prière" ana="prière">prière</interp>
                <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
                <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
                <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
                   nécessaire</interp>
-
+               
                <!-- R -->
                <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
                <interp xml:id="rébus" ana="rébus">rébus</interp>
@@ -155,31 +161,45 @@
                <interp xml:id="rire" ana="rire">rire</interp>
                <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
                <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
-
+               
                <!-- S -->
-
+               
                <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
                <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
                <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
                <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="sergents" ana="sergents">contre les sergents</interp>
                <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
                <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
                <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
                <interp xml:id="syllepse" ana="syllepse">syllepse</interp>
-
+               
                <!-- T -->
                <interp xml:id="tauto" ana="tauto">tautologie</interp>
                <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
                <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
                <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
-
+               <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
+               
                <!-- V -->
                <interp xml:id="vanité" ana="vanité">vanité</interp>
                <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="vices" ana="vices">condamnation des vices</interp>
                <interp xml:id="violences" ana="violences">violences</interp>
             </interpGrp>
          </p>
       </encodingDesc>
+         
+      <profileDesc>
+         <abstract>
+            <p>Premier coq-à-l'âne catholique. L'attribution au fou est probablement fausse.
+               Texte connu par une seule copie dans le ms. NAF 1870. Les allusions internes
+               laissent penser à une composition à l'été 1565, proche de celle du coq-à-l'âne
+               réformé du 20 juin 1565, "Amy y a desja longtemps", réf. n°50.</p>
+         </abstract>
+
+         <creation><date when="1565">1565</date></creation>
+      </profileDesc>
       <revisionDesc>
          <change>Encodage de niveau 5.<date>2023-12-24</date></change>
          <change>Ajout du schéma et de l'identifiant.<date>2025-01-19</date></change>
@@ -189,8 +209,8 @@
    <text>
       <body>
          <p>
-            <l ana="#adr"><reg>C'est</reg>
-               <reg>à</reg> toy <persName ref="ind:Ronsard" key="Ronsard Pierre de"
+            <l ana="#adr"><reg>C'est </reg>
+               <reg>à</reg> toy <persName ref="ind:Ronsard" key="Ronsard Pierre (de)"
                   >Ronsart</persName> le Prime</l>
             <pb n="30v"/>
             <l ana="#éloge">Des plus doctes escripvants en rithme</l>
@@ -202,9 +222,9 @@
                <reg>l'on</reg> a pris</l>
             <l ana="#adv_rel">Tant d'<orgName type="secte">évangélistes</orgName> nouveaulx<note
                   resp="editor" type="crit">À rapprocher du <title>Coq au lievre</title> de 1557
-                  dans le même manuscrit NAF 1870: "C'est affaire aux evangelistes / La croix de
-                  Jésuchrist porter", (v. 96-97). En 1559 et à nouveau au cours de la décennie
-                  suivante, <persName>Anthoine du Val</persName> publie, à Paris chez
+                  dans le même manuscrit NAF 1870: <quote>C'est affaire aux evangelistes / La croix de
+                  Jésuchrist porter</quote>, (v. 96-97). En 1559 et à nouveau au cours de la décennie
+                  suivante, <persName key="Du Val Antoine">Anthoine Du Val</persName> publie, à Paris chez
                      <persName>Nicolas Chesneau</persName>, un <title>Mirouer des calvinistes et
                      armeure des chrestiens pour rembarrer les luteriens et nouveaux evangelistes de
                      Geneve</title>. Voir les références 17803 à 17806 du catalogue <title>French
@@ -216,7 +236,7 @@
                   grande est la Sorbonne", v. 136-137. Voir également, l'introduction et la
                   conclusion de <title>L'Avertissement sur la censure qu'on faite les Bêtes de
                      Sorbonne, touchant les livres qu'ils appellent hérétiques</title> (1546) de
-                     <persName ref="ind:Calvin" key="Calvin, Jean">Calvin</persName>, Gallimard,
+                     <persName ref="ind:Calvin" key="Calvin Jean">Calvin</persName>, Gallimard,
                   2009 p. 435 et 434.</note></l>
             <l ana="#adv_rel"><reg>Qu'on</reg> envoye parmy le monde</l><!-- Action de Calvin et de ses prédicateurs -->
             <!-- Saut#1--><anchor type="saut#1"/>
@@ -246,7 +266,7 @@
             <l ana="#adv_pers">Par <reg>l'oreille</reg>
                <reg>d'un</reg> jeune <rs type="invective"><rs type="animal" subtype="équidé"
                      >asnon</rs></rs><note resp="editor" type="glose">Peut-être une allusion à
-                     <persName ref="ind:François_de_Montmorency" key="Montmorency François de"
+                     <persName ref="ind:François_de_Montmorency" key="Montmorency François (de)"
                      >François de Montmorency</persName>, fils du connétable Anne, et qualifié d'<hi
                      rend="italic">asnon</hi> dans le coq à l'asne de 1567 commençant par "Salut à
                   toy mon grand amy..." (réf. n°53). Tout comme son père, les partisans des Guise le
@@ -279,10 +299,11 @@
             <l ana="#prophétie">Avant que les <rs type="vin">raisins</rs> soient meurs</l>
             <l n="32" ana="#hypocrisie">Le <roleName ref="ind:Charles_IX" key="Charles IX"
                   >roy</roleName> verra bien des montmeurs<note resp="editor" type="ling"><hi
-                     rend="italic">Mommeurs</hi>: "Homme masqué et déguisé", Huguet.</note></l>
+                     rend="italic">Mommeurs</hi>: <quote>Homme masqué et déguisé</quote>,
+                  Huguet.</note></l>
             <l ana="#cour">Car ce sont tous masques <reg>à</reg> la <placeName>court</placeName></l>
             <l ana="#prophétie">Mais ceulx qui auront le nez court<note resp="editor" type="ling"
-                     ><hi rend="italic">Avoir court nez</hi>: "être peu perspicace", Di
+                     ><hi rend="italic">Avoir court nez</hi>: <quote>être peu perspicace</quote>, Di
                   Stefano.</note></l>
             <l ana="#prophétie">Ainsy que dict <persName ref="ind:Nostradamus" key="Nostradamus"
                   >Nostradamus</persName><note resp="editor" type="glose">Nostradamus est médecin du
@@ -291,7 +312,7 @@
                   type="ling">Syllepse autour de l'adjectif <hi rend="italic">camus</hi>.</note></l>
             <l ana="#prophétie"><reg>À</reg> cause de Mars descendant<note resp="editor"
                   type="glose">Sans doute une transposition astrologique de la perte d'influence de
-                     <persName ref="ind:Anne_de_Montmorency" key="Montmorency Anne de"
+                     <persName ref="ind:Anne_de_Montmorency" key="Montmorency Anne (de)"
                      >Montmorency</persName> à la cour qui d'un point de vue catholique ne
                   présagerait rien de bon pour les huguenots.</note></l>
             <!-- Saut#9 --><anchor type="saut#9"/>
@@ -303,14 +324,14 @@
                   provinces. Voir Joël Cornette, <title>Le Livre et le Glaive</title>, Paris, SEDES,
                   1999.</note></l>
             <!-- Saut#10 --><anchor type="saut#10"/>
-            <l n="40">On verra assez de <rs type="métier" subtype="boucher">bouchers</rs></l>
+            <l n="40">On verra assez de <rs type="occupation" subtype="boucher">bouchers</rs></l>
             <l>Habiller des <rs type="animal" subtype="bovidé">veaulx</rs> le matin<note
                   resp="editor" type="glose">Considération triviale et naïve ou violence promise? On
                   retrouve l'expression dans un quatrain contre <persName ref="ind:Verville"
                      key="Béroalde de Verville François">Béroalde de Verville</persName> dans
-                     <title>Les muses incognues</title> de 1604 : "Ayant veu ce maistre nouveau /
-                  Les Bouchers font plainte à Justice / De ce qu'il leur exercice / Habillant tous
-                  les jours un veau.", p. 52.</note></l>
+                     <title>Les muses incognues</title> de 1604 : <quote>Ayant veu ce maistre
+                     nouveau / Les Bouchers font plainte à Justice / De ce qu'il leur exercice /
+                     Habillant tous les jours un veau.</quote>, p. 52.</note></l>
             <fw type="réclame" place="bottom-right">Fut il</fw>
             <pb n="31r"/>
             <fw/>
@@ -334,12 +355,12 @@
                      ref="ind:Charles_IX" key="Charles IX">Charles IX</persName> a dix ans à la mort
                   de son frère le 5 décembre 1560.</note></l>
             <l ana="#sit_pol">Est salubre<note resp="editor" type="ling"><hi rend="italic"
-                     >Salubre</hi>: "salutaire", Huguet.</note> quoy <reg>qu'on</reg> en dye<note
-                  resp="editor" type="glose">Sur la polémique touchant "l'estat des mortz, &amp; des
-                  erreurs &amp; abuz commis autour d'iceux", voir <persName ref="ind:Viret"
-                     key="Viret, Pierre">Pierre Viret</persName>, <title>Disputations
-                     Chrestiennes</title>, <persName type="imprimeur-libraire">Jean
-                     Gérard</persName>, Genève, 1552.</note></l>
+                     >Salubre</hi>: <quote>salutaire</quote>, Huguet.</note> quoy <reg>qu'on</reg>
+               en dye<note resp="editor" type="glose">Sur la polémique touchant <quote>l'estat des
+                     mortz, &amp; des erreurs &amp; abuz commis autour d'iceux</quote>, voir
+                     <persName ref="ind:Viret" key="Viret Pierre">Pierre Viret</persName>,
+                     <title>Disputations Chrestiennes</title>, <persName type="imprimeur-libraire" key="Gérard Jean"
+                     >Jean Gérard</persName>, Genève, 1552.</note></l>
             <!-- Saut#13 --><anchor type="saut#13"/>
             <l n="48" ana="#ethos">Je ne saiche poinct malladye</l>
             <l ana="#satire">Pareille <reg>à</reg> celle <reg>d'un</reg> jaloux</l>
@@ -353,12 +374,13 @@
                   religions." disait Michel de L'Hospital lors de la première séance des États
                   Généraux de décembre 1560.</note></l>
             <!-- Saut#14 --><anchor type="saut#14"/>
-            <l>Le monde est il sy grand qu'on dict<add resp="editor" type="ponctuation">
-               [?]</add></l><!-- comment -->
-            <l>Veu que le <persName ref="ind:Pie_IV" key="Pie IV">pape</persName> a interdict</l>
-            <l><persName ref="ind:Odet_de_Coligny"><reg>L'un</reg> de noz françoys
+            <l ana="#folie">Le monde est il sy grand qu'on dict<add resp="editor" type="ponctuation"
+                  > [?]</add></l><!-- comment -->
+            <l ana="#folie">Veu que le <persName ref="ind:Pie_IV" key="Pie IV">pape</persName> a
+               interdict</l>
+            <l><persName ref="ind:Odet_de_Coligny" key="Coligny Odet (de)"><reg>L'un</reg> de noz françoys
                      <roleName>cardinaulx</roleName></persName><note resp="editor" type="glose">Le
-                  pape <persName ref="ind:Pie_IV">Pie IV</persName> a excommunié <persName>Odet de
+                  pape <persName ref="ind:Pie_IV">Pie IV</persName> a excommunié <persName key="Coligny Odet (de)">Odet de
                      Châtillon</persName> le 31 mars 1563.</note></l>
             <!-- Saut#15 --><anchor type="saut#15"/>
             <l n="56" ana="#adv_rel"><rs type="injonction" subtype="impératif">Laissez chanter</rs>
@@ -375,7 +397,7 @@
                >verolle</rs></l>
             <l ana="#sat_pers"><reg>S'il</reg>
                <reg>n'est</reg> bruslé pour la parolle<note resp="editor" type="glose">Ses harangues
-                  du colloque de Poissy ont été imprimées dès 1561. En 1564, Théodore de Bèze publie
+                  du colloque de Poissy ont été imprimées dès 1561. En 1564, <persName ref="ind:Bèze" key="Bèze Théodore (de)">Théodore de Bèze</persName> publie
                   en français la <title>Confession de la foy chrestienne</title>.</note></l><!-- A compléter -->
             <l ana="#mtd">Comment<add type="ponctuation"> [?]</add> Pensez vous que je rye<add
                   type="ponctuation"> [?]</add></l>
@@ -389,8 +411,8 @@
 
                      <reg>là</reg>
                   </choice> tel rit qui mord</rs><note resp="editor" type="crit">Écho du deuxième
-                  coq-à-l'âne de Marot (réf. n°5): "Laisse moi là qui rit &amp; mord:", v.
-                  160.</note></l>
+                  coq-à-l'âne de Marot (réf. n°5): <quote>Laisse moi là qui rit &amp; mord:</quote>,
+                  v. 160.</note></l>
             <l ana="mtd"><reg>C'est</reg> la devyse de nostre temps</l>
             <!-- Saut#19 --><anchor type="saut#19"/>
             <l n="68" ana="#sit_pol"><orgName>Ceulx du clergié</orgName> ne sont contens</l>
@@ -402,10 +424,10 @@
                      <persName ref="ind:Soliman" key="Soliman le Magnifique">Soliman le
                      Magnifique</persName>, entreprend en mai 1565 le siège de <placeName
                      key="Malte">Malte</placeName> soutenu pendant quatre mois par <persName
-                     key="Jean de la Valette">La Valette, Jean (de)</persName>.</note></l>
+                     key="La Valette Jean (de)">Jean de la La Valette</persName>.</note></l>
             <!-- Saut#21 --><anchor type="saut#21"/>
             <l n="72" ana="#sat_rel">On a beau retrancher les murs<note resp="editor" type="crit"
-                  >Cf. CAA#1 (v. 64-66)</note></l>
+                  >Cf. Réf. n°1, v. 64-66.</note></l>
             <l ana="#sat_rel">Des <orgName>moynes</orgName>
                <reg>s'ilz</reg>
                <reg>n'ayment</reg> leur cloistre</l>
@@ -421,7 +443,7 @@
             <l ana="#amour">Ne sont pas tousjours les meilleures<note resp="editor" type="glose"
                   >Après avoir envisagé un temps une union avec Elisabeth d'Angleterre, Jacques de
                   Savoie se mariera en 1566 avec la veuve du duc de Guise, Anne d'Este. Mais les
-                  "amours secrettes" renvoient plus probablement à sa promesse non tenue envers
+                  <quote>amours secrettes</quote> renvoient plus probablement à sa promesse non tenue envers
                   Françoise de Rohan.</note></l>
             <l n="80" ana="#amour">Mon dieu que longues sont les heures</l>
             <l ana="#amour">De la nuict <reg>à</reg> ung qui attend</l>
@@ -432,18 +454,18 @@
             <l ana="#ethos"><rs type="injonction" subtype="impératif">Parlez</rs>
                <reg>à</reg> ung aultre qu'<reg>à</reg> moy</l>
             <!-- Saut#24 --><anchor type="saut#24"/>
-            <l n="84" ana="#guerre">Car <placeName type="city" key="Paris">Paris</placeName> fut en
+            <l n="84" ana="#gc">Car <placeName type="city" key="Paris">Paris</placeName> fut en
                grand esmoy</l>
-            <l ana="#guerre">Lors que devant les bastillons</l>
-            <l ana="#guerre">Ce combatirent <persName>Chastillons</persName></l>
+            <l ana="#gc">Lors que devant les bastillons</l>
+            <l ana="#gc">Ce combatirent <persName>Chastillons</persName></l>
             <l ana="#lâcheté">Mais qui leur feit prendre la fuytte</l>
-            <l n="88" ana="#guerre">Une nuict <reg>à</reg> sy peu de suytte</l>
-            <l ana="#guerre">Et gaignier la plaine de <placeName type="city" key="Dreux"
+            <l n="88" ana="#gc">Une nuict <reg>à</reg> sy peu de suytte</l>
+            <l ana="#gc">Et gaignier la plaine de <placeName type="city" key="Dreux"
                   >Dreux</placeName><add resp="editor" type="ponctuation">[?]</add><note
                   resp="editor" type="glose">Nouvelle célébration du duc de Guise.</note></l>
             <!-- Saut#25 --><anchor type="saut#25"/>
             <l ana="#ethos">Moy je <reg>n'ay</reg> poinct les piedz pouldreux<note resp="editor"
-                  type="crit">La rime Dreux:poudreux sera reprise dans le <title>Coq-à-l'âne de
+                  type="crit">La rime <hi rend="italic">Dreux: poudreux</hi> sera reprise dans le <title>Coq-à-l'âne de
                      Sancerre et de la Charité</title>, réf. n°61.</note></l>
             <l ana="#argent"><reg>L'argent</reg>
                <reg>qu'on</reg> me baille est bien mys</l>
@@ -452,7 +474,7 @@
             <!-- Saut#26 --><anchor type="saut#26"/>
             <l ana="#éloge">Sy le <persName ref="ind:Charles_IX" key="Charles IX">roy</persName>
                   veult<add resp="editor" type="ponctuation">[,]</add> tu es bien digne</l>
-            <l ana="#éloge">Mon <persName ref="ind:Ronsard" key="Ronsard Pierre de"
+            <l ana="#éloge">Mon <persName ref="ind:Ronsard" key="Ronsard Pierre (de)"
                   >Ronsard</persName>
                <reg>d'avoir</reg> crosse et mittre</l>
             <l n="96" ana="#ethos">Et moy de chanter au pupiltre</l>
@@ -464,7 +486,7 @@
             <l n="100" ana="#hypocrisie">Et <reg>d'aultre part</reg> ont faict promesse</l>
             <l ana="#hypocrisie">Et serment qui ne sont <orgName type="secte"
                   >papistes</orgName><note resp="editor" type="glose">Possible nouvelle allusion à
-                     <persName ref="ind:Odet_de_Coligny">Odet de
+                     <persName ref="ind:Odet_de_Coligny" key="Coligny Odet (de)">Odet de
                   Coligny-Châtillon</persName>.</note></l><!-- Ronsard -->
             <!-- Saut#28 --><anchor type="saut#28"/>
             <l ana="#eschatologie"><rs type="injonction" subtype="impératif">Lisez</rs> les quatre
@@ -482,7 +504,7 @@
                      <reg>d'escrime</reg></rs></l>
             <!-- Saut#31 --><anchor type="saut#31"/>
             <l ana="#mode">Maintenant aussy: est <reg>à</reg> tous</l>
-            <l n="112" ana="#mode">Jouer du baston <reg>à</reg> deux bouts<note resp="editor"
+            <l n="112" ana="#mode">Jouer du <rs type="arme" subtype="bâton">baston</rs> <reg>à</reg> deux bouts<note resp="editor"
                   type="glose">Arme offensive aux deux bouts ferrés. Impossible de choisir entre le
                   sens littéral et les sens figurés pour ce passage sur les jeux du
                temps.</note></l>
@@ -516,23 +538,25 @@
             <!-- Saut#34 --><anchor type="saut#34"/>
             <l ana="#prophétie">Nous aurons bien tost <reg>l'<persName type="antéchrist"
                      key="Antéchrist">entechrist</persName></reg><note resp="editor" type="crit"
-                  ana="#intertexte">Cf. en premier lieu le premier coq-à-l'âne de Marot: "Or est
-                  arrivé l'Antéchrist,/ Et nous l'avons tant attendu.", v. 84-85. Mais aussi "Le
-                  Jeuneux aux Yvrognes" (CAA#31): "Ilz sont du nom de Jhesuchrist / Attendons nous
-                  autre antechrist / Que ses escornifleurs d'eglise", v. 229-231.</note></l>
+                  ana="#intertexte">Cf. en premier lieu le premier coq-à-l'âne de Marot: <quote>Or
+                     est arrivé l'Antéchrist,/ Et nous l'avons tant attendu.</quote>, v. 84-85. Mais
+                  aussi "Le Jeuneux aux Yvrognes" (réf. n°31): <quote>Ilz sont du nom de Jhesuchrist
+                     / Attendons nous autre antechrist / Que ses escornifleurs d'eglise</quote>, v.
+                  229-231.</note></l>
             <l ana="#sit_pol">Les <roleName type="officier">fourriers</roleName> sont desja en
                   <placeName type="country">France</placeName><note resp="editor" type="ling"><hi
-                     rend="italic">Fourriers</hi>: "Officier précédant en voyage les princes et les
-                  hauts personnages, et chargé d'assurer les logements.", Huguet.</note></l>
+                     rend="italic">Fourriers</hi>: <quote>Officier précédant en voyage les princes
+                     et les hauts personnages, et chargé d'assurer les logements.</quote>,
+                  Huguet.</note></l>
             <!-- Saut#35 --><anchor type="saut#35"/>
-            <l n="128" ana="#guerre">La <placeName type="region" key="Beauce">Beausse</placeName>
+            <l n="128" ana="#gc">La <placeName type="region" key="Beauce">Beausse</placeName>
                fut en grand souffrance</l>
-            <l ana="#guerre">Lors que <placeName type="city" key="Orléans">Orleans</placeName> fut
+            <l ana="#gc">Lors que <placeName type="city" key="Orléans">Orleans</placeName> fut
                   detenu<note resp="editor" type="glose">Le 30 mars 1562, Tours et Orléans furent
                   prises par les protestants menés par le prince de Condé.</note></l>
-            <l ana="#guerre"><placeName type="city" key="Paris">Paris</placeName> a fort bien
+            <l ana="#gc"><placeName type="city" key="Paris">Paris</placeName> a fort bien
                soubstenu</l>
-            <l ana="#guerre">Pour le <persName ref="ind:Charles_IX" key="Charles IX">roy</persName>
+            <l ana="#gc">Pour le <persName ref="ind:Charles_IX" key="Charles IX">roy</persName>
                durant tous ses troubles</l>
             <!-- Saut#36 --><anchor type="saut#36"/>
             <l n="132" ana="#argent"><rs type="injonction" subtype="défense">Ne faictes poinct</rs>
@@ -543,7 +567,7 @@
                   key="Montmorency Anne de">le vieil <expan>compere</expan></addName> donne</l>
             <l ana="#sit_pol">Trop de support <reg>à</reg> ses nepveux<note resp="editor"
                   type="glose">Une critique récurrente contre le connétable <persName
-                     ref="ind:Anne_de_Montmorency" key="Monmorency Anne de">Anne de
+                     ref="ind:Anne_de_Montmorency" key="Montmorency Anne (de)">Anne de
                      Montmorency</persName> qu'on suspectait d'indulgence à l'égard des <persName
                      key="Les Coligny">Coligny</persName>.</note></l>
             <!-- Saut#38 --><anchor type="saut#38"/>
@@ -558,7 +582,7 @@
                   <roleName key="Louis Ier de Bourbon-Condé">prince</roleName> est bien marry</l>
             <l ana="#cour"><roleName key="Éléonore de Roye">Madame son espouze</roleName> est
                   morte<note resp="editor" type="glose">Peut-être une allusion à la mort d'<persName
-                     ref="ind:Éléonore_de_Roye">Éléonore de Roye</persName>, princesse de Condé, qui
+                     ref="ind:Éléonore_de_Roye" key="Roye Éléonore (de)">Éléonore de Roye</persName>, princesse de Condé, qui
                   meurt en couches le 23 juillet 1564.</note></l>
             <l ana="#cour">Et dans sy estrange sorte</l>
             <l ana="#ethos">Que quant je y pense je frissonne</l>
@@ -568,9 +592,9 @@
             <l ana="#cour">Quand el veoit au monde venu</l>
             <l n="148" ana="#cour">L'enfant bastard mal soubstenu</l>
             <l ana="#cour">Car troublee en fut la court<note resp="editor" type="glose">En 1564, la
-                  naissance du fils illégitime du prince de <persName ref="ind:Louis_Condé"
-                     >Condé</persName> et d'Isabelle de Limeuil, sa maîtresse, fit grand bruit à la
-                  cour de Catherine de Médicis puisqu'elle se produisit pendant un déplacement à
+                  naissance du fils illégitime du prince de <persName ref="ind:Louis_Condé" key="Condé Louis"
+                     >Condé</persName> et d'<persName key="Limeuil Isabelle (de)">Isabelle de Limeuil</persName>, sa maîtresse, fit grand bruit à la
+                  cour de <persName ref="ind:Catherine_de_Médicis" key="Médicis Catherine (de)">Catherine de Médicis</persName> puisqu'elle se produisit pendant un déplacement à
                   Lyon. La reine chassa sa dame de compagnie et Condé abandonna sa maîtresse pour un
                   mariage digne de son rang de prince du sang.</note></l>
             <!-- Saut#40 --><anchor type="saut#40"/>
@@ -582,11 +606,11 @@
             <l ana="#sit_pol">Pour avoir du <roleName>pape</roleName> une bulle</l>
             <l ana="#argent"><rs type="interjection">Hola</rs> c'est trop <reg>ferré</reg> la <rs
                   type="animal" subtype="équidé">mulle</rs><note resp="editor" type="ling"><hi
-                     rend="italic">Ferrer la mulle</hi>: "Faire des profits illicites". Cf. "La
-                  Grue" (dans sa version du même manuscrit NAF 1870) : "N'entrons cy avant en
-                  parolle / Ne scays tu pas la parabolle / De ceste grand mulle ferrée", v.
-                  281-283.</note></l>
-            <l ana="#satire">Monsieur le <roleName type="prévôt">prevost</roleName> du Laudict</l><!-- A vérifier -->
+                     rend="italic">Ferrer la mulle</hi>: <quote>Faire des profits illicites</quote>.
+                  Cf. "La Grue" (dans sa version du même manuscrit NAF 1870) : <quote>N'entrons cy
+                     avant en parolle / Ne scays tu pas la parabolle / De ceste grand mulle
+                     ferrée</quote>, v. 281-283.</note></l>
+            <l ana="#satire">Monsieur le <roleName type="prévôt">prevost</roleName> du Landict</l>
             <!-- Saut#41 --><anchor type="saut#41"/>
             <l n="156" ana="#épanorthose">Mais touteffoys ce que <reg>j'ay</reg> dict</l>
             <l ana="#épanorthose"><reg>N'est</reg> pas que j'en veille parler</l>
@@ -594,9 +618,9 @@
             <!-- Saut#42 --><anchor type="saut#42"/>
             <l ana="#satire"><reg>J'entends </reg>cil a <expan>comme</expan> une serpe</l>
             <l n="160" ana="#corruption">Et pour bien jouer de la harpe<note resp="editor"
-                  type="crit"><hi rend="italic">Jouer de la harpe</hi>: "dérober", Huguet. La rime
-                     <hi rend="italic">serpe</hi>:<hi rend="italic">harpe</hi> est déjà présente
-                  dans "La Grue" aux vers 108-109.</note></l>
+                  type="crit"><hi rend="italic">Jouer de la harpe</hi>: <quote>dérober</quote>,
+                  Huguet. La rime <hi rend="italic">serpe</hi>:<hi rend="italic">harpe</hi> est déjà
+                  présente dans <quote>La Grue</quote> aux vers 108-109.</note></l>
             <fw type="sig" place="bottom-right">h iiii</fw>
             <pb n="32v"/>
             <l ana="#corruption">Tous procureurs en ont <reg>l'usaige</reg></l>
@@ -610,13 +634,13 @@
                Espagnols.</note></l>
             <l n="164">Servent grand tort <reg>à</reg> leurs parens</l>
             <l>Car malheur en advint au prince</l>
-            <l><persName ref="ind:Jean_de_Bourbon" key="Jean de Bourbon">D'Anguyen</persName> et
+            <l><persName ref="ind:Jean_de_Bourbon" key="Bourbon Jean (de)">D'Anguyen</persName> et
                   <reg>à</reg> la province<note resp="editor" type="glose">Effectivement, Jean de
                   Bourbon, comte de Soissons, trouve la mort lors de la bataille du 10 août
                   1557.</note></l>
-            <l ana="#guerre"><rs type="interjection">Mon dieu</rs> que de sang respandu</l>
+            <l ana="#gc"><rs type="interjection">Mon dieu</rs> que de sang respandu</l>
             <l n="168" ana="#argent">Et que d'argent mal despendu</l>
-            <l ana="#guerre">Pour je ne scay quelles querelles</l>
+            <l ana="#gc">Pour je ne scay quelles querelles</l>
             <l ana="#ironie">Qui sont aussy bonnes <expan>que</expan> belles</l>
             <l ana="#ethos">Je m'en courrouce quant j'y pense</l>
             <!-- Saut#44 --><anchor type="saut#44"/>
@@ -630,26 +654,28 @@
                   se mocque, / Quand son amy son cas luy compte."</note></l>
             <!-- Saut#46 --><anchor type="saut#46"/>
             <l n="176">Il n'avoit pas gaigné la hart<note resp="editor" type="ling"><hi
-                     rend="italic">Hart</hi>: "Corde servant à pendre", Huguet.</note></l>
+                     rend="italic">Hart</hi>: <quote>Corde servant à pendre</quote>,
+               Huguet.</note></l>
             <l ana="#corruption">Le bon <persName ref="ind:Sapin" key="Sapin Jean-Baptiste"
                   >Sapin</persName> on luy feit tort<note resp="editor" type="glose">Le conseiller
                   au parlement de Paris <persName ref="ind:Sapin" key="Sapin Jean-Baptiste"
                      >Jean-Baptiste Sapin</persName> fut pendu par le conseil de ville d'<placeName
                      type="city" key="Orléans">Orléans</placeName> le <date when="1563-11-01">1<hi
-                        rend="sup">er</hi> novembre 1563</date>. Voir <persName>Agrippa
+                        rend="sup">er</hi> novembre 1563</date>. Voir <persName key="Aubigné Aggripa (d')">Agrippa
                      d'Aubigné</persName>, <title>Histoire Universelle</title>, livre III, chap. 10:
-                  "[Le Connestable] fit trancher la teste à Mandreville et pendre quatre
-                  Conseillers, et Augustin Marlorat ; et le lendemain six Capitaines, et encores
-                  après, plusieurs autres. En represailles de quoi le <persName
-                     ref="ind:Louis_Condé">Prince de Condé</persName> fit mourir le President Sapin
-                  et l’Abbé de Gastines, pris comme ils alloyent en Espagne: Plusieurs Reformez
-                  improuverent  ceste vengeance: et me souvient que mon Pere revenant du Conseil, où
-                  ces deux avoyent esté condamnez, refusa de manger, et dit au Secretaire Parenteau
-                  (qui l’avoit accompagné), <hi rend="italic">On dit que l’ire est une demie folie,
-                     et je dis qu’aux Princes elle est folie entiere</hi>".</note></l>
+                     <quote>[Le Connestable] fit trancher la teste à Mandreville et pendre quatre
+                     Conseillers, et Augustin Marlorat ; et le lendemain six Capitaines, et encores
+                     après, plusieurs autres. En represailles de quoi le <persName
+                        ref="ind:Louis_Condé" key="Condé Louis">Prince de Condé</persName> fit mourir le President
+                     Sapin et l’Abbé de Gastines, pris comme ils alloyent en Espagne: Plusieurs
+                     Reformez improuverent  ceste vengeance: et me souvient que mon Pere revenant du
+                     Conseil, où ces deux avoyent esté condamnez, refusa de manger, et dit au
+                     Secretaire Parenteau (qui l’avoit accompagné), <hi rend="italic">On dit que
+                        l’ire est une demie folie, et je dis qu’aux Princes elle est folie
+                        entiere</hi></quote>.</note></l>
             <!-- Saut#47 --><anchor type="saut#47"/>
             <l ana="#sit_pol">Les harangues de <persName ref="ind_Silly"
-                  key="Silly Jacques de, seigneur de Rochefort">Rochefort</persName></l>
+                  key="Silly Jacques (de)">Rochefort</persName></l>
             <l ana="#sit_pol">Furent plus vrayes que non pas graves<note resp="editor" type="glose"
                   >En référence au discours tenu pendant les États Généraux d'Orléans de 1560 et
                   publié en 1561 à Blois chez Julian Angelier. Cf. le fac-similé mis en ligne par
@@ -658,8 +684,8 @@
             <l n="180">Veu que les naveaulx et les raves</l>
             <l ana="#topos">Sont fort commungs en <placeName type="region" key="Limousin"
                   >Lymosin</placeName><note>Cf. les vers 30-31 du coq-à-l'âne de François La Salla
-                  (réf. n°19): "Les Lymossins ont bon marché / De ravez et petiz
-               naveaulx".</note></l>
+                  (réf. n°19): <quote>Les Lymossins ont bon marché / De ravez et petiz
+                     naveaulx</quote>.</note></l>
             <!-- Saut#49 --><anchor type="saut#49"/>
             <l ana="#satire">Il n'est pas seur <reg>d'estre</reg> voysin</l>
             <l ana="#satire"><reg>D'un</reg> monsieur qui faict tant d'acquests</l>
@@ -684,7 +710,7 @@
                   >Perrocelq</persName> pouvoit rendre<note resp="editor" type="glose">Ancien
                   franciscain passé à la Réforme, une des cibles privilégiées des futures chansons
                   catholiques et notamment du <title>Coq à l'Ane des Ministres de Geneve &amp;
-                     huguenots de France</title>, réf. 60.</note></l>
+                     huguenots de France</title>, réf. n°60.</note></l>
             <l ana="#sat_pers">Sa <rs type="invective">vielle nonnain desbauchée</rs></l>
             <l ana="#sat_pers">Jamays <reg>d'une</reg>
                <rs type="animal" subtype="équidé">mule</rs> eschauffée</l>
@@ -708,9 +734,9 @@
             <l ana="#éloge">Car il ne souffre sa ruyne</l>
             <!-- Saut#54 --><anchor type="saut#54"/>
             <l ana="#éloge">Ce grand <persName ref="ind:Cardinal_de_Lorraine"
-                  key="Charles de Lorraine">Cardinal de Lorraine</persName><note resp="editor"
-                  type="crit">Voir <title>Le Coq aux lievres (réf. n°46)</title>: "Le Cardinal de la
-                  Ruyne / Mettra le feu de tous costez", v. 174-175.</note></l>
+                  key="Lorraine, Charles (de)">Cardinal de Lorraine</persName><note resp="editor"
+                  type="crit">Voir <title>Le Coq aux lievres (réf. n°46)</title>: <quote>Le Cardinal
+                     de la Ruyne / Mettra le feu de tous costez</quote>, v. 174-175.</note></l>
             <l ana="#éloge">Est des plus dignes de sa robbe</l>
             <l n="208">Mais de penser que se desrobbe</l>
             <l ana="#sit_pol">L'honneur au nostre de <persName>Bourbon</persName></l>
@@ -799,9 +825,9 @@
             <l ana="#adr">Et <rs type="injonction" subtype="impératif">supporte</rs> aussy
                   <expan>comme</expan> il fault</l>
             <l n="260" ana="#ethos">Du tien disciple le deffault</l>
-            <l ana="#mtd">Qui ne veult plus ici rien mettre<note/>On se souvient que Marot achevait
-               son premier coq-à-l'âne sur les vers: "Affin de dire en petit metre, / Ce que j'ay
-               oublyé d'y mettre.", v. 125-126.</l>
+            <l ana="#mtd">Qui ne veult plus ici rien mettre<note>On se souvient que Marot achevait
+               son premier coq-à-l'âne sur les vers: <quote>Affin de dire en petit metre, / Ce que j'ay
+                  oublyé d'y mettre.</quote>, v. 125-126.</note></l>
             <l ana="#conclusio">Que pour te dire a dieu mon maistre</l>
          </p>
       </body>

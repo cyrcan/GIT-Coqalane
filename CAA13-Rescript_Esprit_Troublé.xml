@@ -5,8 +5,10 @@
    <teiHeader>
       <fileDesc xml:id="Esprit_Trouble_Rescrit">
          <titleStmt>
-            <title>Réf. n°13: </title>
-            <title key="CAA#13">L'escript de L'asne au Coq. lvvviii.</title>
+            <title type="idno">Réf. n°13: </title>
+            <title type="main">L'escript de L'asne au Coq</title>
+            <title type="incipit">Amy, pour respondre à ta lettre</title>
+            <author>Anonyme</author>
          </titleStmt>
          <publicationStmt>
             <p/>
@@ -51,7 +53,7 @@
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
@@ -188,6 +190,12 @@
             </interpGrp>
          </p>
       </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <creation><date when="1536">1536</date></creation>
+      </profileDesc>
    </teiHeader>
 
    <text>
@@ -207,7 +215,7 @@
                   <persName ref="ind:Montmorency">Montmorency</persName> à partir de juillet 1536
                contre les troupes de l'empereur.</note>
             <!-- Saut#3 --><anchor type="saut#3"/>
-            <l n="8">Au bout de l'an la <rs type="animal" key="vache">vache</rs> velle<note resp="editor"
+            <l n="8">Au bout de l'an la <rs type="animal" subtype="bovidé" key="vache">vache</rs> velle<note resp="editor"
                   type="ling">La locution <hi rend="italic">ne vache ne veel!</hi> signifie: "rien du
                   tout", Di Stefano.</note></l>
             <l ana="#tauto">S'elle est malade el n'est point saine</l>
@@ -295,7 +303,7 @@
                t'enseigne</l><!-- rime -->
             <!-- Saut#24 --><anchor type="saut#24"/>
             <l n="56" ana="#équivoque">Si fault que du bras on te seigne</l>
-            <l>Bons <rs type="métier">medecins</rs> y a à <placeName type="city" key="Laon"
+            <l>Bons <rs type="occupation">medecins</rs> y a à <placeName type="city" key="Laon"
                   ref="https://data.bnf.fr/ark:/12148/cb11932227j"><geo>49.349
                   3.3735</geo>Laon</placeName></l>
             <!-- Saut#25 --><anchor type="saut#25"/>

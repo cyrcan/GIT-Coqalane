@@ -5,7 +5,10 @@
    <teiHeader>
       <fileDesc xml:id="Veau1568">
          <titleStmt>
-            <title>Le Veau au Coq</title>
+            <title type="idno">Réf. n°56: </title>
+            <title type="main">Le Veau au Coq</title>
+            <title type="incipit">Je suys demouré sy court</title>
+            <author>Anonyme</author>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -44,7 +47,7 @@
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
@@ -182,7 +185,16 @@
             </interpGrp>
          </p>
       </encodingDesc>
-      <revisionDesc><change><date when="2025-05-15">Jeudi 15 mai 2025:</date>transcription et sauts. Encodage de niveau 2.</change></revisionDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <creation><date when="1568">1568</date></creation>
+      </profileDesc>
+      <revisionDesc>
+         <change><date when="2025-05-15">Jeudi 15 mai 2025:</date>transcription et sauts. Encodage
+            de niveau 2.</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -381,7 +393,8 @@
             <l>Ilz ne se banderoient contre Dieu</l>
             <!-- Saut#41 --><anchor type="saut#41"/>
             <l n="140" ana="#sat_pers">Le volleur moyne <persName>Richelieu</persName></l>
-            <l ana="#sat_pers">Et <persName>le bon evesque du <placeName type="city" key="Le Mans">Mans</placeName></persName></l>
+            <l ana="#sat_pers">Et <persName>le bon evesque du <placeName type="city" key="Le Mans"
+                     >Mans</placeName></persName></l>
             <l>Qui les eust il y a six ans</l>
             <l>Penduz bien l'auroient mérité</l>
             <!-- Saut#42 --><anchor type="saut#42"/>
@@ -390,7 +403,8 @@
             <!-- Saut#43 --><anchor type="saut#44"/>
             <l>Mais que dict on de <persName>Chavigny</persName></l>
             <l>Il debvoit avecques sa trouppe</l>
-            <l n="148">Mectre <expan>tous</expan> <orgName type="secte" subtype="réformée">huguenots</orgName> en routte</l>
+            <l n="148">Mectre <expan>tous</expan>
+               <orgName type="secte" subtype="réformée">huguenots</orgName> en routte</l>
             <l>Et leur faire dix mille maulx</l>
             <!-- Saut#44 --><anchor type="saut#44"/>
             <l>Le <persName>grand lancier de Clérevaulx</persName></l>
@@ -399,8 +413,10 @@
             <l>Pour l'engarder de s'enfuyr</l>
             <!-- Saut#45 --><anchor type="saut#45"/>
             <l>Je vouldrois voluntiers oyr</l>
-            <l>Sy <persName>Verrigny</persName> porte une <rs type="arme" subtype="lance">lance</rs></l>
-            <l n="156" ana="#sat_pers">Il deshonorera la <placeName type="country" key="France">France</placeName></l>
+            <l>Sy <persName>Verrigny</persName> porte une <rs type="arme" subtype="lance"
+               >lance</rs></l>
+            <l n="156" ana="#sat_pers">Il deshonorera la <placeName type="country" key="France"
+                  >France</placeName></l>
             <l ana="#lâcheté">Il ne frappe que par derriere</l>
             <!-- Saut#46 --><anchor type="saut#46"/>
             <l><persName>Danjonay</persName> passe la carriere</l>
@@ -409,7 +425,8 @@
             <l>Feroient voluntiers leur traiste</l>
             <!-- Saut#47 --><anchor type="saut#47"/>
             <l ana="#sat_pers"><persName>Esquilly</persName> avec sa cornette</l>
-            <l>Desireroict bien estre <reg>à</reg> <placeName type="city" key="Chartres">Chartres</placeName></l>
+            <l>Desireroict bien estre <reg>à</reg>
+               <placeName type="city" key="Chartres">Chartres</placeName></l>
             <l n="164">Il crainct fort de tomber aux pattes</l>
             <l>D'aulcuns de la Religion</l>
             <!-- Saut#48 --><anchor type="saut#48"/>

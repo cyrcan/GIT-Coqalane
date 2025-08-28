@@ -6,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="Marot_5">Epistre du coq à l'asne à Lyon [Réf. 24]</title>
+            <title type="idno">Réf. n°24: </title>
+            <title type="main">Epistre du coq à l'asne à Lyon</title>
+            <title type="incipit">Tu scez bien mon amy Lyon</title>
+            <author>Marot, Clément</author>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -47,53 +50,58 @@
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
                <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="amour" ana="amour">amour</interp>
                <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
-
+               
                <!-- B -->
                <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
                <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
-
+               
                <!-- C -->
                <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
                <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de l'épître</interp>
                <interp xml:id="corruption" ana="corruption">corruption</interp>
                <interp xml:id="corps" ana="corps">corps</interp>
                <interp xml:id="cour" ana="court">vie de la cour</interp>
                <interp xml:id="cri" ana="cri">cris des marchands</interp>
                <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
-
+               
                <!-- D -->
                <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
                <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
-
+               
                <!-- E -->
+               <interp xml:id="éloge" ana="éloge">éloge</interp>
                <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
                <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="eschatologie" ana="eschatologie">conception eschatologique</interp>
                <interp xml:id="ethos" ana="ethos">ethos</interp>
                <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
                <interp xml:id="exhortation" ana="exhortation">exhortations et
                   encouragements</interp>
-
+               
                <!-- F -->
+               <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
                <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
                <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
-
+               
                <!-- G -->
                <interp xml:id="gén" ana="généralisation">généralisation</interp>
                <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
                   gnomique</interp>
                <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
-
+               
                <!-- H -->
                <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
                <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
-
-
+               
+               
                <!-- I -->
                <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
@@ -103,13 +111,13 @@
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
                <interp xml:id="ironie" ana="ironie">ironie</interp>
-
+               
                <!-- L -->
                <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
                <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
                <interp xml:id="topos" ana="topos">lieu commun</interp>
                <interp xml:id="ligue" ana="ligue">ligue</interp>
-
+               
                <!-- M -->
                <interp xml:id="maladie" ana="maladie">maladie</interp>
                <interp xml:id="massacre" ana="massacre">massacre</interp>
@@ -118,11 +126,15 @@
                <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
                <interp xml:id="misères" ana="misères">misères du temps</interp>
                <interp xml:id="misogynie" ana="misogynie">misogynie</interp>
+               <interp xml:id="mode" ana="mode">mode</interp>
                <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
                   valeurs</interp>
                <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
-
-
+               
+               <!-- N -->
+               <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
+               
+               
                <!-- P -->
                <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
                <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
@@ -133,36 +145,41 @@
                <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
                <interp xml:id="practiques" ana="practiques">practiques</interp>
                <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="prière" ana="prière">prière</interp>
                <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
                <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
                <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
                   nécessaire</interp>
-
+               
                <!-- R -->
                <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
                <interp xml:id="rébus" ana="rébus">rébus</interp>
                <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="révélations" ana="révélations">révélation(s)</interp>
                <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
                <interp xml:id="rire" ana="rire">rire</interp>
                <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
                <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
-
+               
                <!-- S -->
-
+               
                <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
                <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
                <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
                <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="sergents" ana="sergents">contre les sergents</interp>
                <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
                <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
                <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
-
+               <interp xml:id="syllepse" ana="syllepse">syllepse</interp>
+               
                <!-- T -->
                <interp xml:id="tauto" ana="tauto">tautologie</interp>
                <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
                <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
                <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
-
+               <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
+               
                <!-- V -->
                <interp xml:id="vanité" ana="vanité">vanité</interp>
                <interp xml:id="vp" ana="pivot">vers pivot</interp>
@@ -170,10 +187,17 @@
             </interpGrp>
          </p>
       </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <creation><date when="1542">1542</date></creation>
+      </profileDesc>
       <revisionDesc>
          <change><date>2023-08-10</date>Encodage de niveau 4.</change>
          <change><date>2024-11-23</date>Ajout du schéma @ana et relecture des sauts jusqu'au
             #16.</change>
+         <change><date when="2025-07-15">Mardi 15 juillet 2025 : ajout des ref target vers EMAN.</date></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -182,17 +206,17 @@
          <bibl>Clément Marot, <title>Les Épîtres</title>, <hi rend="italic">Poésie</hi>/Gallimard,
             2021, p. 241-248.</bibl>
          <p>
-            <pb n="150r"/>
+            <pb n="150r"/><ref target="https://eman-archives.org/Coqalane/admin/files/show/95"/>
             <fw type="pageNum" place="top-right">150</fw>
             <l ana="#adr">Tu scez bien mon amy <persName type="destinataire" key="Lyon Jamet"
                   >Lyon</persName></l>
             <l>Que long temps a que de <placeName type="city" key="Lyon">Lyon</placeName></l>
             <l>Je n'euz de toy nulles nouvelles</l>
             <l n="4" ana="#réf_litt">Ce ne sont pas les <rs>Cent Nouvelles</rs></l>
-            <l>Que je demande de <persName key="Boccace">Boccasse</persName></l>
-            <note resp="editor" type="crit">Voici une première référence commune avec la "Grue" :
-               'As tu jamays veu la complaincte / Que faict Flammette à son amy / Il ne l’aymoit pas
-               à demy / Veu le grief mal qu’il enduroit' (v. 256-259).</note>
+            <l>Que je demande de <persName key="Boccace">Boccasse</persName><note resp="editor" type="crit">Voici une première référence commune avec la "Grue" :
+                  'As tu jamays veu la complaincte / Que faict Flammette à son amy / Il ne l’aymoit pas
+                  à demy / Veu le grief mal qu’il enduroit' (v. 256-259).</note></l>
+            
             <!-- Saut#1 -->
             <anchor type="saut#1"/>
             <l ana="#folie">Il est fol qui le col se casse</l>
@@ -216,55 +240,55 @@
             <l ana="#adr">Or je te demande comment</l>
             <!-- Saut#2 -->
             <anchor type="saut#2"/>
-            <l n="16">Si tu <rs type="locution">bois plus en allemant</rs></l>
-            <note resp="editor" type="ling">Boire en quantité</note>
+            <l n="16">Si tu <rs type="locution">bois plus en allemant</rs><note resp="editor" type="ling">Boire en quantité</note></l>
+            
             <l>Tu n'en seras que plus prisé</l>
             <!-- Saut#3 -->
             <anchor type="saut#3"/>
             <l>Ung homme n'est pas desprisé</l>
-            <l>Laisser la ville pour les champs</l>
-            <note resp="editor" type="crit">Opposition géographique l'on retrouve dans l'incipit de
-               "la Grue".</note>
+            <l>Laisser la ville pour les champs<note resp="editor" type="crit">Opposition géographique l'on retrouve dans l'incipit de
+                  "la Grue".</note></l>
+            
             <!-- Saut#4 -->
             <anchor type="saut#4"/>
-            <l n="20">Par tout ont affaire marchans</l>
-            <note resp="editor" type="crit">La rime champs:marchans précisera sa cible dans "la
-               Grue".</note>
+            <l n="20">Par tout ont affaire marchans<note resp="editor" type="crit">La rime champs:marchans précisera sa cible dans "la
+                  Grue".</note></l>
+            
             <l>Pour subvenir à ceste vye</l>
             <!-- Saut#5 -->
             <anchor type="saut#5"/>
             <l>Quant d'aller je n'ay nulle envye</l>
-            <l><rs type="injonction" subtype="impératif">Attendz moy</rs> le pas je n'y voys</l>
-            <note resp="editor" type="crit">On croit entendre dans l'équivoque la réticence à
-               quitter Lyon pour Genève.</note>
+            <l><rs type="injonction" subtype="impératif">Attendz moy</rs> le pas je n'y voys<note resp="editor" type="crit">On croit entendre dans l'équivoque la réticence à
+                  quitter Lyon pour Genève.</note></l>
+            
             <!-- Saut#6-->
             <anchor type="saut#6"/>
-            <l n="24"><rs type="injonction" subtype="defense">Ne parles point</rs> en genesvoys</l>
-            <note resp="editor" type="crit">Le Parlement de Paris condamne le 1er juillet 1542 au
-               bûcher "L'institution de la religion chrétienne" de <persName ref="ind:Calvin"
-                  key="Calvin Jean">Calvin</persName>, publiée en français l'année
-               précédente.</note>
+            <l n="24"><rs type="injonction" subtype="defense">Ne parles point</rs> en genesvoys<note resp="editor" type="crit">Le Parlement de Paris condamne le 1er juillet 1542 au
+                  bûcher "L'institution de la religion chrétienne" de <persName ref="ind:Calvin"
+                     key="Calvin Jean">Calvin</persName>, publiée en français l'année
+                  précédente.</note></l>
+            
             <l>Que la fumée ne t'aveugle</l>
             <!-- Saut#7 -->
             <anchor type="saut#7"/>
             <l>Pas ne s'en plainct le pouvre aveugle</l>
-            <l>De la blancque est tout revestu</l><!-- Probable jeu de mots -->
-            <note resp="editor" type="crit">Une référence à la loterie d'origine italienne instituée
-               dans chaque ville par François Ier en mai 1539 afin de renflouer les caisses du
-               royaume.</note>
+            <l>De la blancque est tout revestu<note resp="editor" type="crit">Une référence à la loterie d'origine italienne instituée
+                  dans chaque ville par François Ier en mai 1539 afin de renflouer les caisses du
+                  royaume.</note></l><!-- Probable jeu de mots -->
+            
             <!-- Saut#8 -->
             <anchor type="saut#8"/>
-            <pb n="150v"/>
+            <pb n="150v"/><ref target="https://eman-archives.org/Coqalane/admin/files/show/96"/>
             <l n="28">Il faict mauvais estre testu</l>
-            <l>Et avoir la teste trop aigre</l>
-            <note resp="editor" type="glose">L'opiniâtreté risque de conduire au bûcher.</note>
+            <l>Et avoir la teste trop aigre<note resp="editor" type="glose">L'opiniâtreté risque de conduire au bûcher.</note></l>
+            
             <!-- Saut#9 --><anchor type="saut#9"/>
             <l>L'on faict chandelle de vinaigre</l>
             <l>Fine moustarde de cotton</l>
             <!-- Saut#10 --><anchor type="saut#10"/>
-            <l n="32">Car de porter ung hocqueton</l>
-            <note resp="editor" type="ling"><hi rend="italic">Hoqueton</hi>: "Sorte de casaque",
-               Huguet.</note>
+            <l n="32">Car de porter ung hocqueton <note resp="editor" type="ling"><hi rend="italic">Hoqueton</hi>: "Sorte de casaque",
+                  Huguet.</note></l>
+           
             <l>C'est l'estat de monsieur l'<rs type="soldat" subtype="archer">archer</rs></l>
             <!-- Saut#11 --><anchor type="saut#11"/>
             <l ana="#souffrances">L'on faict la pauvre gent marcher </l>
@@ -275,26 +299,26 @@
             <!-- Saut#13 --><anchor type="saut#13"/>
             <l>Voisins ont l'un sur l'autre envye</l>
             <l>Tesmoingz l'<placeName type="country" key="Écosse">Escosse</placeName> et
-                  l'<placeName type="country" key="Angleterre">Angleterre</placeName></l>
-            <note resp="editor" type="crit">À la mort de sa sœur, la reine d'Écosse, Henri VIII
-               projette d'annexer le royaume de son neveu Jacques V.</note>
+               l'<placeName type="country" key="Angleterre">Angleterre</placeName><note resp="editor" type="crit">À la mort de sa sœur, la reine d'Écosse, Henri VIII
+                  projette d'annexer le royaume de son neveu Jacques V.</note></l>
+            
             <!-- Note à compléter -->
             <!-- Saut#14 --><anchor type="saut#14"/>
             <l n="40">Las il n'eust pas mis pied à terre</l>
             <l><addName key="Andrea Doria">Neptunus</addName> qui vogua sur mer</l>
             <!-- Saut#15 --><anchor type="saut#15"/>
-            <l>Le morceau estoit bien amer</l>
-            <note>La campagne d'Alger de Charles-Quint et de son allié génois Andrea Doria, ici
-               comparé à Neptune, pour sa maîtrise sur mer, se solde par un échec à l'automne
-               automne 1541, désastre prévu par l'amiral. </note>
+            <l>Le morceau estoit bien amer<note>La campagne d'Alger de Charles-Quint et de son allié génois Andrea Doria, ici
+                  comparé à Neptune, pour sa maîtrise sur mer, se solde par un échec à l'automne
+                  automne 1541, désastre prévu par l'amiral.</note></l>
+            
             <l>Mais de cueur <choice>
                   <orig>c'est</orig>
                   <reg>s'est</reg>
                </choice> clamé bany</l>
             <!-- Saut#16 --><anchor type="saut#16"/>
-            <l n="44">Devant Lamazabthany</l>
-            <note resp="editor" type="crit">Les paroles du Christ "Lamma sabacthani" (Matthieu, 27,
-               46) sont censées traduire le désespoir de l'Empereur devant la défaite.</note>
+            <l n="44">Devant Lamazabthany<note resp="editor" type="crit">Les paroles du Christ "Lamma sabacthani" (Matthieu, 27,
+                  46) sont censées traduire le désespoir de l'Empereur devant la défaite.</note></l>
+            
             <l><rs type="injonction" subtype="défense">Ne parlez point</rs> de l'Evangille</l>
             <l>Si vous n'avez la langue agille</l>
             <l>Pour Sorbonner la bonne myne</l>
@@ -306,13 +330,13 @@
             <l ana="#folie">Gaignera beaucoup de chandelle</l>
             <l n="52" ana="#folie">S'il a les folz et leur sequelle</l>
             <!-- Saut#18 -->
-            <l>À <placeName type="city" key="Orléans">Orleans</placeName> le secretain</l><note
-               resp="editor" type="ling"><hi rend="italic">Secretain</hi>: sacristain.</note>
+            <l>À <placeName type="city" key="Orléans">Orleans</placeName> le secretain<note
+                  resp="editor" type="ling"><hi rend="italic">Secretain</hi>: sacristain.</note></l>
             <l>A prins or argent et estain</l>
             <l>Pour amener la secretaine</l>
             <l n="56"><persName key="Louise de Bourbon">L'abbesse de la Magdelaine</persName></l>
             <fw type="catch" place="bottom-right">Deviendra grosse</fw>
-            <pb n="151r"/>
+            <pb n="151r"/><ref target="https://eman-archives.org/Coqalane/admin/files/show/97"/>
             <fw type="pageNum" place="top-right">151</fw>
             <l>Deviendra grosse par despit</l>
             <!-- Saut#19 -->
@@ -320,8 +344,8 @@
             <l>Qui de la mort peult eschapper</l>
             <!-- Saut#20 -->
             <l n="60">Il n'est que ribaulx pour frapper</l>
-            <l>Quant la bataille est en ung coing</l>
-            <note>Métaphore sexuelle</note>
+            <l>Quant la bataille est en ung coing<note>Métaphore sexuelle</note></l>
+            
             <!-- Saut#21 -->
             <!-- Début du récit inséré avec défense de rire -->
             <l>Si tu m'escoutes de grand soing</l>
@@ -331,9 +355,9 @@
             <l>Qui sur <placeName>Nostre Dame de joye</placeName></l>
             <l>A dict par <rs type="néologisme">advisation</rs></l>
             <l n="68">Que c'estoit <rs type="néologisme">abusation</rs></l>
-            <l>Des miracles qu'elles faisoit</l>
+            <l>Des miracles qu'elles faisoit<note>Les deux néologismes semblent traduire le grotesque de la déclaration.</note></l>
             <!-- Fin du récit inséré -->
-            <note>Les deux néologismes semblent traduire le grotesque de la déclaration.</note>
+            
             <!-- Saut#22 -->
             <l>Je croy si chacun se taisoit</l>
             <l>Qu'on n'orroit pas gueres de bruict</l><!-- A vérifier -->
@@ -356,49 +380,49 @@
             <!-- Saut#26 -->
             <l n="84">Ung vieil <rs type="animal" subtype="équidé" key="cheval">roussin</rs> devient
                poussif</l>
-            <pb n="151v"/>
+            <pb n="151v"/><ref target="https://eman-archives.org/Coqalane/admin/files/show/98"/>
             <l>Qui n'a souvent litiere fresche</l>
             <!-- Saut#27 -->
             <l>L'on a mis <persName key="Guillaume Poyet"><expan>Guillaume</expan></persName> en la
-                  <placeName type="prison">craische</placeName></l>
-            <note>Allusion à peine voilée à l'emprisonnement le 2 août 1542 du conseiller déchu qui
-               avait manœuvré contre l'amiral Chabot.</note>
+               <placeName type="prison">craische</placeName><note>Allusion à peine voilée à l'emprisonnement le 2 août 1542 du conseiller déchu qui
+                  avait manœuvré contre l'amiral Chabot.</note></l>
+            
             <l>Pour veoir son vif entendement</l>
             <l n="88">De mal est aussi innocent</l>
             <l>Que <persName>Judas</persName> de la mort <persName>Jhesus</persName></l>
             <!-- Saut#28 -->
-            <l>Pour aller au trosne lassus</l>
-            <note resp="editor" type="ling">Lassus : au-dessus.</note>
+            <l>Pour aller au trosne lassus<note resp="editor" type="ling">Lassus : au-dessus.</note></l>
+            
             <l>Que fera l'ame pecheresse</l>
             <l n="92">Je croy <reg>qu'elle</reg> est en grand destresse</l>
             <l>Que son miroir est deffendu</l>
             <!-- Saut#29 -->
-            <l><persName key="Antéchrist">L'anthecrist</persName> n'est plus attendu</l>
-            <note resp="editor" type="crit">Écho et prolongement des vers 84-85 du premier
-               coq-à-l'âne : "Or est arrivé l'Antéchrist / Nous l'avons tant attendu"</note>
+            <l><persName key="Antéchrist">L'anthecrist</persName> n'est plus attendu<note resp="editor" type="crit">Écho et prolongement des vers 84-85 du premier
+                  coq-à-l'âne : "Or est arrivé l'Antéchrist / Nous l'avons tant attendu"</note></l>
+            
             <l>Nous l'avons<add resp="editor" type="ponctuation">,</add> gardons qu'il eschappe</l>
             <!-- Note sur la figure de l'antéchrist-->
             <l n="96" ana="#ambition"><rs type="injonction" subtype="impératif">Baisez</rs> la
-               pantoufle du <persName>pappe</persName></l>
-            <note>cf. Luther, <title>Prélude sur la captivité de babylonienne de l'Église</title> de
-               1520 puis Calvin, <title>IRC</title>, fin du chapitre IV.</note>
+               pantoufle du <persName>pappe</persName><note>cf. Luther, <title>Prélude sur la captivité de babylonienne de l'Église</title> de
+                  1520 puis Calvin, <title>IRC</title>, fin du chapitre IV.</note></l>
+            
             <!-- Note à compléter -->
             <l ana="#ambition">En disant vostre patenostre</l>
-            <l ana="#ironie">Vous serez sainct <expan>comme</expan> ung apostre</l>
-            <note>Calvin, ibid.</note>
+            <l ana="#ironie">Vous serez sainct <expan>comme</expan> ung apostre<note resp="editor">Calvin, <hi rend="italic">ibid.</hi></note></l>
+            
             <l ana="#ambition">Si du chapeau avez saisine</l>
             <!-- Saut#30 -->
             <l n="100">Car au dedans de la cuysine</l>
             <l>Qui bon le trouve bon le boyt</l>
             <!-- Saut#31 -->
             <l ana="#gnomique">Et qui plus monte qu'il ne doibt</l>
-            <l ana="#ironie">Il veoit ung clocher de plus loing</l>
-            <note resp="editor" type="crit">Réponse de Croquepie à Sotie dans la <hi rend="italic"
-                  >Sotie des vigilles Triboulet</hi>. Cf. Jehan d’Abundance, <title>C’est la Farce
-                  ou Sotie des vigilles Triboulet: à quatre personnaiges, c’est assavoir
-                     <persName>Sotouart</persName>, <persName>Croquepie</persName>,
-                     <persName>Sotie</persName> et <persName>Le Rossignol</persName></title>, Jehan
-               Trepperel, Paris, 1458.</note>
+            <l ana="#ironie">Il veoit ung clocher de plus loing<note resp="editor" type="crit">Réponse de Croquepie à Sotie dans la <hi rend="italic"
+                     >Sotie des vigilles Triboulet</hi>. Cf. Jehan d’Abundance, <title>C’est la Farce
+                        ou Sotie des vigilles Triboulet: à quatre personnaiges, c’est assavoir
+                        <persName>Sotouart</persName>, <persName>Croquepie</persName>,
+                        <persName>Sotie</persName> et <persName>Le Rossignol</persName></title>, Jehan
+                  Trepperel, Paris, 1458.</note></l>
+            
             <!-- Saut#32 -->
             <l n="104">À <placeName type="city" key="Paris">Paris</placeName> a levé son groing</l>
             <l>La <rs type="animal" subtype="canidé" key="louve">loupve</rs> aussi et ses <rs
@@ -416,7 +440,7 @@
             <l>Ung duo à quatre parties</l>
             <l>Voy comment les voix sont loties</l>
             <fw type="catch" place="bottom-right">Pour l'ung et l'autre supporter</fw>
-            <pb n="152r"/>
+            <pb n="152r"/><ref target="https://eman-archives.org/Coqalane/admin/files/show/99"/>
             <fw type="pageNum" place="top-right">152</fw>
             <l>Pour l'ung et l'autre supporter</l>
             <!-- Saut#35 -->
@@ -427,9 +451,9 @@
             <l>Sera fort chere ce karesme</l>
             <!-- Saut#36 -->
             <l n="120">Tu payeras tes beurre et cresme</l>
-            <l>Pour estre dict bon filz de <rs type="animal" key="vache">vache</rs></l>
-            <note>Un tel "bon veau" deviendra destinataire du coq-à-l'âne de l'asne au beuf de 1545,
-               dont la copie unique se trouve dans ce même manuscrit 203.</note>
+            <l>Pour estre dict bon filz de <rs type="animal" subtype="bovidé" key="vache">vache</rs><note>Un tel "bon veau" deviendra destinataire du coq-à-l'âne de l'asne au beuf de 1545,
+                  dont la copie unique se trouve dans ce même manuscrit 203.</note></l>
+            
             <l>Ne souffre jamais qu'on attache</l>
             <l>Ta langue pour avoir bien dict</l>
             <l n="124">Car l'inquisiteur a credit</l>
@@ -437,9 +461,9 @@
             <!-- Saut#37 -->
             <l><persName type="destinataire" key="Lyon Jamet">Lyon</persName> entendz ce que je
                dictz</l>
-            <l>Tu apprendras beaucoup soubz moy</l>
-            <note resp="editor" type="crit">Écho des vers 44-45 du premier coq-à-l'âne : "Lyon Lyon
-               c'est le secret / Aprends tant que tu es vieulx".</note>
+            <l>Tu apprendras beaucoup soubz moy<note resp="editor" type="crit">Écho des vers 44-45 du premier coq-à-l'âne : "Lyon Lyon
+                  c'est le secret / Aprends tant que tu es vieulx".</note></l>
+            
             <l n="128">Par bieu tu serois en esmoy</l>
             <l>Qu'<reg>ils</reg> vouldront chauffer ta nature</l>
             <l>Car quant à moy je n'ay froidure</l>
@@ -450,34 +474,34 @@
             <l>Je ne boy que trop sans cela</l>
             <l>Aussi ce n'est pas de merveilles</l>
             <l n="136">Si je prens bonnet à oreilles</l>
-            <l>Je crains trop le froit aux tallons</l>
-            <note resp="editor" type="crit">Sous le plaisant propos d'apparence absurde, nous lisons
-               une mesure de prudence du poète qui consisterait ('prendre bonnet à oreilles') pour
-               éviter les poursuites ('le froit aux talons').</note>
+            <l>Je crains trop le froit aux tallons<note resp="editor" type="crit">Sous le plaisant propos d'apparence absurde, nous lisons
+                  une mesure de prudence du poète qui consisterait ('prendre bonnet à oreilles') pour
+                  éviter les poursuites ('le froit aux talons').</note></l>
+            
             <!-- Saut#38 -->
             <l>L'on faict filer à recullons</l>
-            <l>La verité par les cordiers</l>
-            <note resp="editor" type="crit">Pantagrueline Prognostication, II : 'Dont pour ceste
-               années les chancres iront de cousté, et les cordiers à réculons, les escabelles
-               monteront sur les bancs, les broches sur les landiers et les bonnetz sus les
-               chapeaulx.'</note>
+            <l>La verité par les cordiers<note resp="editor" type="crit">Pantagrueline Prognostication, II : 'Dont pour ceste
+                  années les chancres iront de cousté, et les cordiers à réculons, les escabelles
+                  monteront sur les bancs, les broches sur les landiers et les bonnetz sus les
+                  chapeaulx.'</note></l>
+            
             <!-- Saut#39 -->
             <l n="140">En faisant pour les cordeliers</l>
             <l>Leur saincture de penitance</l>
             <l>Elle faict avoir abstinence</l>
-            <l>De faire la beste à deux dos</l>
-            <note>Cf. Gargantua</note>
+            <l>De faire la beste à deux dos<note>Cf. Gargantua</note></l>
+            
             <!-- Saut#40 -->
             <l n="144">Or ung beau gros membre sans os</l>
-            <pb n="152v"/>
+            <pb n="152v"/><ref target="https://eman-archives.org/Coqalane/admin/files/show/100"/>
             <l>Faict pecher femmes par envye</l>
             <!-- Saut#41 -->
             <l><placeName><settlement type="city">Perpignan</settlement></placeName> eust peur de sa
                vye</l>
-            <l>De veoir en champ dames marcher</l>
-            <note resp="editor" type="crit">Ces vers peuvent-ils alimenter la légende de Louise Labé
-               prenant part aux festivités lyonnaises de 1542 lors du passage du Dauphin?</note>
-            <note/>
+            <l>De veoir en champ dames marcher<note resp="editor" type="crit">Ces vers peuvent-ils alimenter la légende de Louise Labé
+                  prenant part aux festivités lyonnaises de 1542 lors du passage du Dauphin?</note>
+               <note/></l>
+            
             <!-- Saut#42 -->
             <note/>
             <l n="148">C'est ung plaisir que chevaucher</l>
@@ -502,8 +526,8 @@
             <l n="160">Il nous fault beaucoup travailler</l>
             <l>Quand il jure le gentilhomme</l>
             <!-- Saut#49 -->
-            <l>Les meusniers ne vont plus à <placeName><settlement type="city" key="Rome"
-                     >Romme</settlement></placeName></l>
+            <l>Les meusniers ne vont plus à <placeName type="city" key="Rome"
+                     >Romme</placeName></l>
             <l>Querir pardons à pochettées</l>
             <!-- Saut#50 -->
             <l n="164">Parolles sont bien acheptées</l>
@@ -524,7 +548,7 @@
             <l>Les uns ont tout les autres rien</l>
             <l>Mais si tu veulx avoir du bien</l>
             <fw type="sig" place="bottom-right">L'on veoid assez</fw>
-            <pb n="153r"/>
+            <pb n="153r"/><ref target="https://eman-archives.org/Coqalane/admin/files/show/101"/>
             <fw type="pageNum" place="top-right">153</fw>
             <l>L'on veoid assez de benefices</l>
             <l n="176">En cloistre n'y a si novice</l>
@@ -536,8 +560,8 @@
             <l>Il pert la teste sens et loy</l>
             <!-- Saut#56 -->
             <l>Que dict on du nouvel alloy</l>
-            <l>Ceste belle monnoye du <placeName><settlement type="region"
-                  >Perche</settlement></placeName></l>
+            <l>Ceste belle monnoye du <placeName type="region"
+                  >Perche</placeName></l>
             <!-- Saut#57 -->
             <l n="184">Celuy qui noise par tout cerche</l>
             <l>A tout le nez esgratigné</l>
@@ -545,7 +569,7 @@
             <l>L'on ne prent plus du resigné</l>
             <l>Sinon à beau jeu bel argent</l>
             <!-- Saut#59 -->
-            <l n="188"><placeName><settlement type="city" key="Rome">Romme</settlement></placeName>
+            <l n="188"><placeName type="city" key="Rome">Romme</placeName>
                ne vient plus à l'argent</l>
             <l>Pour emporter tous noz pechez</l>
             <l>Ilz estoient par trop empeschez</l>
@@ -567,7 +591,7 @@
             <l>Mais decymes vont troys à troys</l>
             <l>C'est marcher <add resp="G. Berthon" type="correction">[plus]</add>royallement</l><!-- A vérifier -->
             <!-- Saut#63 -->
-            <pb n="153v"/>
+            <pb n="153v"/><ref target="https://eman-archives.org/Coqalane/admin/files/show/102"/>
             <l n="204">La guerre veit bien povrement</l>
             <l>Et est tous les jours à nostre huys</l>
             <!-- Saut#64 -->
@@ -597,12 +621,12 @@
             <l n="220">Car celuy qui dict faict et croit</l>
             <l>C'est pour aller en paradis</l>
             <!-- Saut#71 -->
-            <l>Il n'est crotte que de <placeName><settlement type="city"
-                  >Paris</settlement></placeName></l>
+            <l>Il n'est crotte que de <placeName type="city" key="Paris"
+                  >Paris</placeName></l>
             <note resp="editor" type="crit">Cf. 'Les crottes Paris' dans le même manuscrit
                203.</note>
-            <l>Ne verolle que de <placeName><settlement type="city"
-               >Rouen</settlement></placeName></l>
+            <l>Ne verolle que de <placeName type="city" key="Rouen"
+               >Rouen</placeName></l>
             <!-- Saut#72 -->
             <l n="224">Aussi vient de tel cordouen</l>
             <l>Le pourpoinct fermant à boutons</l>
@@ -611,9 +635,9 @@
             <l>Que poinctes n'en soient rebouchées</l>
             <!-- Saut#74 -->
             <l n="228">Mes fenestres sont bien bouchées</l>
-            <l>Pour me garder du froit qui vient</l>
+            <l>Pour me garder du froit qui vient<note>Probablement l'hiver 1542.</note></l>
             <!-- Saut#75 -->
-            <note>Probablement l'hiver 1542.</note>
+            
             <l>Si de nouveau cas te survient</l>
             <l>Il te plaira me le mander</l>
             <l n="232">À toy me veulx recommander</l>

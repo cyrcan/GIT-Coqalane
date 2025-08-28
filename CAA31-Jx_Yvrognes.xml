@@ -6,7 +6,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:id="Jeuneux">Le jeuneux aux yvrognes</title>
+                <title type="idno">Réf. n°31: </title>
+                <title type="main">Le jeuneux aux yvrognes</title>
+                <title type="incipit">Ha dea quant j'ay bien escouté</title>
+                <author>Anonyme</author>
             </titleStmt>
             <publicationStmt>
                 <p>Publication Information</p>
@@ -36,7 +39,7 @@
             <p>
                 <interpGrp>
                     <!-- A -->
-                    <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+                    <interp xml:id="abus" ana="abus">abus de l'église</interp>
                     <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                     <interp xml:id="adr" ana="adresse">adresse</interp>
                     <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
@@ -170,6 +173,12 @@
                 </interpGrp>
             </p>
         </encodingDesc>
+        <profileDesc>
+            <abstract>
+                <p/>
+            </abstract>
+            <creation><date when="1543">1543</date></creation>
+        </profileDesc>
         <revisionDesc>
             <change><date when="2023">2023</date>Encodage de niveau 1.</change>
             <change><date when="2023-09-23">24-09-2023</date>Encodage de niveau 3: ajout des sauts logiques et notes

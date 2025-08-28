@@ -6,8 +6,13 @@
    <teiHeader>
       <fileDesc xml:id="Facetie1617">
          <titleStmt>
-            <title>Coq à l'asne à la suite du <title>Rapport fait des pucellages estropiez de la
-                  plus part des Chambrieres de Paris</title>, Paris, 1617. [Réf. 97]</title>
+            <title type="idno">Réf. n°98: </title>
+            <title type="complet">Coq à l'asne à la suite du <title>Rapport fait des pucellages
+                  estropiez de la plus part des Chambrieres de Paris</title>, Paris, 1617. [Réf.
+               97]</title>
+            <title type="main">Coq à l'asne in Rapport fait des pucellages...</title>
+            <title type="incipit">Ma fille, il faut que vous soyez</title>
+            <author>Anonyme</author>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -28,81 +33,91 @@
          <listPrefixDef>
             <prefixDef ident="ind" matchPattern="([a-z]+)"
                replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
-                  Index du projet</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le
+                  Fichier Index du projet</p>
             </prefixDef>
             <prefixDef ident="plc" matchPattern="([0-9]+)"
                replacementPattern="https://www.geonames.org/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
-                  données géographiques GeoNames.</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la
+                  base de données géographiques GeoNames.</p>
             </prefixDef>
             <prefixDef ident="ms" matchPattern="([0-9]+)"
                replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
-                  Sources Manuscrites du projet.</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le
+                  Fichier des Sources Manuscrites du projet.</p>
             </prefixDef>
          </listPrefixDef>
          <p>
             <interpGrp>
                <!-- A -->
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
                <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="amour" ana="amour">amour</interp>
                <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
-
+               
                <!-- B -->
                <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
                <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
-
+               
                <!-- C -->
                <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
                <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de l'épître</interp>
                <interp xml:id="corruption" ana="corruption">corruption</interp>
                <interp xml:id="corps" ana="corps">corps</interp>
                <interp xml:id="cour" ana="court">vie de la cour</interp>
                <interp xml:id="cri" ana="cri">cris des marchands</interp>
                <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
-
+               
                <!-- D -->
                <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
                <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
-
+               
                <!-- E -->
+               <interp xml:id="éloge" ana="éloge">éloge</interp>
                <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
                <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="eschatologie" ana="eschatologie">conception eschatologique</interp>
                <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
                <interp xml:id="exhortation" ana="exhortation">exhortations et
                   encouragements</interp>
-
+               
                <!-- F -->
+               <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
                <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
                <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
-
+               
                <!-- G -->
                <interp xml:id="gén" ana="généralisation">généralisation</interp>
                <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
                   gnomique</interp>
-
+               <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
+               
                <!-- H -->
                <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
                <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
-
-
+               
+               
                <!-- I -->
+               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
+               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
                <interp xml:id="ironie" ana="ironie">ironie</interp>
-
+               
                <!-- L -->
                <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
                <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
                <interp xml:id="topos" ana="topos">lieu commun</interp>
                <interp xml:id="ligue" ana="ligue">ligue</interp>
-
+               
                <!-- M -->
                <interp xml:id="maladie" ana="maladie">maladie</interp>
                <interp xml:id="massacre" ana="massacre">massacre</interp>
@@ -111,48 +126,60 @@
                <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
                <interp xml:id="misères" ana="misères">misères du temps</interp>
                <interp xml:id="misogynie" ana="misogynie">misogynie</interp>
+               <interp xml:id="mode" ana="mode">mode</interp>
                <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
                   valeurs</interp>
                <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
-
-
+               
+               <!-- N -->
+               <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
+               
+               
                <!-- P -->
                <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
+               <interp xml:id="persona" ana="persona">persona de Marot</interp>
                <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
                <interp xml:id="pillage-s" ana="pillages">vols, pillages</interp>
                <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
                <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
                <interp xml:id="practiques" ana="practiques">practiques</interp>
+               <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="prière" ana="prière">prière</interp>
                <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
                <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
                <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
                   nécessaire</interp>
-
+               
                <!-- R -->
                <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
                <interp xml:id="rébus" ana="rébus">rébus</interp>
                <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="révélations" ana="révélations">révélation(s)</interp>
                <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
                <interp xml:id="rire" ana="rire">rire</interp>
                <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
                <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
-
+               
                <!-- S -->
-
+               
                <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
                <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
                <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
                <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="sergents" ana="sergents">contre les sergents</interp>
                <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
                <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
                <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
-
+               <interp xml:id="syllepse" ana="syllepse">syllepse</interp>
+               
                <!-- T -->
                <interp xml:id="tauto" ana="tauto">tautologie</interp>
                <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
                <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
                <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
-
+               <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
+               
                <!-- V -->
                <interp xml:id="vanité" ana="vanité">vanité</interp>
                <interp xml:id="vp" ana="pivot">vers pivot</interp>
@@ -160,79 +187,87 @@
             </interpGrp>
          </p>
       </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <creation><date when="1617">1617</date></creation>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>
-         <p><l ana="#adr"><persName type="destinataire">Ma fille</persName> il faut que vous
-               soyez</l>
+         <p>
+            <pb n="R"/><ptr target="6"/><l ana="#adr"><persName type="destinataire">Ma
+                  fille</persName> il faut que vous soyez</l>
             <l><corr resp="editor">Assise</corr> debout &amp; voyez,<note resp="editor" type="crit"
                   >Cf. L'envoi satyrique de la première balade du <title>L'Amoureux
                      passetems</title> publié par François Gomain chez Benoist Rigaud à Lyon en 1570
                   puis 1582: "Prince à ta devise, / Soit droicte ou assise, / Mets luy le cul bas, /
                   Leve sa chemise, / Rembourre son bas.", BnF, Ye-2721, f°7.</note></l>
             <l ana="#actu">Tout ce qui au monde ce passe,</l>
-            <l n="4" ana="#motifs_sexuels">Et comme un vy en outre passe</l><note resp="editor"
-               type="crit">Jeu de mots entre le sens sexuel évident et le passage de vie à
-               trépas.</note>
+            <l n="4" ana="#motifs_sexuels">Et comme un vy en outre passe<note resp="editor"
+                  type="crit">Jeu de mots entre le sens sexuel évident et le passage de vie à
+                  trépas.</note></l>
             <l ana="#motifs_sexuels">Souvent à faute de humé.</l>
             <l ana="#motifs_sexuels">Il faudroit bien estre enrhumé,</l>
             <l ana="#motifs_sexuels">Pour n'en sentir aucune chose,</l>
             <!-- Saut#1 --><anchor type="saut#1"/>
             <l ana="#ironie" n="8"><rs type="locution"><reg>Ô</reg>! l'estrange
-               Metamorphose</rs></l><note resp="editor" type="crit">Expression stéréotypée que l'on
-               retrouve dans trois autres coq-à-l'âne et notamment le "discours de la pluie au vent"
-               (CAA#74) de 1585 au vers 41.</note>
+                  Metamorphose</rs><note resp="editor" type="crit">Expression stéréotypée que l'on
+                     retrouve dans trois autres coq-à-l'âne et notamment dans le <quote>discours de la pluie au vent</quote>
+                     (CAA#74) de 1585 au vers 41.</note></l>
             <l ana="#adr">Qu'on veid dernierement chez vous,</l>
             <l ana="#sat_rel">Un moine chauffant ses genoux,</l>
             <l ana="#motifs_sexuels">Guignoit dessous vostre chemise</l>
-            <l n="12" ana="#motifs_sexuels">Le babichon par <reg>où</reg> tu pisses</l><note
-               resp="editor" type="ling">Alain Mercier signale le terme <hi rend="italic"
-                  >barbichot</hi> en béarnais comme équivalent du terme <hi rend="italic"
-                  >barbolle</hi> à propos de la "barbolle abattue" dans le témoignage des matrones
-               du <title>Resveil du chat qui dort</title> et de ses copies pour désigner les poils
-               du pubis. Voir <title>La Seconde Après-dînée du caquet de l'accouchée</title>, p.
-               76.</note>
+            <pb n="V"/><ptr target="7"/>
+            <l n="12" ana="#motifs_sexuels">Le babichon par <reg>où</reg> tu pisses<note
+                  resp="editor" type="ling">Alain Mercier signale le terme <hi rend="italic"
+                     >barbichot</hi> en béarnais comme équivalent du terme <hi rend="italic"
+                        >barbolle</hi> à propos de la "barbolle abattue" dans le témoignage des matrones
+                  du <title>Resveil du chat qui dort</title> et de ses copies pour désigner les poils
+                  du pubis. Voir <title>La Seconde Après-dînée du caquet de l'accouchée</title>, p.
+                  76.</note></l>
             <l ana="#sat_rel"><rs type="injonction" subtype="impératif">Fuyez</rs> ceux qui parlent
                Latin</l>
             <!-- Saut#2 --><anchor type="saut#2"/>
             <l ana="#motifs_sexuels">Les postures de l'<persName ref="ind:Aretin"
-                  key="Arétin, Pierre L'">Aretin</persName></l><note resp="editor" type="crit">Les
-               "postures" désignent les seize <title>sonnets luxurieux</title> de l'Arétin. Voir
-               Guillaume Peureux, <title>La muse satyrique</title>:"Le poète italien permet en
-               quelque sorte la figuration du "je" satyrique: il opère dans les recueils comme une
-               figure lyrique familière et réinvestie par les poètes.", p. 121.</note>
+                  key="Arétin, Pierre L'">Aretin</persName><note resp="editor" type="crit">Les
+                     "postures" désignent les seize <title>sonnets luxurieux</title> de l'Arétin. Voir
+                     Guillaume Peureux, <title>La muse satyrique</title>:"Le poète italien permet en
+                     quelque sorte la figuration du "je" satyrique: il opère dans les recueils comme une
+                     figure lyrique familière et réinvestie par les poètes.", p. 121.</note></l>
             <l ana="#argent">Se vendent cher outre mesure.</l><!-- Cf. réalité de 1616 -->
-            <l ana="#motifs_sexuels" n="16">Pour ceux qui besongnent en peinture</l><note
-               resp="editor" type="crit">Cf. le coq-à-l'âne "Amy pour ung peu t'esjouyr" de 1542
-               (CAA#23): "Messieurs appreignent à pourtraire / Ils sçavent desjà bien noircir / On
-               veoit trop souvent amortir / Par fard le tain des damoiselles", v. 48-51.</note>
+            <l ana="#motifs_sexuels" n="16">Pour ceux qui besongnent en peinture<note
+                  resp="editor" type="crit">Cf. le coq-à-l'âne "Amy pour ung peu t'esjouyr" de 1542
+                  (CAA#23): "Messieurs appreignent à pourtraire / Ils sçavent desjà bien noircir / On
+                  veoit trop souvent amortir / Par fard le tain des damoiselles", v. 48-51.</note></l>
             <!-- Saut#3 --><anchor type="saut#3"/>
-            <l>Le bon Hermite <persName type="saint" key="Alivergot">Alivergot</persName></l><note
-               resp="editor" type="glose">Nom celte qui signifie "décapité" et associé dans l'Aisne
-               notamment à Saint-Jean.</note>
-            <l>Mit son frelaut dans un fagot,</l><note resp="editor" type="ling"><hi rend="italic"
-                  >Frelaut</hi>: "frère", au sens chrétien. Cependant, le contexte invite à une
-               acception plus large.</note>
+            <l>Le bon Hermite <persName type="saint" key="Alivergot">Alivergot</persName><note
+                  resp="editor" type="glose">Nom celte qui signifie "décapité" et associé dans l'Aisne
+                  notamment à Saint-Jean.</note></l>
+            <l>Mit son frelaut dans un fagot,<note resp="editor" type="ling"><hi rend="italic"
+                     >Frelaut</hi>: "frère", au sens chrétien. Cependant, le contexte invite à une
+                  acception plus large.</note></l>
             <l ana="#sat_rel">Affin de faire penitence</l>
             <l n="20" ana="#sat_rel">C'estoit charge de conscience,</l>
-            <l ana="#sat_rel">Ou bien manque de sens rassis,</l><note resp="editor" type="ling"><hi
-                  rend="italic">Rassis</hi>: "Ce qui n'est point esmeu, ni troublé de passion.
-               Parler de sens <hi rend="italic">rassis</hi>, c'est parler sagement et avec
-               connoissance", Furetière.</note>
+            <l ana="#sat_rel">Ou bien manque de sens rassis,<note resp="editor" type="ling"><hi
+                     rend="italic">Rassis</hi>: "Ce qui n'est point esmeu, ni troublé de passion.
+                  Parler de sens <hi rend="italic">rassis</hi>, c'est parler sagement et avec
+                  connoissance", Furetière.</note></l>
             <l ana="#sat_rel">Le temps passé les circonsis,</l>
             <l ana="#sat_rel">Ne perdoient rien que le prepuce.</l>
             <!-- Saut#4 --><anchor type="saut#4"/>
-            <l n="24" ana="#sat_rel">Or si jamais je porte aumuse</l><note resp="editor" type="ling"
+            <l n="24" ana="#sat_rel">Or si jamais je porte aumuse<note resp="editor" type="ling"
                   ><hi rend="italic">Aumuse</hi>: "An ornament of furre worne by Canons."
-               (Cotgrave).</note>
-            <l ana="#ironie">Je guariray du <rs type="maladie">mal de Sainct</rs>.</l><note
-               resp="editor" type="glose">De quel mal de saint s'agit-il? Celui de St-Paul?
-               L'allusion rappelle cependant les vers 70-71 du "Discours de la Pluie au Vent" de
-               1585: "L'un d'entre eux print une Apostume / De la servante d'un Chanoine".</note>
+                  (Cotgrave).</note></l>
+            <l ana="#ironie">Je guariray du <rs type="maladie">mal de Sainct</rs>.<note
+                  resp="editor" type="glose">De quel mal de saint s'agit-il? Celui de St-Paul?
+                  L'allusion rappelle cependant les vers 70-71 du "Discours de la Pluie au Vent" de
+                  1585: "L'un d'entre eux print une Apostume / De la servante d'un Chanoine".</note></l>
             <!-- Saut#5 --><anchor type="saut#5"/>
             <l><rs type="injonction" subtype="impératif">Allons</rs> vistement, car je craint,</l>
-            <l ana="#prudence">Qu'on nous face quelque vergogne.</l><note resp="editor" type="ling"
-               >Pudeur.</note>
+            <l ana="#prudence">Qu'on nous face quelque vergogne.<note resp="editor" type="ling"
+                  >Pudeur.</note></l>
             <l n="28">Desja dans l'<placeName>hostel de Bourgogne</placeName>,</l>
             <l ana="#folie">Les <orgName>maistres foux</orgName> sont habillez,</l>
             <l ana="#satire">Pour faire veoir les <rs type="invective">barboüillez</rs>.<note

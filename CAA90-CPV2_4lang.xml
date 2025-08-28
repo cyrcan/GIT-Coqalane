@@ -5,13 +5,10 @@
    <teiHeader>
       <fileDesc xml:id="Caresme_Prenant_4Lang">
          <titleStmt>
-            <title>Caresme-Prenant</title>
+            <title type="idno">Réf. n°90: </title>
+            <title type="main">Caresme-Prenant (V, 2)</title>
+            <title type="incipit">He! bin de Di, ô frandi frare,</title>
             <author>Benoet du Lac</author>
-            <editor>Cyril Cano Arnedo</editor>
-            <respStmt>
-               <name>Cyril Cano Arnedo</name>
-               <resp>encodage</resp>
-            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>Texte établi d'après l'édition originale de 1595.</edition>
@@ -51,10 +48,12 @@
          <p>
             <interpGrp>
                <!-- A -->
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
                <interp xml:id="ambition" ana="ambition">ambition</interp>
+               <interp xml:id="amour" ana="amour">amour</interp>
                <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
                
                <!-- B -->
@@ -64,6 +63,7 @@
                <!-- C -->
                <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
                <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+               <interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de l'épître</interp>
                <interp xml:id="corruption" ana="corruption">corruption</interp>
                <interp xml:id="corps" ana="corps">corps</interp>
                <interp xml:id="cour" ana="court">vie de la cour</interp>
@@ -75,13 +75,17 @@
                <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
                
                <!-- E -->
+               <interp xml:id="éloge" ana="éloge">éloge</interp>
                <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
                <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+               <interp xml:id="eschatologie" ana="eschatologie">conception eschatologique</interp>
                <interp xml:id="ethos" ana="ethos">ethos</interp>
+               <interp xml:id="évangélique" ana="évangélique">évangélique</interp>
                <interp xml:id="exhortation" ana="exhortation">exhortations et
                   encouragements</interp>
                
                <!-- F -->
+               <interp xml:id="faveurs" ana="faveurs">faveurs</interp>
                <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
                <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
                
@@ -89,6 +93,8 @@
                <interp xml:id="gén" ana="généralisation">généralisation</interp>
                <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
                   gnomique</interp>
+               <interp xml:id="gc" ana="gc">guerres civiles</interp>
+               <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
                
                <!-- H -->
                <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
@@ -96,8 +102,10 @@
                
                
                <!-- I -->
+               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
+               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
@@ -117,18 +125,26 @@
                <interp xml:id="mignons" ana="mignons">satire des mignons</interp>
                <interp xml:id="misères" ana="misères">misères du temps</interp>
                <interp xml:id="misogynie" ana="misogynie">misogynie</interp>
+               <interp xml:id="mode" ana="mode">mode</interp>
                <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
                   valeurs</interp>
                <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
                
+               <!-- N -->
+               <interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
+               
                
                <!-- P -->
                <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+               <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
+               <interp xml:id="persona" ana="persona">persona de Marot</interp>
                <interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
                <interp xml:id="pillage-s" ana="pillages">vols, pillages</interp>
                <interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
                <interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
                <interp xml:id="practiques" ana="practiques">practiques</interp>
+               <interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+               <interp xml:id="prière" ana="prière">prière</interp>
                <interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
                <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
                <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
@@ -138,6 +154,7 @@
                <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
                <interp xml:id="rébus" ana="rébus">rébus</interp>
                <interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+               <interp xml:id="révélations" ana="révélations">révélation(s)</interp>
                <interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
                <interp xml:id="rire" ana="rire">rire</interp>
                <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
@@ -149,31 +166,42 @@
                <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
                <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
                <interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+               <interp xml:id="sergents" ana="sergents">contre les sergents</interp>
                <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
                <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
                <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+               <interp xml:id="syllepse" ana="syllepse">syllepse</interp>
                
                <!-- T -->
                <interp xml:id="tauto" ana="tauto">tautologie</interp>
                <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
                <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
                <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+               <interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
                
                <!-- V -->
                <interp xml:id="vanité" ana="vanité">vanité</interp>
                <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="vices" ana="vices">condamnation des vices</interp>
                <interp xml:id="violences" ana="violences">violences</interp>
             </interpGrp>
          </p>
       </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <creation><date when="1595">1595</date></creation>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>
          <listBibl>
             <msDesc>
                <msIdentifier>
-                  <settlement>Aix-en-Provence</settlement>
-                  <repository>Bibliothèque Méjanes Patrimoine</repository>
+                  <settlement>Aix-en-Provence, </settlement>
+                  <repository>Bibliothèque Méjanes, </repository>
+                  <collection>Patrimoine, </collection>
                   <idno>Rés. D.105</idno>
                </msIdentifier>
             </msDesc>
@@ -231,7 +259,10 @@
                   <l n="12">Sen ét ja fouy de mala pou:</l>
                   <l>Bentou li faren rendre gourze</l>
                   <l rend="indent">Malan qu'à decuver la fourze</l>
-                  <l>De lé ruze du zespagno.</l>
+                  <l>De lé ruze du zespagno.<note resp="editor" type="glose">À présent, à propos des
+                        cinquante diables/ Qui nous en rendus bien miserables/ Et Dieu, notre pauvre
+                        Dieu,/ S'est déjà débarassé du mal./ Bientôt ils le feront rendre fourbe/ Le
+                        méchant qui a découvert la fourberie/ De la ruse de l'espagnol.</note></l>
                </lg>
             </sp>
             <sp>
@@ -456,7 +487,7 @@
                <speaker xml:lang="frm">GUILLOT.</speaker>
                <lg>
                   <l n="132" ana="#argent">Or sus qui me veut faire riche,</l>
-                  <l>Et trente sol je luy dorray,</l>
+                  <l>Et trente <rs type="monnaie" subtype="sol">sol</rs> je luy dorray,</l>
                   <l>Si tost que je les trouveray:</l>
                   <l>Veu aussi que pour passer drole,</l>
                   <l ana="#maladie" n="136">Faut suer neur fois la <rs type="maladie"

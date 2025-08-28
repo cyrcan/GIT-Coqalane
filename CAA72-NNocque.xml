@@ -5,7 +5,10 @@
    <teiHeader>
       <fileDesc xml:id="NNocque">
          <titleStmt>
-            <title>La Nicque A Nocque</title>
+            <title type="idno">Réf. n°72: </title>
+            <title type="main">La Nicque A Nocque</title>
+            <title type="incipit">Nocque, legitime est l'excuse</title>
+            <author>Anonyme</author>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -213,6 +216,12 @@
                </person>
             </listPerson></p>
       </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <creation><date when="1585">1585</date></creation>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>

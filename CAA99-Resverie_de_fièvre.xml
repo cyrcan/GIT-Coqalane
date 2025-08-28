@@ -5,7 +5,10 @@
 	<teiHeader>
 		<fileDesc xml:id="resverie">
 			<titleStmt>
-				<title>Resverie de fièvre</title>
+				<title type="idno">Réf. n°99: </title>
+				<title type="main">Resverie de fièvre</title>
+				<title type="incipit">En l'accès le plus violant</title>
+				<author>Pédoue, François</author>
 			</titleStmt>
 			<publicationStmt>
 				<p>A compléter</p>
@@ -42,10 +45,12 @@
 			<p>
 				<interpGrp>
 					<!-- A -->
+					<interp xml:id="abus" ana="abus">abus de l'église</interp>
 					<interp xml:id="actu" ana="actualité">actualité commentée</interp>
 					<interp xml:id="adr" ana="adresse">adresse</interp>
 					<interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
 					<interp xml:id="ambition" ana="ambition">ambition</interp>
+					<interp xml:id="amour" ana="amour">amour</interp>
 					<interp xml:id="argent" ana="argent">argent et ressources financières</interp>
 					
 					<!-- B -->
@@ -55,6 +60,7 @@
 					<!-- C -->
 					<interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
 					<interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
+					<interp xml:id="conclusio" ana="conclusio">conclusion, formule de clôture de l'épître</interp>
 					<interp xml:id="corruption" ana="corruption">corruption</interp>
 					<interp xml:id="corps" ana="corps">corps</interp>
 					<interp xml:id="cour" ana="court">vie de la cour</interp>
@@ -66,13 +72,17 @@
 					<interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
 					
 					<!-- E -->
+					<interp xml:id="éloge" ana="éloge">éloge</interp>
 					<interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
 					<interp xml:id="équivoque" ana="équivoque">équivoque</interp>
+					<interp xml:id="eschatologie" ana="eschatologie">conception eschatologique</interp>
 					<interp xml:id="ethos" ana="ethos">ethos</interp>
+					<interp xml:id="évangélique" ana="évangélique">évangélique</interp>
 					<interp xml:id="exhortation" ana="exhortation">exhortations et
 						encouragements</interp>
 					
 					<!-- F -->
+					<interp xml:id="faveurs" ana="faveurs">faveurs</interp>
 					<interp xml:id="financiers" ana="financiers">contre les financiers</interp>
 					<interp xml:id="folie" ana="folie">folie et figure du fou</interp>
 					
@@ -80,6 +90,7 @@
 					<interp xml:id="gén" ana="généralisation">généralisation</interp>
 					<interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
 						gnomique</interp>
+					<interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
 					
 					<!-- H -->
 					<interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
@@ -87,8 +98,10 @@
 					
 					
 					<!-- I -->
+					<interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
 					<interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
 						l'adversaire</interp>
+					<interp xml:id="indulgences" ana="injustice">indulgences</interp>
 					<interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
 					<interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
 					<interp xml:id="intertexte" ana="intertexte">intertexte</interp>
@@ -108,18 +121,26 @@
 					<interp xml:id="mignons" ana="mignons">satire des mignons</interp>
 					<interp xml:id="misères" ana="misères">misères du temps</interp>
 					<interp xml:id="misogynie" ana="misogynie">misogynie</interp>
+					<interp xml:id="mode" ana="mode">mode</interp>
 					<interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
 						valeurs</interp>
 					<interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
 					
+					<!-- N -->
+					<interp xml:id="nostalgie" ana="nostalgie">nostalgie</interp>
+					
 					
 					<!-- P -->
 					<interp xml:id="periphrase" ana="periphrase">périphrase</interp>
+					<interp xml:id="persécutions" ana="persécutions">persécutions</interp>
+					<interp xml:id="persona" ana="persona">persona de Marot</interp>
 					<interp xml:id="Plmq" ana="polémique">polémique religieuse</interp>
 					<interp xml:id="pillage-s" ana="pillages">vols, pillages</interp>
 					<interp xml:id="PolitiqueS" ana="PolitiqueS">contre les Politiques</interp>
 					<interp xml:id="pol_ext" ana="politique_extérieure">politique extérieure</interp>
 					<interp xml:id="practiques" ana="practiques">practiques</interp>
+					<interp xml:id="prétérition" ana="prétérition">prétérition</interp>
+					<interp xml:id="prière" ana="prière">prière</interp>
 					<interp xml:id="p_armes" ana="prise_darmes">prise d'armes</interp>
 					<interp xml:id="prophétie" ana="prophétie">prophéties</interp>
 					<interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
@@ -129,6 +150,7 @@
 					<interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
 					<interp xml:id="rébus" ana="rébus">rébus</interp>
 					<interp xml:id="réf_litt" ana="réf_litt">références littéraires</interp>
+					<interp xml:id="révélations" ana="révélations">révélation(s)</interp>
 					<interp xml:id="rhétorique" ana="rhétorique">question rhétorique</interp>
 					<interp xml:id="rire" ana="rire">rire</interp>
 					<interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
@@ -140,15 +162,18 @@
 					<interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
 					<interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
 					<interp xml:id="sat_rel" ana="satire_religieuse">satire religieuse</interp>
+					<interp xml:id="sergents" ana="sergents">contre les sergents</interp>
 					<interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
 					<interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
 					<interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
+					<interp xml:id="syllepse" ana="syllepse">syllepse</interp>
 					
 					<!-- T -->
 					<interp xml:id="tauto" ana="tauto">tautologie</interp>
 					<interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
 					<interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
 					<interp xml:id="tromperie" ana="tromperie">tromperie</interp>
+					<interp xml:id="troubles" ana="troubles">troubles et guerres civiles</interp>
 					
 					<!-- V -->
 					<interp xml:id="vanité" ana="vanité">vanité</interp>
@@ -157,6 +182,12 @@
 				</interpGrp>
 			</p>
 		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p/>
+			</abstract>
+			<creation><date when="1620">1620</date></creation>
+		</profileDesc>
 	</teiHeader>
 	<text>
 		<body>
@@ -164,10 +195,10 @@
 				<pb n="121"/>
 				<fw type="pageNum" place="top-right">121</fw>
 				<l ana="#maladie">En l'accès le plus violant</l>
-				<l ana="#maladie">Dont la fièvre me va bruslant,</l>
-				<l ana="#mtd">Encor faut-il que je t'escrive.....</l>
+				<l ana="#maladie">Dont la <rs type="maladie" subtype="fièvre">fièvre</rs> me va bruslant,</l>
+				<l ana="#mtd adr">Encor faut-il que je t'escrive.....</l>
 				<!-- Saut#1 --><anchor type="saut#1"/>
-				<l n="4">Car c'est un <rs type="animal">oyseau</rs> qu'une <rs type="animal"
+				<l n="4">Car c'est un <rs type="animal">oyseau</rs> qu'une <rs type="animal" subtype="oiseau" key="grive"
 						>grive</rs></l>
 				<!-- Saut#2 -->
 				<anchor type="saut#2"/>
@@ -176,7 +207,7 @@
 				<!-- Saut#3 -->
 				<anchor type="saut#3"/>
 				<l>Il s'enfuit en <placeName type="region">Avignon</placeName></l>
-				<l>Le <roleName>Pape</roleName>, du temps du roy <persName key="Charles IX"
+				<l>Le <roleName>Pape</roleName>, du temps du roy <persName ref="ind:Charles_IX" key="Charles IX"
 						>Charles</persName>.....</l>
 				<!-- Saut#4 -->
 				<anchor type="saut#4"/>
@@ -227,7 +258,7 @@
 					jadis.....</l>
 				<!-- Saut#15 -->
 				<anchor type="saut#15"/>
-				<l>Je me plais fort à <rs>l'Amadis</rs>;</l>
+				<l ana="#réf_litt">Je me plais fort à <title>l'Amadis</title>;</l>
 				<l>Ses inventions sont gentilles.....</l>
 				<!-- Saut#16 -->
 				<anchor type="saut#16"/>
@@ -244,13 +275,13 @@
 				<!-- Saut#19 -->
 				<anchor type="saut19"/>
 				<l>Ah Dieu! mais je crois qu'il est jour;</l>
-				<l>Laquais, ouvre cette fenestre.</l>
+				<l><rs type="occupation" subtype="valet">Laquais</rs>, <rs type="injonction" subtype="impératif">ouvre</rs> cette fenestre.</l>
 				<l n="40">Vois-je pas le soleil parestre?</l>
-				<l>Va tost me dresser un bouillon.</l>
+				<l><rs type="injonction" subtype="impératif">Va</rs> tost me dresser un bouillon.</l>
 				<space/>
-				<l>Or voy si ce discours brouillon</l>
+				<l>Or <rs type="injonction" subtype="impératif">voy</rs> si ce discours brouillon</l>
 				<l>N'est pas un ample tesmoignage</l>
-				<l n="44">D'une grand'fièvre en sa grands'rage?</l>
+				<l n="44">D'une <rs type="maladie" subtype="fièvre">grand'fièvre</rs> en sa grands'rage?</l>
 			</p>
 		</body>
 	</text>

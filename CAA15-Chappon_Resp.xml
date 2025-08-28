@@ -5,16 +5,18 @@
    <teiHeader>
       <fileDesc xml:id="Chappon_Resp">
          <titleStmt>
-            <title>Réf. n°15: </title>
-            <title>Du Chappon au Coq Responce [CAA#15]</title>
+            <title type="idno">Réf. n°15: </title>
+            <title type="main">Du Chappon au Coq Responce</title>
+            <title type="incipit">Coq, mon amy après avoir congneu</title>
+            <author>Anonyme</author>
          </titleStmt>
          <publicationStmt>
             <p/>
          </publicationStmt>
          <sourceDesc>
             <p>Le cahier du Codex 148 de la BurgerBibliotek de Bern contient l'unique copie de ce
-               coq-à-l'âne, qui constitue en toute vraisemblance la réponse à l'épître du "Coq au
-               Chappon" par le même auteur (CAA#14).</p>
+               coq-à-l'âne, qui constitue en toute vraisemblance une réponse à l'épître du "Coq au
+               Chappon" par le même auteur (réf. n°14).</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -38,17 +40,17 @@
          <p>
             <interpGrp>
                <!-- A -->
-               <interp xml:id="abus" ana="abus">Abus de l'église</interp>
+               <interp xml:id="abus" ana="abus">abus de l'église</interp>
                <interp xml:id="actu" ana="actualité">actualité commentée</interp>
                <interp xml:id="adr" ana="adresse">adresse</interp>
                <interp xml:id="adv_rel" ana="adversaire religieux">adversaire religieux</interp>
                <interp xml:id="ambition" ana="ambition">ambition</interp>
                <interp xml:id="argent" ana="argent">argent et ressources financières</interp>
-               
+
                <!-- B -->
                <interp xml:id="bâtardise" ana="bâtardise">bâtardise</interp>
                <interp xml:id="bêtise" ana="bêtise">bêtise</interp>
-               
+
                <!-- C -->
                <interp xml:id="cocuage" ana="cocuage">cocuage, infidélité</interp>
                <interp xml:id="colère_divine" ana="colère divine">colère divine</interp>
@@ -57,33 +59,33 @@
                <interp xml:id="cour" ana="court">vie de la cour</interp>
                <interp xml:id="cri" ana="cri">cris des marchands</interp>
                <interp xml:id="cruauté" ana="cruauté">cruauté</interp>
-               
+
                <!-- D -->
                <interp xml:id="défaite" ana="défaite_militaire">défaite militaire</interp>
                <interp xml:id="dialogisme" ana="dialogisme">dialogisme</interp>
-               
+
                <!-- E -->
                <interp xml:id="épanorthose" ana="épanorthose">épanorthose</interp>
                <interp xml:id="équivoque" ana="équivoque">équivoque</interp>
                <interp xml:id="ethos" ana="ethos">ethos</interp>
                <interp xml:id="exhortation" ana="exhortation">exhortations et
                   encouragements</interp>
-               
+
                <!-- F -->
                <interp xml:id="financiers" ana="financiers">contre les financiers</interp>
                <interp xml:id="folie" ana="folie">folie et figure du fou</interp>
-               
+
                <!-- G -->
                <interp xml:id="gén" ana="généralisation">généralisation</interp>
                <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
                   gnomique</interp>
                <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
-               
+
                <!-- H -->
                <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
                <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
-               
-               
+
+
                <!-- I -->
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
@@ -91,13 +93,13 @@
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
                <interp xml:id="ironie" ana="ironie">ironie</interp>
-               
+
                <!-- L -->
                <interp xml:id="lâcheté" ana="lâcheté">lâcheté</interp>
                <interp xml:id="leitmotiv" ana="leitmotiv">leitmotiv</interp>
                <interp xml:id="topos" ana="topos">lieu commun</interp>
                <interp xml:id="ligue" ana="ligue">ligue</interp>
-               
+
                <!-- M -->
                <interp xml:id="maladie" ana="maladie">maladie</interp>
                <interp xml:id="massacre" ana="massacre">massacre</interp>
@@ -109,8 +111,8 @@
                <interp xml:id="monde_renversé" ana="monde renversé">monde renversé et perte des
                   valeurs</interp>
                <interp xml:id="motifs_sexuels" ana="sexe">allusions sexuelles</interp>
-               
-               
+
+
                <!-- P -->
                <interp xml:id="periphrase" ana="periphrase">périphrase</interp>
                <interp xml:id="persécutions" ana="persécutions">persécutions</interp>
@@ -125,7 +127,7 @@
                <interp xml:id="prophétie" ana="prophétie">prophéties</interp>
                <interp xml:id="prudence" ana="prudence">appel à la prudence ou prudence
                   nécessaire</interp>
-               
+
                <!-- R -->
                <interp xml:id="ravages" ana="ravages">conséquences de la guerre</interp>
                <interp xml:id="rébus" ana="rébus">rébus</interp>
@@ -134,9 +136,9 @@
                <interp xml:id="rire" ana="rire">rire</interp>
                <interp xml:id="rome" ana="contre_Rome">contre Rome et la papauté</interp>
                <interp xml:id="ruse" ana="ruse">ruse, stratégie et "practique"</interp>
-               
+
                <!-- S -->
-               
+
                <interp xml:id="satire" ana="satire_généraliste">satire généraliste</interp>
                <interp xml:id="sat_pers" ana="satire_personnnelle">satire personnelle</interp>
                <interp xml:id="sat_pol" ana="sat_politic">satire politique</interp>
@@ -144,13 +146,13 @@
                <interp xml:id="sit_mil" ana="situation_militaire">situation militaire</interp>
                <interp xml:id="sit_pol" ana="situation_politique">situation politique</interp>
                <interp xml:id="souffrances" ana="souffrances">peuple souffrant</interp>
-               
+
                <!-- T -->
                <interp xml:id="tauto" ana="tauto">tautologie</interp>
                <interp xml:id="temps" ana="temps">temps qui passe, finitude</interp>
                <interp xml:id="trahison" ana="trahison">trahison et sédition</interp>
                <interp xml:id="tromperie" ana="tromperie">tromperie</interp>
-               
+
                <!-- V -->
                <interp xml:id="vanité" ana="vanité">vanité</interp>
                <interp xml:id="vp" ana="pivot">vers pivot</interp>
@@ -158,6 +160,12 @@
             </interpGrp>
          </p>
       </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <creation><date when="1537">1537</date></creation>
+      </profileDesc>
       <revisionDesc>
          <change><date>2024-11_07</date>Mise en œuvre de la transcription à partir du codex 148 avec
             l'appui de l'édition Meylan.</change>
@@ -302,8 +310,8 @@
             <!-- Saut#27 --><anchor type="saut#27"/>
             <l><persName>Pater Sancte</persName> où estez vous</l>
             <l>Aprestez vous pour recepvoir</l>
-            <l n="84" ana="#abus">Sur vostre <rs type="animal" subtype="équidé" key="mule">mulle</rs> aux
-               frains dorez</l>
+            <l n="84" ana="#abus">Sur vostre <rs type="animal" subtype="équidé" key="mule"
+                  >mulle</rs> aux frains dorez</l>
             <l ana="#abus">Force ducatz que l'on vous porte</l>
             <l ana="#sat_rel"><rs type="injonction" subtype="impératif">Chassez</rs> le pauvre de la
                porte</l>
