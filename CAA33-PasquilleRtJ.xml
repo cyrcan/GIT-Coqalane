@@ -265,31 +265,31 @@
          <l><reg>J'en</reg> serois enchéry du tiers</l>
          <l n="36">Et le vouldroit bien voluntiers</l>
          <l>Se cardinal qu'on tient en mue</l>
-         <!-- Saut#8 -->
+         <!-- Saut#8 --><anchor type="saut#8"/>
          <l>Voila pourquoy le monde mue</l>
          <l>Non pas de voix mais de pensée</l>
-         <!-- Saut#9 -->
+         <!-- Saut#9 --><anchor type="saut#9/>
          <l n="40">Sy n'en sera pas dispencer</l>
          <l>Celle qui tout en ung coup faict</l>
          <l>Chez toy le faict et le deffaict</l>
-         <!-- Saut#10 -->
-         <l>Au fort Jeuneux <reg>à</reg> l'adventure</l>
+         <!-- Saut#10 --><anchor type="saut#10/>
+         <l ana="#adr">Au <rs type="destinataire">fort Jeuneux</destinataite><reg>à</reg> l'adventure</l>
          <l n="44">Sy c'est ung <rs type="animal" subtype="équidé">asne</rs> de nature</l>
          <l>Il ne luy fauldra aultres oreilles</l>
          <l>Mais quoy non qu'on le réveille</l>
          <l>Ce pendant qu'il n'y veoit goutte</l>
-         <!-- Saut#11 -->
-         <l n="48">Dieu scayt ce que fera la goutte</l>
+         <!-- Saut#11 --><anchor type="saut#11"/>
+         <l n="48" ana="sat_pers"><Dieu scayt ce que fera la <rs type="maladie">goutte</rs></l>
          <l>Qui tient le <roleName>pape</roleName> au bout des dents</l>
-         <!-- Saut#12 -->
+         <!-- Saut#12 --><anchor type="saut#12"/>
          <l>Parce qu'ilz sont trop evidens</l>
-         <l>Les grands abbus de l'aultre année</l>
-         <!-- Saut#13 -->
+         <l ana="#abus"><Les grands abbus de l'aultre année</l>
+         <!-- Saut#13 --><anchor type="saut#13/>
          <l n="52">Je croy <expan>qu'elle</expan> est prédestinée</l>
          <l><reg>À</reg> souffrir bien tost ung assault</l>
          <l>Car se seroit franchir le sault</l>
          <l><reg>D'avoir</reg> encore ung passaige</l>
-         <!-- Saut#14 -->
+         <!-- Saut#14 --><anchor type="saut#14"/>
          <l n="56"><reg>L'on</reg> pensoit <reg>qu'il</reg> ne feust pas saige</l>
          <l>Mais <reg>s'il</reg> est fol Jeuneux <reg>l'on</reg> seme</l>
          <l><reg>Qu'il</reg>
