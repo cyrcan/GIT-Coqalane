@@ -5,20 +5,21 @@
    <teiHeader>
       <fileDesc xml:id="Bern1536">
          <titleStmt>
-            <title type="idno">Réf. n°8: </title>
+            <title type="idno">Icaa8: </title>
             <title type="main">[Titre manquant]</title>
             <title type="incipit">Et celuy qui sy bien parla</title>
             <author>Anonyme</author>
          </titleStmt>
          <publicationStmt>
-            <p>Ce coq-à-l'âne ne porte de titre</p>
+            <p>Ce coq-à-l'âne ne porte de titre car les premiers feuillets sont manquants.</p>
          </publicationStmt>
          <sourceDesc>
             <p><listWit>
                   <witness xml:id="Cod.148"><msDesc>
                         <msIdentifier>
                            <settlement>Berne, </settlement>
-                           <institution>Bibliothèque de la Bourgeoisie</institution>
+                           <institution>Bibliothèque de la Bourgeoisie, </institution>
+                           <idno>Codex 148.</idno>
                         </msIdentifier>
                      </msDesc></witness>
 
@@ -29,18 +30,18 @@
          <listPrefixDef>
             <prefixDef ident="ind" matchPattern="([a-z]+)"
                replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
-                  Index du projet</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le
+                  Fichier Index du projet</p>
             </prefixDef>
             <prefixDef ident="plc" matchPattern="([0-9]+)"
                replacementPattern="https://www.geonames.org/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
-                  données géographiques GeoNames.</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la
+                  base de données géographiques GeoNames.</p>
             </prefixDef>
             <prefixDef ident="ms" matchPattern="([0-9]+)"
                replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
-                  Sources Manuscrites du projet.</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le
+                  Fichier des Sources Manuscrites du projet.</p>
             </prefixDef>
          </listPrefixDef>
          <p>
@@ -91,6 +92,7 @@
                <interp xml:id="gén" ana="généralisation">généralisation</interp>
                <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
                   gnomique</interp>
+               <interp xml:id="gc" ana="gc">guerres civiles</interp>
                <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
                
                <!-- H -->
@@ -99,10 +101,10 @@
                
                
                <!-- I -->
-               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
-               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
@@ -179,6 +181,7 @@
                <!-- V -->
                <interp xml:id="vanité" ana="vanité">vanité</interp>
                <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="vices" ana="vices">condamnation des vices</interp>
                <interp xml:id="violences" ana="violences">violences</interp>
             </interpGrp>
          </p>
@@ -210,7 +213,7 @@
             <l n="12">L'année qui vient dedans <placeName type="city" key="Mantoue"
                   >Mantoue</placeName></l>
             <l>Il sera vray s'on ne se joue</l>
-            <l>Les <orgName type="peuple">Allemens</orgName> en son d'advis</l>
+            <l>Les <orgName type="peuple" subtype="allemand">Allemens</orgName> en son d'advis</l>
             <!-- Saut#4 --><anchor type="saut#4"/>
             <l ana="#sat_rel">Jamais <persName key="Saint-Pierre"><expan>Sainct</expan>
                   Pierre</persName> je ne vis<add resp="editor" type="ponctuation">,</add></l>

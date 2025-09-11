@@ -5,7 +5,7 @@
 	<teiHeader>
 		<fileDesc xml:id="resverie">
 			<titleStmt>
-				<title type="idno">Réf. n°99: </title>
+				<title type="idno">Icaa99: </title>
 				<title type="main">Resverie de fièvre</title>
 				<title type="incipit">En l'accès le plus violant</title>
 				<author>Pédoue, François</author>
@@ -98,10 +98,10 @@
 					
 					
 					<!-- I -->
-					<interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+					<interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
 					<interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
 						l'adversaire</interp>
-					<interp xml:id="indulgences" ana="injustice">indulgences</interp>
+					<interp xml:id="indulgences" ana="indulgences">indulgences</interp>
 					<interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
 					<interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
 					<interp xml:id="intertexte" ana="intertexte">intertexte</interp>

@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc xml:id="Caresme_Prenant_4Lang">
          <titleStmt>
-            <title type="idno">Réf. n°90: </title>
+            <title type="idno">Icaa90: </title>
             <title type="main">Caresme-Prenant (V, 2)</title>
             <title type="incipit">He! bin de Di, ô frandi frare,</title>
             <author>Benoet du Lac</author>
@@ -102,10 +102,10 @@
                
                
                <!-- I -->
-               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
-               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>

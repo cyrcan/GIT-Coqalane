@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc xml:id="Tireloque">
          <titleStmt>
-            <title type="idno">Réf. n°20: </title>
+            <title type="idno">Icaa20: </title>
             <title type="main">Epistre de frere Thomas de Tireloque</title>
             <title type="incipit">Puis qu'il te plaist, parfaict amy</title>
             <author>Anonyme</author>
@@ -110,10 +110,10 @@
                
                
                <!-- I -->
-               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
-               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>

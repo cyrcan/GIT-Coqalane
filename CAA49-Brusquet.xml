@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc xml:id="Brusquet">
          <titleStmt>
-            <title type="idno">Réf. n°49: </title>
+            <title type="idno">Icaa49: </title>
             <title type="main">Coq a l'asne de Brusquet envoyé à Pierre Ronsart gentilhomme
                vendosmoys</title>
             <title type="incipit">C'est à Toy, Ronsart le Prime,</title>
@@ -104,10 +104,10 @@
                
                
                <!-- I -->
-               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
-               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
@@ -232,8 +232,8 @@
             <l ana="#adv_rel">Je ne veois jamais tant de <rs type="invective"><rs type="animal"
                      subtype="bovidé">veaulx</rs></rs><note resp="editor" type="crit">Le
                   pseudo-Brusquet retourne ici contre eux un des traits habituels des réformés.<hi
-                     rend="italic"> Ibid.</hi>, "Paris a deux places aux veaulx / Dont la plus
-                  grande est la Sorbonne", v. 136-137. Voir également, l'introduction et la
+                     rend="italic"> Ibid.</hi>, <quote>Paris a deux places aux veaulx / Dont la plus
+                  grande est la Sorbonne</quote>, v. 136-137. Voir également, l'introduction et la
                   conclusion de <title>L'Avertissement sur la censure qu'on faite les Bêtes de
                      Sorbonne, touchant les livres qu'ils appellent hérétiques</title> (1546) de
                      <persName ref="ind:Calvin" key="Calvin Jean">Calvin</persName>, Gallimard,
@@ -256,9 +256,9 @@
             <l ana="#adv_rel"><reg>À</reg> ceulx qui preschent en pourpoinct</l>
             <l n="16" ana="#misères"><reg>L'église</reg> ne feust pas en tel poinct<note
                   resp="editor" type="crit">Comme une réponse aux vers 82-86 du <title>Coq au
-                     Lievre</title>: "Ces gros asnes embeguynez / Craignent de perdre leurs
+                     Lievre</title>: <quote>Ces gros asnes embeguynez / Craignent de perdre leurs
                   pratiques / Disans que ceulx sont heretiques / Qui preschent soubz la cheminée /
-                  Et que la loy nous est donnée / Pour la prescher publiquement".</note></l>
+                  Et que la loy nous est donnée / Pour la prescher publiquement</quote>.</note></l>
             <l ana="#adv_rel">Mais quoy <add>[?]</add> une façon nouvelle</l>
             <l ana="#ironie">Puys que la vye semble belle</l>
             <l ana="#adv_rel">Je ne croy poinct <expan>qu'il</expan> soict possible</l>
@@ -268,15 +268,15 @@
                      >asnon</rs></rs><note resp="editor" type="glose">Peut-être une allusion à
                      <persName ref="ind:François_de_Montmorency" key="Montmorency François (de)"
                      >François de Montmorency</persName>, fils du connétable Anne, et qualifié d'<hi
-                     rend="italic">asnon</hi> dans le coq à l'asne de 1567 commençant par "Salut à
-                  toy mon grand amy..." (réf. n°53). Tout comme son père, les partisans des Guise le
+                     rend="italic">asnon</hi> dans le coq à l'asne de 1567 commençant par <quote>Salut à
+                  toy mon grand amy...</quote> [réf. n°53]. Tout comme son père, les partisans des Guise le
                   soupçonnent de sympathie envers ses cousins Coligny depuis l'altercation avec le
                   Cardinal de Lorraine à qui il refuse l'entrée en armes dans Paris en janvier
                   1565.</note></l>
             <!-- Saut#5 --><anchor type="saut#5"/>
             <l><rs type="interjection"><reg>Ô</reg> mon dieu</rs> la belle <rs type="invective"><rs
                      type="animal">guenon</rs></rs><add>[!]</add><note resp="editor" type="glose"
-                     ><hi rend="italic">Guenon</hi> dans le sens de "mauvais imitateur"?</note></l>
+                     ><hi rend="italic">Guenon</hi> dans le sens de <quote>mauvais imitateur</quote>?</note></l>
             <l ana="#adv_rel"><reg>À</reg> propos des cornes en teste</l><!--suppression<note>Cf. à nouveau
                   <title>Le Coq aux Chievres</title> : "On dict que la beste cornue / N'est plus
                tant crainte que souloit", v. 64-65.</note> -->
@@ -369,9 +369,9 @@
                <expan>et</expan>
                <rs type="animal" subtype="canidé">loups</rs></l>
             <l ana="#cour">Pour le discord qui d'eux s'assemble</l>
-            <l n="52">Ne furent onq amys ensemble<note resp="editor" type="glose">"C'est folie
+            <l n="52">Ne furent onq amys ensemble<note resp="editor" type="glose"><quote>C'est folie
                   d'espérer paix, repos et amitié entre les personnes qui sont de diverses
-                  religions." disait Michel de L'Hospital lors de la première séance des États
+                  religions.</quote> disait Michel de L'Hospital lors de la première séance des États
                   Généraux de décembre 1560.</note></l>
             <!-- Saut#14 --><anchor type="saut#14"/>
             <l ana="#folie">Le monde est il sy grand qu'on dict<add resp="editor" type="ponctuation"
@@ -427,7 +427,7 @@
                      key="La Valette Jean (de)">Jean de la La Valette</persName>.</note></l>
             <!-- Saut#21 --><anchor type="saut#21"/>
             <l n="72" ana="#sat_rel">On a beau retrancher les murs<note resp="editor" type="crit"
-                  >Cf. Réf. n°1, v. 64-66.</note></l>
+                  >Cf. [réf. n°1], v. 64-66.</note></l>
             <l ana="#sat_rel">Des <orgName>moynes</orgName>
                <reg>s'ilz</reg>
                <reg>n'ayment</reg> leur cloistre</l>
@@ -466,7 +466,7 @@
             <!-- Saut#25 --><anchor type="saut#25"/>
             <l ana="#ethos">Moy je <reg>n'ay</reg> poinct les piedz pouldreux<note resp="editor"
                   type="crit">La rime <hi rend="italic">Dreux: poudreux</hi> sera reprise dans le <title>Coq-à-l'âne de
-                     Sancerre et de la Charité</title>, réf. n°61.</note></l>
+                     Sancerre et de la Charité</title>, [réf. n°61].</note></l>
             <l ana="#argent"><reg>L'argent</reg>
                <reg>qu'on</reg> me baille est bien mys</l>
             <l n="92" ana="#hypocrisie">Puisque je trouve assez d'amys</l>
@@ -540,7 +540,7 @@
                      key="Antéchrist">entechrist</persName></reg><note resp="editor" type="crit"
                   ana="#intertexte">Cf. en premier lieu le premier coq-à-l'âne de Marot: <quote>Or
                      est arrivé l'Antéchrist,/ Et nous l'avons tant attendu.</quote>, v. 84-85. Mais
-                  aussi "Le Jeuneux aux Yvrognes" (réf. n°31): <quote>Ilz sont du nom de Jhesuchrist
+                  aussi "Le Jeuneux aux Yvrognes" [réf. n°31]: <quote>Ilz sont du nom de Jhesuchrist
                      / Attendons nous autre antechrist / Que ses escornifleurs d'eglise</quote>, v.
                   229-231.</note></l>
             <l ana="#sit_pol">Les <roleName type="officier">fourriers</roleName> sont desja en
@@ -684,7 +684,7 @@
             <l n="180">Veu que les naveaulx et les raves</l>
             <l ana="#topos">Sont fort commungs en <placeName type="region" key="Limousin"
                   >Lymosin</placeName><note>Cf. les vers 30-31 du coq-à-l'âne de François La Salla
-                  (réf. n°19): <quote>Les Lymossins ont bon marché / De ravez et petiz
+                  [réf. n°19]: <quote>Les Lymossins ont bon marché / De ravez et petiz
                      naveaulx</quote>.</note></l>
             <!-- Saut#49 --><anchor type="saut#49"/>
             <l ana="#satire">Il n'est pas seur <reg>d'estre</reg> voysin</l>
@@ -710,7 +710,7 @@
                   >Perrocelq</persName> pouvoit rendre<note resp="editor" type="glose">Ancien
                   franciscain passé à la Réforme, une des cibles privilégiées des futures chansons
                   catholiques et notamment du <title>Coq à l'Ane des Ministres de Geneve &amp;
-                     huguenots de France</title>, réf. n°60.</note></l>
+                     huguenots de France</title>, [réf. n°60].</note></l>
             <l ana="#sat_pers">Sa <rs type="invective">vielle nonnain desbauchée</rs></l>
             <l ana="#sat_pers">Jamays <reg>d'une</reg>
                <rs type="animal" subtype="équidé">mule</rs> eschauffée</l>
@@ -735,7 +735,7 @@
             <!-- Saut#54 --><anchor type="saut#54"/>
             <l ana="#éloge">Ce grand <persName ref="ind:Cardinal_de_Lorraine"
                   key="Lorraine, Charles (de)">Cardinal de Lorraine</persName><note resp="editor"
-                  type="crit">Voir <title>Le Coq aux lievres (réf. n°46)</title>: <quote>Le Cardinal
+                  type="crit">Voir <title>Le Coq aux lievres [Icaa46]</title>: <quote>Le Cardinal
                      de la Ruyne / Mettra le feu de tous costez</quote>, v. 174-175.</note></l>
             <l ana="#éloge">Est des plus dignes de sa robbe</l>
             <l n="208">Mais de penser que se desrobbe</l>

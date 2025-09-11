@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="idno">Réf. n°59: </title>
+            <title type="idno">Icaa59: </title>
             <title type="main">L'asne au Coq</title>
             <title type="incipit">Amy il y a ja longtemps</title>
             <author>Anonyme</author>
@@ -206,10 +206,10 @@
                   
                   
                   <!-- I -->
-                  <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+                  <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                   <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                      l'adversaire</interp>
-                  <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+                  <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                   <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                   <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                   <interp xml:id="intertexte" ana="intertexte">intertexte</interp>

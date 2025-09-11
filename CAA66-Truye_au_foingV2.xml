@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc xml:id="GDS1">
          <titleStmt>
-            <title type="idno">Réf. n°65: </title>
+            <title type="idno">Icaa65: </title>
             <title type="main">Coqalane de la truye au foing, à monsieur de Joyeuse</title>
             <title type="incipit">J'ay voulu, Monsieur, vous escrire</title>
             <author>Du Sable, Guillaume</author>
@@ -99,10 +99,10 @@
                
                
                <!-- I -->
-               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
-               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>

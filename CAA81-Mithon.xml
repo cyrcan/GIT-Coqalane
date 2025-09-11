@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc xml:id="Mithon">
          <titleStmt>
-            <title type="idno">Réf. n°81: </title>
+            <title type="idno">Icaa81: </title>
             <title type="main">Coq a Lasne à Maistre Mithon, sur la ligue. 1586</title>
             <title type="incipit">Apres avoir bien disputé</title>
             <author>Anonyme</author>
@@ -120,10 +120,10 @@
                
                
                <!-- I -->
-               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
-               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>

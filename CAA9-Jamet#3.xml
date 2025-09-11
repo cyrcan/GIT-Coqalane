@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc xml:id="Jamet_3">
          <titleStmt>
-            <title type="idno">Réf. n°9: </title>
+            <title type="idno">Icaa9: </title>
             <title type="main">Sans titre</title>
             <title type="incipit">Or çà, Marot, que diras-tu?</title>
             <author>Jamet, Lyon</author>
@@ -21,18 +21,18 @@
          <listPrefixDef>
             <prefixDef ident="ind" matchPattern="([a-z]+)"
                replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/IndexPers.xml/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le Fichier
-                  Index du projet</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "ind:" pointent vers le
+                  Fichier Index du projet</p>
             </prefixDef>
             <prefixDef ident="plc" matchPattern="([0-9]+)"
                replacementPattern="https://www.geonames.org/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la base de
-                  données géographiques GeoNames.</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "plc:" pointent vers la
+                  base de données géographiques GeoNames.</p>
             </prefixDef>
             <prefixDef ident="ms" matchPattern="([0-9]+)"
                replacementPattern="/Volumes/CCA_T5/PROJET_D2/FICHIER_TEI-XML/Index_Mss.xml/$1">
-               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le Fichier des
-                  Sources Manuscrites du projet.</p>
+               <p>Pour ce projet, les URI ayant comme préfixe : "ms:" pointent vers le
+                  Fichier des Sources Manuscrites du projet.</p>
             </prefixDef>
          </listPrefixDef>
          <p>
@@ -83,6 +83,7 @@
                <interp xml:id="gén" ana="généralisation">généralisation</interp>
                <interp xml:id="gnomique" ana="parole_gnomique">proverbes, sagesse et parole
                   gnomique</interp>
+               <interp xml:id="gc" ana="gc">guerres civiles</interp>
                <interp xml:id="guerre" ana="guerre">guerre extérieure</interp>
                
                <!-- H -->
@@ -91,10 +92,10 @@
                
                
                <!-- I -->
-               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
-               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
@@ -171,6 +172,7 @@
                <!-- V -->
                <interp xml:id="vanité" ana="vanité">vanité</interp>
                <interp xml:id="vp" ana="pivot">vers pivot</interp>
+               <interp xml:id="vices" ana="vices">condamnation des vices</interp>
                <interp xml:id="violences" ana="violences">violences</interp>
             </interpGrp>
          </p>
@@ -207,15 +209,15 @@
          <l n="8" ana="#ironie">Je t’en garde ung bel anneau</l>
          <l ana="#maladie">Qui guerira du <rs type="maladie" subtype="épilepsie">mal Sainct
                Jehan</rs></l>
-         <note resp="editor" type="glose"><persName ref="ind:Jamet" key="Jamet Lyon"
+         <note resp="editor" type="glose"><persName ref="ind:Jamet" key="Jamet, Lyon"
                >Jamet</persName> ironise sur les dons de guérison que s'attribuait <persName
                ref="ind:Henry_VIII">Henri VIII</persName> en bénissant les anneaux qu'on lui
             présentait notamment.</note>
          <pb n="289r"/>
          <!-- Saut#2 -->
          <anchor type="saut#2"/>
-         <l>Aussi bien ce pouvre <persName>Jehan</persName></l>
-         <l>Tousjours aura son <rs type="maladie">mal de teste</rs></l>
+         <l ana="#satire">Aussi bien ce pouvre <persName>Jehan</persName></l>
+         <l ana="#satire">Tousjours aura son <rs type="maladie">mal de teste</rs></l>
          <!-- Saut#3 -->
          <anchor type="saut#3"/>
          <l n="12"><rs type="interjection">Mays quoy</rs> s’il ne estoit point de feste</l>
@@ -419,7 +421,7 @@
          <l><rs type="injonction" subtype="prière">Excuse</rs> moy et cest escript</l>
          <l n="116">Car par la grace à <persName key="Jésus">Jhesus Christ</persName></l>
          <l>L’ame est heureuse au bon <persName>daulphin</persName></l>
-         <l ana="#mtd">Adieu te dis voilà la fin</l>
+         <l ana="#conclusio">Adieu te dis voilà la fin</l>
       </body>
    </text>
 </TEI>

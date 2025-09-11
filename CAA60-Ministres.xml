@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc xml:id="Ch-Ministres">
          <titleStmt>
-            <title type="idno">Réf. n°60: </title>
+            <title type="idno">Icaa60: </title>
             <title type="main">Le Coq à l'Asne des Ministres de Geneve &amp; huguenots de France.</title>
             <title type="incipit">En revenant de Genève près le lac</title>
             <author>Christophe de Bordeaulx?</author>
@@ -108,10 +108,10 @@
                
                
                <!-- I -->
-               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
-               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>

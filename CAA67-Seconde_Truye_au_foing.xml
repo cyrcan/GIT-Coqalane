@@ -5,7 +5,7 @@
 	<teiHeader>
 		<fileDesc xml:id="GDS2">
 			<titleStmt>
-				<title type="idno">Réf. n°67: </title>
+				<title type="idno">Icaa67: </title>
 				<title type="main">Seconde truye au foing</title>
 				<title type="incipit">Si ma truie au foing avez leu</title>
 				<author>Du Sable, Guillaume</author>
@@ -91,10 +91,10 @@
 					
 					
 					<!-- I -->
-					<interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+					<interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
 					<interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
 						l'adversaire</interp>
-					<interp xml:id="indulgences" ana="injustice">indulgences</interp>
+					<interp xml:id="indulgences" ana="indulgences">indulgences</interp>
 					<interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
 					<interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
 					<interp xml:id="intertexte" ana="intertexte">intertexte</interp>

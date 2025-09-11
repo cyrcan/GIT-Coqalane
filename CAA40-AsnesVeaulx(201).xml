@@ -7,7 +7,7 @@
    <teiHeader>
       <fileDesc xml:id="Veaulx">
          <titleStmt>
-            <title type="idno">Réf. n°40: </title>
+            <title type="idno">Icaa40: </title>
             <title type="main">Le coq aux asnes et aux veaulx faict L'an mil Vc <del>XX</del>
                XLVII</title>
             <title type="incipit">Amys et freres je pensoys</title>
@@ -90,10 +90,10 @@
                <interp xml:id="hedo" ana="bien_vivre">bien vivre</interp>
                <interp xml:id="hypocrisie" ana="hypocrisie">hypocrisie</interp>
                <!-- I -->
-               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
-               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>

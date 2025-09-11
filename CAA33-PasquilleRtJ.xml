@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc xml:id="Pasquille_Rome">
          <titleStmt>
-            <title type="idno">Réf. n°33: </title>
+            <title type="idno">Icaa33: </title>
             <title type="main">Espitre de Pasquille de Romme au Jeuneux de Paris</title>
             <title type="incipit">Jeuneux, je veux te faire sçavoir</title>
             <author>Anonyme</author>
@@ -17,17 +17,17 @@
          <sourceDesc>
             <p><listWit>
                   <witness><msDesc>
-                        <msIdentifier xml:base="NAF1870">
+                        <msIdentifier xml:id="NAF1870">
                            <settlement>Paris, </settlement>
                            <repository>Bibliothèque nationale de France, </repository>
                            <idno>NAF 1870 (f°63v-66r)</idno>
                         </msIdentifier>
                      </msDesc></witness>
                   <witness><msDesc>
-                        <msIdentifier xml:base="fr1718">
+                        <msIdentifier xml:id="fr1718">
                            <settlement>Paris, </settlement>
                            <repository>Bibliothèque nationale de France, </repository>
-                           <idno>fr. 1718 (f°127-131)</idno>
+                           <idno>fr. 1718 (f°127v-131r)</idno>
                            <!-- Copie suivie par H. Meylan -->
                         </msIdentifier>
                      </msDesc></witness>
@@ -111,10 +111,10 @@
 
 
                <!-- I -->
-               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
-               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
@@ -198,299 +198,557 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p/>
+            <p>Les deux copies tardives (fr. 1718 et NAF 1870) comportent à la fois des erreurs et
+               des variantes qui dénotent une volonté d'adapter l'épître au contexte.</p>
          </abstract>
          <creation><date when="1543">1543</date></creation>
       </profileDesc>
    </teiHeader>
    <text>
       <body>
-         <listBibl>
-            <msDesc>
-               <msIdentifier>
-                  <settlement>Bibliothèque nationale de France, </settlement>
-                  <repository>Département des manuscrits, </repository>
-                  <idno>NAF 1870 (f°63v-66r)</idno>
-               </msIdentifier>
-            </msDesc>
-         </listBibl>
-         <l ana="#adr"><rs type="destinataire">Jeuneux</rs> je te veulx faire <reg>sçavoir</reg></l>
-         <l ana="#adr">Des nouvelles pour en avoir</l>
-         <l ana="#adr">De toy car ainsy qu'on m'a dict</l>
-         <l n="4" ana="#adr">Tu n'as pas encore credit</l>
-         <l ana="#adr">Et moings de voix en ton <expan>chappitre</expan></l>
-         <l ana="#adr">Pour me despecher une espitre</l>
-         <l ana="#adr">Des affaires de par dela</l>
-         <!-- Saut#1 -->
-         <anchor type="saut#1"/>
-         <l n="8" ana="#Plmq">Que meust <reg>l'aultre</reg> jour cestuy <reg>là</reg></l>
-         <l ana="#Plmq">Qui preschoit devant <persName key="">le sainct pere</persName></l>
-         <l ana="#Plmq">Que <persName key="saint Paul">sainct Pol</persName>
-            <reg>n'avoit</reg> esté le pere</l>
-         <l ana="#Plmq">De <persName key="saint Pierre">sainct Pierre</persName> ainsy qu'on
-            pensoit</l>
-         <!-- Saut#2 -->
-         <anchor type="saut#2"/>
-         <l n="12" ana="#sat_rel">Je le vous preuve qu'ainsy soict</l>
-         <l ana="#sat_rel"><reg>C'est</reg> trop grand abbuz de prescher</l>
-         <l ana="#ambition">Mais de ce bien escarmoucher</l>
-         <l ana="#ambition">Au <rs type="jeu" subtype="flux">flux</rs>
-            <expan>pour</expan> moings d'un chappeau rouge<note resp="editor" type="glose">Le chapeau de cardinal.</note></l>
-         <!-- Saut#3 -->
-         <anchor type="saut#3"/>
-         <l n="16">Touteffoys <app><lem><reg>l'ancre</reg></lem><rdg>l'autre</rdg></app> n'est pas rouge</l>
-         <l>Que l'on vend à <placeName>porte Latin</placeName></l>
-         <!-- Saut#4 --><anchor type="saut#4"/>
-         <l>Si se fault il lever matin</l>
-         <l>De peur des <rs type="animal" subtype="insecte" key="mouche">mouches</rs> à <app><lem>fluance</lem><rdg>Florence</rdg></app></l>
-         <!-- Saut#5 --><anchor type="saut#5"/>
-         <l n="20">C'est pourquoy le seigneur <persName key="Nicolas Raince">Rance</persName></l><!-- Hypométrique -->
-         <l>Ne feust jamais bien estimé</l>
-         <l><rs type="injonction" subtype="impératif">Tiens toy</rs> seur <reg>qu'il</reg> est
-            enrimé</l>
-         <l>Puis <reg>qu'il</reg> porte la turbentine</l>
-         <l n="24">Raison qui faict <expan>que</expan> la courtine</l>
-         <l>Qui court se soulloit imprimer</l>
-         <l>Le faict <expan>contre</expan> vous animer</l>
-         <l><reg>C'est</reg> pourtant <reg>qu'une</reg> croix ample</l>
-         <!-- Saut#6 --><anchor type="saut#6"/>
-         <l n="28">Tout ce <expan>qu'il</expan> veoit bon luy semble</l>
-         <l> Mais il fault vivre touteffoys</l>
-         <l>Tel y court bien cinq ou six foys</l>
-         <l>Sans bulle<add resp="editor" type="ponctuation">,</add> sceau ne bulletin</l>
-         <!-- Saut#7 --><anchor type="saut#7"/>
-         <l n="32">Car <reg>c'est</reg> tirer au chevrotin</l>
-         <l>Emprunter pour jamays ne rendre</l>
-         <l>Ha se le grand le voulloit rendre</l>
-         <l><reg>J'en</reg> serois enchéry du tiers</l>
-         <l n="36">Et le vouldroit bien voluntiers</l>
-         <l>Se cardinal qu'on tient en mue</l>
-         <!-- Saut#8 -->
-         <l>Voila pourquoy le monde mue</l>
-         <l>Non pas de voix mais de pensée</l>
-         <!-- Saut#9 -->
-         <l n="40">Sy n'en sera pas dispencer</l>
-         <l>Celle qui tout en ung coup faict</l>
-         <l>Chez toy le faict et le deffaict</l>
-         <!-- Saut#10 -->
-         <l>Au fort Jeuneux <reg>à</reg> l'adventure</l>
-         <l n="44">Sy c'est ung <rs type="animal" subtype="équidé">asne</rs> de nature</l>
-         <l>Il ne luy fauldra aultres oreilles</l>
-         <l>Mais quoy non qu'on le réveille</l>
-         <l>Ce pendant qu'il n'y veoit goutte</l>
-         <!-- Saut#11 -->
-         <l n="48">Dieu scayt ce que fera la goutte</l>
-         <l>Qui tient le <roleName>pape</roleName> au bout des dents</l>
-         <!-- Saut#12 -->
-         <l>Parce qu'ilz sont trop evidens</l>
-         <l>Les grands abbus de l'aultre année</l>
-         <!-- Saut#13 -->
-         <l n="52">Je croy <expan>qu'elle</expan> est prédestinée</l>
-         <l><reg>À</reg> souffrir bien tost ung assault</l>
-         <l>Car se seroit franchir le sault</l>
-         <l><reg>D'avoir</reg> encore ung passaige</l>
-         <!-- Saut#14 -->
-         <l n="56"><reg>L'on</reg> pensoit <reg>qu'il</reg> ne feust pas saige</l>
-         <l>Mais <reg>s'il</reg> est fol Jeuneux <reg>l'on</reg> seme</l>
-         <l><reg>Qu'il</reg>
-            <reg>s'en</reg> fauldra prendre à la cene</l>
-         <!-- Saut#15 -->
-         <l>Ce pendant nous vivrons tousjours</l>
-         <l n="60">Aultant les nuictz que les jours</l>
-         <fw type="sig">Q iiii</fw>
-         <pb n="64"/>
-         <l>Et vive que vivre pourra</l>
-         <!-- Saut#16 -->
-         <l>Le <persName key="Agostino Trivulzio">cardinal Trivole</persName> aura</l>
-         <l>Devant <reg>Noël</reg> la <rs type="jeux">nicnoque</rs></l>
-         <l n="64">Et se ton evesque <reg>s'en</reg> moque</l>
-         <l>Je le voy prins au trebuschet</l>
-         <note type="ling" resp="editor">Trebuchet, en termes d'Oiselier, est une machine en forme
-            de petite cage qui sert à attraper de petits oiseaux. Elle est composée d'une échelle et
-            d'un abatant qui est sa partie superieure que l'on tient ouverte. Ce dessus de la
-            machine est arresté par l'échelle de telle sorte, que dés que l'oiseau se met sur cette
-            échelle, le ressort se lasche et ferme le trebuait trebucher, d'où il ne peut plus
-            sortir. (Corneille, 1694</note>
-         <l>Car celluy qui tient le cachet</l>
-         <l>Dict que que la lune est en son cours</l>
-         <!-- Saut#17 -->
-         <l n="68"><rs type="destinataire">Jeuneux</rs> voila le beau discours</l>
-         <l>Dont nostre routte est parfumée</l>
-         <note type="crit" resp="editor">La rote romaine, l'un des trois tribunaux de l'Eglise
-            romaine.</note>
-         <l>Bien tost <reg>s'en</reg> yra en fumée</l>
-         <l><reg>C'est</reg>
-            <reg>à</reg> propos de <reg>l'évangille</reg></l>
-         <l n="72">Touteffoys que la loy civille</l>
-         <l>Le veult <reg>j'en</reg> suys tres bien content</l>
-         <l>Jeuneux mon amy <reg>l'on</reg> attent</l>
-         <l>De jour en jour que la <placeName><settlement type="region"
-               >Savoye</settlement></placeName></l>
-         <l n="76">Changer de gouverneur se voye</l>
-         <note type="crit" resp="editor">François de Bourbon, comte d'Enghien, sera désigné
-            gouverneur du Piémont le 26 décembre 1543.</note>
-         <l>Car apres le reste viendra</l>
-         <l>Je scay bien <reg>qu'il</reg> en adviendra</l>
-         <l>De voz discors joueurs de quilles</l>
-         <l n="80">Au fort vous scavez les coquilles</l>
-         <l>Puis que les clefs sont en decours</l>
-         <l>Raison car <reg>d'avoir</reg> son recours</l>
-         <l>Synon en soy fy qui se fye</l>
-         <l n="84">Voila pourquoy <reg>l'on</reg> ediffie</l>
-         <l>Pour loger ung aultre en son lieu</l>
-         <l>Et qui le vouldroit dire <reg>à</reg>
-            <persName>Dieu</persName></l>
-         <l>Il fauldroit <reg>à</reg>
-            <placeName><settlement type="city">Venise</settlement></placeName> aller</l>
-         <l n="88">Mais <expan>que</expan> veulx tu d'en trop parler</l>
-         <l><reg>C'est</reg> une chose dangereuse</l>
-         <l>Car <reg>à</reg>
-            <placeName><settlement type="city">Gand</settlement></placeName> la ville
-            malheureuse</l>
-         <l>Disent <reg>qu'il</reg> est licitte et permys</l>
-         <l n="92">Voila qui faict <expan>que</expan>
-            <placeName><settlement type="city">Anvers</settlement></placeName> a mys</l>
-         <l>Son astrop devant et derriere</l>
-         <l>Et que <placeName><settlement type="city" key="Milan">Millan</settlement></placeName>
-            faict la barriere</l>
-         <l>Pour avoir de long le jeu de dez</l>
-         <l n="96">Et que les docteurs sont fondez</l>
-         <l>Pour subvenir <reg>à</reg> l'entreprise</l>
-         <l>Car sy la <placeName><settlement type="region" key="Sicile"
-               >Cecille</settlement></placeName> estoit prise</l>
-         <fw type="sig" place="bottom-right">je ne s</fw>
-         <pb n="65r"/>
-         <fw type="pageNum" place="top-right">Folio lxv</fw>
-         <l>Je ne serois pourtant cassé</l>
-         <note type="ling" resp="editor">Cassé : licencié</note>
-         <l n="100">Car de dire <reg>qu'il</reg> est passé</l>
-         <l><reg>C'est</reg> ung argument sans replique</l>
-         <l>Qui faict que ceste Republique</l>
-         <l>Aura bien tost ung aultre nom</l>
-         <l n="104">Et qui aura ville de renon</l>
-         <l>Sera de rouge ou de blanc colis</l>
-         <l>Donne toy garde qué fénix</l>
-         <l>Ne soict en ce nouveau croissant</l>
-         <l n="108">Plus <reg>qu'oncques</reg> ne fut florissant</l>
-         <l>Soubdain bruslé car de la cendre</l>
-         <l><reg>L'on</reg> dict <reg>q'un</reg> aultre doibt descendre</l>
-         <l>Qui sera de ce nom premier</l>
-         <l n="112">Sy tu dis <reg>qu'il</reg> est coustumier</l>
-         <l>De faire ainsy donne t'en garde</l>
-         <l>Car <persName type="mythologie">Mars</persName> directement <reg>regarde</reg></l>
-         <l><persName type="mythologie" key="Vénus">Venus</persName> au signe du <rs type="animal"
-               subtype="astrologie">thoreau</rs></l>
-         <l n="116">Ce que l'on mect sur le bureau</l>
-         <l>Par chose trop grande en conséquence</l>
-         <l>Mais croy moy Jeuneux la séquence</l>
-         <l>Est aultre <expan>qu'on</expan> ne pense pas</l>
-         <l n="120">Voila de quoy sert le compas</l>
-         <l>Pour deviser au diamectre</l>
-         <l>Mais dequoy sert de s'entremectre</l>
-         <l>Des choses qui viennent <reg>d'amont</reg></l>
-         <l n="124">Adieu le pays de <placeName><settlement type="region" key="Piémont"
-                  >Piedmont</settlement></placeName></l>
-         <l>Adieu <placeName>la coste genevoise</placeName></l>
-         <l>Car puysqu'on boit <reg>à</reg> la françoyse</l>
-         <l><placeName>Flandre</placeName> aura bien fort affaire</l>
-         <l n="128">Mais quoy je <reg>n'y</reg> scaurois que faire</l>
-         <l>Les <orgName>Allemens</orgName>
-            <reg>l'avoient</reg> préveu</l>
-         <l>Et que depuis on a veu</l>
-         <l><reg>L'Angloix</reg> scayt bien qu'en vault la livre</l>
-         <l n="132">Jeuneux <reg>l'on</reg>
-            <reg>m'a</reg> dict <reg>qu'en</reg> ton livre</l>
-         <l><reg>L'on</reg> a veu chose nonpareille</l>
-         <l><reg>S'il</reg> est ainsy <expan>pour</expan> la pareille</l>
-         <l>Fais pour moy de deux choses <reg>l'une</reg></l>
-         <l n="136">De me mander sy <placeName><settlement type="city"
-               >Pampelune</settlement></placeName></l>
-         <l>Tient pas le Romain rendu</l>
-         <l>Ou bien <reg>s'il</reg>
-            <reg>m'a</reg> rien vendu</l>
-         <l>Dont la dame soict reservée</l>
-         <pb/>
-         <l n="140">Car je scay bien <expan>que</expan> la levée</l>
-         <l>De <orgName>Turcs</orgName> est faicte un peu plus la</l>
-         <l>Et que la regente parla</l>
-         <l>Pour la sante de sa personne</l>
-         <l n="144">Mais que maintenant riens on donne</l>
-         <l>Synon par la faveur des femmes</l>
-         <l>Je m'en rapporte aux vielles lames</l>
-         <l>Qui sont <reg>à</reg>
-            <placeName><settlement type="city">Naples</settlement></placeName> à couvert</l>
-         <l n="148">Puis que le passaige est ouvert</l>
-         <l>Et que les Turcs viennent en <placeName><settlement type="country"
-               >France</settlement></placeName></l>
-         <l>Jeuneux tu <reg>n'auras</reg> pas souffrance</l>
-         <l>Car leur secours est favorable</l>
-         <l n="152">Mais que la fin soict honnorable</l>
-         <l>Je m'en rapporte <reg>à</reg> ton serment</l>
-         <l>Et croy moy qu'en cela ne ment</l>
-         <l>Le grand prophette de <placeName><settlement type="city"
-               >Grenoble</settlement></placeName></l>
-         <l n="156">Et qu'il soict vray de <placeName><settlement type="city" key="Constantinople"
-                  >Constantinoble</settlement></placeName></l>
-         <l><placeName><settlement type="city" key="Rome">Romme</settlement></placeName> et
-                  <placeName><settlement type="city" key="Tunis">Thunis</settlement></placeName>
-            jusques à <placeName><settlement type="city">Narbonne</settlement></placeName></l>
-         <l>On veoit le port de <placeName><settlement type="city" key="Barcelone"
-                  >Barcelonne</settlement></placeName></l>
-         <l>Et de <placeName><settlement type="city" key="Budapest">Bude</settlement></placeName>
-            grande cité</l>
-         <l n="160">Voila qui <reg>m'avoit</reg> incité</l>
-         <l>De faire la guerre au flacon</l>
-         <l>Car le <persName>cardinal de Mascon</persName></l>
-         <l>Disoit bien que ceste surprise</l>
-         <l n="164">Prenoit cadance <reg>à</reg> la reprise</l>
-         <l>Tant que Sainctailles en effect</l>
-         <l>Veult faire coqu <persName>Lucifer</persName></l>
-         <l>Ha Jeuneux ce n'est pas raison</l>
-         <l n="168">De me jecter de ta maison</l>
-         <l>Ou suys entré par ma prouesse</l>
-         <l>Mais quoy Jeuneux dis moy rien <reg>n'est</reg> ce</l>
-         <l>Sur la mer faire tels efforts</l>
-         <l n="172">Sy <reg>l'on</reg> joue à boutte dehors</l>
-         <l><placeName><settlement type="country">France</settlement></placeName> fera cadance au
-            bransle</l>
-         <l>Et sy <reg>l'<placeName><settlement type="country" key="Allemagne"
-                     >Alemaigne</settlement></placeName></reg> se bransle</l>
-         <l>Adieu command ton grand <placeName><settlement type="city"
-               >Paris</settlement></placeName></l>
-         <l n="176">Quoy pense tu que je me rie</l>
-         <l>Non non mais quant bien on y pense</l>
-         <l><reg>L'on</reg> treuve que <expan>nostre</expan> despence</l>
-         <l>Jusques en <reg>l'<placeName><settlement type="country" key="Espagne"
-                     >Espaigne</settlement></placeName></reg> n'ira</l>
-         <l n="180">Et <expan>que</expan>
-            <persName>Dieu</persName> plus ne demourra</l>
-         <fw type="catch" place="bottom-right">A Romme</fw>
-         <pb n="66r"/>
-         <fw type="pageNum" place="top-right">fol°lxvi</fw>
-         <l><reg>À</reg> Romme dont tresbien me prent</l>
-         <l>Mais que veulx tu tousjours apprent</l>
-         <l>Celluy qui veoit et rien <reg>n'oublye</reg></l>
-         <l n="184">C'est ce qui faict qu'elle est annoblie</l>
-         <!--Vers hypermétrique-->
-         <l>Pour ung clistere <reg>qu'elle</reg> a pris</l>
-         <l>Et sy je <reg>n'avois</reg> entrepris</l>
-         <l>Le voyage je te promects</l>
-         <l n="188">Que <reg>j'eusse</reg> faict la figue mais<note resp="editor" type="ling"><hi
-                  rend="italic">Faire la figue</hi>: <quote>faire un geste de moquerie, faire un
-                  pied de nez, se moquer, braver</quote>, Di Stefano.</note></l>
-
-         <l>Ung jour viendra qui est venu</l>
-         <l>Que ce qui estoit advenu</l>
-         <l>Mectra fin <reg>à</reg> noz bons advis</l>
-         <l n="192">Adieu Jeuneux tout vis à vis</l>
-         <l>De celle qui se maintient estre</l>
-         <l>Serviteur et fils du grand <expan>presbtre</expan></l>
-         <l>Cependant qu'on est follyant</l>
-         <l n="196">Ne te faiz melencolliant</l>
-         <l>Et ne croys tousjours la parolle</l>
-         <l>Puis <expan>que</expan> tu doubte la verolle</l>
+         <p>
+            <ptr target="111"/>
+            <l ana="#adr"><rs type="destinataire">Jeuneux</rs><add resp="editor" type="ponctuation"
+                  >,</add> je <app>
+                  <lem wit="#NAF1870">te veulx faire </lem>
+                  <rdg wit="#fr1718">ne te fais</rdg>
+               </app>
+               <reg>sçavoir</reg></l>
+            <l ana="#adr">Des nouvelles pour en avoir</l>
+            <l ana="#adr">De toy car ainsy qu'on m'a dict</l>
+            <l n="4" ana="#adr">Tu n'as pas encore credit</l>
+            <l ana="#adr">Et moings de voix en ton <expan>chappitre</expan><note resp="editor"
+                  type="glose">Remarque qui laisse entendre que le Jeuneux serait un
+                  chanoine.</note></l>
+            <l ana="#adr">Pour me despecher une espitre</l>
+            <l ana="#adr">Des affaires de par dela</l>
+            <!-- Saut#1 -->
+            <anchor type="saut#1"/>
+            <l n="8" ana="#Plmq"><app>
+                  <lem wit="#NAF1870">Que</lem>
+                  <rdg wit="#fr1718"/>
+               </app> meust <reg>l'aultre</reg> jour cestuy <reg>là</reg></l>
+            <l ana="#Plmq">Qui preschoit devant <persName key="">le sainct pere</persName></l>
+            <l ana="#Plmq">Que <persName key="saint Paul">sainct Pol</persName>
+               <reg>n'avoit</reg> esté <app>
+                  <lem wit="#fr1718">compere</lem>
+                  <rdg wit="#NAF1870">le pere</rdg>
+               </app></l>
+            <l ana="#Plmq">De <persName key="saint Pierre">sainct Pierre</persName> ainsy qu'on
+               pensoit</l>
+            <!-- Saut#2 -->
+            <anchor type="saut#2"/>
+            <l n="12" ana="#sat_rel">Je le vous preuve qu'ainsy soict</l>
+            <l ana="#sat_rel"><reg>C'est</reg> trop grand abbuz de prescher</l>
+            <l ana="#ambition">Mais de ce bien escarmoucher</l>
+            <l ana="#ambition">Au <rs type="jeu" subtype="flux">flux</rs>
+               <expan> pour</expan> moings d'un chappeau rouge<note resp="editor" type="glose">Le
+                  chapeau de cardinal.</note></l>
+            <!-- Saut#3 -->
+            <anchor type="saut#3"/>
+            <l n="16">Toutesfoys <app>
+                  <lem wit="#NAF1870"><reg>l'ancre</reg></lem>
+                  <rdg wit="#fr1718">l'autre</rdg>
+               </app> n'est pas rouge</l>
+            <l><app>
+                  <lem wit="#fr1718">Qu'on</lem>
+                  <rdg wit="#NAF1870">Que l'on</rdg>
+               </app> vend à <app>
+                  <lem wit="#fr1718">la </lem>
+               </app>
+               <placeName>porte Latin</placeName></l>
+            <!-- Saut#4 -->
+            <anchor type="saut#4"/>
+            <l><app>
+                  <lem wit="#NAF1870">Si</lem>
+                  <rdg wit="#fr1718">S'il</rdg>
+               </app> se fault il lever matin</l>
+            <l>De peur des <rs type="animal" subtype="insecte" key="mouche">mouches</rs> à <app>
+                  <lem wit="#NAF1870">fluance</lem>
+                  <rdg wit="#fr1718">Florence</rdg>
+               </app></l>
+            <!-- Saut#5 -->
+            <anchor type="saut#5"/>
+            <l n="20" ana="#sat_pers">C'<app>
+                  <lem wit="#fr1718">estoit</lem>
+                  <rdg wit="#NAF1870">est</rdg>
+               </app> pourquoy le seigneur <persName key="Nicolas Raince">Rance</persName><note
+                  resp="editor" type="glose">H. Meylan indique qu'il s'agit probablement de Nicolas
+                  Raince, pendant trente ans ambassadeur de France à Rome.</note></l>
+            <l ana="#sat_pers">Ne feust jamais bien estimé</l>
+            <fw type="réclame" place="bottom-right">Tiens</fw>
+            <pb n="64r"/><fw type="pageNum" place="top-right">Fol. lxiiii</fw>
+            <ptr target="112"/>
+            <l ana="#sat_pers"><rs type="injonction" subtype="impératif">Tiens toy</rs> seur
+                  <reg>qu'il</reg> est enrimé</l>
+            <l ana="#sat_pers">Puis <reg>qu'il</reg> porte la turbentine</l>
+            <l n="24" ana="#cour">Raison qui faict <expan>que</expan> la courtine</l>
+            <l ana="#cour">Qui court se soulloit imprimer</l>
+            <l>Le faict <expan>contre</expan> vous animer</l>
+            <l><reg>C'est</reg> pourtant <reg>qu'une</reg> croix <app>
+                  <lem>ressemble</lem>
+                  <rdg wit="#NAF1870">ample</rdg>
+               </app></l>
+            <!-- Saut#6 -->
+            <anchor type="saut#6"/>
+            <l n="28">Tout ce <expan>qu'il</expan> veoit bon luy semble</l>
+            <l>Mais il fault vivre toutesfoys</l>
+            <l ana="#satire">Tel y court bien cinq ou six foys</l>
+            <l ana="#satire">Sans bulle<add resp="editor" type="ponctuation">,</add> sceau ne
+               bulletin</l>
+            <!-- Saut#7 -->
+            <anchor type="saut#7"/>
+            <l n="32" ana="#gnomique">Car <reg>c'est</reg>
+               <rs type="locution">tirer au chevrotin</rs><note resp="editor" type="ling"><hi
+                     rend="italic">Tirer au chevrotin</hi>: <quote>donner de l'argent</quote>, Di
+                  Stefano.</note></l>
+            <l ana="#gnomique">Emprunter pour jamays ne rendre</l>
+            <l>Ha<add resp="editor" type="ponctuation">!</add>
+               <reg>si</reg> le grand le voulloit rendre</l>
+            <l><reg>J'en</reg> serois enchéry du tiers</l>
+            <l n="36">Et le <app>
+                  <lem wit="#NAF1870">vouldroit</lem>
+                  <rdg wit="#fr1718">verrois</rdg>
+               </app> bien voluntiers</l>
+            <l><reg>Ce</reg>
+               <roleName type="cardinal">cardinal</roleName> qu'on tient en mue<note resp="editor"
+                  type="crit">Cf. <quote>Le Jeuneux aux Yvrongnes</quote> [réf. n°31], v.
+               19.</note></l>
+            <!-- Guillaume Poyet emprisonné? -->
+            <!-- Saut#8 -->
+            <anchor type="saut#8"/>
+            <l ana="#misères"><reg>Voilà</reg> pourquoy le monde mue</l>
+            <l ana="#misères">Non pas de voix mais de pensée</l>
+            <!-- Saut#9 -->
+            <anchor type="saut#9"/>
+            <l n="40" ana="#sat_pers">Sy n'en sera pas dispencée</l>
+            <l ana="#sat_pers">Celle qui tout en ung coup faict</l>
+            <l ana="#sat_pers">Chez toy <rs type="locution">le faict et le deffaict</rs><note
+                  resp="editor" type="glose">On pense, comme H. Meylan, à la duchesse
+                  d'Étampes.</note></l>
+            <!-- Saut#10 -->
+            <anchor type="saut#10"/>
+            <l ana="#adr">Au fort<add resp="editor" type="ponctuation">, </add>
+               <rs type="destinataire">Jeuneux</rs><add resp="editor" type="ponctuation">, </add>
+               <reg>à</reg> l'adventure<add resp="editor" type="ponctuation">!</add></l>
+            <l n="44" ana="#sat_pers">Sy c'est ung <rs type="animal" subtype="équidé">asne</rs> de
+               nature</l>
+            <l ana="#sat_pers">Il ne luy fauldra aultres oreilles</l>
+            <l ana="#sat_pers">Mais quoy<add resp="editor" type="ponctuation">? </add>
+               <app>
+                  <lem wit="#NAF1870">non<add resp="editor" type="ponctuation">!</add> qu'on</lem>
+                  <rdg wit="#fr1718">qu'on ne</rdg>
+               </app> le réveille</l>
+            <l ana="#sat_pers">Cependant qu'il n'y veoit goutte</l>
+            <!-- Saut#11 -->
+            <anchor type="saut#11"/>
+            <l n="48" ana="#sat_pers">Dieu scayt ce que fera la <rs type="maladie" subtype="goutte"
+                  >goutte</rs></l>
+            <l ana="#sat_pers">Qui tient le <roleName>pape</roleName> au bout des dents</l>
+            <!-- Saut#12 -->
+            <anchor type="saut#12"/>
+            <l ana="#abus">Parce qu'ilz sont trop evidens</l>
+            <l ana="#abus">Les grands abbus de l'aultre <app>
+                  <lem wit="#NAF1870">année</lem>
+                  <rdg wit="#fr1718">monde</rdg>
+               </app><add resp="editor" type="ponctuation">.</add><note resp="editor" type="philo"
+                  >Le ms. fr. 1718 comprend deux vers supplémentaires ici: <quote>Telle ne fut
+                     dessoubz la ronde / pour accomplir sa destinée</quote></note></l>
+            <!-- Saut#13 -->
+            <anchor type="saut#13"/>
+            <l n="52" ana="#sit_mil">Je croy <expan>qu'elle</expan> est prédestinée</l>
+            <l ana="#sit_mil"><app>
+                  <lem wit="#NAF1870"><reg>À</reg></lem>
+                  <rdg wit="#fr1718">De</rdg>
+               </app> souffrir bien tost ung assault</l>
+            <l ana="#sit_mil">Car <reg>ce</reg> seroit franchir le sault</l>
+            <l ana="#sit_mil"><reg>D'avoir</reg> encores ung passaige</l>
+            <!-- Coquette au coq? v. 102 et s. -->
+            <!-- Saut#14 -->
+            <anchor type="saut#14"/>
+            <l n="56"><reg>L'on</reg> pensoit <reg>qu'il</reg> ne feust pas saige</l>
+            <l>Mais <reg>s'il</reg> est fol<add resp="editor" type="ponctuation">, </add>
+               <rs type="destinataire">Jeuneux</rs><add resp="editor" type="ponctuation">, </add>
+               <app>
+                  <lem wit="#NAF1870"><reg>l'on</reg> seme</lem>
+                  <rdg wit="#fr1718">sois seur</rdg>
+               </app></l>
+            <l><reg>Qu'il</reg>
+               <reg>s'en</reg> fauldra prendre <reg>à</reg>
+               <app>
+                  <lem wit="#NAF1870"> la cene</lem>
+                  <rdg wit="#fr1718">sa seur</rdg>
+               </app></l>
+            <!-- Saut#15 -->
+            <anchor type="saut#15"/>
+            <l>Cependant nous vivrons tousjours</l>
+            <l n="60">Aultant les nuictz que les jours</l>
+            <fw type="sig">Q iiii</fw>
+            <pb n="64v"/>
+            <ptr target="113"/>
+            <l ana="#intertexte">Et vive qui vivre pourra<note resp="editor" type="crit">Voir la
+                  quatrième épître de Marot à Jamet [réf. n°11]: <quote>Vive qui peult, qui vive
+                     vive</quote>.</note></l>
+            <!-- Saut#16 -->
+            <anchor type="saut#16"/>
+            <l ana="#sat_pers">Le <persName key="Agostino Trivulzio">cardinal
+                  <reg>Trivolce</reg></persName> aura</l>
+            <l ana="#sat_pers">Devant <reg>Noël</reg> la <rs type="jeu">nicnoque</rs></l>
+            <l n="64" ana="#sit_pol">Et <reg>ce</reg> ton <roleName type="évêque">evesque </roleName>
+               <reg> s'en</reg> moque<note resp="editor" type="glose">En toute logique, à Paris,
+                  Jean Du Bellay.</note></l>
+            <l ana="#sit_pol">Je le voy prins au trebuschet<note type="ling" resp="editor"
+                     ><quote>Trebuchet, en termes d'Oiselier, est une machine en forme de petite
+                     cage qui sert à attraper de petits oiseaux. Elle est composée d'une échelle et
+                     d'un abatant qui est sa partie superieure que l'on tient ouverte. Ce dessus de
+                     la machine est arresté par l'échelle de telle sorte, que dés que l'oiseau se
+                     met sur cette échelle, le ressort se lasche et ferme le trebuait trebucher,
+                     d'où il ne peut plus sortir</quote>, Corneille, 1694.</note></l>
+            <l ana="#sit_pol">Car celluy qui tient le <app>
+                  <lem wit="#NAF1870">cachet</lem>
+                  <rdg wit="#fr1718">lasset</rdg>
+               </app><note resp="editor" type="philo">Il est difficile de choisir entre les
+                  variantes des deux témoins: le fr. 1718 poursuit la métaphore du piège, le NAF
+                  1870 celui du pouvoir décisionnaire, mais les deux vont dans le même sens
+                  finalement.</note></l>
+            <l ana="#sit_pol">Dict que que la lune est en son cours<note resp="editor" type="glose"
+                  >Faut-il entendre ici l'influence grandissante de la duchesse
+               d'Étampes?</note></l>
+            <!-- Saut#17 -->
+            <anchor type="saut#17"/>
+            <l n="68"><rs type="destinataire">Jeuneux</rs><add resp="editor" type="ponctuation">, </add>
+               <reg>voilà</reg> le beau discours</l>
+            <l>Dont nostre routte est parfumée<note type="crit" resp="editor">La Rote romaine, l'un
+                  des trois tribunaux de l'Eglise romaine.</note></l>
+            <l><app>
+                  <lem wit="#NAF1870">Bien tost <reg>s'en</reg> yra en</lem>
+                  <rdg wit="#fr1718">Jamais ne fut feu sans</rdg>
+               </app> fumée</l>
+            <l><reg>C'est </reg>
+               <reg>à</reg> propos de <reg>l'évangille</reg></l>
+            <l n="72">Toutesfoys <app>
+                  <lem wit="#NAF1870">que</lem>
+                  <rdg wit="#fr1718">si</rdg>
+               </app> la loy civille</l>
+            <l>Le veult<add resp="editor" type="ponctuation">, </add>
+               <reg>j'en</reg> suys tres bien content<add resp="editor" type="ponctuation"
+               >.</add></l>
+            <!-- Saut#18 -->
+            <anchor type="saut#18"/>
+            <l ana="#adr"><rs type="destinataire">Jeuneux<add resp="editor" type="ponctuation"
+                     >,</add> mon amy</rs><add resp="editor" type="ponctuation">, </add>
+               <reg>l'on</reg> attent</l>
+            <l ana="#sit_pol">De jour en jour que la <placeName type="region" key="Savoie"
+                  >Savoye</placeName></l>
+            <l n="76" ana="#sit_pol">Changer de gouverneur se voye</l>
+            <note type="crit" resp="editor">François de Bourbon, comte d'Enghien, est désigné
+               gouverneur du Piémont le 26 décembre 1543.</note>
+            <l>Car apres le reste viendra</l>
+            <!-- Saut#19 -->
+            <anchor type="saut#19"/>
+            <l>Je scay bien <reg>qu'il</reg> en adviendra</l>
+            <l>De voz discors<add resp="editor" type="ponctuation">, </add>
+               <rs type="invective">joueurs de quilles</rs><add resp="editor" type="ponctuation"
+                  >,</add></l>
+            <l n="80">Au fort<add resp="editor" type="ponctuation">, </add>
+               <app>
+                  <lem wit="#NAF1870">vous scavez</lem>
+                  <rdg wit="#fr1718">sauvez en</rdg>
+               </app> les coquilles<note resp="editor" type="ling"/></l>
+            <l>Puis que les <app>
+                  <lem wit="#NAF1870">clefs</lem>
+                  <rdg wit="#fr1718">chefs</rdg>
+               </app> sont en decours</l>
+            <l>Raison car <reg>d'avoir</reg> son recours</l>
+            <l>Synon en soy<add resp="editor" type="ponctuation">,</add> fy qui se fye</l>
+            <l n="84"><reg>Voilà</reg> pourquoy <reg>l'on</reg> ediffie</l>
+            <l>Pour loger ung aultre en son lieu</l>
+            <l>Et qui <app>
+                  <lem wit="#NAF1870">le</lem>
+                  <rdg wit="#fr1718">luy</rdg>
+               </app> vouldroit dire <reg>à </reg>
+               <persName>Dieu</persName></l>
+            <l>Il fauldroit <reg>à </reg>
+               <placeName type="city" key="Venise">Venise</placeName> aller<add resp="editor"
+                  type="ponctuation">.</add></l>
+            <l n="88" ana="#persécutions">Mais <expan>que</expan> veulx tu d'en trop parler</l>
+            <l ana="#persécutions"><reg>C'est</reg> une chose dangereuse</l>
+            <!-- Saut#20 -->
+            <anchor type="saut#20"/>
+            <l ana="#guerre">Car <reg>à </reg>
+               <placeName type="city" key="Gand">Gand</placeName> la ville malheureuse</l>
+            <l>Disent <reg>qu'il</reg> est licitte et permys</l>
+            <l n="92" ana="#guerre"><reg>Voilà</reg> qui faict <expan>que</expan>
+               <placeName type="city">Anvers</placeName> a mys</l>
+            <l ana="#guerre">Son <app>
+                  <lem wit="#NAF1870">astrop</lem>
+                  <rdg wit="#fr1718">astrof</rdg>
+               </app> devant et derriere<note resp="editor" type="ling"><hi rend="italic">Astrop ou
+                     astrof</hi>: </note></l>
+            <l ana="#sit_pol">Et que <placeName type="city" key="Milan">Millan</placeName> faict la
+               barriere</l>
+            <l ana="#sit_pol">Pour avoir de long le <rs type="jeu" subtype="dés">jeu de dez</rs></l>
+            <l n="96">Et <app>
+                  <lem wit="#NAF1870">que les docteurs</lem>
+                  <rdg wit="#fr1718">si ces clochers</rdg>
+               </app> sont fondez</l>
+            <l>Pour subvenir <reg>à</reg> l'entreprise</l>
+            <l ana="#sit_mil">Car sy la <placeName type="region" key="Sicile">Cecille</placeName>
+               estoit prise</l>
+            <fw type="réclame" place="bottom-right">je ne s</fw>
+            <pb n="65r"/><ptr target="114"/>
+            <fw type="pageNum" place="top-right">Folio lxv</fw>
+            <l>Je ne serois pourtant cassé <note type="ling" resp="editor"><hi rend="italic"
+                     >Cassé</hi>: <quote>licencié</quote>.</note></l>
+            <!-- Saut#21 -->
+            <anchor type="saut#21"/>
+            <l n="100">Car de dire <reg>qu'il</reg> est passé</l>
+            <l><reg>C'est</reg> ung argument sans replique</l>
+            <l ana="#sit_pol">Qui faict que ceste Republique</l>
+            <l ana="#sit_pol">Aura bien tost ung aultre nom</l>
+            <l n="104">Et <app>
+                  <lem wit="#NAF1870">qui aura ville de renon</lem>
+                  <rdg wit="#fr1718">que Arras ville de nom</rdg>
+               </app></l>
+            <l><app>
+                  <lem wit="#NAF1870">Sera de rouge ou de blanc colis</lem>
+                  <rdg wit="#fr1718">Fera de rouge un blanc coutis</rdg>
+               </app></l>
+            <!-- Saut#22 -->
+            <anchor type="saut#22"/>
+            <l ana="#prudence"><rs type="injonction" subtype="impératif">Donne toy garde</rs>
+               <app>
+                  <lem wit="#NAF1870">que <name type="astrologicalSign" subtype="Phénix"
+                        >fénix</name></lem>
+                  <rdg wit="#fr1718">de ton lis</rdg>
+               </app></l>
+            <l><app>
+                  <lem wit="#NAF1870">Ne soict en ce nouveau croissant</lem>
+                  <rdg wit="#fr1718">Qui est en beauté florissant</rdg>
+               </app></l>
+            <l n="108"><app>
+                  <lem wit="#NAF1870">Plus <reg>qu'oncques</reg> ne fut florissant</lem>
+                  <rdg wit="#fr1718">Ne soit en ce nouveau croissant</rdg>
+               </app></l>
+            <l>Soubdain bruslé car de la cendre</l>
+            <l ana="#prophétie"><reg>L'on</reg> dict <reg>q'un</reg> aultre doibt descendre</l>
+            <l ana="#prophétie">Qui sera de ce nom premier</l>
+            <!-- Saut#23 -->
+            <anchor type="saut#23"/>
+            <l n="112">Sy tu dis <reg>qu'il</reg> est coustumier</l>
+            <l>De faire ainsy <rs type="injonction" subtype="impératif">donne t'en garde</rs></l>
+            <l>Car <name type="astrologicalSign" subtype="Mars">Mars</name> directement
+                  <reg>regarde</reg></l>
+            <l><name type="astrologicalSign" subtype="Vénus">Venus</name> au signe du <name
+                  type="astrologicalSign" subtype="taureau">thoreau</name></l>
+            <!-- Saut#24 -->
+            <anchor type="saut#24"/>
+            <l n="116"><app>
+                  <lem wit="#NAF1870">Ce que l'</lem>
+                  <rdg>Parce qu'</rdg>
+               </app>on mect sur le bureau<note resp="editor" type="ling">Ce dont on décide de
+                  s'occuper.</note></l>
+            <l><app>
+                  <rdg wit="#NAF1870">Par</rdg>
+               </app> Chose trop grande en conséquence</l>
+            <l ana="#adr">Mais <rs type="injonction" subtype="impératif">croy moy</rs><add
+                  resp="editor" type="ponctuation">, </add><rs type="destinataire">Jeuneux</rs><add
+                  resp="editor" type="ponctuation">, </add>la séquence</l>
+            <l>Est aultre <expan>qu'on</expan> ne pense pas</l>
+            <l n="120"><reg>Voilà</reg> de quoy sert le compas</l>
+            <l>Pour diviser <app>
+                  <lem wit="#NAF1870">au</lem>
+                  <rdg wit="#fr1718">ung</rdg>
+               </app> diamectre</l>
+            <!-- Saut#25 -->
+            <anchor type="saut#25"/>
+            <l>Mais dequoy sert de s'entremectre</l>
+            <l>Des choses qui viennent <app>
+                  <lem wit="#NAF1870"><reg>d'amont</reg></lem>
+                  <rdg wit="#fr1718">d'Ancont</rdg>
+               </app></l>
+            <!-- Saut#26 -->
+            <anchor type="saut#26"/>
+            <l n="124">Adieu le pays de <placeName type="region" key="Piémont"
+               >Piedmont</placeName></l>
+            <l>Adieu <geogName>la coste genevoise</geogName></l>
+            <l>Car puysqu'on <rs type="locution"><app>
+                     <lem wit="#NAF1870">boit</lem>
+                     <rdg wit="#fr1718">vit</rdg>
+                  </app>
+                  <reg>à</reg> la françoyse</rs></l>
+            <l ana="#sit_mil"><placeName type="region" key="Flandre">Flandre</placeName> aura bien
+               fort affaire</l>
+            <l n="128">Mais quoy je <reg>n'y</reg> scaurois que faire</l>
+            <l>Les <orgName type="peuple" subtype="allemand">Allemens</orgName>
+               <reg>l'avoient</reg> préveu</l>
+            <l>Et <app>
+                  <lem wit="#fr1718">comme</lem>
+                  <rdg wit="#NAF1870">que</rdg>
+               </app> depuis on a veu</l>
+            <l><reg>L'Angloix</reg> scayt bien qu'en vault la livre</l>
+            <!-- Saut#27 -->
+            <anchor type="saut#27"/>
+            <l n="132" ana="#adr"><rs type="destinataire">Jeuneux</rs><add resp="editor"
+                  type="ponctuation">, </add>
+               <reg>l'on</reg>
+               <reg>m'a</reg> dict <reg>qu'en</reg> ton livre</l>
+            <l><reg>L'on</reg> a veu <app>
+                  <lem wit="#fr1718">choses nompareilles</lem>
+                  <rdg wit="#NAF1870">chose nonpareille</rdg>
+               </app></l>
+            <l><reg>S'il</reg> est ainsy <expan>pour</expan> la pareille</l>
+            <l><rs type="injonction" subtype="impératif">Fais</rs> pour moy de deux choses
+                  <reg>l'une</reg></l>
+            <l n="136" ana="#ironie">De me mander sy <placeName type="city" key="Pampelune"
+                  >Pampelune</placeName></l>
+            <l ana="#ironie">Tient pas le <app>
+                  <lem wit="#fr1718">chemin de</lem>
+                  <rdg wit="#NAF1870">Romain</rdg>
+               </app> rendu</l>
+            <l>Ou bien <reg>s'il</reg>
+               <app>
+                  <lem wit="#NAF1870"><reg>m'a</reg></lem>
+                  <rdg wit="#fr1718">n'y a</rdg>
+               </app> rien vendu</l>
+            <l>Dont la dame soict <app>
+                  <lem wit="#NAF1870">reservée</lem>
+                  <rdg wit="#fr1718">relevée</rdg>
+               </app></l>
+            <pb n="65v"/><ptr target="115"/>
+            <l n="140">Car je scay bien <expan>que</expan> la levée</l>
+            <l>De <orgName type="peuple" subtype="turc">Turcs</orgName> est faicte un peu plus
+                  <reg>là</reg></l>
+            <l>Et que la <roleName>regente</roleName>
+               <app>
+                  <lem wit="#fr1718">en</lem>
+               </app> parla<note>Probablement celle des Pays-Bas, <persName key="Marie de Hongrie"
+                     >Marie de Hongrie</persName>, la sœur de Charles-Quint.</note></l>
+            <l>Pour la sante de sa personne</l>
+            <l n="144" ana="#faveurs">Mais que maintenant riens on donne</l>
+            <l ana="#misogynie">Synon par la faveur des femmes</l>
+            <l ana="#satire">Je m'en rapporte aux vielles lames</l>
+            <l ana="#satire">Qui sont <reg>à</reg>
+               <placeName type="city" key="Naples">Naples</placeName> à couvert</l>
+            <!-- Saut#28 -->
+            <anchor type="saut#28"/>
+            <l n="148" ana="#sit_mil">Puis que le passaige est ouvert</l>
+            <l ana="#sit_mil">Et que les <orgName type="peuple" subtype="turc">Turcs</orgName>
+               viennent en <placeName type="country" key="France">France</placeName></l>
+            <l ana="#adr"><rs type="destinataire">Jeuneux</rs><add resp="editor" type="ponctuation"
+               /> tu <reg>n'auras</reg> pas souffrance</l>
+            <l ana="#ironie">Car leur secours est favorable</l>
+            <l n="152" ana="#satire">Mais que la fin soict honnorable</l>
+            <l ana="#sat_pers">Je m'en rapporte <reg>à</reg> ton serment</l>
+            <l ana="#sat_pers"><app>
+                  <lem wit="#NAF1870">Et <rs type="injonction" subtype="impératif">croy moy</rs>
+                     qu'en cela ne ment</lem>
+                  <rdg wit="#fr1718">En cela croy que point ne ment</rdg>
+               </app></l>
+            <l ana="#sat_pers">Le grand prophette de <placeName type="city" key="Grenoble"
+                  >Grenoble</placeName></l>
+            <l n="156">Et qu'il soict vray de <placeName type="city" key="Constantinople"
+                  >Constantinoble</placeName></l>
+            <l><placeName type="city" key="Rome">Romme</placeName> et <placeName type="city"
+                  key="Tunis">Thunis</placeName> jusques à <placeName type="city" key="Narbonne"
+                  >Narbonne</placeName></l>
+            <l><app>
+                  <lem wit="#NAF1870">On</lem>
+                  <rdg wit="#fr1718">Ce</rdg>
+               </app> veoit le port de <placeName type="city" key="Barcelone"
+               >Barcelonne</placeName></l>
+            <l>Et de <placeName type="city" key="Budapest">Bude</placeName> grande cité</l>
+            <l n="160"><reg>Voilà</reg> qui <reg>m'avoit</reg> incité</l>
+            <l>De faire la <app>
+                  <lem wit="#NAF1870">guerre au flacon</lem>
+                  <rdg wit="#fr1718">cour aux flaccons</rdg>
+               </app></l>
+            <l>Car le <persName>cardinal de <placeName type="city" key="Mâcon"
+                  >Mascon</placeName></persName></l>
+            <l>Disoit bien que ceste surprise</l>
+            <l n="164">Prenoit cadance <reg>à</reg> la reprise</l>
+            <l>Tant que <app>
+                  <lem wit="#NAF1870">Sainctailles en effect</lem>
+                  <rdg wit="#fr1718">sainct Jules en enfer</rdg>
+               </app></l>
+            <l>Veult faire coqu <persName>Lucifer</persName></l>
+            <!-- Saut#29 -->
+            <anchor type="saut#29"/>
+            <l ana="#adr">Ha<rs type="destinataire"><add resp="editor" type="ponctuation">!
+                  </add>Jeuneux</rs><add resp="editor" type="ponctuation">, </add> ce n'est pas
+               raison</l>
+            <l n="168">De me jecter de ta maison</l>
+            <l><reg>Où</reg> suys entré par ma prouesse</l>
+            <!-- Saut#30 -->
+            <anchor type="saut#30"/>
+            <l>Mais quoy<add resp="editor" type="ponctuation">? </add>
+               <rs type="destinataire">Jeuneux<add resp="editor" type="ponctuation">, </add></rs>
+               <rs type="injonction" subtype="impératif">dis moy</rs> rien <reg>n'est</reg> ce</l>
+            <l>Sur la mer faire tels efforts</l>
+            <l n="172">Sy <reg>l'on</reg> joue à <rs type="jeu" subtype="boute-hors">boutte
+                  dehors</rs></l>
+            <l><placeName type="country" key="France">France</placeName> fera cadance au bransle</l>
+            <l>Et sy <reg>l'<placeName type="country" key="Allemagne">Alemaigne</placeName></reg> se
+               bransle</l>
+            <l>Adieu command ton grand <placeName type="city" key="Paris">Paris</placeName></l>
+            <l n="176">Quoy<add resp="editor" type="ponctuation">? </add>
+               <reg>penses</reg> tu que je me rie<add resp="editor" type="ponctuation">?</add></l>
+            <l>Non<add resp="editor" type="ponctuation">, </add> non<add resp="editor"
+                  type="ponctuation">, </add> mais quant bien on y pense</l>
+            <l><reg>L'on</reg> treuve que <expan>nostre</expan> despence</l>
+            <l>Jusques en <reg>l'<placeName type="country" key="Espagne">Espaigne</placeName></reg>
+               n'ira</l>
+            <l n="180">Et <expan>que</expan>
+               <persName>Dieu</persName> plus ne demourra</l>
+            <fw type="catch" place="bottom-right">A Romme</fw>
+            <pb n="66r"/><ptr target="116"/>
+            <fw type="pageNum" place="top-right">fol°lxvi</fw>
+            <l><reg>À</reg>
+               <placeName type="city" key="Rome">Romme</placeName> dont tresbien me prent</l>
+            <!-- Saut#31 -->
+            <anchor type="saut#31"/>
+            <l>Mais que veulx tu<add resp="editor" type="ponctuation">? </add> tousjours apprent</l>
+            <l>Celluy qui veoit et rien <reg>n'oublye</reg></l>
+            <l n="184">C'est ce qui faict qu'elle est annoblie</l>
+            <!--Vers hypermétrique-->
+            <l>Pour ung clistere <reg>qu'elle</reg> a pris</l>
+            <!-- Saut#32 -->
+            <l>Et sy je <reg>n'avois</reg> entrepris</l>
+            <l>Le voyage je te promects</l>
+            <l n="188">Que <reg>j'eusse</reg> faict la <app>
+                  <lem wit="#NAF1870">figue</lem>
+                  <rdg wit="#fr1718">tigne</rdg>
+               </app> mais<note resp="editor" type="ling"><hi rend="italic">Faire la figue</hi>:
+                     <quote>faire un geste de moquerie, faire un pied de nez, se moquer,
+                     braver</quote>, Di Stefano.</note></l>
+            <l ana="#prophétie">Ung jour viendra qui est venu</l>
+            <l ana="#prophétie">Que ce qui estoit advenu</l>
+            <l ana="#prophétie">Mectra fin <reg>à</reg> noz bons <app>
+                  <lem wit="#NAF1870">advis</lem>
+                  <rdg wit="#fr1718">amis</rdg>
+               </app></l>
+            <!-- Saut#33 -->
+            <anchor type="saut#33"/>
+            <l n="192" ana="#conclusio">Adieu<add resp="editor" type="ponctuation">, </add>
+               <rs type="destinataire">Jeuneux</rs><add resp="editor" type="ponctuation">, </add>
+               tout vis à vis</l>
+            <l>De <app>
+                  <lem wit="#NAF1870">celle</lem>
+                  <rdg wit="#fr1718">celuy</rdg>
+               </app> qui se maintient estre</l>
+            <l>Serviteur et fils du grand <expan>presbtre</expan></l>
+            <l ana="#folie">Cependant qu'on est follyant</l>
+            <l n="196" ana="#adr"><rs type="injonction" subtype="défense">Ne te <app>
+                     <lem wit="#NAF1870">faiz</lem>
+                     <rdg wit="#fr1718">sois</rdg>
+                  </app></rs> melencolliant</l>
+            <l>Et <rs type="injonction" subtype="impératif">ne croys</rs> tousjours la parolle</l>
+            <l>Puis <expan>que</expan> tu <reg>doubtes</reg> la <rs type="maladie" subtype="vérole"
+                  >verolle</rs></l>
+         </p>
          <ab>
-            <bibl>Henri Meylan<title>Épîtres du coq-à-l'âne</title>, p. 56-63</bibl>
+            <bibl>Henri Meylan<title>Épîtres du coq-à-l'âne</title>, Genève, Droz, 1956, p.
+               56-63.</bibl>
          </ab>
       </body>
    </text>

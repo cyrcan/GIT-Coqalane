@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="idno">Réf. n°24: </title>
+            <title type="idno">Icaa24: </title>
             <title type="main">Epistre du coq à l'asne à Lyon</title>
             <title type="incipit">Tu scez bien mon amy Lyon</title>
             <author>Marot, Clément</author>
@@ -103,10 +103,10 @@
                
                
                <!-- I -->
-               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
-               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
@@ -246,8 +246,8 @@
             <!-- Saut#3 -->
             <anchor type="saut#3"/>
             <l>Ung homme n'est pas desprisé</l>
-            <l>Laisser la ville pour les champs<note resp="editor" type="crit">Opposition géographique l'on retrouve dans l'incipit de
-                  "la Grue".</note></l>
+            <l>Laisser la ville pour les champs<note resp="editor" type="crit">Opposition géographique que l'on retrouve dans l'incipit de
+                  <quote>la Grue</quote>.</note></l>
             
             <!-- Saut#4 -->
             <anchor type="saut#4"/>
@@ -263,8 +263,8 @@
             
             <!-- Saut#6-->
             <anchor type="saut#6"/>
-            <l n="24"><rs type="injonction" subtype="defense">Ne parles point</rs> en genesvoys<note resp="editor" type="crit">Le Parlement de Paris condamne le 1er juillet 1542 au
-                  bûcher "L'institution de la religion chrétienne" de <persName ref="ind:Calvin"
+            <l n="24"><rs type="injonction" subtype="defense">Ne parles point</rs> en genesvoys<note resp="editor" type="crit">Le Parlement de Paris condamne le 1<hi rend="super">er</hi> juillet 1542 au
+                  bûcher <title>L'institution de la religion chrétienne</title> de <persName ref="ind:Calvin"
                      key="Calvin Jean">Calvin</persName>, publiée en français l'année
                   précédente.</note></l>
             
@@ -279,14 +279,14 @@
             <!-- Saut#8 -->
             <anchor type="saut#8"/>
             <pb n="150v"/><ref target="https://eman-archives.org/Coqalane/admin/files/show/96"/>
-            <l n="28">Il faict mauvais estre testu</l>
-            <l>Et avoir la teste trop aigre<note resp="editor" type="glose">L'opiniâtreté risque de conduire au bûcher.</note></l>
+            <l n="28" ana="#Plmq">Il faict mauvais estre testu</l>
+            <l ana="#Plmq">Et avoir la teste trop aigre<note resp="editor" type="glose">L'opiniâtreté risque de conduire au bûcher.</note></l>
             
             <!-- Saut#9 --><anchor type="saut#9"/>
             <l>L'on faict chandelle de vinaigre</l>
             <l>Fine moustarde de cotton</l>
             <!-- Saut#10 --><anchor type="saut#10"/>
-            <l n="32">Car de porter ung hocqueton <note resp="editor" type="ling"><hi rend="italic">Hoqueton</hi>: "Sorte de casaque",
+            <l n="32">Car de porter ung hocqueton <note resp="editor" type="ling"><hi rend="italic">Hoqueton</hi>: <quote>Sorte de casaque</quote>,
                   Huguet.</note></l>
            
             <l>C'est l'estat de monsieur l'<rs type="soldat" subtype="archer">archer</rs></l>
@@ -294,11 +294,11 @@
             <l ana="#souffrances">L'on faict la pauvre gent marcher </l>
             <l ana="#argent"><reg>À</reg> grandz coups renforcez de taille</l>
             <!-- Saut#12 --><anchor type="saut#12"/>
-            <l n="36">Tant que pour faire la bataille</l>
-            <l>Il ne fault espargner sa vye</l>
+            <l n="36" ana="#guerre">Tant que pour faire la bataille</l>
+            <l ana="#guerre">Il ne fault espargner sa vye</l><!-- discours pacifique -->
             <!-- Saut#13 --><anchor type="saut#13"/>
-            <l>Voisins ont l'un sur l'autre envye</l>
-            <l>Tesmoingz l'<placeName type="country" key="Écosse">Escosse</placeName> et
+            <l ana="#gnomique">Voisins ont l'un sur l'autre envye</l>
+            <l ana="#sit_pol">Tesmoingz l'<placeName type="country" key="Écosse">Escosse</placeName> et
                l'<placeName type="country" key="Angleterre">Angleterre</placeName><note resp="editor" type="crit">À la mort de sa sœur, la reine d'Écosse, Henri VIII
                   projette d'annexer le royaume de son neveu Jacques V.</note></l>
             
@@ -316,30 +316,30 @@
                   <reg>s'est</reg>
                </choice> clamé bany</l>
             <!-- Saut#16 --><anchor type="saut#16"/>
-            <l n="44">Devant Lamazabthany<note resp="editor" type="crit">Les paroles du Christ "Lamma sabacthani" (Matthieu, 27,
+            <l n="44">Devant Lamazabthany<note resp="editor" type="crit">Les paroles du Christ <quote>Lamma sabacthani</quote> (Matthieu, 27,
                   46) sont censées traduire le désespoir de l'Empereur devant la défaite.</note></l>
             
-            <l><rs type="injonction" subtype="défense">Ne parlez point</rs> de l'Evangille</l>
-            <l>Si vous n'avez la langue agille</l>
-            <l>Pour Sorbonner la bonne myne</l>
-            <l n="48">Car l'on dict qu'on scent sa farine</l>
-            <l>Si l'on ne scet son <persName>Pathelin</persName></l>
-            <!--Saut#17-->
+            <l ana="#Plmq"><rs type="injonction" subtype="défense">Ne parlez point</rs> de l'Evangille</l>
+            <l ana="#Plmq">Si vous n'avez la langue agille</l>
+            <l ana="#adv_rel">Pour Sorbonner la bonne myne</l>
+            <l n="48" ana="#persécutions">Car l'on dict qu'on scent sa farine</l>
+            <l ana="#prudence">Si l'on ne scet son <persName>Pathelin</persName></l>
+            <!--Saut#17--><anchor type="saut#17"/>
             <l ana="#folie">Le voyaige <persName type="saint" key="saint Mathurin">sainct
                   Mathelin</persName></l>
             <l ana="#folie">Gaignera beaucoup de chandelle</l>
             <l n="52" ana="#folie">S'il a les folz et leur sequelle</l>
-            <!-- Saut#18 -->
-            <l>À <placeName type="city" key="Orléans">Orleans</placeName> le secretain<note
+            <!-- Saut#18 --><anchor type="saut#18"/>
+            <l ana="#actu">À <placeName type="city" key="Orléans">Orleans</placeName> le secretain<note
                   resp="editor" type="ling"><hi rend="italic">Secretain</hi>: sacristain.</note></l>
-            <l>A prins or argent et estain</l>
-            <l>Pour amener la secretaine</l>
-            <l n="56"><persName key="Louise de Bourbon">L'abbesse de la Magdelaine</persName></l>
+            <l ana="#actu">A prins or argent et estain</l>
+            <l ana="#actu">Pour amener la secretaine</l>
+            <l n="56" ana="#sat_rel"><persName key="Louise de Bourbon">L'abbesse de la Magdelaine</persName></l>
             <fw type="catch" place="bottom-right">Deviendra grosse</fw>
             <pb n="151r"/><ref target="https://eman-archives.org/Coqalane/admin/files/show/97"/>
             <fw type="pageNum" place="top-right">151</fw>
-            <l>Deviendra grosse par despit</l>
-            <!-- Saut#19 -->
+            <l ana="#sat_rel">Deviendra grosse par despit</l>
+            <!-- Saut#19 --><anchor type="saut#19"/>
             <l>Celuy a ung gentil respit</l>
             <l>Qui de la mort peult eschapper</l>
             <!-- Saut#20 -->
@@ -642,7 +642,7 @@
             <l>Il te plaira me le mander</l>
             <l n="232">À toy me veulx recommander</l>
             <l>Pour tousjours estre en ta memoire</l>
-            <l>Adieu te diz je m'en voys boyre</l>
+            <l ana="#conclusio">Adieu te diz je m'en voys boyre</l>
          </p>
       </body>
    </text>

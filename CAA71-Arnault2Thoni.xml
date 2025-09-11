@@ -5,7 +5,7 @@
    <teiHeader xml:id="Arnault_85">
       <fileDesc>
          <titleStmt>
-            <title type="idno">Réf. n°71: </title>
+            <title type="idno">Icaa71: </title>
             <title type="main">Coq a l'asne sur la ligue 1585</title>
             <title type="incipit">Thony, pour te donner plaisir</title>
             <author>Desportes, Philippe?</author>
@@ -97,10 +97,10 @@
                
                
                <!-- I -->
-               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
-               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>

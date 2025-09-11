@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc xml:id="Caresme_Prenant_1595">
          <titleStmt>
-            <title type="idno">Réf. n°89: </title>
+            <title type="idno">Icaa89: </title>
             <title type="main">Caresme-Prenant (V, 1)</title>
             <title type="incipit">Or sus il faut que je m'appreste</title>
             <author>Benoet du Lac</author>
@@ -120,10 +120,10 @@
 
 
                <!-- I -->
-               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
-               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
@@ -373,7 +373,7 @@
                <l ana="#satire">Parmy les gens de qualité.</l>
                <l n="80" rend="indent" ana="#satire">Il ne faut que d'habilité,</l>
                <l ana="#satire"><reg>Jouant</reg> à la harpe, &amp; la pille.<note resp="editor" type="crit">Cf.
-                        <quote>L'epistre de Thenot à Robin</quote> (réf. n°37): <quote>Et sy
+                        <quote>L'epistre de Thenot à Robin</quote> [réf. n°37]: <quote>Et sy
                         maintenant à la court / On ne joue plus qu’à la pille / Adieu donques le jeu
                         de bille / Puisque chascun court au pillaige</quote>, v. 70-73.</note></l>
                <!-- Saut#17 -->
@@ -526,8 +526,8 @@
                <l ana="#hedo">Pour festoyer Monsieur le ventre.</l>
                <!-- Saut#34 -->
                <anchor type="saut#34"/>
-               <l ana="#folie">Qui va, qui vient, qui sort, qui entre,<note resp="editor" type="crit">Cf. <quote>La Grue</quote>, réf.
-                     N°27: <quote>Es tu dedans? Bucque à la porte./ Je suis chassé. Qui est en ton
+               <l ana="#folie">Qui va, qui vient, qui sort, qui entre,<note resp="editor" type="crit">Cf. <quote>La Grue</quote>, [réf.
+                     n°27]: <quote>Es tu dedans? Bucque à la porte./ Je suis chassé. Qui est en ton
                         lieu?</quote>, v. 100-101.</note></l>
                <cb n="2"/>
                <l ana="#folie">Qui le faict mal, qui le faict bien.</l>

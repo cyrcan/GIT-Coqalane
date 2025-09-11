@@ -5,7 +5,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="idno">Réf. n°26: </title>
+            <title type="idno">Icaa26: </title>
             <title type="main">La poule au baudet</title>
             <title type="incipit">Tu m'as tant bien au long escript</title>
             <author>Anonyme</author>
@@ -91,10 +91,10 @@
               
               
               <!-- I -->
-              <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+              <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
               <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                  l'adversaire</interp>
-              <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+              <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
               <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
               <interp xml:id="intertexte" ana="intertexte">intertexte</interp>

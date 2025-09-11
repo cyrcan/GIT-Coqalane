@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc xml:id="Catin_1585">
             <titleStmt>
-                <title type="idno">Réf. n°77: </title>
+                <title type="idno">Icaa77: </title>
                 <title type="main">Aultre. 1585</title>
                 <title type="incipit">Catin en Guyenne ira-t-elle?</title>
                 <author>Anonyme</author>
@@ -98,10 +98,10 @@
                     
                     
                     <!-- I -->
-                    <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+                    <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                     <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                         l'adversaire</interp>
-                    <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+                    <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                     <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                     <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                     <interp xml:id="intertexte" ana="intertexte">intertexte</interp>

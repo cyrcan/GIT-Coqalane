@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc xml:id="Bout_prendre">
          <titleStmt>
-            <title type="idno">Réf. n°34: </title>
+            <title type="idno">Icaa34: </title>
             <title type="main">Epistre du coq a l'asne</title>
             <title type="incipit">Je ne scay par quel bout me prendre</title>
             <author>Anonyme</author>
@@ -109,10 +109,10 @@
 
 
                <!-- I -->
-               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
-               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>

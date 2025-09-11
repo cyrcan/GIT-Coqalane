@@ -7,7 +7,7 @@
       <teiHeader>
             <fileDesc xml:id="Truye_qui_file">
                   <titleStmt>
-                        <title type="idno">Réf. n°28: </title>
+                        <title type="idno">Icaa28: </title>
                         <title type="main">La Truye qui file</title>
                         <title type="incipit">Gron gron du chant de la grue</title>
                         <author>Anonyme</author>
@@ -109,10 +109,10 @@
                               
                               
                               <!-- I -->
-                              <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+                              <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                               <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                                     l'adversaire</interp>
-                              <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+                              <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                               <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                               <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                               <interp xml:id="intertexte" ana="intertexte">intertexte</interp>

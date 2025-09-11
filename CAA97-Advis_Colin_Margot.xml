@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc xml:id="Colin">
          <titleStmt>
-            <title type="idno">Réf. n°97: </title>
+            <title type="idno">Icaa97: </title>
             <title type="main">Advis de Colin à Margot ou Les Advis de Charlot à Colin, sur le temps present,
                mis en lumiere par L. D. F. D. D.</title>
             <title type="incipit">Colin, je veux t'entretenir</title>
@@ -107,10 +107,10 @@
                
                
                <!-- I -->
-               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
-               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>

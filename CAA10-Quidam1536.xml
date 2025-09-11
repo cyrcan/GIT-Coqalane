@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc xml:id="Quidam1536">
          <titleStmt>
-            <title type="idno">Réf. n°10: </title>
+            <title type="idno">Icaa10: </title>
             <title type="main">Epistre du Coq <reg>à</reg> l'asne Envoyée d'ung quidam <reg>à</reg>
                son Compere. 1536.</title>
             <title type="incipit">Si plus tost ne t'ay dict Dieu gard</title>
@@ -101,10 +101,10 @@
 
 
                <!-- I -->
-               <interp xml:id="impossibilia" ana="injustice">impossibilia</interp>
+               <interp xml:id="impossibilia" ana="impossibilia">impossibilia</interp>
                <interp xml:id="imprécation" ana="imprécation">malédiction, imprécation contre
                   l'adversaire</interp>
-               <interp xml:id="indulgences" ana="injustice">indulgences</interp>
+               <interp xml:id="indulgences" ana="indulgences">indulgences</interp>
                <interp xml:id="infl_et" ana="influence étrangère">influence étrangère</interp>
                <interp xml:id="injustice" ana="injustice">sentiment d'injustice</interp>
                <interp xml:id="intertexte" ana="intertexte">intertexte</interp>
